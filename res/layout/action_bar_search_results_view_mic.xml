@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/search_box" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_toStartOf="@id/voice_search">
+        <TextView android:textAppearance="@style/ThemeOverlay.YouTube.ActionBar.Title.Search" android:textSize="@dimen/medium_font_size" android:gravity="start|center" android:id="@id/search_query" android:layout_width="0.0dip" android:layout_height="fill_parent" android:singleLine="true" android:layout_weight="1.0" android:textAlignment="viewStart" android:paddingStart="8.0dip" />
+        <android.support.v7.widget.AppCompatImageView android:layout_gravity="end|center" android:id="@id/search_clear" android:background="?actionBarItemBackground" android:paddingTop="16.0dip" android:paddingBottom="16.0dip" android:layout_width="40.0dip" android:layout_height="48.0dip" android:src="@drawable/yt_outline_x_black_18" android:scaleType="center" android:tint="?ytTextPrimary" android:contentDescription="@string/action_bar_search_clear" android:paddingEnd="8.0dip" android:layout_marginEnd="-8.0dip" />
+    </LinearLayout>
+    <android.support.v7.widget.AppCompatImageView android:id="@id/voice_search" android:padding="12.0dip" android:layout_width="48.0dip" android:layout_height="48.0dip" android:foreground="?actionBarItemBackground" android:src="@drawable/yt_outline_mic_black_24" android:scaleType="centerInside" android:tint="?ytTextPrimary" android:contentDescription="@string/action_bar_voice_search" android:layout_alignParentEnd="true" />
+</RelativeLayout>

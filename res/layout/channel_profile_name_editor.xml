@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:padding="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minWidth="280.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:android.support.design="http://schemas.android.com/apk/res-auto" xmlns:yt="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.textfield.TextInputLayout android:theme="@style/Widget.YouTube.Control.Alternate" android:id="@id/given_name_edit_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:contentDescription="@string/accessibility_channel_settings_edit_given_name" android:labelFor="@id/given_name_edit">
+        <EditText android:textSize="@dimen/medium_font_size" android:id="@id/given_name_edit" android:layout_width="fill_parent" android:layout_height="wrap_content" android:selectAllOnFocus="true" android:inputType="text">
+            <requestFocus />
+        </EditText>
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout android:theme="@style/Widget.YouTube.Control.Alternate" android:id="@id/family_name_edit_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:contentDescription="@string/accessibility_channel_settings_edit_family_name" android:labelFor="@id/family_name_edit">
+        <EditText android:textSize="@dimen/medium_font_size" android:id="@id/family_name_edit" android:layout_width="fill_parent" android:layout_height="wrap_content" android:selectAllOnFocus="true" android:inputType="text" />
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:id="@id/name_edit_limit_hint" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:layout_marginStart="4.0dip" android:layout_marginEnd="4.0dip" yt:hyperlinksClickable="true" />
+    <LinearLayout android:orientation="vertical" android:id="@id/name_edit_info_box" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" />
+</LinearLayout>

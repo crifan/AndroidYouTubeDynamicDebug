@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector android:constantSize="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true" android:drawable="@drawable/ic_vidcontrol_hide_controls_pressed" />
+    <item android:state_selected="true" android:drawable="@drawable/ic_vidcontrol_hide_controls_pressed" />
+    <item android:drawable="@drawable/ic_vidcontrol_hide_controls" />
+</selector>

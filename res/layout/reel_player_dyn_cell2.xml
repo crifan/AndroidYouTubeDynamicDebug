@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:gravity="start|center" android:id="@id/reel_dyn_icon2_layout" android:layout_width="wrap_content" android:layout_height="@dimen/reel_player_dyn_footer_height" android:maxWidth="@dimen/reel_player_dyn_footer_width" android:layout_weight="1.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:textSize="@dimen/reel_secondary_font_size" android:textColor="@color/yt_white1" android:ellipsize="end" android:gravity="start|center" android:id="@id/reel_dyn_icon2" android:background="@drawable/reel_player_dyn_cell_background" android:padding="@dimen/reel_player_dyn_cell2_padding_horiz" android:layout_width="fill_parent" android:layout_height="@dimen/reel_player_dyn_footer_height" android:minWidth="@dimen/reel_player_dyn_footer_min_width" android:singleLine="true" android:drawablePadding="@dimen/reel_player_dyn_footer_drawable_padding2" android:contentDescription="@null" android:fontFamily="sans-serif-medium" />
+</FrameLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="?defaultItemSelector" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:yt="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/comment_thread" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <ImageView android:gravity="bottom" android:id="@id/comment_divider" android:layout_width="fill_parent" android:layout_height="@dimen/comment_divider_height" android:src="?cmtDivider" android:contentDescription="@null" />
+</LinearLayout>

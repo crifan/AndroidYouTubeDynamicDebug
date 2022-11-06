@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.textfield.TextInputLayout android:id="@id/coupon_edit_wrapper" android:layout_width="fill_parent" android:layout_height="wrap_content" android:labelFor="@id/coupon_edit" app:errorEnabled="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.textfield.TextInputEditText android:textSize="@dimen/medium_font_size" android:id="@id/coupon_edit" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLength="12" android:inputType="textVisiblePassword|textNoSuggestions" android:imeOptions="actionDone" />
+</com.google.android.material.textfield.TextInputLayout>

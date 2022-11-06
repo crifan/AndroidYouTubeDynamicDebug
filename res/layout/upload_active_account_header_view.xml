@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/account_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:yt="http://schemas.android.com/apk/res-auto">
+    <GridLayout android:id="@id/account_switcher_container" android:padding="@dimen/upload_activity_account_header_inner_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/upload_activity_account_header_margin" android:rowCount="2" android:columnCount="3">
+        <com.google.android.libraries.youtube.common.ui.CircularImageView android:id="@id/account_thumbnail" android:layout_width="@dimen/upload_activity_account_header_thumbnail_size" android:layout_height="@dimen/upload_activity_account_header_thumbnail_size" android:layout_column="0" android:layout_row="0" android:layout_rowSpan="2" android:layout_marginEnd="@dimen/upload_activity_account_header_thumbnail_margin_end" />
+        <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:textSize="@dimen/medium_font_size" android:textColor="?ytTextPrimary" android:id="@id/account_name" android:layout_column="1" android:layout_row="0" android:paddingStart="0.0dip" android:paddingEnd="@dimen/upload_activity_account_header_account_name_padding_end" yt:robotoFont="regular" />
+        <android.support.v7.widget.AppCompatImageView android:layout_gravity="end|center" android:id="@id/account_switcher_icon" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/arrow_down_dark" android:tint="?ytIconActiveOther" android:layout_column="2" android:layout_row="0" />
+        <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:textSize="@dimen/extra_small_font_size" android:textColor="?ytTextSecondary" android:id="@id/account_name_secondary" android:layout_column="1" android:layout_row="1" android:layout_columnSpan="2" yt:robotoFont="regular" />
+    </GridLayout>
+    <View android:background="?yt10PercentLayer" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+</LinearLayout>

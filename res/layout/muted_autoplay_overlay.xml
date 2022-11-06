@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.libraries.youtube.common.ui.TouchImageView android:layout_gravity="bottom|center|right" android:id="@id/api_youtube_watermark" android:visibility="gone" android:layout_width="68.0dip" android:layout_height="16.0dip" android:layout_marginRight="40.0dip" android:layout_marginBottom="8.0dip" android:src="@drawable/api_youtube_watermark" android:scaleType="fitCenter" android:adjustViewBounds="true" android:contentDescription="@string/accessibility_watch_in_youtube" android:alpha="0.8" />
+    <com.google.android.apps.youtube.embeddedplayer.service.ui.mutedautoplay.remoteloaded.MutedAutoplayIndicator android:layout_gravity="bottom|center|right" android:id="@id/audio_indicator" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="8.0dip" android:layout_marginBottom="8.0dip" android:contentDescription="@null" />
+    <RelativeLayout android:id="@id/end_screen_layout" android:background="#80000000" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.google.android.libraries.youtube.common.ui.TouchImageView android:id="@id/end_screen_play_button" android:paddingBottom="40.0dip" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/youtube_lozenge_logo" android:layout_centerInParent="true" android:contentDescription="@string/accessibility_end_screen_play_button" style="@style/PlayerButton" />
+        <TextView android:textSize="14.0sp" android:textColor="@color/yt_white1" android:id="@id/end_screen_text" android:paddingTop="40.0dip" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" android:textAllCaps="true" />
+    </RelativeLayout>
+</FrameLayout>

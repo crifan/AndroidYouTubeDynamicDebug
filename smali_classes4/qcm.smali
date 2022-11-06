@@ -1,0 +1,235 @@
+.class public final Lqcm;
+.super Ljava/lang/Object;
+.source "PG"
+
+# interfaces
+.implements Lqlu;
+
+
+# instance fields
+.field final a:Lcom/google/android/gms/cast/CastDevice;
+
+.field final b:Landroid/os/Bundle;
+
+.field final c:I
+
+.field final d:Ljava/lang/String;
+
+.field final e:Lqli;
+
+
+# direct methods
+.method public constructor <init>(Lqcl;)V
+    .locals 1
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    iget-object v0, p1, Lqcl;->a:Lcom/google/android/gms/cast/CastDevice;
+
+    iput-object v0, p0, Lqcm;->a:Lcom/google/android/gms/cast/CastDevice;
+
+    iget-object v0, p1, Lqcl;->c:Lqli;
+
+    iput-object v0, p0, Lqcm;->e:Lqli;
+
+    const/4 v0, 0x0
+
+    iput v0, p0, Lqcm;->c:I
+
+    iget-object p1, p1, Lqcl;->b:Landroid/os/Bundle;
+
+    iput-object p1, p0, Lqcm;->b:Landroid/os/Bundle;
+
+    .line 1
+    invoke-static {}, Ljava/util/UUID;->randomUUID()Ljava/util/UUID;
+
+    move-result-object p1
+
+    invoke-virtual {p1}, Ljava/util/UUID;->toString()Ljava/lang/String;
+
+    move-result-object p1
+
+    iput-object p1, p0, Lqcm;->d:Ljava/lang/String;
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final equals(Ljava/lang/Object;)Z
+    .locals 7
+
+    const/4 v0, 0x1
+
+    if-ne p1, p0, :cond_0
+
+    return v0
+
+    .line 1
+    :cond_0
+    instance-of v1, p1, Lqcm;
+
+    const/4 v2, 0x0
+
+    if-nez v1, :cond_1
+
+    return v2
+
+    .line 2
+    :cond_1
+    check-cast p1, Lqcm;
+
+    iget-object v1, p0, Lqcm;->a:Lcom/google/android/gms/cast/CastDevice;
+
+    .line 3
+    iget-object v3, p1, Lqcm;->a:Lcom/google/android/gms/cast/CastDevice;
+
+    invoke-static {v1, v3}, Lqrb;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
+
+    move-result v1
+
+    if-eqz v1, :cond_7
+
+    iget-object v1, p0, Lqcm;->b:Landroid/os/Bundle;
+
+    iget-object v3, p1, Lqcm;->b:Landroid/os/Bundle;
+
+    if-eqz v1, :cond_5
+
+    if-nez v3, :cond_2
+
+    goto :goto_0
+
+    .line 4
+    :cond_2
+    invoke-virtual {v1}, Landroid/os/Bundle;->size()I
+
+    move-result v4
+
+    invoke-virtual {v3}, Landroid/os/Bundle;->size()I
+
+    move-result v5
+
+    if-eq v4, v5, :cond_3
+
+    goto :goto_1
+
+    .line 5
+    :cond_3
+    invoke-virtual {v1}, Landroid/os/Bundle;->keySet()Ljava/util/Set;
+
+    move-result-object v4
+
+    .line 6
+    invoke-virtual {v3}, Landroid/os/Bundle;->keySet()Ljava/util/Set;
+
+    move-result-object v5
+
+    invoke-interface {v4, v5}, Ljava/util/Set;->containsAll(Ljava/util/Collection;)Z
+
+    move-result v5
+
+    if-eqz v5, :cond_7
+
+    .line 7
+    invoke-interface {v4}, Ljava/util/Set;->iterator()Ljava/util/Iterator;
+
+    move-result-object v4
+
+    :cond_4
+    invoke-interface {v4}, Ljava/util/Iterator;->hasNext()Z
+
+    move-result v5
+
+    if-eqz v5, :cond_6
+
+    invoke-interface {v4}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+
+    move-result-object v5
+
+    check-cast v5, Ljava/lang/String;
+
+    .line 8
+    invoke-virtual {v1, v5}, Landroid/os/Bundle;->get(Ljava/lang/String;)Ljava/lang/Object;
+
+    move-result-object v6
+
+    invoke-virtual {v3, v5}, Landroid/os/Bundle;->get(Ljava/lang/String;)Ljava/lang/Object;
+
+    move-result-object v5
+
+    invoke-static {v6, v5}, Lqrb;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
+
+    move-result v5
+
+    if-nez v5, :cond_4
+
+    goto :goto_1
+
+    :cond_5
+    :goto_0
+    if-ne v1, v3, :cond_7
+
+    .line 9
+    :cond_6
+    iget v1, p1, Lqcm;->c:I
+
+    iget-object v1, p0, Lqcm;->d:Ljava/lang/String;
+
+    iget-object p1, p1, Lqcm;->d:Ljava/lang/String;
+
+    .line 10
+    invoke-static {v1, p1}, Lqrb;->a(Ljava/lang/Object;Ljava/lang/Object;)Z
+
+    move-result p1
+
+    if-eqz p1, :cond_7
+
+    return v0
+
+    :cond_7
+    :goto_1
+    return v2
+.end method
+
+.method public final hashCode()I
+    .locals 4
+
+    const/4 v0, 0x4
+
+    new-array v0, v0, [Ljava/lang/Object;
+
+    iget-object v1, p0, Lqcm;->a:Lcom/google/android/gms/cast/CastDevice;
+
+    const/4 v2, 0x0
+
+    aput-object v1, v0, v2
+
+    iget-object v1, p0, Lqcm;->b:Landroid/os/Bundle;
+
+    const/4 v3, 0x1
+
+    aput-object v1, v0, v3
+
+    .line 1
+    invoke-static {v2}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+
+    move-result-object v1
+
+    const/4 v2, 0x2
+
+    aput-object v1, v0, v2
+
+    iget-object v1, p0, Lqcm;->d:Ljava/lang/String;
+
+    const/4 v2, 0x3
+
+    aput-object v1, v0, v2
+
+    .line 2
+    invoke-static {v0}, Ljava/util/Arrays;->hashCode([Ljava/lang/Object;)I
+
+    move-result v0
+
+    return v0
+.end method

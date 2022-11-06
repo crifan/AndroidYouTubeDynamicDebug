@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:layout_gravity="center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:baselineAligned="false"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:yt="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:paddingTop="8.0dip" android:paddingBottom="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingEnd="24.0dip" android:paddingVertical="8.0dip">
+        <ImageView android:layout_gravity="center" android:id="@id/thumbnail" android:visibility="gone" android:layout_width="200.0dip" android:layout_height="200.0dip" android:adjustViewBounds="true" android:contentDescription="@null" />
+        <ImageView android:layout_gravity="center" android:id="@id/icon" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:adjustViewBounds="true" android:contentDescription="@null" />
+    </FrameLayout>
+    <LinearLayout android:layout_gravity="top" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:textAppearance="?ytTextAppearanceTitle2" android:textColor="?ytTextPrimary" android:gravity="center" android:layout_gravity="left" android:id="@id/title" android:paddingTop="56.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:textAppearance="?ytTextAppearanceBody2a" android:textColor="?ytTextSecondary" android:gravity="center" android:layout_gravity="left" android:id="@id/body_text" android:paddingTop="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" yt:hyperlinksClickable="true" />
+        <include android:layout_gravity="left" android:id="@id/button" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" layout="@layout/wide_button" />
+        <include android:layout_gravity="left" android:id="@id/secondary_button" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" layout="@layout/wide_button" />
+    </LinearLayout>
+</LinearLayout>

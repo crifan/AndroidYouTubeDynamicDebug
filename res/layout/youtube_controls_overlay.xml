@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/scrim_overlay" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="?ytOverlayBackgroundMedium" />
+    <ViewStub android:id="@id/controls_layout_stub" android:layout="@layout/youtube_controls_layout" android:inflatedId="@id/controls_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ProgressBar android:layout_gravity="center" android:id="@id/player_loading_view_thin" android:visibility="invisible" android:layout_width="@dimen/buffering_progress_max_size" android:layout_height="@dimen/buffering_progress_max_size" android:indeterminate="true" />
+    <ViewStub android:id="@id/quick_seek_overlay_stub" android:layout="@layout/quick_seek_overlay_container" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ViewStub android:id="@id/video_zoom_overlay_stub" android:layout="@layout/video_zoom_overlay" android:inflatedId="@id/video_zoom_overlay" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ViewStub android:id="@id/easy_seek_overlay_stub" android:layout="@layout/easy_seek_overlay" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ViewStub android:id="@id/watch_while_timebar_overlay_stub" android:layout="@layout/watch_while_timebar_overlay" android:inflatedId="@id/watch_while_time_bar_view_overlay" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</FrameLayout>

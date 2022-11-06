@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:id="@id/shorts_trim_layout" android:background="?ytOverlayBackgroundSolid" android:layout_width="fill_parent" android:layout_height="fill_parent" xmlns:support="http://schemas.android.com/apk/res-auto" xmlns:yt="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/trim_bottom_container" android:layout_below="@id/shorts_trim_top_bar_container">
+        <com.google.android.libraries.youtube.common.ui.FixedAspectRatioFrameLayout android:layout_gravity="center_vertical" android:id="@id/preview_video_container" android:background="?ytOverlayBackgroundSolid" android:focusable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:contentDescription="@string/shorts_a11y_video_preview_tap_to_pause" yt:aspectRatio="@fraction/shorts_trim_crop_container_ratio">
+            <com.google.android.apps.youtube.app.extensions.reel.creation.shorts.trim.CroppedVideoWithPreviewView android:layout_gravity="center" android:id="@id/video_view" android:layout_width="fill_parent" android:layout_height="fill_parent" android:importantForAccessibility="no" />
+            <ImageView android:layout_gravity="center" android:id="@id/play_button" android:background="?selectableItemBackgroundBorderless" android:layout_width="@dimen/trim_play_button_size" android:layout_height="@dimen/trim_play_button_size" android:src="@drawable/quantum_ic_play_arrow_vd_theme_24" android:adjustViewBounds="true" android:tint="?ytOverlayIconActiveOther" android:contentDescription="@null" />
+            <View android:layout_gravity="start" android:id="@id/video_preview_start_crop_overlay" android:background="@color/reel_black_pure_alpha_30" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="fill_parent" />
+            <View android:layout_gravity="end" android:id="@id/video_preview_end_crop_overlay" android:background="@color/reel_black_pure_alpha_30" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="fill_parent" />
+        </com.google.android.libraries.youtube.common.ui.FixedAspectRatioFrameLayout>
+    </FrameLayout>
+    <include android:layout_gravity="top" android:id="@id/shorts_trim_top_bar_container" android:layout_width="fill_parent" android:layout_height="@dimen/shorts_trim_top_bar_height" android:layout_alignParentTop="true" layout="@layout/shorts_trim_top_bar" />
+    <LinearLayout android:orientation="vertical" android:id="@id/trim_bottom_container" android:background="?ytOverlayBackgroundSolid" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <com.google.android.libraries.youtube.edit.preview.TrimVideoControllerView android:id="@id/trim_video_controller" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <RelativeLayout android:id="@id/shorts_edit_video_trim_container" android:background="?ytOverlayBackgroundSolid" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/shorts_edit_video_trim_height">
+            <com.google.android.apps.youtube.app.extensions.reel.creation.shorts.trim.ShortsVideoTrimView2 android:id="@id/shorts_edit_video_trim_view" android:paddingTop="@dimen/trim_view_padding_vertical" android:paddingBottom="@dimen/trim_view_padding_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerInParent="true" yt:alignBoundsToThumbnails="true" yt:enablePlayhead="true" yt:snapToFrames="none" />
+        </RelativeLayout>
+        <TextView android:id="@id/segment_max_length_label" android:visibility="gone" style="@style/ShortsTrimMaxDurationStyle" />
+        <RelativeLayout android:id="@id/trim_to_short_container" android:background="?ytOverlayBackgroundSolid" android:paddingLeft="@dimen/trim_to_short_padding_horizontal" android:paddingRight="@dimen/trim_to_short_padding_horizontal" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/trim_to_short_height" android:paddingHorizontal="@dimen/trim_to_short_padding_horizontal">
+            <LinearLayout android:orientation="vertical" android:background="?ytOverlayBackgroundSolid" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_toStartOf="@id/trim_to_short_switch" android:layout_alignParentStart="true">
+                <TextView android:textColor="?ytOverlayTextPrimary" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/trim_switch" style="@style/TextAppearance.YouTube.Spec.Title2" />
+                <TextView android:textColor="?ytTextSecondary" android:id="@id/trim_to_short_edu_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/trim_switch_edu_margin_top" style="@style/TextAppearance.YouTube.Spec.Body1a" />
+            </LinearLayout>
+            <Switch android:theme="@style/Theme.YouTube.Dark" android:id="@id/trim_to_short_switch" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_alignParentEnd="true" />
+        </RelativeLayout>
+    </LinearLayout>
+</RelativeLayout>

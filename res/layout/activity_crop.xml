@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/image" android:background="@color/yt_black_pure" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="matrix" android:contentDescription="@string/crop_image_description" />
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <View android:id="@id/area_above_crop" android:background="@color/crop_mask_background" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+        <LinearLayout android:orientation="horizontal" android:id="@id/area_for_crop" android:layout_width="fill_parent" android:layout_height="0.0dip">
+            <View android:background="@color/crop_mask_background" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+            <LinearLayout android:orientation="vertical" android:id="@id/tv_crop" android:background="@drawable/crop_border" android:layout_width="0.0dip" android:layout_height="fill_parent">
+                <FrameLayout android:id="@id/top_desktop_crop" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="0.0">
+                    <View android:id="@id/top_desktop_mask" android:background="@color/crop_mask_background" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+                    <TextView android:textAppearance="?ytTextAppearanceBody1a" android:textColor="@color/crop_info_text" android:gravity="center|left|top" android:layout_gravity="center|left|top" android:id="@id/tv_crop_text" android:background="@drawable/crop_chip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_marginTop="4.0dip" />
+                </FrameLayout>
+                <LinearLayout android:orientation="horizontal" android:id="@id/desktop_crop" android:background="@drawable/crop_border" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="0.0">
+                    <FrameLayout android:id="@id/left_mobile_crop" android:visibility="gone" android:layout_width="-1.0dip" android:layout_height="fill_parent">
+                        <View android:id="@id/left_mobile_mask" android:background="@color/crop_double_mask_background" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+                        <TextView android:textAppearance="?ytTextAppearanceBody1a" android:textColor="@color/crop_info_text" android:gravity="center|left|top" android:layout_gravity="center|left|top" android:id="@id/desktop_crop_text" android:background="@drawable/crop_chip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_marginTop="4.0dip" />
+                    </FrameLayout>
+                    <FrameLayout android:id="@id/mobile_crop" android:background="@drawable/crop_border" android:visibility="gone" android:layout_width="-1.0dip" android:layout_height="fill_parent">
+                        <TextView android:textAppearance="?ytTextAppearanceBody1a" android:textColor="@color/crop_info_text" android:gravity="center|left|top" android:layout_gravity="center|left|top" android:id="@id/mobile_crop_text" android:background="@drawable/crop_chip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_marginTop="4.0dip" />
+                    </FrameLayout>
+                    <View android:id="@id/right_mobile_crop" android:background="@color/crop_double_mask_background" android:visibility="gone" android:layout_width="-1.0dip" android:layout_height="fill_parent" />
+                </LinearLayout>
+                <View android:id="@id/bottom_desktop_crop" android:background="@color/crop_mask_background" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="0.0" />
+            </LinearLayout>
+            <View android:background="@color/crop_mask_background" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+        </LinearLayout>
+        <View android:id="@id/area_below_crop" android:background="@color/crop_mask_background" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    </LinearLayout>
+    <FrameLayout android:layout_gravity="bottom|center" android:orientation="horizontal" android:id="@id/crop_info_layout" android:background="@drawable/crop_info" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="0.0dip" android:layout_marginRight="0.0dip" android:layout_marginBottom="0.0dip">
+        <TextView android:textAppearance="?ytTextAppearanceBody1a" android:textColor="@color/yt_white1" android:gravity="center" android:id="@id/crop_info" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="0.0dip" android:layout_marginRight="0.0dip" />
+    </FrameLayout>
+</merge>

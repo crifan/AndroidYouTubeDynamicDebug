@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.libraries.youtube.common.ui.AccessibilityLayerLayout android:id="@id/accessibility_layer_container" android:layout_width="fill_parent" android:layout_height="fill_parent" yt:backgroundViewId="@id/watch_while_layout" yt:footerViewId="@id/bottom_bar_container"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:yt="http://schemas.android.com/apk/res-auto">
+    <include layout="@layout/single_next_gen_watch_layout" />
+    <androidx.coordinatorlayout.widget.CoordinatorLayout android:id="@id/app_engagement_panel_wrapper" android:background="@null" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <View android:id="@id/scrim" android:background="?ytOverlayBackgroundMedium" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <RelativeLayout android:id="@id/app_engagement_panel" android:background="@null" android:visibility="gone" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+    <FrameLayout android:id="@id/mdx_fragment_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.google.android.apps.youtube.app.common.ui.bottomui.BottomUiContainer android:layout_gravity="bottom|center" android:id="@id/bottom_ui_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <LinearLayout android:layout_gravity="bottom|center" android:orientation="vertical" android:id="@id/bottom_bar_container" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.google.android.apps.youtube.app.ui.pivotbar.PivotBar android:gravity="bottom|center" android:id="@id/pivot_bar" android:background="?ytBrandBackgroundSolid" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="?actionBarSize" />
+    </LinearLayout>
+    <FrameLayout android:id="@id/interstitials_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:elevation="12.0dip" />
+</com.google.android.libraries.youtube.common.ui.AccessibilityLayerLayout>

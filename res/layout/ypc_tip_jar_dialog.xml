@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.libraries.youtube.rendering.ui.widget.loadingframe.LoadingFrameLayout android:background="@android:color/white" android:layout_width="fill_parent" android:layout_height="fill_parent" android:minWidth="200.0dip" android:minHeight="200.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:yt="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ScrollView android:layout_width="fill_parent" android:layout_height="0.0dip" android:fillViewport="true" android:layout_weight="1.0">
+            <include android:id="@id/ypc_tip_screen" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/ypc_tip_screen" />
+        </ScrollView>
+        <View android:background="@color/yt_grey1" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+        <LinearLayout android:orientation="horizontal" android:id="@id/navigation" android:layout_width="fill_parent" android:layout_height="wrap_content" android:baselineAligned="false">
+            <com.google.android.libraries.youtube.rendering.ui.widget.loadingframe.LoadingFrameLayout android:id="@id/next" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:textSize="@dimen/medium_font_size" android:textColor="#ff333333" android:ellipsize="end" android:gravity="center" android:background="@drawable/compat_item_selector" android:padding="20.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/tipjar_next" android:maxLines="1" android:includeFontPadding="false" yt:robotoFont="light" />
+            </com.google.android.libraries.youtube.rendering.ui.widget.loadingframe.LoadingFrameLayout>
+        </LinearLayout>
+    </LinearLayout>
+</com.google.android.libraries.youtube.rendering.ui.widget.loadingframe.LoadingFrameLayout>

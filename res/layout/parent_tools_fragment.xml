@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/control_container" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <android.support.v7.widget.Toolbar android:id="@id/toolbar" android:layout_width="fill_parent" android:layout_height="?actionBarSize" />
+        <RelativeLayout android:id="@id/loading_spinner_container" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+            <ImageView android:id="@id/loading_spinner_lottie_holder" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="centerCrop" android:layout_centerInParent="true" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/error_page_container" android:background="@color/general_error_page_background_color" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+            <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+                <android.support.v7.widget.AppCompatImageView android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/general_error_page_image_bottom_margin" android:scaleType="fitCenter" android:adjustViewBounds="true" app:srcCompat="@drawable/general_error_image" />
+                <TextView android:textSize="@dimen/general_error_page_message_text_size" android:textColor="@color/general_error_message_text_color" android:layout_gravity="center_horizontal" android:id="@id/error_message" android:layout_width="@dimen/general_error_page_message_width" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/general_error_page_message_bottom_margin" android:text="@string/general_error_message" android:fontFamily="sans-serif" android:textAlignment="center" />
+                <TextView android:textSize="@dimen/general_error_page_button_text_size" android:textColor="@color/general_error_button_text_color" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/error_button" android:background="@drawable/error_button_background" android:focusable="true" android:clickable="true" android:layout_width="@dimen/general_error_page_button_width" android:layout_height="@dimen/general_error_page_button_height" android:text="@string/general_error_button_title" android:inputType="textCapCharacters" android:contentDescription="@string/general_error_button_title" android:fontFamily="sans-serif" android:textAlignment="center" />
+            </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+    <WebView android:id="@id/web_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/toolbar" />
+</FrameLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout android:background="?ytGeneralBackgroundA" android:padding="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="16.0dip" android:rowCount="3" android:columnCount="2"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:yt="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/lim_state_msg_icon" android:layout_width="26.0dip" android:layout_height="26.0dip" android:layout_marginTop="2.0dip" android:src="@drawable/quantum_ic_warning_amber_48" android:contentDescription="@null" />
+    <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:textSize="@dimen/medium_font_size" android:textColor="?ytTextPrimary" android:layout_gravity="fill_horizontal|center" android:id="@id/lim_state_msg_header_text" android:layout_width="0.0dip" android:layout_marginStart="12.0dip" yt:robotoFont="medium" />
+    <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:textAppearance="?textAppearanceBody1" android:layout_gravity="fill_horizontal" android:id="@id/lim_state_msg_subtext" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:lineSpacingMultiplier="1.25" android:layout_columnSpan="2" />
+    <com.google.android.apps.youtube.app.common.ui.chipcloud.ChipCloudView android:gravity="end" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:layout_columnSpan="2" yt:colSpacing="8.0dip" yt:rowSpacing="0.0dip">
+        <include android:layout_gravity="center_vertical" android:id="@id/learn_more_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="2" layout="@layout/button" />
+        <include android:gravity="center_horizontal" android:id="@id/go_home_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="2" layout="@layout/button" />
+    </com.google.android.apps.youtube.app.common.ui.chipcloud.ChipCloudView>
+</GridLayout>

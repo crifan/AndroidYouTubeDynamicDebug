@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/custom_notification_basic_thumbnail_text_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="16.0dip" android:paddingEnd="8.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/custom_notification_header" android:paddingBottom="4.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView android:id="@id/small_icon" android:layout_width="18.0dip" android:layout_height="18.0dip" android:contentDescription="@null" android:layout_marginEnd="6.0dip" />
+        <TextView android:textSize="12.0sp" android:textColor="@color/small_icon_background" android:layout_gravity="center_vertical" android:id="@id/custom_notification_title_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="4.0dip" />
+        <TextView android:textColor="#ff757575" android:layout_gravity="center_vertical" android:id="@id/notification_bullet" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/custom_notification_bullet" android:layout_marginEnd="4.0dip" />
+        <TextView android:textSize="12.0sp" android:layout_gravity="center_vertical" android:id="@id/custom_notification_title_timestamp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="4.0dip" style="@style/NotificationTime" />
+    </LinearLayout>
+    <TextView android:textSize="12.0sp" android:ellipsize="end" android:id="@id/custom_notification_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" style="@style/NotificationTitle" />
+    <TextView android:textSize="12.0sp" android:ellipsize="end" android:id="@id/custom_notification_body" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="2" style="@style/NotificationText" />
+</LinearLayout>

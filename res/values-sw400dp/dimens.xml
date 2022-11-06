@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="search_filter_landscape_chipcloud_width">260.0dip</dimen>
+    <dimen name="search_filter_landscape_spinners_width">280.0dip</dimen>
+    <dimen name="search_filter_portrait_width">320.0dip</dimen>
+</resources>

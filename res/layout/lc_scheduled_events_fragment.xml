@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/scheduled_events_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <android.support.v7.widget.RecyclerView android:gravity="center_horizontal" android:id="@id/scheduled_events" android:paddingTop="@dimen/lc_scheduled_events_padding_top" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <LinearLayout android:orientation="horizontal" android:background="@color/lc_black_50" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true">
+            <ImageButton android:id="@id/close_button" android:background="?selectableItemBackgroundBorderless" android:layout_width="@dimen/lc_24dp_image_button_container_size" android:layout_height="@dimen/lc_24dp_image_button_container_size" android:layout_margin="@dimen/lc_24dp_image_button_margin" android:contentDescription="@string/abc_action_bar_up_description" />
+            <TextView android:textSize="@dimen/title_text_size" android:layout_gravity="center_vertical" android:id="@id/scheduled_events_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/lc_title_bar_margin_start" />
+        </LinearLayout>
+    </RelativeLayout>
+    <com.google.android.libraries.youtube.livecreation.ui.view.NetworkOperationView android:layout_gravity="center" android:id="@id/scheduled_events_network_operation" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</FrameLayout>

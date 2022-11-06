@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.RecyclerView android:id="@id/related_endscreen_results" android:paddingTop="@dimen/app_related_end_screen_results_top_padding" android:paddingBottom="@dimen/app_related_end_screen_results_padding" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:contentDescription="@string/accessibility_related_screen" android:overScrollMode="never" android:paddingStart="@dimen/app_related_end_screen_results_padding" android:paddingEnd="@dimen/app_related_end_screen_results_padding"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

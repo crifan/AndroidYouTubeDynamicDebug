@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/item_container" android:background="?ytBrandBackgroundSolid" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/inner_item_container" android:paddingTop="@dimen/upload_activity_privacy_popup_item_vertical_padding" android:paddingBottom="@dimen/upload_activity_privacy_popup_item_vertical_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/upload_activity_privacy_horizontal_padding" android:paddingEnd="@dimen/upload_activity_privacy_horizontal_padding">
+        <android.support.v7.widget.AppCompatImageView android:id="@id/icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:tint="?ytTextPrimary" android:layout_alignParentTop="true" android:paddingEnd="@dimen/upload_activity_privacy_horizontal_padding" android:layout_alignParentStart="true" />
+        <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:textSize="@dimen/medium_font_size" android:textColor="?ytTextPrimary" android:id="@id/label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false" android:layout_alignParentTop="true" android:layout_toEndOf="@id/icon" />
+        <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:textSize="@dimen/small_font_size" android:textColor="?ytTextSecondary" android:id="@id/description" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/label" android:layout_toEndOf="@id/icon" />
+    </RelativeLayout>
+</FrameLayout>

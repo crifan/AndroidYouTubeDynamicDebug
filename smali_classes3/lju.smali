@@ -1,0 +1,39 @@
+.class public final synthetic Llju;
+.super Ljava/lang/Object;
+.source "PG"
+
+# interfaces
+.implements Laxpz;
+
+
+# instance fields
+.field public final synthetic a:Lljy;
+
+
+# direct methods
+.method public synthetic constructor <init>(Lljy;)V
+    .locals 0
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    iput-object p1, p0, Llju;->a:Lljy;
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final a(Ljava/lang/Object;)Ljava/lang/Object;
+    .locals 1
+
+    iget-object v0, p0, Llju;->a:Lljy;
+
+    check-cast p1, Lj$/util/Optional;
+
+    .line 1
+    invoke-virtual {v0, p1}, Lljy;->a(Lj$/util/Optional;)Lambi;
+
+    move-result-object p1
+
+    return-object p1
+.end method

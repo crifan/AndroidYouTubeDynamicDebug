@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RadioGroup android:padding="16.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RadioButton android:textSize="@dimen/medium_font_size" android:textColor="?ytTextPrimary" android:gravity="start|center" android:id="@id/inline_global_play_on" android:layout_width="fill_parent" android:layout_height="48.0dip" android:text="@string/inline_global_play_pause_on" />
+    <RadioButton android:textSize="@dimen/medium_font_size" android:textColor="?ytTextPrimary" android:gravity="start|center" android:id="@id/inline_global_play_on_wifi_only" android:layout_width="fill_parent" android:layout_height="48.0dip" android:text="@string/inline_global_play_pause_on_wifi_only" />
+    <RadioButton android:textSize="@dimen/medium_font_size" android:textColor="?ytTextPrimary" android:gravity="start|center" android:id="@id/inline_global_play_off" android:layout_width="fill_parent" android:layout_height="48.0dip" android:text="@string/inline_global_play_pause_off" />
+</RadioGroup>

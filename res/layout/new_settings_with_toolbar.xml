@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/settings_root_container" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:transitionGroup="true">
+        <include android:id="@id/settings_toolbar_layout" layout="@layout/settings_toolbar" />
+        <LinearLayout android:id="@id/settings_selection_detail_parent_container" android:layout_width="fill_parent" android:layout_height="fill_parent" android:baselineAligned="false">
+            <FrameLayout android:id="@id/settings_selection_container" android:layout_width="320.0dip" android:layout_height="fill_parent" />
+            <View android:id="@id/settings_selection_detail_panel_separator" android:background="?ytSeparator" android:layout_width="@dimen/line_separator_height" android:layout_height="fill_parent" />
+            <FrameLayout android:id="@id/settings_detail_container" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        </LinearLayout>
+    </LinearLayout>
+    <com.google.android.apps.youtube.app.common.ui.bottomui.BottomUiContainer android:id="@id/bottom_ui_container" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</FrameLayout>

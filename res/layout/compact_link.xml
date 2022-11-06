@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="start|center" android:orientation="horizontal" android:background="?selectableItemBackground" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/account_item_height" android:paddingStart="@dimen/start_end_padding" android:paddingEnd="@dimen/start_end_padding"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ViewStub android:id="@id/thumbnail" android:layout="@layout/compact_link_thumbnail" android:inflatedId="@id/thumbnail" android:layout_width="@dimen/account_thumbnail_size" android:layout_height="@dimen/account_thumbnail_size" android:layout_marginEnd="@dimen/start_end_padding" />
+    <ViewStub android:id="@id/icon_badge" android:inflatedId="@id/icon_badge" android:layout_width="@dimen/account_thumbnail_size" android:layout_height="@dimen/account_thumbnail_size" android:layout_marginEnd="@dimen/start_end_padding" />
+    <RelativeLayout android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:textAppearance="?textAppearanceSubhead" android:textColor="?ytTextPrimary" android:ellipsize="end" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:layout_marginEnd="16.0dip" android:layout_alignParentStart="true" />
+        <ViewStub android:id="@id/subtitle" android:layout="@layout/compact_link_subtitle" android:inflatedId="@id/subtitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignBaseline="@id/title" android:layout_toEndOf="@id/title" />
+    </RelativeLayout>
+    <ViewStub android:id="@id/secondary_icon" android:layout="@layout/compact_link_secondary_icon" android:inflatedId="@id/secondary_icon" android:layout_width="@dimen/account_secondary_icon_size" android:layout_height="@dimen/account_secondary_icon_size" />
+</LinearLayout>

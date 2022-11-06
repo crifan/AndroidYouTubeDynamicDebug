@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/shorts_record_button_view_container" android:focusable="true" android:clipChildren="false" android:layout_width="@dimen/shorts_record_button_size" android:layout_height="@dimen/shorts_record_button_size"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_gravity="center" android:id="@id/shorts_record_button_touch_area" android:clipChildren="false" android:layout_width="@dimen/reel_camera_record_button_touch_area_width_v2" android:layout_height="@dimen/shorts_record_button_touch_area_height" android:contentDescription="@string/shorts_a11y_record_button">
+        <ImageView android:layout_gravity="center" android:id="@id/shorts_record_button_outer_ring" android:layout_width="@dimen/shorts_record_button_outer_ring_size" android:layout_height="@dimen/shorts_record_button_outer_ring_size" android:src="@drawable/shorts_record_button_outer_ring_disabled" android:importantForAccessibility="no" />
+        <ImageView android:layout_gravity="center" android:id="@id/shorts_record_button_inner_circle" android:layout_width="@dimen/shorts_record_button_inner_circle_size" android:layout_height="@dimen/shorts_record_button_inner_circle_size" android:src="@drawable/shorts_record_button_inner_circle_disabled" android:importantForAccessibility="no" />
+    </FrameLayout>
+</FrameLayout>

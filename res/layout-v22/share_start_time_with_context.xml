@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/titleRow" android:paddingLeft="4.0dip" android:paddingRight="4.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:paddingHorizontal="4.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:textAppearance="?ytTextAppearanceBody2a" android:textColor="?ytTextSecondary" android:ellipsize="end" android:id="@id/startAt" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:textAlignment="viewStart" />
+    <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:textAppearance="?ytTextAppearanceBody2b" android:textColor="?ytThemedBlue" android:ellipsize="end" android:id="@id/startTime" android:paddingLeft="4.0dip" android:paddingRight="4.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:textAlignment="viewStart" android:paddingHorizontal="4.0dip" />
+    <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:textAppearance="?ytTextAppearanceBody2b" android:ellipsize="end" android:id="@id/contextDescription" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:textAlignment="viewStart" />
+</LinearLayout>

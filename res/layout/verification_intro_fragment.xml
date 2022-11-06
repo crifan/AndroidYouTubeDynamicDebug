@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/intro_container" android:background="?ytBrandBackgroundSolid" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Button android:textSize="@dimen/av_small_button_text" android:textColor="?ytTextSecondary" android:id="@id/learn_more_button" android:background="?selectableItemBackground" android:padding="@dimen/av_button_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/av_button_margin" android:layout_marginBottom="@dimen/av_button_margin" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+    <Button android:textSize="@dimen/av_large_button_text" android:textColor="?ytStaticWhite" android:id="@id/get_started_button" android:background="?introGetStartedButtonBackground" android:paddingTop="@dimen/av_button_padding" android:paddingBottom="@dimen/av_button_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/av_margin_small" android:layout_above="@id/learn_more_button" android:layout_marginStart="@dimen/av_button_margin" android:layout_marginEnd="@dimen/av_button_margin" />
+    <ScrollView android:id="@id/verification_intro_scroll_container" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/get_started_button" android:layout_alignParentTop="true">
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <include android:id="@id/top_bar" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/verification_fragment_top_bar" />
+            <ImageView android:id="@id/icon" android:layout_width="@dimen/av_icon_diameter" android:layout_height="@dimen/av_icon_diameter" android:src="@drawable/intro_icon" android:contentDescription="@null" />
+            <TextView android:textSize="@dimen/av_title_text_size" android:textColor="?ytTextPrimary" android:gravity="center_horizontal" android:id="@id/title" android:padding="@dimen/av_title_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:lineSpacingMultiplier="@dimen/av_paragraph_line_spacing_normal" />
+            <TextView android:textSize="@dimen/av_body_text_size" android:textColor="?ytTextSecondary" android:gravity="center_horizontal" android:id="@id/body" android:paddingLeft="@dimen/av_body_padding" android:paddingRight="@dimen/av_body_padding" android:paddingBottom="@dimen/av_body_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:lineSpacingMultiplier="@dimen/av_paragraph_line_spacing_large" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

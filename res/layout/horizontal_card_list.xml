@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:yt="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:id="@id/header_layout" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:textSize="@dimen/small_font_size" android:textColor="?ytCallToAction" android:gravity="center_vertical" android:id="@id/card_list_button" android:layout_width="wrap_content" android:layout_height="48.0dip" android:maxLines="1" android:layout_centerVertical="true" android:textAllCaps="true" android:paddingStart="16.0dip" android:paddingEnd="16.0dip" android:layout_alignParentEnd="true" yt:robotoFont="medium" />
+        <include android:id="@id/card_list_subscribe_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_alignParentEnd="true" layout="@layout/subscribe_button" />
+        <FrameLayout android:id="@id/card_list_contextual_menu_anchor_wrapper" android:layout_width="@dimen/innertube_menu_anchor_size" android:layout_height="fill_parent" android:layout_alignTop="@id/rich_list_header" android:layout_alignBottom="@id/rich_list_header" android:layout_centerVertical="true" android:layout_alignParentEnd="true">
+            <include android:layout_gravity="end|center" android:id="@id/card_list_contextual_menu_anchor" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:layout_marginEnd="16.0dip" layout="@layout/contextual_menu_anchor" />
+        </FrameLayout>
+        <FrameLayout android:id="@id/sort_filter_sub_menu_container" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginEnd="16.0dip" android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+    <android.support.v7.widget.RecyclerView android:id="@id/card_list_container" android:paddingTop="4.0dip" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/horizontal_card_list_container_top_margin" android:paddingStart="16.0dip" android:paddingEnd="16.0dip" />
+    <View android:layout_gravity="fill_horizontal" android:id="@id/separator" android:background="?yt10PercentLayer" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginBottom="8.0dip" />
+</LinearLayout>

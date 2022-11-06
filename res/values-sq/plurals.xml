@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="accessibility_dislike_video_plural">
+        <item quantity="other">Butoni \"Mos pëlqe\", %1$d të tjerë nuk e kanë pëlqyer videon</item>
+        <item quantity="one">Butoni \"Mos pëlqe\", %1$d tjetër nuk ka pëlqyer videon</item>
+    </plurals>
+    <plurals name="accessibility_dtts_fast_forward">
+        <item quantity="other">Shpejt përpara %1$d sekonda</item>
+        <item quantity="one">Shpejt përpara %1$d sekondë</item>
+    </plurals>
+    <plurals name="accessibility_dtts_rewind">
+        <item quantity="other">Shko prapa %1$d sekonda</item>
+        <item quantity="one">Shko prapa %1$d sekondë</item>
+    </plurals>
+    <plurals name="accessibility_duration_description_hours">
+        <item quantity="other">%d orë</item>
+        <item quantity="one">%d orë</item>
+    </plurals>
+    <plurals name="accessibility_duration_description_minutes">
+        <item quantity="other">%d minuta</item>
+        <item quantity="one">%d minutë</item>
+    </plurals>
+    <plurals name="accessibility_duration_description_seconds">
+        <item quantity="other">%d sekonda</item>
+        <item quantity="one">%d sekondë</item>
+    </plurals>
+    <plurals name="accessibility_like_video_plural">
+        <item quantity="other">Butoni \"Pëlqe\", %1$d të tjerë kanë pëlqyer videon</item>
+        <item quantity="one">Butoni \"Pëlqe\", %1$d tjetër ka pëlqyer videon</item>
+    </plurals>
+    <plurals name="accessibility_skip_ad_in">
+        <item quantity="other">Anashkalo reklamën për %1$d sekonda</item>
+        <item quantity="one">Anashkalo reklamën për 1 sekondë</item>
+    </plurals>
+    <plurals name="accessibility_undo_dislike_video_plural">
+        <item quantity="other">Butoni \"Hiq mospëlqimin\", %1$d të tjerë nuk e kanë pëlqyer videon</item>
+        <item quantity="one">Butoni \"Hiq mospëlqimin\", %1$d tjetër nuk e ka pëlqyer videon</item>
+    </plurals>
+    <plurals name="accessibility_undo_like_video_plural">
+        <item quantity="other">Butoni \"Hiq pëlqimin\", %1$d të tjerë kanë pëlqyer videon</item>
+        <item quantity="one">Butoni \"Hiq pëlqimin\", %1$d tjetër ka pëlqyer videon</item>
+    </plurals>
+    <plurals name="download_new_videos_button_text">
+        <item quantity="other">Shkarko %1$d video të reja</item>
+        <item quantity="one">Shkarko %1$d video të re</item>
+    </plurals>
+    <plurals name="download_playlist_unplayable_future_days_plural">
+        <item quantity="other">Pas %1$d ditësh, për disa video do të nevojitet Premium</item>
+        <item quantity="one">Pas %1$d dite, për disa video do të nevojitet Premium</item>
+    </plurals>
+    <plurals name="download_playlist_unplayable_future_hours_plural">
+        <item quantity="other">Pas %1$d orësh, për disa video do të nevojitet Premium</item>
+        <item quantity="one">Pas %1$d ore, për disa video do të nevojitet Premium</item>
+    </plurals>
+    <plurals name="download_playlist_unplayable_future_minutes_plural">
+        <item quantity="other">Pas %1$d minutash, për disa video do të nevojitet Premium</item>
+        <item quantity="one">Pas %1$d minute, për disa video do të nevojitet Premium</item>
+    </plurals>
+    <plurals name="download_video_unplayable_future_days_plural">
+        <item quantity="other">Nevojitet Premium pas %1$d ditësh</item>
+        <item quantity="one">Nevojitet Premium pas %1$d dite</item>
+    </plurals>
+    <plurals name="download_video_unplayable_future_hours_plural">
+        <item quantity="other">Nevojitet Premium pas %1$d orësh</item>
+        <item quantity="one">Nevojitet Premium pas %1$d ore</item>
+    </plurals>
+    <plurals name="download_video_unplayable_future_minutes_plural">
+        <item quantity="other">Nevojitet Premium pas %1$d minutash</item>
+        <item quantity="one">Nevojitet Premium pas %1$d minute</item>
+    </plurals>
+    <plurals name="frequency_hours_component">
+        <item quantity="other">%1$d orë</item>
+        <item quantity="one">%1$d orë</item>
+    </plurals>
+    <plurals name="frequency_hours_only">
+        <item quantity="other">Çdo %1$d orë</item>
+        <item quantity="one">Çdo orë</item>
+    </plurals>
+    <plurals name="frequency_minutes_component">
+        <item quantity="other">%1$d minuta</item>
+        <item quantity="one">%1$d minutë</item>
+    </plurals>
+    <plurals name="frequency_minutes_only">
+        <item quantity="other">Çdo %1$d minuta</item>
+        <item quantity="one">Çdo minutë</item>
+    </plurals>
+    <plurals name="image_picker_title">
+        <item quantity="other">%1$d të zgjedhura</item>
+        <item quantity="one">%1$d i zgjedhur</item>
+    </plurals>
+    <plurals name="invalid_uploads_error_msg">
+        <item quantity="other">Një ose disa skedarë videosh nuk ofrohen ose janë të pavlefshëm. Provo sërish ose zgjidh të tjerë.</item>
+        <item quantity="one">Skedari i videos nuk ofrohet ose është i pavlefshëm. Provo sërish ose zgjidh një tjetër.</item>
+    </plurals>
+    <plurals name="last_update_in_days_message">
+        <item quantity="other">Përditësuar %1$d ditë më parë</item>
+        <item quantity="one">Përditësuar dje</item>
+    </plurals>
+    <plurals name="last_update_in_hours_message">
+        <item quantity="other">Përditësuar %1$d orë më parë</item>
+        <item quantity="one">Përditësuar %1$d orë më parë</item>
+    </plurals>
+    <plurals name="last_update_in_minutes_message">
+        <item quantity="other">Përditësuar %1$d minuta më parë</item>
+        <item quantity="one">Përditësuar %1$d minutë më parë</item>
+    </plurals>
+    <plurals name="last_update_in_weeks_message">
+        <item quantity="other">Përditësuar %1$d javë më parë</item>
+        <item quantity="one">Përditësuar %1$d javë më parë</item>
+    </plurals>
+    <plurals name="notification_playlist_progress_size">
+        <item quantity="other">%1$d nga %2$d video</item>
+        <item quantity="one">%1$d nga 1 video</item>
+    </plurals>
+    <plurals name="offline_go_online_to_renew_dialog_message">
+        <item quantity="other">Shkarkimet ofrohen për sa kohë që pajisja ka lidhje me internetin çdo %1$d ditë. Ky proces kryhet automatikisht dhe nuk e rishkarkon videon.</item>
+        <item quantity="one">Shkarkimet ofrohen për sa kohë që pajisja ka lidhje me internetin çdo ditë. Ky proces kryhet automatikisht dhe nuk e rishkarkon videon.</item>
+    </plurals>
+    <plurals name="offline_go_online_to_renew_snackbar_message">
+        <item quantity="other">Shkarkimet ofrohen edhe për %1$d ditë pa lidhje me internetin.</item>
+        <item quantity="one">Shkarkimet ofrohen edhe për 1 ditë pa lidhje me internetin.</item>
+    </plurals>
+    <plurals name="offline_remember_setting_for_days">
+        <item quantity="other">Kujto cilësimet e mia për %1$d ditë</item>
+        <item quantity="one">Kujto cilësimet e mia për 1 ditë</item>
+    </plurals>
+    <plurals name="playlist_picker_dialog_done">
+        <item quantity="other">Listat për luajtje u përditësuan</item>
+        <item quantity="one">Lista për luajtje u përditësua</item>
+    </plurals>
+    <plurals name="playlist_size">
+        <item quantity="other">%1$,d video</item>
+        <item quantity="one">1 video</item>
+    </plurals>
+    <plurals name="playlist_size_downloaded">
+        <item quantity="other">%1$,d të shkarkuara</item>
+        <item quantity="one">%1$,d të shkarkuara</item>
+    </plurals>
+    <plurals name="playlist_size_total">
+        <item quantity="other">%1$,d video</item>
+        <item quantity="one">1 video</item>
+    </plurals>
+    <plurals name="public_notification_text">
+        <item quantity="other">%1$d new notifications</item>
+        <item quantity="one">You have a notification</item>
+    </plurals>
+    <plurals name="quick_seek_x_second">
+        <item quantity="other">%d sekonda</item>
+        <item quantity="one">%d sekondë</item>
+    </plurals>
+    <plurals name="recommendation_count">
+        <item quantity="other">%1$d rekomandime</item>
+        <item quantity="one">1 rekomandim</item>
+    </plurals>
+    <plurals name="rental_expiry_notice">
+        <item quantity="other">Pasi të fillojë, do të kesh %1$d orë për ta parë videon.</item>
+        <item quantity="one">Pasi të fillojë, do të kesh 1 orë për ta parë videon.</item>
+    </plurals>
+    <plurals name="rental_long_days_remaining">
+        <item quantity="other">Skadon për %1$d ditë</item>
+        <item quantity="one">Skadon për 1 ditë</item>
+    </plurals>
+    <plurals name="rental_long_hours_remaining">
+        <item quantity="other">Skadon për %1$d orë</item>
+        <item quantity="one">Skadon për 1 orë</item>
+    </plurals>
+    <plurals name="rental_long_weeks_remaining">
+        <item quantity="other">Skadon për %1$d javë</item>
+        <item quantity="one">Skadon për 1 javë</item>
+    </plurals>
+    <plurals name="rental_medium_days_remaining">
+        <item quantity="other">Skadon për %1$d ditë</item>
+        <item quantity="one">Skadon për 1 dite</item>
+    </plurals>
+    <plurals name="rental_medium_hours_remaining">
+        <item quantity="other">Skadon për %1$d orë</item>
+        <item quantity="one">Skadon për 1 orë</item>
+    </plurals>
+    <plurals name="rental_medium_weeks_remaining">
+        <item quantity="other">Skadon për %1$d javë</item>
+        <item quantity="one">Skadon për 1 javë</item>
+    </plurals>
+    <plurals name="selected_video_count">
+        <item quantity="other">Janë zgjedhur %1$d video</item>
+        <item quantity="one">Është zgjedhur 1 video</item>
+    </plurals>
+    <plurals name="shorts_a11y_duration_seconds">
+        <item quantity="other">%1$s sekonda</item>
+        <item quantity="one">%1$s sekondë</item>
+    </plurals>
+    <plurals name="shorts_a11y_timer_duration_seconds">
+        <item quantity="other">Kohëmatësi: %1$d sekonda</item>
+        <item quantity="one">Kohëmatësi: %1$d sekondë</item>
+    </plurals>
+    <plurals name="shorts_a11y_timer_started">
+        <item quantity="other">Kohëmatësi u aktivizua: %1$d sekonda</item>
+        <item quantity="one">Kohëmatësi u aktivizua: %1$d sekonda</item>
+    </plurals>
+    <plurals name="smart_downloads_future_update_text">
+        <item quantity="other">Shkarkimet inteligjente do të përditësohen vetë pas %1$d ditësh</item>
+        <item quantity="one">Shkarkimet inteligjente do të përditësohen vetë pas 1 dite</item>
+    </plurals>
+    <plurals name="sticker_dialog_title">
+        <item quantity="other">Kthehu për %1$d ditë</item>
+        <item quantity="one">Kthehu për 1 ditë</item>
+    </plurals>
+    <plurals name="too_many_external_uploads_error_msg">
+        <item quantity="other">Mund të ngarkosh vetëm %1$d video në të njëjtën kohë.</item>
+        <item quantity="one">Mund të ngarkosh vetëm %1$d video në të njëjtën kohë.</item>
+    </plurals>
+    <plurals name="transcoding_progress">
+        <item quantity="other">Duke përgatitur %1$,d%%</item>
+        <item quantity="one">Duke përgatitur %1$,d%%</item>
+    </plurals>
+    <plurals name="trim_segment_max_length">
+        <item quantity="other">Maksimumi %1$d sekonda</item>
+        <item quantity="one">Maksimumi 1 sekondë</item>
+    </plurals>
+    <plurals name="trim_switch_edu">
+        <item quantity="other">Shkurtoje videon në %1$d sekonda dhe shto muzikë</item>
+        <item quantity="one">Shkurtoje videon në 1 sekondë dhe shto muzikë</item>
+    </plurals>
+    <plurals name="trim_switch_edu_full_length_shorts">
+        <item quantity="other">Shkurtoje videon në %1$d ose më pak sekonda</item>
+        <item quantity="one">Shkurtoje videon në 1 ose më pak sekonda</item>
+    </plurals>
+    <plurals name="upload_hours_remaing">
+        <item quantity="other">Kanë mbetur rreth %1$,d orë</item>
+        <item quantity="one">Ka mbetur rreth %1$,d orë</item>
+    </plurals>
+    <plurals name="upload_indicator_all_completed">
+        <item quantity="other">U ngarkuan %d video</item>
+        <item quantity="one">Videoja u ngarkua</item>
+    </plurals>
+    <plurals name="upload_indicator_all_failed">
+        <item quantity="other">Asnjë nga videot e tua nuk mund të ngarkohet</item>
+        <item quantity="one">Videoja jote nuk mund të ngarkohet</item>
+    </plurals>
+    <plurals name="upload_indicator_all_uploading">
+        <item quantity="other">Po ngarkohen %d video</item>
+        <item quantity="one">Videoja po ngarkohet</item>
+    </plurals>
+    <plurals name="upload_indicator_partial_fail">
+        <item quantity="other">%1$d nga %2$d video nuk mund të ngarkohen</item>
+        <item quantity="one">%1$d nga %2$d video nuk mund të ngarkohen</item>
+    </plurals>
+    <plurals name="upload_indicator_uploading_and_completed_completed_part">
+        <item quantity="other">Ngarkuar: %d</item>
+        <item quantity="one">Ngarkuar: %d</item>
+    </plurals>
+    <plurals name="upload_indicator_uploading_and_completed_uploading_part">
+        <item quantity="other">Ende në ngarkim: %d</item>
+        <item quantity="one">Ende në ngarkim: %d</item>
+    </plurals>
+    <plurals name="upload_minutes_remaing">
+        <item quantity="other">Kanë mbetur rreth %1$,d minuta</item>
+        <item quantity="one">Ka mbetur rreth %1$,d minutë</item>
+    </plurals>
+    <plurals name="upload_notification_active_progress">
+        <item quantity="other">Po ngarkohen %1$d nga %2$d video</item>
+        <item quantity="one">Po ngarkohet 1 video</item>
+    </plurals>
+    <plurals name="upload_progress">
+        <item quantity="other">%1$,d%% e ngarkuar</item>
+        <item quantity="one">%1$,d%% e ngarkuar</item>
+    </plurals>
+    <plurals name="upload_seconds_remaing">
+        <item quantity="other">Kanë mbetur rreth %1$,d sekonda</item>
+        <item quantity="one">Ka mbetur rreth %1$,d sekondë</item>
+    </plurals>
+    <plurals name="uploads_failed">
+        <item quantity="other">%1$,d ngarkime nuk u kryen</item>
+        <item quantity="one">Ngarkimi nuk u krye</item>
+    </plurals>
+    <plurals name="uploads_failed_with_in_progress_videos">
+        <item quantity="other">%1$,d/%2$,d ngarkime nuk u kryen</item>
+        <item quantity="one">%1$,d/%2$,d ngarkime nuk u kryen</item>
+    </plurals>
+    <plurals name="uploads_in_progress">
+        <item quantity="other">%1$,d në ngarkim</item>
+        <item quantity="one">%1$,d në ngarkim</item>
+    </plurals>
+    <plurals name="user_education_quick_seek">
+        <item quantity="other">Trokit dy herë majtas ose djathtas për të kapërcyer %d sekonda</item>
+        <item quantity="one">Trokit dy herë majtas ose djathtas për të kapërcyer %d sekonda</item>
+    </plurals>
+    <plurals name="video_count">
+        <item quantity="other">%1$d video</item>
+        <item quantity="one">1 video</item>
+    </plurals>
+</resources>

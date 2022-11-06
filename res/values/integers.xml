@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="abc_config_activityDefaultDur">220</integer>
+    <integer name="abc_config_activityShortDur">150</integer>
+    <integer name="account_switcher_separator_padding_dp">8</integer>
+    <integer name="add_text_max_chars">1000</integer>
+    <integer name="advanced_text_seekbar_default">24</integer>
+    <item type="integer" name="anim_time_actionbar_background">@android:integer/config_longAnimTime</item>
+    <integer name="app_bar_elevation_anim_duration">150</integer>
+    <integer name="audio_swap_audio_track_view_scroll_hint_animation_duration_ms">300</integer>
+    <integer name="bar_color_pulse_duration">300</integer>
+    <integer name="bar_color_pulse_offset">0</integer>
+    <integer name="bar_entry_animation_duration">300</integer>
+    <integer name="bar_entry_icon_rotation_offset">150</integer>
+    <integer name="bar_exit_animation_duration">300</integer>
+    <integer name="bar_remind_animation_duration">300</integer>
+    <integer name="bar_remind_icon_rotation_offset">150</integer>
+    <integer name="bottom_sheet_slide_duration">150</integer>
+    <integer name="buffering_progress_transparency">230</integer>
+    <integer name="callout_animation_duration_ms">150</integer>
+    <integer name="callout_drawable_corner_radius">17</integer>
+    <integer name="channel_header_description_collapsed_lines">2</integer>
+    <integer name="channel_list_sub_menu_horizontal_spacing_factor">8</integer>
+    <integer name="compact_renderer_title_grid_mode_max_lines">2</integer>
+    <integer name="compact_renderer_title_max_lines">3</integer>
+    <integer name="compact_renderer_title_smaller_thumbnail_max_lines">2</integer>
+    <integer name="config_tooltipAnimTime">150</integer>
+    <integer name="creation_sheet_animation_duration">225</integer>
+    <integer name="design_snackbar_text_max_lines">2</integer>
+    <integer name="design_tab_indicator_anim_duration_ms">300</integer>
+    <integer name="endorsement_swap_period_ms">6000</integer>
+    <integer name="endorsement_text_duration_ms">200</integer>
+    <integer name="endorsement_thumbnail_duration_ms">300</integer>
+    <item type="integer" name="endscreen_hovercard_fade_in_duration_ms">@android:integer/config_shortAnimTime</item>
+    <item type="integer" name="fade_duration_fast">@android:integer/config_shortAnimTime</item>
+    <integer name="fade_duration_scheduled">700</integer>
+    <item type="integer" name="fade_duration_slow">@android:integer/config_longAnimTime</item>
+    <item type="integer" name="fade_overlay_fade_duration">@android:integer/config_mediumAnimTime</item>
+    <integer name="fragment_transition_duration_ms">150</integer>
+    <integer name="gm_sys_motion_duration_long1">300</integer>
+    <integer name="gm_sys_motion_duration_long2">350</integer>
+    <integer name="gm_sys_motion_duration_medium1">200</integer>
+    <integer name="gm_sys_motion_duration_medium2">250</integer>
+    <integer name="gm_sys_motion_duration_short1">75</integer>
+    <integer name="gm_sys_motion_duration_short2">150</integer>
+    <integer name="gm_sys_motion_path">1</integer>
+    <integer name="gm_sys_shape_large_corner_family">0</integer>
+    <integer name="gm_sys_shape_medium_corner_family">0</integer>
+    <integer name="gm_sys_shape_small_corner_family">0</integer>
+    <integer name="gm_sys_typescale_body1_text_style">0</integer>
+    <integer name="gm_sys_typescale_body2_text_style">0</integer>
+    <integer name="gm_sys_typescale_button_text_style">0</integer>
+    <integer name="gm_sys_typescale_caption_text_style">0</integer>
+    <integer name="gm_sys_typescale_display1_text_style">0</integer>
+    <integer name="gm_sys_typescale_display2_text_style">0</integer>
+    <integer name="gm_sys_typescale_display3_text_style">0</integer>
+    <integer name="gm_sys_typescale_headline1_text_style">0</integer>
+    <integer name="gm_sys_typescale_headline2_text_style">0</integer>
+    <integer name="gm_sys_typescale_headline3_text_style">0</integer>
+    <integer name="gm_sys_typescale_headline4_text_style">0</integer>
+    <integer name="gm_sys_typescale_headline5_text_style">0</integer>
+    <integer name="gm_sys_typescale_headline6_text_style">0</integer>
+    <integer name="gm_sys_typescale_overline_text_style">1</integer>
+    <integer name="gm_sys_typescale_subhead1_text_style">0</integer>
+    <integer name="gm_sys_typescale_subhead2_text_style">0</integer>
+    <integer name="gm_sys_typescale_subtitle1_text_style">1</integer>
+    <integer name="gm_sys_typescale_subtitle2_text_style">1</integer>
+    <integer name="google_btn_anim_delay_ms">100</integer>
+    <integer name="google_btn_anim_duration_ms">100</integer>
+    <integer name="google_play_services_version">212980000</integer>
+    <integer name="grid_shelf_num_columns">2</integer>
+    <integer name="hide_password_duration">320</integer>
+    <integer name="horizontal_shelf_num_columns">1</integer>
+    <integer name="horizontal_shelf_num_columns_linear_grid_feed_tablet_prominent">2</integer>
+    <integer name="ic_thumbnail_placeholder_pivot">16</integer>
+    <integer name="info_card_accessibility_teaser_vibrate_duration_ms">50</integer>
+    <integer name="inline_survey_max_follow_up_question_rows">100</integer>
+    <integer name="invideo_accessibility_vibration_duration_ms">50</integer>
+    <integer name="layout_match_parent">-1</integer>
+    <integer name="layout_wrap_content">-2</integer>
+    <integer name="lc_aspect_ratio_height">9</integer>
+    <integer name="lc_aspect_ratio_width">16</integer>
+    <integer name="lc_close_icon_active_alpha">255</integer>
+    <integer name="lc_close_icon_inactive_alpha">127</integer>
+    <integer name="lc_post_stream_content_layout_weight">0</integer>
+    <integer name="lc_post_stream_header_lines">2</integer>
+    <item type="integer" name="lc_post_stream_orientation">@integer/orientation_vertical</item>
+    <integer name="lc_post_stream_stat_column_count">2</integer>
+    <item type="integer" name="lc_post_stream_thumbnail_container_height">@integer/layout_wrap_content</item>
+    <integer name="lc_post_stream_thumbnail_content_layout_weight">0</integer>
+    <integer name="lc_scheduled_events_columns">1</integer>
+    <integer name="list_item_dragging_background_alpha">0x000000E6</integer>
+    <integer name="live_chat_dark_inactive_send_button_icon_alpha">255</integer>
+    <integer name="live_chat_dialog_title_max_lines">3</integer>
+    <integer name="live_chat_light_inactive_send_button_icon_alpha">85</integer>
+    <integer name="material_motion_duration_long_1">300</integer>
+    <integer name="material_motion_duration_long_2">350</integer>
+    <integer name="material_motion_duration_medium_1">200</integer>
+    <integer name="material_motion_duration_medium_2">250</integer>
+    <integer name="material_motion_duration_short_1">75</integer>
+    <integer name="material_motion_duration_short_2">150</integer>
+    <integer name="material_motion_path">0</integer>
+    <integer name="mdx_updated_use_tv_code_full_code_length">15</integer>
+    <integer name="mdx_use_tv_code_full_code_length">12</integer>
+    <integer name="mdx_use_tv_code_max_length">3</integer>
+    <integer name="mr_controller_volume_group_list_animation_duration_ms">400</integer>
+    <integer name="mr_controller_volume_group_list_fade_in_duration_ms">400</integer>
+    <integer name="mr_controller_volume_group_list_fade_out_duration_ms">200</integer>
+    <integer name="mtrl_badge_max_character_count">4</integer>
+    <integer name="mtrl_btn_anim_delay_ms">100</integer>
+    <integer name="mtrl_btn_anim_duration_ms">100</integer>
+    <integer name="mtrl_calendar_selection_text_lines">1</integer>
+    <integer name="mtrl_card_anim_delay_ms">75</integer>
+    <integer name="mtrl_card_anim_duration_ms">120</integer>
+    <integer name="mtrl_chip_anim_duration">100</integer>
+    <integer name="mtrl_tab_indicator_anim_duration_ms">250</integer>
+    <integer name="mtrl_view_invisible">1</integer>
+    <integer name="next_gen_watch_down_and_out_transition_animation_duration_ms">500</integer>
+    <integer name="next_gen_watch_min_max_transition_animation_duration_ms">410</integer>
+    <integer name="next_gen_watch_transition_animation_duration_ms">350</integer>
+    <integer name="orientation_horizontal">0</integer>
+    <integer name="orientation_vertical">1</integer>
+    <integer name="playlist_delay_before_drag_start_ms">100</integer>
+    <integer name="playlist_header_description_lines_collapsed">4</integer>
+    <integer name="playlist_header_description_lines_expanded">50</integer>
+    <integer name="playlist_title_character_limit">150</integer>
+    <integer name="preview_card_video_card_title_max_lines">3</integer>
+    <integer name="preview_card_video_description_row_number">4</integer>
+    <integer name="preview_to_player_anim_duration_ms">750</integer>
+    <integer name="reel_camera_time_progress_bar_max">10000</integer>
+    <integer name="reel_edit_swipe_effect_text_view_shadow_radius">10</integer>
+    <integer name="reel_edit_video_tap_for_more_shadow">1</integer>
+    <integer name="reel_edit_video_tap_for_more_shadow_radius">1</integer>
+    <integer name="reel_grid_column_count">2</integer>
+    <integer name="reel_item_channel_name_max_lines">1</integer>
+    <integer name="reel_item_video_title_max_lines">3</integer>
+    <integer name="reel_player_right_cell_shadow">6</integer>
+    <integer name="reel_player_right_cell_shadow_dx">0</integer>
+    <integer name="reel_player_right_cell_shadow_dy">1</integer>
+    <integer name="reels_activity_transition_entry_duration">300</integer>
+    <integer name="reels_activity_transition_exit_duration">250</integer>
+    <integer name="rtl_mirror_flip">0</integer>
+    <integer name="sans_serif_medium_textStyle">0</integer>
+    <integer name="screencast_live_chat_height_percent">50</integer>
+    <integer name="screencast_live_chat_width_percent">100</integer>
+    <integer name="section_list_drawer_selected_avatar_color_alpha">0x000000BF</integer>
+    <integer name="share_panel_landscape_columns">5</integer>
+    <integer name="share_panel_portrait_columns">3</integer>
+    <integer name="share_panel_third_party_columns">3</integer>
+    <integer name="shorts_timer_default_recording_length_millis">15000</integer>
+    <integer name="shorts_timer_duration_long_sec">20</integer>
+    <integer name="shorts_timer_duration_medium_sec">10</integer>
+    <integer name="shorts_timer_duration_short_sec">3</integer>
+    <integer name="show_password_duration">200</integer>
+    <integer name="status_bar_notification_info_maxnum">999</integer>
+    <integer name="stream_title_max_lines">1</integer>
+    <integer name="sudTransitionDuration">300</integer>
+    <integer name="topic_channel_banner_translation_x">-800</integer>
+    <integer name="topic_picker_max_number_of_topics_to_expand">3</integer>
+    <integer name="topic_picker_row_span">3</integer>
+    <integer name="user_mention_sticker_max_ems">15</integer>
+    <integer name="video_card_title_max_lines">2</integer>
+    <integer name="video_interaction_dialog_vertical_arrow_rotations">45</integer>
+    <integer name="video_trim_view_frame_change_vibrate_disable_delay_ms">50</integer>
+    <integer name="video_trim_view_frame_change_vibrate_duration_ms">25</integer>
+    <integer name="video_trim_view_frame_change_vibrate_enable_delay_ms">100</integer>
+    <integer name="video_trim_view_scroll_speed_ms_speed_per_second">1000</integer>
+    <integer name="video_trim_view_zoom_in_vibrate_duration_ms">50</integer>
+    <integer name="video_trim_view_zoomed_duration_ms">2000</integer>
+    <integer name="watch_card_related_entities_count">3</integer>
+    <integer name="youtube_api_version_code">11200</integer>
+    <item type="integer" name="APKTOOL_DUMMY_7" />
+    <item type="integer" name="APKTOOL_DUMMY_14" />
+    <item type="integer" name="APKTOOL_DUMMY_15" />
+    <item type="integer" name="APKTOOL_DUMMY_16" />
+    <item type="integer" name="APKTOOL_DUMMY_19" />
+    <item type="integer" name="APKTOOL_DUMMY_1a" />
+    <item type="integer" name="APKTOOL_DUMMY_1b" />
+    <item type="integer" name="APKTOOL_DUMMY_1c" />
+    <item type="integer" name="APKTOOL_DUMMY_1f" />
+    <item type="integer" name="APKTOOL_DUMMY_22" />
+    <item type="integer" name="APKTOOL_DUMMY_23" />
+    <item type="integer" name="APKTOOL_DUMMY_27" />
+    <item type="integer" name="APKTOOL_DUMMY_28" />
+    <item type="integer" name="APKTOOL_DUMMY_29" />
+    <item type="integer" name="APKTOOL_DUMMY_55" />
+    <item type="integer" name="APKTOOL_DUMMY_61" />
+    <item type="integer" name="APKTOOL_DUMMY_6d" />
+    <item type="integer" name="APKTOOL_DUMMY_76" />
+    <item type="integer" name="APKTOOL_DUMMY_77" />
+    <item type="integer" name="APKTOOL_DUMMY_7b" />
+    <item type="integer" name="APKTOOL_DUMMY_7f" />
+    <item type="integer" name="APKTOOL_DUMMY_83" />
+    <item type="integer" name="APKTOOL_DUMMY_85" />
+    <item type="integer" name="APKTOOL_DUMMY_8a" />
+    <item type="integer" name="APKTOOL_DUMMY_8c" />
+    <item type="integer" name="APKTOOL_DUMMY_8d" />
+    <item type="integer" name="APKTOOL_DUMMY_8e" />
+    <item type="integer" name="APKTOOL_DUMMY_8f" />
+    <item type="integer" name="APKTOOL_DUMMY_93" />
+    <item type="integer" name="APKTOOL_DUMMY_a9" />
+    <item type="integer" name="APKTOOL_DUMMY_ae" />
+    <item type="integer" name="APKTOOL_DUMMY_af" />
+    <item type="integer" name="APKTOOL_DUMMY_b4" />
+    <item type="integer" name="APKTOOL_DUMMY_b5" />
+    <item type="integer" name="APKTOOL_DUMMY_b6" />
+    <item type="integer" name="APKTOOL_DUMMY_b7" />
+    <item type="integer" name="APKTOOL_DUMMY_b8" />
+    <item type="integer" name="APKTOOL_DUMMY_b9" />
+    <item type="integer" name="APKTOOL_DUMMY_ba" />
+    <item type="integer" name="APKTOOL_DUMMY_bb" />
+    <item type="integer" name="APKTOOL_DUMMY_c1" />
+    <item type="integer" name="APKTOOL_DUMMY_c2" />
+    <item type="integer" name="APKTOOL_DUMMY_c3" />
+    <item type="integer" name="APKTOOL_DUMMY_c4" />
+    <item type="integer" name="APKTOOL_DUMMY_c6" />
+    <item type="integer" name="APKTOOL_DUMMY_c9" />
+    <item type="integer" name="APKTOOL_DUMMY_ca" />
+    <item type="integer" name="APKTOOL_DUMMY_cb" />
+    <item type="integer" name="APKTOOL_DUMMY_ce" />
+    <item type="integer" name="APKTOOL_DUMMY_d0" />
+    <item type="integer" name="APKTOOL_DUMMY_d1" />
+    <item type="integer" name="APKTOOL_DUMMY_d2" />
+    <item type="integer" name="APKTOOL_DUMMY_d3" />
+    <item type="integer" name="APKTOOL_DUMMY_d4" />
+</resources>

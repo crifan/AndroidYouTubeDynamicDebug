@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="OneGoogle.AccountParticle.DayNight" parent="@style/OneGoogle.AccountParticle.Dark" />
+    <style name="OneGoogle.AccountParticleDisc.DayNight" parent="@style/OneGoogle.AccountParticleDisc.Dark" />
+    <style name="SudThemeGlif.DayNight" parent="@style/SudThemeGlif" />
+    <style name="SudThemeGlifV3.DayNight" parent="@style/SudThemeGlifV3" />
+    <style name="Theme.AppCompat.DayNight" parent="@style/Theme.AppCompat" />
+    <style name="Theme.AppCompat.DayNight.NoActionBar" parent="@style/Theme.AppCompat.NoActionBar" />
+    <style name="Theme.GoogleMaterial.DayNight" parent="@style/Theme.GoogleMaterial.Dark" />
+    <style name="Theme.GoogleMaterial.DayNight.Bridge" parent="@style/Theme.GoogleMaterial.Dark.Bridge" />
+    <style name="Theme.GoogleMaterial.DayNight.NoActionBar" parent="@style/Theme.GoogleMaterial.Dark.NoActionBar" />
+    <style name="Theme.MaterialComponents.DayNight" parent="@style/Theme.MaterialComponents" />
+    <style name="Theme.OneGoogle.DayNight.ExpressSignInDialog" parent="@style/Theme.OneGoogle.Dark.ExpressSignInDialog" />
+    <style name="Theme.YouTube.Launcher" parent="@style/Base.Theme.YouTube.Launcher.Dark" />
+</resources>

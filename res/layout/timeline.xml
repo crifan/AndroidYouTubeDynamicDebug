@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/timeline_root" android:background="@color/timeline_bg_color" android:layout_width="fill_parent" android:layout_height="@dimen/timeline_height"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:custom="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/timeline_top_bar" android:layout_width="fill_parent" android:layout_height="@dimen/timeline_top_bar_height" layout="@layout/timeline_top_bar" />
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="310.0dip">
+        <LinearLayout android:layout_gravity="bottom" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <android.support.v7.widget.RecyclerView android:id="@id/tracks_list" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="250.0dip" android:paddingStart="12.0dip" android:paddingEnd="12.0dip" />
+            <include android:id="@id/video_strip" android:layout_width="fill_parent" android:layout_height="@dimen/video_strip_height" layout="@layout/video_strip" />
+        </LinearLayout>
+        <com.google.android.apps.youtube.app.extensions.reel.creation.shorts.edit.timeline.TimelineSeekBar android:id="@id/player_cursor_controller" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="@dimen/gap_between_cursors" android:layout_marginStart="@dimen/seek_bar_horizontal_margins" android:layout_marginEnd="@dimen/seek_bar_horizontal_margins" custom:cursor_color="@color/divider_color" custom:gap_between_cursors="@dimen/gap_between_cursors" custom:progress_background="@drawable/shorts_editable_video_controller_progress_bar" custom:progress_background_height="@dimen/progress_background_height" custom:scrubber_drawable="@drawable/play_progressbar_thumb" />
+    </FrameLayout>
+</LinearLayout>

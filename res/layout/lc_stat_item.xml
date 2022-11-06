@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/small_title_text_size" android:textColor="?ytTextSecondary" android:id="@id/stat_title_text_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:textIsSelectable="true" android:fontFamily="sans-serif" />
+    <TextView android:textSize="@dimen/lc_post_stream_stat_title_text_size" android:textStyle="bold" android:textColor="?ytTextPrimary" android:id="@id/stat_value_text_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:layout_below="@id/stat_title_text_view" android:textIsSelectable="true" android:fontFamily="sans-serif" />
+</merge>

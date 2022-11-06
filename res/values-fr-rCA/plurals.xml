@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="accessibility_dislike_video_plural">
+        <item quantity="other">"Bouton Je n'aime pas, %1$d autres personnes n'aiment pas cette vidéo"</item>
+        <item quantity="one">"Bouton Je n'aime pas, %1$d autre personne n'aime pas cette vidéo"</item>
+    </plurals>
+    <plurals name="accessibility_dtts_fast_forward">
+        <item quantity="other">Avancer rapidement de %1$d secondes</item>
+        <item quantity="one">Avancer rapidement de %1$d seconde</item>
+    </plurals>
+    <plurals name="accessibility_dtts_rewind">
+        <item quantity="other">Reculer de %1$d secondes</item>
+        <item quantity="one">Reculer de %1$d seconde</item>
+    </plurals>
+    <plurals name="accessibility_duration_description_hours">
+        <item quantity="other">%d heures</item>
+        <item quantity="one">%d heure</item>
+    </plurals>
+    <plurals name="accessibility_duration_description_minutes">
+        <item quantity="other">%d minutes</item>
+        <item quantity="one">%d minute</item>
+    </plurals>
+    <plurals name="accessibility_duration_description_seconds">
+        <item quantity="other">%d secondes</item>
+        <item quantity="one">%d seconde</item>
+    </plurals>
+    <plurals name="accessibility_like_video_plural">
+        <item quantity="other">"Bouton J'aime, %1$d autres personnes aiment cette vidéo"</item>
+        <item quantity="one">"Bouton J'aime, %1$d autre personne aime cette vidéo"</item>
+    </plurals>
+    <plurals name="accessibility_skip_ad_in">
+        <item quantity="other">"Ignorer l'annonce dans %1$d secondes"</item>
+        <item quantity="one">"Ignorer l'annonce dans %1$d seconde"</item>
+    </plurals>
+    <plurals name="accessibility_undo_dislike_video_plural">
+        <item quantity="other">"Bouton d'annulation de la mention Je n'aime pas, %1$d autres personnes n'aiment pas cette vidéo"</item>
+        <item quantity="one">"Bouton d'annulation de la mention Je n'aime pas, %1$d autre personne n'aime pas cette vidéo"</item>
+    </plurals>
+    <plurals name="accessibility_undo_like_video_plural">
+        <item quantity="other">"Bouton d'annulation de la mention J'aime, %1$d autres personnes aiment cette vidéo"</item>
+        <item quantity="one">"Bouton d'annulation de la mention J'aime, %1$d autre personne aime cette vidéo"</item>
+    </plurals>
+    <plurals name="download_new_videos_button_text">
+        <item quantity="other">Télécharger %1$d nouvelles vidéos</item>
+        <item quantity="one">Télécharger %1$d nouvelle vidéo</item>
+    </plurals>
+    <plurals name="download_playlist_unplayable_future_days_plural">
+        <item quantity="other">"L'abonnement à Premium sera requis pour certaines vidéos dans %1$d jours"</item>
+        <item quantity="one">"L'abonnement à Premium sera requis pour certaines vidéos dans %1$d jour"</item>
+    </plurals>
+    <plurals name="download_playlist_unplayable_future_hours_plural">
+        <item quantity="other">"L'abonnement à Premium sera requis pour certaines vidéos dans %1$d heures"</item>
+        <item quantity="one">"L'abonnement à Premium sera requis pour certaines vidéos dans %1$d heure"</item>
+    </plurals>
+    <plurals name="download_playlist_unplayable_future_minutes_plural">
+        <item quantity="other">"L'abonnement à Premium sera requis pour certaines vidéos dans %1$d minutes"</item>
+        <item quantity="one">"L'abonnement à Premium sera requis pour certaines vidéos dans %1$d minute"</item>
+    </plurals>
+    <plurals name="download_video_unplayable_future_days_plural">
+        <item quantity="other">Abonnement à Premium requis dans %1$d jours</item>
+        <item quantity="one">Abonnement à Premium requis dans %1$d jour</item>
+    </plurals>
+    <plurals name="download_video_unplayable_future_hours_plural">
+        <item quantity="other">Abonnement à Premium requis dans %1$d heures</item>
+        <item quantity="one">Abonnement à Premium requis dans %1$d heure</item>
+    </plurals>
+    <plurals name="download_video_unplayable_future_minutes_plural">
+        <item quantity="other">Abonnement à Premium requis dans %1$d minutes</item>
+        <item quantity="one">Abonnement à Premium requis dans %1$d minute</item>
+    </plurals>
+    <plurals name="duration_minutes">
+        <item quantity="other">%1$d minutes</item>
+        <item quantity="zero">0 minute</item>
+        <item quantity="one">1 minute</item>
+        <item quantity="two">2 minutes</item>
+        <item quantity="few">%1$d minutes</item>
+        <item quantity="many">%1$d minutes</item>
+    </plurals>
+    <plurals name="duration_seconds">
+        <item quantity="other">%1$d secondes</item>
+        <item quantity="zero">0 seconde</item>
+        <item quantity="one">1 seconde</item>
+        <item quantity="two">2 secondes</item>
+        <item quantity="few">%1$d secondes</item>
+        <item quantity="many">%1$d secondes</item>
+    </plurals>
+    <plurals name="frequency_hours_component">
+        <item quantity="other">%1$d heures</item>
+        <item quantity="one">%1$d heure</item>
+    </plurals>
+    <plurals name="frequency_hours_only">
+        <item quantity="other">Chaque %1$d heures</item>
+        <item quantity="one">Chaque %1$d heure</item>
+    </plurals>
+    <plurals name="frequency_minutes_component">
+        <item quantity="other">%1$d minutes</item>
+        <item quantity="one">%1$d minute</item>
+    </plurals>
+    <plurals name="frequency_minutes_only">
+        <item quantity="other">Chaque %1$d minutes</item>
+        <item quantity="one">Chaque %1$d minute</item>
+    </plurals>
+    <plurals name="image_picker_title">
+        <item quantity="other">%1$d images sélectionnées</item>
+        <item quantity="one">%1$d image sélectionnée</item>
+    </plurals>
+    <plurals name="invalid_uploads_error_msg">
+        <item quantity="other">"Un ou plusieurs de ces fichiers vidéo ne sont pas accessibles ou sont incorrects. Veuillez réessayer ou en choisir d'autres."</item>
+        <item quantity="one">"Ce fichier vidéo n'est pas accessible ou est incorrect. Veuillez réessayer ou en choisir un autre."</item>
+    </plurals>
+    <plurals name="last_update_in_days_message">
+        <item quantity="other">Mise à jour il y a %1$d jours</item>
+        <item quantity="one">Mise à jour il y a %1$d jour</item>
+    </plurals>
+    <plurals name="last_update_in_hours_message">
+        <item quantity="other">Mise à jour il y a %1$d heures</item>
+        <item quantity="one">Mise à jour il y a %1$d heure</item>
+    </plurals>
+    <plurals name="last_update_in_minutes_message">
+        <item quantity="other">Mise à jour il y a %1$d minutes</item>
+        <item quantity="one">Mise à jour il y a %1$d minute</item>
+    </plurals>
+    <plurals name="last_update_in_weeks_message">
+        <item quantity="other">Mise à jour il y a %1$d semaines</item>
+        <item quantity="one">Mise à jour il y a %1$d semaine</item>
+    </plurals>
+    <plurals name="notification_playlist_progress_size">
+        <item quantity="other">%1$d vidéos sur %2$d</item>
+        <item quantity="one">%1$d vidéo sur %2$d</item>
+    </plurals>
+    <plurals name="offline_go_online_to_renew_dialog_message">
+        <item quantity="other">"Les téléchargements demeurent disponibles tant que votre appareil est connecté à Internet tous les %1$d jours. Ce processus est automatique et n'entraîne pas un nouveau téléchargement des vidéos."</item>
+        <item quantity="one">"Les téléchargements demeurent disponibles tant que votre appareil est connecté à Internet tous les %1$d jour. Ce processus est automatique et n'entraîne pas un nouveau téléchargement des vidéos."</item>
+    </plurals>
+    <plurals name="offline_go_online_to_renew_snackbar_message">
+        <item quantity="other">Les téléchargements demeurent disponibles pendant %1$d jours sans connexion Internet.</item>
+        <item quantity="one">Les téléchargements demeurent disponibles pendant %1$d jour sans connexion Internet.</item>
+    </plurals>
+    <plurals name="offline_remember_setting_for_days">
+        <item quantity="other">Mémoriser mes paramètres pendant %1$d jours</item>
+        <item quantity="one">Mémoriser mes paramètres pendant %1$d jour</item>
+    </plurals>
+    <plurals name="playlist_picker_dialog_done">
+        <item quantity="other">Listes de lecture mises à jour</item>
+        <item quantity="one">Liste de lecture mise à jour</item>
+    </plurals>
+    <plurals name="playlist_size">
+        <item quantity="other">%1$,d vidéos</item>
+        <item quantity="one">%1$,d vidéo</item>
+    </plurals>
+    <plurals name="playlist_size_downloaded">
+        <item quantity="other">%1$,d téléchargées</item>
+        <item quantity="one">%1$,d téléchargée</item>
+    </plurals>
+    <plurals name="playlist_size_total">
+        <item quantity="other">%1$,d vidéos</item>
+        <item quantity="one">%1$,d vidéo</item>
+    </plurals>
+    <plurals name="public_notification_text">
+        <item quantity="other">%1$d nouvelles notifications</item>
+        <item quantity="one">%1$d nouvelle notification</item>
+    </plurals>
+    <plurals name="quick_seek_x_second">
+        <item quantity="other">%d secondes</item>
+        <item quantity="one">%d seconde</item>
+    </plurals>
+    <plurals name="recommendation_count">
+        <item quantity="other">%1$d recommandations</item>
+        <item quantity="one">%1$d recommandation</item>
+    </plurals>
+    <plurals name="rental_expiry_notice">
+        <item quantity="other">Une fois la vidéo lancée, vous disposerez de %1$d heures pour la regarder.</item>
+        <item quantity="one">Une fois la vidéo lancée, vous disposerez de %1$d heure pour la regarder.</item>
+    </plurals>
+    <plurals name="rental_long_days_remaining">
+        <item quantity="other">Expire dans %1$d jours</item>
+        <item quantity="one">Expire dans %1$d jour</item>
+    </plurals>
+    <plurals name="rental_long_hours_remaining">
+        <item quantity="other">Expire dans %1$d heures</item>
+        <item quantity="one">Expire dans %1$d heure</item>
+    </plurals>
+    <plurals name="rental_long_weeks_remaining">
+        <item quantity="other">Expire dans %1$d semaines</item>
+        <item quantity="one">Expire dans %1$d semaine</item>
+    </plurals>
+    <plurals name="rental_medium_days_remaining">
+        <item quantity="other">Expire dans %1$d jours</item>
+        <item quantity="one">Expire dans %1$d jour</item>
+    </plurals>
+    <plurals name="rental_medium_hours_remaining">
+        <item quantity="other">Expire dans %1$d heures</item>
+        <item quantity="one">Expire dans %1$d heure</item>
+    </plurals>
+    <plurals name="rental_medium_weeks_remaining">
+        <item quantity="other">Expire dans %1$d semaines</item>
+        <item quantity="one">Expire dans %1$d semaine</item>
+    </plurals>
+    <plurals name="selected_video_count">
+        <item quantity="other">%1$d vidéos sélectionnées</item>
+        <item quantity="one">%1$d vidéo sélectionnée</item>
+    </plurals>
+    <plurals name="shorts_a11y_duration_seconds">
+        <item quantity="other">%1$s secondes</item>
+        <item quantity="one">%1$s seconde</item>
+    </plurals>
+    <plurals name="shorts_a11y_timer_duration_seconds">
+        <item quantity="other">Minuterie de %1$d secondes</item>
+        <item quantity="one">Minuterie de %1$d seconde</item>
+    </plurals>
+    <plurals name="shorts_a11y_timer_started">
+        <item quantity="other">Minuterie de %1$d secondes activée</item>
+        <item quantity="one">Minuterie de %1$d seconde activée</item>
+    </plurals>
+    <plurals name="smart_downloads_future_update_text">
+        <item quantity="other">Les téléchargements intelligents seront automatiquement mis à jour dans %1$d jours</item>
+        <item quantity="one">Les téléchargements intelligents seront automatiquement mis à jour dans %1$d jour</item>
+    </plurals>
+    <plurals name="sticker_dialog_title">
+        <item quantity="other">Revenez dans %1$d jours</item>
+        <item quantity="one">Revenez dans %1$d jour</item>
+    </plurals>
+    <plurals name="too_many_external_uploads_error_msg">
+        <item quantity="other">Vous ne pouvez téléverser que %1$d vidéos à la fois.</item>
+        <item quantity="one">Vous ne pouvez téléverser que %1$d vidéo à la fois.</item>
+    </plurals>
+    <plurals name="transcoding_progress">
+        <item quantity="other">Préparation %1$,d %%</item>
+        <item quantity="one">Préparation %1$,d %%</item>
+    </plurals>
+    <plurals name="trim_segment_max_length">
+        <item quantity="other">Maximum de %1$d secondes</item>
+        <item quantity="one">Maximum de %1$d seconde</item>
+    </plurals>
+    <plurals name="trim_switch_edu">
+        <item quantity="other">Découpez votre vidéo à %1$d secondes et ajoutez de la musique</item>
+        <item quantity="one">Découpez votre vidéo à %1$d seconde et ajoutez de la musique</item>
+    </plurals>
+    <plurals name="trim_switch_edu_full_length_shorts">
+        <item quantity="other">Découpez votre vidéo à %1$d secondes ou moins</item>
+        <item quantity="one">Découpez votre vidéo à %1$d seconde ou moins</item>
+    </plurals>
+    <plurals name="upload_hours_remaing">
+        <item quantity="other">Environ %1$,d heures restantes</item>
+        <item quantity="one">Environ %1$,d heure restante</item>
+    </plurals>
+    <plurals name="upload_indicator_all_completed">
+        <item quantity="other">%d vidéos téléversées</item>
+        <item quantity="one">%d vidéo téléversée</item>
+    </plurals>
+    <plurals name="upload_indicator_all_failed">
+        <item quantity="other">Impossible de téléverser vos vidéos</item>
+        <item quantity="one">Impossible de téléverser votre vidéo</item>
+    </plurals>
+    <plurals name="upload_indicator_all_uploading">
+        <item quantity="other">Téléversement de %d vidéos en cours…</item>
+        <item quantity="one">Téléversement de %d vidéo en cours…</item>
+    </plurals>
+    <plurals name="upload_indicator_partial_fail">
+        <item quantity="other">Impossible de téléverser %1$d vidéos sur %2$d</item>
+        <item quantity="one">Impossible de téléverser %1$d vidéo sur %2$d</item>
+    </plurals>
+    <plurals name="upload_indicator_uploading_and_completed_completed_part">
+        <item quantity="other">%d téléversements</item>
+        <item quantity="one">%d téléversement</item>
+    </plurals>
+    <plurals name="upload_indicator_uploading_and_completed_uploading_part">
+        <item quantity="other">%d téléversements toujours en cours…</item>
+        <item quantity="one">%d téléversement toujours en cours…</item>
+    </plurals>
+    <plurals name="upload_minutes_remaing">
+        <item quantity="other">Environ %1$,d minutes restantes</item>
+        <item quantity="one">Environ %1$,d minute restante</item>
+    </plurals>
+    <plurals name="upload_notification_active_progress">
+        <item quantity="other">Téléversement de %1$d vidéos sur %2$d</item>
+        <item quantity="one">Téléversement de %1$d vidéo sur %2$d</item>
+    </plurals>
+    <plurals name="upload_progress">
+        <item quantity="other">%1$,d %% téléversés</item>
+        <item quantity="one">%1$,d %% téléversé</item>
+    </plurals>
+    <plurals name="upload_seconds_remaing">
+        <item quantity="other">Environ %1$,d secondes restantes</item>
+        <item quantity="one">Environ %1$,d seconde restante</item>
+    </plurals>
+    <plurals name="uploads_failed">
+        <item quantity="other">Échec de %1$,d téléversements</item>
+        <item quantity="one">Échec de %1$,d téléversement</item>
+    </plurals>
+    <plurals name="uploads_failed_with_in_progress_videos">
+        <item quantity="other">Échec du téléversement de %1$,d vidéos sur %2$,d</item>
+        <item quantity="one">Échec du téléversement de %1$,d vidéo sur %2$,d</item>
+    </plurals>
+    <plurals name="uploads_in_progress">
+        <item quantity="other">%1$,d téléversements en cours…</item>
+        <item quantity="one">%1$,d téléversement en cours…</item>
+    </plurals>
+    <plurals name="user_education_quick_seek">
+        <item quantity="other">Touchez deux fois à gauche ou à droite pour sauter %d secondes</item>
+        <item quantity="one">Touchez deux fois à gauche ou à droite pour sauter %d seconde</item>
+    </plurals>
+    <plurals name="video_count">
+        <item quantity="other">%1$d vidéos</item>
+        <item quantity="one">%1$d vidéo</item>
+    </plurals>
+</resources>

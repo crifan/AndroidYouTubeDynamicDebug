@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/promoted_app_install" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:yt="http://schemas.android.com/apk/res-auto">
+    <ViewStub android:id="@id/promoted_app_install_new_line_layout_stub" android:layout="@layout/promoted_app_install_new_line_layout" android:inflatedId="@id/promoted_app_install_new_line_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <ViewStub android:id="@id/promoted_app_install_right_align_layout_stub" android:layout="@layout/promoted_app_install_right_align_layout" android:inflatedId="@id/promoted_app_install_right_align_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</FrameLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_gravity="center" android:id="@id/loading_status_view" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/text_link_item_common" />
+    <ViewStub android:id="@id/load_progress_stub" android:layout="@layout/loading_frame_status_progress_view" android:inflatedId="@id/load_progress" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <ViewStub android:id="@id/error_compact_view_stub" android:layout="@layout/loading_status_error_compact_view" android:inflatedId="@id/error_compact_view" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <ViewStub android:id="@id/error_full_view_stub" android:layout="@layout/loading_status_error_full_view_common" android:inflatedId="@id/error_full_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</FrameLayout>

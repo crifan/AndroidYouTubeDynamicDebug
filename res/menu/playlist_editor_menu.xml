@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:yt="http://schemas.android.com/apk/res-auto">
+    <item android:icon="@drawable/ic_menu_upload_send_mtrl_alpha" android:id="@id/menu_save_playlist" android:title="@string/save_playlist_menu_item_title" yt:showAsAction="always|withText" />
+</menu>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:left="9.0dip" android:top="20.0dip" android:right="9.0dip">
+        <shape android:shape="rectangle">
+            <size android:height="35.0dip" android:width="@dimen/duration_ms_seek_bar_thumb_width" />
+            <solid android:color="?ytThemedBlue" />
+            <corners android:radius="2.0dip" />
+        </shape>
+    </item>
+    <item android:top="48.0dip">
+        <shape android:shape="oval">
+            <size android:height="21.0dip" android:width="21.0dip" />
+            <solid android:color="?ytThemedBlue" />
+        </shape>
+    </item>
+</layer-list>

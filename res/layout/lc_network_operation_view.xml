@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ProgressBar android:layout_gravity="center" android:id="@id/spinner" android:layout_width="@dimen/spinner_width" android:layout_height="@dimen/spinner_height" android:indeterminate="true" style="?android:progressBarStyleLarge" />
+    <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:background="@android:color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.google.android.libraries.youtube.livecreation.ui.view.WaitingIndicatorView android:id="@id/network_transition_spinner" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:indeterminate="true" style="?android:progressBarStyleLarge" />
+        <TextView android:textSize="@dimen/lc_notification_text_size" android:textColor="@color/lc_white" android:id="@id/progress_indicator_text" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/lc_activity_margin" android:fontFamily="sans-serif-light" />
+    </LinearLayout>
+    <TextView android:textSize="@dimen/title_text_size" android:textColor="@color/lc_white_70" android:gravity="center" android:layout_gravity="center" android:id="@id/error_message_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/lc_activity_margin" android:text="@string/lc_error_state_connection_failed" android:drawableTop="@drawable/quantum_ic_cloud_off_white_48" android:drawablePadding="@dimen/lc_activity_margin" android:fontFamily="sans-serif-light" />
+    <LinearLayout android:layout_gravity="bottom" android:orientation="horizontal" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/lc_net_op_button_container_margin">
+        <Button android:textSize="@dimen/body_text_size" android:textColor="@color/lc_white" android:layout_gravity="center_horizontal" android:id="@id/action_button_positive" android:background="@drawable/lc_bordered_transparent_button" android:layout_width="0.0dip" android:layout_height="@dimen/lc_action_button_height" android:text="@string/lc_retry_yes" android:layout_weight="1.0" android:fontFamily="sans-serif-light" android:layout_marginEnd="@dimen/lc_net_op_button_horizontal_spacing" />
+        <Button android:textSize="@dimen/body_text_size" android:textColor="@color/lc_white" android:layout_gravity="center_horizontal" android:id="@id/action_button_negative" android:background="@drawable/lc_bordered_transparent_button" android:layout_width="0.0dip" android:layout_height="@dimen/lc_action_button_height" android:text="@string/lc_retry_no" android:layout_weight="1.0" android:fontFamily="sans-serif-light" />
+    </LinearLayout>
+</merge>

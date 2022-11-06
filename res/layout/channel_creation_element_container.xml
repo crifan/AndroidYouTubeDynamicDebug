@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:yt="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.appbar.AppBarLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:elevation="4.0dip">
+        <android.support.v7.widget.Toolbar android:theme="?actionBarTheme" android:id="@id/toolbar" android:layout_width="fill_parent" android:layout_height="48.0dip" android:minHeight="?actionBarSize" yt:navigationContentDescription="@string/accessibility_back_button" yt:navigationIcon="@drawable/yt_outline_arrow_left_black_24" yt:titleTextColor="?ytTextPrimary" />
+    </com.google.android.material.appbar.AppBarLayout>
+    <ProgressBar android:layout_gravity="center" android:id="@id/progress_bar" android:layout_width="40.0dip" android:layout_height="40.0dip" android:indeterminateTint="?ytThemedBlue" style="?android:progressBarStyleLarge" />
+    <RelativeLayout android:id="@id/element_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</LinearLayout>

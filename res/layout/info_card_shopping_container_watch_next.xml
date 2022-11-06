@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/InfoCardsWatchNext"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ViewStub android:id="@id/product_card_stub" android:layout="@layout/info_card_product_watch_next" android:inflatedId="@id/product_card" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <ViewStub android:id="@id/shopping_card_stub" android:layout="@layout/info_card_shopping_watch_next" android:inflatedId="@id/shopping_card" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</androidx.cardview.widget.CardView>

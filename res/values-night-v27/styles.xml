@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.YouTube.Launcher" parent="@style/Base.V27.Theme.YouTube.Launcher.Dark" />
+</resources>

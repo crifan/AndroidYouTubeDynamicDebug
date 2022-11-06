@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/bitmap_view" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" android:contentDescription="@null" />
+    <ImageView android:background="#66000000" android:layout_width="fill_parent" android:layout_height="fill_parent" android:contentDescription="@null" />
+    <LinearLayout android:orientation="vertical" android:layout_width="200.0dip" android:layout_height="wrap_content" android:layout_centerInParent="true" android:layout_centerVertical="true">
+        <ProgressBar android:layout_gravity="center_horizontal" android:id="@id/spinner" android:layout_width="@dimen/spinner_width" android:layout_height="@dimen/spinner_height" android:indeterminate="true" style="?android:progressBarStyleLarge" />
+        <ImageView android:layout_gravity="center_horizontal" android:id="@id/error_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="10.0dip" android:contentDescription="@null" />
+        <TextView android:textSize="14.0sp" android:textColor="@color/lc_white" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/error_message_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="10.0dip" android:textIsSelectable="true" />
+        <Button android:textSize="16.0sp" android:textColor="@color/lc_white" android:layout_gravity="center_horizontal" android:id="@id/action_button" android:background="@drawable/lc_rounded_rect_white_border" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="10.0dip" android:fontFamily="sans-serif-light" android:paddingStart="10.0dip" android:paddingEnd="10.0dip" />
+    </LinearLayout>
+</RelativeLayout>

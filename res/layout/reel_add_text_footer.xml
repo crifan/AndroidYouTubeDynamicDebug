@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="@dimen/text_color_picker_height" android:baselineAligned="false"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/text_background_color_toggle" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <ImageView android:layout_gravity="center" android:id="@id/text_background_color_toggle_image" android:background="@drawable/ic_background_off" android:layout_width="@dimen/text_background_color_toggle_image_size" android:layout_height="@dimen/text_background_color_toggle_image_size" />
+    </FrameLayout>
+    <FrameLayout android:layout_gravity="center" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <com.google.android.apps.youtube.app.extensions.reel.videoeffects.stickers.text.ColorChip android:layout_gravity="center" android:layout_width="@dimen/text_color_chip_size_unselected" android:layout_height="@dimen/text_color_chip_size_unselected" android:contentDescription="@string/text_color_white" app:primaryColor="@color/text_color_white" app:secondaryColor="@color/text_color_black" />
+    </FrameLayout>
+    <FrameLayout android:layout_gravity="center" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <com.google.android.apps.youtube.app.extensions.reel.videoeffects.stickers.text.ColorChip android:layout_gravity="center" android:layout_width="@dimen/text_color_chip_size_unselected" android:layout_height="@dimen/text_color_chip_size_unselected" android:contentDescription="@string/text_color_red" app:primaryColor="@color/text_color_red" app:secondaryColor="@color/text_color_white" />
+    </FrameLayout>
+    <FrameLayout android:layout_gravity="center" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <com.google.android.apps.youtube.app.extensions.reel.videoeffects.stickers.text.ColorChip android:layout_gravity="center" android:layout_width="@dimen/text_color_chip_size_unselected" android:layout_height="@dimen/text_color_chip_size_unselected" android:contentDescription="@string/text_color_orange" app:primaryColor="@color/text_color_orange" app:secondaryColor="@color/text_color_white" />
+    </FrameLayout>
+    <FrameLayout android:layout_gravity="center" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <com.google.android.apps.youtube.app.extensions.reel.videoeffects.stickers.text.ColorChip android:layout_gravity="center" android:layout_width="@dimen/text_color_chip_size_unselected" android:layout_height="@dimen/text_color_chip_size_unselected" android:contentDescription="@string/text_color_yellow" app:primaryColor="@color/text_color_yellow" app:secondaryColor="@color/text_color_black" />
+    </FrameLayout>
+    <FrameLayout android:layout_gravity="center" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <com.google.android.apps.youtube.app.extensions.reel.videoeffects.stickers.text.ColorChip android:layout_gravity="center" android:layout_width="@dimen/text_color_chip_size_unselected" android:layout_height="@dimen/text_color_chip_size_unselected" android:contentDescription="@string/text_color_green" app:primaryColor="@color/text_color_green" app:secondaryColor="@color/text_color_white" />
+    </FrameLayout>
+    <FrameLayout android:layout_gravity="center" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <com.google.android.apps.youtube.app.extensions.reel.videoeffects.stickers.text.ColorChip android:layout_gravity="center" android:layout_width="@dimen/text_color_chip_size_unselected" android:layout_height="@dimen/text_color_chip_size_unselected" android:contentDescription="@string/text_color_blue" app:primaryColor="@color/text_color_blue" app:secondaryColor="@color/text_color_white" />
+    </FrameLayout>
+    <FrameLayout android:layout_gravity="center" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <com.google.android.apps.youtube.app.extensions.reel.videoeffects.stickers.text.ColorChip android:layout_gravity="center" android:layout_width="@dimen/text_color_chip_size_unselected" android:layout_height="@dimen/text_color_chip_size_unselected" android:contentDescription="@string/text_color_pink" app:primaryColor="@color/text_color_pink" app:secondaryColor="@color/text_color_white" />
+    </FrameLayout>
+    <FrameLayout android:layout_gravity="center" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <com.google.android.apps.youtube.app.extensions.reel.videoeffects.stickers.text.ColorChip android:layout_gravity="center" android:layout_width="@dimen/text_color_chip_size_unselected" android:layout_height="@dimen/text_color_chip_size_unselected" android:contentDescription="@string/text_color_purple" app:primaryColor="@color/text_color_purple" app:secondaryColor="@color/text_color_white" />
+    </FrameLayout>
+    <FrameLayout android:layout_gravity="center" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <com.google.android.apps.youtube.app.extensions.reel.videoeffects.stickers.text.ColorChip android:layout_gravity="center" android:layout_width="@dimen/text_color_chip_size_unselected" android:layout_height="@dimen/text_color_chip_size_unselected" android:contentDescription="@string/text_color_black" app:primaryColor="@color/text_color_black" app:secondaryColor="@color/text_color_white" />
+    </FrameLayout>
+</LinearLayout>

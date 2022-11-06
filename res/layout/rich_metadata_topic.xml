@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView android:foreground="?selectableItemBackground" card_view:cardBackgroundColor="?ytGeneralBackgroundA" card_view:cardCornerRadius="2.0dip" card_view:cardElevation="0.0dip" style="@style/RichMetadataCard"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:yt="http://schemas.android.com/apk/res-auto" xmlns:card_view="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.google.android.libraries.youtube.common.ui.CircularImageView android:id="@id/thumbnail" android:layout_width="@dimen/rich_metadata_topic_avatar_size" android:layout_height="@dimen/rich_metadata_topic_avatar_size" android:layout_margin="16.0dip" android:scaleType="centerCrop" android:contentDescription="@null" />
+        <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/rich_metadata_topic_text_margin_start">
+            <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:textSize="@dimen/medium_font_size" android:textColor="?ytTextPrimary" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" card_view:robotoFont="regular" />
+            <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip">
+                <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:textSize="@dimen/small_font_size" android:textColor="?ytTextSecondary" android:id="@id/call_to_action" android:layout_width="wrap_content" android:layout_height="fill_parent" card_view:robotoFont="medium" />
+                <ImageView android:id="@id/call_to_action_icon" android:layout_width="24.0dip" android:layout_height="24.0dip" android:scaleType="fitCenter" android:tint="?ytTextSecondary" android:contentDescription="@null" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

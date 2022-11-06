@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:background="?selectableItemBackground" android:padding="12.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:yt="http://schemas.android.com/apk/res-auto">
+    <android.support.v7.widget.AppCompatImageView android:id="@id/hats_response_icon" android:layout_width="24.0dip" android:layout_height="24.0dip" android:minWidth="24.0dip" android:contentDescription="@null" android:layout_marginEnd="16.0dip" yt:tint="?ytIconInactive" />
+    <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:textAppearance="?textAppearanceBody1" android:textColor="?ytTextSecondary" android:gravity="start|center" android:id="@id/hats_response_text" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" android:textAlignment="viewStart" />
+</LinearLayout>

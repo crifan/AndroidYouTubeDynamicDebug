@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/section_list_with_drawer_container" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ViewStub android:layout_gravity="top" android:id="@id/drawer_stub" android:layout="@layout/section_list_drawer" android:inflatedId="@id/drawer_results" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <ViewStub android:id="@id/drawer_shadow_stub" android:layout="@layout/section_list_drawer_shadow" android:layout_width="fill_parent" android:layout_height="@dimen/section_list_drawer_elevation" android:layout_below="@id/drawer_results" />
+    <androidx.swiperefreshlayout.widget.SwipeRefreshLayout android:id="@id/section_list_refresher" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/drawer_results" android:layout_alignWithParentIfMissing="true">
+        <include android:layout_width="fill_parent" android:layout_height="fill_parent" layout="@layout/section_list" />
+    </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+</RelativeLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-vector android:drawable="@drawable/audio_indicator_24dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <target android:name="shape_layer_1" android:animation="@anim/audio_indicator_24dp_shape_layer_1_animation" />
+    <target android:name="shape_layer_2" android:animation="@anim/audio_indicator_24dp_shape_layer_2_animation" />
+    <target android:name="shape_layer_3" android:animation="@anim/audio_indicator_24dp_shape_layer_3_animation" />
+</animated-vector>

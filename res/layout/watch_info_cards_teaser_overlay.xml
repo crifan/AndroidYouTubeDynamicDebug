@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:theme="@style/WatchInfoCardsTeaser" android:layout_gravity="end" android:id="@id/watch_info_card_teaser_overlay" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:layout_gravity="end" android:orientation="horizontal" android:id="@id/watch_info_card_teaser_content" android:background="@drawable/watch_info_card_teaser_background" android:layout_width="wrap_content" android:layout_height="@dimen/watch_teaser_height" android:layout_marginTop="@dimen/watch_teaser_content_margin" android:layout_marginEnd="@dimen/watch_teaser_content_margin">
+        <LinearLayout android:gravity="center_vertical" android:id="@id/watch_info_card_teaser_content_wrapper" android:background="?defaultItemSelector" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <com.google.android.libraries.youtube.common.ui.CircularImageView android:id="@id/watch_info_card_teaser_icon" android:layout_width="@dimen/watch_teaser_info_icon_size" android:layout_height="@dimen/watch_teaser_info_icon_size" android:src="@drawable/yt_outline_info_circle_white_20" android:contentDescription="@string/accessibility_info_cards" android:layout_marginStart="6.0dip" android:layout_marginEnd="6.0dip" />
+            <TextView android:textAppearance="?ytTextAppearanceBody1b" android:textColor="?ytOverlayTextPrimary" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/watch_info_card_teaser_message" android:layout_width="wrap_content" android:layout_height="fill_parent" android:maxWidth="130.0dip" android:singleLine="true" android:textAlignment="viewStart" android:layout_marginEnd="4.0dip" />
+        </LinearLayout>
+        <ImageView android:id="@id/watch_info_card_close_icon" android:background="?defaultItemSelector" android:layout_width="@dimen/watch_teaser_close_icon_size" android:layout_height="@dimen/watch_teaser_close_icon_size" android:src="@drawable/yt_outline_x_white_18" android:scaleType="center" android:contentDescription="@string/watch_teaser_dismiss_tap_target" />
+    </LinearLayout>
+</FrameLayout>

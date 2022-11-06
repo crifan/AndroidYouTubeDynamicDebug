@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:yt="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="horizontal" android:id="@id/badge_icon_and_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="4.0dip">
+        <ImageView android:id="@id/badge_icon" android:visibility="gone" android:layout_width="@dimen/standalone_red_badge_premium_icon_size" android:layout_height="@dimen/standalone_red_badge_premium_icon_size" android:layout_marginTop="@dimen/standalone_red_badge_premium_padding" android:layout_marginBottom="@dimen/standalone_red_badge_premium_padding" android:contentDescription="@null" android:layout_marginStart="@dimen/standalone_red_badge_premium_padding" />
+        <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:textColor="?ytBrandRed" android:id="@id/badge_icon_text" android:background="@drawable/watch_card_red_badge_background" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" yt:robotoFont="medium" style="@style/StandaloneBadges" />
+    </LinearLayout>
+    <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:textColor="?ytBrandRed" android:id="@id/badge_red_text" android:background="@drawable/watch_card_red_badge_background" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" yt:robotoFont="medium" style="@style/StandaloneBadges" />
+    <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:textColor="?ytBrandRed" android:ellipsize="end" android:id="@id/badge_label" android:background="@drawable/watch_card_red_badge_background" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:includeFontPadding="false" yt:robotoFont="medium" style="@style/StandaloneBadges" />
+</LinearLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/channel_creation_no_identity" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:yt="http://schemas.android.com/apk/res-auto">
+    <include layout="@layout/channel_creation_core_identity_content" />
+    <include layout="@layout/channel_creation_no_gplus_content" />
+</LinearLayout>

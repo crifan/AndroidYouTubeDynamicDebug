@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Base.Theme.AppCompat" parent="@style/Base.V26.Theme.AppCompat" />
+    <style name="Base.Theme.AppCompat.Light" parent="@style/Base.V26.Theme.AppCompat.Light" />
+    <style name="Base.Widget.AppCompat.Toolbar" parent="@style/Base.V26.Widget.AppCompat.Toolbar" />
+    <style name="SudBaseThemeGlif" parent="@style/Theme.AppCompat.NoActionBar">
+        <item name="android:colorBackground">@color/sud_glif_background_color_dark</item>
+        <item name="android:listPreferredItemHeight">@dimen/sud_items_preferred_height</item>
+        <item name="android:scrollbarThumbVertical">?sudScrollBarThumb</item>
+        <item name="android:textColorLink">@color/sud_color_accent_glif_dark</item>
+        <item name="android:windowAnimationStyle">@style/Animation.SudWindowAnimation</item>
+        <item name="android:windowDisablePreview">true</item>
+        <item name="android:windowSoftInputMode">adjustResize</item>
+        <item name="android:textAppearanceListItemSmall">?textAppearanceListItemSmall</item>
+        <item name="android:listPreferredItemPaddingStart">?sudMarginStart</item>
+        <item name="android:listPreferredItemPaddingEnd">?sudMarginEnd</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/black</item>
+        <item name="android:indeterminateTint">?colorControlActivated</item>
+        <item name="android:indeterminateTintMode">src_in</item>
+        <item name="android:colorError">@color/sud_color_error_text_dark</item>
+        <item name="colorAccent">@color/sud_color_accent_glif_dark</item>
+        <item name="colorPrimary">?colorAccent</item>
+        <item name="listPreferredItemPaddingLeft">?sudMarginStart</item>
+        <item name="listPreferredItemPaddingRight">?sudMarginEnd</item>
+        <item name="sucFooterBarButtonAllCaps">?sudButtonAllCaps</item>
+        <item name="sucFooterBarButtonColorControlHighlightRipple">?colorAccent</item>
+        <item name="sucFooterBarButtonCornerRadius">?sudButtonCornerRadius</item>
+        <item name="sucFooterBarButtonFontFamily">?sudButtonFontFamily</item>
+        <item name="sucFooterBarButtonHighlightAlpha">?sudButtonHighlightAlpha</item>
+        <item name="sucFooterBarMinHeight">@dimen/sud_glif_footer_min_height</item>
+        <item name="sucFooterBarPaddingEnd">@dimen/sud_glif_footer_padding_end</item>
+        <item name="sucFooterBarPaddingStart">@dimen/sud_glif_footer_padding_start</item>
+        <item name="sucFooterBarPaddingVertical">@dimen/sud_glif_footer_padding_vertical</item>
+        <item name="sucFooterButtonPaddingEnd">@dimen/sud_glif_button_padding</item>
+        <item name="sucFooterButtonPaddingStart">@dimen/sud_glif_button_padding</item>
+        <item name="sucGlifHeaderMarginBottom">@dimen/sud_glif_header_title_margin_bottom</item>
+        <item name="sucGlifHeaderMarginTop">@dimen/sud_glif_header_title_margin_top</item>
+        <item name="sucGlifIconMarginTop">@dimen/sud_glif_icon_margin_top</item>
+        <item name="sucHeaderContainerMarginBottom">@dimen/sud_header_container_margin_bottom</item>
+        <item name="sucStatusBarBackground">?android:colorBackground</item>
+        <item name="sucSystemNavBarBackgroundColor">@android:color/black</item>
+        <item name="sudButtonAllCaps">true</item>
+        <item name="sudButtonCornerRadius">@dimen/sud_glif_button_corner_radius</item>
+        <item name="sudButtonFontFamily">sans-serif-medium</item>
+        <item name="sudButtonHighlightAlpha">0.24</item>
+        <item name="sudColorPrimary">?colorPrimary</item>
+        <item name="sudContentFramePaddingBottom">@dimen/sud_content_frame_padding_bottom</item>
+        <item name="sudContentFramePaddingTop">@dimen/sud_content_frame_padding_top</item>
+        <item name="sudContentIllustrationMaxHeight">@dimen/sud_content_illustration_max_height</item>
+        <item name="sudContentIllustrationMaxWidth">@dimen/sud_content_illustration_max_width</item>
+        <item name="sudContentIllustrationPaddingBottom">@dimen/sud_content_illustration_padding_vertical</item>
+        <item name="sudContentIllustrationPaddingTop">@dimen/sud_content_illustration_padding_vertical</item>
+        <item name="sudDividerInsetEnd">0.0dip</item>
+        <item name="sudDividerInsetStart">@dimen/sud_items_glif_icon_divider_inset</item>
+        <item name="sudDividerInsetStartNoIcon">@dimen/sud_items_glif_text_divider_inset</item>
+        <item name="sudFillContentLayoutStyle">@style/SudFillContentLayout</item>
+        <item name="sudGlifDescriptionMarginBottom">@dimen/sud_glif_description_margin_bottom</item>
+        <item name="sudGlifDescriptionMarginTop">@dimen/sud_glif_description_margin_top</item>
+        <item name="sudGlifHeaderGravity">start</item>
+        <item name="sudGlifIconSize">@dimen/sud_glif_icon_max_height</item>
+        <item name="sudGlifIconStyle">@style/SudGlifIcon</item>
+        <item name="sudGlifSubtitleGravity">start</item>
+        <item name="sudItemDescriptionStyle">@style/SudItemContainer.Description.Glif</item>
+        <item name="sudItemDescriptionTitleStyle">@style/SudItemTitle.GlifDescription</item>
+        <item name="sudListItemIconColor">@color/sud_list_item_icon_color_dark</item>
+        <item name="sudLoadingContentFramePaddingBottom">@dimen/sud_content_loading_frame_padding_bottom</item>
+        <item name="sudLoadingContentFramePaddingEnd">@dimen/sud_content_loading_frame_padding_end</item>
+        <item name="sudLoadingContentFramePaddingStart">@dimen/sud_content_loading_frame_padding_start</item>
+        <item name="sudLoadingContentFramePaddingTop">@dimen/sud_content_loading_frame_padding_top</item>
+        <item name="sudLoadingHeaderHeight">@dimen/sud_loading_header_height</item>
+        <item name="sudMarginEnd">@dimen/sud_glif_margin_end</item>
+        <item name="sudMarginStart">@dimen/sud_glif_margin_start</item>
+        <item name="sudScrollBarThumb">@drawable/sud_scroll_bar_dark</item>
+        <item name="sudScrollIndicators">bottom</item>
+        <item name="textAppearanceListItem">@style/TextAppearance.SudGlifItemTitle</item>
+        <item name="textAppearanceListItemSmall">@style/TextAppearance.SudGlifItemSummary</item>
+    </style>
+    <style name="SudBaseThemeGlif.Light" parent="@style/Theme.AppCompat.Light.NoActionBar">
+        <item name="android:colorBackground">@color/sud_glif_background_color_light</item>
+        <item name="android:listPreferredItemHeight">@dimen/sud_items_preferred_height</item>
+        <item name="android:scrollbarThumbVertical">?sudScrollBarThumb</item>
+        <item name="android:textColorLink">@color/sud_color_accent_glif_light</item>
+        <item name="android:windowAnimationStyle">@style/Animation.SudWindowAnimation</item>
+        <item name="android:windowDisablePreview">true</item>
+        <item name="android:windowSoftInputMode">adjustResize</item>
+        <item name="android:textAppearanceListItemSmall">?textAppearanceListItemSmall</item>
+        <item name="android:listPreferredItemPaddingStart">?sudMarginStart</item>
+        <item name="android:listPreferredItemPaddingEnd">?sudMarginEnd</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/black</item>
+        <item name="android:indeterminateTint">?colorControlActivated</item>
+        <item name="android:indeterminateTintMode">src_in</item>
+        <item name="android:colorError">@color/sud_color_error_text_light</item>
+        <item name="colorAccent">@color/sud_color_accent_glif_light</item>
+        <item name="colorPrimary">?colorAccent</item>
+        <item name="listPreferredItemPaddingLeft">?sudMarginStart</item>
+        <item name="listPreferredItemPaddingRight">?sudMarginEnd</item>
+        <item name="sucFooterBarButtonAllCaps">?sudButtonAllCaps</item>
+        <item name="sucFooterBarButtonColorControlHighlightRipple">?colorAccent</item>
+        <item name="sucFooterBarButtonCornerRadius">?sudButtonCornerRadius</item>
+        <item name="sucFooterBarButtonFontFamily">?sudButtonFontFamily</item>
+        <item name="sucFooterBarButtonHighlightAlpha">?sudButtonHighlightAlpha</item>
+        <item name="sucFooterBarMinHeight">@dimen/sud_glif_footer_min_height</item>
+        <item name="sucFooterBarPaddingEnd">@dimen/sud_glif_footer_padding_end</item>
+        <item name="sucFooterBarPaddingStart">@dimen/sud_glif_footer_padding_start</item>
+        <item name="sucFooterBarPaddingVertical">@dimen/sud_glif_footer_padding_vertical</item>
+        <item name="sucFooterButtonPaddingEnd">@dimen/sud_glif_button_padding</item>
+        <item name="sucFooterButtonPaddingStart">@dimen/sud_glif_button_padding</item>
+        <item name="sucGlifHeaderMarginBottom">@dimen/sud_glif_header_title_margin_bottom</item>
+        <item name="sucGlifHeaderMarginTop">@dimen/sud_glif_header_title_margin_top</item>
+        <item name="sucGlifIconMarginTop">@dimen/sud_glif_icon_margin_top</item>
+        <item name="sucHeaderContainerMarginBottom">@dimen/sud_header_container_margin_bottom</item>
+        <item name="sucStatusBarBackground">?android:colorBackground</item>
+        <item name="sucSystemNavBarBackgroundColor">@android:color/black</item>
+        <item name="sudButtonAllCaps">true</item>
+        <item name="sudButtonCornerRadius">@dimen/sud_glif_button_corner_radius</item>
+        <item name="sudButtonFontFamily">sans-serif-medium</item>
+        <item name="sudButtonHighlightAlpha">0.12</item>
+        <item name="sudColorPrimary">?colorPrimary</item>
+        <item name="sudContentFramePaddingBottom">@dimen/sud_content_frame_padding_bottom</item>
+        <item name="sudContentFramePaddingTop">@dimen/sud_content_frame_padding_top</item>
+        <item name="sudContentIllustrationMaxHeight">@dimen/sud_content_illustration_max_height</item>
+        <item name="sudContentIllustrationMaxWidth">@dimen/sud_content_illustration_max_width</item>
+        <item name="sudContentIllustrationPaddingBottom">@dimen/sud_content_illustration_padding_vertical</item>
+        <item name="sudContentIllustrationPaddingTop">@dimen/sud_content_illustration_padding_vertical</item>
+        <item name="sudDividerInsetEnd">0.0dip</item>
+        <item name="sudDividerInsetStart">@dimen/sud_items_glif_icon_divider_inset</item>
+        <item name="sudDividerInsetStartNoIcon">@dimen/sud_items_glif_text_divider_inset</item>
+        <item name="sudFillContentLayoutStyle">@style/SudFillContentLayout</item>
+        <item name="sudGlifDescriptionMarginBottom">@dimen/sud_glif_description_margin_bottom</item>
+        <item name="sudGlifDescriptionMarginTop">@dimen/sud_glif_description_margin_top</item>
+        <item name="sudGlifHeaderGravity">start</item>
+        <item name="sudGlifIconSize">@dimen/sud_glif_icon_max_height</item>
+        <item name="sudGlifIconStyle">@style/SudGlifIcon</item>
+        <item name="sudGlifSubtitleGravity">start</item>
+        <item name="sudItemDescriptionStyle">@style/SudItemContainer.Description.Glif</item>
+        <item name="sudItemDescriptionTitleStyle">@style/SudItemTitle.GlifDescription</item>
+        <item name="sudListItemIconColor">@color/sud_list_item_icon_color_light</item>
+        <item name="sudLoadingContentFramePaddingBottom">@dimen/sud_content_loading_frame_padding_bottom</item>
+        <item name="sudLoadingContentFramePaddingEnd">@dimen/sud_content_loading_frame_padding_end</item>
+        <item name="sudLoadingContentFramePaddingStart">@dimen/sud_content_loading_frame_padding_start</item>
+        <item name="sudLoadingContentFramePaddingTop">@dimen/sud_content_loading_frame_padding_top</item>
+        <item name="sudLoadingHeaderHeight">@dimen/sud_loading_header_height</item>
+        <item name="sudMarginEnd">@dimen/sud_glif_margin_end</item>
+        <item name="sudMarginStart">@dimen/sud_glif_margin_start</item>
+        <item name="sudScrollBarThumb">@drawable/sud_scroll_bar_light</item>
+        <item name="sudScrollIndicators">bottom</item>
+        <item name="textAppearanceListItem">@style/TextAppearance.SudGlifItemTitle</item>
+        <item name="textAppearanceListItemSmall">@style/TextAppearance.SudGlifItemSummary</item>
+    </style>
+    <style name="Widget.Design.AppBarLayout" parent="@android:style/Widget">
+        <item name="android:background">?colorPrimary</item>
+        <item name="android:stateListAnimator">@animator/design_appbar_state_list_animator</item>
+        <item name="android:touchscreenBlocksFocus">true</item>
+        <item name="android:keyboardNavigationCluster">true</item>
+    </style>
+    <style name="Base.V26.Theme.AppCompat" parent="@style/Base.V23.Theme.AppCompat">
+        <item name="colorError">?android:colorError</item>
+    </style>
+    <style name="Base.V26.Theme.AppCompat.Light" parent="@style/Base.V23.Theme.AppCompat.Light">
+        <item name="colorError">?android:colorError</item>
+    </style>
+    <style name="Base.V26.Widget.AppCompat.Toolbar" parent="@style/Base.V7.Widget.AppCompat.Toolbar">
+        <item name="android:touchscreenBlocksFocus">true</item>
+        <item name="android:keyboardNavigationCluster">true</item>
+    </style>
+</resources>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="@dimen/gallery_camera_record_button_view_size" android:layout_height="@dimen/gallery_camera_record_button_view_size"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:layout_gravity="center" android:id="@id/record_button_touch_area" android:layout_width="@dimen/gallery_camera_record_button_touch_area_size" android:layout_height="@dimen/gallery_camera_record_button_touch_area_size" android:contentDescription="@string/upload_edit_camera_start_record" />
+    <ImageView android:layout_gravity="center" android:id="@id/gallery_camera_record_button_outer_circle" android:background="@drawable/gallery_camera_record_button_outer_circle" android:layout_width="@dimen/gallery_camera_record_button_outer_circle_size" android:layout_height="@dimen/gallery_camera_record_button_outer_circle_size" android:importantForAccessibility="no" />
+    <ImageView android:layout_gravity="center" android:id="@id/gallery_camera_record_button_record_circle" android:background="@drawable/gallery_camera_record_button_record_circle" android:layout_width="@dimen/gallery_camera_record_button_record_circle_init_size" android:layout_height="@dimen/gallery_camera_record_button_record_circle_init_size" android:importantForAccessibility="no" />
+    <ImageView android:layout_gravity="center" android:id="@id/gallery_camera_record_button_stop_rectangle" android:background="@drawable/gallery_camera_record_button_stop_rectangle" android:visibility="gone" android:layout_width="@dimen/gallery_camera_record_button_stop_rectangle_init_size" android:layout_height="@dimen/gallery_camera_record_button_stop_rectangle_init_size" android:importantForAccessibility="no" />
+</FrameLayout>

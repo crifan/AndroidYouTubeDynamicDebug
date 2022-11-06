@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.apps.youtube.app.ui.swipetocontainer.SwipeToContainerFrameLayout android:id="@id/slim_status_bar_player_container" android:background="?ytBrandBackgroundSolid" android:layout_width="fill_parent" android:layout_height="fill_parent" yt:containerViewId="@id/swipe_to_camera_container" yt:watchWhileRootViewId="@id/navigation_bar_divider_frame"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:yt="http://schemas.android.com/apk/res-auto">
+    <com.google.android.apps.youtube.app.common.ui.navigationbar.NavigationBarDividerLayout android:id="@id/navigation_bar_divider_frame" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <include layout="@layout/watch_while_activity" />
+        <FrameLayout android:id="@id/global_slim_status_bar_container" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </com.google.android.apps.youtube.app.common.ui.navigationbar.NavigationBarDividerLayout>
+    <View android:background="@android:color/transparent" android:layout_width="1.0dip" android:layout_height="1.0dip" />
+</com.google.android.apps.youtube.app.ui.swipetocontainer.SwipeToContainerFrameLayout>

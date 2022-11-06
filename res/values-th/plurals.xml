@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="accessibility_dislike_video_plural">
+        <item quantity="other">ปุ่มไม่ชอบ อีก %1$d คนไม่ชอบวิดีโอนี้</item>
+        <item quantity="one">ปุ่มไม่ชอบ อีก %1$d คนไม่ชอบวิดีโอนี้</item>
+    </plurals>
+    <plurals name="accessibility_dtts_fast_forward">
+        <item quantity="other">กรอไปข้างหน้า %1$d วินาที</item>
+        <item quantity="one">กรอไปข้างหน้า %1$d วินาที</item>
+    </plurals>
+    <plurals name="accessibility_dtts_rewind">
+        <item quantity="other">กรอกลับ %1$d วินาที</item>
+        <item quantity="one">กรอกลับ %1$d วินาที</item>
+    </plurals>
+    <plurals name="accessibility_duration_description_hours">
+        <item quantity="other">%d ชั่วโมง</item>
+        <item quantity="one">%d ชั่วโมง</item>
+    </plurals>
+    <plurals name="accessibility_duration_description_minutes">
+        <item quantity="other">%d นาที</item>
+        <item quantity="one">%d นาที</item>
+    </plurals>
+    <plurals name="accessibility_duration_description_seconds">
+        <item quantity="other">%d วินาที</item>
+        <item quantity="one">%d วินาที</item>
+    </plurals>
+    <plurals name="accessibility_like_video_plural">
+        <item quantity="other">ปุ่มชอบ อีก %1$d คนชอบวิดีโอนี้</item>
+        <item quantity="one">ปุ่มชอบ อีก %1$d คนชอบวิดีโอนี้</item>
+    </plurals>
+    <plurals name="accessibility_skip_ad_in">
+        <item quantity="other">ข้ามโฆษณาใน %1$d วินาที</item>
+        <item quantity="one">ข้ามโฆษณาใน 1 วินาที</item>
+    </plurals>
+    <plurals name="accessibility_undo_dislike_video_plural">
+        <item quantity="other">ปุ่มเลิกไม่ชอบ อีก %1$d คนไม่ชอบวิดีโอนี้</item>
+        <item quantity="one">ปุ่มเลิกไม่ชอบ อีก %1$d คนไม่ชอบวิดีโอนี้</item>
+    </plurals>
+    <plurals name="accessibility_undo_like_video_plural">
+        <item quantity="other">ปุ่มเลิกชอบ อีก %1$d คนชอบวิดีโอนี้</item>
+        <item quantity="one">ปุ่มเลิกชอบ อีก %1$d คนชอบวิดีโอนี้</item>
+    </plurals>
+    <plurals name="download_new_videos_button_text">
+        <item quantity="other">ดาวน์โหลดวิดีโอใหม่ %1$d รายการ</item>
+        <item quantity="one">ดาวน์โหลดวิดีโอใหม่ %1$d รายการ</item>
+    </plurals>
+    <plurals name="download_playlist_unplayable_future_days_plural">
+        <item quantity="other">ในอีก %1$d วันคุณจะเล่นวิดีโอบางรายการไม่ได้หากไม่เป็นสมาชิก Premium</item>
+        <item quantity="one">ในอีก %1$d วันคุณจะเล่นวิดีโอบางรายการไม่ได้หากไม่เป็นสมาชิก Premium</item>
+    </plurals>
+    <plurals name="download_playlist_unplayable_future_hours_plural">
+        <item quantity="other">ในอีก %1$d ชั่วโมงคุณจะเล่นวิดีโอบางรายการไม่ได้หากไม่เป็นสมาชิก Premium</item>
+        <item quantity="one">ในอีก %1$d ชั่วโมงคุณจะเล่นวิดีโอบางรายการไม่ได้หากไม่เป็นสมาชิก Premium</item>
+    </plurals>
+    <plurals name="download_playlist_unplayable_future_minutes_plural">
+        <item quantity="other">ในอีก %1$d นาทีคุณจะเล่นวิดีโอบางรายการไม่ได้หากไม่เป็นสมาชิก Premium</item>
+        <item quantity="one">ในอีก %1$d นาทีคุณจะเล่นวิดีโอบางรายการไม่ได้หากไม่เป็นสมาชิก Premium</item>
+    </plurals>
+    <plurals name="download_video_unplayable_future_days_plural">
+        <item quantity="other">ต้องเป็นสมาชิก Premium ภายใน %1$d วัน</item>
+        <item quantity="one">ต้องเป็นสมาชิก Premium ภายใน %1$d วัน</item>
+    </plurals>
+    <plurals name="download_video_unplayable_future_hours_plural">
+        <item quantity="other">ต้องเป็นสมาชิก Premium ภายใน %1$d ชั่วโมง</item>
+        <item quantity="one">ต้องเป็นสมาชิก Premium ภายใน %1$d ชั่วโมง</item>
+    </plurals>
+    <plurals name="download_video_unplayable_future_minutes_plural">
+        <item quantity="other">ต้องเป็นสมาชิก Premium ภายใน %1$d นาที</item>
+        <item quantity="one">ต้องเป็นสมาชิก Premium ภายใน %1$d นาที</item>
+    </plurals>
+    <plurals name="duration_minutes">
+        <item quantity="other">%1$d นาที</item>
+        <item quantity="zero">0 นาที</item>
+        <item quantity="one">1 นาที</item>
+        <item quantity="two">2 นาที</item>
+        <item quantity="few">%1$d นาที</item>
+        <item quantity="many">%1$d นาที</item>
+    </plurals>
+    <plurals name="duration_seconds">
+        <item quantity="other">%1$d วินาที</item>
+        <item quantity="zero">0 วินาที</item>
+        <item quantity="one">1 วินาที</item>
+        <item quantity="two">2 วินาที</item>
+        <item quantity="few">%1$d วินาที</item>
+        <item quantity="many">%1$d วินาที</item>
+    </plurals>
+    <plurals name="frequency_hours_component">
+        <item quantity="other">%1$d ชั่วโมง</item>
+        <item quantity="one">%1$d ชั่วโมง</item>
+    </plurals>
+    <plurals name="frequency_hours_only">
+        <item quantity="other">ทุก %1$d ชั่วโมง</item>
+        <item quantity="one">ทุกชั่วโมง</item>
+    </plurals>
+    <plurals name="frequency_minutes_component">
+        <item quantity="other">%1$d นาที</item>
+        <item quantity="one">%1$d นาที</item>
+    </plurals>
+    <plurals name="frequency_minutes_only">
+        <item quantity="other">ทุก %1$d นาที</item>
+        <item quantity="one">ทุกนาที</item>
+    </plurals>
+    <plurals name="image_picker_title">
+        <item quantity="other">เลือกไว้ %1$d รายการ</item>
+        <item quantity="one">เลือกไว้ %1$d รายการ</item>
+    </plurals>
+    <plurals name="invalid_uploads_error_msg">
+        <item quantity="other">ไฟล์วิดีโออย่างน้อย 1 รายการไม่พร้อมใช้งานหรือไม่ถูกต้อง โปรดลองอีกครั้งหรือเลือกวิดีโออื่น</item>
+        <item quantity="one">ไฟล์วิดีโอนี้ไม่พร้อมใช้งานหรือไม่ถูกต้อง โปรดลองอีกครั้งหรือเลือกวิดีโออื่น</item>
+    </plurals>
+    <plurals name="last_update_in_days_message">
+        <item quantity="other">อัปเดตเมื่อ %1$d วันที่ผ่านมา</item>
+        <item quantity="one">อัปเดตเมื่อวานนี้</item>
+    </plurals>
+    <plurals name="last_update_in_hours_message">
+        <item quantity="other">อัปเดตเมื่อ %1$d ชั่วโมงที่ผ่านมา</item>
+        <item quantity="one">อัปเดตเมื่อ %1$d ชั่วโมงที่ผ่านมา</item>
+    </plurals>
+    <plurals name="last_update_in_minutes_message">
+        <item quantity="other">อัปเดตเมื่อ %1$d นาทีที่ผ่านมา</item>
+        <item quantity="one">อัปเดตเมื่อ %1$d นาทีที่ผ่านมา</item>
+    </plurals>
+    <plurals name="last_update_in_weeks_message">
+        <item quantity="other">อัปเดตเมื่อ %1$d สัปดาห์ที่ผ่านมา</item>
+        <item quantity="one">อัปเดตเมื่อ %1$d สัปดาห์ที่ผ่านมา</item>
+    </plurals>
+    <plurals name="notification_playlist_progress_size">
+        <item quantity="other">%1$d จากวิดีโอ %2$d รายการ</item>
+        <item quantity="one">%1$d จากวิดีโอ 1 รายการ</item>
+    </plurals>
+    <plurals name="offline_go_online_to_renew_dialog_message">
+        <item quantity="other">วิดีโอที่ดาวน์โหลดจะใช้งานได้ตราบใดที่อุปกรณ์ของคุณเชื่อมต่ออินเทอร์เน็ตทุก %1$d วัน การดำเนินการนี้จะเกิดขึ้นโดยอัตโนมัติและไม่ใช่การดาวน์โหลดวิดีโอซ้ำ</item>
+        <item quantity="one">วิดีโอที่ดาวน์โหลดจะใช้งานได้ตราบใดที่อุปกรณ์ของคุณเชื่อมต่ออินเทอร์เน็ตทุกวัน การดำเนินการนี้จะเกิดขึ้นโดยอัตโนมัติและไม่ใช่การดาวน์โหลดวิดีโอซ้ำ</item>
+    </plurals>
+    <plurals name="offline_go_online_to_renew_snackbar_message">
+        <item quantity="other">วิดีโอที่ดาวน์โหลดจะใช้ได้ %1$d วันโดยไม่ต้องเชื่อมต่ออินเทอร์เน็ต</item>
+        <item quantity="one">วิดีโอที่ดาวน์โหลดจะใช้ได้ 1 วันโดยไม่ต้องเชื่อมต่ออินเทอร์เน็ต</item>
+    </plurals>
+    <plurals name="offline_remember_setting_for_days">
+        <item quantity="other">จดจำการตั้งค่าของฉันเป็นเวลา %1$d วัน</item>
+        <item quantity="one">จดจำการตั้งค่าของฉันเป็นเวลา 1 วัน</item>
+    </plurals>
+    <plurals name="playlist_picker_dialog_done">
+        <item quantity="other">อัปเดตเพลย์ลิสต์แล้ว</item>
+        <item quantity="one">อัปเดตเพลย์ลิสต์แล้ว</item>
+    </plurals>
+    <plurals name="playlist_size">
+        <item quantity="other">วิดีโอ %1$,d รายการ</item>
+        <item quantity="one">วิดีโอ 1 รายการ</item>
+    </plurals>
+    <plurals name="playlist_size_downloaded">
+        <item quantity="other">ดาวน์โหลดแล้ว %1$,d รายการ</item>
+        <item quantity="one">ดาวน์โหลดแล้ว %1$,d รายการ</item>
+    </plurals>
+    <plurals name="playlist_size_total">
+        <item quantity="other">%1$,d วิดีโอ</item>
+        <item quantity="one">1 วิดีโอ</item>
+    </plurals>
+    <plurals name="public_notification_text">
+        <item quantity="other">การแจ้งเตือนใหม่ %1$d รายการ</item>
+        <item quantity="one">คุณมีการแจ้งเตือน</item>
+    </plurals>
+    <plurals name="quick_seek_x_second">
+        <item quantity="other">%d วินาที</item>
+        <item quantity="one">%d วินาที</item>
+    </plurals>
+    <plurals name="recommendation_count">
+        <item quantity="other">%1$d วิดีโอแนะนำ</item>
+        <item quantity="one">1 วิดีโอแนะนำ</item>
+    </plurals>
+    <plurals name="rental_expiry_notice">
+        <item quantity="other">เมื่อเริ่มเล่นแล้ว คุณจะมีเวลา %1$d ชั่วโมงในการดูวิดีโอนี้</item>
+        <item quantity="one">เมื่อเริ่มเล่นแล้ว คุณจะมีเวลา 1 ชั่วโมงในการดูวิดีโอนี้</item>
+    </plurals>
+    <plurals name="rental_long_days_remaining">
+        <item quantity="other">หมดอายุในอีก %1$d วัน</item>
+        <item quantity="one">หมดอายุในอีก 1 วัน</item>
+    </plurals>
+    <plurals name="rental_long_hours_remaining">
+        <item quantity="other">หมดอายุในอีก %1$d ชั่วโมง</item>
+        <item quantity="one">หมดอายุในอีก 1 ชั่วโมง</item>
+    </plurals>
+    <plurals name="rental_long_weeks_remaining">
+        <item quantity="other">หมดอายุในอีก %1$d สัปดาห์</item>
+        <item quantity="one">หมดอายุในอีก 1 สัปดาห์</item>
+    </plurals>
+    <plurals name="rental_medium_days_remaining">
+        <item quantity="other">จะหมดอายุในอีก %1$d วัน</item>
+        <item quantity="one">จะหมดอายุในอีก 1 วัน</item>
+    </plurals>
+    <plurals name="rental_medium_hours_remaining">
+        <item quantity="other">จะหมดอายุในอีก %1$d ชม.</item>
+        <item quantity="one">จะหมดอายุในอีก 1 ชม.</item>
+    </plurals>
+    <plurals name="rental_medium_weeks_remaining">
+        <item quantity="other">จะหมดอายุในอีก %1$d สัปดาห์</item>
+        <item quantity="one">จะหมดอายุในอีก 1 สัปดาห์</item>
+    </plurals>
+    <plurals name="selected_video_count">
+        <item quantity="other">เลือกวิดีโอแล้ว %1$d รายการ</item>
+        <item quantity="one">เลือกวิดีโอแล้ว 1 รายการ</item>
+    </plurals>
+    <plurals name="shorts_a11y_duration_seconds">
+        <item quantity="other">%1$s วินาที</item>
+        <item quantity="one">%1$s วินาที</item>
+    </plurals>
+    <plurals name="shorts_a11y_timer_duration_seconds">
+        <item quantity="other">นาฬิกานับเวลาถอยหลัง %1$d วินาที</item>
+        <item quantity="one">นาฬิกานับเวลาถอยหลัง %1$d วินาที</item>
+    </plurals>
+    <plurals name="shorts_a11y_timer_started">
+        <item quantity="other">นาฬิกาเริ่มนับเวลาถอยหลัง %1$d วินาที</item>
+        <item quantity="one">นาฬิกาเริ่มนับเวลาถอยหลัง %1$d วินาที</item>
+    </plurals>
+    <plurals name="smart_downloads_future_update_text">
+        <item quantity="other">การดาวน์โหลดอัจฉริยะจะอัปเดตโดยอัตโนมัติในอีก %1$d วัน</item>
+        <item quantity="one">การดาวน์โหลดอัจฉริยะจะอัปเดตโดยอัตโนมัติในอีก 1 วัน</item>
+    </plurals>
+    <plurals name="sticker_dialog_title">
+        <item quantity="other">โปรดกลับมาในอีก %1$d วัน</item>
+        <item quantity="one">โปรดกลับมาในอีก 1 วัน</item>
+    </plurals>
+    <plurals name="too_many_external_uploads_error_msg">
+        <item quantity="other">คุณอัปโหลดวิดีโอได้ครั้งละ %1$d รายการเท่านั้น</item>
+        <item quantity="one">คุณอัปโหลดวิดีโอได้ครั้งละ %1$d รายการเท่านั้น</item>
+    </plurals>
+    <plurals name="transcoding_progress">
+        <item quantity="other">กำลังเตรียม %1$,d%%</item>
+        <item quantity="one">กำลังเตรียม %1$,d%%</item>
+    </plurals>
+    <plurals name="trim_segment_max_length">
+        <item quantity="other">สูงสุด %1$d วินาที</item>
+        <item quantity="one">สูงสุด 1 วินาที</item>
+    </plurals>
+    <plurals name="trim_switch_edu">
+        <item quantity="other">ตัดวิดีโอให้เหลือ %1$d วินาทีและเพิ่มเพลง</item>
+        <item quantity="one">ตัดวิดีโอให้เหลือ 1 วินาทีและเพิ่มเพลง</item>
+    </plurals>
+    <plurals name="trim_switch_edu_full_length_shorts">
+        <item quantity="other">ตัดวิดีโอให้เหลือไม่เกิน %1$d วินาที</item>
+        <item quantity="one">ตัดวิดีโอให้เหลือไม่เกิน 1 วินาที</item>
+    </plurals>
+    <plurals name="upload_hours_remaing">
+        <item quantity="other">เหลือประมาณ %1$,d ชั่วโมง</item>
+        <item quantity="one">เหลือประมาณ %1$,d ชั่วโมง</item>
+    </plurals>
+    <plurals name="upload_indicator_all_completed">
+        <item quantity="other">อัปโหลดวิดีโอ %d รายการแล้ว</item>
+        <item quantity="one">อัปโหลดวิดีโอแล้ว</item>
+    </plurals>
+    <plurals name="upload_indicator_all_failed">
+        <item quantity="other">อัปโหลดวิดีโอใดไม่ได้เลย</item>
+        <item quantity="one">อัปโหลดวิดีโอไม่ได้</item>
+    </plurals>
+    <plurals name="upload_indicator_all_uploading">
+        <item quantity="other">กำลังอัปโหลดวิดีโอ %d รายการ</item>
+        <item quantity="one">กำลังอัปโหลดวิดีโอ</item>
+    </plurals>
+    <plurals name="upload_indicator_partial_fail">
+        <item quantity="other">อัปโหลดวิดีโอ %1$d จาก %2$d รายการไม่ได้</item>
+        <item quantity="one">อัปโหลดวิดีโอ %1$d จาก %2$d รายการไม่ได้</item>
+    </plurals>
+    <plurals name="upload_indicator_uploading_and_completed_completed_part">
+        <item quantity="other">อัปโหลดแล้ว %d รายการ</item>
+        <item quantity="one">อัปโหลดแล้ว %d รายการ</item>
+    </plurals>
+    <plurals name="upload_indicator_uploading_and_completed_uploading_part">
+        <item quantity="other">ยังอัปโหลดอยู่ %d รายการ</item>
+        <item quantity="one">ยังอัปโหลดอยู่ %d รายการ</item>
+    </plurals>
+    <plurals name="upload_minutes_remaing">
+        <item quantity="other">เหลือประมาณ %1$,d นาที</item>
+        <item quantity="one">เหลือประมาณ %1$,d นาที</item>
+    </plurals>
+    <plurals name="upload_notification_active_progress">
+        <item quantity="other">กำลังอัปโหลดวิดีโอ %1$d จาก %2$d รายการ</item>
+        <item quantity="one">กำลังอัปโหลดวิดีโอ 1 รายการ</item>
+    </plurals>
+    <plurals name="upload_progress">
+        <item quantity="other">อัปโหลดแล้ว %1$,d%%</item>
+        <item quantity="one">อัปโหลดแล้ว %1$,d%%</item>
+    </plurals>
+    <plurals name="upload_seconds_remaing">
+        <item quantity="other">เหลือประมาณ %1$,d วินาที</item>
+        <item quantity="one">เหลือประมาณ %1$,d วินาที</item>
+    </plurals>
+    <plurals name="uploads_failed">
+        <item quantity="other">อัปโหลดไม่สำเร็จ %1$,d รายการ</item>
+        <item quantity="one">อัปโหลดไม่สำเร็จ</item>
+    </plurals>
+    <plurals name="uploads_failed_with_in_progress_videos">
+        <item quantity="other">อัปโหลดไม่สำเร็จ %1$,d/%2$,d รายการ</item>
+        <item quantity="one">อัปโหลดไม่สำเร็จ %1$,d/%2$,d รายการ</item>
+    </plurals>
+    <plurals name="uploads_in_progress">
+        <item quantity="other">กำลังอัปโหลด %1$,d รายการ</item>
+        <item quantity="one">กำลังอัปโหลด %1$,d รายการ</item>
+    </plurals>
+    <plurals name="user_education_quick_seek">
+        <item quantity="other">แตะ 2 ครั้งทางซ้ายหรือขวาเพื่อข้ามไป %d วินาที</item>
+        <item quantity="one">แตะ 2 ครั้งทางซ้ายหรือขวาเพื่อข้ามไป %d วินาที</item>
+    </plurals>
+    <plurals name="video_count">
+        <item quantity="other">วิดีโอ %1$d รายการ</item>
+        <item quantity="one">วิดีโอ 1 รายการ</item>
+    </plurals>
+</resources>

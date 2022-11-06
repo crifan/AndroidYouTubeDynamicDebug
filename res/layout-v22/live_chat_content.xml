@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/live_chat_content" android:background="?liveChatContentsBackground" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.libraries.youtube.livechat.ui.view.VerticalShimmerLoadingFrameLayout android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/bottom_content_container" android:layout_below="@id/ticker" android:accessibilityTraversalAfter="@id/live_chat_poll">
+        <android.support.v7.widget.RecyclerView android:id="@id/conversation_list" android:paddingTop="4.0dip" android:paddingBottom="4.0dip" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:divider="@null" android:dividerHeight="0.0dip" />
+    </com.google.android.libraries.youtube.livechat.ui.view.VerticalShimmerLoadingFrameLayout>
+    <FrameLayout android:id="@id/docked_view_container" android:background="@drawable/live_chat_item_background_border_inset" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <FrameLayout android:id="@id/live_chat_banner_container" android:background="?liveChatBannerBackgroundGradient" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/ticker">
+        <include android:id="@id/live_chat_banner" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/live_chat_banner" />
+    </FrameLayout>
+    <android.support.v7.widget.RecyclerView android:id="@id/ticker" android:background="?ytBrandBackgroundSolid" android:layout_width="fill_parent" android:layout_height="wrap_content" android:divider="@null" android:dividerHeight="0.0dip" android:elevation="@dimen/live_chat_ticker_container_elevation" />
+    <View android:id="@id/live_chat_drawer_header_shadow" android:background="@drawable/live_chat_toolbar_shadow" android:layout_width="fill_parent" android:layout_height="@dimen/live_chat_shadow_height" android:layout_below="@id/ticker" android:layout_alignWithParentIfMissing="true" />
+    <ViewStub android:id="@id/empty_state_message_stub" android:inflatedId="@id/empty_state_message" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_above="@id/bottom_content_container" android:layout_below="@id/ticker" android:animateLayoutChanges="true" />
+    <FrameLayout android:id="@id/bottom_content_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_above="@id/input_panel" />
+    <ImageButton android:id="@id/more_comments_icon" android:background="@drawable/live_chat_more_comments_selector" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_marginBottom="8.0dip" android:src="@drawable/quantum_ic_arrow_downward_white_24" android:layout_above="@id/input_panel" android:layout_centerHorizontal="true" android:contentDescription="@string/live_chat_more_comments_cd" android:translationY="@dimen/live_chat_more_comments_button_horizontal_offset" android:importantForAccessibility="no" />
+    <com.google.android.libraries.youtube.livechat.ui.view.LiveChatPopUpItemContainerLayout android:id="@id/live_chat_poll_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_above="@id/input_panel">
+        <FrameLayout android:background="@drawable/live_chat_poll_background_gradient" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <include android:id="@id/live_chat_poll" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/live_chat_poll" />
+        </FrameLayout>
+    </com.google.android.libraries.youtube.livechat.ui.view.LiveChatPopUpItemContainerLayout>
+    <androidx.coordinatorlayout.widget.CoordinatorLayout android:id="@id/error_snackbar_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_above="@id/input_panel" />
+    <View android:background="@drawable/live_chat_toolbar_shadow" android:layout_width="fill_parent" android:layout_height="@dimen/live_chat_shadow_height" android:layout_above="@id/input_panel" android:rotation="180.0" />
+    <LinearLayout android:orientation="vertical" android:id="@id/input_panel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <include android:id="@id/live_chat_action_panel" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/live_chat_action_panel" />
+        <ViewStub android:id="@id/emoji_picker_stub" android:layout="@layout/emoji_picker" android:inflatedId="@id/emoji_picker" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+</RelativeLayout>

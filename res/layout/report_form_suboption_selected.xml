@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/report_form_sub_option_item_selected" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignStart="@id/report_form_top_level_spinner"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:yt="http://schemas.android.com/apk/res-auto">
+    <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:textAppearance="?textAppearanceBody1" android:gravity="start" android:id="@id/report_form_sub_option_selected_text" android:paddingTop="@dimen/report_form_sub_option_padding_vertical" android:paddingBottom="@dimen/report_form_sub_option_padding_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:textAlignment="viewStart" yt:robotoFont="regular" />
+</RelativeLayout>

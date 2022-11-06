@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:background="@drawable/card_frame_bottom" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/card_margin_top" android:layout_marginStart="@dimen/card_margin_left" android:layout_marginEnd="@dimen/card_margin_right"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:yt="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/background_image" android:layout_width="fill_parent" android:layout_height="90.0dip" android:scaleType="centerCrop" android:layout_marginStart="2.0dip" android:layout_marginEnd="2.0dip" />
+        <ImageView android:id="@id/foreground_image" android:layout_width="60.0dip" android:layout_height="60.0dip" android:scaleType="centerCrop" android:layout_centerInParent="true" />
+        <ImageView android:id="@id/dismiss_button" android:padding="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/btn_close_light" android:layout_alignParentTop="true" android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+    <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:textSize="@dimen/extra_large_font_size" android:textColor="@color/yt_black_pure" android:gravity="center" android:id="@id/title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_marginStart="10.0dip" android:layout_marginEnd="10.0dip" yt:robotoFont="light" />
+    <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:textSize="@dimen/medium_font_size" android:textColor="@color/yt_black_pure" android:gravity="center" android:id="@id/body_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:layout_marginBottom="5.0dip" android:layout_marginStart="10.0dip" android:layout_marginEnd="10.0dip" yt:robotoFont="light" />
+    <Button android:textSize="@dimen/medium_font_size" android:textColor="@android:color/white" android:id="@id/action_button" android:background="?colorPrimaryAlternate" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="10.0dip" android:paddingStart="30.0dip" android:paddingEnd="30.0dip" />
+</LinearLayout>

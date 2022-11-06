@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:id="@id/bottom_sheet_footer_divider" android:background="?yt10PercentLayer" android:layout_width="fill_parent" android:layout_height="1.5dip" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:textColor="?ytTextSecondary" android:gravity="start" android:id="@id/bottom_sheet_footer_text" android:background="?selectableItemBackground" android:paddingLeft="@dimen/default_content_padding" android:paddingTop="16.0dip" android:paddingRight="@dimen/default_content_padding" android:paddingBottom="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintHorizontal_bias="0.0" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/bottom_sheet_footer_divider" app:robotoFont="regular" />
+</android.support.constraint.ConstraintLayout>

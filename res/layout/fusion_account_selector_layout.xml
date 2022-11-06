@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="?ytGeneralBackgroundA" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:yt="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:paddingTop="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="24.0dip" android:paddingEnd="6.0dip">
+        <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:textSize="@dimen/large_font_size" android:textColor="?ytTextPrimary" android:ellipsize="end" android:id="@id/title" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/account_switcher_header_title" android:singleLine="true" android:layout_weight="1.0" android:textAlignment="viewStart" yt:robotoFont="medium" />
+        <ImageView android:id="@id/add_account" android:layout_width="48.0dip" android:layout_height="48.0dip" android:src="@drawable/yt_outline_add_black_24" android:scaleType="center" android:tint="?ytTextPrimary" android:contentDescription="@string/account_switcher_add_account" />
+    </LinearLayout>
+    <ListView android:scrollbarStyle="outsideOverlay" android:id="@id/account_list" android:paddingBottom="8.0dip" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="0.0dip" android:divider="@null" android:layout_weight="1.0" />
+    <View android:id="@id/footer_separator" android:background="?ytSeparator" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginBottom="8.0dip" />
+    <ListView android:id="@id/account_list_footer" android:layout_width="fill_parent" android:layout_height="wrap_content" android:divider="@null" />
+    <LinearLayout android:orientation="vertical" android:id="@id/extra_footers" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</LinearLayout>

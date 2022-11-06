@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.libraries.youtube.common.ui.FixedAspectRatioRelativeLayout android:id="@id/image_layout" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:yt="http://schemas.android.com/apk/res-auto">
+    <com.google.android.libraries.youtube.common.ui.NoOverlapImageView android:id="@id/image_view" android:layout_width="fill_parent" android:layout_height="fill_parent" android:contentDescription="@null" />
+    <ImageView android:id="@id/backstage_image_badge" android:background="@drawable/image_badge_border" android:padding="@dimen/backstage_image_badge_padding_postv21" android:visibility="gone" android:layout_width="@dimen/backstage_image_badge_size_postv21" android:layout_height="@dimen/backstage_image_badge_size_postv21" android:layout_marginRight="@dimen/backstage_image_badge_margin_postv21" android:layout_marginBottom="@dimen/backstage_image_badge_margin_postv21" android:src="@drawable/quantum_ic_photo_white_24" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" android:layout_marginEnd="@dimen/backstage_image_badge_margin_postv21" android:layout_alignParentEnd="true" />
+</com.google.android.libraries.youtube.common.ui.FixedAspectRatioRelativeLayout>

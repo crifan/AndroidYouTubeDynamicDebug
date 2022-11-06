@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="oval"
+          xmlns:android="http://schemas.android.com/apk/res/android">
+            <solid android:color="@color/yt_black_pure_opacity60" />
+        </shape>
+    </item>
+    <item android:gravity="center" android:drawable="@drawable/quantum_ic_done_white_24" />
+</layer-list>

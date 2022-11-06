@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/promoted_sparkles_text_watch_wide_form" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:yt="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/ad_view" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <FrameLayout android:id="@id/content_layout" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <View android:id="@id/content_background" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            <LinearLayout android:paddingTop="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="11.0dip" android:baselineAligned="false" android:paddingStart="16.0dip" android:paddingEnd="16.0dip">
+                <include android:id="@id/thumbnail_wrapper" android:layout_width="@dimen/list_item_thumbnail_width" android:layout_height="wrap_content" android:layout_weight="0.0" android:layout_marginEnd="16.0dip" layout="@layout/promoted_sparkles_grid_form_thumbnail_layout" />
+                <GridLayout android:id="@id/content_metadata_grid_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0" android:rowCount="4" android:columnCount="2">
+                    <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:textSize="@dimen/small_font_size" android:textColor="?adText1" android:ellipsize="end" android:id="@id/title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_column="0" android:maxLines="1" android:layout_row="0" android:layout_columnSpan="2" yt:robotoFont="regular" />
+                    <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:textSize="14.0sp" android:textColor="?adText2" android:ellipsize="end" android:id="@id/description" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="1.0dip" android:layout_column="0" android:maxLines="2" android:layout_row="1" android:layout_columnSpan="2" android:layout_marginEnd="8.0dip" yt:robotoFont="regular" />
+                    <include android:id="@id/ad_attribution" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="1.0dip" android:layout_column="0" android:layout_row="2" android:layout_marginEnd="6.0dip" layout="@layout/standalone_ad_badge_small" />
+                    <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:textSize="14.0sp" android:textColor="?adText2" android:ellipsize="end" android:id="@id/website" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="1.0dip" android:layout_column="1" android:maxLines="1" android:layout_row="2" android:layout_marginEnd="8.0dip" yt:robotoFont="regular" />
+                    <include android:layout_gravity="start|center" android:id="@id/cta_button_wrapper" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_column="0" android:layout_row="3" android:layout_columnSpan="2" layout="@layout/promoted_sparkles_cta_button" />
+                </GridLayout>
+                <include android:id="@id/close_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="0.0" layout="@layout/close_button" />
+            </LinearLayout>
+        </FrameLayout>
+        <View android:id="@id/click_overlay" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </FrameLayout>
+    <ViewStub android:id="@id/muted_ad_view_stub" android:layout="@layout/muted_native_ad" android:inflatedId="@id/muted_ad_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="1.0dip" android:layout_marginBottom="1.0dip" />
+</FrameLayout>

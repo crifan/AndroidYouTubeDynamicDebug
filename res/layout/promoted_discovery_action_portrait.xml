@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/promoted_discovery_action_portrait" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:yt="http://schemas.android.com/apk/res-auto">
+    <ViewStub android:id="@id/promoted_discovery_action_portrait_thumbnail_stub" android:layout="@layout/promoted_discovery_action_portrait_thumbnail" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <ViewStub android:id="@id/promoted_discovery_action_portrait_metadata_stub" android:layout="@layout/promoted_discovery_action_portrait_metadata" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</LinearLayout>

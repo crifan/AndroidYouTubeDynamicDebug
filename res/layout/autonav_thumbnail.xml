@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/thumbnail" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="@dimen/autonav_thumbnail_border_width" android:scaleType="centerCrop" android:contentDescription="@null" />
+    <com.google.android.libraries.youtube.rendering.ui.badge.DurationBadgeView android:textAppearance="?ytTextAppearanceBody1a" android:textColor="?ytOverlayTextPrimary" android:layout_gravity="end|bottom|center" android:id="@id/duration" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" style="@style/StandaloneDurationBadgesOverlay" />
+</merge>

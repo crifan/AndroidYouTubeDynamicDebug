@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="abc_action_bar_embed_tabs">true</bool>
+    <bool name="abc_config_actionMenuItemAllCaps">true</bool>
+    <bool name="config_materialPreferenceIconSpaceReserved">false</bool>
+    <bool name="discovery_app_promo_compact_form_use_landscape_layout">false</bool>
+    <bool name="enable_live_creation">false</bool>
+    <bool name="enable_package_replaced_receiver">false</bool>
+    <bool name="enable_system_alarm_service_default">true</bool>
+    <bool name="enable_system_foreground_service_default">true</bool>
+    <bool name="enable_system_job_service_default">false</bool>
+    <bool name="generic_promo_banner_view">false</bool>
+    <bool name="gm_sys_typescale_body1_text_all_caps">false</bool>
+    <bool name="gm_sys_typescale_body2_text_all_caps">false</bool>
+    <bool name="gm_sys_typescale_button_text_all_caps">false</bool>
+    <bool name="gm_sys_typescale_caption_text_all_caps">false</bool>
+    <bool name="gm_sys_typescale_display1_text_all_caps">false</bool>
+    <bool name="gm_sys_typescale_display2_text_all_caps">false</bool>
+    <bool name="gm_sys_typescale_display3_text_all_caps">false</bool>
+    <bool name="gm_sys_typescale_headline1_text_all_caps">false</bool>
+    <bool name="gm_sys_typescale_headline2_text_all_caps">false</bool>
+    <bool name="gm_sys_typescale_headline3_text_all_caps">false</bool>
+    <bool name="gm_sys_typescale_headline4_text_all_caps">false</bool>
+    <bool name="gm_sys_typescale_headline5_text_all_caps">false</bool>
+    <bool name="gm_sys_typescale_headline6_text_all_caps">false</bool>
+    <bool name="gm_sys_typescale_overline_text_all_caps">true</bool>
+    <bool name="gm_sys_typescale_subhead1_text_all_caps">false</bool>
+    <bool name="gm_sys_typescale_subhead2_text_all_caps">false</bool>
+    <bool name="gm_sys_typescale_subtitle1_text_all_caps">false</bool>
+    <bool name="gm_sys_typescale_subtitle2_text_all_caps">false</bool>
+    <bool name="lc_post_stream_scroll_view_center_in_parent">true</bool>
+    <bool name="lc_post_stream_thumbnail_ignore_aspect_ratio">false</bool>
+    <bool name="promoted_video_use_landscape_layout">false</bool>
+    <bool name="query_refinements_two_columns">false</bool>
+    <bool name="sparkles_text_on_home_use_landscape_layout">false</bool>
+    <bool name="sparkles_text_on_search_use_landscape_layout">false</bool>
+    <bool name="topic_picker_maintain_complete_rows_on_expansion">true</bool>
+    <bool name="workmanager_test_configuration">false</bool>
+    <item type="bool" name="APKTOOL_DUMMY_2" />
+    <item type="bool" name="APKTOOL_DUMMY_5" />
+    <item type="bool" name="APKTOOL_DUMMY_b" />
+    <item type="bool" name="APKTOOL_DUMMY_1f" />
+    <item type="bool" name="APKTOOL_DUMMY_20" />
+    <item type="bool" name="APKTOOL_DUMMY_21" />
+    <item type="bool" name="APKTOOL_DUMMY_24" />
+    <item type="bool" name="APKTOOL_DUMMY_27" />
+    <item type="bool" name="APKTOOL_DUMMY_28" />
+    <item type="bool" name="APKTOOL_DUMMY_29" />
+    <item type="bool" name="APKTOOL_DUMMY_2c" />
+    <item type="bool" name="APKTOOL_DUMMY_2e" />
+</resources>

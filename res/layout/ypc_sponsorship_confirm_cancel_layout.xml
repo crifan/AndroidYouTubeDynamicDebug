@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.libraries.youtube.commerce.offers.presenter.FractionalHeightLimitingLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:yt="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <FrameLayout android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+            <com.google.android.libraries.youtube.commerce.offers.presenter.OverridingScrollView android:id="@id/perks_scroll_view" android:paddingTop="@dimen/membership_offer_header_maximum_size" android:scrollbars="vertical" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <LinearLayout android:orientation="vertical" android:id="@id/content" android:padding="@dimen/membership_side_margin" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <TextView android:textAppearance="@style/TextAppearance.YouTube.Title" android:id="@id/title" android:paddingBottom="@dimen/membership_text_perk_default_margin" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                    <TextView android:textAppearance="@style/TextAppearance.YouTube.Body1" android:textColor="?ytTextSecondary" android:id="@id/description" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                </LinearLayout>
+            </com.google.android.libraries.youtube.commerce.offers.presenter.OverridingScrollView>
+            <FrameLayout android:gravity="top" android:id="@id/header_container" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="@dimen/membership_offer_header_maximum_size">
+                <ImageView android:id="@id/header_background" android:background="?ytGeneralBackgroundC" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" android:contentDescription="@null" />
+                <com.google.android.libraries.youtube.common.ui.CircularImageView android:layout_gravity="center" android:id="@id/viewer_thumbnail" android:layout_width="@dimen/membership_offer_header_with_perks_avatars_maximum_size" android:layout_height="@dimen/membership_offer_header_with_perks_avatars_maximum_size" android:scaleType="centerCrop" android:contentDescription="@null" android:layout_marginEnd="@dimen/membership_offer_header_with_perks_avatars_half_maximum_size_plus_spacing" />
+                <com.google.android.libraries.youtube.common.ui.CircularImageView android:layout_gravity="center" android:id="@id/channel_thumbnail" android:layout_width="@dimen/membership_offer_header_with_perks_avatars_maximum_size" android:layout_height="@dimen/membership_offer_header_with_perks_avatars_maximum_size" android:scaleType="centerCrop" android:contentDescription="@null" android:layout_marginStart="@dimen/membership_offer_header_with_perks_avatars_half_maximum_size_plus_spacing" />
+                <ImageView android:layout_gravity="center" android:id="@id/membership_icon" android:background="@drawable/offer_icon_white_background" android:layout_width="@dimen/membership_offer_header_with_perks_offer_maximum_size" android:layout_height="@dimen/membership_offer_header_with_perks_offer_maximum_size" android:tint="@color/membership_branding_color_grey" android:contentDescription="@null" />
+                <ImageView android:layout_gravity="end" android:id="@id/close_button" android:padding="8.0dip" android:layout_width="40.0dip" android:layout_height="40.0dip" android:foreground="?selectableItemBackgroundBorderless" android:src="@drawable/quantum_ic_close_white_24" android:tint="?ytTextSecondary" android:contentDescription="@string/accessibility_close_dialog" />
+            </FrameLayout>
+            <View android:layout_gravity="bottom" android:background="@drawable/drop_shadow" android:layout_width="fill_parent" android:layout_height="@dimen/membership_drop_shadow_height" />
+        </FrameLayout>
+        <FrameLayout android:background="?ytGeneralBackgroundA" android:paddingTop="8.0dip" android:paddingBottom="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="0.0" android:paddingStart="16.0dip" android:paddingEnd="16.0dip">
+            <com.google.android.libraries.youtube.rendering.ui.widget.loadingframe.LoadingFrameLayout android:id="@id/confirm_button_container" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:textAppearance="?textAppearanceButton" android:textColor="?ytCallToAction" android:ellipsize="end" android:layout_gravity="end" android:id="@id/confirm_button" android:background="?selectableItemBackground" android:padding="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:includeFontPadding="false" />
+            </com.google.android.libraries.youtube.rendering.ui.widget.loadingframe.LoadingFrameLayout>
+        </FrameLayout>
+    </LinearLayout>
+</com.google.android.libraries.youtube.commerce.offers.presenter.FractionalHeightLimitingLayout>

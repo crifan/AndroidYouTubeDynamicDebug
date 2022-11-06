@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:yt="http://schemas.android.com/apk/res-auto">
+    <com.google.android.libraries.youtube.common.ui.preferences.ProtoDataStoreSwitchPreference android:title="@string/pref_accessibility_player_for_app_title" android:key="accessibility_player_setting_key" android:summary="@string/pref_accessibility_player_for_app_summary" android:defaultValue="false" yt:iconSpaceReserved="false" />
+    <com.google.android.libraries.youtube.common.ui.preferences.ProtoDataStoreListPreference android:enabled="false" android:entries="@array/pref_hide_controls_entries" android:title="@string/pref_hide_controls_title" android:key="accessibility_hide_player_controls_setting_key" android:summary="%s" android:defaultValue="@string/pref_hide_controls_entry_default" android:entryValues="@array/pref_hide_controls_values" yt:iconSpaceReserved="false" />
+</PreferenceScreen>

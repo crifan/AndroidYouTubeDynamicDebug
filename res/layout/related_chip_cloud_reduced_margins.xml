@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <android.support.v7.widget.RecyclerView android:id="@id/related_chip_cloud" android:background="?ytBrandBackgroundSolid" android:paddingTop="8.0dip" android:paddingBottom="10.0dip" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="4.0dip" android:paddingEnd="16.0dip" />
+    <View android:id="@id/separator" android:background="?ytSeparator" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+</LinearLayout>

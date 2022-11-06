@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout android:background="?selectableItemBackground" android:paddingTop="@dimen/dismissal_list_item_padding" android:paddingBottom="@dimen/dismissal_list_item_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dismissal_list_item_padding" android:rowCount="2" android:columnCount="2" android:paddingStart="@dimen/start_end_padding" android:paddingEnd="@dimen/start_end_padding"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RadioButton android:id="@id/radio_button" android:background="@drawable/radio_button_background" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/dismissal_radio_button_margin" android:button="@android:color/transparent" android:layout_column="0" android:layout_row="0" android:layout_rowSpan="2" />
+    <TextView android:layout_gravity="fill_horizontal" android:id="@id/reason_text" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginTop="3.0dip" android:layout_column="1" android:includeFontPadding="false" android:layout_row="0" />
+    <ViewStub android:layout_gravity="fill_horizontal" android:id="@id/video_layout" android:layout="@layout/dismissal_reason_video_layout" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginTop="@dimen/compact_video_thumbnail_margin" android:layout_column="1" android:layout_row="1" />
+</GridLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="@dimen/ic_thumbnail_placeholder_size" android:width="@dimen/ic_thumbnail_placeholder_size" android:viewportWidth="32.0" android:viewportHeight="32.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:name="square" android:fillColor="@color/thumbnail_placeholder_bg_color" android:pathData="M0,0 L56,0 L56,56 L0,56 z" />
+    <group android:pivotX="@integer/ic_thumbnail_placeholder_pivot" android:pivotY="@integer/ic_thumbnail_placeholder_pivot" android:scaleX="@dimen/ic_thumbnail_placeholder_scale" android:scaleY="@dimen/ic_thumbnail_placeholder_scale">
+        <path android:fillColor="@color/thumbnail_placeholder_stroke_color" android:pathData="M25.44,24H6.7467L12.0933,17.12L14.9467,20.5733L18.9733,15.3867L25.44,24ZM15.0133,22.6667H22.7733L18.9467,17.5733L15.0133,22.6667ZM9.4667,22.6667H14.9467L12.12,19.2533L9.4667,22.6667ZM26.6667,5.3333V26.6667H5.3333V5.3333H26.6667ZM28,4H4V28H28V4Z" />
+    </group>
+</vector>

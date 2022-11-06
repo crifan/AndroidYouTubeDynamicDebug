@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:baselineAligned="false"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:yt="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:layout_marginBottom="16.0dip" android:layout_weight="1.0" android:layout_marginStart="16.0dip">
+        <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:textAppearance="@style/TextAppearance.YouTube.Body2" android:textSize="16.0sp" android:textColor="@color/yt_black4" android:ellipsize="end" android:id="@id/super_title_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="1" android:contentDescription="@null" android:textAlignment="viewStart" yt:ytSansFont="medium" />
+        <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:textAppearance="@style/TextAppearance.YouTube.Title" android:textSize="24.0sp" android:textColor="@color/yt_black4" android:ellipsize="end" android:id="@id/title_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxWidth="180.0dip" android:maxLines="3" android:lineSpacingExtra="-2.0dip" android:contentDescription="@null" android:textAlignment="viewStart" yt:ytSansFont="medium" />
+        <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:textAppearance="@style/TextAppearance.YouTube.Body1" android:textSize="14.0sp" android:textColor="@color/yt_black4" android:ellipsize="end" android:id="@id/sub_title_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:maxLines="1" android:contentDescription="@null" android:textAlignment="viewStart" />
+    </LinearLayout>
+    <FrameLayout android:layout_width="140.0dip" android:layout_height="168.0dip" android:layout_weight="0.0">
+        <ImageView android:layout_gravity="end|center|top" android:id="@id/background_image" android:layout_width="168.0dip" android:layout_height="168.0dip" android:scaleType="centerCrop" android:contentDescription="@null" />
+        <com.google.android.libraries.youtube.common.ui.CircularImageView android:layout_gravity="start|center" android:id="@id/channel_image" android:layout_width="88.0dip" android:layout_height="88.0dip" android:contentDescription="@null" />
+    </FrameLayout>
+</LinearLayout>

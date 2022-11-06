@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/close_button_or_contextual_menu_anchor" android:focusable="true" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/contextual_menu_anchor" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="8.0dip" layout="@layout/ads_contextual_menu_anchor" />
+    <include android:id="@id/static_contextual_menu_anchor" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="8.0dip" layout="@layout/static_contextual_menu_anchor" />
+    <include android:id="@id/close_button" android:layout_width="wrap_content" android:layout_height="wrap_content" layout="@layout/close_button" />
+</FrameLayout>

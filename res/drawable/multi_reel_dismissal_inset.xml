@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<inset android:insetLeft="@dimen/multi_reel_dismissal_dialog_padding_start_end" android:insetRight="@dimen/multi_reel_dismissal_dialog_padding_start_end" android:insetTop="@dimen/multi_reel_dismissal_dialog_padding_top_bottom" android:insetBottom="@dimen/multi_reel_dismissal_dialog_padding_top_bottom"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <shape>
+        <solid android:color="@color/yt_white1" />
+    </shape>
+</inset>

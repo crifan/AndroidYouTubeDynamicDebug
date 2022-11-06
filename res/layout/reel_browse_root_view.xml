@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/reel_pivot_root_view" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:yt="http://schemas.android.com/apk/res-auto" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <android.support.v7.widget.Toolbar android:id="@id/toolbar" android:layout_width="fill_parent" android:layout_height="wrap_content" app:contentInsetEnd="0.0dip" app:contentInsetStart="0.0dip" />
+    <android.support.constraint.ConstraintLayout android:id="@id/tabs_constraint_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.google.android.apps.youtube.app.common.ui.actionbar.AppTabsBar android:id="@id/tabs_bar" android:layout_width="fill_parent" android:layout_height="?actionBarSize" android:minWidth="300.0dip" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="parent" app:tab_content_color="?ytTextPrimary" app:tab_highlight_color="?ytTextPrimary" app:tab_scroll_margin="@dimen/tab_header_height" />
+    </android.support.constraint.ConstraintLayout>
+    <com.google.android.libraries.youtube.rendering.ui.widget.loadingframe.LoadingFrameLayout android:id="@id/reel_browse_loading_frame_layout" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <com.google.android.libraries.youtube.common.ui.RtlAwareViewPager android:id="@id/reel_browse_tabs_view_pager" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </com.google.android.libraries.youtube.rendering.ui.widget.loadingframe.LoadingFrameLayout>
+    <FrameLayout android:id="@id/footer_container" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</LinearLayout>

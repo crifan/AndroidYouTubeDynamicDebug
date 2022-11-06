@@ -1,0 +1,451 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="accessibility_dislike_video_plural">
+        <item quantity="other">Кнопка \"не подобається\". Це відео не сподобалося ще %1$d користувача</item>
+        <item quantity="one">Кнопка \"не подобається\". Це відео не сподобалося ще %1$d користувачу</item>
+        <item quantity="few">Кнопка \"не подобається\". Це відео не сподобалося ще %1$d користувачам</item>
+        <item quantity="many">Кнопка \"не подобається\". Це відео не сподобалося ще %1$d користувачам</item>
+    </plurals>
+    <plurals name="accessibility_dtts_fast_forward">
+        <item quantity="other">Перемотати вперед на %1$d секунди</item>
+        <item quantity="one">Перемотати вперед на %1$d секунду</item>
+        <item quantity="few">Перемотати вперед на %1$d секунди</item>
+        <item quantity="many">Перемотати вперед на %1$d секунд</item>
+    </plurals>
+    <plurals name="accessibility_dtts_rewind">
+        <item quantity="other">Перемотати назад на %1$d секунди</item>
+        <item quantity="one">Перемотати назад на %1$d секунду</item>
+        <item quantity="few">Перемотати назад на %1$d секунди</item>
+        <item quantity="many">Перемотати назад на %1$d секунд</item>
+    </plurals>
+    <plurals name="accessibility_duration_description_hours">
+        <item quantity="other">%d години</item>
+        <item quantity="one">%d година</item>
+        <item quantity="few">%d години</item>
+        <item quantity="many">%d годин</item>
+    </plurals>
+    <plurals name="accessibility_duration_description_minutes">
+        <item quantity="other">%d хвилини</item>
+        <item quantity="one">%d хвилина</item>
+        <item quantity="few">%d хвилини</item>
+        <item quantity="many">%d хвилин</item>
+    </plurals>
+    <plurals name="accessibility_duration_description_seconds">
+        <item quantity="other">%d секунди</item>
+        <item quantity="one">%d секунда</item>
+        <item quantity="few">%d секунди</item>
+        <item quantity="many">%d секунд</item>
+    </plurals>
+    <plurals name="accessibility_like_video_plural">
+        <item quantity="other">Кнопка \"подобається\". Це відео сподобалося ще %1$d користувача</item>
+        <item quantity="one">Кнопка \"подобається\". Це відео сподобалося ще %1$d користувачу</item>
+        <item quantity="few">Кнопка \"подобається\". Це відео сподобалося ще %1$d користувачам</item>
+        <item quantity="many">Кнопка \"подобається\". Це відео сподобалося ще %1$d користувачам</item>
+    </plurals>
+    <plurals name="accessibility_skip_ad_in">
+        <item quantity="other">Пропустити рекламу за %1$d секунди</item>
+        <item quantity="one">Пропустити рекламу за %1$d секунду</item>
+        <item quantity="few">Пропустити рекламу за %1$d секунди</item>
+        <item quantity="many">Пропустити рекламу за %1$d секунд</item>
+    </plurals>
+    <plurals name="accessibility_undo_dislike_video_plural">
+        <item quantity="other">Кнопка скасування оцінки \"не подобається\". Це відео не сподобалося ще %1$d користувача</item>
+        <item quantity="one">Кнопка скасування оцінки \"не подобається\". Це відео не сподобалося ще %1$d користувачу</item>
+        <item quantity="few">Кнопка скасування оцінки \"не подобається\". Це відео не сподобалося ще %1$d користувачам</item>
+        <item quantity="many">Кнопка скасування оцінки \"не подобається\". Це відео не сподобалося ще %1$d користувачам</item>
+    </plurals>
+    <plurals name="accessibility_undo_like_video_plural">
+        <item quantity="other">Кнопка скасування оцінки \"подобається\". Це відео сподобалося ще %1$d користувача</item>
+        <item quantity="one">Кнопка скасування оцінки \"подобається\". Це відео сподобалося ще %1$d користувачу</item>
+        <item quantity="few">Кнопка скасування оцінки \"подобається\". Це відео сподобалося ще %1$d користувачам</item>
+        <item quantity="many">Кнопка скасування оцінки \"подобається\". Це відео сподобалося ще %1$d користувачам</item>
+    </plurals>
+    <plurals name="download_new_videos_button_text">
+        <item quantity="other">Завантажити %1$d нового відео</item>
+        <item quantity="one">Завантажити %1$d нове відео</item>
+        <item quantity="few">Завантажити %1$d нові відео</item>
+        <item quantity="many">Завантажити %1$d нових відео</item>
+    </plurals>
+    <plurals name="download_playlist_unplayable_future_days_plural">
+        <item quantity="other">Без підписки Premium деякі відео стануть недоступними через %1$d дня</item>
+        <item quantity="one">Без підписки Premium деякі відео стануть недоступними через %1$d день</item>
+        <item quantity="few">Без підписки Premium деякі відео стануть недоступними через %1$d дні</item>
+        <item quantity="many">Без підписки Premium деякі відео стануть недоступними через %1$d днів</item>
+    </plurals>
+    <plurals name="download_playlist_unplayable_future_hours_plural">
+        <item quantity="other">Без підписки Premium деякі відео стануть недоступними через %1$d години</item>
+        <item quantity="one">Без підписки Premium деякі відео стануть недоступними через %1$d годину</item>
+        <item quantity="few">Без підписки Premium деякі відео стануть недоступними через %1$d години</item>
+        <item quantity="many">Без підписки Premium деякі відео стануть недоступними через %1$d годин</item>
+    </plurals>
+    <plurals name="download_playlist_unplayable_future_minutes_plural">
+        <item quantity="other">Без підписки Premium деякі відео стануть недоступними через %1$d хвилини</item>
+        <item quantity="one">Без підписки Premium деякі відео стануть недоступними через %1$d хвилину</item>
+        <item quantity="few">Без підписки Premium деякі відео стануть недоступними через %1$d хвилини</item>
+        <item quantity="many">Без підписки Premium деякі відео стануть недоступними через %1$d хвилин</item>
+    </plurals>
+    <plurals name="download_video_unplayable_future_days_plural">
+        <item quantity="other">Стане недоступним через %1$d дн. без Premium</item>
+        <item quantity="one">Стане недоступним через %1$d дн. без Premium</item>
+        <item quantity="few">Стане недоступним через %1$d дн. без Premium</item>
+        <item quantity="many">Стане недоступним через %1$d дн. без Premium</item>
+    </plurals>
+    <plurals name="download_video_unplayable_future_hours_plural">
+        <item quantity="other">Стане недоступним через %1$d год без Premium</item>
+        <item quantity="one">Стане недоступним через %1$d год без Premium</item>
+        <item quantity="few">Стане недоступним через %1$d год без Premium</item>
+        <item quantity="many">Стане недоступним через %1$d год без Premium</item>
+    </plurals>
+    <plurals name="download_video_unplayable_future_minutes_plural">
+        <item quantity="other">Стане недоступним через %1$d хв без Premium</item>
+        <item quantity="one">Стане недоступним через %1$d хв без Premium</item>
+        <item quantity="few">Стане недоступним через %1$d хв без Premium</item>
+        <item quantity="many">Стане недоступним через %1$d хв без Premium</item>
+    </plurals>
+    <plurals name="duration_minutes">
+        <item quantity="other">%1$d хв</item>
+        <item quantity="zero">0 хвилин</item>
+        <item quantity="one">1 хвилина</item>
+        <item quantity="two">2 хвилини</item>
+        <item quantity="few">%1$d хв</item>
+        <item quantity="many">%1$d хв</item>
+    </plurals>
+    <plurals name="duration_seconds">
+        <item quantity="other">%1$d с</item>
+        <item quantity="zero">0 секунд</item>
+        <item quantity="one">1 секунда</item>
+        <item quantity="two">2 секунди</item>
+        <item quantity="few">%1$d с</item>
+        <item quantity="many">%1$d с</item>
+    </plurals>
+    <plurals name="frequency_hours_component">
+        <item quantity="other">%1$d години</item>
+        <item quantity="one">%1$d година</item>
+        <item quantity="few">%1$d години</item>
+        <item quantity="many">%1$d годин</item>
+    </plurals>
+    <plurals name="frequency_hours_only">
+        <item quantity="other">Кожних %1$d години</item>
+        <item quantity="one">Кожну %1$d годину</item>
+        <item quantity="few">Кожні %1$d години</item>
+        <item quantity="many">Кожних %1$d годин</item>
+    </plurals>
+    <plurals name="frequency_minutes_component">
+        <item quantity="other">%1$d хвилини</item>
+        <item quantity="one">%1$d хвилина</item>
+        <item quantity="few">%1$d хвилини</item>
+        <item quantity="many">%1$d хвилин</item>
+    </plurals>
+    <plurals name="frequency_minutes_only">
+        <item quantity="other">Кожних %1$d хвилини</item>
+        <item quantity="one">Кожну %1$d хвилину</item>
+        <item quantity="few">Кожні %1$d хвилини</item>
+        <item quantity="many">Кожних %1$d хвилин</item>
+    </plurals>
+    <plurals name="image_picker_title">
+        <item quantity="other">Вибрано %1$d</item>
+        <item quantity="one">Вибрано %1$d</item>
+        <item quantity="few">Вибрано %1$d</item>
+        <item quantity="many">Вибрано %1$d</item>
+    </plurals>
+    <plurals name="invalid_uploads_error_msg">
+        <item quantity="other">Принаймні один відеофайл недоступний або недійсний. Повторіть спробу або виберіть інші файли.</item>
+        <item quantity="one">Принаймні один відеофайл недоступний або недійсний. Повторіть спробу або виберіть інші файли.</item>
+        <item quantity="few">Принаймні один відеофайл недоступний або недійсний. Повторіть спробу або виберіть інші файли.</item>
+        <item quantity="many">Принаймні один відеофайл недоступний або недійсний. Повторіть спробу або виберіть інші файли.</item>
+    </plurals>
+    <plurals name="last_update_in_days_message">
+        <item quantity="other">Оновлено %1$d дня тому</item>
+        <item quantity="one">Оновлено %1$d день тому</item>
+        <item quantity="few">Оновлено %1$d дні тому</item>
+        <item quantity="many">Оновлено %1$d днів тому</item>
+    </plurals>
+    <plurals name="last_update_in_hours_message">
+        <item quantity="other">Оновлено %1$d години тому</item>
+        <item quantity="one">Оновлено %1$d годину тому</item>
+        <item quantity="few">Оновлено %1$d години тому</item>
+        <item quantity="many">Оновлено %1$d годин тому</item>
+    </plurals>
+    <plurals name="last_update_in_minutes_message">
+        <item quantity="other">Оновлено %1$d хвилини тому</item>
+        <item quantity="one">Оновлено %1$d хвилину тому</item>
+        <item quantity="few">Оновлено %1$d хвилини тому</item>
+        <item quantity="many">Оновлено %1$d хвилин тому</item>
+    </plurals>
+    <plurals name="last_update_in_weeks_message">
+        <item quantity="other">Оновлено %1$d тижня тому</item>
+        <item quantity="one">Оновлено %1$d тиждень тому</item>
+        <item quantity="few">Оновлено %1$d тижні тому</item>
+        <item quantity="many">Оновлено %1$d тижнів тому</item>
+    </plurals>
+    <plurals name="notification_playlist_progress_size">
+        <item quantity="other">%1$d з %2$d відео</item>
+        <item quantity="one">%1$d з %2$d відео</item>
+        <item quantity="few">%1$d з %2$d відео</item>
+        <item quantity="many">%1$d з %2$d відео</item>
+    </plurals>
+    <plurals name="offline_go_online_to_renew_dialog_message">
+        <item quantity="other">"Завантажені відео залишатимуться доступними на пристрої, якщо він під'єднуватиметься до Інтернету принаймні раз на %1$d дня. Вам не потрібно повторно завантажувати відео. Це відбувається автоматично."</item>
+        <item quantity="one">"Завантажені відео залишатимуться доступними на пристрої, якщо він під'єднуватиметься до Інтернету принаймні раз на %1$d день. Вам не потрібно повторно завантажувати відео. Це відбувається автоматично."</item>
+        <item quantity="few">"Завантажені відео залишатимуться доступними на пристрої, якщо він під'єднуватиметься до Інтернету принаймні раз на %1$d дні. Вам не потрібно повторно завантажувати відео. Це відбувається автоматично."</item>
+        <item quantity="many">"Завантажені відео залишатимуться доступними на пристрої, якщо він під'єднуватиметься до Інтернету принаймні раз на %1$d днів. Вам не потрібно повторно завантажувати відео. Це відбувається автоматично."</item>
+    </plurals>
+    <plurals name="offline_go_online_to_renew_snackbar_message">
+        <item quantity="other">Якщо не підключатися до Інтернету, завантаження залишаються доступними протягом %1$d дня.</item>
+        <item quantity="one">Якщо не підключатися до Інтернету, завантаження залишаються доступними протягом %1$d дня.</item>
+        <item quantity="few">Якщо не підключатися до Інтернету, завантаження залишаються доступними протягом %1$d днів.</item>
+        <item quantity="many">Якщо не підключатися до Інтернету, завантаження залишаються доступними протягом %1$d днів.</item>
+    </plurals>
+    <plurals name="offline_remember_setting_for_days">
+        <item quantity="other">"Запам'ятати це налаштування на %1$d дня"</item>
+        <item quantity="one">"Запам'ятати це налаштування на %1$d день"</item>
+        <item quantity="few">"Запам'ятати це налаштування на %1$d дні"</item>
+        <item quantity="many">"Запам'ятати це налаштування на %1$d днів"</item>
+    </plurals>
+    <plurals name="playlist_picker_dialog_done">
+        <item quantity="other">Списки відтворення оновлено</item>
+        <item quantity="one">Списки відтворення оновлено</item>
+        <item quantity="few">Списки відтворення оновлено</item>
+        <item quantity="many">Списки відтворення оновлено</item>
+    </plurals>
+    <plurals name="playlist_size">
+        <item quantity="other">%1$,d відео</item>
+        <item quantity="one">%1$,d відео</item>
+        <item quantity="few">%1$,d відео</item>
+        <item quantity="many">%1$,d відео</item>
+    </plurals>
+    <plurals name="playlist_size_downloaded">
+        <item quantity="other">Завантажено %1$,d</item>
+        <item quantity="one">Завантажено %1$,d</item>
+        <item quantity="few">Завантажено %1$,d</item>
+        <item quantity="many">Завантажено %1$,d</item>
+    </plurals>
+    <plurals name="playlist_size_total">
+        <item quantity="other">%1$,d відео</item>
+        <item quantity="one">%1$,d відео</item>
+        <item quantity="few">%1$,d відео</item>
+        <item quantity="many">%1$,d відео</item>
+    </plurals>
+    <plurals name="public_notification_text">
+        <item quantity="other">%1$d нового сповіщення</item>
+        <item quantity="one">%1$d нове сповіщення</item>
+        <item quantity="few">%1$d нових сповіщення</item>
+        <item quantity="many">%1$d нових сповіщень</item>
+    </plurals>
+    <plurals name="quick_seek_x_second">
+        <item quantity="other">%d секунди</item>
+        <item quantity="one">%d секунда</item>
+        <item quantity="few">%d секунди</item>
+        <item quantity="many">%d секунд</item>
+    </plurals>
+    <plurals name="recommendation_count">
+        <item quantity="other">%1$d рекомендації</item>
+        <item quantity="one">%1$d рекомендація</item>
+        <item quantity="few">%1$d рекомендації</item>
+        <item quantity="many">%1$d рекомендацій</item>
+    </plurals>
+    <plurals name="rental_expiry_notice">
+        <item quantity="other">Після початку відтворення у вас буде %1$d години, щоб подивитися це відео.</item>
+        <item quantity="one">Після початку відтворення у вас буде %1$d година, щоб подивитися це відео.</item>
+        <item quantity="few">Після початку відтворення у вас буде %1$d години, щоб подивитися це відео.</item>
+        <item quantity="many">Після початку відтворення у вас буде %1$d годин, щоб подивитися це відео.</item>
+    </plurals>
+    <plurals name="rental_long_days_remaining">
+        <item quantity="other">Термін дії закінчується через %1$d дня</item>
+        <item quantity="one">Термін дії закінчується через %1$d день</item>
+        <item quantity="few">Термін дії закінчується через %1$d дні</item>
+        <item quantity="many">Термін дії закінчується через %1$d днів</item>
+    </plurals>
+    <plurals name="rental_long_hours_remaining">
+        <item quantity="other">Термін дії закінчується через %1$d години</item>
+        <item quantity="one">Термін дії закінчується через %1$d годину</item>
+        <item quantity="few">Термін дії закінчується через %1$d години</item>
+        <item quantity="many">Термін дії закінчується через %1$d годин</item>
+    </plurals>
+    <plurals name="rental_long_weeks_remaining">
+        <item quantity="other">Термін дії закінчується через %1$d тижня</item>
+        <item quantity="one">Термін дії закінчується через %1$d тиждень</item>
+        <item quantity="few">Термін дії закінчується через %1$d тижні</item>
+        <item quantity="many">Термін дії закінчується через %1$d тижнів</item>
+    </plurals>
+    <plurals name="rental_medium_days_remaining">
+        <item quantity="other">Ще %1$d дня</item>
+        <item quantity="one">Ще %1$d день</item>
+        <item quantity="few">Ще %1$d дні</item>
+        <item quantity="many">Ще %1$d днів</item>
+    </plurals>
+    <plurals name="rental_medium_hours_remaining">
+        <item quantity="other">Ще %1$d години</item>
+        <item quantity="one">Ще %1$d година</item>
+        <item quantity="few">Ще %1$d години</item>
+        <item quantity="many">Ще %1$d годин</item>
+    </plurals>
+    <plurals name="rental_medium_weeks_remaining">
+        <item quantity="other">Ще %1$d тижня</item>
+        <item quantity="one">Ще %1$d тиждень</item>
+        <item quantity="few">Ще %1$d тижні</item>
+        <item quantity="many">Ще %1$d тижнів</item>
+    </plurals>
+    <plurals name="selected_video_count">
+        <item quantity="other">Вибрано %1$d відео</item>
+        <item quantity="one">Вибрано %1$d відео</item>
+        <item quantity="few">Вибрано %1$d відео</item>
+        <item quantity="many">Вибрано %1$d відео</item>
+    </plurals>
+    <plurals name="shorts_a11y_duration_seconds">
+        <item quantity="other">%1$s секунди</item>
+        <item quantity="one">%1$s секунді</item>
+        <item quantity="few">%1$s секунді</item>
+        <item quantity="many">%1$s секунді</item>
+    </plurals>
+    <plurals name="shorts_a11y_timer_duration_seconds">
+        <item quantity="other">Таймер на %1$d секунди</item>
+        <item quantity="one">Таймер на %1$d секунду</item>
+        <item quantity="few">Таймер на %1$d секунди</item>
+        <item quantity="many">Таймер на %1$d секунд</item>
+    </plurals>
+    <plurals name="shorts_a11y_timer_started">
+        <item quantity="other">Активовано таймер на %1$d секунди</item>
+        <item quantity="one">Активовано таймер на %1$d секунду</item>
+        <item quantity="few">Активовано таймер на %1$d секунди</item>
+        <item quantity="many">Активовано таймер на %1$d секунд</item>
+    </plurals>
+    <plurals name="smart_downloads_future_update_text">
+        <item quantity="other">Розумні завантаження оновляться автоматично через %1$d дня</item>
+        <item quantity="one">Розумні завантаження оновляться автоматично через %1$d день</item>
+        <item quantity="few">Розумні завантаження оновляться автоматично через %1$d дні</item>
+        <item quantity="many">Розумні завантаження оновляться автоматично через %1$d днів</item>
+    </plurals>
+    <plurals name="sticker_dialog_title">
+        <item quantity="other">Спробуйте через %1$d дня</item>
+        <item quantity="one">Спробуйте через %1$d день</item>
+        <item quantity="few">Спробуйте через %1$d дні</item>
+        <item quantity="many">Спробуйте через %1$d днів</item>
+    </plurals>
+    <plurals name="too_many_external_uploads_error_msg">
+        <item quantity="other">За раз можна завантажити лише %1$d відео.</item>
+        <item quantity="one">За раз можна завантажити лише %1$d відео.</item>
+        <item quantity="few">За раз можна завантажити лише %1$d відео.</item>
+        <item quantity="many">За раз можна завантажити лише %1$d відео.</item>
+    </plurals>
+    <plurals name="transcoding_progress">
+        <item quantity="other">Підготовка: %1$,d%%</item>
+        <item quantity="one">Підготовка: %1$,d%%</item>
+        <item quantity="few">Підготовка: %1$,d%%</item>
+        <item quantity="many">Підготовка: %1$,d%%</item>
+    </plurals>
+    <plurals name="trim_segment_max_length">
+        <item quantity="other">Не більше ніж %1$d секунди</item>
+        <item quantity="one">Не більше ніж %1$d секунда</item>
+        <item quantity="few">Не більше ніж %1$d секунди</item>
+        <item quantity="many">Не більше ніж %1$d секунд</item>
+    </plurals>
+    <plurals name="trim_switch_edu">
+        <item quantity="other">Обріжте своє відео до %1$d секунди та додайте музику</item>
+        <item quantity="one">Обріжте своє відео до %1$d секунди та додайте музику</item>
+        <item quantity="few">Обріжте своє відео до %1$d секунд і додайте музику</item>
+        <item quantity="many">Обріжте своє відео до %1$d секунд і додайте музику</item>
+    </plurals>
+    <plurals name="trim_switch_edu_full_length_shorts">
+        <item quantity="other">Обрізати відео до %1$d секунди або менше</item>
+        <item quantity="one">Обрізати відео до %1$d секунди або менше</item>
+        <item quantity="few">Обрізати відео до %1$d секунд або менше</item>
+        <item quantity="many">Обрізати відео до %1$d секунд або менше</item>
+    </plurals>
+    <plurals name="upload_hours_remaing">
+        <item quantity="other">Залишилося приблизно %1$,d години</item>
+        <item quantity="one">Залишилася приблизно %1$,d година</item>
+        <item quantity="few">Залишилося приблизно %1$,d години</item>
+        <item quantity="many">Залишилося приблизно %1$,d годин</item>
+    </plurals>
+    <plurals name="upload_indicator_all_completed">
+        <item quantity="other">%d відео завантажено</item>
+        <item quantity="one">%d відео завантажено</item>
+        <item quantity="few">%d відео завантажено</item>
+        <item quantity="many">%d відео завантажено</item>
+    </plurals>
+    <plurals name="upload_indicator_all_failed">
+        <item quantity="other">не вдалося завантажити жодного відео</item>
+        <item quantity="one">не вдалося завантажити жодного відео</item>
+        <item quantity="few">не вдалося завантажити жодного відео</item>
+        <item quantity="many">не вдалося завантажити жодного відео</item>
+    </plurals>
+    <plurals name="upload_indicator_all_uploading">
+        <item quantity="other">%d відео завантажуються</item>
+        <item quantity="one">%d відео завантажується</item>
+        <item quantity="few">%d відео завантажуються</item>
+        <item quantity="many">%d відео завантажуються</item>
+    </plurals>
+    <plurals name="upload_indicator_partial_fail">
+        <item quantity="other">не вдалося завантажити %1$d з %2$d відео</item>
+        <item quantity="one">не вдалося завантажити %1$d з %2$d відео</item>
+        <item quantity="few">не вдалося завантажити %1$d з %2$d відео</item>
+        <item quantity="many">не вдалося завантажити %1$d з %2$d відео</item>
+    </plurals>
+    <plurals name="upload_indicator_uploading_and_completed_completed_part">
+        <item quantity="other">%d завантажено</item>
+        <item quantity="one">%d завантажено</item>
+        <item quantity="few">%d завантажено</item>
+        <item quantity="many">%d завантажено</item>
+    </plurals>
+    <plurals name="upload_indicator_uploading_and_completed_uploading_part">
+        <item quantity="other">%d завантажуються</item>
+        <item quantity="one">%d завантажується</item>
+        <item quantity="few">%d завантажуються</item>
+        <item quantity="many">%d завантажуються</item>
+    </plurals>
+    <plurals name="upload_minutes_remaing">
+        <item quantity="other">Залишилося приблизно %1$,d хвилини</item>
+        <item quantity="one">Залишилася приблизно %1$,d хвилина</item>
+        <item quantity="few">Залишилося приблизно %1$,d хвилини</item>
+        <item quantity="many">Залишилося приблизно %1$,d хвилин</item>
+    </plurals>
+    <plurals name="upload_notification_active_progress">
+        <item quantity="other">Завантаження %1$d з %2$d відео</item>
+        <item quantity="one">Завантаження %1$d з %2$d відео</item>
+        <item quantity="few">Завантаження %1$d з %2$d відео</item>
+        <item quantity="many">Завантаження %1$d з %2$d відео</item>
+    </plurals>
+    <plurals name="upload_progress">
+        <item quantity="other">Завантажено: %1$,d%%</item>
+        <item quantity="one">Завантажено: %1$,d%%</item>
+        <item quantity="few">Завантажено: %1$,d%%</item>
+        <item quantity="many">Завантажено: %1$,d%%</item>
+    </plurals>
+    <plurals name="upload_seconds_remaing">
+        <item quantity="other">Залишилося приблизно %1$,d секунди</item>
+        <item quantity="one">Залишилася приблизно %1$,d секунда</item>
+        <item quantity="few">Залишилося приблизно %1$,d секунди</item>
+        <item quantity="many">Залишилося приблизно %1$,d секунд</item>
+    </plurals>
+    <plurals name="uploads_failed">
+        <item quantity="other">Не вдалося завантажити: %1$,d</item>
+        <item quantity="one">Не вдалося завантажити: %1$,d</item>
+        <item quantity="few">Не вдалося завантажити: %1$,d</item>
+        <item quantity="many">Не вдалося завантажити: %1$,d</item>
+    </plurals>
+    <plurals name="uploads_failed_with_in_progress_videos">
+        <item quantity="other">Не вдалося завантажити: %1$,d/%2$,d</item>
+        <item quantity="one">Не вдалося завантажити: %1$,d/%2$,d</item>
+        <item quantity="few">Не вдалося завантажити: %1$,d/%2$,d</item>
+        <item quantity="many">Не вдалося завантажити: %1$,d/%2$,d</item>
+    </plurals>
+    <plurals name="uploads_in_progress">
+        <item quantity="other">Завантажуються: %1$,d</item>
+        <item quantity="one">Завантажуються: %1$,d</item>
+        <item quantity="few">Завантажуються: %1$,d</item>
+        <item quantity="many">Завантажуються: %1$,d</item>
+    </plurals>
+    <plurals name="user_education_quick_seek">
+        <item quantity="other">Двічі торкніться ліворуч або праворуч, щоб перемотати на %d секунди назад чи вперед</item>
+        <item quantity="one">Двічі торкніться ліворуч або праворуч, щоб перемотати на %d секунду назад чи вперед</item>
+        <item quantity="few">Двічі торкніться ліворуч або праворуч, щоб перемотати на %d секунди назад чи вперед</item>
+        <item quantity="many">Двічі торкніться ліворуч або праворуч, щоб перемотати на %d секунд назад чи вперед</item>
+    </plurals>
+    <plurals name="video_count">
+        <item quantity="other">%1$d відео</item>
+        <item quantity="one">%1$d відео</item>
+        <item quantity="few">%1$d відео</item>
+        <item quantity="many">%1$d відео</item>
+    </plurals>
+</resources>

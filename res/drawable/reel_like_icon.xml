@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_selected="true" android:drawable="@drawable/quantum_ic_thumb_up_alt_white_24" />
+    <item android:drawable="@drawable/quantum_ic_thumb_up_off_alt_white_24" />
+</selector>

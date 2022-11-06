@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="center_vertical" android:orientation="horizontal" android:id="@id/cta_button_wrapper" android:focusable="true" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:yt="http://schemas.android.com/apk/res-auto">
+    <View android:id="@id/cta_button_start_filler" android:layout_width="0.0dip" android:layout_height="1.0dip" />
+    <FrameLayout android:id="@id/cta_button_touchable_wrapper" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minWidth="40.0dip">
+        <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:textSize="13.0sp" android:textColor="?adBlue" android:ellipsize="end" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/cta_button" android:background="@drawable/native_ad_cta_button_background_white" android:layout_width="fill_parent" android:layout_height="36.0dip" android:maxLines="1" android:paddingStart="16.0dip" android:paddingEnd="16.0dip" yt:robotoFont="medium" />
+        <LinearLayout android:layout_gravity="center_vertical" android:orientation="horizontal" android:id="@id/ad_cta_button" android:background="@drawable/ad_cta_button_background" android:clipChildren="true" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:textSize="14.0sp" android:textColor="?ytCallToAction" android:ellipsize="end" android:gravity="start|center" android:layout_gravity="start|center" android:id="@id/ad_cta_button_text" android:layout_width="0.0dip" android:layout_height="36.0dip" android:scaleType="center" android:maxLines="1" android:layout_weight="1.0" android:textAlignment="viewStart" android:paddingStart="8.0dip" android:paddingEnd="8.0dip" yt:robotoFont="medium" />
+            <ImageView android:layout_gravity="end|center" android:id="@id/ad_cta_button_icon" android:focusable="false" android:layout_width="34.0dip" android:layout_height="21.0dip" android:scaleType="fitCenter" android:tint="?ytCallToAction" android:contentDescription="@null" android:textAlignment="viewEnd" android:paddingEnd="13.0dip" />
+        </LinearLayout>
+    </FrameLayout>
+    <View android:id="@id/cta_button_end_filler" android:layout_width="0.0dip" android:layout_height="1.0dip" />
+</LinearLayout>

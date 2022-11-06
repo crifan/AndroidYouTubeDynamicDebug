@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<View android:id="@id/channel_status" android:background="?channelListSubMenuAvatarStatus" android:layout_width="@dimen/section_list_drawer_avatar_status_size" android:layout_height="@dimen/section_list_drawer_avatar_status_size" android:layout_alignBottom="@id/channel_avatar" android:layout_alignEnd="@id/channel_avatar"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

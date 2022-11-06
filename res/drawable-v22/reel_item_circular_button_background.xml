@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true">
+        <layer-list>
+            <item android:drawable="@drawable/reel_item_circular_button_background_pressed" android:top="@dimen/reel_item_circular_button_background_padding_top" android:bottom="@dimen/reel_item_circular_button_background_padding_bottom" android:start="@dimen/reel_item_circular_button_background_padding_start" android:end="@dimen/reel_item_circular_button_background_padding_end" />
+        </layer-list>
+    </item>
+    <item>
+        <layer-list>
+            <item android:drawable="@drawable/reel_item_circular_button_background_default" android:top="@dimen/reel_item_circular_button_background_padding_top" android:bottom="@dimen/reel_item_circular_button_background_padding_bottom" android:start="@dimen/reel_item_circular_button_background_padding_start" android:end="@dimen/reel_item_circular_button_background_padding_end" />
+        </layer-list>
+    </item>
+</selector>

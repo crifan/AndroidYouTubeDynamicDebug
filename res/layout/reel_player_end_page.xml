@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/reel_player_end_page_container" android:layout_width="wrap_content" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ProgressBar android:layout_gravity="center" android:id="@id/reel_end_page_spinner_horizontal" android:layout_width="@dimen/reel_end_page_spinner_size" android:layout_height="@dimen/reel_end_page_spinner_size" android:indeterminate="true" android:contentDescription="@string/reel_accessibility_end_page_spinner" android:layout_marginStart="@dimen/reel_end_page_margin_start" android:layout_marginEnd="@dimen/reel_end_page_margin_end" style="@style/ReelOverlayProgressBar" />
+</FrameLayout>

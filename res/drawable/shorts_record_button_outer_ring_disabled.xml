@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="oval"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <stroke android:width="@dimen/shorts_record_button_outer_ring_stroke_width" android:color="@color/yt_white1_opacity30" />
+    <solid android:color="?ytOverlayBackgroundMediumLight" />
+</shape>

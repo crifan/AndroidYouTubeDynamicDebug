@@ -1,0 +1,1618 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="abc_decor_view_status_guard">#ff000000</color>
+    <color name="abc_decor_view_status_guard_light">#ffffffff</color>
+    <color name="abc_search_url_text_normal">#ff7fa87f</color>
+    <color name="abc_search_url_text_pressed">@android:color/black</color>
+    <color name="abc_search_url_text_selected">@android:color/black</color>
+    <color name="accent_material_dark">@color/material_deep_teal_200</color>
+    <color name="accent_material_light">@color/material_deep_teal_500</color>
+    <color name="account_switcher_background_pressed">@color/yt_grey3</color>
+    <color name="active_timestamp_marker_color">@color/yt_white1</color>
+    <color name="ad_background_1_dark">@color/yt_black2</color>
+    <color name="ad_background_1_light">@color/yt_white2</color>
+    <color name="ad_background_2_dark">@color/yt_black3</color>
+    <color name="ad_background_2_light">@color/yt_white3</color>
+    <color name="ad_blue_dark">@color/yt_light_blue</color>
+    <color name="ad_blue_light">@color/yt_dark_blue</color>
+    <color name="ad_muted_background_dark">@color/yt_black2</color>
+    <color name="ad_muted_background_light">#fff5f5f5</color>
+    <color name="ad_overlay_background">#99000000</color>
+    <color name="ad_separator_1_dark">@color/yt_white1_opacity10</color>
+    <color name="ad_separator_1_light">@color/yt_black_pure_opacity10</color>
+    <color name="ad_text_1_dark">@color/yt_white1</color>
+    <color name="ad_text_1_light">#ff131313</color>
+    <color name="ad_text_2_dark">@color/yt_grey2</color>
+    <color name="ad_text_2_light">#ff606060</color>
+    <color name="ad_text_3_dark">@color/yt_white1</color>
+    <color name="ad_text_3_light">#ff333333</color>
+    <color name="ad_text_4_dark">@color/yt_grey2</color>
+    <color name="ad_text_4_light">#ff666666</color>
+    <color name="add_text_shadow_color">#55000000</color>
+    <color name="alignment_marker_color">#ffb4b4b4</color>
+    <color name="app_bar_primary_background">@android:color/white</color>
+    <color name="audio_swap_tab_fallback_text_color_activated_dark">@color/yt_black_pure</color>
+    <color name="audio_swap_tab_text_color_normal">@color/yt_black_pure_opacity60</color>
+    <color name="audio_swap_track_bar_background">@color/yt_black_pure_opacity80</color>
+    <color name="av_disabled_gray">@color/yt_black_pure_opacity10</color>
+    <color name="av_error_text">@color/yt_youtube_red</color>
+    <color name="background_floating_material_dark">@color/material_grey_800</color>
+    <color name="background_floating_material_light">@android:color/white</color>
+    <color name="background_material_dark">@color/material_grey_850</color>
+    <color name="background_material_light">@color/material_grey_50</color>
+    <color name="biometric_error_color">#ffff5722</color>
+    <color name="brand_interaction_background_color">#b3000000</color>
+    <color name="brand_interaction_selected_background_color">#ff4780ee</color>
+    <color name="bright_foreground_disabled_material_dark">#80ffffff</color>
+    <color name="bright_foreground_disabled_material_light">#80000000</color>
+    <color name="bright_foreground_material_dark">@android:color/white</color>
+    <color name="bright_foreground_material_light">@android:color/black</color>
+    <color name="buffering_progress_color">@color/yt_white1</color>
+    <color name="button_bg">#1affffff</color>
+    <color name="button_material_dark">#ff5a595b</color>
+    <color name="button_material_light">#ffd6d7d7</color>
+    <color name="callout_drawable_background_color">#f2ffffff</color>
+    <color name="callout_drawable_text_color">#ff000000</color>
+    <color name="camera_dialog_button_text_color">#ff4285f4</color>
+    <color name="camera_dialog_text_color">#ff808080</color>
+    <color name="camera_dialog_title_color">@color/yt_black_pure</color>
+    <color name="camera_front_flash_torch_scrim_color">#e0ffffff</color>
+    <color name="camera_header_background">@color/yt_black_pure_opacity30</color>
+    <color name="cardview_dark_background">#ff424242</color>
+    <color name="cardview_light_background">#ffffffff</color>
+    <color name="carousel_divider_color">@color/yt_white1_opacity30</color>
+    <color name="cast_expanded_controller_ad_break_marker_color">#fffec92f</color>
+    <color name="cast_expanded_controller_ad_in_progress_text_color">#ffffffff</color>
+    <color name="cast_expanded_controller_ad_label_background_color">#fffec92f</color>
+    <color name="cast_expanded_controller_ad_label_text_color">#ffffffff</color>
+    <color name="cast_expanded_controller_live_indicator_color">#ffd0021b</color>
+    <color name="cast_expanded_controller_loading_indicator_color">#ffffffff</color>
+    <color name="cast_seekbar_progress_thumb_color">#ffd0021b</color>
+    <color name="cast_seekbar_secondary_progress_color">#a6ffffff</color>
+    <color name="cast_seekbar_tooltip_background_color">#e6616161</color>
+    <color name="cast_seekbar_unseekable_progress_color">#4dffffff</color>
+    <color name="channel_list_sub_menu_avatar_live">@color/yt_youtube_red</color>
+    <color name="channel_list_sub_menu_avatar_unread">@color/yt_dark_blue</color>
+    <color name="circular_button_background">#1fffffff</color>
+    <color name="cmt_avatar_heart_overlay_default_dark">#ff898989</color>
+    <color name="cmt_avatar_heart_overlay_default_light">#ff767676</color>
+    <color name="cmt_bg_style_default_dark">@color/yt_black1</color>
+    <color name="cmt_bg_style_grey_dark">@color/yt_black2</color>
+    <color name="cmt_bg_style_grey_light">#fff5f5f5</color>
+    <color name="cmt_divider_dark">@color/yt_separator_dark</color>
+    <color name="cmt_divider_light">@color/yt_separator_light</color>
+    <color name="cmt_heart_pressed_focused_selected_dark">@color/yt_white1</color>
+    <color name="cmt_heart_pressed_focused_selected_light">#ff000000</color>
+    <color name="cmt_sponsors_only_badge_dark">@color/yt_material_blue_500</color>
+    <color name="cmt_sponsors_only_badge_light">#ff2793e6</color>
+    <color name="comment_dialog_shadow_color">#22000000</color>
+    <color name="comment_divider_color">@color/yt_white4</color>
+    <color name="comment_poll_choice_unselected_color">@color/yt_black_pure_opacity60</color>
+    <color name="comment_poll_progress_unselected_color">@color/yt_grey3</color>
+    <color name="comment_video_thumbnail_background_color">@color/yt_black_pure_opacity10</color>
+    <color name="content_pill_color">@color/yt_dark_blue</color>
+    <color name="creator_onboarding_footer_color">@color/yt_grey3</color>
+    <color name="creator_onboarding_learn_more_color">@color/yt_light_blue</color>
+    <color name="creator_onboarding_text_color">@color/yt_grey5</color>
+    <color name="crop_double_mask_background">@color/yt_black_pure_opacity30</color>
+    <color name="crop_info_chip">@color/yt_black_pure_opacity80</color>
+    <color name="crop_info_text">@color/yt_white1</color>
+    <color name="crop_mask_background">@color/yt_black_pure_opacity60</color>
+    <color name="dark_transparent">@color/yt_black_pure_opacity60</color>
+    <color name="darker_gray">#ff555555</color>
+    <color name="darker_transparent">@color/yt_black_pure_opacity80</color>
+    <color name="design_dark_default_color_background">#ff121212</color>
+    <color name="design_dark_default_color_error">#ffcf6679</color>
+    <color name="design_dark_default_color_on_background">#ffffffff</color>
+    <color name="design_dark_default_color_on_error">#ff000000</color>
+    <color name="design_dark_default_color_on_primary">#ff000000</color>
+    <color name="design_dark_default_color_on_secondary">#ff000000</color>
+    <color name="design_dark_default_color_on_surface">#ffffffff</color>
+    <color name="design_dark_default_color_primary">#ffba86fc</color>
+    <color name="design_dark_default_color_primary_dark">#ff000000</color>
+    <color name="design_dark_default_color_primary_variant">#ff3700b3</color>
+    <color name="design_dark_default_color_secondary">#ff03dac6</color>
+    <color name="design_dark_default_color_secondary_variant">#ff03dac6</color>
+    <color name="design_dark_default_color_surface">#ff121212</color>
+    <color name="design_default_color_background">#ffffffff</color>
+    <color name="design_default_color_error">#ffb00020</color>
+    <color name="design_default_color_on_background">#ff000000</color>
+    <color name="design_default_color_on_error">#ffffffff</color>
+    <color name="design_default_color_on_primary">#ffffffff</color>
+    <color name="design_default_color_on_secondary">#ff000000</color>
+    <color name="design_default_color_on_surface">#ff000000</color>
+    <color name="design_default_color_primary">#ff6200ee</color>
+    <color name="design_default_color_primary_dark">#ff3700b3</color>
+    <color name="design_default_color_primary_variant">#ff3700b3</color>
+    <color name="design_default_color_secondary">#ff03dac6</color>
+    <color name="design_default_color_secondary_variant">#ff018786</color>
+    <color name="design_default_color_surface">#ffffffff</color>
+    <color name="design_fab_stroke_end_inner_color">#0a000000</color>
+    <color name="design_fab_stroke_end_outer_color">#0f000000</color>
+    <color name="design_fab_stroke_top_inner_color">#1affffff</color>
+    <color name="design_fab_stroke_top_outer_color">#2effffff</color>
+    <color name="design_snackbar_background_color">#ff323232</color>
+    <color name="display_ad_cta_blue">#ff4285f4</color>
+    <color name="divider_color">#4dffffff</color>
+    <color name="dynamic_sticker_bg_light">#b3aaaaaa</color>
+    <color name="dynamic_sticker_shadow_color">#33000000</color>
+    <color name="edit_black_05">@color/yt_black_pure_opacity5</color>
+    <color name="edit_black_50">#7f000000</color>
+    <color name="edit_fully_transparent">#00ffffff</color>
+    <color name="edit_location_suggestion_text_color_light">@color/yt_grey5</color>
+    <color name="edit_text_color_primary">@color/yt_white1</color>
+    <color name="edit_white_30">@color/yt_white1_opacity30</color>
+    <color name="edit_white_50">#7fffffff</color>
+    <color name="embed_black_secondary_text">#89000000</color>
+    <color name="embed_black_text">#dd000000</color>
+    <color name="embed_light_grey">#32000000</color>
+    <color name="endscreen_element_border_color">@color/yt_white1_opacity70</color>
+    <color name="endscreen_element_duration_background">@color/yt_black_pure_opacity80</color>
+    <color name="endscreen_element_playlist_background">@color/yt_black_pure_opacity80</color>
+    <color name="endscreen_hovercard_outside_color">@color/yt_black_pure_opacity60</color>
+    <color name="endscreen_video_item_duration_text_color">@color/yt_white1_opacity70</color>
+    <color name="error_color_material_dark">#ffff7043</color>
+    <color name="error_color_material_light">#ffff5722</color>
+    <color name="footer_light_grey">#fffafafa</color>
+    <color name="footer_medium_grey">#ffeeeeee</color>
+    <color name="foreground_material_dark">@android:color/white</color>
+    <color name="foreground_material_light">@android:color/black</color>
+    <color name="full_transparent">@android:color/transparent</color>
+    <color name="gallery_camera_buttons_font_color">@color/edit_text_color_primary</color>
+    <color name="gallery_camera_container_color">#ff9c9c9c</color>
+    <color name="gallery_camera_header_background">@color/yt_black_pure_opacity30</color>
+    <color name="gallery_camera_navigation_bar_semi_transparent_background">#88000000</color>
+    <color name="gallery_camera_overlay_color">#80000000</color>
+    <color name="gallery_camera_record_button_record_circle_color">#ffff0000</color>
+    <color name="gallery_recycler_view_background">@color/yt_black2</color>
+    <color name="gallery_thumb_background">@color/quantum_black_divider</color>
+    <color name="gallery_thumb_background_no_thumb">@color/quantum_grey200</color>
+    <color name="gallery_thumb_duration_background_color">@color/yt_black_pure_opacity80</color>
+    <color name="gallery_thumb_duration_font_color">@color/edit_text_color_primary</color>
+    <color name="gallery_thumb_zero_state_grid_background">@color/yt_black2</color>
+    <color name="gallery_thumb_zero_state_grid_divider_color">#ff1b1b1b</color>
+    <color name="gallery_thumb_zero_state_text_color_primary">@color/edit_text_color_primary</color>
+    <color name="gallery_thumb_zero_state_text_color_secondary">@color/yt_white1_opacity70</color>
+    <color name="general_error_button_background_color">#ff065fd4</color>
+    <color name="general_error_button_text_color">@android:color/white</color>
+    <color name="general_error_message_text_color">#ff282828</color>
+    <color name="general_error_page_background_color">#fff4f4f4</color>
+    <color name="ghost_card_color">@color/yt_white4</color>
+    <color name="gm_ref_palette_blue100">#ffd2e3fc</color>
+    <color name="gm_ref_palette_blue200">#ffaecbfa</color>
+    <color name="gm_ref_palette_blue300">#ff8ab4f8</color>
+    <color name="gm_ref_palette_blue400">#ff669df6</color>
+    <color name="gm_ref_palette_blue50">#ffe8f0fe</color>
+    <color name="gm_ref_palette_blue500">#ff4285f4</color>
+    <color name="gm_ref_palette_blue600">#ff1a73e8</color>
+    <color name="gm_ref_palette_blue700">#ff1967d2</color>
+    <color name="gm_ref_palette_blue800">#ff185abc</color>
+    <color name="gm_ref_palette_blue900">#ff174ea6</color>
+    <color name="gm_ref_palette_green100">#ffceead6</color>
+    <color name="gm_ref_palette_green300">#ff81c995</color>
+    <color name="gm_ref_palette_green500">#ff34a853</color>
+    <color name="gm_ref_palette_green600">#ff1e8e3e</color>
+    <color name="gm_ref_palette_green900">#ff0d652d</color>
+    <color name="gm_ref_palette_grey100">#fff1f3f4</color>
+    <color name="gm_ref_palette_grey200">#ffe8eaed</color>
+    <color name="gm_ref_palette_grey300">#ffdadce0</color>
+    <color name="gm_ref_palette_grey400">#ffbdc1c6</color>
+    <color name="gm_ref_palette_grey50">#fff8f9fa</color>
+    <color name="gm_ref_palette_grey500">#ff9aa0a6</color>
+    <color name="gm_ref_palette_grey600">#ff80868b</color>
+    <color name="gm_ref_palette_grey700">#ff5f6368</color>
+    <color name="gm_ref_palette_grey800">#ff3c4043</color>
+    <color name="gm_ref_palette_grey900">#ff202124</color>
+    <color name="gm_ref_palette_red200">#fff6aea9</color>
+    <color name="gm_ref_palette_red300">#fff28b82</color>
+    <color name="gm_ref_palette_red500">#ffea4335</color>
+    <color name="gm_ref_palette_red600">#ffd93025</color>
+    <color name="gm_ref_palette_red700">#ffc5221f</color>
+    <color name="gm_ref_palette_red900">#ffa50e0e</color>
+    <color name="gm_ref_palette_white">#ffffffff</color>
+    <color name="gm_ref_palette_yellow500">#fffbbc04</color>
+    <color name="gm_sys_color_dark_background">@color/gm_ref_palette_grey900</color>
+    <color name="gm_sys_color_dark_error">@color/gm_ref_palette_red300</color>
+    <color name="gm_sys_color_dark_error_state_content">@color/gm_ref_palette_red200</color>
+    <color name="gm_sys_color_dark_hairline">@color/gm_ref_palette_grey700</color>
+    <color name="gm_sys_color_dark_inverse_on_surface">@color/gm_ref_palette_grey800</color>
+    <color name="gm_sys_color_dark_inverse_primary">@color/gm_ref_palette_blue600</color>
+    <color name="gm_sys_color_dark_inverse_primary_state_content">@color/gm_ref_palette_blue900</color>
+    <color name="gm_sys_color_dark_inverse_primary_state_layer">@color/gm_sys_color_dark_inverse_primary</color>
+    <color name="gm_sys_color_dark_inverse_surface">@color/gm_ref_palette_white</color>
+    <color name="gm_sys_color_dark_on_background">@color/gm_ref_palette_grey200</color>
+    <color name="gm_sys_color_dark_on_error">@color/gm_ref_palette_grey900</color>
+    <color name="gm_sys_color_dark_on_primary">@color/gm_ref_palette_grey900</color>
+    <color name="gm_sys_color_dark_on_primary_state_layer">@color/gm_ref_palette_white</color>
+    <color name="gm_sys_color_dark_on_secondary">@color/gm_ref_palette_blue100</color>
+    <color name="gm_sys_color_dark_on_secondary_state_content">@color/gm_ref_palette_white</color>
+    <color name="gm_sys_color_dark_on_surface">@color/gm_ref_palette_grey200</color>
+    <color name="gm_sys_color_dark_on_surface_state_content">@color/gm_ref_palette_grey50</color>
+    <color name="gm_sys_color_dark_on_surface_variant">@color/gm_ref_palette_grey500</color>
+    <color name="gm_sys_color_dark_primary">@color/gm_ref_palette_blue300</color>
+    <color name="gm_sys_color_dark_primary_state_content">@color/gm_ref_palette_blue200</color>
+    <color name="gm_sys_color_dark_primary_state_layer">@color/gm_sys_color_dark_primary</color>
+    <color name="gm_sys_color_dark_primary_variant">@color/gm_ref_palette_blue400</color>
+    <color name="gm_sys_color_dark_secondary">#ff394557</color>
+    <color name="gm_sys_color_dark_secondary_variant">#ff212b3c</color>
+    <color name="gm_sys_color_dark_surface">@color/gm_ref_palette_grey900</color>
+    <color name="gm_sys_color_dark_textfield_error">@color/gm_ref_palette_red200</color>
+    <color name="gm_sys_color_dark_textfield_hairline">@color/gm_ref_palette_grey400</color>
+    <color name="gm_sys_color_dark_textfield_on_surface_variant">@color/gm_ref_palette_grey400</color>
+    <color name="gm_sys_color_light_background">@color/gm_ref_palette_white</color>
+    <color name="gm_sys_color_light_error">@color/gm_ref_palette_red600</color>
+    <color name="gm_sys_color_light_error_state_content">@color/gm_ref_palette_red900</color>
+    <color name="gm_sys_color_light_hairline">@color/gm_ref_palette_grey300</color>
+    <color name="gm_sys_color_light_inverse_on_surface">@color/gm_ref_palette_grey200</color>
+    <color name="gm_sys_color_light_inverse_primary">@color/gm_ref_palette_blue300</color>
+    <color name="gm_sys_color_light_inverse_primary_state_content">@color/gm_ref_palette_blue200</color>
+    <color name="gm_sys_color_light_inverse_primary_state_layer">@color/gm_sys_color_light_inverse_primary</color>
+    <color name="gm_sys_color_light_inverse_surface">@color/gm_ref_palette_grey900</color>
+    <color name="gm_sys_color_light_on_background">@color/gm_ref_palette_grey900</color>
+    <color name="gm_sys_color_light_on_error">@color/gm_ref_palette_white</color>
+    <color name="gm_sys_color_light_on_primary">@color/gm_ref_palette_white</color>
+    <color name="gm_sys_color_light_on_primary_state_layer">@color/gm_ref_palette_grey900</color>
+    <color name="gm_sys_color_light_on_secondary">@color/gm_ref_palette_blue700</color>
+    <color name="gm_sys_color_light_on_secondary_state_content">@color/gm_ref_palette_blue900</color>
+    <color name="gm_sys_color_light_on_surface">@color/gm_ref_palette_grey800</color>
+    <color name="gm_sys_color_light_on_surface_state_content">@color/gm_ref_palette_grey900</color>
+    <color name="gm_sys_color_light_on_surface_variant">@color/gm_ref_palette_grey700</color>
+    <color name="gm_sys_color_light_primary">@color/gm_ref_palette_blue600</color>
+    <color name="gm_sys_color_light_primary_state_content">@color/gm_ref_palette_blue900</color>
+    <color name="gm_sys_color_light_primary_state_layer">@color/gm_sys_color_light_primary</color>
+    <color name="gm_sys_color_light_primary_variant">@color/gm_ref_palette_blue500</color>
+    <color name="gm_sys_color_light_secondary">@color/gm_ref_palette_blue50</color>
+    <color name="gm_sys_color_light_secondary_variant">@color/gm_ref_palette_blue100</color>
+    <color name="gm_sys_color_light_surface">@color/gm_ref_palette_white</color>
+    <color name="gm_sys_color_light_textfield_error">@color/gm_ref_palette_red700</color>
+    <color name="gm_sys_color_light_textfield_hairline">@color/gm_ref_palette_grey600</color>
+    <color name="gm_sys_color_light_textfield_on_surface_variant">@color/gm_ref_palette_grey700</color>
+    <color name="google_blue100">@color/gm_ref_palette_blue100</color>
+    <color name="google_blue200">@color/gm_ref_palette_blue200</color>
+    <color name="google_blue300">@color/gm_ref_palette_blue300</color>
+    <color name="google_blue500">@color/gm_ref_palette_blue500</color>
+    <color name="google_blue700">@color/gm_ref_palette_blue700</color>
+    <color name="google_blue800">@color/gm_ref_palette_blue800</color>
+    <color name="google_blue900">@color/gm_ref_palette_blue900</color>
+    <color name="google_dark_color_on_secondary_state_content">@color/gm_sys_color_dark_on_secondary_state_content</color>
+    <color name="google_dark_color_on_surface_state_content">@color/gm_sys_color_dark_on_surface_state_content</color>
+    <color name="google_dark_color_textfield_hairline">@color/gm_sys_color_dark_textfield_hairline</color>
+    <color name="google_dark_color_textfield_on_surface_variant">@color/gm_sys_color_dark_textfield_on_surface_variant</color>
+    <color name="google_dark_default_color_background">@color/gm_sys_color_dark_background</color>
+    <color name="google_dark_default_color_error">@color/gm_sys_color_dark_error</color>
+    <color name="google_dark_default_color_error_state_content">@color/gm_sys_color_dark_error_state_content</color>
+    <color name="google_dark_default_color_hairline">@color/gm_sys_color_dark_hairline</color>
+    <color name="google_dark_default_color_inverse_on_surface">@color/gm_sys_color_dark_inverse_on_surface</color>
+    <color name="google_dark_default_color_inverse_primary_google">@color/gm_sys_color_dark_inverse_primary</color>
+    <color name="google_dark_default_color_inverse_primary_state_content_google">@color/gm_sys_color_dark_inverse_primary_state_content</color>
+    <color name="google_dark_default_color_inverse_primary_state_layer_google">@color/gm_sys_color_dark_inverse_primary_state_layer</color>
+    <color name="google_dark_default_color_inverse_surface">@color/gm_sys_color_dark_inverse_surface</color>
+    <color name="google_dark_default_color_on_background">@color/gm_sys_color_dark_on_background</color>
+    <color name="google_dark_default_color_on_error">@color/gm_sys_color_dark_on_error</color>
+    <color name="google_dark_default_color_on_primary">@color/gm_sys_color_dark_on_background</color>
+    <color name="google_dark_default_color_on_primary_container">@color/google_blue900</color>
+    <color name="google_dark_default_color_on_primary_container_state_content">@color/google_blue800</color>
+    <color name="google_dark_default_color_on_primary_container_state_layer">@color/google_blue800</color>
+    <color name="google_dark_default_color_on_primary_google">@color/gm_sys_color_dark_on_primary</color>
+    <color name="google_dark_default_color_on_primary_state_content">@color/google_blue800</color>
+    <color name="google_dark_default_color_on_primary_state_layer">@color/google_blue800</color>
+    <color name="google_dark_default_color_on_primary_state_layer_google">@color/gm_sys_color_dark_on_primary_state_layer</color>
+    <color name="google_dark_default_color_on_secondary">@color/gm_sys_color_dark_on_secondary</color>
+    <color name="google_dark_default_color_on_secondary_container">@color/google_blue900</color>
+    <color name="google_dark_default_color_on_secondary_container_state_content">@color/google_blue900</color>
+    <color name="google_dark_default_color_on_secondary_container_state_layer">@color/google_blue900</color>
+    <color name="google_dark_default_color_on_surface">@color/gm_sys_color_dark_on_surface</color>
+    <color name="google_dark_default_color_on_surface_disabled">#60e8eaed</color>
+    <color name="google_dark_default_color_on_surface_variant">@color/gm_sys_color_dark_on_surface_variant</color>
+    <color name="google_dark_default_color_on_surface_variant_state_content">@color/google_grey400</color>
+    <color name="google_dark_default_color_on_surface_variant_state_layer">@color/google_grey400</color>
+    <color name="google_dark_default_color_on_tertiary_container">@color/google_green900</color>
+    <color name="google_dark_default_color_on_tertiary_container_state_content">@color/google_green900</color>
+    <color name="google_dark_default_color_on_tertiary_container_state_layer">@color/google_green900</color>
+    <color name="google_dark_default_color_outline">@color/google_grey600</color>
+    <color name="google_dark_default_color_primary">@color/gm_sys_color_dark_background</color>
+    <color name="google_dark_default_color_primary_container">@color/google_blue100</color>
+    <color name="google_dark_default_color_primary_dark">@color/gm_sys_color_dark_background</color>
+    <color name="google_dark_default_color_primary_google">@color/gm_sys_color_dark_primary</color>
+    <color name="google_dark_default_color_primary_state_content">@color/google_blue200</color>
+    <color name="google_dark_default_color_primary_state_content_google">@color/gm_sys_color_dark_primary_state_content</color>
+    <color name="google_dark_default_color_primary_state_layer">@color/gm_sys_color_dark_primary_state_layer</color>
+    <color name="google_dark_default_color_primary_variant">@color/gm_sys_color_dark_background</color>
+    <color name="google_dark_default_color_primary_variant_google">@color/gm_sys_color_dark_primary_variant</color>
+    <color name="google_dark_default_color_secondary">@color/gm_sys_color_dark_secondary</color>
+    <color name="google_dark_default_color_secondary_container">@color/google_blue300</color>
+    <color name="google_dark_default_color_secondary_state_content">@color/google_blue200</color>
+    <color name="google_dark_default_color_secondary_state_layer">@color/google_blue300</color>
+    <color name="google_dark_default_color_secondary_variant">@color/gm_sys_color_dark_secondary_variant</color>
+    <color name="google_dark_default_color_surface">@color/gm_sys_color_dark_surface</color>
+    <color name="google_dark_default_color_surface_variant">@color/google_grey800</color>
+    <color name="google_dark_default_color_tertiary_container">@color/google_green100</color>
+    <color name="google_dark_default_color_textfield_error">@color/gm_sys_color_dark_textfield_error</color>
+    <color name="google_dark_default_color_timepicker_surface">@color/google_grey800</color>
+    <color name="google_dark_yellow300">#fff9dc74</color>
+    <color name="google_dark_yellow600">#fff3b713</color>
+    <color name="google_daynight_default_color_primary_text">@color/google_default_color_primary_text</color>
+    <color name="google_daynight_default_color_secondary_text">@color/google_default_color_secondary_text</color>
+    <color name="google_default_color_background">@color/gm_sys_color_light_background</color>
+    <color name="google_default_color_error">@color/gm_sys_color_light_error</color>
+    <color name="google_default_color_error_state_content">@color/gm_sys_color_light_error_state_content</color>
+    <color name="google_default_color_hairline">@color/gm_sys_color_light_hairline</color>
+    <color name="google_default_color_inverse_on_surface">@color/gm_sys_color_light_inverse_on_surface</color>
+    <color name="google_default_color_inverse_primary_google">@color/gm_sys_color_light_inverse_primary</color>
+    <color name="google_default_color_inverse_primary_state_content_google">@color/gm_sys_color_light_inverse_primary_state_content</color>
+    <color name="google_default_color_inverse_primary_state_layer_google">@color/gm_sys_color_light_inverse_primary_state_layer</color>
+    <color name="google_default_color_inverse_surface">@color/gm_sys_color_light_inverse_surface</color>
+    <color name="google_default_color_on_background">@color/gm_sys_color_light_on_background</color>
+    <color name="google_default_color_on_error">@color/gm_sys_color_light_on_error</color>
+    <color name="google_default_color_on_primary">@color/gm_sys_color_light_on_background</color>
+    <color name="google_default_color_on_primary_container">@color/google_blue900</color>
+    <color name="google_default_color_on_primary_container_state_content">@color/google_blue800</color>
+    <color name="google_default_color_on_primary_container_state_layer">@color/google_blue800</color>
+    <color name="google_default_color_on_primary_google">@color/gm_sys_color_light_on_primary</color>
+    <color name="google_default_color_on_primary_state_content">@color/google_white</color>
+    <color name="google_default_color_on_primary_state_layer">@color/google_blue900</color>
+    <color name="google_default_color_on_primary_state_layer_google">@color/gm_sys_color_light_on_primary_state_layer</color>
+    <color name="google_default_color_on_secondary">@color/gm_sys_color_light_on_secondary</color>
+    <color name="google_default_color_on_secondary_container">@color/google_blue900</color>
+    <color name="google_default_color_on_secondary_container_state_content">@color/google_blue900</color>
+    <color name="google_default_color_on_secondary_container_state_layer">@color/google_blue900</color>
+    <color name="google_default_color_on_secondary_state_content">@color/gm_sys_color_light_on_secondary_state_content</color>
+    <color name="google_default_color_on_surface">@color/gm_sys_color_light_on_surface</color>
+    <color name="google_default_color_on_surface_disabled">#603c4043</color>
+    <color name="google_default_color_on_surface_state_content">@color/gm_sys_color_light_on_surface_state_content</color>
+    <color name="google_default_color_on_surface_variant">@color/gm_sys_color_light_on_surface_variant</color>
+    <color name="google_default_color_on_surface_variant_state_content">@color/google_grey800</color>
+    <color name="google_default_color_on_surface_variant_state_layer">@color/google_grey800</color>
+    <color name="google_default_color_on_tertiary_container">@color/google_green900</color>
+    <color name="google_default_color_on_tertiary_container_state_content">@color/google_green900</color>
+    <color name="google_default_color_on_tertiary_container_state_layer">@color/google_green900</color>
+    <color name="google_default_color_outline">@color/google_grey700</color>
+    <color name="google_default_color_primary">@color/gm_sys_color_light_background</color>
+    <color name="google_default_color_primary_container">@color/google_blue100</color>
+    <color name="google_default_color_primary_dark">@color/gm_sys_color_light_background</color>
+    <color name="google_default_color_primary_google">@color/gm_sys_color_light_primary</color>
+    <color name="google_default_color_primary_state_content">@color/google_blue700</color>
+    <color name="google_default_color_primary_state_content_google">@color/gm_sys_color_light_primary_state_content</color>
+    <color name="google_default_color_primary_state_layer">@color/gm_sys_color_light_primary_state_layer</color>
+    <color name="google_default_color_primary_variant">@color/gm_sys_color_light_background</color>
+    <color name="google_default_color_primary_variant_google">@color/gm_sys_color_light_primary_variant</color>
+    <color name="google_default_color_secondary">@color/gm_sys_color_light_secondary</color>
+    <color name="google_default_color_secondary_container">@color/google_blue200</color>
+    <color name="google_default_color_secondary_state_content">@color/google_blue800</color>
+    <color name="google_default_color_secondary_state_layer">@color/google_blue700</color>
+    <color name="google_default_color_secondary_variant">@color/gm_sys_color_light_secondary_variant</color>
+    <color name="google_default_color_surface">@color/gm_sys_color_light_surface</color>
+    <color name="google_default_color_surface_variant">@color/google_grey300</color>
+    <color name="google_default_color_tertiary_container">@color/google_green100</color>
+    <color name="google_default_color_textfield_error">@color/gm_sys_color_light_textfield_error</color>
+    <color name="google_default_color_textfield_hairline">@color/gm_sys_color_light_textfield_hairline</color>
+    <color name="google_default_color_textfield_on_surface_variant">@color/gm_sys_color_light_textfield_on_surface_variant</color>
+    <color name="google_default_color_timepicker_surface">@color/google_grey100</color>
+    <color name="google_green100">@color/gm_ref_palette_green100</color>
+    <color name="google_green300">@color/gm_ref_palette_green300</color>
+    <color name="google_green500">@color/gm_ref_palette_green500</color>
+    <color name="google_green600">@color/gm_ref_palette_green600</color>
+    <color name="google_green900">@color/gm_ref_palette_green900</color>
+    <color name="google_grey100">@color/gm_ref_palette_grey100</color>
+    <color name="google_grey200">@color/gm_ref_palette_grey200</color>
+    <color name="google_grey300">@color/gm_ref_palette_grey300</color>
+    <color name="google_grey400">@color/gm_ref_palette_grey400</color>
+    <color name="google_grey500">@color/gm_ref_palette_grey500</color>
+    <color name="google_grey600">@color/gm_ref_palette_grey600</color>
+    <color name="google_grey700">@color/gm_ref_palette_grey700</color>
+    <color name="google_grey800">@color/gm_ref_palette_grey800</color>
+    <color name="google_grey900">@color/gm_ref_palette_grey900</color>
+    <color name="google_red300">@color/gm_ref_palette_red300</color>
+    <color name="google_red500">@color/gm_ref_palette_red500</color>
+    <color name="google_red600">@color/gm_ref_palette_red600</color>
+    <color name="google_scrim">#99000000</color>
+    <color name="google_transparent">#00000000</color>
+    <color name="google_white">@color/gm_ref_palette_white</color>
+    <color name="google_yellow500">@color/gm_ref_palette_yellow500</color>
+    <color name="highlighted_text_material_dark">#6680cbc4</color>
+    <color name="highlighted_text_material_light">#66009688</color>
+    <color name="icon_text_badge_background_color">#fff2f2f2</color>
+    <color name="image_filter_background_color">@color/yt_black3</color>
+    <color name="image_filter_list_background_color">@color/yt_black2</color>
+    <color name="image_filter_list_item_label_text_color">@color/yt_black_pure_opacity80</color>
+    <color name="image_filter_toolbar_background_color">@color/yt_black1</color>
+    <color name="image_gallery_zero_state_grid_divider_color">@color/yt_black3</color>
+    <color name="info_card_shopping_star_orange">#ffe7711b</color>
+    <color name="info_card_teaser_background">@color/yt_white1</color>
+    <color name="info_card_teaser_foreground">@color/yt_black_pure</color>
+    <color name="info_card_thumbnail_background_border_color">@color/yt_black_pure_opacity30</color>
+    <color name="info_card_thumbnail_background_color">@color/yt_black_pure_opacity10</color>
+    <color name="info_card_thumbnail_overlay_background_solid">@color/yt_black1</color>
+    <color name="info_card_thumbnail_overlay_background_transparent">@color/yt_black_pure_opacity80</color>
+    <color name="inline_muted_subtitles_background">@android:color/transparent</color>
+    <color name="inline_muted_subtitles_edge">@color/yt_black_pure_opacity60</color>
+    <color name="inline_muted_subtitles_text">@color/yt_white1</color>
+    <color name="inline_muted_subtitles_window">@color/yt_black_pure_opacity60</color>
+    <color name="inline_survey_background_color">@color/yt_white2</color>
+    <color name="inline_time_bar_ad_break_marker_color">#b2ffff00</color>
+    <color name="inline_time_bar_buffered_color">@color/yt_white1_opacity70</color>
+    <color name="inline_time_bar_buffered_highlighted_color">@color/yt_white1</color>
+    <color name="inline_time_bar_played_not_highlighted_color">@color/yt_medium_red</color>
+    <color name="inline_time_bar_progress_color">@color/yt_white1_opacity20</color>
+    <color name="interstitial_action_color">@color/yt_youtube_red</color>
+    <color name="interstitial_dismiss_color">@color/yt_white1</color>
+    <color name="lc_accent">#ff29b6f6</color>
+    <color name="lc_bad_connection_bg">@color/quantum_vanillared500</color>
+    <color name="lc_black">@color/material_grey_900</color>
+    <color name="lc_black_20">#33000000</color>
+    <color name="lc_black_40">#66000000</color>
+    <color name="lc_black_50">#80000000</color>
+    <color name="lc_black_80">@color/yt_black_pure_opacity80</color>
+    <color name="lc_button_ripple_material_dark_color">@color/ripple_material_dark</color>
+    <color name="lc_button_style_blue_text">#ff3ea6ff</color>
+    <color name="lc_button_style_destructive_background">@color/quantum_googred</color>
+    <color name="lc_button_style_destructive_text">@color/lc_white</color>
+    <color name="lc_button_style_disabled_background">@color/quantum_grey600</color>
+    <color name="lc_button_style_light_text_background">@color/lc_fully_transparent</color>
+    <color name="lc_button_style_light_text_text">@color/lc_white</color>
+    <color name="lc_button_style_orientation_background">@color/yt_black2</color>
+    <color name="lc_button_style_orientation_background_selected">@color/lc_white</color>
+    <color name="lc_button_style_primary_background">#ff3ea6ff</color>
+    <color name="lc_button_style_primary_text">@color/lc_white</color>
+    <color name="lc_crop_double_mask_background">#26000000</color>
+    <color name="lc_crop_info_text">#ff999999</color>
+    <color name="lc_crop_mask_background">#88000000</color>
+    <color name="lc_default_viewport_overlay_color">#80000080</color>
+    <color name="lc_fully_transparent">#00ffffff</color>
+    <color name="lc_live_icon_black">@color/quantum_grey900</color>
+    <color name="lc_live_icon_red">#ffe62117</color>
+    <color name="lc_poor_connection_bg">@color/quantum_orange700</color>
+    <color name="lc_profile_image_bg">#ff333333</color>
+    <color name="lc_red">#ffe23229</color>
+    <color name="lc_thumbnail_preview_text_color">@color/lc_white</color>
+    <color name="lc_viewport_overlay_color">#80000000</color>
+    <color name="lc_white">@color/yt_white1</color>
+    <color name="lc_white_30">@color/yt_white1_opacity30</color>
+    <color name="lc_white_50">#7fffffff</color>
+    <color name="lc_white_70">@color/yt_white1_opacity70</color>
+    <color name="live_abstract_main_text_color">@color/yt_white1</color>
+    <color name="live_abstract_secondary_text_color">@color/yt_white1_opacity70</color>
+    <color name="live_chat_button_color_disabled">#ff424242</color>
+    <color name="live_chat_button_payment_color">?ytThemedGreen</color>
+    <color name="live_chat_dark_loading_error_color">@color/yt_white1</color>
+    <color name="live_chat_dark_metadata_background">#ff3e3e3e</color>
+    <color name="live_chat_dark_overlay_background">#ff303030</color>
+    <color name="live_chat_dark_overlay_sponsor_bottom_background">#ff4caf50</color>
+    <color name="live_chat_dark_overlay_sponsor_top_background">#ff388e3c</color>
+    <color name="live_chat_dark_vem_background_color">#ff3e3e3e</color>
+    <color name="live_chat_dialog_action_button_text_color">@color/live_chat_dialog_button_style_primary_text_color</color>
+    <color name="live_chat_dialog_button_style_blue_text_color">@color/yt_dark_blue</color>
+    <color name="live_chat_dialog_button_style_primary_color">@color/yt_dark_blue</color>
+    <color name="live_chat_dialog_button_style_primary_text_color">@color/yt_white1</color>
+    <color name="live_chat_dialog_dismiss_button_text_color">@color/live_chat_dialog_button_style_blue_text_color</color>
+    <color name="live_chat_empty_state_message_end_text_color_dark">@color/yt_white1</color>
+    <color name="live_chat_empty_state_message_end_text_color_light">@color/yt_black_pure</color>
+    <color name="live_chat_empty_state_message_text_color_dark">#b2ffffff</color>
+    <color name="live_chat_light_loading_error_color">@color/yt_black_pure</color>
+    <color name="live_chat_light_metadata_background">#ffe0e0e0</color>
+    <color name="live_chat_light_overlay_background">@color/yt_white1</color>
+    <color name="live_chat_light_owner_text_color">#ff000000</color>
+    <color name="live_chat_light_vem_background_color">#ffeeeeee</color>
+    <color name="live_chat_membership_item_body_background">#ff0f9d58</color>
+    <color name="live_chat_membership_item_header_background">#ff0b8043</color>
+    <color name="live_chat_mentions_bg_color">#ffff5722</color>
+    <color name="live_chat_metadata_button_background">#ff4caf50</color>
+    <color name="live_chat_seek_bar_tint">#ff2196f3</color>
+    <color name="live_chat_shadow_color">#22000000</color>
+    <color name="live_chat_sponsor_welcome">#ff109d58</color>
+    <color name="live_chat_sticker_background">@color/yt_white1</color>
+    <color name="live_chat_sticker_background_dark">#ff3e3e3e</color>
+    <color name="material_deep_teal_200">#ff80cbc4</color>
+    <color name="material_deep_teal_500">#ff008577</color>
+    <color name="material_google_red_500">#ffdb4437</color>
+    <color name="material_grey_100">#fff5f5f5</color>
+    <color name="material_grey_50">#fffafafa</color>
+    <color name="material_grey_600">#ff757575</color>
+    <color name="material_grey_800">#ff424242</color>
+    <color name="material_grey_850">#ff303030</color>
+    <color name="material_grey_900">#ff212121</color>
+    <color name="material_grey_white_1000">#ffffffff</color>
+    <color name="mdx_background_scrim">@color/yt_black_pure_opacity60</color>
+    <color name="mdx_status_bar_color">@color/yt_black1</color>
+    <color name="membership_branding_color_green">@color/yt_dark_green</color>
+    <color name="membership_branding_color_grey">@color/yt_grey5</color>
+    <color name="membership_purchase_button_background">@color/yt_light_blue</color>
+    <color name="mr_cast_route_divider_dark">#803c4043</color>
+    <color name="mr_cast_route_divider_light">#1425272b</color>
+    <color name="mr_dynamic_dialog_header_text_color_dark">#ffbdc1c6</color>
+    <color name="mr_dynamic_dialog_header_text_color_light">#ff80868b</color>
+    <color name="mr_dynamic_dialog_route_text_color_dark">#ffffffff</color>
+    <color name="mr_dynamic_dialog_route_text_color_light">#ff25272b</color>
+    <color name="mtrl_scrim_color">#52000000</color>
+    <color name="mtrl_textinput_default_box_stroke_color">#6b000000</color>
+    <color name="mtrl_textinput_disabled_color">#1f000000</color>
+    <color name="mtrl_textinput_focused_box_stroke_color">#00000000</color>
+    <color name="mtrl_textinput_hovered_box_stroke_color">#de000000</color>
+    <color name="native_thumbnail_badge_background_color">@color/yt_black_pure_opacity80</color>
+    <color name="navigation_bar_background_dark">@color/yt_black_pure</color>
+    <color name="navigation_bar_background_light">@color/yt_white1</color>
+    <color name="navigation_bar_divider_dark">@color/yt_black_pure</color>
+    <color name="navigation_bar_divider_light">@color/yt_white4</color>
+    <color name="new_version_available_activity_background_color">#ff1a2a31</color>
+    <color name="new_version_available_activity_button_text_color">@color/yt_white1</color>
+    <color name="new_version_available_activity_status_bar_color">#ff2a2a31</color>
+    <color name="non_active_timestamp_marker_color">@color/yt_grey1</color>
+    <color name="notification_material_background_media_default_color">#ff424242</color>
+    <color name="number_font_postv2">@color/yt_black_pure_opacity60</color>
+    <color name="offline_progress_bar_color">@color/yt_dark_blue</color>
+    <color name="offline_progress_bar_v2_color">@color/yt_white1</color>
+    <color name="og_account_text_color_dark">@color/google_grey500</color>
+    <color name="og_account_text_color_light">@color/google_grey700</color>
+    <color name="og_background_dark">@color/og_elevation_dark_2</color>
+    <color name="og_background_light">@color/google_white</color>
+    <color name="og_default_disc_placeholder_color_dark">@color/google_grey800</color>
+    <color name="og_default_disc_placeholder_color_light">@color/google_grey100</color>
+    <color name="og_elevation_dark_2">#ff2d2e30</color>
+    <color name="og_elevation_dark_5">#ff3b3d3f</color>
+    <color name="og_elevation_shadow_color_dark">@color/google_transparent</color>
+    <color name="og_elevation_shadow_color_light">@color/google_grey700</color>
+    <color name="og_express_sign_in_scrim_bg_color">#99202124</color>
+    <color name="og_item_text_color_dark">@color/google_grey200</color>
+    <color name="og_item_text_color_light">@color/google_grey800</color>
+    <color name="permission_request_button_ripple_color">@color/yt_black_pure_opacity30</color>
+    <color name="play_protect_auth_accent_color">#ff01875f</color>
+    <color name="play_protect_auth_content_color">#ff3c4043</color>
+    <color name="play_protect_auth_navigation_bar_color">@color/material_grey_white_1000</color>
+    <color name="play_protect_auth_title_color">#ff202124</color>
+    <color name="player_loading_view_color">@color/yt_white1</color>
+    <color name="post_dialog_image_unavailable_color">@color/yt_white3</color>
+    <color name="preview_image_error_background">#ffededed</color>
+    <color name="primary_background">@color/yt_white1</color>
+    <color name="primary_dark_material_dark">@android:color/black</color>
+    <color name="primary_dark_material_light">@color/material_grey_600</color>
+    <color name="primary_material_dark">@color/material_grey_900</color>
+    <color name="primary_material_light">@color/material_grey_100</color>
+    <color name="primary_text_default_material_dark">#ffffffff</color>
+    <color name="primary_text_default_material_light">#de000000</color>
+    <color name="primary_text_disabled_material_dark">#4dffffff</color>
+    <color name="primary_text_disabled_material_light">#39000000</color>
+    <color name="promoted_native_ad_cta_blue">@color/display_ad_cta_blue</color>
+    <color name="quantum_black_100">#ff000000</color>
+    <color name="quantum_black_divider">#1f000000</color>
+    <color name="quantum_black_secondary_text">#89000000</color>
+    <color name="quantum_black_text">#dd000000</color>
+    <color name="quantum_googred">@color/quantum_googred500</color>
+    <color name="quantum_googred500">#ffdb4437</color>
+    <color name="quantum_grey100">#fff5f5f5</color>
+    <color name="quantum_grey200">#ffeeeeee</color>
+    <color name="quantum_grey300">#ffe0e0e0</color>
+    <color name="quantum_grey400">#ffbdbdbd</color>
+    <color name="quantum_grey50">#fffafafa</color>
+    <color name="quantum_grey500">#ff9e9e9e</color>
+    <color name="quantum_grey600">#ff757575</color>
+    <color name="quantum_grey700">#ff616161</color>
+    <color name="quantum_grey900">#ff212121</color>
+    <color name="quantum_orange700">#fff57c00</color>
+    <color name="quantum_vanillablue500">#ff2196f3</color>
+    <color name="quantum_vanillagreen600">#ff43a047</color>
+    <color name="quantum_vanillared500">#fff44336</color>
+    <color name="quantum_white_100">#ffffffff</color>
+    <color name="quantum_white_text">#ffffffff</color>
+    <color name="quick_seek_bloom_end">@color/yt_white1_opacity10</color>
+    <color name="quick_seek_bloom_start">@color/yt_white1_opacity20</color>
+    <color name="reel_background_tint">#08000000</color>
+    <color name="reel_black_pure_alpha_0">#00000000</color>
+    <color name="reel_black_pure_alpha_30">#4c000000</color>
+    <color name="reel_black_pure_alpha_80">#cc000000</color>
+    <color name="reel_csi_dark_transparent">#61000000</color>
+    <color name="reel_item_shorts_gradient_start">#96000000</color>
+    <color name="reel_item_thumbnail_gradient_start">#80000000</color>
+    <color name="reel_item_video_view_count_text_color">@color/yt_white1</color>
+    <color name="reel_player_background">@color/yt_black_pure</color>
+    <color name="reel_player_right_cell_shadow_color">#66000000</color>
+    <color name="reel_player_survey_background">@color/yt_navy_blue</color>
+    <color name="reel_scrim_vertical_color_gradient_medium">@color/reel_black_pure_alpha_30</color>
+    <color name="reel_scrim_vertical_color_gradient_transp">@color/reel_black_pure_alpha_0</color>
+    <color name="reel_upload_bottomsheet_progressbar_background">#ffdef1ff</color>
+    <color name="reel_upload_bottomsheet_progressbar_color">#ff065fd4</color>
+    <color name="reel_welcome_overlay_background">@color/yt_black_pure_opacity30</color>
+    <color name="ripple_material_dark">#33ffffff</color>
+    <color name="ripple_material_light">#1f000000</color>
+    <color name="screencast_control_background_color">#cd000000</color>
+    <color name="screencast_control_background_color_fade">@android:color/transparent</color>
+    <color name="screencast_control_button_disabled_color">#66757575</color>
+    <color name="screencast_control_go_live_button_color">@color/yt_white1_opacity20</color>
+    <color name="screencast_header_background_color">@color/yt_black_pure</color>
+    <color name="screencast_offline_background_color">@color/yt_black4</color>
+    <color name="screencast_offline_text_color">@color/yt_white1</color>
+    <color name="screencast_preview_camera_starting_color">@color/yt_white1</color>
+    <color name="screencast_preview_overlay_color">#b3d0021b</color>
+    <color name="screencast_spinner_window_background_color">@color/yt_black_pure</color>
+    <color name="screencast_status_background_color">@color/yt_light_blue</color>
+    <color name="screencast_status_background_error_color">@color/yt_yellow</color>
+    <color name="screencast_status_default_color">@color/yt_white1</color>
+    <color name="screencast_status_error_color">@color/yt_black2</color>
+    <color name="screencast_volume_active_color">#ff5dac13</color>
+    <color name="screencast_volume_inactive_color">#ff9c9a9d</color>
+    <color name="screencast_volume_loud_color">#fff7ea1f</color>
+    <color name="screencast_volume_too_loud_color">#ffd0021b</color>
+    <color name="secondary_text_default_material_dark">#b3ffffff</color>
+    <color name="secondary_text_default_material_light">#8a000000</color>
+    <color name="secondary_text_disabled_material_dark">#36ffffff</color>
+    <color name="secondary_text_disabled_material_light">#24000000</color>
+    <color name="section_list_drawer_translucent_panel_color">@color/yt_black_pure_opacity30</color>
+    <color name="set_row_color">@android:color/transparent</color>
+    <color name="set_row_pressed_color">@color/yt_black2</color>
+    <color name="set_row_selected_color">@color/yt_white1_opacity10</color>
+    <color name="shimmer_background_color">#24000000</color>
+    <color name="shimmer_highlight_color">#0a000000</color>
+    <color name="shimmer_overlay_color">#59ffffff</color>
+    <color name="shortcut_foreground">@color/yt_youtube_red</color>
+    <color name="shorts_camera_gallery_waiting_icon_fill_color">@color/yt_black_pure_opacity30</color>
+    <color name="shorts_camera_gallery_waiting_icon_stroke_color">@color/yt_white1</color>
+    <color name="shorts_camera_loading_spinner_color">@color/yt_white1</color>
+    <color name="shorts_edit_tooltip_background">@color/yt_white1</color>
+    <color name="shorts_edit_tooltip_shadow_color">#40000000</color>
+    <color name="shorts_horizontal_crop_overlay_pan_disabled">@color/yt_black_pure</color>
+    <color name="shorts_horizontal_crop_overlay_pan_enabled">@color/yt_black_pure_opacity30</color>
+    <color name="shorts_multi_segment_progress_bar_progress_color">@color/yt_brand_red</color>
+    <color name="shorts_multi_segment_progress_bar_start_stop_indicator_text_color">@color/yt_white1</color>
+    <color name="shorts_multi_segment_progress_bar_tick_color">@color/yt_white1</color>
+    <color name="shorts_multi_segment_progress_bar_track_color">@color/yt_white1_opacity30</color>
+    <color name="shorts_record_button_default_outer_ring_color">@color/yt_white1</color>
+    <color name="shorts_record_button_pulsing_outer_ring_color">@color/yt_brand_red</color>
+    <color name="sign_in_promo_background">@color/yt_white1_opacity98</color>
+    <color name="sign_in_promo_text_color">@color/yt_black1</color>
+    <color name="skip_ad_button_background_color">#99000000</color>
+    <color name="skip_ad_button_border_color">#66ffffff</color>
+    <color name="skip_ad_button_foreground_color">#ccffffff</color>
+    <color name="skip_ad_button_high_contrast_foreground_color">#ffffffff</color>
+    <color name="skip_ad_button_inverted_background_color">#ccffffff</color>
+    <color name="skip_ad_button_inverted_foreground_color">#de000000</color>
+    <color name="slim_status_bar_active_background_color">@color/yt_light_green</color>
+    <color name="slim_status_bar_inactive_background_color">@color/yt_black1</color>
+    <color name="slim_status_bar_shimmer_background_color">@color/yt_grey4</color>
+    <color name="small_icon_background">@color/yt_youtube_red</color>
+    <color name="sponsors_only_badge_background_color">@color/yt_black_pure_opacity5</color>
+    <color name="submit_background">#ff0094e0</color>
+    <color name="submit_pressed_background">#ff006da5</color>
+    <color name="subscribe_button_disabled_background">@color/yt_grey1</color>
+    <color name="subscribe_button_disabled_text">@color/yt_grey5</color>
+    <color name="subscribe_button_subscribed_background">@color/yt_grey1</color>
+    <color name="subscribe_button_subscribed_pressed_background">@color/yt_grey3</color>
+    <color name="subscribe_button_subscribed_text">@color/yt_grey5</color>
+    <color name="subscribe_button_unsubscribed_background">@color/yt_youtube_red</color>
+    <color name="subscribe_button_unsubscribed_pressed_background">@color/yt_medium_red</color>
+    <color name="subscribe_button_unsubscribed_text">@color/yt_white1</color>
+    <color name="subscription_notification_menu_item_selected">@color/yt_white4</color>
+    <color name="subscription_notification_menu_item_unselected">@color/yt_white1</color>
+    <color name="suc_customization_button_highlight_ripple">#1f000000</color>
+    <color name="sud_color_accent_glif_dark">#ff4285f4</color>
+    <color name="sud_color_accent_glif_light">#ff4285f4</color>
+    <color name="sud_color_accent_glif_v3_dark">#ff8ab4f8</color>
+    <color name="sud_color_accent_glif_v3_light">#ff1a73e8</color>
+    <color name="sud_color_error_text_dark">#fff28b82</color>
+    <color name="sud_color_error_text_light">#ffd93025</color>
+    <color name="sud_flat_button_highlight">#1f000000</color>
+    <color name="sud_glif_background_color_dark">#ff000000</color>
+    <color name="sud_glif_background_color_light">#ffffffff</color>
+    <color name="sud_glif_edit_text_bg_dark_color">#ff202124</color>
+    <color name="sud_glif_edit_text_bg_light_color">#0a000000</color>
+    <color name="sud_glif_v3_dialog_background_color_dark">#ff3c4043</color>
+    <color name="sud_glif_v3_nav_bar_color_dark">#ff000000</color>
+    <color name="sud_glif_v3_nav_bar_color_light">#ffffffff</color>
+    <color name="sud_glif_v3_nav_bar_divider_color_dark">#00000000</color>
+    <color name="sud_glif_v3_nav_bar_divider_color_light">#1f000000</color>
+    <color name="sud_glif_window_bg_dark_color">#ff202124</color>
+    <color name="sud_glif_window_bg_light_color">#ffffffff</color>
+    <color name="sud_list_item_icon_color_dark">#b3ffffff</color>
+    <color name="sud_list_item_icon_color_light">#89000000</color>
+    <color name="sud_navbar_bg_dark">#ff21272b</color>
+    <color name="sud_navbar_bg_light">#ffe4e7e9</color>
+    <color name="survey_smiley">@color/yt_dark_blue</color>
+    <color name="switch_thumb_disabled_material_dark">#ff616161</color>
+    <color name="switch_thumb_disabled_material_light">#ffbdbdbd</color>
+    <color name="switch_thumb_normal_material_dark">#ffbdbdbd</color>
+    <color name="switch_thumb_normal_material_light">#fff1f1f1</color>
+    <color name="text_color_beige">#ffbda88a</color>
+    <color name="text_color_black">#ff000000</color>
+    <color name="text_color_blue">#ff3ea6ff</color>
+    <color name="text_color_brown">#ff6d4c41</color>
+    <color name="text_color_chip_stroke_color">#ffffffff</color>
+    <color name="text_color_forest">#ff1b5e20</color>
+    <color name="text_color_green">#ff36bf36</color>
+    <color name="text_color_grey1">#ff212121</color>
+    <color name="text_color_grey2">#ff424242</color>
+    <color name="text_color_grey3">#ff616161</color>
+    <color name="text_color_grey4">#ff757575</color>
+    <color name="text_color_grey5">#ff9e9e9e</color>
+    <color name="text_color_grey6">#ffbdbdbd</color>
+    <color name="text_color_grey7">#ffe0e0e0</color>
+    <color name="text_color_grey8">#ffeeeeee</color>
+    <color name="text_color_grey9">#fffafafa</color>
+    <color name="text_color_khaki">#ffffe0b2</color>
+    <color name="text_color_lavender">#ffdcadd0</color>
+    <color name="text_color_magenta">#ffad1457</color>
+    <color name="text_color_navy">#ff3f5cb5</color>
+    <color name="text_color_orange">#ffff8d15</color>
+    <color name="text_color_peach">#ffe8948b</color>
+    <color name="text_color_pink">#ffff76da</color>
+    <color name="text_color_purple">#ff9a4dff</color>
+    <color name="text_color_red">#fff80000</color>
+    <color name="text_color_teal">#ff00838f</color>
+    <color name="text_color_white">#ffffffff</color>
+    <color name="text_color_white_translucent_background">#ffcccccc</color>
+    <color name="text_color_yellow">#ffffd828</color>
+    <color name="text_tracks_handle_hole_bg_color">#ff282828</color>
+    <color name="theme_main_tab_text_color_activated">@color/yt_white1</color>
+    <color name="theme_main_tab_text_color_normal">@color/yt_grey5</color>
+    <color name="theme_tab_fallback_text_color_activated_dark">@color/yt_black4</color>
+    <color name="theme_tab_fallback_text_color_normal_dark">@color/yt_grey2</color>
+    <color name="thumbnail_background_color">@color/yt_black_pure_opacity10</color>
+    <color name="thumbnail_overlay_background_solid">@color/yt_black1</color>
+    <color name="thumbnail_overlay_background_transparent">@color/yt_black_pure_opacity80</color>
+    <color name="thumbnail_placeholder_bg_color">#ff212121</color>
+    <color name="thumbnail_placeholder_stroke_color">#ff030303</color>
+    <color name="timeline_audio_track_default_color">#ff373737</color>
+    <color name="timeline_bg_color">#ff212121</color>
+    <color name="timeline_track_default_color">#ff606060</color>
+    <color name="tooltip_background_dark">#e6616161</color>
+    <color name="tooltip_background_light">#e6ffffff</color>
+    <color name="track_text_color_khaki">#ff593b00</color>
+    <color name="trash_icon_bg_disabled_color">#3c000000</color>
+    <color name="trim_view_background_color">#ff030303</color>
+    <color name="upload_activity_account_header_thumbnail_background">@color/yt_black2</color>
+    <color name="upload_color_primary">@color/yt_medium_red</color>
+    <color name="upload_edit_choose_filter_view_background">#ff222222</color>
+    <color name="video_progress_left_indicator_color">#ff6c6c6d</color>
+    <color name="video_progress_passed_indicator_color">#ffff0000</color>
+    <color name="video_trim_playhead_color">@android:color/white</color>
+    <color name="video_trim_view_audio_cross_fade_background">#ff2d2d2d</color>
+    <color name="video_trim_view_audio_cross_fade_progress_bar">#ff666666</color>
+    <color name="video_trim_view_audio_cross_fade_progress_bar_white">@color/yt_white1_opacity30</color>
+    <color name="video_trim_view_audio_cross_fade_text">@color/yt_white1</color>
+    <color name="video_trim_view_audio_cross_fade_thumbnail">@color/yt_white1</color>
+    <color name="video_trim_view_container_border">@android:color/white</color>
+    <color name="video_trim_view_excluded_area_overlay">#aa000000</color>
+    <color name="video_trim_view_waveform_background">#ff444444</color>
+    <color name="video_trim_view_waveform_fill">#ffa5a5a5</color>
+    <color name="watch_layout_scrim_color">#70000000</color>
+    <color name="watch_next_text_color">@color/yt_white1</color>
+    <color name="watch_next_thumbnail_background_color">@color/yt_white1</color>
+    <color name="web_view_dialog_header_shadow_color">@color/yt_black_pure_opacity10</color>
+    <color name="white_text_body">@color/yt_grey2</color>
+    <color name="white_transparent">#4cffffff</color>
+    <color name="yt_badge_background_dark">#14ffffff</color>
+    <color name="yt_badge_background_light">#ccffffff</color>
+    <color name="yt_badge_background_on_red_dark">#ccffffff</color>
+    <color name="yt_badge_background_on_red_light">#ccffffff</color>
+    <color name="yt_badge_text_dark">@color/yt_grey2</color>
+    <color name="yt_badge_text_light">#ff606060</color>
+    <color name="yt_black1">#ff212121</color>
+    <color name="yt_black1_opacity95">#f2212121</color>
+    <color name="yt_black1_opacity98">#fa212121</color>
+    <color name="yt_black2">#ff181818</color>
+    <color name="yt_black3">#ff0f0f0f</color>
+    <color name="yt_black4">#ff030303</color>
+    <color name="yt_black_pure">#ff000000</color>
+    <color name="yt_black_pure_opacity10">#1a000000</color>
+    <color name="yt_black_pure_opacity15">#26000000</color>
+    <color name="yt_black_pure_opacity30">#4d000000</color>
+    <color name="yt_black_pure_opacity5">#0d000000</color>
+    <color name="yt_black_pure_opacity60">#99000000</color>
+    <color name="yt_black_pure_opacity80">#cc000000</color>
+    <color name="yt_brand_red">#ffff0000</color>
+    <color name="yt_chip_background_dark">#ff232323</color>
+    <color name="yt_chip_background_light">#fff2f8ff</color>
+    <color name="yt_dark_blue">#ff065fd4</color>
+    <color name="yt_dark_green">#ff107516</color>
+    <color name="yt_experimental_navy_blue">#ff263850</color>
+    <color name="yt_experimental_pale_blue">#ffdef1ff</color>
+    <color name="yt_grey1">#ffcccccc</color>
+    <color name="yt_grey2">#ffaaaaaa</color>
+    <color name="yt_grey3">#ff909090</color>
+    <color name="yt_grey4">#ff717171</color>
+    <color name="yt_grey5">#ff606060</color>
+    <color name="yt_header_icon_light">#ff606060</color>
+    <color name="yt_icon_2_dark">#ff606060</color>
+    <color name="yt_light_blue">#ff3ea6ff</color>
+    <color name="yt_light_green">#ff2ba640</color>
+    <color name="yt_light_red">#ffff4e45</color>
+    <color name="yt_magenta10">#ffffdeff</color>
+    <color name="yt_magenta70">#ff7f0e7f</color>
+    <color name="yt_magenta90">#ff39003f</color>
+    <color name="yt_material_blue_500">#ff0b83e5</color>
+    <color name="yt_material_green_500">#ff4caf50</color>
+    <color name="yt_material_yellow_700">#fffbc02d</color>
+    <color name="yt_medium_red">#ffcc0000</color>
+    <color name="yt_navy_blue">#ff252a3a</color>
+    <color name="yt_pale_blue">#fff2f8ff</color>
+    <color name="yt_red10">#ffffe6e6</color>
+    <color name="yt_red30">#ffff8983</color>
+    <color name="yt_red70">#ff990412</color>
+    <color name="yt_red90">#ff590000</color>
+    <color name="yt_selected_nav_label_dark">@color/yt_white1</color>
+    <color name="yt_selected_nav_label_light">@color/yt_medium_red</color>
+    <color name="yt_separator_dark">#1effffff</color>
+    <color name="yt_separator_light">#1e000000</color>
+    <color name="yt_spinner_item_background_activated_dark">#ff454545</color>
+    <color name="yt_spinner_item_background_activated_light">#ffe1e1e1</color>
+    <color name="yt_spinner_item_background_dark">#ff303030</color>
+    <color name="yt_spinner_item_background_light">#fffafafa</color>
+    <color name="yt_static_dark_background_1_dark">@color/yt_black3</color>
+    <color name="yt_static_dark_background_1_light">@color/yt_black3</color>
+    <color name="yt_status_bar_background_dark">#ff131313</color>
+    <color name="yt_teal10">#ffd4fff8</color>
+    <color name="yt_teal70">#ff007a65</color>
+    <color name="yt_teal80">#ff005446</color>
+    <color name="yt_white1">#ffffffff</color>
+    <color name="yt_white1_opacity10">#1affffff</color>
+    <color name="yt_white1_opacity20">#33ffffff</color>
+    <color name="yt_white1_opacity25">#40ffffff</color>
+    <color name="yt_white1_opacity30">#4dffffff</color>
+    <color name="yt_white1_opacity70">#b3ffffff</color>
+    <color name="yt_white1_opacity95">#f2ffffff</color>
+    <color name="yt_white1_opacity98">#faffffff</color>
+    <color name="yt_white2">#fff9f9f9</color>
+    <color name="yt_white3">#fff1f1f1</color>
+    <color name="yt_white4">#ffe9e9e9</color>
+    <color name="yt_yellow">#fffbc02d</color>
+    <color name="yt_youtube_red">#ffff0000</color>
+    <color name="zoom_overlay_translucent_black">#4c000000</color>
+    <item type="color" name="APKTOOL_DUMMY_1c" />
+    <item type="color" name="APKTOOL_DUMMY_1e" />
+    <item type="color" name="APKTOOL_DUMMY_1f" />
+    <item type="color" name="APKTOOL_DUMMY_20" />
+    <item type="color" name="APKTOOL_DUMMY_21" />
+    <item type="color" name="APKTOOL_DUMMY_23" />
+    <item type="color" name="APKTOOL_DUMMY_30" />
+    <item type="color" name="APKTOOL_DUMMY_41" />
+    <item type="color" name="APKTOOL_DUMMY_42" />
+    <item type="color" name="APKTOOL_DUMMY_43" />
+    <item type="color" name="APKTOOL_DUMMY_5a" />
+    <item type="color" name="APKTOOL_DUMMY_5b" />
+    <item type="color" name="APKTOOL_DUMMY_5e" />
+    <item type="color" name="APKTOOL_DUMMY_5f" />
+    <item type="color" name="APKTOOL_DUMMY_60" />
+    <item type="color" name="APKTOOL_DUMMY_61" />
+    <item type="color" name="APKTOOL_DUMMY_66" />
+    <item type="color" name="APKTOOL_DUMMY_68" />
+    <item type="color" name="APKTOOL_DUMMY_72" />
+    <item type="color" name="APKTOOL_DUMMY_73" />
+    <item type="color" name="APKTOOL_DUMMY_76" />
+    <item type="color" name="APKTOOL_DUMMY_7a" />
+    <item type="color" name="APKTOOL_DUMMY_7d" />
+    <item type="color" name="APKTOOL_DUMMY_7e" />
+    <item type="color" name="APKTOOL_DUMMY_7f" />
+    <item type="color" name="APKTOOL_DUMMY_80" />
+    <item type="color" name="APKTOOL_DUMMY_81" />
+    <item type="color" name="APKTOOL_DUMMY_82" />
+    <item type="color" name="APKTOOL_DUMMY_83" />
+    <item type="color" name="APKTOOL_DUMMY_84" />
+    <item type="color" name="APKTOOL_DUMMY_85" />
+    <item type="color" name="APKTOOL_DUMMY_98" />
+    <item type="color" name="APKTOOL_DUMMY_9b" />
+    <item type="color" name="APKTOOL_DUMMY_9e" />
+    <item type="color" name="APKTOOL_DUMMY_a0" />
+    <item type="color" name="APKTOOL_DUMMY_a1" />
+    <item type="color" name="APKTOOL_DUMMY_a2" />
+    <item type="color" name="APKTOOL_DUMMY_a3" />
+    <item type="color" name="APKTOOL_DUMMY_a4" />
+    <item type="color" name="APKTOOL_DUMMY_a5" />
+    <item type="color" name="APKTOOL_DUMMY_a6" />
+    <item type="color" name="APKTOOL_DUMMY_a7" />
+    <item type="color" name="APKTOOL_DUMMY_a8" />
+    <item type="color" name="APKTOOL_DUMMY_a9" />
+    <item type="color" name="APKTOOL_DUMMY_aa" />
+    <item type="color" name="APKTOOL_DUMMY_b6" />
+    <item type="color" name="APKTOOL_DUMMY_b7" />
+    <item type="color" name="APKTOOL_DUMMY_b8" />
+    <item type="color" name="APKTOOL_DUMMY_d5" />
+    <item type="color" name="APKTOOL_DUMMY_d6" />
+    <item type="color" name="APKTOOL_DUMMY_d7" />
+    <item type="color" name="APKTOOL_DUMMY_de" />
+    <item type="color" name="APKTOOL_DUMMY_df" />
+    <item type="color" name="APKTOOL_DUMMY_e0" />
+    <item type="color" name="APKTOOL_DUMMY_e1" />
+    <item type="color" name="APKTOOL_DUMMY_e3" />
+    <item type="color" name="APKTOOL_DUMMY_ec" />
+    <item type="color" name="APKTOOL_DUMMY_ed" />
+    <item type="color" name="APKTOOL_DUMMY_ee" />
+    <item type="color" name="APKTOOL_DUMMY_ef" />
+    <item type="color" name="APKTOOL_DUMMY_f0" />
+    <item type="color" name="APKTOOL_DUMMY_fe" />
+    <item type="color" name="APKTOOL_DUMMY_ff" />
+    <item type="color" name="APKTOOL_DUMMY_107" />
+    <item type="color" name="APKTOOL_DUMMY_117" />
+    <item type="color" name="APKTOOL_DUMMY_11d" />
+    <item type="color" name="APKTOOL_DUMMY_11e" />
+    <item type="color" name="APKTOOL_DUMMY_129" />
+    <item type="color" name="APKTOOL_DUMMY_12a" />
+    <item type="color" name="APKTOOL_DUMMY_12b" />
+    <item type="color" name="APKTOOL_DUMMY_12c" />
+    <item type="color" name="APKTOOL_DUMMY_12d" />
+    <item type="color" name="APKTOOL_DUMMY_12e" />
+    <item type="color" name="APKTOOL_DUMMY_12f" />
+    <item type="color" name="APKTOOL_DUMMY_130" />
+    <item type="color" name="APKTOOL_DUMMY_131" />
+    <item type="color" name="APKTOOL_DUMMY_132" />
+    <item type="color" name="APKTOOL_DUMMY_134" />
+    <item type="color" name="APKTOOL_DUMMY_136" />
+    <item type="color" name="APKTOOL_DUMMY_137" />
+    <item type="color" name="APKTOOL_DUMMY_13a" />
+    <item type="color" name="APKTOOL_DUMMY_13b" />
+    <item type="color" name="APKTOOL_DUMMY_147" />
+    <item type="color" name="APKTOOL_DUMMY_148" />
+    <item type="color" name="APKTOOL_DUMMY_149" />
+    <item type="color" name="APKTOOL_DUMMY_14a" />
+    <item type="color" name="APKTOOL_DUMMY_14b" />
+    <item type="color" name="APKTOOL_DUMMY_14c" />
+    <item type="color" name="APKTOOL_DUMMY_14d" />
+    <item type="color" name="APKTOOL_DUMMY_14e" />
+    <item type="color" name="APKTOOL_DUMMY_14f" />
+    <item type="color" name="APKTOOL_DUMMY_150" />
+    <item type="color" name="APKTOOL_DUMMY_151" />
+    <item type="color" name="APKTOOL_DUMMY_152" />
+    <item type="color" name="APKTOOL_DUMMY_153" />
+    <item type="color" name="APKTOOL_DUMMY_154" />
+    <item type="color" name="APKTOOL_DUMMY_155" />
+    <item type="color" name="APKTOOL_DUMMY_156" />
+    <item type="color" name="APKTOOL_DUMMY_157" />
+    <item type="color" name="APKTOOL_DUMMY_158" />
+    <item type="color" name="APKTOOL_DUMMY_159" />
+    <item type="color" name="APKTOOL_DUMMY_15a" />
+    <item type="color" name="APKTOOL_DUMMY_15b" />
+    <item type="color" name="APKTOOL_DUMMY_15c" />
+    <item type="color" name="APKTOOL_DUMMY_15d" />
+    <item type="color" name="APKTOOL_DUMMY_15e" />
+    <item type="color" name="APKTOOL_DUMMY_15f" />
+    <item type="color" name="APKTOOL_DUMMY_160" />
+    <item type="color" name="APKTOOL_DUMMY_161" />
+    <item type="color" name="APKTOOL_DUMMY_162" />
+    <item type="color" name="APKTOOL_DUMMY_163" />
+    <item type="color" name="APKTOOL_DUMMY_164" />
+    <item type="color" name="APKTOOL_DUMMY_165" />
+    <item type="color" name="APKTOOL_DUMMY_168" />
+    <item type="color" name="APKTOOL_DUMMY_169" />
+    <item type="color" name="APKTOOL_DUMMY_16d" />
+    <item type="color" name="APKTOOL_DUMMY_170" />
+    <item type="color" name="APKTOOL_DUMMY_171" />
+    <item type="color" name="APKTOOL_DUMMY_172" />
+    <item type="color" name="APKTOOL_DUMMY_173" />
+    <item type="color" name="APKTOOL_DUMMY_174" />
+    <item type="color" name="APKTOOL_DUMMY_176" />
+    <item type="color" name="APKTOOL_DUMMY_177" />
+    <item type="color" name="APKTOOL_DUMMY_178" />
+    <item type="color" name="APKTOOL_DUMMY_179" />
+    <item type="color" name="APKTOOL_DUMMY_17d" />
+    <item type="color" name="APKTOOL_DUMMY_186" />
+    <item type="color" name="APKTOOL_DUMMY_187" />
+    <item type="color" name="APKTOOL_DUMMY_189" />
+    <item type="color" name="APKTOOL_DUMMY_18d" />
+    <item type="color" name="APKTOOL_DUMMY_190" />
+    <item type="color" name="APKTOOL_DUMMY_198" />
+    <item type="color" name="APKTOOL_DUMMY_19d" />
+    <item type="color" name="APKTOOL_DUMMY_19e" />
+    <item type="color" name="APKTOOL_DUMMY_19f" />
+    <item type="color" name="APKTOOL_DUMMY_1a3" />
+    <item type="color" name="APKTOOL_DUMMY_1ac" />
+    <item type="color" name="APKTOOL_DUMMY_1ad" />
+    <item type="color" name="APKTOOL_DUMMY_1af" />
+    <item type="color" name="APKTOOL_DUMMY_1b3" />
+    <item type="color" name="APKTOOL_DUMMY_1b6" />
+    <item type="color" name="APKTOOL_DUMMY_1be" />
+    <item type="color" name="APKTOOL_DUMMY_1c3" />
+    <item type="color" name="APKTOOL_DUMMY_1c4" />
+    <item type="color" name="APKTOOL_DUMMY_1c5" />
+    <item type="color" name="APKTOOL_DUMMY_1c7" />
+    <item type="color" name="APKTOOL_DUMMY_1cb" />
+    <item type="color" name="APKTOOL_DUMMY_1cc" />
+    <item type="color" name="APKTOOL_DUMMY_1ce" />
+    <item type="color" name="APKTOOL_DUMMY_1d7" />
+    <item type="color" name="APKTOOL_DUMMY_1e9" />
+    <item type="color" name="APKTOOL_DUMMY_1ea" />
+    <item type="color" name="APKTOOL_DUMMY_1eb" />
+    <item type="color" name="APKTOOL_DUMMY_1ec" />
+    <item type="color" name="APKTOOL_DUMMY_1ed" />
+    <item type="color" name="APKTOOL_DUMMY_1ee" />
+    <item type="color" name="APKTOOL_DUMMY_1ef" />
+    <item type="color" name="APKTOOL_DUMMY_1f0" />
+    <item type="color" name="APKTOOL_DUMMY_1f1" />
+    <item type="color" name="APKTOOL_DUMMY_1f2" />
+    <item type="color" name="APKTOOL_DUMMY_1f3" />
+    <item type="color" name="APKTOOL_DUMMY_1f4" />
+    <item type="color" name="APKTOOL_DUMMY_1f5" />
+    <item type="color" name="APKTOOL_DUMMY_1f6" />
+    <item type="color" name="APKTOOL_DUMMY_1f7" />
+    <item type="color" name="APKTOOL_DUMMY_1f8" />
+    <item type="color" name="APKTOOL_DUMMY_1f9" />
+    <item type="color" name="APKTOOL_DUMMY_1fa" />
+    <item type="color" name="APKTOOL_DUMMY_235" />
+    <item type="color" name="APKTOOL_DUMMY_236" />
+    <item type="color" name="APKTOOL_DUMMY_237" />
+    <item type="color" name="APKTOOL_DUMMY_238" />
+    <item type="color" name="APKTOOL_DUMMY_239" />
+    <item type="color" name="APKTOOL_DUMMY_23a" />
+    <item type="color" name="APKTOOL_DUMMY_23b" />
+    <item type="color" name="APKTOOL_DUMMY_23c" />
+    <item type="color" name="APKTOOL_DUMMY_23d" />
+    <item type="color" name="APKTOOL_DUMMY_23e" />
+    <item type="color" name="APKTOOL_DUMMY_23f" />
+    <item type="color" name="APKTOOL_DUMMY_240" />
+    <item type="color" name="APKTOOL_DUMMY_241" />
+    <item type="color" name="APKTOOL_DUMMY_242" />
+    <item type="color" name="APKTOOL_DUMMY_243" />
+    <item type="color" name="APKTOOL_DUMMY_244" />
+    <item type="color" name="APKTOOL_DUMMY_245" />
+    <item type="color" name="APKTOOL_DUMMY_247" />
+    <item type="color" name="APKTOOL_DUMMY_248" />
+    <item type="color" name="APKTOOL_DUMMY_24a" />
+    <item type="color" name="APKTOOL_DUMMY_24b" />
+    <item type="color" name="APKTOOL_DUMMY_24c" />
+    <item type="color" name="APKTOOL_DUMMY_24d" />
+    <item type="color" name="APKTOOL_DUMMY_250" />
+    <item type="color" name="APKTOOL_DUMMY_28b" />
+    <item type="color" name="APKTOOL_DUMMY_28c" />
+    <item type="color" name="APKTOOL_DUMMY_297" />
+    <item type="color" name="APKTOOL_DUMMY_299" />
+    <item type="color" name="APKTOOL_DUMMY_29a" />
+    <item type="color" name="APKTOOL_DUMMY_29d" />
+    <item type="color" name="APKTOOL_DUMMY_29e" />
+    <item type="color" name="APKTOOL_DUMMY_2a4" />
+    <item type="color" name="APKTOOL_DUMMY_2b0" />
+    <item type="color" name="APKTOOL_DUMMY_2b1" />
+    <item type="color" name="APKTOOL_DUMMY_2b2" />
+    <item type="color" name="APKTOOL_DUMMY_2b3" />
+    <item type="color" name="APKTOOL_DUMMY_2b4" />
+    <item type="color" name="APKTOOL_DUMMY_2b5" />
+    <item type="color" name="APKTOOL_DUMMY_2b6" />
+    <item type="color" name="APKTOOL_DUMMY_2b7" />
+    <item type="color" name="APKTOOL_DUMMY_2b8" />
+    <item type="color" name="APKTOOL_DUMMY_2b9" />
+    <item type="color" name="APKTOOL_DUMMY_2be" />
+    <item type="color" name="APKTOOL_DUMMY_2bf" />
+    <item type="color" name="APKTOOL_DUMMY_2c0" />
+    <item type="color" name="APKTOOL_DUMMY_2c1" />
+    <item type="color" name="APKTOOL_DUMMY_2c2" />
+    <item type="color" name="APKTOOL_DUMMY_2c3" />
+    <item type="color" name="APKTOOL_DUMMY_2c4" />
+    <item type="color" name="APKTOOL_DUMMY_2c5" />
+    <item type="color" name="APKTOOL_DUMMY_2c6" />
+    <item type="color" name="APKTOOL_DUMMY_2c7" />
+    <item type="color" name="APKTOOL_DUMMY_2c8" />
+    <item type="color" name="APKTOOL_DUMMY_2c9" />
+    <item type="color" name="APKTOOL_DUMMY_2ca" />
+    <item type="color" name="APKTOOL_DUMMY_2cb" />
+    <item type="color" name="APKTOOL_DUMMY_2cc" />
+    <item type="color" name="APKTOOL_DUMMY_2cd" />
+    <item type="color" name="APKTOOL_DUMMY_2ce" />
+    <item type="color" name="APKTOOL_DUMMY_2cf" />
+    <item type="color" name="APKTOOL_DUMMY_2d0" />
+    <item type="color" name="APKTOOL_DUMMY_2d1" />
+    <item type="color" name="APKTOOL_DUMMY_2d3" />
+    <item type="color" name="APKTOOL_DUMMY_2d4" />
+    <item type="color" name="APKTOOL_DUMMY_2d6" />
+    <item type="color" name="APKTOOL_DUMMY_2d7" />
+    <item type="color" name="APKTOOL_DUMMY_2da" />
+    <item type="color" name="APKTOOL_DUMMY_2db" />
+    <item type="color" name="APKTOOL_DUMMY_2dc" />
+    <item type="color" name="APKTOOL_DUMMY_2e5" />
+    <item type="color" name="APKTOOL_DUMMY_2e6" />
+    <item type="color" name="APKTOOL_DUMMY_2fc" />
+    <item type="color" name="APKTOOL_DUMMY_2fd" />
+    <item type="color" name="APKTOOL_DUMMY_2fe" />
+    <item type="color" name="APKTOOL_DUMMY_2ff" />
+    <item type="color" name="APKTOOL_DUMMY_300" />
+    <item type="color" name="APKTOOL_DUMMY_302" />
+    <item type="color" name="APKTOOL_DUMMY_303" />
+    <item type="color" name="APKTOOL_DUMMY_304" />
+    <item type="color" name="APKTOOL_DUMMY_305" />
+    <item type="color" name="APKTOOL_DUMMY_30e" />
+    <item type="color" name="APKTOOL_DUMMY_30f" />
+    <item type="color" name="APKTOOL_DUMMY_32a" />
+    <item type="color" name="APKTOOL_DUMMY_346" />
+    <item type="color" name="APKTOOL_DUMMY_347" />
+    <item type="color" name="APKTOOL_DUMMY_348" />
+    <item type="color" name="APKTOOL_DUMMY_349" />
+    <item type="color" name="APKTOOL_DUMMY_34c" />
+    <item type="color" name="APKTOOL_DUMMY_34f" />
+    <item type="color" name="APKTOOL_DUMMY_351" />
+    <item type="color" name="APKTOOL_DUMMY_353" />
+    <item type="color" name="APKTOOL_DUMMY_358" />
+    <item type="color" name="APKTOOL_DUMMY_35c" />
+    <item type="color" name="APKTOOL_DUMMY_362" />
+    <item type="color" name="APKTOOL_DUMMY_363" />
+    <item type="color" name="APKTOOL_DUMMY_364" />
+    <item type="color" name="APKTOOL_DUMMY_365" />
+    <item type="color" name="APKTOOL_DUMMY_374" />
+    <item type="color" name="APKTOOL_DUMMY_375" />
+    <item type="color" name="APKTOOL_DUMMY_376" />
+    <item type="color" name="APKTOOL_DUMMY_377" />
+    <item type="color" name="APKTOOL_DUMMY_378" />
+    <item type="color" name="APKTOOL_DUMMY_379" />
+    <item type="color" name="APKTOOL_DUMMY_37e" />
+    <item type="color" name="APKTOOL_DUMMY_385" />
+    <item type="color" name="APKTOOL_DUMMY_386" />
+    <item type="color" name="APKTOOL_DUMMY_387" />
+    <item type="color" name="APKTOOL_DUMMY_388" />
+    <item type="color" name="APKTOOL_DUMMY_389" />
+    <item type="color" name="APKTOOL_DUMMY_38a" />
+    <item type="color" name="APKTOOL_DUMMY_38e" />
+    <item type="color" name="APKTOOL_DUMMY_3a1" />
+    <item type="color" name="APKTOOL_DUMMY_3a2" />
+    <item type="color" name="APKTOOL_DUMMY_3a3" />
+    <item type="color" name="APKTOOL_DUMMY_3a4" />
+    <item type="color" name="APKTOOL_DUMMY_3a5" />
+    <item type="color" name="APKTOOL_DUMMY_3a6" />
+    <item type="color" name="APKTOOL_DUMMY_3a7" />
+    <item type="color" name="APKTOOL_DUMMY_3aa" />
+    <item type="color" name="APKTOOL_DUMMY_3ab" />
+    <item type="color" name="APKTOOL_DUMMY_3ae" />
+    <item type="color" name="APKTOOL_DUMMY_3af" />
+    <item type="color" name="APKTOOL_DUMMY_3b7" />
+    <item type="color" name="APKTOOL_DUMMY_3b9" />
+    <item type="color" name="APKTOOL_DUMMY_3cd" />
+    <item type="color" name="APKTOOL_DUMMY_3ce" />
+    <item type="color" name="APKTOOL_DUMMY_3da" />
+    <item type="color" name="APKTOOL_DUMMY_3dc" />
+    <item type="color" name="APKTOOL_DUMMY_3e2" />
+    <item type="color" name="APKTOOL_DUMMY_3e5" />
+    <item type="color" name="APKTOOL_DUMMY_3ef" />
+    <item type="color" name="APKTOOL_DUMMY_3f0" />
+    <item type="color" name="APKTOOL_DUMMY_3f2" />
+    <item type="color" name="APKTOOL_DUMMY_3f3" />
+    <item type="color" name="APKTOOL_DUMMY_3f5" />
+    <item type="color" name="APKTOOL_DUMMY_3f8" />
+    <item type="color" name="APKTOOL_DUMMY_3f9" />
+    <item type="color" name="APKTOOL_DUMMY_400" />
+    <item type="color" name="APKTOOL_DUMMY_401" />
+    <item type="color" name="APKTOOL_DUMMY_402" />
+    <item type="color" name="APKTOOL_DUMMY_404" />
+    <item type="color" name="APKTOOL_DUMMY_409" />
+    <item type="color" name="APKTOOL_DUMMY_40a" />
+    <item type="color" name="APKTOOL_DUMMY_40b" />
+    <item type="color" name="APKTOOL_DUMMY_40c" />
+    <item type="color" name="APKTOOL_DUMMY_40d" />
+    <item type="color" name="APKTOOL_DUMMY_40e" />
+    <item type="color" name="APKTOOL_DUMMY_40f" />
+    <item type="color" name="APKTOOL_DUMMY_410" />
+    <item type="color" name="APKTOOL_DUMMY_413" />
+    <item type="color" name="APKTOOL_DUMMY_414" />
+    <item type="color" name="APKTOOL_DUMMY_415" />
+    <item type="color" name="APKTOOL_DUMMY_416" />
+    <item type="color" name="APKTOOL_DUMMY_417" />
+    <item type="color" name="APKTOOL_DUMMY_418" />
+    <item type="color" name="APKTOOL_DUMMY_41a" />
+    <item type="color" name="APKTOOL_DUMMY_41b" />
+    <item type="color" name="APKTOOL_DUMMY_41c" />
+    <item type="color" name="APKTOOL_DUMMY_41d" />
+    <item type="color" name="APKTOOL_DUMMY_41e" />
+    <item type="color" name="APKTOOL_DUMMY_41f" />
+    <item type="color" name="APKTOOL_DUMMY_427" />
+    <item type="color" name="APKTOOL_DUMMY_42e" />
+    <item type="color" name="APKTOOL_DUMMY_434" />
+    <item type="color" name="APKTOOL_DUMMY_435" />
+    <item type="color" name="APKTOOL_DUMMY_436" />
+    <item type="color" name="APKTOOL_DUMMY_437" />
+    <item type="color" name="APKTOOL_DUMMY_438" />
+    <item type="color" name="APKTOOL_DUMMY_439" />
+    <item type="color" name="APKTOOL_DUMMY_43a" />
+    <item type="color" name="APKTOOL_DUMMY_43b" />
+    <item type="color" name="APKTOOL_DUMMY_43c" />
+    <item type="color" name="APKTOOL_DUMMY_43d" />
+    <item type="color" name="APKTOOL_DUMMY_43e" />
+    <item type="color" name="APKTOOL_DUMMY_43f" />
+    <item type="color" name="APKTOOL_DUMMY_440" />
+    <item type="color" name="APKTOOL_DUMMY_441" />
+    <item type="color" name="APKTOOL_DUMMY_442" />
+    <item type="color" name="APKTOOL_DUMMY_445" />
+    <item type="color" name="APKTOOL_DUMMY_448" />
+    <item type="color" name="APKTOOL_DUMMY_449" />
+    <item type="color" name="APKTOOL_DUMMY_44a" />
+    <item type="color" name="APKTOOL_DUMMY_44b" />
+    <item type="color" name="APKTOOL_DUMMY_44c" />
+    <item type="color" name="APKTOOL_DUMMY_44d" />
+    <item type="color" name="APKTOOL_DUMMY_44e" />
+    <item type="color" name="APKTOOL_DUMMY_44f" />
+    <item type="color" name="APKTOOL_DUMMY_450" />
+    <item type="color" name="APKTOOL_DUMMY_451" />
+    <item type="color" name="APKTOOL_DUMMY_452" />
+    <item type="color" name="APKTOOL_DUMMY_453" />
+    <item type="color" name="APKTOOL_DUMMY_454" />
+    <item type="color" name="APKTOOL_DUMMY_455" />
+    <item type="color" name="APKTOOL_DUMMY_456" />
+    <item type="color" name="APKTOOL_DUMMY_457" />
+    <item type="color" name="APKTOOL_DUMMY_458" />
+    <item type="color" name="APKTOOL_DUMMY_459" />
+    <item type="color" name="APKTOOL_DUMMY_45a" />
+    <item type="color" name="APKTOOL_DUMMY_45b" />
+    <item type="color" name="APKTOOL_DUMMY_45c" />
+    <item type="color" name="APKTOOL_DUMMY_45d" />
+    <item type="color" name="APKTOOL_DUMMY_45e" />
+    <item type="color" name="APKTOOL_DUMMY_45f" />
+    <item type="color" name="APKTOOL_DUMMY_460" />
+    <item type="color" name="APKTOOL_DUMMY_461" />
+    <item type="color" name="APKTOOL_DUMMY_462" />
+    <item type="color" name="APKTOOL_DUMMY_463" />
+    <item type="color" name="APKTOOL_DUMMY_464" />
+    <item type="color" name="APKTOOL_DUMMY_465" />
+    <item type="color" name="APKTOOL_DUMMY_466" />
+    <item type="color" name="APKTOOL_DUMMY_467" />
+    <item type="color" name="APKTOOL_DUMMY_468" />
+    <item type="color" name="APKTOOL_DUMMY_469" />
+    <item type="color" name="APKTOOL_DUMMY_46a" />
+    <item type="color" name="APKTOOL_DUMMY_46b" />
+    <item type="color" name="APKTOOL_DUMMY_46c" />
+    <item type="color" name="APKTOOL_DUMMY_46d" />
+    <item type="color" name="APKTOOL_DUMMY_46e" />
+    <item type="color" name="APKTOOL_DUMMY_46f" />
+    <item type="color" name="APKTOOL_DUMMY_470" />
+    <item type="color" name="APKTOOL_DUMMY_471" />
+    <item type="color" name="APKTOOL_DUMMY_472" />
+    <item type="color" name="APKTOOL_DUMMY_473" />
+    <item type="color" name="APKTOOL_DUMMY_474" />
+    <item type="color" name="APKTOOL_DUMMY_475" />
+    <item type="color" name="APKTOOL_DUMMY_476" />
+    <item type="color" name="APKTOOL_DUMMY_477" />
+    <item type="color" name="APKTOOL_DUMMY_478" />
+    <item type="color" name="APKTOOL_DUMMY_479" />
+    <item type="color" name="APKTOOL_DUMMY_47a" />
+    <item type="color" name="APKTOOL_DUMMY_47b" />
+    <item type="color" name="APKTOOL_DUMMY_47c" />
+    <item type="color" name="APKTOOL_DUMMY_47d" />
+    <item type="color" name="APKTOOL_DUMMY_47e" />
+    <item type="color" name="APKTOOL_DUMMY_47f" />
+    <item type="color" name="APKTOOL_DUMMY_480" />
+    <item type="color" name="APKTOOL_DUMMY_481" />
+    <item type="color" name="APKTOOL_DUMMY_482" />
+    <item type="color" name="APKTOOL_DUMMY_483" />
+    <item type="color" name="APKTOOL_DUMMY_484" />
+    <item type="color" name="APKTOOL_DUMMY_485" />
+    <item type="color" name="APKTOOL_DUMMY_486" />
+    <item type="color" name="APKTOOL_DUMMY_487" />
+    <item type="color" name="APKTOOL_DUMMY_488" />
+    <item type="color" name="APKTOOL_DUMMY_489" />
+    <item type="color" name="APKTOOL_DUMMY_48a" />
+    <item type="color" name="APKTOOL_DUMMY_48b" />
+    <item type="color" name="APKTOOL_DUMMY_48c" />
+    <item type="color" name="APKTOOL_DUMMY_48d" />
+    <item type="color" name="APKTOOL_DUMMY_48e" />
+    <item type="color" name="APKTOOL_DUMMY_48f" />
+    <item type="color" name="APKTOOL_DUMMY_490" />
+    <item type="color" name="APKTOOL_DUMMY_491" />
+    <item type="color" name="APKTOOL_DUMMY_492" />
+    <item type="color" name="APKTOOL_DUMMY_493" />
+    <item type="color" name="APKTOOL_DUMMY_494" />
+    <item type="color" name="APKTOOL_DUMMY_495" />
+    <item type="color" name="APKTOOL_DUMMY_496" />
+    <item type="color" name="APKTOOL_DUMMY_497" />
+    <item type="color" name="APKTOOL_DUMMY_498" />
+    <item type="color" name="APKTOOL_DUMMY_499" />
+    <item type="color" name="APKTOOL_DUMMY_49a" />
+    <item type="color" name="APKTOOL_DUMMY_49b" />
+    <item type="color" name="APKTOOL_DUMMY_49c" />
+    <item type="color" name="APKTOOL_DUMMY_49d" />
+    <item type="color" name="APKTOOL_DUMMY_49e" />
+    <item type="color" name="APKTOOL_DUMMY_49f" />
+    <item type="color" name="APKTOOL_DUMMY_4a0" />
+    <item type="color" name="APKTOOL_DUMMY_4a1" />
+    <item type="color" name="APKTOOL_DUMMY_4a2" />
+    <item type="color" name="APKTOOL_DUMMY_4a3" />
+    <item type="color" name="APKTOOL_DUMMY_4a4" />
+    <item type="color" name="APKTOOL_DUMMY_4a5" />
+    <item type="color" name="APKTOOL_DUMMY_4a6" />
+    <item type="color" name="APKTOOL_DUMMY_4a7" />
+    <item type="color" name="APKTOOL_DUMMY_4a8" />
+    <item type="color" name="APKTOOL_DUMMY_4a9" />
+    <item type="color" name="APKTOOL_DUMMY_4aa" />
+    <item type="color" name="APKTOOL_DUMMY_4ab" />
+    <item type="color" name="APKTOOL_DUMMY_4ad" />
+    <item type="color" name="APKTOOL_DUMMY_4ae" />
+    <item type="color" name="APKTOOL_DUMMY_4af" />
+    <item type="color" name="APKTOOL_DUMMY_4b0" />
+    <item type="color" name="APKTOOL_DUMMY_4b1" />
+    <item type="color" name="APKTOOL_DUMMY_4b3" />
+    <item type="color" name="APKTOOL_DUMMY_4b4" />
+    <item type="color" name="APKTOOL_DUMMY_4b5" />
+    <item type="color" name="APKTOOL_DUMMY_4b6" />
+    <item type="color" name="APKTOOL_DUMMY_4b7" />
+    <item type="color" name="APKTOOL_DUMMY_4b8" />
+    <item type="color" name="APKTOOL_DUMMY_4b9" />
+    <item type="color" name="APKTOOL_DUMMY_4ba" />
+    <item type="color" name="APKTOOL_DUMMY_4bb" />
+    <item type="color" name="APKTOOL_DUMMY_4bc" />
+    <item type="color" name="APKTOOL_DUMMY_4bd" />
+    <item type="color" name="APKTOOL_DUMMY_4be" />
+    <item type="color" name="APKTOOL_DUMMY_4bf" />
+    <item type="color" name="APKTOOL_DUMMY_4c0" />
+    <item type="color" name="APKTOOL_DUMMY_4c1" />
+    <item type="color" name="APKTOOL_DUMMY_4c2" />
+    <item type="color" name="APKTOOL_DUMMY_4c3" />
+    <item type="color" name="APKTOOL_DUMMY_4c4" />
+    <item type="color" name="APKTOOL_DUMMY_4c5" />
+    <item type="color" name="APKTOOL_DUMMY_4c6" />
+    <item type="color" name="APKTOOL_DUMMY_4c7" />
+    <item type="color" name="APKTOOL_DUMMY_4c8" />
+    <item type="color" name="APKTOOL_DUMMY_4c9" />
+    <item type="color" name="APKTOOL_DUMMY_4ca" />
+    <item type="color" name="APKTOOL_DUMMY_4d3" />
+    <item type="color" name="APKTOOL_DUMMY_4d5" />
+    <item type="color" name="APKTOOL_DUMMY_4d6" />
+    <item type="color" name="APKTOOL_DUMMY_4d7" />
+    <item type="color" name="APKTOOL_DUMMY_4d8" />
+    <item type="color" name="APKTOOL_DUMMY_4d9" />
+    <item type="color" name="APKTOOL_DUMMY_4da" />
+    <item type="color" name="APKTOOL_DUMMY_4db" />
+    <item type="color" name="APKTOOL_DUMMY_4dc" />
+    <item type="color" name="APKTOOL_DUMMY_4dd" />
+    <item type="color" name="APKTOOL_DUMMY_4de" />
+    <item type="color" name="APKTOOL_DUMMY_4df" />
+    <item type="color" name="APKTOOL_DUMMY_4e0" />
+    <item type="color" name="APKTOOL_DUMMY_4e1" />
+    <item type="color" name="APKTOOL_DUMMY_4e2" />
+    <item type="color" name="APKTOOL_DUMMY_4e3" />
+    <item type="color" name="APKTOOL_DUMMY_4e4" />
+    <item type="color" name="APKTOOL_DUMMY_4e5" />
+    <item type="color" name="APKTOOL_DUMMY_4e6" />
+    <item type="color" name="APKTOOL_DUMMY_4e7" />
+    <item type="color" name="APKTOOL_DUMMY_4e8" />
+    <item type="color" name="APKTOOL_DUMMY_4e9" />
+    <item type="color" name="APKTOOL_DUMMY_4ea" />
+    <item type="color" name="APKTOOL_DUMMY_4eb" />
+    <item type="color" name="APKTOOL_DUMMY_4ec" />
+    <item type="color" name="APKTOOL_DUMMY_4ed" />
+    <item type="color" name="APKTOOL_DUMMY_4ee" />
+    <item type="color" name="APKTOOL_DUMMY_4ef" />
+    <item type="color" name="APKTOOL_DUMMY_4f0" />
+    <item type="color" name="APKTOOL_DUMMY_4f1" />
+    <item type="color" name="APKTOOL_DUMMY_4f2" />
+    <item type="color" name="APKTOOL_DUMMY_4f3" />
+    <item type="color" name="APKTOOL_DUMMY_4f4" />
+    <item type="color" name="APKTOOL_DUMMY_4f5" />
+    <item type="color" name="APKTOOL_DUMMY_4f6" />
+    <item type="color" name="APKTOOL_DUMMY_4f7" />
+    <item type="color" name="APKTOOL_DUMMY_4f8" />
+    <item type="color" name="APKTOOL_DUMMY_4f9" />
+    <item type="color" name="APKTOOL_DUMMY_4fa" />
+    <item type="color" name="APKTOOL_DUMMY_4fb" />
+    <item type="color" name="APKTOOL_DUMMY_4fc" />
+    <item type="color" name="APKTOOL_DUMMY_4fd" />
+    <item type="color" name="APKTOOL_DUMMY_4fe" />
+    <item type="color" name="APKTOOL_DUMMY_4ff" />
+    <item type="color" name="APKTOOL_DUMMY_500" />
+    <item type="color" name="APKTOOL_DUMMY_501" />
+    <item type="color" name="APKTOOL_DUMMY_502" />
+    <item type="color" name="APKTOOL_DUMMY_503" />
+    <item type="color" name="APKTOOL_DUMMY_504" />
+    <item type="color" name="APKTOOL_DUMMY_505" />
+    <item type="color" name="APKTOOL_DUMMY_506" />
+    <item type="color" name="APKTOOL_DUMMY_507" />
+    <item type="color" name="APKTOOL_DUMMY_508" />
+    <item type="color" name="APKTOOL_DUMMY_509" />
+    <item type="color" name="APKTOOL_DUMMY_50a" />
+    <item type="color" name="APKTOOL_DUMMY_50b" />
+    <item type="color" name="APKTOOL_DUMMY_50c" />
+    <item type="color" name="APKTOOL_DUMMY_50d" />
+    <item type="color" name="APKTOOL_DUMMY_50e" />
+    <item type="color" name="APKTOOL_DUMMY_50f" />
+    <item type="color" name="APKTOOL_DUMMY_510" />
+    <item type="color" name="APKTOOL_DUMMY_511" />
+    <item type="color" name="APKTOOL_DUMMY_512" />
+    <item type="color" name="APKTOOL_DUMMY_513" />
+    <item type="color" name="APKTOOL_DUMMY_514" />
+    <item type="color" name="APKTOOL_DUMMY_515" />
+    <item type="color" name="APKTOOL_DUMMY_516" />
+    <item type="color" name="APKTOOL_DUMMY_517" />
+    <item type="color" name="APKTOOL_DUMMY_518" />
+    <item type="color" name="APKTOOL_DUMMY_519" />
+    <item type="color" name="APKTOOL_DUMMY_51a" />
+    <item type="color" name="APKTOOL_DUMMY_51c" />
+    <item type="color" name="APKTOOL_DUMMY_51d" />
+    <item type="color" name="APKTOOL_DUMMY_51e" />
+    <item type="color" name="APKTOOL_DUMMY_51f" />
+    <item type="color" name="APKTOOL_DUMMY_520" />
+    <item type="color" name="APKTOOL_DUMMY_521" />
+    <item type="color" name="APKTOOL_DUMMY_522" />
+    <item type="color" name="APKTOOL_DUMMY_523" />
+    <item type="color" name="APKTOOL_DUMMY_524" />
+    <item type="color" name="APKTOOL_DUMMY_525" />
+    <item type="color" name="APKTOOL_DUMMY_526" />
+    <item type="color" name="APKTOOL_DUMMY_527" />
+    <item type="color" name="APKTOOL_DUMMY_528" />
+    <item type="color" name="APKTOOL_DUMMY_529" />
+    <item type="color" name="APKTOOL_DUMMY_52a" />
+    <item type="color" name="APKTOOL_DUMMY_52b" />
+    <item type="color" name="APKTOOL_DUMMY_52c" />
+    <item type="color" name="APKTOOL_DUMMY_52d" />
+    <item type="color" name="APKTOOL_DUMMY_52e" />
+    <item type="color" name="APKTOOL_DUMMY_52f" />
+    <item type="color" name="APKTOOL_DUMMY_530" />
+    <item type="color" name="APKTOOL_DUMMY_531" />
+    <item type="color" name="APKTOOL_DUMMY_532" />
+    <item type="color" name="APKTOOL_DUMMY_533" />
+    <item type="color" name="APKTOOL_DUMMY_534" />
+    <item type="color" name="APKTOOL_DUMMY_535" />
+    <item type="color" name="APKTOOL_DUMMY_536" />
+    <item type="color" name="APKTOOL_DUMMY_537" />
+    <item type="color" name="APKTOOL_DUMMY_538" />
+    <item type="color" name="APKTOOL_DUMMY_539" />
+    <item type="color" name="APKTOOL_DUMMY_53a" />
+    <item type="color" name="APKTOOL_DUMMY_53b" />
+    <item type="color" name="APKTOOL_DUMMY_53c" />
+    <item type="color" name="APKTOOL_DUMMY_53d" />
+    <item type="color" name="APKTOOL_DUMMY_53e" />
+    <item type="color" name="APKTOOL_DUMMY_53f" />
+    <item type="color" name="APKTOOL_DUMMY_540" />
+    <item type="color" name="APKTOOL_DUMMY_541" />
+    <item type="color" name="APKTOOL_DUMMY_542" />
+    <item type="color" name="APKTOOL_DUMMY_543" />
+    <item type="color" name="APKTOOL_DUMMY_544" />
+    <item type="color" name="APKTOOL_DUMMY_545" />
+    <item type="color" name="APKTOOL_DUMMY_546" />
+    <item type="color" name="APKTOOL_DUMMY_547" />
+    <item type="color" name="APKTOOL_DUMMY_548" />
+    <item type="color" name="APKTOOL_DUMMY_549" />
+    <item type="color" name="APKTOOL_DUMMY_54a" />
+    <item type="color" name="APKTOOL_DUMMY_54b" />
+    <item type="color" name="APKTOOL_DUMMY_54c" />
+    <item type="color" name="APKTOOL_DUMMY_54d" />
+    <item type="color" name="APKTOOL_DUMMY_54e" />
+    <item type="color" name="APKTOOL_DUMMY_54f" />
+    <item type="color" name="APKTOOL_DUMMY_550" />
+    <item type="color" name="APKTOOL_DUMMY_551" />
+    <item type="color" name="APKTOOL_DUMMY_552" />
+    <item type="color" name="APKTOOL_DUMMY_553" />
+    <item type="color" name="APKTOOL_DUMMY_555" />
+    <item type="color" name="APKTOOL_DUMMY_556" />
+    <item type="color" name="APKTOOL_DUMMY_557" />
+    <item type="color" name="APKTOOL_DUMMY_558" />
+    <item type="color" name="APKTOOL_DUMMY_559" />
+    <item type="color" name="APKTOOL_DUMMY_55a" />
+    <item type="color" name="APKTOOL_DUMMY_55b" />
+    <item type="color" name="APKTOOL_DUMMY_55c" />
+    <item type="color" name="APKTOOL_DUMMY_55d" />
+    <item type="color" name="APKTOOL_DUMMY_55e" />
+    <item type="color" name="APKTOOL_DUMMY_55f" />
+    <item type="color" name="APKTOOL_DUMMY_560" />
+    <item type="color" name="APKTOOL_DUMMY_561" />
+    <item type="color" name="APKTOOL_DUMMY_562" />
+    <item type="color" name="APKTOOL_DUMMY_564" />
+    <item type="color" name="APKTOOL_DUMMY_565" />
+    <item type="color" name="APKTOOL_DUMMY_566" />
+    <item type="color" name="APKTOOL_DUMMY_567" />
+    <item type="color" name="APKTOOL_DUMMY_568" />
+    <item type="color" name="APKTOOL_DUMMY_569" />
+    <item type="color" name="APKTOOL_DUMMY_56a" />
+    <item type="color" name="APKTOOL_DUMMY_56b" />
+    <item type="color" name="APKTOOL_DUMMY_56c" />
+    <item type="color" name="APKTOOL_DUMMY_56d" />
+    <item type="color" name="APKTOOL_DUMMY_56e" />
+    <item type="color" name="APKTOOL_DUMMY_56f" />
+    <item type="color" name="APKTOOL_DUMMY_571" />
+    <item type="color" name="APKTOOL_DUMMY_572" />
+    <item type="color" name="APKTOOL_DUMMY_573" />
+    <item type="color" name="APKTOOL_DUMMY_574" />
+    <item type="color" name="APKTOOL_DUMMY_575" />
+    <item type="color" name="APKTOOL_DUMMY_576" />
+    <item type="color" name="APKTOOL_DUMMY_577" />
+    <item type="color" name="APKTOOL_DUMMY_578" />
+    <item type="color" name="APKTOOL_DUMMY_57a" />
+    <item type="color" name="APKTOOL_DUMMY_57b" />
+    <item type="color" name="APKTOOL_DUMMY_57c" />
+    <item type="color" name="APKTOOL_DUMMY_57e" />
+    <item type="color" name="APKTOOL_DUMMY_57f" />
+    <item type="color" name="APKTOOL_DUMMY_580" />
+    <item type="color" name="APKTOOL_DUMMY_581" />
+    <item type="color" name="APKTOOL_DUMMY_582" />
+    <item type="color" name="APKTOOL_DUMMY_583" />
+    <item type="color" name="APKTOOL_DUMMY_584" />
+    <item type="color" name="APKTOOL_DUMMY_585" />
+    <item type="color" name="APKTOOL_DUMMY_586" />
+    <item type="color" name="APKTOOL_DUMMY_587" />
+    <item type="color" name="APKTOOL_DUMMY_588" />
+    <item type="color" name="APKTOOL_DUMMY_589" />
+    <item type="color" name="APKTOOL_DUMMY_58a" />
+    <item type="color" name="APKTOOL_DUMMY_58b" />
+    <item type="color" name="APKTOOL_DUMMY_58c" />
+    <item type="color" name="APKTOOL_DUMMY_593" />
+    <item type="color" name="APKTOOL_DUMMY_595" />
+    <item type="color" name="APKTOOL_DUMMY_596" />
+    <item type="color" name="APKTOOL_DUMMY_59d" />
+    <item type="color" name="APKTOOL_DUMMY_5a0" />
+    <item type="color" name="APKTOOL_DUMMY_5a1" />
+    <item type="color" name="APKTOOL_DUMMY_5a4" />
+    <item type="color" name="APKTOOL_DUMMY_5a5" />
+    <item type="color" name="APKTOOL_DUMMY_5a7" />
+    <item type="color" name="APKTOOL_DUMMY_5a8" />
+    <item type="color" name="APKTOOL_DUMMY_5ab" />
+    <item type="color" name="APKTOOL_DUMMY_5ae" />
+    <item type="color" name="APKTOOL_DUMMY_5b1" />
+    <item type="color" name="APKTOOL_DUMMY_5b2" />
+    <item type="color" name="APKTOOL_DUMMY_5b3" />
+    <item type="color" name="APKTOOL_DUMMY_5b5" />
+    <item type="color" name="APKTOOL_DUMMY_5b6" />
+    <item type="color" name="APKTOOL_DUMMY_5b7" />
+    <item type="color" name="APKTOOL_DUMMY_5b8" />
+    <item type="color" name="APKTOOL_DUMMY_5b9" />
+    <item type="color" name="APKTOOL_DUMMY_5ba" />
+    <item type="color" name="APKTOOL_DUMMY_5bf" />
+    <item type="color" name="APKTOOL_DUMMY_5c0" />
+    <item type="color" name="APKTOOL_DUMMY_5d3" />
+    <item type="color" name="APKTOOL_DUMMY_5d9" />
+    <item type="color" name="APKTOOL_DUMMY_5fd" />
+    <item type="color" name="APKTOOL_DUMMY_5fe" />
+    <item type="color" name="APKTOOL_DUMMY_60c" />
+    <item type="color" name="APKTOOL_DUMMY_60e" />
+    <item type="color" name="APKTOOL_DUMMY_60f" />
+    <item type="color" name="APKTOOL_DUMMY_610" />
+    <item type="color" name="APKTOOL_DUMMY_615" />
+    <item type="color" name="APKTOOL_DUMMY_616" />
+    <item type="color" name="APKTOOL_DUMMY_617" />
+    <item type="color" name="APKTOOL_DUMMY_61a" />
+    <item type="color" name="APKTOOL_DUMMY_61b" />
+    <item type="color" name="APKTOOL_DUMMY_61c" />
+    <item type="color" name="APKTOOL_DUMMY_61d" />
+    <item type="color" name="APKTOOL_DUMMY_61e" />
+    <item type="color" name="APKTOOL_DUMMY_625" />
+    <item type="color" name="APKTOOL_DUMMY_62a" />
+    <item type="color" name="APKTOOL_DUMMY_62b" />
+    <item type="color" name="APKTOOL_DUMMY_62e" />
+    <item type="color" name="APKTOOL_DUMMY_62f" />
+    <item type="color" name="APKTOOL_DUMMY_630" />
+    <item type="color" name="APKTOOL_DUMMY_631" />
+    <item type="color" name="APKTOOL_DUMMY_636" />
+    <item type="color" name="APKTOOL_DUMMY_637" />
+    <item type="color" name="APKTOOL_DUMMY_638" />
+    <item type="color" name="APKTOOL_DUMMY_639" />
+    <item type="color" name="APKTOOL_DUMMY_63a" />
+    <item type="color" name="APKTOOL_DUMMY_63b" />
+    <item type="color" name="APKTOOL_DUMMY_63c" />
+    <item type="color" name="APKTOOL_DUMMY_63d" />
+    <item type="color" name="APKTOOL_DUMMY_63e" />
+    <item type="color" name="APKTOOL_DUMMY_63f" />
+    <item type="color" name="APKTOOL_DUMMY_640" />
+    <item type="color" name="APKTOOL_DUMMY_641" />
+    <item type="color" name="APKTOOL_DUMMY_642" />
+    <item type="color" name="APKTOOL_DUMMY_643" />
+    <item type="color" name="APKTOOL_DUMMY_644" />
+    <item type="color" name="APKTOOL_DUMMY_645" />
+    <item type="color" name="APKTOOL_DUMMY_646" />
+    <item type="color" name="APKTOOL_DUMMY_647" />
+    <item type="color" name="APKTOOL_DUMMY_648" />
+    <item type="color" name="APKTOOL_DUMMY_649" />
+    <item type="color" name="APKTOOL_DUMMY_64a" />
+    <item type="color" name="APKTOOL_DUMMY_64b" />
+    <item type="color" name="APKTOOL_DUMMY_64c" />
+    <item type="color" name="APKTOOL_DUMMY_64d" />
+    <item type="color" name="APKTOOL_DUMMY_64e" />
+    <item type="color" name="APKTOOL_DUMMY_64f" />
+    <item type="color" name="APKTOOL_DUMMY_650" />
+    <item type="color" name="APKTOOL_DUMMY_651" />
+    <item type="color" name="APKTOOL_DUMMY_652" />
+    <item type="color" name="APKTOOL_DUMMY_653" />
+    <item type="color" name="APKTOOL_DUMMY_654" />
+    <item type="color" name="APKTOOL_DUMMY_655" />
+    <item type="color" name="APKTOOL_DUMMY_656" />
+    <item type="color" name="APKTOOL_DUMMY_657" />
+    <item type="color" name="APKTOOL_DUMMY_658" />
+    <item type="color" name="APKTOOL_DUMMY_659" />
+    <item type="color" name="APKTOOL_DUMMY_65a" />
+    <item type="color" name="APKTOOL_DUMMY_65b" />
+    <item type="color" name="APKTOOL_DUMMY_681" />
+    <item type="color" name="APKTOOL_DUMMY_68f" />
+    <item type="color" name="APKTOOL_DUMMY_696" />
+    <item type="color" name="APKTOOL_DUMMY_69f" />
+    <item type="color" name="APKTOOL_DUMMY_6a0" />
+    <item type="color" name="APKTOOL_DUMMY_6ab" />
+    <item type="color" name="APKTOOL_DUMMY_6ae" />
+    <item type="color" name="APKTOOL_DUMMY_6af" />
+    <item type="color" name="APKTOOL_DUMMY_6b0" />
+    <item type="color" name="APKTOOL_DUMMY_6b1" />
+    <item type="color" name="APKTOOL_DUMMY_6b2" />
+    <item type="color" name="APKTOOL_DUMMY_6b3" />
+    <item type="color" name="APKTOOL_DUMMY_6b4" />
+    <item type="color" name="APKTOOL_DUMMY_6b5" />
+    <item type="color" name="APKTOOL_DUMMY_6b6" />
+    <item type="color" name="APKTOOL_DUMMY_6b7" />
+    <item type="color" name="APKTOOL_DUMMY_6b8" />
+    <item type="color" name="APKTOOL_DUMMY_6b9" />
+    <item type="color" name="APKTOOL_DUMMY_6ba" />
+    <item type="color" name="APKTOOL_DUMMY_6bf" />
+    <item type="color" name="APKTOOL_DUMMY_6c0" />
+    <item type="color" name="APKTOOL_DUMMY_6c1" />
+</resources>

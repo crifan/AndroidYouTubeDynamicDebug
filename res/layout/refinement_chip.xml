@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="12.0dip" card_view:cardCornerRadius="2.0dip" card_view:cardPreventCornerOverlap="false"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:card_view="http://schemas.android.com/apk/res-auto">
+    <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:textAppearance="?textAppearanceBody1" android:textColor="@color/quantum_vanillablue500" android:ellipsize="end" android:gravity="center" android:id="@id/text" android:background="@drawable/refinement_chip_background" android:layout_width="wrap_content" android:layout_height="48.0dip" android:foreground="?android:selectableItemBackground" android:maxWidth="180.0dip" android:minWidth="48.0dip" android:maxLines="1" android:drawablePadding="8.0dip" android:layout_centerInParent="true" android:paddingStart="16.0dip" android:paddingEnd="16.0dip" />
+</androidx.cardview.widget.CardView>

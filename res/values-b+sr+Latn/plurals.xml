@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="accessibility_dislike_video_plural">
+        <item quantity="other">Dugme Ne sviđa mi se, još %1$d korisnika je označilo da im se ne sviđa ovaj video</item>
+        <item quantity="one">Dugme Ne sviđa mi se, još %1$d korisnik je označio da mu se ne sviđa ovaj video</item>
+        <item quantity="few">Dugme Ne sviđa mi se, još %1$d korisnika su označila da im se ne sviđa ovaj video</item>
+    </plurals>
+    <plurals name="accessibility_dtts_fast_forward">
+        <item quantity="other">Premotaj %1$d sekundi unapred</item>
+        <item quantity="one">Premotaj %1$d sekundu unapred</item>
+        <item quantity="few">Premotaj %1$d sekunde unapred</item>
+    </plurals>
+    <plurals name="accessibility_dtts_rewind">
+        <item quantity="other">Premotaj %1$d sekundi unazad</item>
+        <item quantity="one">Premotaj %1$d sekundu unazad</item>
+        <item quantity="few">Premotaj %1$d sekunde unazad</item>
+    </plurals>
+    <plurals name="accessibility_duration_description_hours">
+        <item quantity="other">%d sati</item>
+        <item quantity="one">%d sat</item>
+        <item quantity="few">%d sata</item>
+    </plurals>
+    <plurals name="accessibility_duration_description_minutes">
+        <item quantity="other">%d minuta</item>
+        <item quantity="one">%d minut</item>
+        <item quantity="few">%d minuta</item>
+    </plurals>
+    <plurals name="accessibility_duration_description_seconds">
+        <item quantity="other">%d sekundi</item>
+        <item quantity="one">%d sekunda</item>
+        <item quantity="few">%d sekunde</item>
+    </plurals>
+    <plurals name="accessibility_like_video_plural">
+        <item quantity="other">Dugme Sviđa mi se, još %1$d korisnika je označilo da im se sviđa ovaj video</item>
+        <item quantity="one">Dugme Sviđa mi se, još %1$d korisnik je označio da mu se sviđa ovaj video</item>
+        <item quantity="few">Dugme Sviđa mi se, još %1$d korisnika su označila da im se sviđa ovaj video</item>
+    </plurals>
+    <plurals name="accessibility_skip_ad_in">
+        <item quantity="other">Preskočite oglas za %1$d sek.</item>
+        <item quantity="one">Preskočite oglas za %1$d sek.</item>
+        <item quantity="few">Preskočite oglas za %1$d sek.</item>
+    </plurals>
+    <plurals name="accessibility_undo_dislike_video_plural">
+        <item quantity="other">Dugme Opozovi nesviđanje, još %1$d korisnika je označilo da im se ne sviđa ovaj video</item>
+        <item quantity="one">Dugme Opozovi nesviđanje, još %1$d korisnik je označio da mu se ne sviđa ovaj video</item>
+        <item quantity="few">Dugme Opozovi nesviđanje, još %1$d korisnika su označila da im se ne sviđa ovaj video</item>
+    </plurals>
+    <plurals name="accessibility_undo_like_video_plural">
+        <item quantity="other">Dugme Opozovi sviđanje, još %1$d korisnika je označilo da im se sviđa ovaj video</item>
+        <item quantity="one">Dugme Opozovi sviđanje, još %1$d korisnik je označio da mu se sviđa ovaj video</item>
+        <item quantity="few">Dugme Opozovi sviđanje, još %1$d korisnika su označila da im se sviđa ovaj video</item>
+    </plurals>
+    <plurals name="download_new_videos_button_text">
+        <item quantity="other">Preuzmi %1$d novih video snimaka</item>
+        <item quantity="one">Preuzmi %1$d novi video</item>
+        <item quantity="few">Preuzmi %1$d nova videa</item>
+    </plurals>
+    <plurals name="download_playlist_unplayable_future_days_plural">
+        <item quantity="other">Premium postaje obavezan za neke video snimke za %1$d dana</item>
+        <item quantity="one">Premium postaje obavezan za neke video snimke za %1$d dan</item>
+        <item quantity="few">Premium postaje obavezan za neke video snimke za %1$d dana</item>
+    </plurals>
+    <plurals name="download_playlist_unplayable_future_hours_plural">
+        <item quantity="other">Premium postaje obavezan za neke video snimke za %1$d sati</item>
+        <item quantity="one">Premium postaje obavezan za neke video snimke za %1$d sat</item>
+        <item quantity="few">Premium postaje obavezan za neke video snimke za %1$d sata</item>
+    </plurals>
+    <plurals name="download_playlist_unplayable_future_minutes_plural">
+        <item quantity="other">Premium postaje obavezan za neke video snimke za %1$d minuta</item>
+        <item quantity="one">Premium postaje obavezan za neke video snimke za %1$d minut</item>
+        <item quantity="few">Premium postaje obavezan za neke video snimke za %1$d minuta</item>
+    </plurals>
+    <plurals name="download_video_unplayable_future_days_plural">
+        <item quantity="other">Premium postaje obavezan za %1$d dana</item>
+        <item quantity="one">Premium postaje obavezan za %1$d dan</item>
+        <item quantity="few">Premium postaje obavezan za %1$d dana</item>
+    </plurals>
+    <plurals name="download_video_unplayable_future_hours_plural">
+        <item quantity="other">Premium postaje obavezan za %1$d sati</item>
+        <item quantity="one">Premium postaje obavezan za %1$d sat</item>
+        <item quantity="few">Premium postaje obavezan za %1$d sata</item>
+    </plurals>
+    <plurals name="download_video_unplayable_future_minutes_plural">
+        <item quantity="other">Premium postaje obavezan za %1$d minuta</item>
+        <item quantity="one">Premium postaje obavezan za %1$d minut</item>
+        <item quantity="few">Premium postaje obavezan za %1$d minuta</item>
+    </plurals>
+    <plurals name="frequency_hours_component">
+        <item quantity="other">%1$d sati</item>
+        <item quantity="one">%1$d sat</item>
+        <item quantity="few">%1$d sata</item>
+    </plurals>
+    <plurals name="frequency_hours_only">
+        <item quantity="other">Na svakih %1$d sati</item>
+        <item quantity="one">Na svaki %1$d sat</item>
+        <item quantity="few">Na svaka %1$d sata</item>
+    </plurals>
+    <plurals name="frequency_minutes_component">
+        <item quantity="other">%1$d minuta</item>
+        <item quantity="one">%1$d minut</item>
+        <item quantity="few">%1$d minuta</item>
+    </plurals>
+    <plurals name="frequency_minutes_only">
+        <item quantity="other">Na svakih %1$d minuta</item>
+        <item quantity="one">Na svaki %1$d minut</item>
+        <item quantity="few">Na svaka %1$d minuta</item>
+    </plurals>
+    <plurals name="image_picker_title">
+        <item quantity="other">Izabrano je %1$d</item>
+        <item quantity="one">Izabran je %1$d</item>
+        <item quantity="few">Izabrana su %1$d</item>
+    </plurals>
+    <plurals name="invalid_uploads_error_msg">
+        <item quantity="other">Jedna ili više datoteka videa je nedostupna ili nevažeća. Probajte ponovo ili izaberite druge.</item>
+        <item quantity="one">Jedna ili više datoteka videa je nedostupna ili nevažeća. Probajte ponovo ili izaberite druge.</item>
+        <item quantity="few">Jedna ili više datoteka videa je nedostupna ili nevažeća. Probajte ponovo ili izaberite druge.</item>
+    </plurals>
+    <plurals name="last_update_in_days_message">
+        <item quantity="other">Ažurirano pre %1$d dana</item>
+        <item quantity="one">Ažurirano pre %1$d dan</item>
+        <item quantity="few">Ažurirano pre %1$d dana</item>
+    </plurals>
+    <plurals name="last_update_in_hours_message">
+        <item quantity="other">Ažurirano pre %1$d sati</item>
+        <item quantity="one">Ažurirano pre %1$d sat</item>
+        <item quantity="few">Ažurirano pre %1$d sata</item>
+    </plurals>
+    <plurals name="last_update_in_minutes_message">
+        <item quantity="other">Ažurirano pre %1$d minuta</item>
+        <item quantity="one">Ažurirano pre %1$d minut</item>
+        <item quantity="few">Ažurirano pre %1$d minuta</item>
+    </plurals>
+    <plurals name="last_update_in_weeks_message">
+        <item quantity="other">Ažurirano pre %1$d nedelja</item>
+        <item quantity="one">Ažurirano pre %1$d nedelje</item>
+        <item quantity="few">Ažurirano pre %1$d nedelje</item>
+    </plurals>
+    <plurals name="notification_playlist_progress_size">
+        <item quantity="other">%1$d od %2$d video snimaka</item>
+        <item quantity="one">%1$d od %2$d videa</item>
+        <item quantity="few">%1$d od %2$d videa</item>
+    </plurals>
+    <plurals name="offline_go_online_to_renew_dialog_message">
+        <item quantity="other">Preuzimanja ostaju dostupna pod uslovom da uređaj ima vezu sa internetom na svakih %1$d dana. Ovaj proces se obavlja automatski a video se ne preuzima ponovo.</item>
+        <item quantity="one">Preuzimanja ostaju dostupna pod uslovom da uređaj ima vezu sa internetom na svaki %1$d dan. Ovaj proces se obavlja automatski a video se ne preuzima ponovo.</item>
+        <item quantity="few">Preuzimanja ostaju dostupna pod uslovom da uređaj ima vezu sa internetom na svaka %1$d dana. Ovaj proces se obavlja automatski a video se ne preuzima ponovo.</item>
+    </plurals>
+    <plurals name="offline_go_online_to_renew_snackbar_message">
+        <item quantity="other">Preuzete stavke ostaju dostupne %1$d dana bez internet veze.</item>
+        <item quantity="one">Preuzete stavke ostaju dostupne %1$d dan bez internet veze.</item>
+        <item quantity="few">Preuzete stavke ostaju dostupne %1$d dana bez internet veze.</item>
+    </plurals>
+    <plurals name="offline_remember_setting_for_days">
+        <item quantity="other">Zapamti moja podešavanja na %1$d dana</item>
+        <item quantity="one">Zapamti moja podešavanja na %1$d dan</item>
+        <item quantity="few">Zapamti moja podešavanja na %1$d dana</item>
+    </plurals>
+    <plurals name="playlist_picker_dialog_done">
+        <item quantity="other">Plejliste su ažurirane</item>
+        <item quantity="one">Plejliste su ažurirane</item>
+        <item quantity="few">Plejliste su ažurirane</item>
+    </plurals>
+    <plurals name="playlist_size">
+        <item quantity="other">%1$,d video snimaka</item>
+        <item quantity="one">%1$,d video</item>
+        <item quantity="few">%1$,d videa</item>
+    </plurals>
+    <plurals name="playlist_size_downloaded">
+        <item quantity="other">Preuzeli ste %1$,d</item>
+        <item quantity="one">Preuzeli ste %1$,d</item>
+        <item quantity="few">Preuzeli ste %1$,d</item>
+    </plurals>
+    <plurals name="playlist_size_total">
+        <item quantity="other">%1$,d videa</item>
+        <item quantity="one">%1$,d video</item>
+        <item quantity="few">%1$,d videa</item>
+    </plurals>
+    <plurals name="quick_seek_x_second">
+        <item quantity="other">%d sekundi</item>
+        <item quantity="one">%d sekunda</item>
+        <item quantity="few">%d sekunde</item>
+    </plurals>
+    <plurals name="recommendation_count">
+        <item quantity="other">%1$d preporuka</item>
+        <item quantity="one">%1$d preporuka</item>
+        <item quantity="few">%1$d preporuke</item>
+    </plurals>
+    <plurals name="rental_expiry_notice">
+        <item quantity="other">Kad započnete, imaćete %1$d sati da pogledate ovaj video.</item>
+        <item quantity="one">Kad započnete, imaćete %1$d sat da pogledate ovaj video.</item>
+        <item quantity="few">Kad započnete, imaćete %1$d sata da pogledate ovaj video.</item>
+    </plurals>
+    <plurals name="rental_long_days_remaining">
+        <item quantity="other">Ističe za %1$d dana</item>
+        <item quantity="one">Ističe za %1$d dan</item>
+        <item quantity="few">Ističe za %1$d dana</item>
+    </plurals>
+    <plurals name="rental_long_hours_remaining">
+        <item quantity="other">Ističe za %1$d sati</item>
+        <item quantity="one">Ističe za %1$d sat</item>
+        <item quantity="few">Ističe za %1$d sata</item>
+    </plurals>
+    <plurals name="rental_long_weeks_remaining">
+        <item quantity="other">Ističe za %1$d nedelja</item>
+        <item quantity="one">Ističe za %1$d nedelju</item>
+        <item quantity="few">Ističe za %1$d nedelje</item>
+    </plurals>
+    <plurals name="rental_medium_days_remaining">
+        <item quantity="other">Ističe za %1$d dana</item>
+        <item quantity="one">Ističe za %1$d dan</item>
+        <item quantity="few">Ističe za %1$d dana</item>
+    </plurals>
+    <plurals name="rental_medium_hours_remaining">
+        <item quantity="other">Ističe za %1$d sati</item>
+        <item quantity="one">Ističe za %1$d sat</item>
+        <item quantity="few">Ističe za %1$d sata</item>
+    </plurals>
+    <plurals name="rental_medium_weeks_remaining">
+        <item quantity="other">Ističe za %1$d nedelja</item>
+        <item quantity="one">Ističe za %1$d nedelju</item>
+        <item quantity="few">Ističe za %1$d nedelje</item>
+    </plurals>
+    <plurals name="selected_video_count">
+        <item quantity="other">Izabrano je %1$d videa</item>
+        <item quantity="one">Izabran je %1$d video</item>
+        <item quantity="few">Izabrana su %1$d videa</item>
+    </plurals>
+    <plurals name="shorts_a11y_duration_seconds">
+        <item quantity="other">%1$s sekundi</item>
+        <item quantity="one">%1$s sekunda</item>
+        <item quantity="few">%1$s sekunde</item>
+    </plurals>
+    <plurals name="shorts_a11y_timer_duration_seconds">
+        <item quantity="other">Tajmer od %1$d sekundi</item>
+        <item quantity="one">Tajmer od %1$d sekunde</item>
+        <item quantity="few">Tajmer od %1$d sekunde</item>
+    </plurals>
+    <plurals name="shorts_a11y_timer_started">
+        <item quantity="other">Aktiviran je tajmer od %1$d sek.</item>
+        <item quantity="one">Aktiviran je tajmer od %1$d sek.</item>
+        <item quantity="few">Aktiviran je tajmer od %1$d sek.</item>
+    </plurals>
+    <plurals name="smart_downloads_future_update_text">
+        <item quantity="other">Pametna preuzimanja će se ponovo automatski ažurirati za %1$d dana</item>
+        <item quantity="one">Pametna preuzimanja će se ponovo automatski ažurirati za %1$d dan</item>
+        <item quantity="few">Pametna preuzimanja će se ponovo automatski ažurirati za %1$d dana</item>
+    </plurals>
+    <plurals name="sticker_dialog_title">
+        <item quantity="other">Navratite opet za %1$d dana</item>
+        <item quantity="one">Navratite opet za %1$d dan</item>
+        <item quantity="few">Navratite opet za %1$d dana</item>
+    </plurals>
+    <plurals name="too_many_external_uploads_error_msg">
+        <item quantity="other">Možete da otpremite samo %1$d video snimaka odjednom.</item>
+        <item quantity="one">Možete da otpremite samo %1$d video snimak odjednom.</item>
+        <item quantity="few">Možete da otpremite samo %1$d video snimka odjednom.</item>
+    </plurals>
+    <plurals name="transcoding_progress">
+        <item quantity="other">Priprema se (%1$,d%%)</item>
+        <item quantity="one">Priprema se (%1$,d%%)</item>
+        <item quantity="few">Priprema se (%1$,d%%)</item>
+    </plurals>
+    <plurals name="trim_segment_max_length">
+        <item quantity="other">Maks. %1$d s</item>
+        <item quantity="one">Maks. %1$d s</item>
+        <item quantity="few">Maks. %1$d s</item>
+    </plurals>
+    <plurals name="trim_switch_edu">
+        <item quantity="other">Skratite video na %1$d sek i dodajte muziku</item>
+        <item quantity="one">Skratite video na %1$d sek i dodajte muziku</item>
+        <item quantity="few">Skratite video na %1$d sek i dodajte muziku</item>
+    </plurals>
+    <plurals name="trim_switch_edu_full_length_shorts">
+        <item quantity="other">Skratite video na %1$d sek ili kraće</item>
+        <item quantity="one">Skratite video na %1$d sek ili kraće</item>
+        <item quantity="few">Skratite video na %1$d sek ili kraće</item>
+    </plurals>
+    <plurals name="upload_hours_remaing">
+        <item quantity="other">Ostalo je oko %1$,d sati</item>
+        <item quantity="one">Ostalo je oko %1$,d sata</item>
+        <item quantity="few">Ostalo je oko %1$,d sata</item>
+    </plurals>
+    <plurals name="upload_indicator_all_completed">
+        <item quantity="other">Broj otpremljenih video snimaka: %d</item>
+        <item quantity="one">Broj otpremljenih video snimaka: %d</item>
+        <item quantity="few">Broj otpremljenih video snimaka: %d</item>
+    </plurals>
+    <plurals name="upload_indicator_all_failed">
+        <item quantity="other">Nijedan video nije otpremljen</item>
+        <item quantity="one">Nijedan video nije otpremljen</item>
+        <item quantity="few">Nijedan video nije otpremljen</item>
+    </plurals>
+    <plurals name="upload_indicator_all_uploading">
+        <item quantity="other">%d video snimaka se otprema</item>
+        <item quantity="one">%d video se otprema</item>
+        <item quantity="few">%d video snimka se otpremaju</item>
+    </plurals>
+    <plurals name="upload_indicator_partial_fail">
+        <item quantity="other">Nije otpremljeno %1$d od %2$d video snimaka</item>
+        <item quantity="one">Nije otpremljen %1$d od %2$d video snimaka</item>
+        <item quantity="few">Nisu otpremljena %1$d od %2$d video snimaka</item>
+    </plurals>
+    <plurals name="upload_indicator_uploading_and_completed_completed_part">
+        <item quantity="other">Otpremljeno je %d video snimaka</item>
+        <item quantity="one">Otpremljen je %d video</item>
+        <item quantity="few">Otpremljena su %d video snimka</item>
+    </plurals>
+    <plurals name="upload_indicator_uploading_and_completed_uploading_part">
+        <item quantity="other">Otprema se: %d</item>
+        <item quantity="one">Otprema se: %d</item>
+        <item quantity="few">Otprema se: %d</item>
+    </plurals>
+    <plurals name="upload_minutes_remaing">
+        <item quantity="other">Ostalo je oko %1$,d minuta</item>
+        <item quantity="one">Ostalo je oko %1$,d minut</item>
+        <item quantity="few">Ostalo je oko %1$,d minuta</item>
+    </plurals>
+    <plurals name="upload_notification_active_progress">
+        <item quantity="other">Otprema se %1$d od %2$d video snimaka</item>
+        <item quantity="one">Otprema se %1$d od %2$d videa</item>
+        <item quantity="few">Otprema se %1$d od %2$d videa</item>
+    </plurals>
+    <plurals name="upload_progress">
+        <item quantity="other">Otpremljeno je %1$,d%%</item>
+        <item quantity="one">Otpremljeno je %1$,d%%</item>
+        <item quantity="few">Otpremljeno je %1$,d%%</item>
+    </plurals>
+    <plurals name="upload_seconds_remaing">
+        <item quantity="other">Ostalo je oko %1$,d sekundi</item>
+        <item quantity="one">Ostalo je oko %1$,d sekunde</item>
+        <item quantity="few">Ostalo je oko %1$,d sekunde</item>
+    </plurals>
+    <plurals name="uploads_failed">
+        <item quantity="other">%1$,d otpremanja nije uspelo</item>
+        <item quantity="one">%1$,d otpremanje nije uspelo</item>
+        <item quantity="few">%1$,d otpremanja nisu uspela</item>
+    </plurals>
+    <plurals name="uploads_failed_with_in_progress_videos">
+        <item quantity="other">%1$,d/%2$,d otpremanja nije uspelo</item>
+        <item quantity="one">%1$,d/%2$,d otpremanja nije uspelo</item>
+        <item quantity="few">%1$,d/%2$,d otpremanja nisu uspela</item>
+    </plurals>
+    <plurals name="uploads_in_progress">
+        <item quantity="other">%1$,d video snimaka se otprema</item>
+        <item quantity="one">%1$,d video se otprema</item>
+        <item quantity="few">%1$,d video snimka se otpremaju</item>
+    </plurals>
+    <plurals name="user_education_quick_seek">
+        <item quantity="other">Dvaput dodirnite levo ili desno da biste preskočili %d sekundi</item>
+        <item quantity="one">Dvaput dodirnite levo ili desno da biste preskočili %d sekundu</item>
+        <item quantity="few">Dvaput dodirnite levo ili desno da biste preskočili %d sekunde</item>
+    </plurals>
+    <plurals name="video_count">
+        <item quantity="other">%1$d video snimaka</item>
+        <item quantity="one">%1$d video</item>
+        <item quantity="few">%1$d videa</item>
+    </plurals>
+</resources>

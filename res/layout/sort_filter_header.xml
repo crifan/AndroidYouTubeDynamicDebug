@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="8.0dip" android:paddingEnd="@dimen/start_end_padding"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:yt="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/sort_filter_sub_menu_container" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:textAppearance="@style/ShelfHeader" android:textColor="?ytTextPrimary" android:ellipsize="end" android:id="@id/title" android:layout_width="0.0dip" android:layout_height="wrap_content" android:maxLines="1" android:includeFontPadding="false" android:layout_weight="1.0" android:textIsSelectable="false" android:textAlignment="viewEnd" yt:robotoFont="regular" />
+</LinearLayout>

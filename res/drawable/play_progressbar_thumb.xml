@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="oval"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@color/video_progress_passed_indicator_color" />
+    <size android:height="@dimen/video_progress_thumb_diameter" android:width="@dimen/video_progress_thumb_diameter" />
+</shape>

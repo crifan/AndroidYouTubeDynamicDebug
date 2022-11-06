@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.material.appbar.AppBarLayout android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/CompatElevationZ4">
+        <android.support.v7.widget.Toolbar android:theme="?callToActionButtonActionBarTheme" android:id="@id/toolbar" android:layout_width="fill_parent" android:layout_height="?actionBarSize" />
+    </com.google.android.material.appbar.AppBarLayout>
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto">
+        <FrameLayout android:id="@id/interstitials_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:elevation="12.0dip" />
+        <View android:focusable="true" android:focusableInTouchMode="true" android:layout_width="0.0px" android:layout_height="0.0px" />
+        <com.google.android.libraries.youtube.rendering.ui.widget.loadingframe.LoadingFrameLayout android:id="@id/loading_frame_layout" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <com.google.android.libraries.youtube.edit.ui.ViewAnimatorHelper android:id="@id/view_animator" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <LinearLayout android:orientation="vertical" android:id="@id/shared_mde_view" android:tag="@string/upload_details" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                    <ScrollView android:id="@id/scroll_container" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+                        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                            <include android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/upload_mfk_notice_banner" />
+                            <include android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/upload_music_disclaimer_banner" />
+                            <FrameLayout android:id="@id/video_edit_fragment_container" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                            <android.support.constraint.ConstraintLayout android:id="@id/upload_thumbnail_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                                <RelativeLayout android:layout_width="0.0dip" android:layout_height="0.0dip" app:layout_constraintDimensionRatio="H,16:9" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+                                    <FrameLayout android:id="@id/upload_thumbnail_wrapper" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                                        <ImageView android:id="@id/upload_thumbnail_background" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" android:tint="?ytOverlayBackgroundMedium" android:contentDescription="@null" />
+                                        <ImageView android:layout_gravity="center_horizontal" android:id="@id/upload_thumbnail" android:layout_width="wrap_content" android:layout_height="fill_parent" android:scaleType="fitXY" android:adjustViewBounds="true" android:contentDescription="@null" />
+                                    </FrameLayout>
+                                    <TextView android:textSize="@dimen/extra_small_font_size" android:textColor="?ytOverlayTextPrimary" android:id="@id/upload_duration" android:background="?ytOverlayBackgroundMedium" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="2.0dip" android:maxLines="1" android:layout_alignBottom="@id/upload_thumbnail_wrapper" android:paddingStart="1.0dip" android:paddingEnd="1.0dip" android:layout_alignEnd="@id/upload_thumbnail_wrapper" />
+                                </RelativeLayout>
+                            </android.support.constraint.ConstraintLayout>
+                            <include android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/upload_active_account_header_view" />
+                            <android.support.v7.widget.RecyclerView android:id="@id/recycler_view" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true" />
+                        </LinearLayout>
+                    </ScrollView>
+                    <include android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/upload_bottom_button" />
+                </LinearLayout>
+                <com.google.android.libraries.youtube.metadataeditor.geo.LocationSearchView android:theme="?editLocationTheme" android:id="@id/location_search_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+                <FrameLayout android:id="@id/verification_fragment_upload_container" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+                <FrameLayout android:id="@id/permission_fragment_upload_container" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            </com.google.android.libraries.youtube.edit.ui.ViewAnimatorHelper>
+        </com.google.android.libraries.youtube.rendering.ui.widget.loadingframe.LoadingFrameLayout>
+        <FrameLayout android:id="@id/element_fragment" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <com.google.android.apps.youtube.app.common.ui.bottomui.BottomUiContainer android:layout_gravity="bottom|center" android:id="@id/bottom_ui_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </FrameLayout>
+</LinearLayout>

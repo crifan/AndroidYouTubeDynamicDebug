@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/overlay" android:background="#cc000000" android:layout_width="fill_parent" android:layout_height="fill_parent" android:contentDescription="@string/accessibility_close_share_panel" />
+    <com.google.android.libraries.youtube.common.ui.TopPeekingScrollView android:id="@id/content_container" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:background="#fffffffe" android:layout_width="fill_parent" android:layout_height="fill_parent" android:divider="?ytSeparator" android:showDividers="middle">
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:paddingLeft="16.0dip" android:paddingRight="16.0dip" android:layout_width="fill_parent" android:layout_height="48.0dip">
+                <TextView android:textSize="@dimen/share_panel_title_font_size" android:textColor="#ff666666" android:gravity="start" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0" android:fontFamily="sans-serif" android:textAlignment="viewStart" />
+                <TextView android:textSize="@dimen/share_panel_button_font_size" android:textColor="#ff999999" android:gravity="start|center" android:id="@id/copy_url_button" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:drawableLeft="@drawable/ic_copy" android:drawableStart="@drawable/ic_copy" android:fontFamily="sans-serif" android:textAlignment="viewStart" />
+            </LinearLayout>
+            <android.support.v7.widget.RecyclerView android:id="@id/share_target_container" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        </LinearLayout>
+    </com.google.android.libraries.youtube.common.ui.TopPeekingScrollView>
+</FrameLayout>

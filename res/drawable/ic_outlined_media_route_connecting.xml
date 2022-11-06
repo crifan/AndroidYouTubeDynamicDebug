@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list android:oneshot="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:duration="500" android:drawable="@drawable/yt_outline_chromecast_animate_frame_1_white_24" />
+    <item android:duration="500" android:drawable="@drawable/yt_outline_chromecast_animate_frame_2_white_24" />
+    <item android:duration="500" android:drawable="@drawable/yt_outline_chromecast_animate_frame_3_white_24" />
+</animation-list>

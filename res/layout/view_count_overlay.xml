@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.libraries.youtube.common.ui.YouTubeTextView android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" yt:robotoFont="light" style="@style/StandaloneDurationBadgesOverlay"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:yt="http://schemas.android.com/apk/res-auto" />

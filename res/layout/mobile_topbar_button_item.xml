@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:yt="http://schemas.android.com/apk/res-auto">
+    <android.support.constraint.ConstraintLayout android:layout_width="@dimen/mobile_topbar_button_width" android:layout_height="@dimen/mobile_topbar_button_height">
+        <Space android:id="@id/badge_top_anchor" android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_marginBottom="@dimen/top_new_content_margin_bottom" yt:layout_constraintBottom_toBottomOf="@id/menu_item_view" yt:layout_constraintLeft_toLeftOf="parent" yt:layout_constraintRight_toRightOf="parent" />
+        <Space android:id="@id/badge_start_anchor" android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_marginEnd="@dimen/top_new_content_margin_end" yt:layout_constraintBottom_toBottomOf="parent" yt:layout_constraintEnd_toEndOf="@id/menu_item_view" yt:layout_constraintTop_toTopOf="parent" />
+        <ImageView android:id="@id/menu_item_view" android:background="?ytTouchFeedbackCircle" android:padding="@dimen/mobile_topbar_item_padding" android:layout_width="@dimen/mobile_topbar_button_width" android:layout_height="@dimen/mobile_topbar_button_height" android:scaleType="centerInside" android:contentDescription="@null" yt:layout_constraintBottom_toTopOf="parent" yt:layout_constraintEnd_toEndOf="parent" yt:layout_constraintStart_toStartOf="parent" yt:layout_constraintTop_toBottomOf="parent" />
+        <ViewStub android:id="@id/new_content_dot" android:layout="@layout/new_content_dot" android:inflatedId="@id/new_content_dot" android:layout_width="@dimen/new_content_dot_size" android:layout_height="@dimen/new_content_dot_size" yt:layout_constraintStart_toStartOf="@id/badge_start_anchor" yt:layout_constraintTop_toTopOf="@id/badge_top_anchor" />
+        <ViewStub android:id="@id/new_content_count" android:layout="@layout/new_content_count" android:inflatedId="@id/new_content_count" android:layout_width="wrap_content" android:layout_height="@dimen/new_content_count_size" yt:layout_constraintStart_toStartOf="@id/badge_start_anchor" yt:layout_constraintTop_toTopOf="@id/badge_top_anchor" />
+    </android.support.constraint.ConstraintLayout>
+</FrameLayout>

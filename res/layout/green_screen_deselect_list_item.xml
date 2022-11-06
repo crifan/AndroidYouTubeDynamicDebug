@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_gravity="center" android:id="@id/green_screen_media_item_thumbnail_container" android:layout_width="@dimen/green_screen_media_item_outline_size" android:layout_height="@dimen/green_screen_media_item_outline_size" android:layout_marginLeft="@dimen/green_screen_media_item_horizontal_margin" android:layout_marginRight="@dimen/green_screen_media_item_horizontal_margin" android:contentDescription="@string/shorts_a11y_green_screen_remove_button"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.apps.youtube.app.extensions.reel.creation.shorts.camera.GreenScreenMediaThumbnailContainer android:layout_gravity="center" android:id="@id/green_screen_media_thumbnail_container" android:layout_width="@dimen/green_screen_media_item_thumbnail_view_size" android:layout_height="@dimen/green_screen_media_item_thumbnail_view_size">
+        <FrameLayout android:layout_gravity="center" android:background="?ytGeneralBackgroundC" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <FrameLayout android:layout_gravity="center" android:background="@drawable/ic_green_screen_deselect" android:layout_width="@dimen/green_screen_non_media_item_icon_size" android:layout_height="@dimen/green_screen_non_media_item_icon_size" />
+    </com.google.android.apps.youtube.app.extensions.reel.creation.shorts.camera.GreenScreenMediaThumbnailContainer>
+    <FrameLayout android:layout_gravity="center" android:id="@id/green_screen_media_item_thumbnail_border" android:background="@drawable/green_screen_media_item_thumbnail_outline" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</FrameLayout>

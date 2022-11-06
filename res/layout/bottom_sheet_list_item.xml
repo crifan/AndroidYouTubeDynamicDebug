@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:paddingLeft="@dimen/default_content_padding" android:paddingRight="@dimen/default_content_padding" android:layout_width="fill_parent" android:layout_height="@dimen/bottom_sheet_list_item_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center" android:id="@id/list_item_icon_primary" android:layout_width="@dimen/bottom_sheet_list_icon_size" android:layout_height="@dimen/bottom_sheet_list_icon_size" />
+    <TextView android:gravity="start|center" android:layout_gravity="center_vertical" android:id="@id/list_item_text" android:paddingLeft="@dimen/bottom_sheet_list_text_padding" android:layout_width="wrap_content" android:layout_height="@dimen/bottom_sheet_list_item_height" android:layout_weight="1.0" android:textAlignment="viewStart" style="@style/BottomSheetListText" />
+    <ImageView android:layout_gravity="end|center" android:id="@id/list_item_icon_secondary" android:layout_width="@dimen/bottom_sheet_list_icon_size" android:layout_height="@dimen/bottom_sheet_list_icon_size" />
+</LinearLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/reel_player_end_page_container" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ProgressBar android:layout_gravity="center_horizontal" android:id="@id/reel_end_page_spinner_vertical" android:layout_width="@dimen/reel_end_page_spinner_size" android:layout_height="@dimen/reel_end_page_spinner_size" android:layout_marginTop="@dimen/reel_end_page_vert_margin" android:layout_marginBottom="@dimen/reel_end_page_vert_margin" android:indeterminate="true" android:contentDescription="@string/reel_accessibility_end_page_spinner" style="@style/ReelOverlayProgressBar" />
+    <TextView android:layout_gravity="center_horizontal" android:id="@id/reel_end_page_label_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/reel_end_page_vert_margin" android:layout_marginBottom="@dimen/reel_end_page_vert_margin" android:text="@string/reel_end_page_end_of_sequence" />
+</FrameLayout>

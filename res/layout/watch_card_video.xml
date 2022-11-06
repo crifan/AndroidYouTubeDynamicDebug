@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/video_layout" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:foreground="?selectableItemBackground"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:yt="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:paddingTop="3.0dip" android:paddingBottom="3.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="48.0dip" android:paddingStart="6.0dip" android:paddingEnd="6.0dip">
+        <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:textSize="@dimen/small_font_size" android:textColor="?ytTextDisabled" android:gravity="start" android:id="@id/index" android:visibility="gone" android:layout_width="26.0dip" android:layout_height="wrap_content" android:maxLines="1" android:textIsSelectable="false" android:paddingStart="6.0dip" yt:robotoFont="light" />
+        <ImageView android:id="@id/thumbnail" android:layout_width="81.0dip" android:layout_height="45.0dip" android:layout_margin="6.0dip" android:scaleType="centerCrop" />
+        <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:textSize="@dimen/small_font_size" android:textColor="?ytTextSecondary" android:ellipsize="end" android:id="@id/title" android:layout_width="0.0dip" android:layout_height="wrap_content" android:maxLines="1" android:layout_weight="1.0" android:textIsSelectable="false" android:paddingStart="6.0dip" android:paddingEnd="6.0dip" yt:robotoFont="regular" />
+        <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:textAppearance="?textAppearanceCaption" android:id="@id/duration" android:padding="4.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="8.0dip" android:maxLines="1" android:textIsSelectable="false" android:layout_marginEnd="8.0dip" yt:robotoFont="regular" />
+    </LinearLayout>
+</FrameLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/channel_creation_form" android:paddingLeft="@dimen/channel_creation_form_padding" android:paddingTop="@dimen/channel_creation_form_padding" android:paddingRight="@dimen/channel_creation_form_padding" android:paddingBottom="@dimen/channel_creation_form_padding" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minWidth="@dimen/channel_creation_min_width" android:minHeight="@dimen/channel_creation_min_height" android:paddingStart="@dimen/channel_creation_form_padding" android:paddingEnd="@dimen/channel_creation_form_padding"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:yt="http://schemas.android.com/apk/res-auto">
+    <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:textAppearance="?textAppearanceTitle" android:id="@id/title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="12.0dip" yt:robotoFont="medium" />
+    <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:textColor="?colorPrimary" android:id="@id/error_message" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="12.0dip" yt:robotoFont="regular" />
+    <include layout="@layout/channel_creation_with_google_plus_view" />
+    <include layout="@layout/channel_creation_no_identity_view" />
+    <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:textAppearance="?textAppearanceBody1" android:textColorLink="?colorPrimaryAlternate" android:id="@id/info" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:layout_marginBottom="12.0dip" yt:hyperlinksClickable="true" yt:robotoFont="regular" />
+    <include layout="@layout/ok_and_cancel_buttons_view" />
+</LinearLayout>

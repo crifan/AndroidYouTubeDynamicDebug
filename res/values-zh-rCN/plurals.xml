@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="accessibility_dislike_video_plural">
+        <item quantity="other">“踩”按钮，另有 %1$d 人踩了此视频</item>
+        <item quantity="one">“踩”按钮，另有 %1$d 人踩了此视频</item>
+    </plurals>
+    <plurals name="accessibility_dtts_fast_forward">
+        <item quantity="other">快进 %1$d 秒</item>
+        <item quantity="one">快进 %1$d 秒</item>
+    </plurals>
+    <plurals name="accessibility_dtts_rewind">
+        <item quantity="other">快退 %1$d 秒</item>
+        <item quantity="one">快退 %1$d 秒</item>
+    </plurals>
+    <plurals name="accessibility_duration_description_hours">
+        <item quantity="other">%d 小时</item>
+        <item quantity="one">%d 小时</item>
+    </plurals>
+    <plurals name="accessibility_duration_description_minutes">
+        <item quantity="other">%d 分钟</item>
+        <item quantity="one">%d 分钟</item>
+    </plurals>
+    <plurals name="accessibility_duration_description_seconds">
+        <item quantity="other">%d 秒</item>
+        <item quantity="one">%d 秒</item>
+    </plurals>
+    <plurals name="accessibility_like_video_plural">
+        <item quantity="other">“顶”按钮，另有 %1$d 人顶了此视频</item>
+        <item quantity="one">“顶”按钮，另有 %1$d 人顶了此视频</item>
+    </plurals>
+    <plurals name="accessibility_skip_ad_in">
+        <item quantity="other">%1$d 秒后可跳过广告</item>
+        <item quantity="one">1 秒后可跳过广告</item>
+    </plurals>
+    <plurals name="accessibility_undo_dislike_video_plural">
+        <item quantity="other">“撤消踩”按钮，另有 %1$d 人踩了此视频</item>
+        <item quantity="one">“撤消踩”按钮，另有 %1$d 人踩了此视频</item>
+    </plurals>
+    <plurals name="accessibility_undo_like_video_plural">
+        <item quantity="other">“撤消顶”按钮，另有 %1$d 人顶了此视频</item>
+        <item quantity="one">“撤消顶”按钮，另有 %1$d 人顶了此视频</item>
+    </plurals>
+    <plurals name="download_new_videos_button_text">
+        <item quantity="other">下载 %1$d 个新视频</item>
+        <item quantity="one">下载 %1$d 个新视频</item>
+    </plurals>
+    <plurals name="download_playlist_unplayable_future_days_plural">
+        <item quantity="other">%1$d 天后，若未订阅 Premium，部分视频将无法继续播放</item>
+        <item quantity="one">%1$d 天后，若未订阅 Premium，部分视频将无法继续播放</item>
+    </plurals>
+    <plurals name="download_playlist_unplayable_future_hours_plural">
+        <item quantity="other">%1$d 小时后，若未订阅 Premium，部分视频将无法继续播放</item>
+        <item quantity="one">%1$d 小时后，若未订阅 Premium，部分视频将无法继续播放</item>
+    </plurals>
+    <plurals name="download_playlist_unplayable_future_minutes_plural">
+        <item quantity="other">%1$d 分钟后，若未订阅 Premium，部分视频将无法继续播放</item>
+        <item quantity="one">%1$d 分钟后，若未订阅 Premium，部分视频将无法继续播放</item>
+    </plurals>
+    <plurals name="download_video_unplayable_future_days_plural">
+        <item quantity="other">需在 %1$d 天内订阅 Premium</item>
+        <item quantity="one">需在 %1$d 天内订阅 Premium</item>
+    </plurals>
+    <plurals name="download_video_unplayable_future_hours_plural">
+        <item quantity="other">需在 %1$d 小时内订阅 Premium</item>
+        <item quantity="one">需在 %1$d 小时内订阅 Premium</item>
+    </plurals>
+    <plurals name="download_video_unplayable_future_minutes_plural">
+        <item quantity="other">需在 %1$d 分钟内订阅 Premium</item>
+        <item quantity="one">需在 %1$d 分钟内订阅 Premium</item>
+    </plurals>
+    <plurals name="duration_minutes">
+        <item quantity="other">%1$d 分钟</item>
+        <item quantity="zero">0 分钟</item>
+        <item quantity="one">1 分钟</item>
+        <item quantity="two">2 分钟</item>
+        <item quantity="few">%1$d 分钟</item>
+        <item quantity="many">%1$d 分钟</item>
+    </plurals>
+    <plurals name="duration_seconds">
+        <item quantity="other">%1$d 秒</item>
+        <item quantity="zero">0 秒</item>
+        <item quantity="one">1 秒</item>
+        <item quantity="two">2 秒</item>
+        <item quantity="few">%1$d 秒</item>
+        <item quantity="many">%1$d 秒</item>
+    </plurals>
+    <plurals name="frequency_hours_component">
+        <item quantity="other">%1$d 小时</item>
+        <item quantity="one">%1$d 小时</item>
+    </plurals>
+    <plurals name="frequency_hours_only">
+        <item quantity="other">每 %1$d 小时</item>
+        <item quantity="one">每 1 小时</item>
+    </plurals>
+    <plurals name="frequency_minutes_component">
+        <item quantity="other">%1$d 分钟</item>
+        <item quantity="one">%1$d 分钟</item>
+    </plurals>
+    <plurals name="frequency_minutes_only">
+        <item quantity="other">每 %1$d 分钟</item>
+        <item quantity="one">每 1 分钟</item>
+    </plurals>
+    <plurals name="image_picker_title">
+        <item quantity="other">已选择 %1$d 张</item>
+        <item quantity="one">已选择 %1$d 张</item>
+    </plurals>
+    <plurals name="invalid_uploads_error_msg">
+        <item quantity="other">一个或多个视频文件不可用或无效，请重试或选择其他视频文件。</item>
+        <item quantity="one">此视频文件不可用或无效，请重试或选择其他视频文件。</item>
+    </plurals>
+    <plurals name="last_update_in_days_message">
+        <item quantity="other">%1$d 天前更新</item>
+        <item quantity="one">昨天更新</item>
+    </plurals>
+    <plurals name="last_update_in_hours_message">
+        <item quantity="other">%1$d 小时前更新</item>
+        <item quantity="one">%1$d 小时前更新</item>
+    </plurals>
+    <plurals name="last_update_in_minutes_message">
+        <item quantity="other">%1$d 分钟前更新</item>
+        <item quantity="one">%1$d 分钟前更新</item>
+    </plurals>
+    <plurals name="last_update_in_weeks_message">
+        <item quantity="other">%1$d 周前更新</item>
+        <item quantity="one">%1$d 周前更新</item>
+    </plurals>
+    <plurals name="notification_playlist_progress_size">
+        <item quantity="other">已下载 %1$d 个视频，共 %2$d 个</item>
+        <item quantity="one">已下载 %1$d 个视频，共 1 个</item>
+    </plurals>
+    <plurals name="offline_go_online_to_renew_dialog_message">
+        <item quantity="other">只要您的设备每 %1$d 天联网一次，下载内容就仍可播放。此过程会自动进行，并且不会重新下载视频。</item>
+        <item quantity="one">只要您的设备每天联网一次，下载内容就仍可播放。此过程会自动进行，并且不会重新下载视频。</item>
+    </plurals>
+    <plurals name="offline_go_online_to_renew_snackbar_message">
+        <item quantity="other">在不联网的情况下，下载内容可供播放 %1$d 天。</item>
+        <item quantity="one">在不联网的情况下，下载内容可供播放 1 天。</item>
+    </plurals>
+    <plurals name="offline_remember_setting_for_days">
+        <item quantity="other">记住我的设置 %1$d 天</item>
+        <item quantity="one">记住我的设置 1 天</item>
+    </plurals>
+    <plurals name="playlist_picker_dialog_done">
+        <item quantity="other">播放列表已更新</item>
+        <item quantity="one">播放列表已更新</item>
+    </plurals>
+    <plurals name="playlist_size">
+        <item quantity="other">%1$,d 个视频</item>
+        <item quantity="one">1 个视频</item>
+    </plurals>
+    <plurals name="playlist_size_downloaded">
+        <item quantity="other">已下载 %1$,d 个</item>
+        <item quantity="one">已下载 %1$,d 个</item>
+    </plurals>
+    <plurals name="playlist_size_total">
+        <item quantity="other">%1$,d 个视频</item>
+        <item quantity="one">1 个视频</item>
+    </plurals>
+    <plurals name="public_notification_text">
+        <item quantity="other">%1$d 条新通知</item>
+        <item quantity="one">你有 1 条通知</item>
+    </plurals>
+    <plurals name="quick_seek_x_second">
+        <item quantity="other">%d 秒</item>
+        <item quantity="one">%d 秒</item>
+    </plurals>
+    <plurals name="recommendation_count">
+        <item quantity="other">%1$d 次推荐</item>
+        <item quantity="one">1 次推荐</item>
+    </plurals>
+    <plurals name="rental_expiry_notice">
+        <item quantity="other">此视频开始播放后，您有 %1$d 小时的时间观看。</item>
+        <item quantity="one">此视频开始播放后，您有 1 小时的时间观看。</item>
+    </plurals>
+    <plurals name="rental_long_days_remaining">
+        <item quantity="other">%1$d 天后过期</item>
+        <item quantity="one">1 天后过期</item>
+    </plurals>
+    <plurals name="rental_long_hours_remaining">
+        <item quantity="other">%1$d 小时后过期</item>
+        <item quantity="one">1 小时后过期</item>
+    </plurals>
+    <plurals name="rental_long_weeks_remaining">
+        <item quantity="other">%1$d 周后过期</item>
+        <item quantity="one">1 周后过期</item>
+    </plurals>
+    <plurals name="rental_medium_days_remaining">
+        <item quantity="other">%1$d 天后到期</item>
+        <item quantity="one">1 天后到期</item>
+    </plurals>
+    <plurals name="rental_medium_hours_remaining">
+        <item quantity="other">%1$d 小时后到期</item>
+        <item quantity="one">1 小时后到期</item>
+    </plurals>
+    <plurals name="rental_medium_weeks_remaining">
+        <item quantity="other">%1$d 周后到期</item>
+        <item quantity="one">1 周后到期</item>
+    </plurals>
+    <plurals name="selected_video_count">
+        <item quantity="other">已选择 %1$d 个视频</item>
+        <item quantity="one">已选择 1 个视频</item>
+    </plurals>
+    <plurals name="shorts_a11y_duration_seconds">
+        <item quantity="other">%1$s 秒</item>
+        <item quantity="one">%1$s 秒</item>
+    </plurals>
+    <plurals name="shorts_a11y_timer_duration_seconds">
+        <item quantity="other">%1$d 秒定时器</item>
+        <item quantity="one">%1$d 秒定时器</item>
+    </plurals>
+    <plurals name="shorts_a11y_timer_started">
+        <item quantity="other">已启用 %1$d 秒定时器</item>
+        <item quantity="one">已启用 %1$d 秒定时器</item>
+    </plurals>
+    <plurals name="smart_downloads_future_update_text">
+        <item quantity="other">通过智能下载功能下载的内容会在 %1$d 天后自动更新</item>
+        <item quantity="one">通过智能下载功能下载的内容会在 1 天后自动更新</item>
+    </plurals>
+    <plurals name="sticker_dialog_title">
+        <item quantity="other">%1$d 天后才能再次使用</item>
+        <item quantity="one">1 天后才能再次使用</item>
+    </plurals>
+    <plurals name="too_many_external_uploads_error_msg">
+        <item quantity="other">您一次只能上传 %1$d 个视频。</item>
+        <item quantity="one">您一次只能上传 %1$d 个视频。</item>
+    </plurals>
+    <plurals name="transcoding_progress">
+        <item quantity="other">准备进度：%1$,d%%</item>
+        <item quantity="one">准备进度：%1$,d%%</item>
+    </plurals>
+    <plurals name="trim_segment_max_length">
+        <item quantity="other">最长 %1$d 秒</item>
+        <item quantity="one">最长 1 秒</item>
+    </plurals>
+    <plurals name="trim_switch_edu">
+        <item quantity="other">将视频剪辑为 %1$d 秒并添加音乐</item>
+        <item quantity="one">将视频剪辑为 1 秒并添加音乐</item>
+    </plurals>
+    <plurals name="trim_switch_edu_full_length_shorts">
+        <item quantity="other">将视频剪辑为不超过 %1$d 秒</item>
+        <item quantity="one">将视频剪辑为不超过 1 秒</item>
+    </plurals>
+    <plurals name="upload_hours_remaing">
+        <item quantity="other">大约还剩 %1$,d 小时</item>
+        <item quantity="one">大约还剩 %1$,d 小时</item>
+    </plurals>
+    <plurals name="upload_indicator_all_completed">
+        <item quantity="other">已上传 %d 个视频</item>
+        <item quantity="one">已上传视频</item>
+    </plurals>
+    <plurals name="upload_indicator_all_failed">
+        <item quantity="other">无法上传您的任何视频</item>
+        <item quantity="one">无法上传您的视频</item>
+    </plurals>
+    <plurals name="upload_indicator_all_uploading">
+        <item quantity="other">正在上传 %d 个视频</item>
+        <item quantity="one">正在上传视频</item>
+    </plurals>
+    <plurals name="upload_indicator_partial_fail">
+        <item quantity="other">%2$d 个视频中有 %1$d 个无法上传</item>
+        <item quantity="one">%2$d 个视频中有 %1$d 个无法上传</item>
+    </plurals>
+    <plurals name="upload_indicator_uploading_and_completed_completed_part">
+        <item quantity="other">%d 个已上传</item>
+        <item quantity="one">%d 个已上传</item>
+    </plurals>
+    <plurals name="upload_indicator_uploading_and_completed_uploading_part">
+        <item quantity="other">%d 个仍在上传</item>
+        <item quantity="one">%d 个仍在上传</item>
+    </plurals>
+    <plurals name="upload_minutes_remaing">
+        <item quantity="other">大约还剩 %1$,d 分钟</item>
+        <item quantity="one">大约还剩 %1$,d 分钟</item>
+    </plurals>
+    <plurals name="upload_notification_active_progress">
+        <item quantity="other">正在上传第 %1$d 个视频（共 %2$d 个）</item>
+        <item quantity="one">正在上传 1 个视频</item>
+    </plurals>
+    <plurals name="upload_progress">
+        <item quantity="other">已上传 %1$,d%%</item>
+        <item quantity="one">已上传 %1$,d%%</item>
+    </plurals>
+    <plurals name="upload_seconds_remaing">
+        <item quantity="other">大约还剩 %1$,d 秒</item>
+        <item quantity="one">大约还剩 %1$,d 秒</item>
+    </plurals>
+    <plurals name="uploads_failed">
+        <item quantity="other">%1$,d 个上传失败</item>
+        <item quantity="one">上传失败</item>
+    </plurals>
+    <plurals name="uploads_failed_with_in_progress_videos">
+        <item quantity="other">%2$,d 个中的 %1$,d 个上传失败</item>
+        <item quantity="one">%2$,d 个中的 %1$,d 个上传失败</item>
+    </plurals>
+    <plurals name="uploads_in_progress">
+        <item quantity="other">%1$,d 个正在上传</item>
+        <item quantity="one">%1$,d 个正在上传</item>
+    </plurals>
+    <plurals name="user_education_quick_seek">
+        <item quantity="other">在左侧或右侧点按两次即可跳过 %d 秒</item>
+        <item quantity="one">在左侧或右侧点按两次即可跳过 %d 秒</item>
+    </plurals>
+    <plurals name="video_count">
+        <item quantity="other">%1$d 个视频</item>
+        <item quantity="one">1 个视频</item>
+    </plurals>
+</resources>

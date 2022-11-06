@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_width="@dimen/camera_filter_preview_selected_thumbnail_size" android:layout_height="@dimen/camera_filter_preview_selected_thumbnail_size" android:layout_marginTop="@dimen/camera_filter_preview_item_top_margin" android:layout_marginStart="@dimen/edit_filter_preview_item_left_margin" android:layout_marginEnd="@dimen/edit_filter_preview_item_right_margin">
+        <com.google.android.libraries.youtube.edit.filters.ui.FilterThumbnailContainer android:layout_gravity="center" android:id="@id/filter_thumbnail_container" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <FrameLayout android:layout_gravity="center" android:id="@id/filter_thumbnail_background" android:background="?ytOverlayButtonInactive" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <ProgressBar android:layout_gravity="center" android:id="@id/filter_thumbnail_spinner" android:visibility="gone" android:layout_width="@dimen/edit_filter_preview_spinner_size" android:layout_height="@dimen/edit_filter_preview_spinner_size" style="@style/EditFilterLoadingSpinner" />
+            </FrameLayout>
+            <TextureView android:layout_gravity="center" android:id="@id/filter_thumbnail" android:layout_width="@dimen/camera_filter_preview_selected_thumbnail_size" android:layout_height="@dimen/camera_filter_preview_selected_thumbnail_size" />
+            <FrameLayout android:layout_gravity="center" android:id="@id/filter_thumbnail_border" android:background="@drawable/edit_choose_filter_thumbnail_outline" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        </com.google.android.libraries.youtube.edit.filters.ui.FilterThumbnailContainer>
+    </FrameLayout>
+    <RelativeLayout android:layout_gravity="bottom" android:layout_width="@dimen/camera_filter_preview_selected_thumbnail_size" android:layout_height="@dimen/edit_filter_preview_item_text_view_height">
+        <TextView android:textSize="@dimen/edit_filter_preview_item_text_size" android:textColor="?ytOverlayTextPrimary" android:ellipsize="end" android:id="@id/filter_text" android:paddingLeft="@dimen/edit_filter_preview_item_text_view_side_padding" android:paddingRight="@dimen/edit_filter_preview_item_text_view_side_padding" android:paddingBottom="@dimen/edit_filter_preview_item_text_view_bottom_padding" android:layout_width="wrap_content" android:layout_height="fill_parent" android:maxWidth="@dimen/edit_filter_preview_item_text_max_width" android:maxLines="1" android:layout_centerHorizontal="true" android:alpha="@dimen/edit_filter_text_unselected_alpha_value" />
+        <ImageView android:id="@id/new_content_dot" android:paddingBottom="@dimen/edit_filter_preview_item_dot_view_bottom_padding" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/dot" android:height="@dimen/camera_filter_preview_item_dot_dimension" android:width="@dimen/camera_filter_preview_item_dot_dimension" android:layout_toStartOf="@id/filter_text" />
+    </RelativeLayout>
+</LinearLayout>

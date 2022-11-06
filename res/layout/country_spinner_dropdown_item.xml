@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView android:textSize="@dimen/av_form_field_text_size" android:textColor="?ytTextPrimary" android:ellipsize="marquee" android:id="@id/country_name_dropdown" android:padding="@dimen/av_dropdown_selected_padding" android:layout_width="fill_parent" android:layout_height="?dropdownListPreferredItemHeight" android:maxLines="1" style="?android:spinnerDropDownItemStyle"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

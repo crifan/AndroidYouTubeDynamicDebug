@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="rectangle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="?ytTextPrimary" />
+    <corners android:radius="@dimen/music_progress_thumb_radius" />
+    <size android:height="@dimen/music_progress_thumb_height" android:width="@dimen/music_progress_thumb_width" />
+</shape>

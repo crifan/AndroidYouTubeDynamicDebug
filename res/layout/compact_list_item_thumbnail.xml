@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ViewStub android:layout_gravity="center_vertical" android:id="@id/cropped_square_avatar_view_stub" android:layout="@layout/cropped_square_avatar" android:layout_width="@dimen/list_heading_thumbnail_size" android:layout_height="@dimen/list_heading_thumbnail_size" android:layout_marginEnd="@dimen/start_end_padding" />
+    <ViewStub android:layout_gravity="center_vertical" android:id="@id/circular_avatar_view_stub" android:layout="@layout/circular_avatar" android:inflatedId="@id/circular_avatar" android:layout_width="@dimen/list_heading_thumbnail_size" android:layout_height="@dimen/list_heading_thumbnail_size" android:layout_marginEnd="@dimen/start_end_padding" />
+    <ViewStub android:layout_gravity="center_vertical" android:id="@id/square_avatar_view_stub" android:layout="@layout/square_avatar" android:inflatedId="@id/square_avatar" android:layout_width="@dimen/list_heading_thumbnail_size" android:layout_height="@dimen/list_heading_thumbnail_size" android:layout_marginEnd="@dimen/start_end_padding" />
+    <ViewStub android:layout_gravity="center_vertical" android:id="@id/icon_avatar_view_stub" android:layout="@layout/icon_avatar" android:inflatedId="@id/icon_avatar" android:layout_width="@dimen/list_heading_thumbnail_size" android:layout_height="@dimen/list_heading_thumbnail_size" android:layout_marginEnd="@dimen/start_end_padding" />
+</merge>

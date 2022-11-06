@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/overlay_content" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <TextView android:layout_gravity="end|center|top" android:id="@id/dismiss_button" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="24.0dip" android:layout_marginEnd="24.0dip" />
+</FrameLayout>

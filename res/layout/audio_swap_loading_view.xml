@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/audio_swap_loading_view" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:yt="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/audio_swap_error_indicator" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <LinearLayout android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ImageView android:paddingRight="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/alert_error" />
+            <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:textSize="@dimen/medium_font_size" android:textColor="@color/yt_grey3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/upload_edit_audio_swap_loading_error_text" yt:robotoFont="light" />
+        </LinearLayout>
+        <Button android:id="@id/audio_swap_retry_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="36.0dip" android:text="@string/yt_lib_common_retry" android:layout_centerInParent="true" />
+    </LinearLayout>
+    <ProgressBar android:id="@id/audio_swap_loading_indicator" android:layout_width="72.0dip" android:layout_height="72.0dip" android:layout_centerInParent="true" />
+</RelativeLayout>

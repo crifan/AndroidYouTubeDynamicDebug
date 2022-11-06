@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="?ytGeneralBackgroundA" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:yt="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/toolbar" layout="@layout/tool_bar" />
+    <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:textAppearance="?textAppearanceTitle" android:textColor="?ytTextPrimary" android:id="@id/playlist_title" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:textAlignment="viewStart" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" yt:robotoFont="regular" />
+    <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:textAppearance="?textAppearanceBody1" android:textColor="?ytTextSecondary" android:id="@id/description" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:textAlignment="viewStart" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" yt:hyperlinksClickable="true" />
+</LinearLayout>

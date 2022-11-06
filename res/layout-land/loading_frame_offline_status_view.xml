@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_gravity="center" android:scrollbars="none" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_horizontal" android:layout_gravity="center" android:orientation="horizontal" android:id="@id/watch_panel_error_offline_message" android:paddingLeft="36.0dip" android:paddingRight="36.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" xmlns:yt="http://schemas.android.com/apk/res-auto">
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/error_icon" android:layout_width="160.0dip" android:layout_height="160.0dip" android:adjustViewBounds="true" android:contentDescription="@null" />
+        <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="24.0dip">
+            <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:textSize="@dimen/extra_large_font_size" android:textColor="?ytTextPrimary" android:id="@id/error_message_text" android:layout_width="wrap_content" android:layout_height="wrap_content" yt:robotoFont="medium" />
+            <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:textSize="@dimen/medium_font_size" android:textColor="?ytTextSecondary" android:id="@id/error_sub_message_text" android:paddingTop="4.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" yt:robotoFont="regular" />
+            <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:textAppearance="?textAppearanceButton" android:layout_gravity="start" android:id="@id/link_button" android:paddingTop="@dimen/text_button_padding" android:paddingBottom="@dimen/text_button_padding" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:textAlignment="center" android:paddingStart="@dimen/text_button_start_end_padding" android:paddingEnd="@dimen/text_button_start_end_padding" />
+            <ViewStub android:layout_gravity="start" android:id="@id/secondary_retry_button_stub" android:layout="@layout/loading_frame_offline_retry_button" android:inflatedId="@id/secondary_retry_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" />
+            <ViewStub android:layout_gravity="start" android:id="@id/load_spinner_stub" android:layout="@layout/loading_frame_offline_load_spinner" android:inflatedId="@id/load_spinner" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3.0dip" />
+            <Button android:layout_gravity="center_horizontal" android:id="@id/error_retry_button" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="36.0dip" android:text="@string/yt_lib_common_retry" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

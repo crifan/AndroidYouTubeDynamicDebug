@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="pref_hide_controls_entries">
+        <item>@string/pref_hide_controls_entry_system_setting</item>
+        <item>@string/pref_hide_controls_entry_3s</item>
+        <item>@string/pref_hide_controls_entry_5s</item>
+        <item>@string/pref_hide_controls_entry_10s</item>
+        <item>@string/pref_hide_controls_entry_30s</item>
+        <item>@string/pref_hide_controls_entry_never</item>
+    </string-array>
+    <string-array name="pref_hide_controls_values">
+        <item>@string/pref_hide_controls_value_system_setting</item>
+        <item>@string/pref_hide_controls_value_3s</item>
+        <item>@string/pref_hide_controls_value_5s</item>
+        <item>@string/pref_hide_controls_value_10s</item>
+        <item>@string/pref_hide_controls_value_30s</item>
+        <item>@string/pref_hide_controls_value_never</item>
+    </string-array>
+</resources>

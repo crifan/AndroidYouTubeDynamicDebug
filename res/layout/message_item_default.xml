@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingTop="8.0dip" android:paddingBottom="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="16.0dip" android:paddingEnd="16.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:yt="http://schemas.android.com/apk/res-auto">
+    <android.support.v7.widget.AppCompatImageView android:layout_gravity="center" android:id="@id/message_icon" android:paddingBottom="12.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:tint="?ytIconInactive" android:contentDescription="@null" />
+    <android.support.v7.widget.AppCompatImageView android:layout_gravity="center" android:id="@id/message_thumbnail" android:paddingTop="24.0dip" android:paddingBottom="12.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="fitCenter" android:tint="?ytIconInactive" android:contentDescription="@null" />
+    <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:textSize="@dimen/medium_font_size" android:textColor="?ytTextPrimary" android:gravity="center" android:id="@id/message_text" android:layout_width="fill_parent" android:layout_height="wrap_content" yt:hyperlinksClickable="true" yt:robotoFont="regular" />
+    <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:textSize="@dimen/small_font_size" android:textColor="?ytTextSecondary" android:gravity="center" android:id="@id/message_subtext" android:paddingTop="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" yt:hyperlinksClickable="true" yt:robotoFont="regular" />
+    <FrameLayout android:layout_gravity="center" android:id="@id/message_button_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/start_end_padding" />
+</LinearLayout>

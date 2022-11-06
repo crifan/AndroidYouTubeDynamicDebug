@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_gravity="center" android:id="@id/reel_error_scrim" android:background="@color/yt_black_pure_opacity60" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ProgressBar android:layout_gravity="center" android:id="@id/reel_loading_spinner" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:indeterminate="true" android:contentDescription="@string/reel_accessibility_end_page_spinner" style="@style/ReelOverlayProgressBar" />
+    <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:id="@id/reel_error_group" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView android:layout_gravity="center_horizontal" android:id="@id/reel_error_icon" android:background="@drawable/reel_error_retry_background" android:padding="@dimen/reel_error_icon_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/reel_error_icon_margin_bottom" android:src="@drawable/quantum_ic_refresh_white_24" android:contentDescription="@string/reel_error_tap_to_retry" />
+        <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:textSize="@dimen/reel_primary_font_size" android:textColor="@color/yt_white1" android:layout_gravity="center_horizontal" android:id="@id/reel_error_message" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+</merge>

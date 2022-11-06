@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:yt="http://schemas.android.com/apk/res-auto">
+    <android.support.constraint.ConstraintLayout android:layout_gravity="bottom" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ViewStub android:id="@id/top_ui_controls_stub" android:layout="@layout/interactive_inline_muted_controls" android:inflatedId="@id/top_ui_controls" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/inline_top_ui_controls_horizontal_container_padding" android:layout_marginEnd="@dimen/inline_top_ui_controls_horizontal_container_padding" yt:layout_constraintEnd_toEndOf="parent" yt:layout_constraintTop_toTopOf="parent" />
+        <FrameLayout android:id="@id/subtitle" android:layout_width="0.0dip" android:layout_height="wrap_content" yt:layout_constraintBottom_toBottomOf="parent" yt:layout_constraintEnd_toStartOf="@id/status_bar" yt:layout_constraintStart_toStartOf="parent" />
+        <LinearLayout android:orientation="horizontal" android:id="@id/status_bar" android:layout_width="wrap_content" android:layout_height="@dimen/inline_muted_bottom_bar_height" yt:layout_constraintBottom_toBottomOf="parent" yt:layout_constraintEnd_toEndOf="parent">
+            <ImageView android:layout_gravity="end|bottom|center" android:id="@id/audio_indicator" android:visibility="gone" android:layout_width="@dimen/medium_icon_24dp" android:layout_height="@dimen/medium_icon_24dp" android:layout_marginBottom="9.0dip" android:contentDescription="@null" android:alpha="0.0" android:layout_marginEnd="6.0dip" />
+            <FrameLayout android:layout_gravity="end|bottom|center" android:id="@id/autoplay_loading_view_container" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="9.0dip" android:layout_marginEnd="8.0dip">
+                <ProgressBar android:id="@id/player_loading_view" android:visibility="gone" android:clickable="false" android:layout_width="@dimen/inline_muted_buffering_progress_size" android:layout_height="@dimen/inline_muted_buffering_progress_size" android:indeterminate="true" />
+            </FrameLayout>
+            <com.google.android.libraries.youtube.rendering.ui.badge.DurationBadgeView android:layout_gravity="end|bottom|center" android:id="@id/countdown_badge" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="4.0dip" yt:robotoFont="medium" style="@style/StandaloneDurationBadgesOverlay" />
+        </LinearLayout>
+    </android.support.constraint.ConstraintLayout>
+    <ViewStub android:id="@id/scrubbed_preview_extended" android:layout="@layout/youtube_scrubbed_preview_view" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</merge>

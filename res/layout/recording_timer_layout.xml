@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingLeft="@dimen/shorts_timer_dialog_border_padding" android:paddingRight="@dimen/shorts_timer_dialog_border_padding" android:paddingBottom="@dimen/shorts_timer_dialog_border_padding" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:text="@string/shorts_countdown_timer_countdown_label" style="@style/ShortsBottomSheetTextLabel" />
+    <com.google.android.libraries.youtube.edit.ui.SegmentedControl android:id="@id/countdown_duration_control" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/shorts_timer_dialog_vertical_padding" style="@style/SegmentedControlStyle" />
+    <TextView android:text="@string/shorts_countdown_timer_stop_point_label" style="@style/ShortsBottomSheetTextLabel" />
+    <com.google.android.libraries.youtube.edit.ui.DurationMsSeekBar android:id="@id/recording_duration_seek_bar" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/shorts_timer_dialog_vertical_padding" android:max="@dimen/shorts_timer_default_max_duration_millis" android:progress="@integer/shorts_timer_default_recording_length_millis" android:layoutDirection="ltr" android:paddingStart="0.0dip" android:paddingEnd="0.0dip" />
+    <Button android:theme="@style/ShortsBottomSheetActionButtonTheme" android:id="@id/start_button" android:layout_width="fill_parent" android:layout_height="@dimen/shorts_dialog_text_button_height" android:layout_marginTop="@dimen/shorts_timer_dialog_action_button_top_margin" android:text="@string/camera_timer_start_label" />
+</LinearLayout>

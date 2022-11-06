@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="accessibility_dislike_video_plural">
+        <item quantity="other">低評価ボタン（他 %1$d 人がこの動画を低く評価しました）</item>
+        <item quantity="one">低評価ボタン（他 %1$d 人がこの動画を低く評価しました）</item>
+    </plurals>
+    <plurals name="accessibility_dtts_fast_forward">
+        <item quantity="other">%1$d 秒早送り</item>
+        <item quantity="one">%1$d 秒早送り</item>
+    </plurals>
+    <plurals name="accessibility_dtts_rewind">
+        <item quantity="other">%1$d 秒巻き戻し</item>
+        <item quantity="one">%1$d 秒巻き戻し</item>
+    </plurals>
+    <plurals name="accessibility_duration_description_hours">
+        <item quantity="other">%d 時間</item>
+        <item quantity="one">%d 時間</item>
+    </plurals>
+    <plurals name="accessibility_duration_description_minutes">
+        <item quantity="other">%d 分</item>
+        <item quantity="one">%d 分</item>
+    </plurals>
+    <plurals name="accessibility_duration_description_seconds">
+        <item quantity="other">%d 秒</item>
+        <item quantity="one">%d 秒</item>
+    </plurals>
+    <plurals name="accessibility_like_video_plural">
+        <item quantity="other">高評価ボタン（他 %1$d 人がこの動画を高く評価しました）</item>
+        <item quantity="one">高評価ボタン（他 %1$d 人がこの動画を高く評価しました）</item>
+    </plurals>
+    <plurals name="accessibility_skip_ad_in">
+        <item quantity="other">広告は %1$d 秒後にスキップできます</item>
+        <item quantity="one">広告は 1 秒後にスキップできます</item>
+    </plurals>
+    <plurals name="accessibility_undo_dislike_video_plural">
+        <item quantity="other">低評価の取り消しボタン（他 %1$d 人がこの動画を低く評価しました）</item>
+        <item quantity="one">低評価の取り消しボタン（他 %1$d 人がこの動画を低く評価しました）</item>
+    </plurals>
+    <plurals name="accessibility_undo_like_video_plural">
+        <item quantity="other">高評価の取り消しボタン（他 %1$d 人がこの動画を高く評価しました）</item>
+        <item quantity="one">高評価の取り消しボタン（他 %1$d 人がこの動画を高く評価しました）</item>
+    </plurals>
+    <plurals name="download_new_videos_button_text">
+        <item quantity="other">%1$d 本の新しい動画をオフラインに保存</item>
+        <item quantity="one">%1$d 本の新しい動画をオフラインに保存</item>
+    </plurals>
+    <plurals name="download_playlist_unplayable_future_days_plural">
+        <item quantity="other">一部の動画を見るには、あと %1$d 日で Premium が必要になります</item>
+        <item quantity="one">一部の動画を見るには、あと %1$d 日で Premium が必要になります</item>
+    </plurals>
+    <plurals name="download_playlist_unplayable_future_hours_plural">
+        <item quantity="other">一部の動画を見るには、あと %1$d 時間で Premium が必要になります</item>
+        <item quantity="one">一部の動画を見るには、あと %1$d 時間で Premium が必要になります</item>
+    </plurals>
+    <plurals name="download_playlist_unplayable_future_minutes_plural">
+        <item quantity="other">一部の動画を見るには、あと %1$d 分で Premium が必要になります</item>
+        <item quantity="one">一部の動画を見るには、あと %1$d 分で Premium が必要になります</item>
+    </plurals>
+    <plurals name="download_video_unplayable_future_days_plural">
+        <item quantity="other">見られるのはあと %1$d 日です。それ以降は Premium が必要です</item>
+        <item quantity="one">見られるのはあと %1$d 日です。それ以降は Premium が必要です</item>
+    </plurals>
+    <plurals name="download_video_unplayable_future_hours_plural">
+        <item quantity="other">見られるのはあと %1$d 時間です。それ以降は Premium が必要です</item>
+        <item quantity="one">見られるのはあと %1$d 時間です。それ以降は Premium が必要です</item>
+    </plurals>
+    <plurals name="download_video_unplayable_future_minutes_plural">
+        <item quantity="other">見られるのはあと %1$d 分です。それ以降は Premium が必要です</item>
+        <item quantity="one">見られるのはあと %1$d 分です。それ以降は Premium が必要です</item>
+    </plurals>
+    <plurals name="duration_minutes">
+        <item quantity="other">%1$d 分</item>
+        <item quantity="zero">0 分</item>
+        <item quantity="one">1 分</item>
+        <item quantity="two">2 分</item>
+        <item quantity="few">%1$d 分</item>
+        <item quantity="many">%1$d 分</item>
+    </plurals>
+    <plurals name="duration_seconds">
+        <item quantity="other">%1$d 秒</item>
+        <item quantity="zero">0 秒</item>
+        <item quantity="one">1 秒</item>
+        <item quantity="two">2 秒</item>
+        <item quantity="few">%1$d 秒</item>
+        <item quantity="many">%1$d 秒</item>
+    </plurals>
+    <plurals name="frequency_hours_component">
+        <item quantity="other">%1$d時間</item>
+        <item quantity="one">%1$d時間</item>
+    </plurals>
+    <plurals name="frequency_hours_only">
+        <item quantity="other">%1$d 時間間隔</item>
+        <item quantity="one">1 時間間隔</item>
+    </plurals>
+    <plurals name="frequency_minutes_component">
+        <item quantity="other">%1$d分</item>
+        <item quantity="one">%1$d分</item>
+    </plurals>
+    <plurals name="frequency_minutes_only">
+        <item quantity="other">%1$d 分間隔</item>
+        <item quantity="one">1 分間隔</item>
+    </plurals>
+    <plurals name="image_picker_title">
+        <item quantity="other">%1$d 件選択</item>
+        <item quantity="one">%1$d 件選択</item>
+    </plurals>
+    <plurals name="invalid_uploads_error_msg">
+        <item quantity="other">1 つ以上の動画ファイルが利用できないか無効です。もう一度お試しいただくか、別の動画ファイルを選択してください。</item>
+        <item quantity="one">この動画ファイルは利用できないか無効です。もう一度お試しいただくか、別の動画ファイルを選択してください。</item>
+    </plurals>
+    <plurals name="last_update_in_days_message">
+        <item quantity="other">%1$d 日前に更新</item>
+        <item quantity="one">昨日更新</item>
+    </plurals>
+    <plurals name="last_update_in_hours_message">
+        <item quantity="other">%1$d 時間前に更新</item>
+        <item quantity="one">%1$d 時間前に更新</item>
+    </plurals>
+    <plurals name="last_update_in_minutes_message">
+        <item quantity="other">%1$d 分前に更新</item>
+        <item quantity="one">%1$d 分前に更新</item>
+    </plurals>
+    <plurals name="last_update_in_weeks_message">
+        <item quantity="other">%1$d 週間前に更新</item>
+        <item quantity="one">%1$d 週間前に更新</item>
+    </plurals>
+    <plurals name="notification_playlist_progress_size">
+        <item quantity="other">%1$d/%2$d 本の動画</item>
+        <item quantity="one">1/%1$d 本の動画</item>
+    </plurals>
+    <plurals name="offline_go_online_to_renew_dialog_message">
+        <item quantity="other">デバイスを %1$d 日ごとにインターネットに接続すれば、一時保存済み動画を継続して視聴できます。この処理は自動的に行われ、動画が再度一時保存されることはありません。</item>
+        <item quantity="one">デバイスを毎日インターネットに接続すれば、一時保存済み動画を継続して視聴できます。この処理は自動的に行われ、動画が再度一時保存されることはありません。</item>
+    </plurals>
+    <plurals name="offline_go_online_to_renew_snackbar_message">
+        <item quantity="other">オフライン動画は、インターネット接続がなくても %1$d 日間は視聴できます。</item>
+        <item quantity="one">オフライン動画は、インターネット接続がなくても 24 時間は視聴できます。</item>
+    </plurals>
+    <plurals name="offline_remember_setting_for_days">
+        <item quantity="other">この設定を %1$d 日間保持する</item>
+        <item quantity="one">この設定を 1 日間保持する</item>
+    </plurals>
+    <plurals name="playlist_picker_dialog_done">
+        <item quantity="other">再生リストを更新しました</item>
+        <item quantity="one">再生リストを更新しました</item>
+    </plurals>
+    <plurals name="playlist_size">
+        <item quantity="other">%1$,d 本の動画</item>
+        <item quantity="one">1 本の動画</item>
+    </plurals>
+    <plurals name="playlist_size_downloaded">
+        <item quantity="other">%1$,d 本を一時保存済み</item>
+        <item quantity="one">%1$,d 本を一時保存済み</item>
+    </plurals>
+    <plurals name="playlist_size_total">
+        <item quantity="other">%1$,d 本の動画</item>
+        <item quantity="one">1 本の動画</item>
+    </plurals>
+    <plurals name="public_notification_text">
+        <item quantity="other">%1$d 件の新しいお知らせがあります</item>
+        <item quantity="one">1 件のお知らせがあります</item>
+    </plurals>
+    <plurals name="quick_seek_x_second">
+        <item quantity="other">%d秒</item>
+        <item quantity="one">%d秒</item>
+    </plurals>
+    <plurals name="recommendation_count">
+        <item quantity="other">%1$d 件のおすすめ</item>
+        <item quantity="one">1 件のおすすめ</item>
+    </plurals>
+    <plurals name="rental_expiry_notice">
+        <item quantity="other">この動画を視聴できるのは、視聴を開始してから %1$d 時間だけです。</item>
+        <item quantity="one">この動画を視聴できるのは、視聴を開始してから 1 時間だけです。</item>
+    </plurals>
+    <plurals name="rental_long_days_remaining">
+        <item quantity="other">あと %1$d 日で期限切れ</item>
+        <item quantity="one">あと 1 日で期限切れ</item>
+    </plurals>
+    <plurals name="rental_long_hours_remaining">
+        <item quantity="other">あと %1$d 時間で期限切れ</item>
+        <item quantity="one">あと 1 時間で期限切れ</item>
+    </plurals>
+    <plurals name="rental_long_weeks_remaining">
+        <item quantity="other">あと %1$d 週間で期限切れ</item>
+        <item quantity="one">あと 1 週間で期限切れ</item>
+    </plurals>
+    <plurals name="rental_medium_days_remaining">
+        <item quantity="other">期限: 残り %1$d 日</item>
+        <item quantity="one">期限: 残り 1 日</item>
+    </plurals>
+    <plurals name="rental_medium_hours_remaining">
+        <item quantity="other">期限: 残り %1$d 時間</item>
+        <item quantity="one">期限: 残り 1 時間</item>
+    </plurals>
+    <plurals name="rental_medium_weeks_remaining">
+        <item quantity="other">期限: 残り %1$d 週間</item>
+        <item quantity="one">期限: 残り 1 週間</item>
+    </plurals>
+    <plurals name="selected_video_count">
+        <item quantity="other">%1$d 本の動画を選択しました</item>
+        <item quantity="one">1 本の動画を選択しました</item>
+    </plurals>
+    <plurals name="shorts_a11y_duration_seconds">
+        <item quantity="other">%1$s 秒</item>
+        <item quantity="one">%1$s 秒</item>
+    </plurals>
+    <plurals name="shorts_a11y_timer_duration_seconds">
+        <item quantity="other">%1$d 秒タイマー</item>
+        <item quantity="one">%1$d 秒タイマー</item>
+    </plurals>
+    <plurals name="shorts_a11y_timer_started">
+        <item quantity="other">%1$d 秒のタイマーを開始しました</item>
+        <item quantity="one">%1$d 秒のタイマーを開始しました</item>
+    </plurals>
+    <plurals name="smart_downloads_future_update_text">
+        <item quantity="other">スマート一時保存は %1$d 日後に自動更新されます</item>
+        <item quantity="one">スマート一時保存は 1 日後に自動更新されます</item>
+    </plurals>
+    <plurals name="sticker_dialog_title">
+        <item quantity="other">%1$d 日後に使用できます</item>
+        <item quantity="one">1 日後に使用できます</item>
+    </plurals>
+    <plurals name="too_many_external_uploads_error_msg">
+        <item quantity="other">一度にアップロードできる動画は %1$d 本までです。</item>
+        <item quantity="one">一度にアップロードできる動画は %1$d 本です。</item>
+    </plurals>
+    <plurals name="transcoding_progress">
+        <item quantity="other">準備しています（%1$,d%% 完了）</item>
+        <item quantity="one">準備しています（%1$,d%% 完了）</item>
+    </plurals>
+    <plurals name="trim_segment_max_length">
+        <item quantity="other">最大 %1$d 秒</item>
+        <item quantity="one">最大 1 秒</item>
+    </plurals>
+    <plurals name="trim_switch_edu">
+        <item quantity="other">動画を %1$d 秒の長さカットして音楽を追加する</item>
+        <item quantity="one">動画 1 秒の長さにカットして音楽を追加する</item>
+    </plurals>
+    <plurals name="trim_switch_edu_full_length_shorts">
+        <item quantity="other">動画を %1$d 秒未満にカットします</item>
+        <item quantity="one">動画を 1 秒未満にカットします</item>
+    </plurals>
+    <plurals name="upload_hours_remaing">
+        <item quantity="other">残り約 %1$,d 時間</item>
+        <item quantity="one">残り約 %1$,d 時間</item>
+    </plurals>
+    <plurals name="upload_indicator_all_completed">
+        <item quantity="other">%d 本の動画をアップロードしました</item>
+        <item quantity="one">動画をアップロードしました</item>
+    </plurals>
+    <plurals name="upload_indicator_all_failed">
+        <item quantity="other">どの動画もアップロードできませんでした</item>
+        <item quantity="one">動画をアップロードできませんでした</item>
+    </plurals>
+    <plurals name="upload_indicator_all_uploading">
+        <item quantity="other">%d 本の動画をアップロードしています</item>
+        <item quantity="one">動画をアップロードしています</item>
+    </plurals>
+    <plurals name="upload_indicator_partial_fail">
+        <item quantity="other">%2$d 本の動画のうち %1$d 本をアップロードできませんでした</item>
+        <item quantity="one">%2$d 本の動画のうち %1$d 本をアップロードできませんでした</item>
+    </plurals>
+    <plurals name="upload_indicator_uploading_and_completed_completed_part">
+        <item quantity="other">%d 本をアップロードしました</item>
+        <item quantity="one">%d 本をアップロードしました</item>
+    </plurals>
+    <plurals name="upload_indicator_uploading_and_completed_uploading_part">
+        <item quantity="other">%d 本をアップロードしています</item>
+        <item quantity="one">%d 本をアップロードしています</item>
+    </plurals>
+    <plurals name="upload_minutes_remaing">
+        <item quantity="other">残り約 %1$,d 分</item>
+        <item quantity="one">残り約 %1$,d 分</item>
+    </plurals>
+    <plurals name="upload_notification_active_progress">
+        <item quantity="other">動画をアップロードしています（%1$d/%2$d）</item>
+        <item quantity="one">1 本の動画をアップロードしています</item>
+    </plurals>
+    <plurals name="upload_progress">
+        <item quantity="other">%1$,d%% アップロードしました</item>
+        <item quantity="one">%1$,d%% アップロードしました</item>
+    </plurals>
+    <plurals name="upload_seconds_remaing">
+        <item quantity="other">残り約 %1$,d 秒</item>
+        <item quantity="one">残り約 %1$,d 秒</item>
+    </plurals>
+    <plurals name="uploads_failed">
+        <item quantity="other">%1$,d 本のアップロードに失敗しました</item>
+        <item quantity="one">アップロードに失敗しました</item>
+    </plurals>
+    <plurals name="uploads_failed_with_in_progress_videos">
+        <item quantity="other">%2$,d 本中 %1$,d 本のアップロードに失敗しました</item>
+        <item quantity="one">%2$,d 本中 %1$,d 本のアップロードに失敗しました</item>
+    </plurals>
+    <plurals name="uploads_in_progress">
+        <item quantity="other">%1$,d 本アップロードしています</item>
+        <item quantity="one">%1$,d 本アップロードしています</item>
+    </plurals>
+    <plurals name="user_education_quick_seek">
+        <item quantity="other">左右をダブルタップすると前後に %d 秒スキップできます</item>
+        <item quantity="one">左右をダブルタップすると前後に %d 秒スキップできます</item>
+    </plurals>
+    <plurals name="video_count">
+        <item quantity="other">%1$d 本の動画</item>
+        <item quantity="one">1 本の動画</item>
+    </plurals>
+</resources>

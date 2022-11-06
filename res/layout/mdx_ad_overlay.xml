@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/ad_title_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginTop="3.0dip" android:layout_marginRight="@dimen/controls_overlay_top_right_buttons_width" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" android:layout_marginStart="20.0dip" android:layout_marginEnd="@dimen/controls_overlay_top_right_buttons_width" android:layout_alignParentStart="true">
+        <ViewStub android:layout_gravity="start|center" android:id="@id/thumbnail" android:layout_width="32.0dip" android:layout_height="32.0dip" android:layout_marginLeft="40.0dip" android:layout_marginTop="4.0dip" android:layout_marginBottom="4.0dip" android:adjustViewBounds="true" android:contentDescription="@null" android:layout_marginStart="40.0dip" />
+        <TextView android:textSize="20.0sp" android:textColor="@color/yt_grey1" android:ellipsize="end" android:layout_gravity="start|center" android:id="@id/title" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="18.0dip" android:maxLines="1" android:shadowColor="#7f000000" android:shadowDx="2.0" android:shadowDy="2.0" android:shadowRadius="1.0" android:layout_weight="1.0" android:layout_marginStart="18.0dip" />
+    </LinearLayout>
+    <LinearLayout android:id="@id/ad_text_and_ad_choices_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true">
+        <include android:id="@id/ad_badge" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_marginBottom="9.0dip" layout="@layout/ad_badge_extra_small" />
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/ad_choices" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="2.0dip" android:layout_marginBottom="4.0dip" android:src="@drawable/ad_choices_instream_icon" />
+    </LinearLayout>
+</RelativeLayout>

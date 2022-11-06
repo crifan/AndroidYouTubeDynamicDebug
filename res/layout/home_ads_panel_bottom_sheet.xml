@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/home_ads_bottom_sheet_container" android:background="@drawable/bottom_sheet_shape" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center|top" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:src="@drawable/engagement_panel_drag_handle" android:contentDescription="@string/accessibility_drag_handle" />
+    <FrameLayout android:id="@id/home_ads_content" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</LinearLayout>

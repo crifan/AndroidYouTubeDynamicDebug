@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="?selectableItemBackgroundBorderless" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/channel_info" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.google.android.libraries.youtube.common.ui.CircularImageView android:id="@id/channel_avatar" android:padding="@dimen/channel_list_sub_menu_stroke_width" android:layout_width="@dimen/channel_list_sub_menu_small_avatar_size" android:layout_height="@dimen/channel_list_sub_menu_small_avatar_size" android:scaleType="centerInside" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" android:importantForAccessibility="no" />
+        <View android:id="@id/channel_status" android:background="?channelListSubMenuAvatarStatus" android:layout_width="@dimen/channel_list_sub_menu_status_width" android:layout_height="@dimen/channel_list_sub_menu_status_width" android:layout_alignBottom="@id/channel_avatar" android:layout_alignEnd="@id/channel_avatar" />
+        <TextView android:textAppearance="?textAppearanceCaption" android:textColor="?ytTextSecondary" android:ellipsize="end" android:id="@id/channel_avatar_title" android:layout_width="@dimen/channel_list_sub_menu_title_text_width" android:layout_height="wrap_content" android:layout_marginTop="@dimen/channel_list_sub_menu_title_top_margin" android:layout_marginBottom="@dimen/channel_list_sub_menu_title_bottom_margin" android:maxLines="1" android:lines="1" android:includeFontPadding="false" android:layout_below="@id/channel_avatar" android:layout_centerHorizontal="true" android:textAlignment="center" />
+    </RelativeLayout>
+</FrameLayout>

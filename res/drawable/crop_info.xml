@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:layout_width="wrap_content" android:layout_height="wrap_content" android:shape="rectangle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@color/crop_info_chip" />
+    <stroke android:width="@dimen/chip_border_width" android:color="?yt10PercentLayer" />
+    <corners android:radius="@dimen/crop_info_corner_radius" />
+    <padding android:left="@dimen/chip_padding_left" android:top="@dimen/chip_padding_top" android:right="@dimen/chip_padding_right" android:bottom="@dimen/chip_padding_bottom" />
+</shape>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="sud_glif_footer_padding_end">28.0dip</dimen>
+    <dimen name="sud_glif_footer_padding_start">16.0dip</dimen>
+    <dimen name="sud_glif_margin_end">32.0dip</dimen>
+    <dimen name="sud_glif_margin_start">32.0dip</dimen>
+</resources>

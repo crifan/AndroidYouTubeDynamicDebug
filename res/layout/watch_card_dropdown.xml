@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingBottom="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="16.0dip" android:paddingEnd="16.0dip">
+        <Spinner android:layout_gravity="center_vertical" android:id="@id/dropdown_spinner" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/UwcDropdownSpinner" />
+        <Space android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+        <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:textAppearance="?textAppearanceSubhead" android:textSize="16.0sp" android:gravity="center" android:id="@id/subtitles" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+    </LinearLayout>
+    <View android:background="?yt10PercentLayer" android:layout_width="fill_parent" android:layout_height="@dimen/line_separator_height" android:layout_marginStart="@dimen/watch_card_margin_horizontal" android:layout_marginEnd="@dimen/watch_card_margin_horizontal" />
+</LinearLayout>

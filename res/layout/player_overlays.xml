@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.apps.youtube.app.common.player.overlay.YouTubePlayerOverlaysLayout android:id="@id/player_overlays" android:layout_width="fill_parent" android:layout_height="fill_parent" android:contentDescription="@string/accessibility_player"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/player_overlays_custom_views_container" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</com.google.android.apps.youtube.app.common.player.overlay.YouTubePlayerOverlaysLayout>

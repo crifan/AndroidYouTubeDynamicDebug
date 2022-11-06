@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/other_item" android:background="?selectableItemBackground" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="@dimen/live_chat_context_menu_bottom_sheet_min_height">
+        <ImageButton android:layout_gravity="center_vertical" android:id="@id/icon" android:background="@android:color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/live_chat_context_menu_bottom_sheet_vertical_padding" android:layout_marginBottom="@dimen/live_chat_context_menu_bottom_sheet_vertical_padding" android:contentDescription="@null" android:layout_marginStart="@dimen/live_chat_context_menu_bottom_sheet_horizontal_padding" />
+        <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:textColor="?ytTextSecondary" android:layout_gravity="center_vertical" android:id="@id/label" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/live_chat_context_menu_bottom_sheet_vertical_padding" android:layout_marginBottom="@dimen/live_chat_context_menu_bottom_sheet_vertical_padding" android:textDirection="locale" android:layout_marginStart="@dimen/live_chat_context_menu_bottom_sheet_horizontal_padding" android:layout_marginEnd="@dimen/live_chat_context_menu_bottom_sheet_horizontal_padding" />
+    </LinearLayout>
+    <View android:layout_gravity="bottom" android:id="@id/separator" android:background="?ytSeparator" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+</LinearLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:bottom="@dimen/shorts_camera_compact_toolbar_button_spacing">
+        <shape android:shape="rectangle">
+            <corners android:radius="@dimen/shorts_camera_compact_toolbar_corner_radius" />
+            <solid android:color="?ytOverlayBackgroundMediumLight" />
+        </shape>
+    </item>
+</layer-list>

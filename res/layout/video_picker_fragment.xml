@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:id="@id/video_picker_coordinator_layout" android:background="?ytBrandBackgroundSolid" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:yt="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <android.support.constraint.ConstraintLayout android:id="@id/tabs_constraint_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:textSize="@dimen/sticker_catalog_title_text_size" android:textColor="?ytTextPrimary" android:gravity="center_vertical" android:id="@id/video_picker_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/tab_title_margin_start" yt:layout_constraintBottom_toBottomOf="@id/video_picker_exit" yt:layout_constraintStart_toStartOf="parent" yt:layout_constraintTop_toTopOf="@id/video_picker_exit" yt:robotoFont="medium" />
+            <ImageView android:id="@id/video_picker_exit" android:background="?selectableItemBackgroundBorderless" android:padding="@dimen/sticker_catalog_close_button_margin" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/quantum_ic_close_white_24" android:tint="?ytIcon1" android:layout_centerVertical="true" android:contentDescription="@string/reel_accessibility_close_activity" yt:layout_constraintEnd_toEndOf="parent" yt:layout_constraintTop_toTopOf="parent" />
+            <com.google.android.apps.youtube.app.common.ui.actionbar.AppTabsBar android:id="@id/tabs_bar" android:layout_width="fill_parent" android:layout_height="?actionBarSize" android:minWidth="300.0dip" yt:layout_constraintEnd_toEndOf="parent" yt:layout_constraintStart_toStartOf="parent" yt:layout_constraintTop_toBottomOf="@id/video_picker_exit" yt:tab_content_color="?ytTextPrimary" yt:tab_highlight_color="?ytTextPrimary" yt:tab_scroll_margin="@dimen/tab_header_height" />
+        </android.support.constraint.ConstraintLayout>
+        <com.google.android.libraries.youtube.rendering.ui.widget.loadingframe.LoadingFrameLayout android:id="@id/video_picker_loading_layout" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <com.google.android.libraries.youtube.common.ui.RtlAwareViewPager android:id="@id/view_pager" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        </com.google.android.libraries.youtube.rendering.ui.widget.loadingframe.LoadingFrameLayout>
+    </LinearLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

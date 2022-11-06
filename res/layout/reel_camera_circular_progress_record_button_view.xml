@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/reel_record_button_view_container" android:focusable="true" android:layout_width="@dimen/reel_circular_progress_camera_record_button_view_width" android:layout_height="@dimen/reel_circular_progress_camera_record_button_view_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ProgressBar android:layout_gravity="center" android:id="@id/reel_camera_circle_time_limit_progress_bar" android:layout_width="@dimen/reel_circular_progress_camera_record_button_outer_white_ring_width" android:layout_height="@dimen/reel_circular_progress_camera_record_button_outer_white_ring_height" android:layout_marginTop="@dimen/reel_camera_time_limit_progress_bar_margin_top" android:max="@integer/reel_camera_time_progress_bar_max" android:progress="0" android:progressDrawable="@drawable/reel_circular_progress_bar_drawables" android:rotation="-90.0" android:layoutDirection="ltr" style="?android:progressBarStyleHorizontal" />
+    <FrameLayout android:layout_gravity="center" android:id="@id/reel_camera_record_button_touch_area" android:layout_width="@dimen/reel_camera_record_button_touch_area_width_v2" android:layout_height="@dimen/reel_camera_record_button_touch_area_height_v2" android:contentDescription="@string/reel_camera_start_record">
+        <ImageView android:layout_gravity="center" android:id="@id/reel_camera_record_button" android:background="@drawable/reel_camera_record_button_v2_inner_drawables" android:layout_width="@dimen/reel_camera_record_button_layout_width_v2" android:layout_height="@dimen/reel_camera_record_button_layout_height_v2" android:importantForAccessibility="no" style="@style/ReelElevationStyle" />
+    </FrameLayout>
+</FrameLayout>

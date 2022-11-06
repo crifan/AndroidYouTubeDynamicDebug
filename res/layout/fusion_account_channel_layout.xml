@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:textColor="?ytTextSecondary" android:gravity="center_vertical" android:id="@id/channel" android:background="?selectableItemBackground" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="48.0dip" android:textAlignment="viewStart" android:paddingStart="24.0dip" android:paddingEnd="24.0dip" style="?textAppearanceSubhead" />
+</LinearLayout>

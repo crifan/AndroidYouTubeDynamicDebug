@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/reel_player_survey_background" android:layout_width="fill_parent" android:layout_height="fill_parent" android:contentDescription="@string/reel_accessibility_survey_page" android:layoutDirection="locale"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="start|center|top" android:id="@id/reel_back_button" android:background="@drawable/reel_circular_button_background" android:padding="@dimen/reel_close_button_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/quantum_ic_arrow_back_white_24" android:layout_alignParentTop="true" android:contentDescription="@string/reel_accessibility_player_back_button" android:layout_alignParentStart="true" />
+    <FrameLayout android:id="@id/reel_watch_survey_element_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerInParent="true" android:importantForAccessibility="no" />
+</RelativeLayout>

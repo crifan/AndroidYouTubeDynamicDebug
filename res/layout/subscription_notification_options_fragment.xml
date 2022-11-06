@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent" android:fadeScrollbars="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <android.support.v7.widget.RecyclerView android:id="@id/options_list" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_marginBottom="10.0dip" />
+        <View android:id="@id/divider" android:background="@color/yt_grey1" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginStart="@dimen/subscription_notification_dialog_padding" android:layout_marginEnd="@dimen/subscription_notification_dialog_padding" />
+        <android.support.v7.widget.RecyclerView android:id="@id/secondary_options_list" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+</ScrollView>

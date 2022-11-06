@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingEnd="@dimen/start_end_padding"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:yt="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/follow_up_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/start_end_padding">
+        <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:textAppearance="?textAppearanceSubhead" android:textColor="?ytCallToAction" android:id="@id/follow_up_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/slight_start_end_padding" yt:robotoFont="medium" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/slight_start_end_padding" android:layout_marginBottom="@dimen/slight_start_end_padding">
+            <LinearLayout android:layout_gravity="center_vertical" android:orientation="horizontal" android:id="@id/mini_star_container" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="@dimen/mini_star_container_end_margin" />
+            <TextView android:textSize="12.0sp" android:textColor="?ytCallToAction" android:layout_gravity="center_vertical" android:id="@id/rating_description" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+        <com.google.android.apps.youtube.app.common.ui.chipcloud.ChipCloudView android:id="@id/follow_up_cloud" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/start_end_padding" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/action_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/follow_up_container">
+        <LinearLayout android:orientation="horizontal" android:id="@id/star_container" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <View android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0" />
+        <Button android:textColor="?ytCallToAction" android:id="@id/btn_not_sure_undo" android:background="@android:color/transparent" android:layout_width="wrap_content" android:layout_height="32.0dip" android:layout_weight="0.0" />
+        <Button android:textSize="12.0sp" android:textColor="?ytFilledButtonText" android:id="@id/btn_submit" android:background="?ytCallToAction" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="32.0dip" android:text="@string/inline_surveys_button_submit" android:layout_weight="0.0" />
+    </LinearLayout>
+    <View android:id="@id/bottom_padding" android:layout_width="fill_parent" android:layout_height="16.0dip" android:layout_below="@id/action_container" />
+</RelativeLayout>

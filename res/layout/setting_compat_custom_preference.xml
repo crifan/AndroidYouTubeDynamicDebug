@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/wrapper_layout" android:background="?android:selectableItemBackground" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@android:id/title" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="0.0dip" />
+    <TextView android:id="@android:id/summary" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="0.0dip" />
+    <FrameLayout android:id="@android:id/widget_frame" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="wrap_content" />
+</LinearLayout>

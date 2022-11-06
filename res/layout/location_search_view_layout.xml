@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.libraries.youtube.metadataeditor.geo.LocationSearchView android:theme="?editLocationTheme" android:id="@id/location_search_view" android:background="?ytBrandBackgroundSolid" android:focusable="true" android:visibility="gone" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="rectangle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <corners android:radius="@dimen/music_art_container_radius" />
+    <size android:height="@dimen/camera_music_album_art_size" android:width="@dimen/camera_music_album_art_size" />
+    <stroke android:width="@dimen/music_art_container_stroke_width" android:color="@color/yt_white3" />
+</shape>

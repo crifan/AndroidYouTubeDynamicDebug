@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:yt="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/dialog_header" android:background="?ytBrandBackgroundSolid" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <View android:id="@id/drop_shadow" android:background="@drawable/web_view_dialog_header_shadow" android:focusable="false" android:layout_width="fill_parent" android:layout_height="@dimen/web_view_dialog_header_shadow_width" android:elevation="3.0dip" />
+        <com.google.android.libraries.youtube.rendering.ui.widget.loadingframe.LoadingFrameLayout android:id="@id/web_view_loading_layout" android:background="?ytBrandBackgroundSolid" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <WebView android:id="@id/webview" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        </com.google.android.libraries.youtube.rendering.ui.widget.loadingframe.LoadingFrameLayout>
+    </RelativeLayout>
+</LinearLayout>

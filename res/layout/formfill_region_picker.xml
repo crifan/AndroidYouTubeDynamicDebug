@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditText android:id="@id/edit_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="16.0dip" android:hint="@string/region_picker_hint" android:inputType="text" android:drawableStart="@drawable/quantum_ic_search_grey600_24" />
+    <android.support.v7.widget.RecyclerView android:id="@id/recycler_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" />
+</LinearLayout>

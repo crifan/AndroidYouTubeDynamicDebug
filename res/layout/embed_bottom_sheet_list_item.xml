@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:paddingLeft="@dimen/embed_default_content_padding" android:paddingRight="@dimen/embed_default_content_padding" android:layout_width="fill_parent" android:layout_height="@dimen/embed_bottom_sheet_list_item_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center_vertical" android:id="@id/list_item_checkmark" android:visibility="gone" android:layout_width="@dimen/embed_bottom_sheet_list_icon_size" android:layout_height="@dimen/embed_bottom_sheet_list_icon_size" android:src="@drawable/embed_gray_checkmark" />
+    <ImageView android:layout_gravity="center" android:id="@id/list_item_icon_primary" android:layout_width="@dimen/embed_bottom_sheet_list_icon_size" android:layout_height="@dimen/embed_bottom_sheet_list_icon_size" />
+    <TextView android:gravity="start|center" android:layout_gravity="center_vertical" android:id="@id/list_item_text" android:layout_width="wrap_content" android:layout_height="@dimen/embed_bottom_sheet_list_item_height" android:textAlignment="viewStart" android:paddingStart="@dimen/embed_bottom_sheet_list_text_padding" android:paddingEnd="0.0dip" style="@style/EmbedBottomSheetListText" />
+    <TextView android:gravity="center" android:id="@id/list_item_text_secondary_separator" android:layout_width="@dimen/embed_bottom_sheet_list_text_padding" android:layout_height="@dimen/embed_bottom_sheet_list_item_height" android:textAlignment="center" style="@style/EmbedBottomSheetListSecondaryText" />
+    <TextView android:gravity="start|center" android:layout_gravity="center_vertical" android:id="@id/list_item_text_secondary" android:layout_width="wrap_content" android:layout_height="@dimen/embed_bottom_sheet_list_item_height" android:textAlignment="viewStart" style="@style/EmbedBottomSheetListSecondaryText" />
+</LinearLayout>

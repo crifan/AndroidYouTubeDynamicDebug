@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:yt="http://schemas.android.com/apk/res-auto">
+    <item android:id="@id/menu_cast" android:title="@string/play_on_label" yt:actionLayout="@layout/castmediaroutebutton" yt:showAsAction="always" />
+</menu>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="bottom" android:orientation="vertical" android:id="@id/shorts_music_trim_container" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:foreground="@drawable/shorts_music_art_container">
+        <ImageView android:id="@id/shorts_music_album_art_view" android:padding="@dimen/music_art_container_stroke_width" android:layout_width="@dimen/camera_music_album_art_size" android:layout_height="@dimen/camera_music_album_art_size" android:src="@drawable/ic_music_note" android:scaleType="centerCrop" android:adjustViewBounds="true" android:cropToPadding="true" android:contentDescription="@null" />
+    </FrameLayout>
+    <RelativeLayout android:id="@id/shorts_music_progress_container" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="@dimen/camera_music_progress_container_height">
+        <TextView android:textColor="?ytTextPrimary" android:id="@id/play_position_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/camera_music_play_progress_margin" android:layout_alignParentLeft="true" android:layout_centerVertical="true" style="@style/TextAppearance.YouTube.Spec.Body1b" />
+        <ViewStub android:id="@id/play_progress_bar_view_stub" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_toLeftOf="@id/audio_duration_text" android:layout_toRightOf="@id/play_position_text" android:layout_centerVertical="true" />
+        <TextView android:textColor="?ytTextPrimary" android:id="@id/audio_duration_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/camera_music_play_progress_margin" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/TextAppearance.YouTube.Spec.Body1b" />
+    </RelativeLayout>
+    <FrameLayout android:id="@id/waveform_container" android:layout_width="fill_parent" android:layout_height="@dimen/camera_music_waveform_container_height">
+        <com.google.android.apps.youtube.app.extensions.reel.creation.shorts.music.ui.MusicWaveformView android:id="@id/waveform_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <ImageView android:id="@id/waveform_boundary_image" android:paddingLeft="@dimen/camera_music_waveform_horizontal_padding" android:paddingTop="@dimen/camera_music_waveform_vertical_padding" android:paddingRight="@dimen/camera_music_waveform_horizontal_padding" android:paddingBottom="@dimen/camera_music_waveform_vertical_padding" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/shorts_music_waveform_area" android:adjustViewBounds="true" android:contentDescription="@null" />
+    </FrameLayout>
+    <TextView android:textColor="?ytTextPrimary" android:gravity="center" android:layout_gravity="center" android:id="@id/drag_hint_text" android:layout_width="fill_parent" android:layout_height="@dimen/camera_music_drag_hint_text_height" android:text="@string/music_scrubber_drag_hint_text" style="@style/TextAppearance.YouTube.Spec.Title1" />
+</LinearLayout>

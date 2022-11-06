@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:padding="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:android.support.design="http://schemas.android.com/apk/res-auto" xmlns:yt="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.textfield.TextInputLayout android:theme="@style/Widget.YouTube.TextInputLayout.Alternate" android:id="@id/handle_edit_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minWidth="280.0dip" android:labelFor="@id/handle_edit" yt:errorTextAppearance="?ytTextAppearanceBody1a" yt:prefixTextAppearance="?ytTextAppearanceTitle2">
+        <EditText android:textAppearance="?ytTextAppearanceTitle2" android:id="@id/handle_edit" android:layout_width="fill_parent" android:layout_height="wrap_content" android:scrollHorizontally="false" android:selectAllOnFocus="true" android:inputType="text">
+            <requestFocus />
+        </EditText>
+    </com.google.android.material.textfield.TextInputLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/info_items_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" />
+</LinearLayout>

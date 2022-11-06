@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/promoted_text_banner" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:yt="http://schemas.android.com/apk/res-auto">
+    <ViewStub android:id="@id/promoted_text_banner_layout_one_stub" android:layout="@layout/promoted_text_banner_layout_one" android:inflatedId="@id/promoted_text_banner_layout_one" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <ViewStub android:id="@id/promoted_text_banner_layout_two_stub" android:layout="@layout/promoted_text_banner_layout_two" android:inflatedId="@id/promoted_text_banner_layout_two" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <ViewStub android:id="@id/promoted_text_banner_layout_three_stub" android:layout="@layout/promoted_text_banner_layout_three" android:inflatedId="@id/promoted_text_banner_layout_three" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</FrameLayout>

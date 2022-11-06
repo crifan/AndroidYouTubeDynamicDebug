@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="accessibility_dislike_video_plural">
+        <item quantity="other">Beğenme düğmesi, %1$d diğer kullanıcı bu videoyu beğenmedi</item>
+        <item quantity="one">Beğenme düğmesi, %1$d diğer kullanıcı bu videoyu beğenmedi</item>
+    </plurals>
+    <plurals name="accessibility_dtts_fast_forward">
+        <item quantity="other">%1$d saniye ileri sar</item>
+        <item quantity="one">%1$d saniye ileri sar</item>
+    </plurals>
+    <plurals name="accessibility_dtts_rewind">
+        <item quantity="other">%1$d saniye geri sar</item>
+        <item quantity="one">%1$d saniye geri sar</item>
+    </plurals>
+    <plurals name="accessibility_duration_description_hours">
+        <item quantity="other">%d saat</item>
+        <item quantity="one">%d saat</item>
+    </plurals>
+    <plurals name="accessibility_duration_description_minutes">
+        <item quantity="other">%d dakika</item>
+        <item quantity="one">%d dakika</item>
+    </plurals>
+    <plurals name="accessibility_duration_description_seconds">
+        <item quantity="other">%d saniye</item>
+        <item quantity="one">%d saniye</item>
+    </plurals>
+    <plurals name="accessibility_like_video_plural">
+        <item quantity="other">Beğen düğmesi, %1$d diğer kullanıcı bu videoyu beğendi</item>
+        <item quantity="one">Beğen düğmesi, %1$d diğer kullanıcı bu videoyu beğendi</item>
+    </plurals>
+    <plurals name="accessibility_skip_ad_in">
+        <item quantity="other">%1$d saniye içinde reklamı atlayabilirsiniz</item>
+        <item quantity="one">1 saniye içinde reklamı atlayabilirsiniz</item>
+    </plurals>
+    <plurals name="accessibility_undo_dislike_video_plural">
+        <item quantity="other">Beğenmemeyi geri al düğmesi, %1$d diğer kullanıcı bu videoyu beğenmedi</item>
+        <item quantity="one">Beğenmemeyi geri al düğmesi, %1$d diğer kullanıcı bu videoyu beğenmedi</item>
+    </plurals>
+    <plurals name="accessibility_undo_like_video_plural">
+        <item quantity="other">Beğeniyi geri al düğmesi, %1$d diğer kullanıcı bu videoyu beğendi</item>
+        <item quantity="one">Beğeniyi geri al düğmesi, %1$d diğer kullanıcı bu videoyu beğendi</item>
+    </plurals>
+    <plurals name="download_new_videos_button_text">
+        <item quantity="other">%1$d yeni videoyu indir</item>
+        <item quantity="one">%1$d yeni videoyu indir</item>
+    </plurals>
+    <plurals name="download_playlist_unplayable_future_days_plural">
+        <item quantity="other">Bazı videolar için %1$d gün sonra Premium gerekecek</item>
+        <item quantity="one">Bazı videolar için %1$d gün sonra Premium gerekecek</item>
+    </plurals>
+    <plurals name="download_playlist_unplayable_future_hours_plural">
+        <item quantity="other">Bazı videolar için %1$d saat sonra Premium gerekecek</item>
+        <item quantity="one">Bazı videolar için %1$d saat sonra Premium gerekecek</item>
+    </plurals>
+    <plurals name="download_playlist_unplayable_future_minutes_plural">
+        <item quantity="other">Bazı videolar için %1$d dakika sonra Premium gerekecek</item>
+        <item quantity="one">Bazı videolar için %1$d dakika sonra Premium gerekecek</item>
+    </plurals>
+    <plurals name="download_video_unplayable_future_days_plural">
+        <item quantity="other">%1$d gün sonra Premium gerekecek</item>
+        <item quantity="one">%1$d gün sonra Premium gerekecek</item>
+    </plurals>
+    <plurals name="download_video_unplayable_future_hours_plural">
+        <item quantity="other">%1$d saat sonra Premium gerekecek</item>
+        <item quantity="one">%1$d saat sonra Premium gerekecek</item>
+    </plurals>
+    <plurals name="download_video_unplayable_future_minutes_plural">
+        <item quantity="other">%1$d dakika sonra Premium gerekecek</item>
+        <item quantity="one">%1$d dakika sonra Premium gerekecek</item>
+    </plurals>
+    <plurals name="duration_minutes">
+        <item quantity="other">%1$d dakika</item>
+        <item quantity="zero">0 dakika</item>
+        <item quantity="one">1 dakika</item>
+        <item quantity="two">2 dakika</item>
+        <item quantity="few">%1$d dakika</item>
+        <item quantity="many">%1$d dakika</item>
+    </plurals>
+    <plurals name="duration_seconds">
+        <item quantity="other">%1$d saniye</item>
+        <item quantity="zero">0 saniye</item>
+        <item quantity="one">1 saniye</item>
+        <item quantity="two">2 saniye</item>
+        <item quantity="few">%1$d saniye</item>
+        <item quantity="many">%1$d saniye</item>
+    </plurals>
+    <plurals name="frequency_hours_component">
+        <item quantity="other">%1$d saat</item>
+        <item quantity="one">%1$d saat</item>
+    </plurals>
+    <plurals name="frequency_hours_only">
+        <item quantity="other">Her %1$d saatte bir</item>
+        <item quantity="one">Saatte bir</item>
+    </plurals>
+    <plurals name="frequency_minutes_component">
+        <item quantity="other">%1$d dakika</item>
+        <item quantity="one">%1$d dakika</item>
+    </plurals>
+    <plurals name="frequency_minutes_only">
+        <item quantity="other">%1$d dakikada bir</item>
+        <item quantity="one">Dakikada bir</item>
+    </plurals>
+    <plurals name="image_picker_title">
+        <item quantity="other">%1$d öğe seçildi</item>
+        <item quantity="one">%1$d öğe seçildi</item>
+    </plurals>
+    <plurals name="invalid_uploads_error_msg">
+        <item quantity="other">En az bir video dosyası kullanılamıyor veya geçersiz. Lütfen tekrar deneyin veya farklı dosyalar seçin.</item>
+        <item quantity="one">Bu video dosyası kullanılamıyor veya geçersiz. Lütfen tekrar deneyin veya farklı bir dosya seçin.</item>
+    </plurals>
+    <plurals name="last_update_in_days_message">
+        <item quantity="other">%1$d gün önce güncellendi</item>
+        <item quantity="one">Dün güncellendi</item>
+    </plurals>
+    <plurals name="last_update_in_hours_message">
+        <item quantity="other">%1$d saat önce güncellendi</item>
+        <item quantity="one">%1$d saat önce güncellendi</item>
+    </plurals>
+    <plurals name="last_update_in_minutes_message">
+        <item quantity="other">%1$d dakika önce güncellendi</item>
+        <item quantity="one">%1$d dakika önce güncellendi</item>
+    </plurals>
+    <plurals name="last_update_in_weeks_message">
+        <item quantity="other">%1$d hafta önce güncellendi</item>
+        <item quantity="one">%1$d hafta önce güncellendi</item>
+    </plurals>
+    <plurals name="notification_playlist_progress_size">
+        <item quantity="other">%1$d / %2$d video</item>
+        <item quantity="one">%1$d / 1 video</item>
+    </plurals>
+    <plurals name="offline_go_online_to_renew_dialog_message">
+        <item quantity="other">Cihazınızla her %1$d günde bir internete bağlandığınız sürece indirilen içerikleri kullanmaya devam edebilirsiniz. Bu işlem otomatik olarak gerçekleşir ve videoyu yeniden indirmez.</item>
+        <item quantity="one">Cihazınızla her gün internete bağlandığınız sürece indirilen içerikleri kullanmaya devam edebilirsiniz. Bu işlem otomatik olarak gerçekleşir ve videoyu yeniden indirmez.</item>
+    </plurals>
+    <plurals name="offline_go_online_to_renew_snackbar_message">
+        <item quantity="other">İndirilen içerikler internet bağlantısı olmadan %1$d gün boyunca kullanılabilir.</item>
+        <item quantity="one">İndirilen içerikler internet bağlantısı olmadan 1 gün boyunca kullanılabilir.</item>
+    </plurals>
+    <plurals name="offline_remember_setting_for_days">
+        <item quantity="other">Ayarlarımı %1$d gün boyunca hatırla</item>
+        <item quantity="one">Ayarlarımı 1 gün boyunca hatırla</item>
+    </plurals>
+    <plurals name="playlist_picker_dialog_done">
+        <item quantity="other">Oynatma listesi güncellendi</item>
+        <item quantity="one">Oynatma listesi güncellendi</item>
+    </plurals>
+    <plurals name="playlist_size">
+        <item quantity="other">%1$,d video</item>
+        <item quantity="one">1 video</item>
+    </plurals>
+    <plurals name="playlist_size_downloaded">
+        <item quantity="other">%1$,d video indirildi</item>
+        <item quantity="one">%1$,d video indirildi</item>
+    </plurals>
+    <plurals name="playlist_size_total">
+        <item quantity="other">%1$,d video</item>
+        <item quantity="one">1 video</item>
+    </plurals>
+    <plurals name="public_notification_text">
+        <item quantity="other">%1$d yeni bildirim</item>
+        <item quantity="one">Bir bildiriminiz var</item>
+    </plurals>
+    <plurals name="quick_seek_x_second">
+        <item quantity="other">%d saniye</item>
+        <item quantity="one">%d saniye</item>
+    </plurals>
+    <plurals name="recommendation_count">
+        <item quantity="other">%1$d öneri</item>
+        <item quantity="one">1 öneri</item>
+    </plurals>
+    <plurals name="rental_expiry_notice">
+        <item quantity="other">Başlatıldıktan sonra bu videoyu %1$d saat içinde izleyebilirsiniz.</item>
+        <item quantity="one">Başlatıldıktan sonra bu videoyu 1 saat içinde izleyebilirsiniz.</item>
+    </plurals>
+    <plurals name="rental_long_days_remaining">
+        <item quantity="other">Süresi %1$d gün içinde dolacak</item>
+        <item quantity="one">Süresi 1 gün içinde dolacak</item>
+    </plurals>
+    <plurals name="rental_long_hours_remaining">
+        <item quantity="other">Süresi %1$d saat içinde dolacak</item>
+        <item quantity="one">Süresi 1 saat içinde dolacak</item>
+    </plurals>
+    <plurals name="rental_long_weeks_remaining">
+        <item quantity="other">Süresi %1$d hafta içinde dolacak</item>
+        <item quantity="one">Süresi 1 hafta içinde dolacak</item>
+    </plurals>
+    <plurals name="rental_medium_days_remaining">
+        <item quantity="other">Süresi %1$d gün sonra dolacak</item>
+        <item quantity="one">Süresi 1 gün sonra dolacak</item>
+    </plurals>
+    <plurals name="rental_medium_hours_remaining">
+        <item quantity="other">Süresi %1$d saat sonra dolacak</item>
+        <item quantity="one">Süresi 1 saat sonra dolacak</item>
+    </plurals>
+    <plurals name="rental_medium_weeks_remaining">
+        <item quantity="other">Süresi %1$d hafta sonra dolacak</item>
+        <item quantity="one">Süresi 1 hafta sonra dolacak</item>
+    </plurals>
+    <plurals name="selected_video_count">
+        <item quantity="other">%1$d video seçildi</item>
+        <item quantity="one">1 video seçildi</item>
+    </plurals>
+    <plurals name="shorts_a11y_duration_seconds">
+        <item quantity="other">%1$s saniye</item>
+        <item quantity="one">%1$s saniye</item>
+    </plurals>
+    <plurals name="shorts_a11y_timer_duration_seconds">
+        <item quantity="other">%1$d saniyelik zamanlayıcı</item>
+        <item quantity="one">%1$d saniyelik zamanlayıcı</item>
+    </plurals>
+    <plurals name="shorts_a11y_timer_started">
+        <item quantity="other">%1$d saniyelik zamanlayıcı etkinleştirildi</item>
+        <item quantity="one">%1$d saniyelik zamanlayıcı etkinleştirildi</item>
+    </plurals>
+    <plurals name="smart_downloads_future_update_text">
+        <item quantity="other">Akıllı indirmeler, %1$d gün sonra otomatik olarak güncellenecek</item>
+        <item quantity="one">Akıllı indirmeler, 1 gün sonra otomatik olarak güncellenecek</item>
+    </plurals>
+    <plurals name="sticker_dialog_title">
+        <item quantity="other">%1$d gün sonra tekrar deneyin</item>
+        <item quantity="one">1 gün sonra tekrar deneyin</item>
+    </plurals>
+    <plurals name="too_many_external_uploads_error_msg">
+        <item quantity="other">Tek seferde yalnızca %1$d video yükleyebilirsiniz.</item>
+        <item quantity="one">Tek seferde yalnızca %1$d video yükleyebilirsiniz.</item>
+    </plurals>
+    <plurals name="transcoding_progress">
+        <item quantity="other">Hazırlanıyor (%%%1$,d)</item>
+        <item quantity="one">Hazırlanıyor (%%%1$,d)</item>
+    </plurals>
+    <plurals name="trim_segment_max_length">
+        <item quantity="other">Maks. %1$d saniye</item>
+        <item quantity="one">Maks. 1 saniye</item>
+    </plurals>
+    <plurals name="trim_switch_edu">
+        <item quantity="other">Videonuzu %1$d saniyeye kısaltın ve müzik ekleyin</item>
+        <item quantity="one">Videonuzu 1 saniyeye kısaltın ve müzik ekleyin</item>
+    </plurals>
+    <plurals name="trim_switch_edu_full_length_shorts">
+        <item quantity="other">Videonuzu %1$d saniyeye kısaltın</item>
+        <item quantity="one">Videonuzu 1 saniyeye kısaltın</item>
+    </plurals>
+    <plurals name="upload_hours_remaing">
+        <item quantity="other">Yaklaşık %1$,d saat kaldı</item>
+        <item quantity="one">Yaklaşık %1$,d saat kaldı</item>
+    </plurals>
+    <plurals name="upload_indicator_all_completed">
+        <item quantity="other">%d video yüklendi</item>
+        <item quantity="one">Video yüklendi</item>
+    </plurals>
+    <plurals name="upload_indicator_all_failed">
+        <item quantity="other">Videolarınızdan hiçbiri yüklenemedi</item>
+        <item quantity="one">Videonuz yüklenemedi</item>
+    </plurals>
+    <plurals name="upload_indicator_all_uploading">
+        <item quantity="other">%d video yükleniyor</item>
+        <item quantity="one">Video yükleniyor</item>
+    </plurals>
+    <plurals name="upload_indicator_partial_fail">
+        <item quantity="other">%2$d videodan %1$d tanesi yüklenemedi</item>
+        <item quantity="one">%2$d videodan %1$d tanesi yüklenemedi</item>
+    </plurals>
+    <plurals name="upload_indicator_uploading_and_completed_completed_part">
+        <item quantity="other">%d video yüklendi</item>
+        <item quantity="one">%d video yüklendi</item>
+    </plurals>
+    <plurals name="upload_indicator_uploading_and_completed_uploading_part">
+        <item quantity="other">%d video yüklenmeye devam ediyor</item>
+        <item quantity="one">%d video yüklenmeye devam ediyor</item>
+    </plurals>
+    <plurals name="upload_minutes_remaing">
+        <item quantity="other">Yaklaşık %1$,d dakika kaldı</item>
+        <item quantity="one">Yaklaşık %1$,d dakika kaldı</item>
+    </plurals>
+    <plurals name="upload_notification_active_progress">
+        <item quantity="other">%1$d / %2$d video yükleniyor</item>
+        <item quantity="one">1 video yükleniyor</item>
+    </plurals>
+    <plurals name="upload_progress">
+        <item quantity="other">%%%1$,d yüklendi</item>
+        <item quantity="one">%%%1$,d yüklendi</item>
+    </plurals>
+    <plurals name="upload_seconds_remaing">
+        <item quantity="other">Yaklaşık %1$,d saniye kaldı</item>
+        <item quantity="one">Yaklaşık %1$,d saniye kaldı</item>
+    </plurals>
+    <plurals name="uploads_failed">
+        <item quantity="other">%1$,d yükleme gerçekleştirilemedi</item>
+        <item quantity="one">Yükleme gerçekleştirilemedi</item>
+    </plurals>
+    <plurals name="uploads_failed_with_in_progress_videos">
+        <item quantity="other">%1$,d/%2$,d video yüklenemedi</item>
+        <item quantity="one">%1$,d/%2$,d video yüklenemedi</item>
+    </plurals>
+    <plurals name="uploads_in_progress">
+        <item quantity="other">%1$,d video yükleniyor</item>
+        <item quantity="one">%1$,d video yükleniyor</item>
+    </plurals>
+    <plurals name="user_education_quick_seek">
+        <item quantity="other">%d saniye atlamak için sola veya sağa iki kez dokunun</item>
+        <item quantity="one">%d saniye atlamak için sola veya sağa iki kez dokunun</item>
+    </plurals>
+    <plurals name="video_count">
+        <item quantity="other">%1$d video</item>
+        <item quantity="one">1 video</item>
+    </plurals>
+</resources>

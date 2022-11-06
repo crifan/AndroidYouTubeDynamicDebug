@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<objectAnimator android:duration="133" android:valueFrom="@dimen/video_zoom_snap_threshold_indicator_alpha" android:valueTo="0" android:valueType="floatType" android:propertyName="alpha"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

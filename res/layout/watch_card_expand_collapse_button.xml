@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingTop="4.0dip" android:paddingBottom="8.0dip" android:clickable="true" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:gravity="center" android:id="@id/label" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="1" />
+    <FrameLayout android:id="@id/expand_collapse_button" android:paddingBottom="4.0dip" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <View android:layout_gravity="center_vertical" android:background="?yt10PercentLayer" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+        <ImageView android:layout_gravity="center" android:id="@id/button" android:layout_width="48.0dip" android:layout_height="48.0dip" android:scaleType="centerCrop" android:contentDescription="@null" style="@style/WatchCardExpandCollapseButton" />
+    </FrameLayout>
+</LinearLayout>

@@ -1,0 +1,2762 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="ConstraintRotate">
+        <enum name="left" value="2" />
+        <enum name="none" value="0" />
+        <enum name="right" value="1" />
+        <enum name="x_left" value="4" />
+        <enum name="x_right" value="3" />
+    </attr>
+    <attr name="accountNameTextAppearance" format="reference" />
+    <attr name="accountSwitcherBylineTextColor" format="reference|string|integer|boolean|color|float|dimension|fraction" />
+    <attr name="accountSwitcherNameTextColor" format="reference|string|integer|boolean|color|float|dimension|fraction" />
+    <attr name="actionBarDivider" format="reference" />
+    <attr name="actionBarItemBackground" format="reference" />
+    <attr name="actionBarPopupTheme" format="reference" />
+    <attr name="actionBarSize" format="dimension">
+        <enum name="wrap_content" value="0" />
+    </attr>
+    <attr name="actionBarSplitStyle" format="reference" />
+    <attr name="actionBarStyle" format="reference" />
+    <attr name="actionBarTabBarStyle" format="reference" />
+    <attr name="actionBarTabStyle" format="reference" />
+    <attr name="actionBarTabTextStyle" format="reference" />
+    <attr name="actionBarTheme" format="reference" />
+    <attr name="actionBarWidgetTheme" format="reference" />
+    <attr name="actionButtonStyle" format="reference" />
+    <attr name="actionDropDownStyle" format="reference" />
+    <attr name="actionLayout" format="reference" />
+    <attr name="actionMenuTextAppearance" format="reference" />
+    <attr name="actionMenuTextColor" format="reference|color" />
+    <attr name="actionModeBackground" format="reference" />
+    <attr name="actionModeCloseButtonStyle" format="reference" />
+    <attr name="actionModeCloseContentDescription" format="string" />
+    <attr name="actionModeCloseDrawable" format="reference" />
+    <attr name="actionModeCopyDrawable" format="reference" />
+    <attr name="actionModeCutDrawable" format="reference" />
+    <attr name="actionModeFindDrawable" format="reference" />
+    <attr name="actionModePasteDrawable" format="reference" />
+    <attr name="actionModePopupWindowStyle" format="reference" />
+    <attr name="actionModeSelectAllDrawable" format="reference" />
+    <attr name="actionModeShareDrawable" format="reference" />
+    <attr name="actionModeSplitBackground" format="reference" />
+    <attr name="actionModeStyle" format="reference" />
+    <attr name="actionModeTheme" format="reference" />
+    <attr name="actionModeWebSearchDrawable" format="reference" />
+    <attr name="actionOverflowButtonStyle" format="reference" />
+    <attr name="actionOverflowMenuStyle" format="reference" />
+    <attr name="actionProviderClass" format="string" />
+    <attr name="actionTextColor" format="color" />
+    <attr name="actionTextColorAlpha" format="float" />
+    <attr name="actionViewClass" format="string" />
+    <attr name="activityChooserViewStyle" format="reference" />
+    <attr name="activityIndicatorColor" format="color" />
+    <attr name="activityIndicatorHeight" format="dimension" />
+    <attr name="activityIndicatorTrackAlpha" format="float" />
+    <attr name="adBackground1" format="reference|color" />
+    <attr name="adBackground2" format="reference|color" />
+    <attr name="adBlue" format="reference|color" />
+    <attr name="adHintText" format="reference|color" />
+    <attr name="adHintTextIncomplete" format="reference|color" />
+    <attr name="adMutedBackground" format="reference|color" />
+    <attr name="adOverlayBackground" format="reference|color" />
+    <attr name="adSeparator1" format="reference|color" />
+    <attr name="adText1" format="reference|color" />
+    <attr name="adText2" format="reference|color" />
+    <attr name="adText3" format="reference|color" />
+    <attr name="adText4" format="reference|color" />
+    <attr name="addingDrawable" format="reference" />
+    <attr name="adjustable" format="boolean" />
+    <attr name="adsCheckboxError" format="reference|color" />
+    <attr name="alertDialogButtonGroupStyle" format="reference" />
+    <attr name="alertDialogCenterButtons" format="boolean" />
+    <attr name="alertDialogStyle" format="reference" />
+    <attr name="alertDialogTheme" format="reference" />
+    <attr name="alignBoundsToThumbnails" format="boolean" />
+    <attr name="alignContent">
+        <enum name="center" value="2" />
+        <enum name="flex_end" value="1" />
+        <enum name="flex_start" value="0" />
+        <enum name="space_around" value="4" />
+        <enum name="space_between" value="3" />
+        <enum name="stretch" value="5" />
+    </attr>
+    <attr name="alignItems">
+        <enum name="baseline" value="3" />
+        <enum name="center" value="2" />
+        <enum name="flex_end" value="1" />
+        <enum name="flex_start" value="0" />
+        <enum name="stretch" value="4" />
+    </attr>
+    <attr name="allowBadges" format="boolean" />
+    <attr name="allowDividerAbove" format="boolean" />
+    <attr name="allowDividerAfterLastItem" format="boolean" />
+    <attr name="allowDividerBelow" format="boolean" />
+    <attr name="allowRings" format="boolean" />
+    <attr name="allowStacking" format="boolean" />
+    <attr name="alpha" format="float" />
+    <attr name="alphabeticModifiers">
+        <flag name="ALT" value="0x00000002" />
+        <flag name="CTRL" value="0x00001000" />
+        <flag name="FUNCTION" value="0x00000008" />
+        <flag name="META" value="0x00010000" />
+        <flag name="SHIFT" value="0x00000001" />
+        <flag name="SYM" value="0x00000004" />
+    </attr>
+    <attr name="animateCircleAngleTo">
+        <enum name="antiClockwise" value="3" />
+        <enum name="bestChoice" value="0" />
+        <enum name="clockwise" value="2" />
+        <enum name="closest" value="1" />
+        <enum name="constraint" value="4" />
+    </attr>
+    <attr name="animateRelativeTo" format="reference" />
+    <attr name="animateTrimHandles" format="boolean" />
+    <attr name="animationMode">
+        <enum name="fade" value="1" />
+        <enum name="slide" value="0" />
+    </attr>
+    <attr name="aplosAxisBaselineSize" format="dimension" />
+    <attr name="aplosAxisLineColor" format="color" />
+    <attr name="aplosAxisTextColor" format="color" />
+    <attr name="aplosAxisTextSize" format="dimension" />
+    <attr name="aplosAxisTickSize" format="dimension" />
+    <attr name="aplosComponentPosition">
+        <enum name="BOTTOM" value="16" />
+        <enum name="DRAW_AREA" value="2" />
+        <enum name="FULL_BOTTOM" value="48" />
+        <enum name="FULL_CHART" value="-1" />
+        <enum name="FULL_LEFT" value="33" />
+        <enum name="FULL_RIGHT" value="36" />
+        <enum name="FULL_TOP" value="40" />
+        <enum name="LEFT" value="1" />
+        <enum name="NONE" value="0" />
+        <enum name="RIGHT" value="4" />
+        <enum name="TOP" value="8" />
+    </attr>
+    <attr name="aplosComponentWeight" format="float" />
+    <attr name="aplosDomainAxisMargin" format="dimension" />
+    <attr name="aplosDomainAxisTickCount" format="integer" />
+    <attr name="aplosFillAdjacentWithPadding" format="boolean" />
+    <attr name="aplosFillChartWithPadding" format="boolean" />
+    <attr name="aplosMeasureAxisTickCount" format="integer" />
+    <attr name="aplosMeasureAxisZeroBound" format="boolean" />
+    <attr name="aplosRenderMeasuresVertically" format="boolean" />
+    <attr name="aplosZIndex" format="integer" />
+    <attr name="appBarLayoutStyle" format="reference" />
+    <attr name="arrowBaseWidth" format="dimension" />
+    <attr name="arrowHeadLength" format="dimension" />
+    <attr name="arrowLength" format="dimension" />
+    <attr name="arrowShaftLength" format="dimension" />
+    <attr name="aspectRatio" format="float" />
+    <attr name="attributeName" format="string" />
+    <attr name="autoCompleteTextViewStyle" format="reference" />
+    <attr name="autoSizeMaxTextSize" format="dimension" />
+    <attr name="autoSizeMinTextSize" format="dimension" />
+    <attr name="autoSizePresetSizes" format="reference" />
+    <attr name="autoSizeStepGranularity" format="dimension" />
+    <attr name="autoSizeTextType">
+        <enum name="none" value="0" />
+        <enum name="uniform" value="1" />
+    </attr>
+    <attr name="avatarBorderRingColor" format="color" />
+    <attr name="background" format="reference" />
+    <attr name="backgroundColor" format="color" />
+    <attr name="backgroundInsetBottom" format="dimension" />
+    <attr name="backgroundInsetEnd" format="dimension" />
+    <attr name="backgroundInsetStart" format="dimension" />
+    <attr name="backgroundInsetTop" format="dimension" />
+    <attr name="backgroundOverlayColorAlpha" format="float" />
+    <attr name="backgroundPrimary" format="reference" />
+    <attr name="backgroundPrimaryInverse" format="reference" />
+    <attr name="backgroundSecondary" format="reference" />
+    <attr name="backgroundSecondaryInverse" format="reference" />
+    <attr name="backgroundSplit" format="reference|color" />
+    <attr name="backgroundStacked" format="reference|color" />
+    <attr name="backgroundTertiary" format="reference" />
+    <attr name="backgroundTertiaryInverse" format="reference" />
+    <attr name="backgroundTint" format="color" />
+    <attr name="backgroundTintMode">
+        <enum name="add" value="16" />
+        <enum name="multiply" value="14" />
+        <enum name="screen" value="15" />
+        <enum name="src_atop" value="9" />
+        <enum name="src_in" value="5" />
+        <enum name="src_over" value="3" />
+    </attr>
+    <attr name="backgroundViewId" format="reference" />
+    <attr name="badgeGravity">
+        <enum name="BOTTOM_END" value="8388693" />
+        <enum name="BOTTOM_START" value="8388691" />
+        <enum name="TOP_END" value="8388661" />
+        <enum name="TOP_START" value="8388659" />
+    </attr>
+    <attr name="badgeLegacyShadowColor" format="color" />
+    <attr name="badgeRadius" format="dimension" />
+    <attr name="badgeStyle" format="reference" />
+    <attr name="badgeWidePadding" format="dimension" />
+    <attr name="badgeWithTextRadius" format="dimension" />
+    <attr name="badgeWrapperColor" format="color" />
+    <attr name="barLength" format="dimension" />
+    <attr name="barrierAllowsGoneWidgets" format="boolean" />
+    <attr name="barrierDirection">
+        <enum name="bottom" value="3" />
+        <enum name="end" value="6" />
+        <enum name="left" value="0" />
+        <enum name="right" value="1" />
+        <enum name="start" value="5" />
+        <enum name="top" value="2" />
+    </attr>
+    <attr name="barrierMargin" format="dimension" />
+    <attr name="baselineToBottom" format="dimension" />
+    <attr name="baselineToTop" format="dimension" />
+    <attr name="bedtimeSlothIcon" format="reference|color" />
+    <attr name="behavior_autoHide" format="boolean" />
+    <attr name="behavior_autoShrink" format="boolean" />
+    <attr name="behavior_draggable" format="boolean" />
+    <attr name="behavior_expandedOffset" format="reference|dimension" />
+    <attr name="behavior_fitToContents" format="boolean" />
+    <attr name="behavior_halfExpandedRatio" format="reference|float" />
+    <attr name="behavior_hideable" format="boolean" />
+    <attr name="behavior_overlapTop" format="dimension" />
+    <attr name="behavior_peekHeight" format="dimension">
+        <enum name="auto" value="-1" />
+    </attr>
+    <attr name="behavior_saveFlags">
+        <flag name="all" value="0xffffffff" />
+        <flag name="fitToContents" value="0x00000002" />
+        <flag name="hideable" value="0x00000004" />
+        <flag name="none" value="0x00000000" />
+        <flag name="peekHeight" value="0x00000001" />
+        <flag name="skipCollapsed" value="0x00000008" />
+    </attr>
+    <attr name="behavior_skipCollapsed" format="boolean" />
+    <attr name="blueButtonBackground" format="reference|color" />
+    <attr name="blueRadioButtonBackground" format="reference" />
+    <attr name="blueRadioButtonTextColor" format="reference|color" />
+    <attr name="borderColor" format="color" />
+    <attr name="borderSize" format="dimension" />
+    <attr name="borderWidth" format="dimension" />
+    <attr name="borderlessButtonStyle" format="reference" />
+    <attr name="bottomAppBarStyle" format="reference" />
+    <attr name="bottomInsetSeparator" format="reference" />
+    <attr name="bottomNavigationStyle" format="reference" />
+    <attr name="bottomSeparator" format="reference" />
+    <attr name="bottomSheetDialogTheme" format="reference" />
+    <attr name="bottomSheetStyle" format="reference" />
+    <attr name="boxBackgroundColor" format="color" />
+    <attr name="boxBackgroundMode">
+        <enum name="filled" value="1" />
+        <enum name="none" value="0" />
+        <enum name="outline" value="2" />
+    </attr>
+    <attr name="boxCollapsedPaddingTop" format="dimension" />
+    <attr name="boxCornerRadiusBottomEnd" format="dimension" />
+    <attr name="boxCornerRadiusBottomStart" format="dimension" />
+    <attr name="boxCornerRadiusTopEnd" format="dimension" />
+    <attr name="boxCornerRadiusTopStart" format="dimension" />
+    <attr name="boxStrokeColor" format="color" />
+    <attr name="boxStrokeErrorColor" format="color" />
+    <attr name="boxStrokeWidth" format="dimension" />
+    <attr name="boxStrokeWidthFocused" format="dimension" />
+    <attr name="buttonBarButtonStyle" format="reference" />
+    <attr name="buttonBarNegativeButtonStyle" format="reference" />
+    <attr name="buttonBarNeutralButtonStyle" format="reference" />
+    <attr name="buttonBarPositiveButtonStyle" format="reference" />
+    <attr name="buttonBarStyle" format="reference" />
+    <attr name="buttonCompat" format="reference" />
+    <attr name="buttonContentDescription" format="string" />
+    <attr name="buttonGravity">
+        <flag name="bottom" value="0x00000050" />
+        <flag name="center_vertical" value="0x00000010" />
+        <flag name="top" value="0x00000030" />
+    </attr>
+    <attr name="buttonHeight" format="dimension" />
+    <attr name="buttonIconDimen" format="dimension" />
+    <attr name="buttonPanelSideLayout" format="reference" />
+    <attr name="buttonStyle" format="reference" />
+    <attr name="buttonStyleSmall" format="reference" />
+    <attr name="buttonText" format="string" />
+    <attr name="buttonTint" format="color" />
+    <attr name="buttonTintMode">
+        <enum name="add" value="16" />
+        <enum name="multiply" value="14" />
+        <enum name="screen" value="15" />
+        <enum name="src_atop" value="9" />
+        <enum name="src_in" value="5" />
+        <enum name="src_over" value="3" />
+    </attr>
+    <attr name="callToActionButtonActionBarTheme" format="reference" />
+    <attr name="cardBackgroundColor" format="color" />
+    <attr name="cardCornerRadius" format="dimension" />
+    <attr name="cardElevation" format="dimension" />
+    <attr name="cardForegroundColor" format="color" />
+    <attr name="cardMaxElevation" format="dimension" />
+    <attr name="cardPreventCornerOverlap" format="boolean" />
+    <attr name="cardUseCompatPadding" format="boolean" />
+    <attr name="cardViewStyle" format="reference" />
+    <attr name="castAdBreakMarkerColor" format="color" />
+    <attr name="castAdInProgressLabelTextAppearance" format="reference" />
+    <attr name="castAdInProgressText" format="reference|string" />
+    <attr name="castAdInProgressTextColor" format="color" />
+    <attr name="castAdLabelColor" format="color" />
+    <attr name="castAdLabelTextAppearance" format="reference" />
+    <attr name="castAdLabelTextColor" format="color" />
+    <attr name="castButtonColor" format="reference|color" />
+    <attr name="castClosedCaptionsButtonDrawable" format="reference" />
+    <attr name="castControlButtons" format="reference" />
+    <attr name="castDefaultAdPosterUrl" format="reference|string" />
+    <attr name="castExpandedControllerLoadingIndicatorColor" format="color" />
+    <attr name="castExpandedControllerStyle" format="reference" />
+    <attr name="castForward30ButtonDrawable" format="reference" />
+    <attr name="castLiveIndicatorColor" format="color" />
+    <attr name="castMuteToggleButtonDrawable" format="reference" />
+    <attr name="castPauseButtonDrawable" format="reference" />
+    <attr name="castPlayButtonDrawable" format="reference" />
+    <attr name="castRewind30ButtonDrawable" format="reference" />
+    <attr name="castSeekBarProgressAndThumbColor" format="color" />
+    <attr name="castSeekBarProgressDrawable" format="reference" />
+    <attr name="castSeekBarSecondaryProgressColor" format="color" />
+    <attr name="castSeekBarThumbDrawable" format="reference" />
+    <attr name="castSeekBarTooltipBackgroundColor" format="color" />
+    <attr name="castSeekBarUnseekableProgressColor" format="color" />
+    <attr name="castSkipNextButtonDrawable" format="reference" />
+    <attr name="castSkipPreviousButtonDrawable" format="reference" />
+    <attr name="castStopButtonDrawable" format="reference" />
+    <attr name="chainUseRtl" format="boolean" />
+    <attr name="channelListSubMenuAvatarStatus" format="reference" />
+    <attr name="checkBoxPreferenceStyle" format="reference" />
+    <attr name="checkboxStyle" format="reference" />
+    <attr name="checkedIcon" format="reference" />
+    <attr name="checkedIconMargin" format="dimension" />
+    <attr name="checkedIconSize" format="dimension" />
+    <attr name="checkedIconTint" format="color" />
+    <attr name="checkedIconVisible" format="boolean" />
+    <attr name="checkedTextViewStyle" format="reference" />
+    <attr name="chevronRightIcon" format="reference|color" />
+    <attr name="chipBackgroundColor" format="color" />
+    <attr name="chipEndPadding" format="dimension" />
+    <attr name="chipGroupStyle" format="reference" />
+    <attr name="chipIcon" format="reference" />
+    <attr name="chipIconSize" format="dimension" />
+    <attr name="chipIconVisible" format="boolean" />
+    <attr name="chipMinHeight" format="dimension" />
+    <attr name="chipMinTouchTargetSize" format="dimension" />
+    <attr name="chipSpacingHorizontal" format="dimension" />
+    <attr name="chipSpacingVertical" format="dimension" />
+    <attr name="chipStandaloneStyle" format="reference" />
+    <attr name="chipStartPadding" format="dimension" />
+    <attr name="chipStrokeColor" format="color" />
+    <attr name="chipStrokeWidth" format="dimension" />
+    <attr name="chipStyle" format="reference" />
+    <attr name="chipSurfaceColor" format="color" />
+    <attr name="chooseFilterLayout">
+        <enum name="camera" value="1" />
+        <enum name="edit" value="0" />
+        <enum name="preset" value="2" />
+        <enum name="shorts_camera_preset" value="3" />
+    </attr>
+    <attr name="circleButtonSelectable" format="reference|color" />
+    <attr name="circularProgressIndicatorStyle" format="reference" />
+    <attr name="circularflow_angles" format="string" />
+    <attr name="circularflow_defaultAngle" format="float" />
+    <attr name="circularflow_defaultRadius" format="dimension" />
+    <attr name="circularflow_radiusInDP" format="string" />
+    <attr name="circularflow_viewCenter" format="reference" />
+    <attr name="clearButtonContentDescription" format="reference" />
+    <attr name="clockFaceBackgroundColor" format="color" />
+    <attr name="clockHandColor" format="color" />
+    <attr name="clockIcon" format="reference" />
+    <attr name="clockNumberTextColor" format="color" />
+    <attr name="closeIcon" format="reference" />
+    <attr name="closeIconEndPadding" format="dimension" />
+    <attr name="closeIconSize" format="dimension" />
+    <attr name="closeIconStartPadding" format="dimension" />
+    <attr name="closeIconTint" format="color" />
+    <attr name="closeIconVisible" format="boolean" />
+    <attr name="closeItemLayout" format="reference" />
+    <attr name="cmtAvatarHeartOverlayDefault" format="reference|color" />
+    <attr name="cmtBgStyleDefault" format="reference|color" />
+    <attr name="cmtBgStyleGrey" format="reference|color" />
+    <attr name="cmtCreatorHeartTooltipBg" format="reference|color" />
+    <attr name="cmtDivider" format="reference|color" />
+    <attr name="cmtHeartPressedFocusedSelected" format="reference|color" />
+    <attr name="cmtLinkedBadgeBackground" format="reference|color" />
+    <attr name="cmtSponsorBadgeBackground" format="reference|color" />
+    <attr name="cmtSponsorsOnlyBadge" format="reference|color" />
+    <attr name="codeTextColor" format="color" />
+    <attr name="codeTextSize" format="dimension" />
+    <attr name="colSpacing" format="dimension" />
+    <attr name="collapseContentDescription" format="string" />
+    <attr name="collapseIcon" format="reference" />
+    <attr name="collapsedSize" format="dimension" />
+    <attr name="collapsedTitleGravity">
+        <flag name="bottom" value="0x00000050" />
+        <flag name="center" value="0x00000011" />
+        <flag name="center_horizontal" value="0x00000001" />
+        <flag name="center_vertical" value="0x00000010" />
+        <flag name="end" value="0x00800005" />
+        <flag name="fill_vertical" value="0x00000070" />
+        <flag name="left" value="0x00000003" />
+        <flag name="right" value="0x00000005" />
+        <flag name="start" value="0x00800003" />
+        <flag name="top" value="0x00000030" />
+    </attr>
+    <attr name="collapsedTitleTextAppearance" format="reference" />
+    <attr name="collapsedTitleTextColor" format="reference|color" />
+    <attr name="collapsingToolbarLayoutLargeSize" format="reference" />
+    <attr name="collapsingToolbarLayoutLargeStyle" format="reference" />
+    <attr name="collapsingToolbarLayoutMediumSize" format="reference" />
+    <attr name="collapsingToolbarLayoutMediumStyle" format="reference" />
+    <attr name="collapsingToolbarLayoutStyle" format="reference" />
+    <attr name="color" format="color" />
+    <attr name="colorAccent" format="color" />
+    <attr name="colorBackgroundFloating" format="color" />
+    <attr name="colorButtonNormal" format="color" />
+    <attr name="colorControlActivated" format="color" />
+    <attr name="colorControlHighlight" format="color" />
+    <attr name="colorControlNormal" format="color" />
+    <attr name="colorControlSelected" format="color" />
+    <attr name="colorError" format="reference|color" />
+    <attr name="colorErrorStateContent" format="color" />
+    <attr name="colorHairline" format="color" />
+    <attr name="colorOnBackground" format="reference|string|integer|boolean|color|float|dimension|fraction" />
+    <attr name="colorOnError" format="color" />
+    <attr name="colorOnPrimary" format="color" />
+    <attr name="colorOnPrimaryContainer" format="color" />
+    <attr name="colorOnPrimaryContainerStateContent" format="color" />
+    <attr name="colorOnPrimaryContainerStateLayer" format="color" />
+    <attr name="colorOnPrimaryGoogle" format="color" />
+    <attr name="colorOnPrimaryStateContent" format="color" />
+    <attr name="colorOnPrimaryStateLayer" format="color" />
+    <attr name="colorOnPrimaryStateLayerGoogle" format="color" />
+    <attr name="colorOnPrimarySurface" format="color" />
+    <attr name="colorOnSecondary" format="color" />
+    <attr name="colorOnSecondaryContainer" format="color" />
+    <attr name="colorOnSecondaryContainerStateContent" format="color" />
+    <attr name="colorOnSecondaryContainerStateLayer" format="color" />
+    <attr name="colorOnSecondaryStateContent" format="color" />
+    <attr name="colorOnSecondaryStateLayer" format="color" />
+    <attr name="colorOnSurface" format="color" />
+    <attr name="colorOnSurfaceInverse" format="color" />
+    <attr name="colorOnSurfaceStateContent" format="color" />
+    <attr name="colorOnSurfaceStateLayer" format="color" />
+    <attr name="colorOnSurfaceVariant" format="color" />
+    <attr name="colorOnSurfaceVariantStateContent" format="color" />
+    <attr name="colorOnSurfaceVariantStateLayer" format="color" />
+    <attr name="colorOnTertiaryContainer" format="color" />
+    <attr name="colorOnTertiaryContainerStateContent" format="color" />
+    <attr name="colorOnTertiaryContainerStateLayer" format="color" />
+    <attr name="colorOutline" format="color" />
+    <attr name="colorPrimary" format="color" />
+    <attr name="colorPrimaryAlternate" format="reference" />
+    <attr name="colorPrimaryContainer" format="color" />
+    <attr name="colorPrimaryDark" format="color" />
+    <attr name="colorPrimaryGoogle" format="color" />
+    <attr name="colorPrimaryGoogleInverse" format="color" />
+    <attr name="colorPrimaryInverse" format="color" />
+    <attr name="colorPrimaryStateContent" format="color" />
+    <attr name="colorPrimaryStateContentGoogle" format="color" />
+    <attr name="colorPrimaryStateContentGoogleInverse" format="color" />
+    <attr name="colorPrimaryStateContentInverse" format="color" />
+    <attr name="colorPrimaryStateLayer" format="color" />
+    <attr name="colorPrimaryStateLayerGoogleInverse" format="color" />
+    <attr name="colorPrimaryStateLayerInverse" format="color" />
+    <attr name="colorPrimarySurface" format="color" />
+    <attr name="colorPrimaryVariant" format="color" />
+    <attr name="colorPrimaryVariantGoogle" format="color" />
+    <attr name="colorSecondary" format="color" />
+    <attr name="colorSecondaryContainer" format="color" />
+    <attr name="colorSecondaryStateContent" format="color" />
+    <attr name="colorSecondaryStateLayer" format="color" />
+    <attr name="colorSecondaryVariant" format="color" />
+    <attr name="colorSurface" format="color" />
+    <attr name="colorSurfaceInverse" format="color" />
+    <attr name="colorSurfaceVariant" format="color" />
+    <attr name="colorSwitchThumbNormal" format="color" />
+    <attr name="colorTertiaryContainer" format="color" />
+    <attr name="colorTextFieldError" format="color" />
+    <attr name="colorTextFieldHairline" format="color" />
+    <attr name="colorTextFieldOnSurfaceVariant" format="color" />
+    <attr name="colorTextFieldPrimary" format="color" />
+    <attr name="colorTextFieldSurface" format="color" />
+    <attr name="colorTimePickerSurface" format="color" />
+    <attr name="columnCount" format="integer" />
+    <attr name="columnPeekAmount" format="dimension" />
+    <attr name="commitIcon" format="reference" />
+    <attr name="completeDrawable" format="reference" />
+    <attr name="completedStyle">
+        <enum name="filled" value="0" />
+        <enum name="outlined" value="1" />
+    </attr>
+    <attr name="constraintSet" format="reference" />
+    <attr name="constraint_referenced_ids" format="string" />
+    <attr name="constraint_referenced_tags" format="string" />
+    <attr name="constraints" format="reference" />
+    <attr name="containerBackgroundColor" format="color" />
+    <attr name="containerCornerRadius" format="dimension" />
+    <attr name="containerMargin" format="dimension" />
+    <attr name="containerPadding" format="dimension" />
+    <attr name="containerShadowColor" format="color" />
+    <attr name="containerShadowOffset" format="dimension" />
+    <attr name="containerShadowRadius" format="dimension" />
+    <attr name="containerViewId" format="reference" />
+    <attr name="contentDescription" format="string" />
+    <attr name="contentInsetEnd" format="dimension" />
+    <attr name="contentInsetEndWithActions" format="dimension" />
+    <attr name="contentInsetLeft" format="dimension" />
+    <attr name="contentInsetRight" format="dimension" />
+    <attr name="contentInsetStart" format="dimension" />
+    <attr name="contentInsetStartWithNavigation" format="dimension" />
+    <attr name="contentPadding" format="dimension" />
+    <attr name="contentPaddingBottom" format="dimension" />
+    <attr name="contentPaddingLeft" format="dimension" />
+    <attr name="contentPaddingRight" format="dimension" />
+    <attr name="contentPaddingTop" format="dimension" />
+    <attr name="contentScrim" format="color" />
+    <attr name="controlBackground" format="reference" />
+    <attr name="coordinatorLayoutStyle" format="reference" />
+    <attr name="cornerEndBottom" format="dimension" />
+    <attr name="cornerEndTop" format="dimension" />
+    <attr name="cornerFamily">
+        <enum name="cut" value="1" />
+        <enum name="rounded" value="0" />
+    </attr>
+    <attr name="cornerFamilyBottomLeft">
+        <enum name="cut" value="1" />
+        <enum name="rounded" value="0" />
+    </attr>
+    <attr name="cornerFamilyBottomRight">
+        <enum name="cut" value="1" />
+        <enum name="rounded" value="0" />
+    </attr>
+    <attr name="cornerFamilyTopLeft">
+        <enum name="cut" value="1" />
+        <enum name="rounded" value="0" />
+    </attr>
+    <attr name="cornerFamilyTopRight">
+        <enum name="cut" value="1" />
+        <enum name="rounded" value="0" />
+    </attr>
+    <attr name="cornerRadius" format="dimension" />
+    <attr name="cornerSize" format="dimension|fraction" />
+    <attr name="cornerSizeBottomLeft" format="dimension|fraction" />
+    <attr name="cornerSizeBottomRight" format="dimension|fraction" />
+    <attr name="cornerSizeTopLeft" format="dimension|fraction" />
+    <attr name="cornerSizeTopRight" format="dimension|fraction" />
+    <attr name="cornerStartBottom" format="dimension" />
+    <attr name="cornerStartTop" format="dimension" />
+    <attr name="corners" format="dimension" />
+    <attr name="countBackground" format="reference|color" />
+    <attr name="countTextBackgroundColor" format="color" />
+    <attr name="countTextColor" format="color" />
+    <attr name="countTextSize" format="dimension" />
+    <attr name="counterEnabled" format="boolean" />
+    <attr name="counterMaxLength" format="integer" />
+    <attr name="counterOverflowTextAppearance" format="reference" />
+    <attr name="counterOverflowTextColor" format="reference" />
+    <attr name="counterTextAppearance" format="reference" />
+    <attr name="counterTextColor" format="reference" />
+    <attr name="createLiveIcon" format="reference" />
+    <attr name="createPostIcon" format="reference" />
+    <attr name="createReelIcon" format="reference" />
+    <attr name="createVodIcon" format="reference" />
+    <attr name="cropInfo" format="string" />
+    <attr name="cursor_color" format="color" />
+    <attr name="customBoolean" format="boolean" />
+    <attr name="customColorDrawableValue" format="color" />
+    <attr name="customColorValue" format="color" />
+    <attr name="customDimension" format="dimension" />
+    <attr name="customFloatValue" format="float" />
+    <attr name="customIntegerValue" format="integer" />
+    <attr name="customNavigationLayout" format="reference" />
+    <attr name="customPixelDimension" format="dimension" />
+    <attr name="customReference" format="reference" />
+    <attr name="customStringValue" format="string" />
+    <attr name="customTextAlignment" format="boolean" />
+    <attr name="dayInvalidStyle" format="reference" />
+    <attr name="daySelectedStyle" format="reference" />
+    <attr name="dayStyle" format="reference" />
+    <attr name="dayTodayStyle" format="reference" />
+    <attr name="defaultDrawable" format="reference" />
+    <attr name="defaultItemSelector" format="reference" />
+    <attr name="defaultMarginsEnabled" format="boolean" />
+    <attr name="defaultQueryHint" format="string" />
+    <attr name="defaultScrollFlagsEnabled" format="boolean" />
+    <attr name="defaultTint" format="reference|color" />
+    <attr name="defaultValue" format="reference|string|integer|boolean|float" />
+    <attr name="dependency" format="string" />
+    <attr name="deriveConstraintsFrom" format="reference" />
+    <attr name="dialogCornerRadius" format="dimension" />
+    <attr name="dialogIcon" format="reference" />
+    <attr name="dialogLayout" format="reference" />
+    <attr name="dialogMessage" format="string" />
+    <attr name="dialogPreferenceStyle" format="reference" />
+    <attr name="dialogPreferredPadding" format="dimension" />
+    <attr name="dialogTheme" format="reference" />
+    <attr name="dialogTitle" format="string" />
+    <attr name="diameter" format="dimension" />
+    <attr name="disableDependentsState" format="boolean" />
+    <attr name="disabledDrawable" format="reference" />
+    <attr name="discMinTouchTargetSize" format="dimension" />
+    <attr name="discPlaceholderColor" format="color" />
+    <attr name="displayNameTextAppearance" format="reference" />
+    <attr name="displayOptions">
+        <flag name="disableHome" value="0x00000020" />
+        <flag name="homeAsUp" value="0x00000004" />
+        <flag name="none" value="0x00000000" />
+        <flag name="showCustom" value="0x00000010" />
+        <flag name="showHome" value="0x00000002" />
+        <flag name="showTitle" value="0x00000008" />
+        <flag name="useLogo" value="0x00000001" />
+    </attr>
+    <attr name="divider" format="reference" />
+    <attr name="dividerDrawable" format="reference" />
+    <attr name="dividerDrawableHorizontal" format="reference" />
+    <attr name="dividerDrawableVertical" format="reference" />
+    <attr name="dividerHorizontal" format="reference" />
+    <attr name="dividerPadding" format="dimension" />
+    <attr name="dividerVertical" format="reference" />
+    <attr name="dotBackground" format="reference|color" />
+    <attr name="dotColorTheme">
+        <enum name="dark" value="1" />
+        <enum name="light" value="0" />
+    </attr>
+    <attr name="dotStrokeColor" format="reference|color" />
+    <attr name="downloadsPageEmptyIcon" format="reference" />
+    <attr name="drawPath">
+        <enum name="asConfigured" value="4" />
+        <enum name="deltaRelative" value="3" />
+        <enum name="none" value="0" />
+        <enum name="path" value="1" />
+        <enum name="pathRelative" value="2" />
+        <enum name="rectangles" value="5" />
+    </attr>
+    <attr name="drawableBottomCompat" format="reference" />
+    <attr name="drawableEndCompat" format="reference" />
+    <attr name="drawableLeftCompat" format="reference" />
+    <attr name="drawableRightCompat" format="reference" />
+    <attr name="drawableSize" format="dimension" />
+    <attr name="drawableStart" format="reference" />
+    <attr name="drawableStartCompat" format="reference" />
+    <attr name="drawableTint" format="color" />
+    <attr name="drawableTintMode">
+        <enum name="add" value="16" />
+        <enum name="multiply" value="14" />
+        <enum name="screen" value="15" />
+        <enum name="src_atop" value="9" />
+        <enum name="src_in" value="5" />
+        <enum name="src_over" value="3" />
+    </attr>
+    <attr name="drawableTopCompat" format="reference" />
+    <attr name="drawerArrowStyle" format="reference" />
+    <attr name="dropDownListViewStyle" format="reference" />
+    <attr name="dropdownListPreferredItemHeight" format="dimension" />
+    <attr name="dropdownPreferenceStyle" format="reference" />
+    <attr name="dynamic_sticker_background" format="color" />
+    <attr name="dynamic_sticker_text_color" format="color" />
+    <attr name="dynamic_sticker_title_text_color" format="color" />
+    <attr name="editLocationTheme" format="reference" />
+    <attr name="editTextBackground" format="reference" />
+    <attr name="editTextColor" format="reference|color" />
+    <attr name="editTextPreferenceStyle" format="reference" />
+    <attr name="editTextStyle" format="reference" />
+    <attr name="edit_location_add_icon" format="reference" />
+    <attr name="edit_location_back_icon" format="reference" />
+    <attr name="edit_location_delete_icon" format="reference" />
+    <attr name="edit_location_divider_color" format="color" />
+    <attr name="edit_location_field_icon" format="reference" />
+    <attr name="edit_location_suggestion_background_color" format="color" />
+    <attr name="edit_location_suggestion_stroke_color" format="color" />
+    <attr name="edit_location_suggestion_stroke_width" format="dimension" />
+    <attr name="edit_location_suggestion_text_color" format="color" />
+    <attr name="edit_location_suggestion_text_highlight_color" format="color" />
+    <attr name="editorButtonLayout">
+        <enum name="reel_editor_tool" value="0" />
+        <enum name="shorts_camera" value="2" />
+        <enum name="shorts_camera_toolbar" value="1" />
+    </attr>
+    <attr name="elevation" format="dimension" />
+    <attr name="elevationOverlayAccentColor" format="color" />
+    <attr name="elevationOverlayColor" format="color" />
+    <attr name="elevationOverlayEnabled" format="boolean" />
+    <attr name="emptyViewLayout" format="reference" />
+    <attr name="enableCopying" format="boolean" />
+    <attr name="enableEdgeToEdge" format="boolean" />
+    <attr name="enablePlayhead" format="boolean" />
+    <attr name="enabled" format="boolean" />
+    <attr name="endColor" format="color" />
+    <attr name="endIconCheckable" format="boolean" />
+    <attr name="endIconContentDescription" format="string" />
+    <attr name="endIconDrawable" format="reference" />
+    <attr name="endIconMode">
+        <enum name="clear_text" value="2" />
+        <enum name="custom" value="-1" />
+        <enum name="dropdown_menu" value="3" />
+        <enum name="none" value="0" />
+        <enum name="password_toggle" value="1" />
+    </attr>
+    <attr name="endIconTint" format="color" />
+    <attr name="endIconTintMode">
+        <enum name="multiply" value="14" />
+        <enum name="screen" value="15" />
+        <enum name="src_atop" value="9" />
+        <enum name="src_in" value="5" />
+        <enum name="src_over" value="3" />
+    </attr>
+    <attr name="endSize" format="dimension" />
+    <attr name="end_background" format="reference|color" />
+    <attr name="end_layout" format="reference" />
+    <attr name="enforceMaterialTheme" format="boolean" />
+    <attr name="enforceTextAppearance" format="boolean" />
+    <attr name="engagementLowerPanelId" format="reference" />
+    <attr name="engagementPanelId" format="reference" />
+    <attr name="engagementPanelWrapperId" format="reference" />
+    <attr name="enlargedDiscs" format="boolean" />
+    <attr name="ensureDiscMinTouchTargetSize" format="boolean" />
+    <attr name="ensureMinTouchTargetSize" format="boolean" />
+    <attr name="entries" format="reference" />
+    <attr name="entryValues" format="reference" />
+    <attr name="errorContentDescription" format="string" />
+    <attr name="errorDrawable" format="reference" />
+    <attr name="errorEnabled" format="boolean" />
+    <attr name="errorIconDrawable" format="reference" />
+    <attr name="errorIconTint" format="reference" />
+    <attr name="errorIconTintMode">
+        <enum name="multiply" value="14" />
+        <enum name="screen" value="15" />
+        <enum name="src_atop" value="9" />
+        <enum name="src_in" value="5" />
+        <enum name="src_over" value="3" />
+    </attr>
+    <attr name="errorTextAppearance" format="reference" />
+    <attr name="errorTextColor" format="color" />
+    <attr name="errorViewLayout" format="reference" />
+    <attr name="expandButtonIcon" format="reference" />
+    <attr name="expanded" format="boolean" />
+    <attr name="expandedHintEnabled" format="boolean" />
+    <attr name="expandedTitleGravity">
+        <flag name="bottom" value="0x00000050" />
+        <flag name="center" value="0x00000011" />
+        <flag name="center_horizontal" value="0x00000001" />
+        <flag name="center_vertical" value="0x00000010" />
+        <flag name="end" value="0x00800005" />
+        <flag name="fill_vertical" value="0x00000070" />
+        <flag name="left" value="0x00000003" />
+        <flag name="right" value="0x00000005" />
+        <flag name="start" value="0x00800003" />
+        <flag name="top" value="0x00000030" />
+    </attr>
+    <attr name="expandedTitleMargin" format="dimension" />
+    <attr name="expandedTitleMarginBottom" format="dimension" />
+    <attr name="expandedTitleMarginEnd" format="dimension" />
+    <attr name="expandedTitleMarginStart" format="dimension" />
+    <attr name="expandedTitleMarginTop" format="dimension" />
+    <attr name="expandedTitleTextAppearance" format="reference" />
+    <attr name="expandedTitleTextColor" format="reference|color" />
+    <attr name="expressSignInDialogStyle" format="reference" />
+    <attr name="extendedFloatingActionButtonBrandedStyle" format="reference" />
+    <attr name="extendedFloatingActionButtonPrimaryStyle" format="reference" />
+    <attr name="extendedFloatingActionButtonStyle" format="reference" />
+    <attr name="externalRouteEnabledDrawable" format="reference" />
+    <attr name="externalRouteEnabledDrawableStatic" format="reference" />
+    <attr name="extraMultilineHeightEnabled" format="boolean" />
+    <attr name="fabAnimationMode">
+        <enum name="scale" value="0" />
+        <enum name="slide" value="1" />
+    </attr>
+    <attr name="fabCradleMargin" format="dimension" />
+    <attr name="fabCradleRoundedCornerRadius" format="dimension" />
+    <attr name="fabCradleVerticalOffset" format="dimension" />
+    <attr name="fabCustomSize" format="dimension" />
+    <attr name="fabSize">
+        <enum name="auto" value="-1" />
+        <enum name="mini" value="1" />
+        <enum name="normal" value="0" />
+    </attr>
+    <attr name="fastScrollEnabled" format="boolean" />
+    <attr name="fastScrollHorizontalThumbDrawable" format="reference" />
+    <attr name="fastScrollHorizontalTrackDrawable" format="reference" />
+    <attr name="fastScrollVerticalThumbDrawable" format="reference" />
+    <attr name="fastScrollVerticalTrackDrawable" format="reference" />
+    <attr name="fillWidthWhenVertical" format="boolean" />
+    <attr name="firstBaselineToTopHeight" format="dimension" />
+    <attr name="flexDirection">
+        <enum name="column" value="2" />
+        <enum name="column_reverse" value="3" />
+        <enum name="row" value="0" />
+        <enum name="row_reverse" value="1" />
+    </attr>
+    <attr name="flexWrap">
+        <enum name="nowrap" value="0" />
+        <enum name="wrap" value="1" />
+        <enum name="wrap_reverse" value="2" />
+    </attr>
+    <attr name="floatingActionButtonBrandedStyle" format="reference" />
+    <attr name="floatingActionButtonPrimaryStyle" format="reference" />
+    <attr name="floatingActionButtonSecondaryStyle" format="reference" />
+    <attr name="floatingActionButtonStyle" format="reference" />
+    <attr name="floatingActionButtonSurfaceStyle" format="reference" />
+    <attr name="floatyBarControlsViewId" format="reference" />
+    <attr name="floatyBarTimeBarId" format="reference" />
+    <attr name="flow_firstHorizontalBias" format="float" />
+    <attr name="flow_firstHorizontalStyle">
+        <enum name="packed" value="2" />
+        <enum name="spread" value="0" />
+        <enum name="spread_inside" value="1" />
+    </attr>
+    <attr name="flow_firstVerticalBias" format="float" />
+    <attr name="flow_firstVerticalStyle">
+        <enum name="packed" value="2" />
+        <enum name="spread" value="0" />
+        <enum name="spread_inside" value="1" />
+    </attr>
+    <attr name="flow_horizontalAlign">
+        <enum name="center" value="2" />
+        <enum name="end" value="1" />
+        <enum name="start" value="0" />
+    </attr>
+    <attr name="flow_horizontalBias" format="float" />
+    <attr name="flow_horizontalGap" format="dimension" />
+    <attr name="flow_horizontalStyle">
+        <enum name="packed" value="2" />
+        <enum name="spread" value="0" />
+        <enum name="spread_inside" value="1" />
+    </attr>
+    <attr name="flow_lastHorizontalBias" format="float" />
+    <attr name="flow_lastHorizontalStyle">
+        <enum name="packed" value="2" />
+        <enum name="spread" value="0" />
+        <enum name="spread_inside" value="1" />
+    </attr>
+    <attr name="flow_lastVerticalBias" format="float" />
+    <attr name="flow_lastVerticalStyle">
+        <enum name="packed" value="2" />
+        <enum name="spread" value="0" />
+        <enum name="spread_inside" value="1" />
+    </attr>
+    <attr name="flow_maxElementsWrap" format="integer" />
+    <attr name="flow_verticalAlign">
+        <enum name="baseline" value="3" />
+        <enum name="bottom" value="1" />
+        <enum name="center" value="2" />
+        <enum name="top" value="0" />
+    </attr>
+    <attr name="flow_verticalBias" format="float" />
+    <attr name="flow_verticalGap" format="dimension" />
+    <attr name="flow_verticalStyle">
+        <enum name="packed" value="2" />
+        <enum name="spread" value="0" />
+        <enum name="spread_inside" value="1" />
+    </attr>
+    <attr name="flow_wrapMode">
+        <enum name="aligned" value="2" />
+        <enum name="chain" value="1" />
+        <enum name="none" value="0" />
+    </attr>
+    <attr name="font" format="reference" />
+    <attr name="fontFamily" format="string" />
+    <attr name="fontProviderAuthority" format="string" />
+    <attr name="fontProviderCerts" format="reference" />
+    <attr name="fontProviderFetchStrategy">
+        <enum name="async" value="1" />
+        <enum name="blocking" value="0" />
+    </attr>
+    <attr name="fontProviderFetchTimeout" format="integer">
+        <enum name="forever" value="-1" />
+    </attr>
+    <attr name="fontProviderPackage" format="string" />
+    <attr name="fontProviderQuery" format="string" />
+    <attr name="fontProviderSystemFontFamily" format="string" />
+    <attr name="fontStyle">
+        <enum name="italic" value="1" />
+        <enum name="normal" value="0" />
+    </attr>
+    <attr name="fontVariationSettings" format="string" />
+    <attr name="fontWeight" format="integer" />
+    <attr name="footerViewId" format="reference" />
+    <attr name="forSdCard" format="boolean" />
+    <attr name="forceApplySystemWindowInsetTop" format="boolean" />
+    <attr name="forceVerticalLayout" format="boolean" />
+    <attr name="foregroundInsidePadding" format="boolean" />
+    <attr name="fragment" format="string" />
+    <attr name="framedCardBackground" format="reference|color" />
+    <attr name="fullscreenEngagementActionBarToggleButtonColor" format="reference|color" />
+    <attr name="fullscreenEngagementActionBarToggleButtonSelectedColor" format="reference|color" />
+    <attr name="gapBetweenBars" format="dimension" />
+    <attr name="gap_between_cursors" format="dimension" />
+    <attr name="gestureInsetBottomIgnored" format="boolean" />
+    <attr name="ghostCardBackground" format="reference|color" />
+    <attr name="globalTint" format="reference|color" />
+    <attr name="goIcon" format="reference" />
+    <attr name="haloColor" format="color" />
+    <attr name="haloRadius" format="dimension" />
+    <attr name="handleDrawable" format="reference" />
+    <attr name="hapticFeedbackWhileZoomed" format="boolean" />
+    <attr name="hasShadow" format="boolean" />
+    <attr name="height" format="dimension" />
+    <attr name="heightRatio" format="integer" />
+    <attr name="helperText" format="string" />
+    <attr name="helperTextEnabled" format="boolean" />
+    <attr name="helperTextTextAppearance" format="reference" />
+    <attr name="helperTextTextColor" format="color" />
+    <attr name="hideAnimationBehavior">
+        <enum name="inward" value="2" />
+        <enum name="none" value="0" />
+        <enum name="outward" value="1" />
+    </attr>
+    <attr name="hideMotionSpec" format="reference" />
+    <attr name="hideNavigationIcon" format="boolean" />
+    <attr name="hideOnContentScroll" format="boolean" />
+    <attr name="highlighted_text_color" format="color" />
+    <attr name="hintAnimationEnabled" format="boolean" />
+    <attr name="hintEnabled" format="boolean" />
+    <attr name="hintText" format="reference" />
+    <attr name="hintTextAppearance" format="reference" />
+    <attr name="hintTextColor" format="color" />
+    <attr name="homeAsUpIndicator" format="reference" />
+    <attr name="homeLayout" format="reference" />
+    <attr name="horizontalPadding" format="dimension" />
+    <attr name="horizontalPaddingBottom" format="dimension" />
+    <attr name="horizontalPaddingEnd" format="dimension" />
+    <attr name="horizontalPaddingStart" format="dimension" />
+    <attr name="horizontalPaddingTop" format="dimension" />
+    <attr name="horizontalSpacing" format="dimension" />
+    <attr name="hoveredFocusedTranslationZ" format="dimension" />
+    <attr name="hyperlinkClickBackground" format="color" />
+    <attr name="hyperlinksClickable" format="boolean" />
+    <attr name="icon" format="reference" />
+    <attr name="iconDrawable" format="reference" />
+    <attr name="iconEndPadding" format="dimension" />
+    <attr name="iconGravity">
+        <flag name="end" value="0x00000003" />
+        <flag name="start" value="0x00000001" />
+        <flag name="textEnd" value="0x00000004" />
+        <flag name="textStart" value="0x00000002" />
+        <flag name="textTop" value="0x00000020" />
+        <flag name="top" value="0x00000010" />
+    </attr>
+    <attr name="iconPadding" format="dimension" />
+    <attr name="iconSize" format="dimension" />
+    <attr name="iconSpaceReserved" format="boolean" />
+    <attr name="iconStartPadding" format="dimension" />
+    <attr name="iconTint" format="color" />
+    <attr name="iconTintMode">
+        <enum name="add" value="16" />
+        <enum name="multiply" value="14" />
+        <enum name="screen" value="15" />
+        <enum name="src_atop" value="9" />
+        <enum name="src_in" value="5" />
+        <enum name="src_over" value="3" />
+    </attr>
+    <attr name="iconifiedByDefault" format="boolean" />
+    <attr name="ignoreAspectRatio" format="boolean" />
+    <attr name="imageButtonStyle" format="reference" />
+    <attr name="imageViewSize" format="dimension" />
+    <attr name="image_tab_layout" format="reference" />
+    <attr name="indeterminateAnimationType">
+        <enum name="contiguous" value="0" />
+        <enum name="disjoint" value="1" />
+    </attr>
+    <attr name="indeterminateProgressStyle" format="reference" />
+    <attr name="indicatorColor" format="reference|color" />
+    <attr name="indicatorDirectionCircular">
+        <enum name="clockwise" value="0" />
+        <enum name="counterclockwise" value="1" />
+    </attr>
+    <attr name="indicatorDirectionLinear">
+        <enum name="endToStart" value="3" />
+        <enum name="leftToRight" value="0" />
+        <enum name="rightToLeft" value="1" />
+        <enum name="startToEnd" value="2" />
+    </attr>
+    <attr name="indicatorInset" format="dimension" />
+    <attr name="indicatorSize" format="dimension" />
+    <attr name="infocards_iconDrawable" format="reference" />
+    <attr name="infocards_labelTextColor" format="reference" />
+    <attr name="infocards_labelTextSize" format="dimension" />
+    <attr name="infocards_overlayBackgroundOpaque" format="color" />
+    <attr name="infocards_overlayBackgroundTranslucent" format="color" />
+    <attr name="infocards_renderThumbnailAsSquare" format="boolean" />
+    <attr name="initialExpandedChildrenCount" format="integer" />
+    <attr name="insetForeground" format="reference|color" />
+    <attr name="interceptSideScroll" format="boolean" />
+    <attr name="introGetStartedButtonBackground" format="reference|color" />
+    <attr name="isLightTheme" format="boolean" />
+    <attr name="isMaterialTheme" format="boolean" />
+    <attr name="isPreferenceVisible" format="boolean" />
+    <attr name="itemBackground" format="reference" />
+    <attr name="itemCount" format="integer" />
+    <attr name="itemFillColor" format="color" />
+    <attr name="itemGap" format="dimension" />
+    <attr name="itemHorizontalPadding" format="dimension" />
+    <attr name="itemHorizontalTranslationEnabled" format="boolean" />
+    <attr name="itemIconPadding" format="dimension" />
+    <attr name="itemIconSize" format="dimension" />
+    <attr name="itemIconTint" format="color" />
+    <attr name="itemPadding" format="dimension" />
+    <attr name="itemPeekAmount" format="dimension" />
+    <attr name="itemRippleColor" format="color" />
+    <attr name="itemShapeAppearance" format="reference" />
+    <attr name="itemShapeAppearanceOverlay" format="reference" />
+    <attr name="itemShapeFillColor" format="color" />
+    <attr name="itemShapeInsetBottom" format="dimension" />
+    <attr name="itemShapeInsetEnd" format="dimension" />
+    <attr name="itemShapeInsetStart" format="dimension" />
+    <attr name="itemShapeInsetTop" format="dimension" />
+    <attr name="itemStrokeColor" format="color" />
+    <attr name="itemStrokeWidth" format="dimension" />
+    <attr name="itemTextAppearance" format="reference" />
+    <attr name="itemTextAppearanceActive" format="reference" />
+    <attr name="itemTextAppearanceInactive" format="reference" />
+    <attr name="itemTextColor" format="color" />
+    <attr name="justifyContent">
+        <enum name="center" value="2" />
+        <enum name="flex_end" value="1" />
+        <enum name="flex_start" value="0" />
+        <enum name="space_around" value="4" />
+        <enum name="space_between" value="3" />
+        <enum name="space_evenly" value="5" />
+    </attr>
+    <attr name="key" format="string" />
+    <attr name="keyboardIcon" format="reference" />
+    <attr name="keylines" format="reference" />
+    <attr name="lStar" format="float" />
+    <attr name="labelStyle" format="reference" />
+    <attr name="labelTextColor" format="reference" />
+    <attr name="labelTextSize" format="dimension" />
+    <attr name="labelVisibilityMode">
+        <enum name="auto" value="-1" />
+        <enum name="labeled" value="1" />
+        <enum name="selected" value="0" />
+        <enum name="unlabeled" value="2" />
+    </attr>
+    <attr name="lastBaselineToBottomHeight" format="dimension" />
+    <attr name="layout" format="reference" />
+    <attr name="layoutDescription" format="reference" />
+    <attr name="layoutManager" format="string" />
+    <attr name="layout_alignSelf">
+        <enum name="auto" value="-1" />
+        <enum name="baseline" value="3" />
+        <enum name="center" value="2" />
+        <enum name="flex_end" value="1" />
+        <enum name="flex_start" value="0" />
+        <enum name="stretch" value="4" />
+    </attr>
+    <attr name="layout_anchor" format="reference" />
+    <attr name="layout_anchorGravity">
+        <flag name="bottom" value="0x00000050" />
+        <flag name="center" value="0x00000011" />
+        <flag name="center_horizontal" value="0x00000001" />
+        <flag name="center_vertical" value="0x00000010" />
+        <flag name="clip_horizontal" value="0x00000008" />
+        <flag name="clip_vertical" value="0x00000080" />
+        <flag name="end" value="0x00800005" />
+        <flag name="fill" value="0x00000077" />
+        <flag name="fill_horizontal" value="0x00000007" />
+        <flag name="fill_vertical" value="0x00000070" />
+        <flag name="left" value="0x00000003" />
+        <flag name="right" value="0x00000005" />
+        <flag name="start" value="0x00800003" />
+        <flag name="top" value="0x00000030" />
+    </attr>
+    <attr name="layout_behavior" format="string" />
+    <attr name="layout_collapseMode">
+        <enum name="none" value="0" />
+        <enum name="parallax" value="2" />
+        <enum name="pin" value="1" />
+    </attr>
+    <attr name="layout_collapseParallaxMultiplier" format="float" />
+    <attr name="layout_constrainedHeight" format="boolean" />
+    <attr name="layout_constrainedWidth" format="boolean" />
+    <attr name="layout_constraintBaseline_creator" format="integer" />
+    <attr name="layout_constraintBaseline_toBaselineOf" format="reference">
+        <enum name="parent" value="0" />
+    </attr>
+    <attr name="layout_constraintBaseline_toBottomOf" format="reference">
+        <enum name="parent" value="0" />
+    </attr>
+    <attr name="layout_constraintBaseline_toTopOf" format="reference">
+        <enum name="parent" value="0" />
+    </attr>
+    <attr name="layout_constraintBottom_creator" format="integer" />
+    <attr name="layout_constraintBottom_toBottomOf" format="reference">
+        <enum name="parent" value="0" />
+    </attr>
+    <attr name="layout_constraintBottom_toTopOf" format="reference">
+        <enum name="parent" value="0" />
+    </attr>
+    <attr name="layout_constraintCircle" format="reference" />
+    <attr name="layout_constraintCircleAngle" format="integer" />
+    <attr name="layout_constraintCircleRadius" format="dimension" />
+    <attr name="layout_constraintDimensionRatio" format="string" />
+    <attr name="layout_constraintEnd_toEndOf" format="reference">
+        <enum name="parent" value="0" />
+    </attr>
+    <attr name="layout_constraintEnd_toStartOf" format="reference">
+        <enum name="parent" value="0" />
+    </attr>
+    <attr name="layout_constraintGuide_begin" format="dimension" />
+    <attr name="layout_constraintGuide_end" format="dimension" />
+    <attr name="layout_constraintGuide_percent" format="float" />
+    <attr name="layout_constraintHeight" format="string|dimension">
+        <enum name="match_constraint" value="-3" />
+        <enum name="match_parent" value="-1" />
+        <enum name="wrap_content" value="-2" />
+        <enum name="wrap_content_constrained" value="-4" />
+    </attr>
+    <attr name="layout_constraintHeight_default">
+        <enum name="percent" value="2" />
+        <enum name="spread" value="0" />
+        <enum name="wrap" value="1" />
+    </attr>
+    <attr name="layout_constraintHeight_max" format="dimension">
+        <enum name="wrap" value="-2" />
+    </attr>
+    <attr name="layout_constraintHeight_min" format="dimension">
+        <enum name="wrap" value="-2" />
+    </attr>
+    <attr name="layout_constraintHeight_percent" format="float" />
+    <attr name="layout_constraintHorizontal_bias" format="float" />
+    <attr name="layout_constraintHorizontal_chainStyle">
+        <enum name="packed" value="2" />
+        <enum name="spread" value="0" />
+        <enum name="spread_inside" value="1" />
+    </attr>
+    <attr name="layout_constraintHorizontal_weight" format="float" />
+    <attr name="layout_constraintLeft_creator" format="integer" />
+    <attr name="layout_constraintLeft_toLeftOf" format="reference">
+        <enum name="parent" value="0" />
+    </attr>
+    <attr name="layout_constraintLeft_toRightOf" format="reference">
+        <enum name="parent" value="0" />
+    </attr>
+    <attr name="layout_constraintRight_creator" format="integer" />
+    <attr name="layout_constraintRight_toLeftOf" format="reference">
+        <enum name="parent" value="0" />
+    </attr>
+    <attr name="layout_constraintRight_toRightOf" format="reference">
+        <enum name="parent" value="0" />
+    </attr>
+    <attr name="layout_constraintStart_toEndOf" format="reference">
+        <enum name="parent" value="0" />
+    </attr>
+    <attr name="layout_constraintStart_toStartOf" format="reference">
+        <enum name="parent" value="0" />
+    </attr>
+    <attr name="layout_constraintTag" format="string" />
+    <attr name="layout_constraintTop_creator" format="integer" />
+    <attr name="layout_constraintTop_toBottomOf" format="reference">
+        <enum name="parent" value="0" />
+    </attr>
+    <attr name="layout_constraintTop_toTopOf" format="reference">
+        <enum name="parent" value="0" />
+    </attr>
+    <attr name="layout_constraintVertical_bias" format="float" />
+    <attr name="layout_constraintVertical_chainStyle">
+        <enum name="packed" value="2" />
+        <enum name="spread" value="0" />
+        <enum name="spread_inside" value="1" />
+    </attr>
+    <attr name="layout_constraintVertical_weight" format="float" />
+    <attr name="layout_constraintWidth" format="string|dimension">
+        <enum name="match_constraint" value="-3" />
+        <enum name="match_parent" value="-1" />
+        <enum name="wrap_content" value="-2" />
+        <enum name="wrap_content_constrained" value="-4" />
+    </attr>
+    <attr name="layout_constraintWidth_default">
+        <enum name="percent" value="2" />
+        <enum name="spread" value="0" />
+        <enum name="wrap" value="1" />
+    </attr>
+    <attr name="layout_constraintWidth_max" format="dimension">
+        <enum name="wrap" value="-2" />
+    </attr>
+    <attr name="layout_constraintWidth_min" format="dimension">
+        <enum name="wrap" value="-2" />
+    </attr>
+    <attr name="layout_constraintWidth_percent" format="float" />
+    <attr name="layout_dodgeInsetEdges">
+        <flag name="all" value="0x00000077" />
+        <flag name="bottom" value="0x00000050" />
+        <flag name="end" value="0x00800005" />
+        <flag name="left" value="0x00000003" />
+        <flag name="none" value="0x00000000" />
+        <flag name="right" value="0x00000005" />
+        <flag name="start" value="0x00800003" />
+        <flag name="top" value="0x00000030" />
+    </attr>
+    <attr name="layout_editor_absoluteX" format="dimension" />
+    <attr name="layout_editor_absoluteY" format="dimension" />
+    <attr name="layout_flexBasisPercent" format="fraction" />
+    <attr name="layout_flexGrow" format="float" />
+    <attr name="layout_flexShrink" format="float" />
+    <attr name="layout_goneMarginBaseline" format="dimension" />
+    <attr name="layout_goneMarginBottom" format="dimension" />
+    <attr name="layout_goneMarginEnd" format="dimension" />
+    <attr name="layout_goneMarginLeft" format="dimension" />
+    <attr name="layout_goneMarginRight" format="dimension" />
+    <attr name="layout_goneMarginStart" format="dimension" />
+    <attr name="layout_goneMarginTop" format="dimension" />
+    <attr name="layout_insetEdge">
+        <enum name="bottom" value="80" />
+        <enum name="end" value="8388613" />
+        <enum name="left" value="3" />
+        <enum name="none" value="0" />
+        <enum name="right" value="5" />
+        <enum name="start" value="8388611" />
+        <enum name="top" value="48" />
+    </attr>
+    <attr name="layout_isInsetView" format="boolean" />
+    <attr name="layout_keyline" format="integer" />
+    <attr name="layout_marginBaseline" format="dimension" />
+    <attr name="layout_maxHeight" format="dimension" />
+    <attr name="layout_maxWidth" format="dimension" />
+    <attr name="layout_minHeight" format="dimension" />
+    <attr name="layout_minWidth" format="dimension" />
+    <attr name="layout_optimizationLevel">
+        <flag name="barrier" value="0x00000002" />
+        <flag name="cache_measures" value="0x00000100" />
+        <flag name="chains" value="0x00000004" />
+        <flag name="dependency_ordering" value="0x00000200" />
+        <flag name="dimensions" value="0x00000008" />
+        <flag name="direct" value="0x00000001" />
+        <flag name="graph" value="0x00000040" />
+        <flag name="graph_wrap" value="0x00000080" />
+        <flag name="grouping" value="0x00000400" />
+        <flag name="groups" value="0x00000020" />
+        <flag name="legacy" value="0x00000000" />
+        <flag name="none" value="0x00000000" />
+        <flag name="ratio" value="0x00000010" />
+        <flag name="standard" value="0x00000101" />
+    </attr>
+    <attr name="layout_order" format="integer" />
+    <attr name="layout_scrollEffect">
+        <enum name="compress" value="1" />
+        <enum name="none" value="0" />
+    </attr>
+    <attr name="layout_scrollFlags">
+        <flag name="enterAlways" value="0x00000004" />
+        <flag name="enterAlwaysCollapsed" value="0x00000008" />
+        <flag name="exitUntilCollapsed" value="0x00000002" />
+        <flag name="noScroll" value="0x00000000" />
+        <flag name="scroll" value="0x00000001" />
+        <flag name="snap" value="0x00000010" />
+        <flag name="snapMargins" value="0x00000020" />
+    </attr>
+    <attr name="layout_scrollInterpolator" format="reference" />
+    <attr name="layout_wrapBefore" format="boolean" />
+    <attr name="layout_wrapBehaviorInParent">
+        <enum name="horizontal_only" value="1" />
+        <enum name="included" value="0" />
+        <enum name="skipped" value="3" />
+        <enum name="vertical_only" value="2" />
+    </attr>
+    <attr name="liftOnScroll" format="boolean" />
+    <attr name="liftOnScrollTargetViewId" format="reference" />
+    <attr name="lineColor" format="color" />
+    <attr name="lineHeight" format="dimension" />
+    <attr name="lineSpacing" format="dimension" />
+    <attr name="lineWeight" format="dimension" />
+    <attr name="linearProgressIndicatorStyle" format="reference" />
+    <attr name="listChoiceBackgroundIndicator" format="reference" />
+    <attr name="listChoiceIndicatorMultipleAnimated" format="reference" />
+    <attr name="listChoiceIndicatorSingleAnimated" format="reference" />
+    <attr name="listDividerAlertDialog" format="reference" />
+    <attr name="listItemChrome" format="reference|color" />
+    <attr name="listItemLayout" format="reference" />
+    <attr name="listLayout" format="reference" />
+    <attr name="listMenuViewStyle" format="reference" />
+    <attr name="listPopupWindowStyle" format="reference" />
+    <attr name="listPreferredItemHeight" format="dimension" />
+    <attr name="listPreferredItemHeightLarge" format="dimension" />
+    <attr name="listPreferredItemHeightSmall" format="dimension" />
+    <attr name="listPreferredItemPaddingEnd" format="dimension" />
+    <attr name="listPreferredItemPaddingLeft" format="dimension" />
+    <attr name="listPreferredItemPaddingRight" format="dimension" />
+    <attr name="listPreferredItemPaddingStart" format="dimension" />
+    <attr name="liveChatActionButtonBackground" format="reference" />
+    <attr name="liveChatActionButtonBackgroundPrimary" format="reference" />
+    <attr name="liveChatActionPanelChipBackground" format="reference|color" />
+    <attr name="liveChatActionPanelChipBackgroundOverlimit" format="reference|color" />
+    <attr name="liveChatActionPillBackground" format="reference|color" />
+    <attr name="liveChatAutoModHighlightBar" format="reference" />
+    <attr name="liveChatAutoModHighlightColor" format="reference|color" />
+    <attr name="liveChatBannerBackgroundGradient" format="reference" />
+    <attr name="liveChatContentsBackground" format="reference|color" />
+    <attr name="liveChatDonationAnnouncementBackground" format="reference" />
+    <attr name="liveChatEmojiPickerActiveIconColor" format="reference|color" />
+    <attr name="liveChatMetadataBackground" format="reference" />
+    <attr name="liveChatMetadataItemIconColor" format="reference|color" />
+    <attr name="liveChatOverlayDonationAnnouncementBackground" format="reference" />
+    <attr name="liveChatOverlayTextItemBackground" format="reference" />
+    <attr name="liveChatShimmerLoadingFrameBackgroundColor" format="reference" />
+    <attr name="liveChatShimmerLoadingFrameOverlayColor" format="reference" />
+    <attr name="liveChatShimmerLoadingFrameShimmerEndColor" format="reference" />
+    <attr name="liveChatShimmerLoadingFrameShimmerMiddleColor" format="reference" />
+    <attr name="liveChatShimmerLoadingFrameShimmerStartColor" format="reference" />
+    <attr name="liveChatStickerOpenedFromTickerBackground" format="reference" />
+    <attr name="liveChatTierSeekbarTick" format="reference" />
+    <attr name="liveChatTooltipTextColor" format="reference|color" />
+    <attr name="liveChatVerifiedAuthorName" format="reference|color" />
+    <attr name="liveChatVerifiedBadgeChipBackground" format="reference|color" />
+    <attr name="liveChatViewerEngagementMessageBackground" format="reference" />
+    <attr name="loadingFrameErrorDrawable" format="reference" />
+    <attr name="loadingFrameTextColor" format="reference" />
+    <attr name="location_sticker_icon" format="reference" />
+    <attr name="lockupSizingMode">
+        <enum name="auto" value="0" />
+        <enum name="custom" value="-1" />
+        <enum name="normal" value="1" />
+        <enum name="small" value="2" />
+    </attr>
+    <attr name="loggedOutLibrary" format="reference|color" />
+    <attr name="loggedOutSubs" format="reference|color" />
+    <attr name="logo" format="reference" />
+    <attr name="logoColor">
+        <enum name="dark" value="1" />
+        <enum name="grey" value="3" />
+        <enum name="light" value="2" />
+        <enum name="standard" value="0" />
+    </attr>
+    <attr name="logoDescription" format="string" />
+    <attr name="lottieAnimationViewStyle" format="reference" />
+    <attr name="lottie_autoPlay" format="boolean" />
+    <attr name="lottie_cacheComposition" format="boolean" />
+    <attr name="lottie_colorFilter" format="color" />
+    <attr name="lottie_enableMergePathsForKitKatAndAbove" format="boolean" />
+    <attr name="lottie_fallbackRes" format="reference" />
+    <attr name="lottie_fileName" format="string" />
+    <attr name="lottie_ignoreDisabledSystemAnimations" format="boolean" />
+    <attr name="lottie_imageAssetsFolder" format="string" />
+    <attr name="lottie_loop" format="boolean" />
+    <attr name="lottie_progress" format="float" />
+    <attr name="lottie_rawRes" format="reference" />
+    <attr name="lottie_renderMode">
+        <enum name="automatic" value="0" />
+        <enum name="hardware" value="1" />
+        <enum name="software" value="2" />
+    </attr>
+    <attr name="lottie_repeatCount" format="integer" />
+    <attr name="lottie_repeatMode">
+        <enum name="restart" value="1" />
+        <enum name="reverse" value="2" />
+    </attr>
+    <attr name="lottie_scale" format="float" />
+    <attr name="lottie_speed" format="float" />
+    <attr name="lottie_url" format="string" />
+    <attr name="materialAlertDialogBodyTextStyle" format="reference" />
+    <attr name="materialAlertDialogButtonSpacerVisibility" format="integer" />
+    <attr name="materialAlertDialogTheme" format="reference" />
+    <attr name="materialAlertDialogTitleIconStyle" format="reference" />
+    <attr name="materialAlertDialogTitlePanelStyle" format="reference" />
+    <attr name="materialAlertDialogTitleTextStyle" format="reference" />
+    <attr name="materialButtonOutlinedStyle" format="reference" />
+    <attr name="materialButtonStyle" format="reference" />
+    <attr name="materialButtonToggleGroupStyle" format="reference" />
+    <attr name="materialCalendarDay" format="reference" />
+    <attr name="materialCalendarDayOfWeekLabel" format="reference" />
+    <attr name="materialCalendarFullscreenTheme" format="reference" />
+    <attr name="materialCalendarHeaderCancelButton" format="reference" />
+    <attr name="materialCalendarHeaderConfirmButton" format="reference" />
+    <attr name="materialCalendarHeaderDivider" format="reference" />
+    <attr name="materialCalendarHeaderLayout" format="reference" />
+    <attr name="materialCalendarHeaderSelection" format="reference" />
+    <attr name="materialCalendarHeaderTitle" format="reference" />
+    <attr name="materialCalendarHeaderToggleButton" format="reference" />
+    <attr name="materialCalendarMonth" format="reference" />
+    <attr name="materialCalendarMonthNavigationButton" format="reference" />
+    <attr name="materialCalendarStyle" format="reference" />
+    <attr name="materialCalendarTheme" format="reference" />
+    <attr name="materialCalendarYearNavigationButton" format="reference" />
+    <attr name="materialCardViewElevatedStyle" format="reference" />
+    <attr name="materialCardViewOutlinedStyle" format="reference" />
+    <attr name="materialCardViewStyle" format="reference" />
+    <attr name="materialClockStyle" format="reference" />
+    <attr name="materialDisplayDividerStyle" format="reference" />
+    <attr name="materialThemeOverlay" format="reference" />
+    <attr name="materialTimePickerStyle" format="reference" />
+    <attr name="materialTimePickerTheme" format="reference" />
+    <attr name="maxActionInlineWidth" format="dimension" />
+    <attr name="maxButtonHeight" format="dimension" />
+    <attr name="maxCharacterCount" format="integer" />
+    <attr name="maxColumnCount" format="integer" />
+    <attr name="maxDiscContentSize" format="dimension" />
+    <attr name="maxEmojiCount" format="integer" />
+    <attr name="maxHeight" format="dimension" />
+    <attr name="maxImageSize" format="dimension" />
+    <attr name="maxLine" format="integer" />
+    <attr name="maxLines" format="integer" />
+    <attr name="maxWidth" format="dimension" />
+    <attr name="mdxIcMic" format="reference" />
+    <attr name="measureWithLargestChild" format="boolean" />
+    <attr name="mediaRouteAudioTrackDrawable" format="reference" />
+    <attr name="mediaRouteBodyTextAppearance" format="reference" />
+    <attr name="mediaRouteButtonStyle" format="reference" />
+    <attr name="mediaRouteButtonTint" format="color" />
+    <attr name="mediaRouteCloseDrawable" format="reference" />
+    <attr name="mediaRouteControlPanelThemeOverlay" format="reference" />
+    <attr name="mediaRouteDefaultIconDrawable" format="reference" />
+    <attr name="mediaRouteDividerColor" format="color" />
+    <attr name="mediaRouteHeaderTextAppearance" format="reference" />
+    <attr name="mediaRoutePauseDrawable" format="reference" />
+    <attr name="mediaRoutePlayDrawable" format="reference" />
+    <attr name="mediaRouteSpeakerGroupIconDrawable" format="reference" />
+    <attr name="mediaRouteSpeakerIconDrawable" format="reference" />
+    <attr name="mediaRouteStopDrawable" format="reference" />
+    <attr name="mediaRouteTheme" format="reference" />
+    <attr name="mediaRouteTvIconDrawable" format="reference" />
+    <attr name="menu" format="reference" />
+    <attr name="menuGravity">
+        <enum name="bottom" value="81" />
+        <enum name="center" value="17" />
+        <enum name="top" value="49" />
+    </attr>
+    <attr name="messageTextColor" format="color" />
+    <attr name="metadataViewId" format="reference" />
+    <attr name="metadataeditor_location_add_icon" format="reference" />
+    <attr name="metadataeditor_location_back_icon" format="reference" />
+    <attr name="metadataeditor_location_delete_icon" format="reference" />
+    <attr name="metadataeditor_location_divider_color" format="color" />
+    <attr name="metadataeditor_location_field_icon" format="reference" />
+    <attr name="metadataeditor_location_suggestion_background_color" format="color" />
+    <attr name="metadataeditor_location_suggestion_stroke_color" format="color" />
+    <attr name="metadataeditor_location_suggestion_stroke_width" format="dimension" />
+    <attr name="metadataeditor_location_suggestion_text_color" format="color" />
+    <attr name="metadataeditor_location_suggestion_text_highlight_color" format="color" />
+    <attr name="methodName" format="string" />
+    <attr name="min" format="integer" />
+    <attr name="minChildWidth" format="dimension" />
+    <attr name="minCropHeight" format="dimension" />
+    <attr name="minCropWidth" format="dimension" />
+    <attr name="minHeight" format="dimension" />
+    <attr name="minHideDelay" format="integer" />
+    <attr name="minSeparation" format="dimension" />
+    <attr name="minTouchTargetSize" format="dimension" />
+    <attr name="minWidth" format="dimension" />
+    <attr name="motionDurationLong1" format="integer" />
+    <attr name="motionDurationLong2" format="integer" />
+    <attr name="motionDurationMedium1" format="integer" />
+    <attr name="motionDurationMedium2" format="integer" />
+    <attr name="motionDurationShort1" format="integer" />
+    <attr name="motionDurationShort2" format="integer" />
+    <attr name="motionEasingAccelerated" format="string" />
+    <attr name="motionEasingDecelerated" format="string" />
+    <attr name="motionEasingEmphasized" format="string" />
+    <attr name="motionEasingLinear" format="string" />
+    <attr name="motionEasingStandard" format="string" />
+    <attr name="motionPath" format="string">
+        <enum name="arc" value="1" />
+        <enum name="linear" value="0" />
+    </attr>
+    <attr name="motionPathRotate" format="float" />
+    <attr name="motionProgress" format="float" />
+    <attr name="motionStagger" format="float" />
+    <attr name="multiChoiceItemLayout" format="reference" />
+    <attr name="navigationBarColor" format="reference|color" />
+    <attr name="navigationBarControlsMode">
+        <enum name="dark" value="1" />
+        <enum name="light" value="0" />
+    </attr>
+    <attr name="navigationBarDividerColor" format="reference|color" />
+    <attr name="navigationBarDividerSize" format="dimension" />
+    <attr name="navigationBarStyle" format="reference" />
+    <attr name="navigationContentDescription" format="string" />
+    <attr name="navigationIcon" format="reference" />
+    <attr name="navigationIconTint" format="color" />
+    <attr name="navigationMode">
+        <enum name="listMode" value="1" />
+        <enum name="normal" value="0" />
+        <enum name="tabMode" value="2" />
+    </attr>
+    <attr name="navigationRailStyle" format="reference" />
+    <attr name="navigationViewStyle" format="reference" />
+    <attr name="negativeButtonText" format="string" />
+    <attr name="nestedScrollViewStyle" format="reference" />
+    <attr name="newFeatureTag" format="string" />
+    <attr name="non_highlighted_text_color" format="color" />
+    <attr name="numericModifiers">
+        <flag name="ALT" value="0x00000002" />
+        <flag name="CTRL" value="0x00001000" />
+        <flag name="FUNCTION" value="0x00000008" />
+        <flag name="META" value="0x00010000" />
+        <flag name="SHIFT" value="0x00000001" />
+        <flag name="SYM" value="0x00000004" />
+    </attr>
+    <attr name="offlineStorageBarBackground" format="reference|color" />
+    <attr name="ogAccountParticleDiscStyle" format="reference" />
+    <attr name="ogAccountParticleStyle" format="reference" />
+    <attr name="ogBadgeBackgroundColor" format="color" />
+    <attr name="openSearchBarStyle" format="reference" />
+    <attr name="openSearchViewPrefixStyle" format="reference" />
+    <attr name="openSearchViewStyle" format="reference" />
+    <attr name="order" format="integer" />
+    <attr name="orderingFromXml" format="boolean" />
+    <attr name="overlapAnchor" format="boolean" />
+    <attr name="overlayBackgroundOpaque" format="color" />
+    <attr name="overlayBackgroundTranslucent" format="color" />
+    <attr name="overlayColor" format="color" />
+    <attr name="overlayRoundedRectangle" format="reference|color" />
+    <attr name="padding" format="dimension" />
+    <attr name="paddingBottomNoButtons" format="dimension" />
+    <attr name="paddingBottomSystemWindowInsets" format="boolean" />
+    <attr name="paddingEnd" format="dimension" />
+    <attr name="paddingLeftSystemWindowInsets" format="boolean" />
+    <attr name="paddingRightSystemWindowInsets" format="boolean" />
+    <attr name="paddingStart" format="dimension" />
+    <attr name="paddingTopNoTitle" format="dimension" />
+    <attr name="paddingTopSystemWindowInsets" format="boolean" />
+    <attr name="panelBackground" format="reference" />
+    <attr name="panelMenuListTheme" format="reference" />
+    <attr name="panelMenuListWidth" format="dimension" />
+    <attr name="passwordToggleContentDescription" format="string" />
+    <attr name="passwordToggleDrawable" format="reference" />
+    <attr name="passwordToggleEnabled" format="boolean" />
+    <attr name="passwordToggleTint" format="color" />
+    <attr name="passwordToggleTintMode">
+        <enum name="multiply" value="14" />
+        <enum name="screen" value="15" />
+        <enum name="src_atop" value="9" />
+        <enum name="src_in" value="5" />
+        <enum name="src_over" value="3" />
+    </attr>
+    <attr name="pathMotionArc">
+        <enum name="flip" value="3" />
+        <enum name="none" value="0" />
+        <enum name="startHorizontal" value="2" />
+        <enum name="startVertical" value="1" />
+    </attr>
+    <attr name="pausedDrawable" format="reference" />
+    <attr name="persistent" format="boolean" />
+    <attr name="phoneEntrySendCodeButtonBackground" format="reference|color" />
+    <attr name="pivotAnchor" format="reference">
+        <enum name="parent" value="0" />
+    </attr>
+    <attr name="pivotBackground" format="reference|color" />
+    <attr name="pivotBorderColor" format="reference|color" />
+    <attr name="placeholderText" format="string" />
+    <attr name="placeholderTextAppearance" format="reference" />
+    <attr name="placeholderTextColor" format="color" />
+    <attr name="playerViewId" format="reference" />
+    <attr name="polarRelativeTo" format="reference" />
+    <attr name="popupMenuBackground" format="reference" />
+    <attr name="popupMenuStyle" format="reference" />
+    <attr name="popupTheme" format="reference" />
+    <attr name="popupWindowStyle" format="reference" />
+    <attr name="positiveButtonText" format="string" />
+    <attr name="postSubscribeBarBackground" format="reference|color" />
+    <attr name="preferenceCategoryStyle" format="reference" />
+    <attr name="preferenceCategoryTitleTextAppearance" format="reference" />
+    <attr name="preferenceCategoryTitleTextColor" format="reference|color" />
+    <attr name="preferenceFragmentCompatStyle" format="reference" />
+    <attr name="preferenceFragmentListStyle" format="reference" />
+    <attr name="preferenceFragmentStyle" format="reference" />
+    <attr name="preferenceScreenStyle" format="reference" />
+    <attr name="preferenceStyle" format="reference" />
+    <attr name="preferenceTheme" format="reference" />
+    <attr name="prefixText" format="string" />
+    <attr name="prefixTextAppearance" format="reference" />
+    <attr name="prefixTextColor" format="color" />
+    <attr name="preserveIconSpacing" format="boolean" />
+    <attr name="pressedTranslationZ" format="dimension" />
+    <attr name="primaryColor" format="color" />
+    <attr name="productLockupViewStyle" format="reference" />
+    <attr name="productNameTextColor" format="color" />
+    <attr name="progressBarPadding" format="dimension" />
+    <attr name="progressBarStyle" format="reference" />
+    <attr name="progressViewLayout" format="reference" />
+    <attr name="progress_background" format="reference" />
+    <attr name="progress_background_height" format="dimension" />
+    <attr name="quantizeMotionInterpolator" format="reference|string">
+        <enum name="bounce" value="4" />
+        <enum name="easeIn" value="1" />
+        <enum name="easeInOut" value="0" />
+        <enum name="easeOut" value="2" />
+        <enum name="linear" value="3" />
+        <enum name="overshoot" value="5" />
+    </attr>
+    <attr name="quantizeMotionPhase" format="float" />
+    <attr name="quantizeMotionSteps" format="integer" />
+    <attr name="quantumFabColor" format="color" />
+    <attr name="quantumFabRippleColor" format="color" />
+    <attr name="quantumSize">
+        <enum name="mini" value="1" />
+        <enum name="normal" value="0" />
+    </attr>
+    <attr name="queryBackground" format="reference" />
+    <attr name="queryHint" format="string" />
+    <attr name="radioButtonStyle" format="reference" />
+    <attr name="radioButtonTextColorSelector" format="reference|color" />
+    <attr name="rangeFillColor" format="color" />
+    <attr name="ratingBarStyle" format="reference" />
+    <attr name="ratingBarStyleIndicator" format="reference" />
+    <attr name="ratingBarStyleSmall" format="reference" />
+    <attr name="recyclerViewStyle" format="reference" />
+    <attr name="reelEditChooseFilterBackground" format="reference|color" />
+    <attr name="reel_player_subcribe_background_color" format="color" />
+    <attr name="reel_player_subcribed_background_color" format="color" />
+    <attr name="reelsAddIcon" format="reference" />
+    <attr name="reelsAddIconBackground" format="reference" />
+    <attr name="reelsBorderlessAddIconBackground" format="reference" />
+    <attr name="reelsLockupStroke" format="reference" />
+    <attr name="reelsLockupStrokeChannelHome" format="reference" />
+    <attr name="reelsLockupThumbnailStroke" format="reference" />
+    <attr name="region_heightLessThan" format="dimension" />
+    <attr name="region_heightMoreThan" format="dimension" />
+    <attr name="region_widthLessThan" format="dimension" />
+    <attr name="region_widthMoreThan" format="dimension" />
+    <attr name="renderThumbnailAsSquare" format="boolean" />
+    <attr name="repositionButtonBorder" format="reference" />
+    <attr name="revealAnimation" format="boolean" />
+    <attr name="reverseLayout" format="boolean" />
+    <attr name="rippleColor" format="color" />
+    <attr name="robotoFont">
+        <enum name="black" value="5" />
+        <enum name="condensed" value="2" />
+        <enum name="condensed_light" value="4" />
+        <enum name="light" value="1" />
+        <enum name="medium" value="6" />
+        <enum name="monospace" value="7" />
+        <enum name="none" value="-1" />
+        <enum name="regular" value="0" />
+        <enum name="smallcaps" value="8" />
+        <enum name="thin" value="3" />
+    </attr>
+    <attr name="rowSpacing" format="dimension" />
+    <attr name="scale" format="fraction" />
+    <attr name="scrimAnimationDuration" format="integer" />
+    <attr name="scrimBackground" format="reference|color" />
+    <attr name="scrimViewId" format="reference" />
+    <attr name="scrimVisibleHeightTrigger" format="dimension" />
+    <attr name="scrollTextEnabled" format="boolean" />
+    <attr name="scrubberDrawable" format="reference" />
+    <attr name="scrubberMaxSize" format="dimension" />
+    <attr name="scrubberMinSize" format="dimension" />
+    <attr name="scrubberPadding" format="dimension" />
+    <attr name="scrubberStyle">
+        <enum name="always_show" value="1" />
+        <enum name="autohide" value="2" />
+        <enum name="disabled" value="0" />
+        <enum name="none" value="-1" />
+    </attr>
+    <attr name="scrubber_drawable" format="reference" />
+    <attr name="searchHintIcon" format="reference" />
+    <attr name="searchIcon" format="reference" />
+    <attr name="searchViewStyle" format="reference" />
+    <attr name="seasonsViewId" format="reference" />
+    <attr name="secondaryColor" format="color" />
+    <attr name="seekBarIncrement" format="integer" />
+    <attr name="seekBarPreferenceStyle" format="reference" />
+    <attr name="seekBarStyle" format="reference" />
+    <attr name="selectTaggedVideoButtonBorder" format="reference" />
+    <attr name="selectable" format="boolean" />
+    <attr name="selectableItemBackground" format="reference" />
+    <attr name="selectableItemBackgroundBorderless" format="reference" />
+    <attr name="selectableItemBackgroundSolid" format="reference|color" />
+    <attr name="selectedItemTextColor" format="reference|color" />
+    <attr name="selectedTextColor" format="reference|color" />
+    <attr name="selected_thumb_background_drawable" format="reference" />
+    <attr name="selected_thumb_background_drawable_inset" format="dimension" />
+    <attr name="setButtonContentDescription" format="reference" />
+    <attr name="shape">
+        <enum name="circle" value="1" />
+        <enum name="rectangle" value="0" />
+    </attr>
+    <attr name="shapeAppearance" format="reference" />
+    <attr name="shapeAppearanceLargeComponent" format="reference" />
+    <attr name="shapeAppearanceMediumComponent" format="reference" />
+    <attr name="shapeAppearanceOverlay" format="reference" />
+    <attr name="shapeAppearanceSmallComponent" format="reference" />
+    <attr name="shareDashBorderDrawable" format="reference|string|integer|boolean|color|float|dimension|fraction" />
+    <attr name="shareSelectableNameColor" format="reference|color" />
+    <attr name="shareUserAreaBackground" format="reference" />
+    <attr name="shieldColor" format="color" />
+    <attr name="shouldDisableView" format="boolean" />
+    <attr name="showAnimationBehavior">
+        <enum name="inward" value="2" />
+        <enum name="none" value="0" />
+        <enum name="outward" value="1" />
+    </attr>
+    <attr name="showAsAction">
+        <flag name="always" value="0x00000002" />
+        <flag name="collapseActionView" value="0x00000008" />
+        <flag name="ifRoom" value="0x00000001" />
+        <flag name="never" value="0x00000000" />
+        <flag name="withText" value="0x00000004" />
+    </attr>
+    <attr name="showDelay" format="integer" />
+    <attr name="showDivider">
+        <flag name="beginning" value="0x00000001" />
+        <flag name="end" value="0x00000004" />
+        <flag name="middle" value="0x00000002" />
+        <flag name="none" value="0x00000000" />
+    </attr>
+    <attr name="showDividerHorizontal">
+        <flag name="beginning" value="0x00000001" />
+        <flag name="end" value="0x00000004" />
+        <flag name="middle" value="0x00000002" />
+        <flag name="none" value="0x00000000" />
+    </attr>
+    <attr name="showDividerVertical">
+        <flag name="beginning" value="0x00000001" />
+        <flag name="end" value="0x00000004" />
+        <flag name="middle" value="0x00000002" />
+        <flag name="none" value="0x00000000" />
+    </attr>
+    <attr name="showDividers">
+        <flag name="beginning" value="0x00000001" />
+        <flag name="end" value="0x00000004" />
+        <flag name="middle" value="0x00000002" />
+        <flag name="none" value="0x00000000" />
+    </attr>
+    <attr name="showMotionSpec" format="reference" />
+    <attr name="showSeekBarValue" format="boolean" />
+    <attr name="showText" format="boolean" />
+    <attr name="showTitle" format="boolean" />
+    <attr name="singleChoiceItemLayout" format="reference" />
+    <attr name="singleLine" format="boolean" />
+    <attr name="singleLineTitle" format="boolean" />
+    <attr name="singleSelection" format="boolean" />
+    <attr name="sliderStyle" format="reference" />
+    <attr name="snackbarButtonStyle" format="reference" />
+    <attr name="snackbarStyle" format="reference" />
+    <attr name="snackbarTextViewStyle" format="reference" />
+    <attr name="snapToFrames">
+        <enum name="key" value="2" />
+        <enum name="none" value="0" />
+        <enum name="preview" value="1" />
+    </attr>
+    <attr name="snapTrimHandles" format="boolean" />
+    <attr name="spanCount" format="integer" />
+    <attr name="spinBars" format="boolean" />
+    <attr name="spinnerDropDownItemStyle" format="reference" />
+    <attr name="spinnerStyle" format="reference" />
+    <attr name="spinnerTag" format="string" />
+    <attr name="splitTrack" format="boolean" />
+    <attr name="srcCompat" format="reference" />
+    <attr name="stackFromEnd" format="boolean" />
+    <attr name="standaloneBadgeBackground" format="reference|color" />
+    <attr name="standaloneCollectionBadgeBackground" format="reference|color" />
+    <attr name="standaloneRedBadgeBackground" format="reference|color" />
+    <attr name="startAngle" format="float" />
+    <attr name="startColor" format="color" />
+    <attr name="startDrawable" format="reference" />
+    <attr name="startIconCheckable" format="boolean" />
+    <attr name="startIconContentDescription" format="string" />
+    <attr name="startIconDrawable" format="reference" />
+    <attr name="startIconTint" format="color" />
+    <attr name="startIconTintMode">
+        <enum name="multiply" value="14" />
+        <enum name="screen" value="15" />
+        <enum name="src_atop" value="9" />
+        <enum name="src_in" value="5" />
+        <enum name="src_over" value="3" />
+    </attr>
+    <attr name="startSize" format="dimension" />
+    <attr name="start_background" format="reference|color" />
+    <attr name="start_layout" format="reference" />
+    <attr name="state_collapsed" format="boolean" />
+    <attr name="state_collapsible" format="boolean" />
+    <attr name="state_dragged" format="boolean" />
+    <attr name="state_liftable" format="boolean" />
+    <attr name="state_lifted" format="boolean" />
+    <attr name="state_live" format="boolean" />
+    <attr name="state_loop_one" format="boolean" />
+    <attr name="state_shorts" format="boolean" />
+    <attr name="statusBarBackground" format="reference|color" />
+    <attr name="statusBarForeground" format="color" />
+    <attr name="statusBarScrim" format="color" />
+    <attr name="stickyHeaderRecyclerView" format="reference" />
+    <attr name="storyboardAspectRatio" format="float" />
+    <attr name="storyboardHeight" format="dimension" />
+    <attr name="strikethroughColor" format="color" />
+    <attr name="strokeColor" format="color" />
+    <attr name="strokeWidth" format="dimension" />
+    <attr name="stroke_color" format="color" />
+    <attr name="stroke_width" format="dimension" />
+    <attr name="subMenuArrow" format="reference" />
+    <attr name="submitBackground" format="reference" />
+    <attr name="subtitle" format="string" />
+    <attr name="subtitleTextAppearance" format="reference" />
+    <attr name="subtitleTextColor" format="color" />
+    <attr name="subtitleTextStyle" format="reference" />
+    <attr name="sucButtonType">
+        <enum name="add_another" value="1" />
+        <enum name="cancel" value="2" />
+        <enum name="clear" value="3" />
+        <enum name="done" value="4" />
+        <enum name="next" value="5" />
+        <enum name="opt_in" value="6" />
+        <enum name="other" value="0" />
+        <enum name="skip" value="7" />
+        <enum name="stop" value="8" />
+    </attr>
+    <attr name="sucContainer" format="reference" />
+    <attr name="sucFooterBarButtonAllCaps" format="boolean" />
+    <attr name="sucFooterBarButtonColorControlHighlight" format="color" />
+    <attr name="sucFooterBarButtonColorControlHighlightRipple" format="color" />
+    <attr name="sucFooterBarButtonCornerRadius" format="dimension" />
+    <attr name="sucFooterBarButtonFontFamily" format="reference|string" />
+    <attr name="sucFooterBarButtonHighlightAlpha" format="float" />
+    <attr name="sucFooterBarMinHeight" format="dimension" />
+    <attr name="sucFooterBarPaddingBottom" format="dimension" />
+    <attr name="sucFooterBarPaddingEnd" format="dimension" />
+    <attr name="sucFooterBarPaddingStart" format="dimension" />
+    <attr name="sucFooterBarPaddingTop" format="dimension" />
+    <attr name="sucFooterBarPaddingVertical" format="dimension" />
+    <attr name="sucFooterBarPrimaryFooterBackground" format="color" />
+    <attr name="sucFooterBarPrimaryFooterButton" format="reference" />
+    <attr name="sucFooterBarSecondaryFooterBackground" format="color" />
+    <attr name="sucFooterBarSecondaryFooterButton" format="reference" />
+    <attr name="sucFooterButtonPaddingEnd" format="dimension" />
+    <attr name="sucFooterButtonPaddingStart" format="dimension" />
+    <attr name="sucFullDynamicColor" format="boolean" />
+    <attr name="sucGlifHeaderMarginBottom" format="dimension" />
+    <attr name="sucGlifHeaderMarginTop" format="dimension" />
+    <attr name="sucGlifIconMarginTop" format="dimension" />
+    <attr name="sucHeaderContainerMarginBottom" format="dimension" />
+    <attr name="sucHeaderText" format="string" />
+    <attr name="sucHeaderTextColor" format="reference|color" />
+    <attr name="sucLayoutFullscreen" format="boolean" />
+    <attr name="sucLayoutTheme" format="reference" />
+    <attr name="sucLightStatusBar" format="boolean" />
+    <attr name="sucLightSystemNavBar" format="boolean" />
+    <attr name="sucStatusBarBackground" format="reference|color" />
+    <attr name="sucSystemNavBarBackgroundColor" format="color" />
+    <attr name="sucSystemNavBarDividerColor" format="color" />
+    <attr name="sucUsePartnerResource" format="boolean" />
+    <attr name="sudAspectRatio" format="float" />
+    <attr name="sudBackgroundBaseColor" format="color" />
+    <attr name="sudBackgroundPatterned" format="boolean" />
+    <attr name="sudButtonAllCaps" format="boolean" />
+    <attr name="sudButtonCornerRadius" format="dimension" />
+    <attr name="sudButtonFontFamily" format="reference|string" />
+    <attr name="sudButtonHighlightAlpha" format="float" />
+    <attr name="sudCollapsedSummary" format="string" />
+    <attr name="sudColorPrimary" format="color" />
+    <attr name="sudContentFramePaddingBottom" format="reference|dimension" />
+    <attr name="sudContentFramePaddingTop" format="reference|dimension" />
+    <attr name="sudContentIllustrationMaxHeight" format="dimension" />
+    <attr name="sudContentIllustrationMaxWidth" format="dimension" />
+    <attr name="sudContentIllustrationPaddingBottom" format="dimension" />
+    <attr name="sudContentIllustrationPaddingTop" format="dimension" />
+    <attr name="sudDescriptionText" format="string" />
+    <attr name="sudDescriptionTextColor" format="reference|color" />
+    <attr name="sudDividerInsetEnd" format="reference|dimension" />
+    <attr name="sudDividerInsetStart" format="reference|dimension" />
+    <attr name="sudDividerInsetStartNoIcon" format="reference|dimension" />
+    <attr name="sudEditTextBackgroundColor" format="color" />
+    <attr name="sudExpandedSummary" format="string" />
+    <attr name="sudFillContentLayoutStyle" format="reference" />
+    <attr name="sudGlifDescriptionMarginBottom" format="dimension" />
+    <attr name="sudGlifDescriptionMarginTop" format="dimension" />
+    <attr name="sudGlifHeaderGravity">
+        <flag name="center_horizontal" value="0x00000001" />
+        <flag name="end" value="0x00800005" />
+        <flag name="fill_horizontal" value="0x00000007" />
+        <flag name="left" value="0x00000003" />
+        <flag name="right" value="0x00000005" />
+        <flag name="start" value="0x00800003" />
+    </attr>
+    <attr name="sudGlifIconSize" format="dimension" />
+    <attr name="sudGlifIconStyle" format="reference" />
+    <attr name="sudGlifSubtitleGravity">
+        <flag name="center_horizontal" value="0x00000001" />
+        <flag name="end" value="0x00800005" />
+        <flag name="fill_horizontal" value="0x00000007" />
+        <flag name="left" value="0x00000003" />
+        <flag name="right" value="0x00000005" />
+        <flag name="start" value="0x00800003" />
+    </attr>
+    <attr name="sudHeader" format="reference" />
+    <attr name="sudIconGravity">
+        <enum name="bottom" value="80" />
+        <enum name="center_vertical" value="16" />
+        <enum name="top" value="48" />
+    </attr>
+    <attr name="sudIconTint" format="color" />
+    <attr name="sudItemDescriptionStyle" format="reference" />
+    <attr name="sudItemDescriptionTitleStyle" format="reference" />
+    <attr name="sudLayoutTheme" format="reference" />
+    <attr name="sudListItemIconColor" format="color" />
+    <attr name="sudLoadingContentFramePaddingBottom" format="reference|dimension" />
+    <attr name="sudLoadingContentFramePaddingEnd" format="reference|dimension" />
+    <attr name="sudLoadingContentFramePaddingStart" format="reference|dimension" />
+    <attr name="sudLoadingContentFramePaddingTop" format="reference|dimension" />
+    <attr name="sudLoadingHeaderHeight" format="reference|dimension" />
+    <attr name="sudMarginEnd" format="reference|dimension" />
+    <attr name="sudMarginStart" format="reference|dimension" />
+    <attr name="sudNavBarBackgroundColor" format="color" />
+    <attr name="sudNavBarButtonBackground" format="reference|color" />
+    <attr name="sudNavBarTextColor" format="color" />
+    <attr name="sudNavBarTheme" format="reference" />
+    <attr name="sudPauseVideoWhenFinished" format="boolean" />
+    <attr name="sudScrollBarThumb" format="reference" />
+    <attr name="sudScrollIndicators">
+        <flag name="bottom" value="0x00000002" />
+        <flag name="end" value="0x00000020" />
+        <flag name="left" value="0x00000004" />
+        <flag name="none" value="0x00000000" />
+        <flag name="right" value="0x00000008" />
+        <flag name="start" value="0x00000010" />
+        <flag name="top" value="0x00000001" />
+    </attr>
+    <attr name="sudStickyHeader" format="reference" />
+    <attr name="sudUpscaleIcon" format="boolean" />
+    <attr name="sudUseBottomProgressBar" format="boolean" />
+    <attr name="sudUsePartnerHeavyTheme" format="boolean" />
+    <attr name="sudVideo" format="reference" />
+    <attr name="suffixText" format="string" />
+    <attr name="suffixTextAppearance" format="reference" />
+    <attr name="suffixTextColor" format="color" />
+    <attr name="suggestionRowLayout" format="reference" />
+    <attr name="summary" format="string" />
+    <attr name="summaryOff" format="string" />
+    <attr name="summaryOn" format="string" />
+    <attr name="sweepAngle" format="float" />
+    <attr name="swipeRefreshLayoutProgressSpinnerBackgroundColor" format="color" />
+    <attr name="switchMinWidth" format="dimension" />
+    <attr name="switchPadding" format="dimension" />
+    <attr name="switchPreferenceCompatStyle" format="reference" />
+    <attr name="switchPreferenceStyle" format="reference" />
+    <attr name="switchStyle" format="reference" />
+    <attr name="switchTextAppearance" format="reference" />
+    <attr name="switchTextOff" format="string" />
+    <attr name="switchTextOn" format="string" />
+    <attr name="tabBackground" format="reference" />
+    <attr name="tabContentStart" format="dimension" />
+    <attr name="tabGravity">
+        <enum name="center" value="1" />
+        <enum name="fill" value="0" />
+        <enum name="start" value="2" />
+    </attr>
+    <attr name="tabIconTint" format="color" />
+    <attr name="tabIconTintMode">
+        <enum name="add" value="16" />
+        <enum name="multiply" value="14" />
+        <enum name="screen" value="15" />
+        <enum name="src_atop" value="9" />
+        <enum name="src_in" value="5" />
+        <enum name="src_over" value="3" />
+    </attr>
+    <attr name="tabIndicator" format="reference" />
+    <attr name="tabIndicatorAnimationDuration" format="integer" />
+    <attr name="tabIndicatorAnimationMode">
+        <enum name="elastic" value="1" />
+        <enum name="linear" value="0" />
+    </attr>
+    <attr name="tabIndicatorColor" format="color" />
+    <attr name="tabIndicatorFullWidth" format="boolean" />
+    <attr name="tabIndicatorGravity">
+        <enum name="bottom" value="0" />
+        <enum name="center" value="1" />
+        <enum name="stretch" value="3" />
+        <enum name="top" value="2" />
+    </attr>
+    <attr name="tabIndicatorHeight" format="dimension" />
+    <attr name="tabInlineLabel" format="boolean" />
+    <attr name="tabMaxWidth" format="dimension" />
+    <attr name="tabMinWidth" format="dimension" />
+    <attr name="tabMode">
+        <enum name="auto" value="2" />
+        <enum name="fixed" value="1" />
+        <enum name="scrollable" value="0" />
+    </attr>
+    <attr name="tabPadding" format="dimension" />
+    <attr name="tabPaddingBottom" format="dimension" />
+    <attr name="tabPaddingEnd" format="dimension" />
+    <attr name="tabPaddingStart" format="dimension" />
+    <attr name="tabPaddingTop" format="dimension" />
+    <attr name="tabRippleColor" format="color" />
+    <attr name="tabSecondaryStyle" format="reference" />
+    <attr name="tabSelectedTextColor" format="color" />
+    <attr name="tabStyle" format="reference" />
+    <attr name="tabTextAppearance" format="reference" />
+    <attr name="tabTextColor" format="color" />
+    <attr name="tabUnboundedRipple" format="boolean" />
+    <attr name="tab_content_color" format="color" />
+    <attr name="tab_highlight_color" format="color" />
+    <attr name="tab_highlight_height" format="dimension" />
+    <attr name="tab_scroll_margin" format="dimension" />
+    <attr name="tabletMetadataViewId" format="reference" />
+    <attr name="takeABreakIcon" format="reference|color" />
+    <attr name="textAllCaps" format="reference|boolean" />
+    <attr name="textAppearanceBody1" format="reference" />
+    <attr name="textAppearanceBody1Inverse" format="reference" />
+    <attr name="textAppearanceBody2" format="reference" />
+    <attr name="textAppearanceBody2Inverse" format="reference" />
+    <attr name="textAppearanceButton" format="reference" />
+    <attr name="textAppearanceCaption" format="reference" />
+    <attr name="textAppearanceCaptionInverse" format="reference" />
+    <attr name="textAppearanceDisplay1" format="reference" />
+    <attr name="textAppearanceDisplay2" format="reference" />
+    <attr name="textAppearanceDisplay3" format="reference" />
+    <attr name="textAppearanceHeadline" format="reference" />
+    <attr name="textAppearanceHeadline1" format="reference" />
+    <attr name="textAppearanceHeadline2" format="reference" />
+    <attr name="textAppearanceHeadline3" format="reference" />
+    <attr name="textAppearanceHeadline4" format="reference" />
+    <attr name="textAppearanceHeadline5" format="reference" />
+    <attr name="textAppearanceHeadline6" format="reference" />
+    <attr name="textAppearanceLargePopupMenu" format="reference" />
+    <attr name="textAppearanceLineHeightEnabled" format="boolean" />
+    <attr name="textAppearanceListItem" format="reference" />
+    <attr name="textAppearanceListItemSecondary" format="reference" />
+    <attr name="textAppearanceListItemSmall" format="reference" />
+    <attr name="textAppearanceMenu" format="reference" />
+    <attr name="textAppearanceOverline" format="reference" />
+    <attr name="textAppearancePopupMenuHeader" format="reference" />
+    <attr name="textAppearanceSearchResultSubtitle" format="reference" />
+    <attr name="textAppearanceSearchResultTitle" format="reference" />
+    <attr name="textAppearanceSmallPopupMenu" format="reference" />
+    <attr name="textAppearanceSubhead" format="reference" />
+    <attr name="textAppearanceSubhead1" format="reference" />
+    <attr name="textAppearanceSubhead2" format="reference" />
+    <attr name="textAppearanceSubheadInverse" format="reference" />
+    <attr name="textAppearanceSubtitle1" format="reference" />
+    <attr name="textAppearanceSubtitle2" format="reference" />
+    <attr name="textAppearanceTitle" format="reference" />
+    <attr name="textAppearanceTitleInverse" format="reference" />
+    <attr name="textColorAlertDialogListItem" format="reference|color" />
+    <attr name="textColorSearchUrl" format="reference|color" />
+    <attr name="textEndPadding" format="dimension" />
+    <attr name="textInputFilledDenseStyle" format="reference" />
+    <attr name="textInputFilledExposedDropdownMenuStyle" format="reference" />
+    <attr name="textInputFilledStyle" format="reference" />
+    <attr name="textInputLayoutFocusedRectEnabled" format="boolean" />
+    <attr name="textInputOutlinedDenseStyle" format="reference" />
+    <attr name="textInputOutlinedExposedDropdownMenuStyle" format="reference" />
+    <attr name="textInputOutlinedStyle" format="reference" />
+    <attr name="textInputStyle" format="reference" />
+    <attr name="textLocale" format="string" />
+    <attr name="textMargin" format="dimension" />
+    <attr name="textStartPadding" format="dimension" />
+    <attr name="text_tab_layout" format="reference" />
+    <attr name="text_tab_layout_text_view_id" format="reference" />
+    <attr name="theme" format="reference" />
+    <attr name="themeFontFamily" format="reference|string" />
+    <attr name="themeFontFamilyContent" format="reference|string" />
+    <attr name="themeFontFamilyContentMedium" format="reference|string" />
+    <attr name="themeFontFamilyDisplay" format="reference|string" />
+    <attr name="themeFontFamilyMedium" format="reference|string" />
+    <attr name="thickness" format="dimension" />
+    <attr name="thumbColor" format="color" />
+    <attr name="thumbElevation" format="dimension" />
+    <attr name="thumbRadius" format="dimension" />
+    <attr name="thumbTextPadding" format="dimension" />
+    <attr name="thumbTint" format="color" />
+    <attr name="thumbTintMode">
+        <enum name="add" value="16" />
+        <enum name="multiply" value="14" />
+        <enum name="screen" value="15" />
+        <enum name="src_atop" value="9" />
+        <enum name="src_in" value="5" />
+        <enum name="src_over" value="3" />
+    </attr>
+    <attr name="thumbnailCropBorder" format="color" />
+    <attr name="thumbnailPlaceholder" format="reference" />
+    <attr name="thumbnailViewerBackground" format="reference|color" />
+    <attr name="tickColorActive" format="color" />
+    <attr name="tickColorInactive" format="color" />
+    <attr name="tickMark" format="reference" />
+    <attr name="tickMarkTint" format="color" />
+    <attr name="tickMarkTintMode">
+        <enum name="add" value="16" />
+        <enum name="multiply" value="14" />
+        <enum name="screen" value="15" />
+        <enum name="src_atop" value="9" />
+        <enum name="src_in" value="5" />
+        <enum name="src_over" value="3" />
+    </attr>
+    <attr name="timeBarHeight" format="dimension" />
+    <attr name="timeTextColor" format="color" />
+    <attr name="tint" format="color" />
+    <attr name="tintMode">
+        <enum name="add" value="16" />
+        <enum name="multiply" value="14" />
+        <enum name="screen" value="15" />
+        <enum name="src_atop" value="9" />
+        <enum name="src_in" value="5" />
+        <enum name="src_over" value="3" />
+    </attr>
+    <attr name="title" format="string" />
+    <attr name="titleCollapseMode">
+        <enum name="fade" value="1" />
+        <enum name="scale" value="0" />
+    </attr>
+    <attr name="titleEnabled" format="boolean" />
+    <attr name="titleMargin" format="dimension" />
+    <attr name="titleMarginBottom" format="dimension" />
+    <attr name="titleMarginEnd" format="dimension" />
+    <attr name="titleMarginStart" format="dimension" />
+    <attr name="titleMarginTop" format="dimension" />
+    <attr name="titleMargins" format="dimension" />
+    <attr name="titleTextAppearance" format="reference" />
+    <attr name="titleTextColor" format="color" />
+    <attr name="titleTextStyle" format="reference" />
+    <attr name="toolbarId" format="reference" />
+    <attr name="toolbarNavigationButtonStyle" format="reference" />
+    <attr name="toolbarStyle" format="reference" />
+    <attr name="toolbarSurfaceStyle" format="reference" />
+    <attr name="tooltipForegroundColor" format="reference|color" />
+    <attr name="tooltipFrameBackground" format="reference" />
+    <attr name="tooltipText" format="string" />
+    <attr name="topAndBottomSeparator" format="reference" />
+    <attr name="topSeparator" format="reference" />
+    <attr name="track" format="reference" />
+    <attr name="trackColor" format="color" />
+    <attr name="trackColorActive" format="color" />
+    <attr name="trackColorInactive" format="color" />
+    <attr name="trackCornerRadius" format="dimension" />
+    <attr name="trackHeight" format="dimension" />
+    <attr name="trackThickness" format="dimension" />
+    <attr name="trackTint" format="color" />
+    <attr name="trackTintMode">
+        <enum name="add" value="16" />
+        <enum name="multiply" value="14" />
+        <enum name="screen" value="15" />
+        <enum name="src_atop" value="9" />
+        <enum name="src_in" value="5" />
+        <enum name="src_over" value="3" />
+    </attr>
+    <attr name="transformPivotTarget" format="reference" />
+    <attr name="transitionEasing" format="string">
+        <enum name="accelerate" value="1" />
+        <enum name="decelerate" value="2" />
+        <enum name="linear" value="3" />
+        <enum name="standard" value="0" />
+    </attr>
+    <attr name="transitionPathRotate" format="float" />
+    <attr name="translucentPrimaryColor" format="color" />
+    <attr name="translucentSecondaryColor" format="color" />
+    <attr name="ttcIndex" format="integer" />
+    <attr name="underlineColor" format="color" />
+    <attr name="underlineColorActive" format="color" />
+    <attr name="underlineColorInactive" format="color" />
+    <attr name="underlineThicknessActive" format="dimension" />
+    <attr name="underlineThicknessInactive" format="dimension" />
+    <attr name="underlineWidth" format="dimension" />
+    <attr name="unselectedItemTextColor" format="reference|color" />
+    <attr name="updatesContinuously" format="boolean" />
+    <attr name="useCompatPadding" format="boolean" />
+    <attr name="useMaterialThemeColors" format="boolean" />
+    <attr name="useSimpleSummaryProvider" format="boolean" />
+    <attr name="userMentionSearchViewBackIcon" format="reference" />
+    <attr name="userMentionSearchViewDeleteIcon" format="reference" />
+    <attr name="validatedFieldColor" format="reference|color" />
+    <attr name="validatedSpinnerHintItemColor" format="reference|color" />
+    <attr name="validatedSpinnerItemColor" format="reference|color" />
+    <attr name="validatedTextAreaBackground" format="reference|color" />
+    <attr name="veType" format="string" />
+    <attr name="verticalPadding" format="dimension" />
+    <attr name="verticalPaddingBottom" format="dimension" />
+    <attr name="verticalPaddingEnd" format="dimension" />
+    <attr name="verticalPaddingStart" format="dimension" />
+    <attr name="verticalPaddingTop" format="dimension" />
+    <attr name="verticalSpacing" format="dimension" />
+    <attr name="viewInflaterClass" format="string" />
+    <attr name="viewportOverlayColor" format="color" />
+    <attr name="visibilityMode">
+        <enum name="ignore" value="1" />
+        <enum name="normal" value="0" />
+    </attr>
+    <attr name="visualDoubleWidthRatio" format="integer" />
+    <attr name="visualHeightRatio" format="integer" />
+    <attr name="visualWidthRatio" format="integer" />
+    <attr name="voiceIcon" format="reference" />
+    <attr name="volumeProgress" format="reference|color" />
+    <attr name="volumeThumb" format="reference|color" />
+    <attr name="watchHistoryPausedIcon" format="reference" />
+    <attr name="watchLayoutViewId" format="reference" />
+    <attr name="watchWhileRootViewId" format="reference" />
+    <attr name="watchWhileTimeBarId" format="reference" />
+    <attr name="widgetLayout" format="reference" />
+    <attr name="widthRatio" format="integer" />
+    <attr name="windowActionBar" format="boolean" />
+    <attr name="windowActionBarOverlay" format="boolean" />
+    <attr name="windowActionModeOverlay" format="boolean" />
+    <attr name="windowFixedHeightMajor" format="dimension|fraction" />
+    <attr name="windowFixedHeightMinor" format="dimension|fraction" />
+    <attr name="windowFixedWidthMajor" format="dimension|fraction" />
+    <attr name="windowFixedWidthMinor" format="dimension|fraction" />
+    <attr name="windowMinWidthMajor" format="dimension|fraction" />
+    <attr name="windowMinWidthMinor" format="dimension|fraction" />
+    <attr name="windowNoTitle" format="boolean" />
+    <attr name="yearSelectedStyle" format="reference" />
+    <attr name="yearStyle" format="reference" />
+    <attr name="yearTodayStyle" format="reference" />
+    <attr name="youTubeOriginalsButtonIcon" format="reference" />
+    <attr name="youTubeSansFont">
+        <enum name="black" value="900" />
+        <enum name="bold" value="700" />
+        <enum name="extrabold" value="800" />
+        <enum name="light" value="300" />
+        <enum name="medium" value="500" />
+        <enum name="none" value="-1" />
+        <enum name="regular" value="400" />
+        <enum name="semibold" value="600" />
+    </attr>
+    <attr name="youtubePremiumBadge" format="reference|color" />
+    <attr name="yt10PercentLayer" format="reference|color" />
+    <attr name="ytAdBadgeBackground" format="reference" />
+    <attr name="ytAdBadgePaddingStartEnd" format="reference|dimension" />
+    <attr name="ytAdBadgePaddingTopBottom" format="reference|dimension" />
+    <attr name="ytAdBadgeTextColor" format="reference|color" />
+    <attr name="ytAdBadgeTextSizeExtraSmall" format="reference|dimension" />
+    <attr name="ytAdBadgeTextSizeSmall" format="reference|dimension" />
+    <attr name="ytAssistiveFeedThemedGradient1" format="reference|color" />
+    <attr name="ytAssistiveFeedThemedGradient2" format="reference|color" />
+    <attr name="ytAssistiveFeedThemedGradient3" format="reference|color" />
+    <attr name="ytAssistiveFeedVibrantGradient1" format="reference|color" />
+    <attr name="ytAssistiveFeedVibrantGradient2" format="reference|color" />
+    <attr name="ytAssistiveFeedVibrantGradient3" format="reference|color" />
+    <attr name="ytBadgeBackground1" format="reference|color" />
+    <attr name="ytBadgeBackground2" format="reference|color" />
+    <attr name="ytBadgeChipBackground" format="reference|color" />
+    <attr name="ytBadgeText1" format="reference|color" />
+    <attr name="ytBadgeText2" format="reference|color" />
+    <attr name="ytBorderedButtonChipBackground" format="reference|color" />
+    <attr name="ytBrandBackgroundPrimary" format="reference|color" />
+    <attr name="ytBrandBackgroundSecondary" format="reference|color" />
+    <attr name="ytBrandBackgroundSolid" format="reference|color" />
+    <attr name="ytBrandButtonBackground" format="reference|color" />
+    <attr name="ytBrandIconActive" format="reference|color" />
+    <attr name="ytBrandIconInactive" format="reference|color" />
+    <attr name="ytBrandLinkText" format="reference|color" />
+    <attr name="ytBrandRed" format="reference|color" />
+    <attr name="ytButtonChipBackgroundHover" format="reference|color" />
+    <attr name="ytCallToAction" format="reference|color" />
+    <attr name="ytCallToActionInverse" format="reference|color" />
+    <attr name="ytChipBackground" format="reference|color" />
+    <attr name="ytErrorBackground" format="reference|color" />
+    <attr name="ytErrorIndicator" format="reference|color" />
+    <attr name="ytFilledButtonText" format="reference|color" />
+    <attr name="ytGeneralBackgroundA" format="reference|color" />
+    <attr name="ytGeneralBackgroundB" format="reference|color" />
+    <attr name="ytGeneralBackgroundC" format="reference|color" />
+    <attr name="ytHeaderIcon" format="reference|color" />
+    <attr name="ytIcon1" format="reference|color" />
+    <attr name="ytIcon2" format="reference|color" />
+    <attr name="ytIconActiveOther" format="reference|color" />
+    <attr name="ytIconDisabled" format="reference|color" />
+    <attr name="ytIconInactive" format="reference|color" />
+    <attr name="ytOverlayBackgroundHeavy" format="reference|color" />
+    <attr name="ytOverlayBackgroundLight" format="reference|color" />
+    <attr name="ytOverlayBackgroundMedium" format="reference|color" />
+    <attr name="ytOverlayBackgroundMediumLight" format="reference|color" />
+    <attr name="ytOverlayBackgroundSolid" format="reference|color" />
+    <attr name="ytOverlayButtonActive" format="reference|color" />
+    <attr name="ytOverlayButtonInactive" format="reference|color" />
+    <attr name="ytOverlayButtonPrimary" format="reference|color" />
+    <attr name="ytOverlayButtonSecondary" format="reference|color" />
+    <attr name="ytOverlayIconActiveCallToAction" format="reference|color" />
+    <attr name="ytOverlayIconActiveOther" format="reference|color" />
+    <attr name="ytOverlayIconDisabled" format="reference|color" />
+    <attr name="ytOverlayIconInactive" format="reference|color" />
+    <attr name="ytOverlayTextPrimary" format="reference|color" />
+    <attr name="ytOverlayTextSecondary" format="reference|color" />
+    <attr name="ytOverlayTextTertiary" format="reference|color" />
+    <attr name="ytPlayerOverlayButtonBackground" format="reference|color" />
+    <attr name="ytPremiumWordmarkHeader" format="reference" />
+    <attr name="ytPremiumWordmarkText" format="reference" />
+    <attr name="ytRadioButton" format="reference" />
+    <attr name="ytRadioButtonCheckedDrawable" format="reference" />
+    <attr name="ytRadioButtonUncheckedDrawable" format="reference" />
+    <attr name="ytSansFont">
+        <enum name="bold" value="1" />
+        <enum name="medium" value="0" />
+        <enum name="none" value="-1" />
+    </attr>
+    <attr name="ytSegmentedControlThumb" format="reference|color" />
+    <attr name="ytSelectedNavText" format="reference|color" />
+    <attr name="ytSeparator" format="reference|color" />
+    <attr name="ytSpinnerItemBackground" format="reference|color" />
+    <attr name="ytStaticAdYellow" format="reference|color" />
+    <attr name="ytStaticBlue" format="reference|color" />
+    <attr name="ytStaticBrandBlack" format="reference|color" />
+    <attr name="ytStaticBrandRed" format="reference|color" />
+    <attr name="ytStaticBrandWhite" format="reference|color" />
+    <attr name="ytStaticDarkBackground1" format="reference|color" />
+    <attr name="ytStaticGreen" format="reference|color" />
+    <attr name="ytStaticGrey" format="reference|color" />
+    <attr name="ytStaticWhite" format="reference|color" />
+    <attr name="ytStaticYellow" format="reference|color" />
+    <attr name="ytStatusBarBackground" format="reference|color" />
+    <attr name="ytSuggestedAction" format="reference|color" />
+    <attr name="ytText1Inverse" format="reference|color" />
+    <attr name="ytText2Inverse" format="reference|color" />
+    <attr name="ytText3Inverse" format="reference|color" />
+    <attr name="ytTextAppearanceBody1a" format="reference" />
+    <attr name="ytTextAppearanceBody1b" format="reference" />
+    <attr name="ytTextAppearanceBody2a" format="reference" />
+    <attr name="ytTextAppearanceBody2b" format="reference" />
+    <attr name="ytTextAppearanceButton" format="reference" />
+    <attr name="ytTextAppearanceDisplay1" format="reference" />
+    <attr name="ytTextAppearanceDisplay2" format="reference" />
+    <attr name="ytTextAppearanceLabel" format="reference" />
+    <attr name="ytTextAppearanceTitle1" format="reference" />
+    <attr name="ytTextAppearanceTitle2" format="reference" />
+    <attr name="ytTextDisabled" format="reference|color" />
+    <attr name="ytTextError" format="reference|color" />
+    <attr name="ytTextPrimary" format="reference|color" />
+    <attr name="ytTextPrimaryInverse" format="reference|color" />
+    <attr name="ytTextSecondary" format="reference|color" />
+    <attr name="ytTextStyleBody1a" format="reference" />
+    <attr name="ytTextStyleBody1b" format="reference" />
+    <attr name="ytTextStyleBody2a" format="reference" />
+    <attr name="ytTextStyleBody2b" format="reference" />
+    <attr name="ytTextStyleButton" format="reference" />
+    <attr name="ytTextStyleDisplay1" format="reference" />
+    <attr name="ytTextStyleDisplay2" format="reference" />
+    <attr name="ytTextStyleLabel" format="reference" />
+    <attr name="ytTextStyleTitle1" format="reference" />
+    <attr name="ytTextStyleTitle2" format="reference" />
+    <attr name="ytThemeType">
+        <enum name="dark" value="1" />
+        <enum name="light" value="0" />
+    </attr>
+    <attr name="ytThemedBlue" format="reference|color" />
+    <attr name="ytThemedGreen" format="reference|color" />
+    <attr name="ytThemedOverlayBackground" format="reference|color" />
+    <attr name="ytTimestampBackground" format="reference|color" />
+    <attr name="ytTouchFeedbackCircle" format="reference|color" />
+    <attr name="ytTouchFeedbackRectangle" format="reference|color" />
+    <attr name="ytTouchResponse" format="reference|color" />
+    <attr name="ytTouchResponseInverse" format="reference|color" />
+    <attr name="ytVerifiedBadgeBackground" format="reference|color" />
+    <attr name="ytWordmark" format="reference|color" />
+    <attr name="ytWordmarkHeader" format="reference" />
+    <attr name="ytWordmarkText" format="reference" />
+    <item type="attr" name="APKTOOL_DUMMY_1" />
+    <item type="attr" name="APKTOOL_DUMMY_2" />
+    <item type="attr" name="APKTOOL_DUMMY_6" />
+    <item type="attr" name="APKTOOL_DUMMY_7" />
+    <item type="attr" name="APKTOOL_DUMMY_a" />
+    <item type="attr" name="APKTOOL_DUMMY_f" />
+    <item type="attr" name="APKTOOL_DUMMY_10" />
+    <item type="attr" name="APKTOOL_DUMMY_11" />
+    <item type="attr" name="APKTOOL_DUMMY_16" />
+    <item type="attr" name="APKTOOL_DUMMY_17" />
+    <item type="attr" name="APKTOOL_DUMMY_18" />
+    <item type="attr" name="APKTOOL_DUMMY_40" />
+    <item type="attr" name="APKTOOL_DUMMY_41" />
+    <item type="attr" name="APKTOOL_DUMMY_46" />
+    <item type="attr" name="APKTOOL_DUMMY_56" />
+    <item type="attr" name="APKTOOL_DUMMY_5a" />
+    <item type="attr" name="APKTOOL_DUMMY_5b" />
+    <item type="attr" name="APKTOOL_DUMMY_5d" />
+    <item type="attr" name="APKTOOL_DUMMY_5e" />
+    <item type="attr" name="APKTOOL_DUMMY_62" />
+    <item type="attr" name="APKTOOL_DUMMY_64" />
+    <item type="attr" name="APKTOOL_DUMMY_66" />
+    <item type="attr" name="APKTOOL_DUMMY_67" />
+    <item type="attr" name="APKTOOL_DUMMY_68" />
+    <item type="attr" name="APKTOOL_DUMMY_69" />
+    <item type="attr" name="APKTOOL_DUMMY_6a" />
+    <item type="attr" name="APKTOOL_DUMMY_6b" />
+    <item type="attr" name="APKTOOL_DUMMY_6f" />
+    <item type="attr" name="APKTOOL_DUMMY_70" />
+    <item type="attr" name="APKTOOL_DUMMY_73" />
+    <item type="attr" name="APKTOOL_DUMMY_74" />
+    <item type="attr" name="APKTOOL_DUMMY_77" />
+    <item type="attr" name="APKTOOL_DUMMY_7a" />
+    <item type="attr" name="APKTOOL_DUMMY_7b" />
+    <item type="attr" name="APKTOOL_DUMMY_7c" />
+    <item type="attr" name="APKTOOL_DUMMY_7d" />
+    <item type="attr" name="APKTOOL_DUMMY_7e" />
+    <item type="attr" name="APKTOOL_DUMMY_7f" />
+    <item type="attr" name="APKTOOL_DUMMY_80" />
+    <item type="attr" name="APKTOOL_DUMMY_81" />
+    <item type="attr" name="APKTOOL_DUMMY_82" />
+    <item type="attr" name="APKTOOL_DUMMY_83" />
+    <item type="attr" name="APKTOOL_DUMMY_84" />
+    <item type="attr" name="APKTOOL_DUMMY_85" />
+    <item type="attr" name="APKTOOL_DUMMY_86" />
+    <item type="attr" name="APKTOOL_DUMMY_87" />
+    <item type="attr" name="APKTOOL_DUMMY_88" />
+    <item type="attr" name="APKTOOL_DUMMY_89" />
+    <item type="attr" name="APKTOOL_DUMMY_8a" />
+    <item type="attr" name="APKTOOL_DUMMY_8b" />
+    <item type="attr" name="APKTOOL_DUMMY_8e" />
+    <item type="attr" name="APKTOOL_DUMMY_8f" />
+    <item type="attr" name="APKTOOL_DUMMY_90" />
+    <item type="attr" name="APKTOOL_DUMMY_91" />
+    <item type="attr" name="APKTOOL_DUMMY_92" />
+    <item type="attr" name="APKTOOL_DUMMY_94" />
+    <item type="attr" name="APKTOOL_DUMMY_95" />
+    <item type="attr" name="APKTOOL_DUMMY_96" />
+    <item type="attr" name="APKTOOL_DUMMY_97" />
+    <item type="attr" name="APKTOOL_DUMMY_98" />
+    <item type="attr" name="APKTOOL_DUMMY_99" />
+    <item type="attr" name="APKTOOL_DUMMY_9a" />
+    <item type="attr" name="APKTOOL_DUMMY_9b" />
+    <item type="attr" name="APKTOOL_DUMMY_9c" />
+    <item type="attr" name="APKTOOL_DUMMY_9f" />
+    <item type="attr" name="APKTOOL_DUMMY_a0" />
+    <item type="attr" name="APKTOOL_DUMMY_a1" />
+    <item type="attr" name="APKTOOL_DUMMY_a2" />
+    <item type="attr" name="APKTOOL_DUMMY_a9" />
+    <item type="attr" name="APKTOOL_DUMMY_ab" />
+    <item type="attr" name="APKTOOL_DUMMY_b1" />
+    <item type="attr" name="APKTOOL_DUMMY_c9" />
+    <item type="attr" name="APKTOOL_DUMMY_df" />
+    <item type="attr" name="APKTOOL_DUMMY_e4" />
+    <item type="attr" name="APKTOOL_DUMMY_e5" />
+    <item type="attr" name="APKTOOL_DUMMY_fa" />
+    <item type="attr" name="APKTOOL_DUMMY_106" />
+    <item type="attr" name="APKTOOL_DUMMY_10a" />
+    <item type="attr" name="APKTOOL_DUMMY_10d" />
+    <item type="attr" name="APKTOOL_DUMMY_10e" />
+    <item type="attr" name="APKTOOL_DUMMY_10f" />
+    <item type="attr" name="APKTOOL_DUMMY_110" />
+    <item type="attr" name="APKTOOL_DUMMY_112" />
+    <item type="attr" name="APKTOOL_DUMMY_113" />
+    <item type="attr" name="APKTOOL_DUMMY_114" />
+    <item type="attr" name="APKTOOL_DUMMY_115" />
+    <item type="attr" name="APKTOOL_DUMMY_116" />
+    <item type="attr" name="APKTOOL_DUMMY_117" />
+    <item type="attr" name="APKTOOL_DUMMY_118" />
+    <item type="attr" name="APKTOOL_DUMMY_121" />
+    <item type="attr" name="APKTOOL_DUMMY_122" />
+    <item type="attr" name="APKTOOL_DUMMY_123" />
+    <item type="attr" name="APKTOOL_DUMMY_124" />
+    <item type="attr" name="APKTOOL_DUMMY_125" />
+    <item type="attr" name="APKTOOL_DUMMY_126" />
+    <item type="attr" name="APKTOOL_DUMMY_127" />
+    <item type="attr" name="APKTOOL_DUMMY_128" />
+    <item type="attr" name="APKTOOL_DUMMY_129" />
+    <item type="attr" name="APKTOOL_DUMMY_12a" />
+    <item type="attr" name="APKTOOL_DUMMY_132" />
+    <item type="attr" name="APKTOOL_DUMMY_133" />
+    <item type="attr" name="APKTOOL_DUMMY_134" />
+    <item type="attr" name="APKTOOL_DUMMY_136" />
+    <item type="attr" name="APKTOOL_DUMMY_137" />
+    <item type="attr" name="APKTOOL_DUMMY_13d" />
+    <item type="attr" name="APKTOOL_DUMMY_13e" />
+    <item type="attr" name="APKTOOL_DUMMY_140" />
+    <item type="attr" name="APKTOOL_DUMMY_141" />
+    <item type="attr" name="APKTOOL_DUMMY_142" />
+    <item type="attr" name="APKTOOL_DUMMY_143" />
+    <item type="attr" name="APKTOOL_DUMMY_145" />
+    <item type="attr" name="APKTOOL_DUMMY_146" />
+    <item type="attr" name="APKTOOL_DUMMY_14a" />
+    <item type="attr" name="APKTOOL_DUMMY_152" />
+    <item type="attr" name="APKTOOL_DUMMY_156" />
+    <item type="attr" name="APKTOOL_DUMMY_157" />
+    <item type="attr" name="APKTOOL_DUMMY_15c" />
+    <item type="attr" name="APKTOOL_DUMMY_15d" />
+    <item type="attr" name="APKTOOL_DUMMY_15f" />
+    <item type="attr" name="APKTOOL_DUMMY_167" />
+    <item type="attr" name="APKTOOL_DUMMY_16b" />
+    <item type="attr" name="APKTOOL_DUMMY_16d" />
+    <item type="attr" name="APKTOOL_DUMMY_171" />
+    <item type="attr" name="APKTOOL_DUMMY_17c" />
+    <item type="attr" name="APKTOOL_DUMMY_17d" />
+    <item type="attr" name="APKTOOL_DUMMY_185" />
+    <item type="attr" name="APKTOOL_DUMMY_186" />
+    <item type="attr" name="APKTOOL_DUMMY_18c" />
+    <item type="attr" name="APKTOOL_DUMMY_1a1" />
+    <item type="attr" name="APKTOOL_DUMMY_1a2" />
+    <item type="attr" name="APKTOOL_DUMMY_1b0" />
+    <item type="attr" name="APKTOOL_DUMMY_1b9" />
+    <item type="attr" name="APKTOOL_DUMMY_1ba" />
+    <item type="attr" name="APKTOOL_DUMMY_1bb" />
+    <item type="attr" name="APKTOOL_DUMMY_1e8" />
+    <item type="attr" name="APKTOOL_DUMMY_1ff" />
+    <item type="attr" name="APKTOOL_DUMMY_200" />
+    <item type="attr" name="APKTOOL_DUMMY_20c" />
+    <item type="attr" name="APKTOOL_DUMMY_219" />
+    <item type="attr" name="APKTOOL_DUMMY_21b" />
+    <item type="attr" name="APKTOOL_DUMMY_22e" />
+    <item type="attr" name="APKTOOL_DUMMY_22f" />
+    <item type="attr" name="APKTOOL_DUMMY_23f" />
+    <item type="attr" name="APKTOOL_DUMMY_240" />
+    <item type="attr" name="APKTOOL_DUMMY_242" />
+    <item type="attr" name="APKTOOL_DUMMY_24e" />
+    <item type="attr" name="APKTOOL_DUMMY_24f" />
+    <item type="attr" name="APKTOOL_DUMMY_250" />
+    <item type="attr" name="APKTOOL_DUMMY_256" />
+    <item type="attr" name="APKTOOL_DUMMY_257" />
+    <item type="attr" name="APKTOOL_DUMMY_258" />
+    <item type="attr" name="APKTOOL_DUMMY_259" />
+    <item type="attr" name="APKTOOL_DUMMY_25c" />
+    <item type="attr" name="APKTOOL_DUMMY_25f" />
+    <item type="attr" name="APKTOOL_DUMMY_262" />
+    <item type="attr" name="APKTOOL_DUMMY_263" />
+    <item type="attr" name="APKTOOL_DUMMY_266" />
+    <item type="attr" name="APKTOOL_DUMMY_27d" />
+    <item type="attr" name="APKTOOL_DUMMY_282" />
+    <item type="attr" name="APKTOOL_DUMMY_283" />
+    <item type="attr" name="APKTOOL_DUMMY_284" />
+    <item type="attr" name="APKTOOL_DUMMY_291" />
+    <item type="attr" name="APKTOOL_DUMMY_295" />
+    <item type="attr" name="APKTOOL_DUMMY_296" />
+    <item type="attr" name="APKTOOL_DUMMY_2ae" />
+    <item type="attr" name="APKTOOL_DUMMY_2c6" />
+    <item type="attr" name="APKTOOL_DUMMY_2c9" />
+    <item type="attr" name="APKTOOL_DUMMY_2d3" />
+    <item type="attr" name="APKTOOL_DUMMY_2d4" />
+    <item type="attr" name="APKTOOL_DUMMY_2d8" />
+    <item type="attr" name="APKTOOL_DUMMY_2d9" />
+    <item type="attr" name="APKTOOL_DUMMY_2e3" />
+    <item type="attr" name="APKTOOL_DUMMY_2e6" />
+    <item type="attr" name="APKTOOL_DUMMY_2e8" />
+    <item type="attr" name="APKTOOL_DUMMY_2ec" />
+    <item type="attr" name="APKTOOL_DUMMY_2f8" />
+    <item type="attr" name="APKTOOL_DUMMY_2fb" />
+    <item type="attr" name="APKTOOL_DUMMY_2fe" />
+    <item type="attr" name="APKTOOL_DUMMY_2ff" />
+    <item type="attr" name="APKTOOL_DUMMY_300" />
+    <item type="attr" name="APKTOOL_DUMMY_301" />
+    <item type="attr" name="APKTOOL_DUMMY_302" />
+    <item type="attr" name="APKTOOL_DUMMY_303" />
+    <item type="attr" name="APKTOOL_DUMMY_304" />
+    <item type="attr" name="APKTOOL_DUMMY_305" />
+    <item type="attr" name="APKTOOL_DUMMY_306" />
+    <item type="attr" name="APKTOOL_DUMMY_307" />
+    <item type="attr" name="APKTOOL_DUMMY_308" />
+    <item type="attr" name="APKTOOL_DUMMY_31d" />
+    <item type="attr" name="APKTOOL_DUMMY_332" />
+    <item type="attr" name="APKTOOL_DUMMY_336" />
+    <item type="attr" name="APKTOOL_DUMMY_337" />
+    <item type="attr" name="APKTOOL_DUMMY_338" />
+    <item type="attr" name="APKTOOL_DUMMY_339" />
+    <item type="attr" name="APKTOOL_DUMMY_343" />
+    <item type="attr" name="APKTOOL_DUMMY_349" />
+    <item type="attr" name="APKTOOL_DUMMY_354" />
+    <item type="attr" name="APKTOOL_DUMMY_35d" />
+    <item type="attr" name="APKTOOL_DUMMY_35e" />
+    <item type="attr" name="APKTOOL_DUMMY_370" />
+    <item type="attr" name="APKTOOL_DUMMY_374" />
+    <item type="attr" name="APKTOOL_DUMMY_375" />
+    <item type="attr" name="APKTOOL_DUMMY_377" />
+    <item type="attr" name="APKTOOL_DUMMY_378" />
+    <item type="attr" name="APKTOOL_DUMMY_37a" />
+    <item type="attr" name="APKTOOL_DUMMY_37b" />
+    <item type="attr" name="APKTOOL_DUMMY_37c" />
+    <item type="attr" name="APKTOOL_DUMMY_37e" />
+    <item type="attr" name="APKTOOL_DUMMY_382" />
+    <item type="attr" name="APKTOOL_DUMMY_38e" />
+    <item type="attr" name="APKTOOL_DUMMY_390" />
+    <item type="attr" name="APKTOOL_DUMMY_397" />
+    <item type="attr" name="APKTOOL_DUMMY_3a1" />
+    <item type="attr" name="APKTOOL_DUMMY_3a3" />
+    <item type="attr" name="APKTOOL_DUMMY_3a4" />
+    <item type="attr" name="APKTOOL_DUMMY_3ae" />
+    <item type="attr" name="APKTOOL_DUMMY_3b7" />
+    <item type="attr" name="APKTOOL_DUMMY_3bb" />
+    <item type="attr" name="APKTOOL_DUMMY_3c1" />
+    <item type="attr" name="APKTOOL_DUMMY_3c2" />
+    <item type="attr" name="APKTOOL_DUMMY_3c3" />
+    <item type="attr" name="APKTOOL_DUMMY_3c4" />
+    <item type="attr" name="APKTOOL_DUMMY_3c5" />
+    <item type="attr" name="APKTOOL_DUMMY_3c8" />
+    <item type="attr" name="APKTOOL_DUMMY_40b" />
+    <item type="attr" name="APKTOOL_DUMMY_41d" />
+    <item type="attr" name="APKTOOL_DUMMY_433" />
+    <item type="attr" name="APKTOOL_DUMMY_457" />
+    <item type="attr" name="APKTOOL_DUMMY_458" />
+    <item type="attr" name="APKTOOL_DUMMY_46b" />
+    <item type="attr" name="APKTOOL_DUMMY_46c" />
+    <item type="attr" name="APKTOOL_DUMMY_46d" />
+    <item type="attr" name="APKTOOL_DUMMY_46e" />
+    <item type="attr" name="APKTOOL_DUMMY_46f" />
+    <item type="attr" name="APKTOOL_DUMMY_470" />
+    <item type="attr" name="APKTOOL_DUMMY_471" />
+    <item type="attr" name="APKTOOL_DUMMY_472" />
+    <item type="attr" name="APKTOOL_DUMMY_473" />
+    <item type="attr" name="APKTOOL_DUMMY_474" />
+    <item type="attr" name="APKTOOL_DUMMY_490" />
+    <item type="attr" name="APKTOOL_DUMMY_496" />
+    <item type="attr" name="APKTOOL_DUMMY_4a1" />
+    <item type="attr" name="APKTOOL_DUMMY_4c4" />
+    <item type="attr" name="APKTOOL_DUMMY_4cb" />
+    <item type="attr" name="APKTOOL_DUMMY_4cf" />
+    <item type="attr" name="APKTOOL_DUMMY_4d0" />
+    <item type="attr" name="APKTOOL_DUMMY_4d1" />
+    <item type="attr" name="APKTOOL_DUMMY_4d2" />
+    <item type="attr" name="APKTOOL_DUMMY_4d3" />
+    <item type="attr" name="APKTOOL_DUMMY_4d4" />
+    <item type="attr" name="APKTOOL_DUMMY_4d5" />
+    <item type="attr" name="APKTOOL_DUMMY_4e1" />
+    <item type="attr" name="APKTOOL_DUMMY_4e2" />
+    <item type="attr" name="APKTOOL_DUMMY_4e3" />
+    <item type="attr" name="APKTOOL_DUMMY_4e4" />
+    <item type="attr" name="APKTOOL_DUMMY_4e5" />
+    <item type="attr" name="APKTOOL_DUMMY_4e6" />
+    <item type="attr" name="APKTOOL_DUMMY_4e7" />
+    <item type="attr" name="APKTOOL_DUMMY_4e8" />
+    <item type="attr" name="APKTOOL_DUMMY_4e9" />
+    <item type="attr" name="APKTOOL_DUMMY_4ee" />
+    <item type="attr" name="APKTOOL_DUMMY_4ef" />
+    <item type="attr" name="APKTOOL_DUMMY_4f0" />
+    <item type="attr" name="APKTOOL_DUMMY_4f1" />
+    <item type="attr" name="APKTOOL_DUMMY_4f2" />
+    <item type="attr" name="APKTOOL_DUMMY_4f3" />
+    <item type="attr" name="APKTOOL_DUMMY_4f4" />
+    <item type="attr" name="APKTOOL_DUMMY_4f5" />
+    <item type="attr" name="APKTOOL_DUMMY_4f6" />
+    <item type="attr" name="APKTOOL_DUMMY_4f7" />
+    <item type="attr" name="APKTOOL_DUMMY_4f8" />
+    <item type="attr" name="APKTOOL_DUMMY_4f9" />
+    <item type="attr" name="APKTOOL_DUMMY_4fa" />
+    <item type="attr" name="APKTOOL_DUMMY_4fc" />
+    <item type="attr" name="APKTOOL_DUMMY_509" />
+    <item type="attr" name="APKTOOL_DUMMY_50b" />
+    <item type="attr" name="APKTOOL_DUMMY_50d" />
+    <item type="attr" name="APKTOOL_DUMMY_50f" />
+    <item type="attr" name="APKTOOL_DUMMY_510" />
+    <item type="attr" name="APKTOOL_DUMMY_516" />
+    <item type="attr" name="APKTOOL_DUMMY_517" />
+    <item type="attr" name="APKTOOL_DUMMY_518" />
+    <item type="attr" name="APKTOOL_DUMMY_519" />
+    <item type="attr" name="APKTOOL_DUMMY_51a" />
+    <item type="attr" name="APKTOOL_DUMMY_51b" />
+    <item type="attr" name="APKTOOL_DUMMY_51c" />
+    <item type="attr" name="APKTOOL_DUMMY_522" />
+    <item type="attr" name="APKTOOL_DUMMY_524" />
+    <item type="attr" name="APKTOOL_DUMMY_535" />
+    <item type="attr" name="APKTOOL_DUMMY_536" />
+    <item type="attr" name="APKTOOL_DUMMY_53d" />
+    <item type="attr" name="APKTOOL_DUMMY_53f" />
+    <item type="attr" name="APKTOOL_DUMMY_540" />
+    <item type="attr" name="APKTOOL_DUMMY_541" />
+    <item type="attr" name="APKTOOL_DUMMY_542" />
+    <item type="attr" name="APKTOOL_DUMMY_543" />
+    <item type="attr" name="APKTOOL_DUMMY_544" />
+    <item type="attr" name="APKTOOL_DUMMY_54d" />
+    <item type="attr" name="APKTOOL_DUMMY_550" />
+    <item type="attr" name="APKTOOL_DUMMY_551" />
+    <item type="attr" name="APKTOOL_DUMMY_552" />
+    <item type="attr" name="APKTOOL_DUMMY_553" />
+    <item type="attr" name="APKTOOL_DUMMY_554" />
+    <item type="attr" name="APKTOOL_DUMMY_561" />
+    <item type="attr" name="APKTOOL_DUMMY_56b" />
+    <item type="attr" name="APKTOOL_DUMMY_57b" />
+    <item type="attr" name="APKTOOL_DUMMY_582" />
+    <item type="attr" name="APKTOOL_DUMMY_583" />
+    <item type="attr" name="APKTOOL_DUMMY_584" />
+    <item type="attr" name="APKTOOL_DUMMY_585" />
+    <item type="attr" name="APKTOOL_DUMMY_596" />
+    <item type="attr" name="APKTOOL_DUMMY_59b" />
+    <item type="attr" name="APKTOOL_DUMMY_59c" />
+    <item type="attr" name="APKTOOL_DUMMY_59d" />
+    <item type="attr" name="APKTOOL_DUMMY_59e" />
+    <item type="attr" name="APKTOOL_DUMMY_5a0" />
+    <item type="attr" name="APKTOOL_DUMMY_5a2" />
+    <item type="attr" name="APKTOOL_DUMMY_5a3" />
+    <item type="attr" name="APKTOOL_DUMMY_5a4" />
+    <item type="attr" name="APKTOOL_DUMMY_5b0" />
+    <item type="attr" name="APKTOOL_DUMMY_5b3" />
+    <item type="attr" name="APKTOOL_DUMMY_5b4" />
+    <item type="attr" name="APKTOOL_DUMMY_5b8" />
+    <item type="attr" name="APKTOOL_DUMMY_5b9" />
+    <item type="attr" name="APKTOOL_DUMMY_5ba" />
+    <item type="attr" name="APKTOOL_DUMMY_5bb" />
+    <item type="attr" name="APKTOOL_DUMMY_5bc" />
+    <item type="attr" name="APKTOOL_DUMMY_5c9" />
+    <item type="attr" name="APKTOOL_DUMMY_5ca" />
+    <item type="attr" name="APKTOOL_DUMMY_5cb" />
+    <item type="attr" name="APKTOOL_DUMMY_5cd" />
+    <item type="attr" name="APKTOOL_DUMMY_5ce" />
+    <item type="attr" name="APKTOOL_DUMMY_5d9" />
+    <item type="attr" name="APKTOOL_DUMMY_5e3" />
+    <item type="attr" name="APKTOOL_DUMMY_5e7" />
+    <item type="attr" name="APKTOOL_DUMMY_5ec" />
+    <item type="attr" name="APKTOOL_DUMMY_5f3" />
+    <item type="attr" name="APKTOOL_DUMMY_5fa" />
+    <item type="attr" name="APKTOOL_DUMMY_5fb" />
+    <item type="attr" name="APKTOOL_DUMMY_5fc" />
+    <item type="attr" name="APKTOOL_DUMMY_5fd" />
+    <item type="attr" name="APKTOOL_DUMMY_5fe" />
+    <item type="attr" name="APKTOOL_DUMMY_601" />
+    <item type="attr" name="APKTOOL_DUMMY_607" />
+    <item type="attr" name="APKTOOL_DUMMY_611" />
+    <item type="attr" name="APKTOOL_DUMMY_626" />
+    <item type="attr" name="APKTOOL_DUMMY_627" />
+    <item type="attr" name="APKTOOL_DUMMY_629" />
+    <item type="attr" name="APKTOOL_DUMMY_62b" />
+    <item type="attr" name="APKTOOL_DUMMY_653" />
+    <item type="attr" name="APKTOOL_DUMMY_656" />
+    <item type="attr" name="APKTOOL_DUMMY_65b" />
+    <item type="attr" name="APKTOOL_DUMMY_65e" />
+    <item type="attr" name="APKTOOL_DUMMY_665" />
+    <item type="attr" name="APKTOOL_DUMMY_668" />
+    <item type="attr" name="APKTOOL_DUMMY_669" />
+    <item type="attr" name="APKTOOL_DUMMY_676" />
+    <item type="attr" name="APKTOOL_DUMMY_67a" />
+    <item type="attr" name="APKTOOL_DUMMY_67b" />
+    <item type="attr" name="APKTOOL_DUMMY_67c" />
+    <item type="attr" name="APKTOOL_DUMMY_67d" />
+    <item type="attr" name="APKTOOL_DUMMY_6c8" />
+    <item type="attr" name="APKTOOL_DUMMY_6c9" />
+    <item type="attr" name="APKTOOL_DUMMY_6ca" />
+    <item type="attr" name="APKTOOL_DUMMY_6cb" />
+    <item type="attr" name="APKTOOL_DUMMY_6cc" />
+    <item type="attr" name="APKTOOL_DUMMY_6f2" />
+    <item type="attr" name="APKTOOL_DUMMY_6f3" />
+    <item type="attr" name="APKTOOL_DUMMY_6f4" />
+    <item type="attr" name="APKTOOL_DUMMY_6f5" />
+    <item type="attr" name="APKTOOL_DUMMY_6f6" />
+    <item type="attr" name="APKTOOL_DUMMY_6fa" />
+    <item type="attr" name="APKTOOL_DUMMY_705" />
+    <item type="attr" name="APKTOOL_DUMMY_706" />
+    <item type="attr" name="APKTOOL_DUMMY_707" />
+    <item type="attr" name="APKTOOL_DUMMY_708" />
+    <item type="attr" name="APKTOOL_DUMMY_70c" />
+    <item type="attr" name="APKTOOL_DUMMY_70d" />
+    <item type="attr" name="APKTOOL_DUMMY_70e" />
+    <item type="attr" name="APKTOOL_DUMMY_70f" />
+    <item type="attr" name="APKTOOL_DUMMY_71a" />
+    <item type="attr" name="APKTOOL_DUMMY_71b" />
+    <item type="attr" name="APKTOOL_DUMMY_722" />
+    <item type="attr" name="APKTOOL_DUMMY_728" />
+    <item type="attr" name="APKTOOL_DUMMY_72d" />
+    <item type="attr" name="APKTOOL_DUMMY_72f" />
+    <item type="attr" name="APKTOOL_DUMMY_73b" />
+    <item type="attr" name="APKTOOL_DUMMY_740" />
+    <item type="attr" name="APKTOOL_DUMMY_743" />
+    <item type="attr" name="APKTOOL_DUMMY_747" />
+    <item type="attr" name="APKTOOL_DUMMY_748" />
+    <item type="attr" name="APKTOOL_DUMMY_749" />
+    <item type="attr" name="APKTOOL_DUMMY_754" />
+    <item type="attr" name="APKTOOL_DUMMY_756" />
+    <item type="attr" name="APKTOOL_DUMMY_758" />
+    <item type="attr" name="APKTOOL_DUMMY_75b" />
+    <item type="attr" name="APKTOOL_DUMMY_75c" />
+    <item type="attr" name="APKTOOL_DUMMY_75d" />
+    <item type="attr" name="APKTOOL_DUMMY_75e" />
+    <item type="attr" name="APKTOOL_DUMMY_760" />
+    <item type="attr" name="APKTOOL_DUMMY_761" />
+    <item type="attr" name="APKTOOL_DUMMY_762" />
+    <item type="attr" name="APKTOOL_DUMMY_763" />
+    <item type="attr" name="APKTOOL_DUMMY_764" />
+    <item type="attr" name="APKTOOL_DUMMY_765" />
+    <item type="attr" name="APKTOOL_DUMMY_766" />
+    <item type="attr" name="APKTOOL_DUMMY_767" />
+    <item type="attr" name="APKTOOL_DUMMY_76f" />
+    <item type="attr" name="APKTOOL_DUMMY_771" />
+    <item type="attr" name="APKTOOL_DUMMY_773" />
+    <item type="attr" name="APKTOOL_DUMMY_776" />
+    <item type="attr" name="APKTOOL_DUMMY_777" />
+    <item type="attr" name="APKTOOL_DUMMY_778" />
+    <item type="attr" name="APKTOOL_DUMMY_779" />
+    <item type="attr" name="APKTOOL_DUMMY_77c" />
+    <item type="attr" name="APKTOOL_DUMMY_781" />
+    <item type="attr" name="APKTOOL_DUMMY_783" />
+    <item type="attr" name="APKTOOL_DUMMY_784" />
+    <item type="attr" name="APKTOOL_DUMMY_78c" />
+    <item type="attr" name="APKTOOL_DUMMY_78d" />
+    <item type="attr" name="APKTOOL_DUMMY_78e" />
+    <item type="attr" name="APKTOOL_DUMMY_78f" />
+    <item type="attr" name="APKTOOL_DUMMY_798" />
+    <item type="attr" name="APKTOOL_DUMMY_79d" />
+    <item type="attr" name="APKTOOL_DUMMY_79e" />
+    <item type="attr" name="APKTOOL_DUMMY_79f" />
+    <item type="attr" name="APKTOOL_DUMMY_7a0" />
+    <item type="attr" name="APKTOOL_DUMMY_7a1" />
+    <item type="attr" name="APKTOOL_DUMMY_7a2" />
+    <item type="attr" name="APKTOOL_DUMMY_7af" />
+    <item type="attr" name="APKTOOL_DUMMY_7b7" />
+</resources>

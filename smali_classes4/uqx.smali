@@ -1,0 +1,45 @@
+.class public final Luqx;
+.super Ljava/lang/Object;
+.source "PG"
+
+
+# static fields
+.field public static final a:Lamgu;
+
+
+# instance fields
+.field public final b:Landroid/content/Context;
+
+.field public final c:Lsem;
+
+.field public final d:Laypi;
+
+
+# direct methods
+.method static constructor <clinit>()V
+    .locals 1
+
+    const-string v0, "com/google/android/libraries/performance/primes/sampling/PersistentRateLimiting"
+
+    invoke-static {v0}, Lamgu;->j(Ljava/lang/String;)Lamgu;
+
+    move-result-object v0
+
+    sput-object v0, Luqx;->a:Lamgu;
+
+    return-void
+.end method
+
+.method public constructor <init>(Landroid/content/Context;Lsem;Laypi;)V
+    .locals 0
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    iput-object p1, p0, Luqx;->b:Landroid/content/Context;
+
+    iput-object p2, p0, Luqx;->c:Lsem;
+
+    iput-object p3, p0, Luqx;->d:Laypi;
+
+    return-void
+.end method

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/yt_black_pure" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/embed_preview_thumbnail" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+    <TextView android:id="@id/embed_title" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="17.0dip" android:layout_alignParentTop="true" android:layout_marginStart="12.0dip" android:layout_marginEnd="4.0dip" android:layout_alignParentStart="true" style="@style/EmbedVideoTitle" />
+    <TextView android:id="@id/embed_subtitle" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:layout_below="@id/embed_title" android:layout_marginStart="4.0dip" android:layout_marginEnd="4.0dip" style="@style/EmbedVideoSubtitle" />
+</RelativeLayout>

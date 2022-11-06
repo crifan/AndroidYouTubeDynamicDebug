@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/offline_stream_selection_group_bottom_separator" android:background="?yt10PercentLayer" android:layout_width="fill_parent" android:layout_height="@dimen/line_separator_height" android:layout_marginTop="12.0dip" android:layout_marginBottom="12.0dip" />
+    <CheckBox android:textAppearance="?textAppearanceSubhead" android:id="@id/remember_stream_setting" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:layout_marginBottom="12.0dip" android:text="@string/offline_remember_stream_setting" android:layout_marginStart="20.0dip" android:layout_marginEnd="20.0dip" />
+</LinearLayout>

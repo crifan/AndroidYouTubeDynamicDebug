@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <padding android:top="1.0dip" android:bottom="1.0dip" />
+    <solid android:color="@color/sponsors_only_badge_background_color" />
+    <corners android:radius="2.0dip" />
+</shape>

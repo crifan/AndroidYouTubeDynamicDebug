@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:key="offline_settings"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:yt="http://schemas.android.com/apk/res-auto">
+    <PreferenceCategory android:title="@string/pref_background_options_title" android:key="offline_category_background" yt:iconSpaceReserved="false">
+        <com.google.android.libraries.youtube.common.ui.preferences.ProtoDataStoreListPreference android:entries="@array/background_audio_policy_entries" android:title="@string/pref_background_audio_policy_title" android:key="background_audio_policy" android:defaultValue="@string/background_audio_policy_default" android:entryValues="@array/background_audio_policy_values" yt:iconSpaceReserved="false" yt:useSimpleSummaryProvider="true" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/pref_offline_options_title" android:key="offline_category" yt:iconSpaceReserved="false">
+        <com.google.android.libraries.youtube.common.ui.preferences.ProtoDataStoreSwitchPreference android:title="@string/pref_smart_downloads_opted_in_title" android:key="smart_downloads_opted_in" yt:iconSpaceReserved="false" />
+        <ListPreference android:title="@string/pref_offline_quality_title" android:key="offline_quality" yt:iconSpaceReserved="false" />
+        <SwitchPreference android:title="@string/pref_offline_network_policy_title" android:key="offline_policy" yt:iconSpaceReserved="false" />
+        <com.google.android.libraries.youtube.common.ui.preferences.ProtoDataStoreSwitchPreference android:title="@string/pref_offline_recs_enabled_title" android:key="offline_recs_enabled" android:defaultValue="true" yt:iconSpaceReserved="false" />
+        <Preference android:title="@string/pref_offline_insert_sd_card_title" android:key="offline_insert_sd_card" android:summary="@string/pref_offline_insert_sd_card_summary" yt:iconSpaceReserved="false" />
+        <SwitchPreference android:persistent="false" android:title="@string/pref_offline_use_sd_card_title" android:key="offline_use_sd_card" android:summary="@string/pref_offline_use_sd_card_summary" android:defaultValue="true" yt:iconSpaceReserved="false" />
+        <Preference android:title="@string/pref_offline_help_title" android:key="offline_help" android:summary="@string/pref_offline_help_summary" yt:iconSpaceReserved="false" />
+        <Preference android:title="@string/menu_clear_offline" android:key="clear_offline" yt:iconSpaceReserved="false" />
+        <Preference android:title="@string/menu_cross_device_offline" android:key="cross_device_offline" yt:iconSpaceReserved="false" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/pref_offline_storage_title_primary" android:key="offline_category_primary_storage" yt:iconSpaceReserved="false">
+        <com.google.android.apps.youtube.app.ui.StorageBarPreference android:layout="@layout/pref_offline_storage" yt:forSdCard="false" yt:iconSpaceReserved="false" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/pref_offline_storage_title_sdcard" android:key="offline_category_sdcard_storage" yt:iconSpaceReserved="false">
+        <com.google.android.apps.youtube.app.ui.StorageBarPreference android:layout="@layout/pref_offline_storage" yt:forSdCard="true" yt:iconSpaceReserved="false" />
+    </PreferenceCategory>
+</PreferenceScreen>

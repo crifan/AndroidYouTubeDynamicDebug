@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/dynamic_sticker_container" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ViewStub android:layout_gravity="center" android:id="@id/unicode_emoji_sticker_stub" android:layout="@layout/unicode_emoji_sticker" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginStart="@dimen/dynamic_sticker_side_margin" android:layout_marginEnd="@dimen/dynamic_sticker_side_margin" />
+    <ImageView android:layout_gravity="center" android:id="@id/sticker" android:layout_width="fill_parent" android:layout_height="@dimen/dynamic_sticker_max_height" android:contentDescription="@null" android:layout_marginStart="@dimen/dynamic_sticker_side_margin" android:layout_marginEnd="@dimen/dynamic_sticker_side_margin" />
+</FrameLayout>

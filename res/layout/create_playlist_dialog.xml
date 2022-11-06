@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:padding="@dimen/playlist_activity_create_playlist_dialog_padding" android:layout_width="fill_parent" android:layout_height="fill_parent" android:minWidth="300.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:yt="http://schemas.android.com/apk/res-auto">
+    <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:textAppearance="?textAppearanceTitle" android:gravity="start" android:id="@id/dialog_title" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="5.0dip" yt:robotoFont="medium" />
+    <com.google.android.material.textfield.TextInputLayout android:id="@id/name_text_input_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/playlist_activity_create_playlist_dialog_padding">
+        <EditText android:id="@id/name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/create_playlist_name" android:maxLength="@integer/playlist_title_character_limit" android:inputType="textCapSentences" />
+    </com.google.android.material.textfield.TextInputLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/privacy_dropdown_container" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:textSize="@dimen/small_font_size" android:textColor="?ytTextSecondary" android:id="@id/privacy_label" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/create_playlist_privacy" android:layout_marginStart="4.0dip" yt:robotoFont="regular" />
+        <com.google.android.apps.youtube.app.common.ui.playlist.PrivacySpinner android:id="@id/privacy_select" android:layout_width="fill_parent" android:layout_height="wrap_content" android:popupBackground="@color/quantum_grey50" android:layout_marginStart="4.0dip" style="@style/DropdownSpinner" />
+        <View android:id="@id/line_separator" android:background="?yt10PercentLayer" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginTop="8.0dip" android:layout_marginStart="4.0dip" android:layout_marginEnd="4.0dip" />
+    </LinearLayout>
+    <ViewStub android:id="@id/privacy_badge" android:layout="@layout/metadata_badge" android:inflatedId="@id/metadata_badge" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <include android:id="@id/cancel_and_create_button" android:visibility="gone" layout="@layout/create_playlist_dialog_cancel_and_create_button" />
+</LinearLayout>

@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Base.TextAppearance.AppCompat.Widget.ActionBar.Menu" parent="@android:style/TextAppearance.Material.Widget.ActionBar.Menu" />
+    <style name="Base.Theme.AppCompat" parent="@style/Base.V23.Theme.AppCompat" />
+    <style name="Base.Theme.AppCompat.Light" parent="@style/Base.V23.Theme.AppCompat.Light" />
+    <style name="Base.Theme.GoogleMaterial.Light" parent="@style/Base.V23.Theme.GoogleMaterial.Light" />
+    <style name="Base.Widget.AppCompat.ActionButton.Overflow" parent="@android:style/Widget.Material.ActionButton.Overflow" />
+    <style name="Base.Widget.AppCompat.Button.Borderless.Colored" parent="@android:style/Widget.Material.Button.Borderless.Colored" />
+    <style name="Base.Widget.AppCompat.Button.Colored" parent="@android:style/Widget.Material.Button.Colored">
+        <item name="android:textAppearance">@style/TextAppearance.AppCompat.Widget.Button.Colored</item>
+    </style>
+    <style name="Base.Widget.AppCompat.EditText" parent="@android:style/Widget.Material.EditText">
+        <item name="android:breakStrategy">simple</item>
+        <item name="android:hyphenationFrequency">none</item>
+    </style>
+    <style name="Base.Widget.AppCompat.RatingBar.Indicator" parent="@android:style/Widget.Material.RatingBar.Indicator" />
+    <style name="Base.Widget.AppCompat.RatingBar.Small" parent="@android:style/Widget.Material.RatingBar.Small" />
+    <style name="Base.Widget.AppCompat.Spinner.Underlined" parent="@android:style/Widget.Material.Spinner.Underlined" />
+    <style name="Base.Widget.AppCompat.TextView" parent="@android:style/Widget.Material.TextView">
+        <item name="android:breakStrategy">high_quality</item>
+        <item name="android:hyphenationFrequency">none</item>
+    </style>
+    <style name="CardView" parent="@style/Base.CardView">
+        <item name="cardBackgroundColor">?android:colorBackgroundFloating</item>
+    </style>
+    <style name="SudThemeGlifV2" parent="@style/SudThemeGlif">
+        <item name="android:colorBackground">@color/sud_glif_background_color_dark</item>
+        <item name="android:editTextStyle">@style/SudEditText</item>
+        <item name="android:alertDialogTheme">@style/SudAlertDialogTheme</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="alertDialogTheme">@style/SudAlertDialogThemeCompat</item>
+        <item name="sucLightStatusBar">?android:windowLightStatusBar</item>
+        <item name="sudBackgroundBaseColor">?android:colorBackground</item>
+        <item name="sudBackgroundPatterned">false</item>
+        <item name="sudDividerInsetEnd">?sudMarginEnd</item>
+        <item name="sudDividerInsetStart">?sudMarginStart</item>
+        <item name="sudDividerInsetStartNoIcon">?sudMarginStart</item>
+        <item name="sudEditTextBackgroundColor">@color/sud_glif_edit_text_bg_dark_color</item>
+        <item name="sudGlifHeaderGravity">center_horizontal</item>
+        <item name="sudGlifSubtitleGravity">center_horizontal</item>
+        <item name="sudScrollIndicators">bottom|top</item>
+    </style>
+    <style name="SudThemeGlifV2.Light" parent="@style/SudThemeGlif.Light">
+        <item name="android:colorBackground">@color/sud_glif_background_color_light</item>
+        <item name="android:editTextStyle">@style/SudEditText</item>
+        <item name="android:alertDialogTheme">@style/SudAlertDialogTheme.Light</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="alertDialogTheme">@style/SudAlertDialogThemeCompat.Light</item>
+        <item name="sucLightStatusBar">?android:windowLightStatusBar</item>
+        <item name="sudBackgroundBaseColor">?android:colorBackground</item>
+        <item name="sudBackgroundPatterned">false</item>
+        <item name="sudDividerInsetEnd">?sudMarginEnd</item>
+        <item name="sudDividerInsetStart">?sudMarginStart</item>
+        <item name="sudDividerInsetStartNoIcon">?sudMarginStart</item>
+        <item name="sudEditTextBackgroundColor">@color/sud_glif_edit_text_bg_light_color</item>
+        <item name="sudGlifHeaderGravity">center_horizontal</item>
+        <item name="sudGlifSubtitleGravity">center_horizontal</item>
+        <item name="sudScrollIndicators">bottom|top</item>
+    </style>
+    <style name="Theme.YouTube.Dark" parent="@style/Base.V23.Theme.YouTube.Dark" />
+    <style name="Theme.YouTube.Dark.AccountPanel.Dialog.RemoveStatusBarBackground" parent="@style/Theme.YouTube.Dark.AccountPanel.Dialog">
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="colorPrimaryDark">@android:color/transparent</item>
+    </style>
+    <style name="Theme.YouTube.Dark.AccountPanel.RemoveStatusBarBackground" parent="@style/Theme.YouTube.Dark.AccountPanel">
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="colorPrimaryDark">@android:color/transparent</item>
+    </style>
+    <style name="Theme.YouTube.Dark.Dialog" parent="@style/Base.V23.Theme.YouTube.Dark.Dialog" />
+    <style name="Theme.YouTube.Dark.Home.RemoveStatusBackground" parent="@style/Theme.YouTube.Dark.Home">
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="ytStatusBarBackground">@android:color/transparent</item>
+    </style>
+    <style name="Theme.YouTube.Dark.Home.RemoveStatusBackground.WithTouchFeedback" parent="@style/Theme.YouTube.Dark.Home.TouchFeedback">
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="ytStatusBarBackground">@android:color/transparent</item>
+    </style>
+    <style name="Theme.YouTube.Home.RemoveStatusBackground" parent="@style/Theme.YouTube.Home">
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="ytStatusBarBackground">@android:color/transparent</item>
+    </style>
+    <style name="Theme.YouTube.Home.RemoveStatusBackground.WithTouchFeedback" parent="@style/Theme.YouTube.Home.TouchFeedback">
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="ytStatusBarBackground">@android:color/transparent</item>
+    </style>
+    <style name="Theme.YouTube.Launcher" parent="@style/Base.V23.Theme.YouTube.Launcher.Light" />
+    <style name="Theme.YouTube.Light" parent="@style/Base.V23.Theme.YouTube.Light" />
+    <style name="Theme.YouTube.Light.AccountPanel.Dialog.RemoveStatusBarBackground" parent="@style/Theme.YouTube.Light.AccountPanel.Dialog">
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="colorPrimaryDark">@android:color/transparent</item>
+    </style>
+    <style name="Theme.YouTube.Light.AccountPanel.RemoveStatusBarBackground" parent="@style/Theme.YouTube.Light.AccountPanel">
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="colorPrimaryDark">@android:color/transparent</item>
+    </style>
+    <style name="Theme.YouTube.Light.Dialog" parent="@style/Base.V23.Theme.YouTube.Light.Dialog" />
+    <style name="Theme.YouTube.Settings.Dark.RemoveStatusBarBackground" parent="@style/Theme.YouTube.Settings.Dark">
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="ytStatusBarBackground">@android:color/transparent</item>
+    </style>
+    <style name="Theme.YouTube.Settings.RemoveStatusBarBackground" parent="@style/Theme.YouTube.Settings">
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="ytStatusBarBackground">@android:color/transparent</item>
+    </style>
+    <style name="Theme.YouTube.UploadActivity.Dark.RemoveStatusBarBackground" parent="@style/Theme.YouTube.UploadActivity.Dark">
+        <item name="android:colorPrimaryDark">@android:color/transparent</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+    <style name="Theme.YouTube.UploadActivity.Light.RemoveStatusBarBackground" parent="@style/Theme.YouTube.UploadActivity.Light">
+        <item name="android:colorPrimaryDark">@android:color/transparent</item>
+        <item name="android:windowLightStatusBar">true</item>
+    </style>
+    <style name="ThemeOverlay.GoogleMaterial.TextInputEditText" parent="@style/Base.ThemeOverlay.GoogleMaterial.TextInputEditText">
+        <item name="colorControlNormal">@color/google_textfield_indicator_text_color</item>
+    </style>
+    <style name="Widget.GoogleMaterial.ActionBar.Solid" parent="@style/Base.Widget.GoogleMaterial.ActionBar.Solid">
+        <item name="background">@drawable/google_appbar_surface_background_dark</item>
+        <item name="backgroundSplit">@drawable/google_appbar_surface_background_dark</item>
+        <item name="backgroundStacked">@drawable/google_appbar_surface_background_dark</item>
+    </style>
+    <style name="Widget.GoogleMaterial.CompoundButton.CheckBox" parent="@style/Widget.MaterialComponents.CompoundButton.CheckBox">
+        <item name="android:background">@drawable/google_checkbox_ripple</item>
+        <item name="buttonTint">@color/google_selection_control_button_tint</item>
+        <item name="useMaterialThemeColors">false</item>
+    </style>
+    <style name="Widget.GoogleMaterial.CompoundButton.RadioButton" parent="@style/Widget.MaterialComponents.CompoundButton.RadioButton">
+        <item name="android:background">@drawable/google_radiobutton_ripple</item>
+        <item name="buttonTint">@color/google_selection_control_button_tint</item>
+        <item name="useMaterialThemeColors">false</item>
+    </style>
+    <style name="Widget.MaterialComponents.PopupMenu.ContextMenu" parent="@style/Base.Widget.MaterialComponents.PopupMenu.ContextMenu">
+        <item name="android:popupBackground">?popupMenuBackground</item>
+        <item name="android:popupElevation">8.0dip</item>
+    </style>
+    <style name="Widget.MaterialComponents.PopupMenu.ListPopupWindow" parent="@style/Base.Widget.MaterialComponents.PopupMenu.ListPopupWindow">
+        <item name="android:popupBackground">?popupMenuBackground</item>
+        <item name="android:popupElevation">8.0dip</item>
+    </style>
+    <style name="Base.V23.Theme.AppCompat" parent="@style/Base.V22.Theme.AppCompat">
+        <item name="actionBarItemBackground">?android:actionBarItemBackground</item>
+        <item name="actionMenuTextAppearance">?android:actionMenuTextAppearance</item>
+        <item name="actionMenuTextColor">?android:actionMenuTextColor</item>
+        <item name="actionOverflowButtonStyle">?android:actionOverflowButtonStyle</item>
+        <item name="controlBackground">@drawable/abc_control_background_material</item>
+        <item name="ratingBarStyleIndicator">?android:ratingBarStyleIndicator</item>
+        <item name="ratingBarStyleSmall">?android:ratingBarStyleSmall</item>
+    </style>
+    <style name="Base.V23.Theme.AppCompat.Light" parent="@style/Base.V22.Theme.AppCompat.Light">
+        <item name="actionBarItemBackground">?android:actionBarItemBackground</item>
+        <item name="actionMenuTextAppearance">?android:actionMenuTextAppearance</item>
+        <item name="actionMenuTextColor">?android:actionMenuTextColor</item>
+        <item name="actionOverflowButtonStyle">?android:actionOverflowButtonStyle</item>
+        <item name="controlBackground">@drawable/abc_control_background_material</item>
+        <item name="ratingBarStyleIndicator">?android:ratingBarStyleIndicator</item>
+        <item name="ratingBarStyleSmall">?android:ratingBarStyleSmall</item>
+    </style>
+    <style name="Base.V23.Theme.GoogleMaterial.Light" parent="@style/Base.V21.Theme.GoogleMaterial.Light">
+        <item name="android:windowLightStatusBar">true</item>
+    </style>
+    <style name="Base.V23.Theme.YouTube.Dark" parent="@style/Base.Theme.YouTube.Dark">
+        <item name="android:alertDialogTheme">@style/Theme.YouTube.Dark.Dialog</item>
+    </style>
+    <style name="Base.V23.Theme.YouTube.Dark.Dialog" parent="@style/Base.Theme.YouTube.Dark.Dialog">
+        <item name="android:colorPrimary">?ytThemedBlue</item>
+        <item name="android:colorAccent">?ytThemedBlue</item>
+    </style>
+    <style name="Base.V23.Theme.YouTube.Launcher.Dark" parent="@style/Base.Theme.YouTube.Launcher.Dark">
+        <item name="android:colorPrimaryDark">@android:color/transparent</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+    <style name="Base.V23.Theme.YouTube.Launcher.Light" parent="@style/Base.Theme.YouTube.Launcher.Light">
+        <item name="android:colorPrimaryDark">@android:color/transparent</item>
+        <item name="android:windowLightStatusBar">true</item>
+    </style>
+    <style name="Base.V23.Theme.YouTube.Light" parent="@style/Base.Theme.YouTube.Light">
+        <item name="android:alertDialogTheme">@style/Theme.YouTube.Light.Dialog</item>
+    </style>
+    <style name="Base.V23.Theme.YouTube.Light.Dialog" parent="@style/Base.Theme.YouTube.Light.Dialog">
+        <item name="android:colorPrimary">?ytThemedBlue</item>
+        <item name="android:colorAccent">?ytThemedBlue</item>
+    </style>
+</resources>

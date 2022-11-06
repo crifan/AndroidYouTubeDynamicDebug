@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="accessibility_dislike_video_plural">
+        <item quantity="other">ប៊ូតុង​មិន​ចូលចិត្ត %1$d នាក់​ផ្សេង​ទៀត​បាន​មិន​ចូលចិត្ត​វីដេអូ​នេះ</item>
+        <item quantity="one">ប៊ូតុង​មិន​ចូលចិត្ត %1$d នាក់​ផ្សេង​ទៀត​បាន​មិន​ចូលចិត្ត​វីដេអូ​នេះ</item>
+    </plurals>
+    <plurals name="accessibility_dtts_fast_forward">
+        <item quantity="other">ខា​ទៅមុខ %1$d វិនាទី</item>
+        <item quantity="one">ខា​ទៅមុខ %1$d វិនាទី</item>
+    </plurals>
+    <plurals name="accessibility_dtts_rewind">
+        <item quantity="other">ខា​ថយក្រោយ %1$d វិនាទី</item>
+        <item quantity="one">ខា​ថយក្រោយ %1$d វិនាទី</item>
+    </plurals>
+    <plurals name="accessibility_duration_description_hours">
+        <item quantity="other">%d ម៉ោង</item>
+        <item quantity="one">%d ម៉ោង</item>
+    </plurals>
+    <plurals name="accessibility_duration_description_minutes">
+        <item quantity="other">%d នាទី</item>
+        <item quantity="one">%d នាទី</item>
+    </plurals>
+    <plurals name="accessibility_duration_description_seconds">
+        <item quantity="other">%d វិនាទី</item>
+        <item quantity="one">%d វិនាទី</item>
+    </plurals>
+    <plurals name="accessibility_like_video_plural">
+        <item quantity="other">ប៊ូតុង​ចូលចិត្ត %1$d នាក់ផ្សេងទៀត​បាន​ចូលចិត្ត​វីដេអូនេះ</item>
+        <item quantity="one">ប៊ូតុង​ចូលចិត្ត %1$d នាក់ផ្សេងទៀត​បាន​ចូលចិត្ត​វីដេអូនេះ</item>
+    </plurals>
+    <plurals name="accessibility_skip_ad_in">
+        <item quantity="other">រំលង​ពាណិជ្ជកម្ម​នេះ​ក្នុង​រយៈពេល %1$d វិនាទី​ទៀត</item>
+        <item quantity="one">រំលង​ពាណិជ្ជកម្ម​នេះ​ក្នុង​រយៈពេល 1 វិនាទី​ទៀត</item>
+    </plurals>
+    <plurals name="accessibility_undo_dislike_video_plural">
+        <item quantity="other">ប៊ូតុង​​លុប​ចោល​ការ​មិន​ចូលចិត្ត %1$d នាក់​ផ្សេង​ទៀត​បាន​មិន​ចូលចិត្ត​វីដេអូ​នេះ</item>
+        <item quantity="one">ប៊ូតុង​​លុប​ចោល​ការ​មិន​ចូលចិត្ត %1$d នាក់​ផ្សេង​ទៀត​បាន​មិន​ចូលចិត្ត​វីដេអូ​នេះ</item>
+    </plurals>
+    <plurals name="accessibility_undo_like_video_plural">
+        <item quantity="other">ប៊ូតុងលុបចោលការ​ចូលចិត្ត %1$d នាក់ផ្សេងទៀត​បាន​ចូលចិត្ត​វីដេអូនេះ</item>
+        <item quantity="one">ប៊ូតុងលុបចោលការ​ចូលចិត្ត %1$d នាក់ផ្សេងទៀត​បាន​ចូលចិត្ត​វីដេអូនេះ</item>
+    </plurals>
+    <plurals name="download_new_videos_button_text">
+        <item quantity="other">ទាញ​យក​វីដេអូ​ថ្មីចំនួន %1$d</item>
+        <item quantity="one">ទាញ​យក​វីដេអូ​ថ្មីចំនួន %1$d</item>
+    </plurals>
+    <plurals name="download_playlist_unplayable_future_days_plural">
+        <item quantity="other">វីដេអូមួយចំនួនតម្រូវឱ្យមាន Premium ក្នុងរយៈពេល %1$d ថ្ងៃ</item>
+        <item quantity="one">វីដេអូមួយចំនួនតម្រូវឱ្យមាន Premium ក្នុងរយៈពេល %1$d ថ្ងៃ</item>
+    </plurals>
+    <plurals name="download_playlist_unplayable_future_hours_plural">
+        <item quantity="other">វីដេអូមួយចំនួនតម្រូវឱ្យមាន Premium ក្នុងរយៈពេល %1$d ម៉ោង</item>
+        <item quantity="one">វីដេអូមួយចំនួនតម្រូវឱ្យមាន Premium ក្នុងរយៈពេល %1$d ម៉ោង</item>
+    </plurals>
+    <plurals name="download_playlist_unplayable_future_minutes_plural">
+        <item quantity="other">វីដេអូមួយចំនួនតម្រូវឱ្យមាន Premium ក្នុងរយៈពេល %1$d នាទី</item>
+        <item quantity="one">វីដេអូមួយចំនួនតម្រូវឱ្យមាន Premium ក្នុងរយៈពេល %1$d នាទី</item>
+    </plurals>
+    <plurals name="download_video_unplayable_future_days_plural">
+        <item quantity="other">តម្រូវឱ្យមាន Premium ក្នុងរយៈពេល %1$d ថ្ងៃ</item>
+        <item quantity="one">តម្រូវឱ្យមាន Premium ក្នុងរយៈពេល %1$d ថ្ងៃ</item>
+    </plurals>
+    <plurals name="download_video_unplayable_future_hours_plural">
+        <item quantity="other">តម្រូវឱ្យមាន Premium ក្នុងរយៈពេល %1$d ម៉ោង</item>
+        <item quantity="one">តម្រូវឱ្យមាន Premium ក្នុងរយៈពេល %1$d ម៉ោង</item>
+    </plurals>
+    <plurals name="download_video_unplayable_future_minutes_plural">
+        <item quantity="other">តម្រូវឱ្យមាន Premium ក្នុងរយៈពេល %1$d នាទី</item>
+        <item quantity="one">តម្រូវឱ្យមាន Premium ក្នុងរយៈពេល %1$d នាទី</item>
+    </plurals>
+    <plurals name="frequency_hours_component">
+        <item quantity="other">%1$d ម៉ោង</item>
+        <item quantity="one">%1$d ម៉ោង</item>
+    </plurals>
+    <plurals name="frequency_hours_only">
+        <item quantity="other">រៀងរាល់ %1$d ម៉ោង​​</item>
+        <item quantity="one">រៀងរាល់​ម៉ោង</item>
+    </plurals>
+    <plurals name="frequency_minutes_component">
+        <item quantity="other">%1$d នាទី</item>
+        <item quantity="one">%1$d នាទី</item>
+    </plurals>
+    <plurals name="frequency_minutes_only">
+        <item quantity="other">រៀងរាល់ %1$d នាទី​ម្ដង</item>
+        <item quantity="one">រៀងរាល់​នាទី</item>
+    </plurals>
+    <plurals name="image_picker_title">
+        <item quantity="other">បាន​ជ្រើសរើស %1$d</item>
+        <item quantity="one">បានជ្រើសរើស %1$d</item>
+    </plurals>
+    <plurals name="invalid_uploads_error_msg">
+        <item quantity="other">ឯកសារវីដេអូមួយ ឬច្រើនមិនអាចប្រើបាន ឬមិនត្រឹមត្រូវ។ សូមព្យាយាមម្តងទៀត ឬជ្រើសរើសឯកសារផ្សេងទៀត។</item>
+        <item quantity="one">ឯកសារវីដេអូនេះមិនអាចប្រើបាន ឬមិនត្រឹមត្រូវ។ សូមព្យាយាមម្តងទៀត ឬជ្រើសរើសឯកសារមួយផ្សេងទៀត។</item>
+    </plurals>
+    <plurals name="last_update_in_days_message">
+        <item quantity="other">បានធ្វើ​បច្ចុប្បន្នភាព %1$d ​ថ្ងៃ​មុន</item>
+        <item quantity="one">បាន​ធ្វើ​បច្ចុប្បន្នភាព​ម្សិលមិញ</item>
+    </plurals>
+    <plurals name="last_update_in_hours_message">
+        <item quantity="other">បានធ្វើ​បច្ចុប្បន្នភាព %1$d ​ម៉ោង​មុន</item>
+        <item quantity="one">បានធ្វើ​បច្ចុប្បន្នភាព %1$d ​ម៉ោងមុន</item>
+    </plurals>
+    <plurals name="last_update_in_minutes_message">
+        <item quantity="other">បានធ្វើ​បច្ចុប្បន្នភាព %1$d ​នាទី​​មុន</item>
+        <item quantity="one">បានធ្វើបច្ចុប្បន្នភាព %1$dនាទី​មុន</item>
+    </plurals>
+    <plurals name="last_update_in_weeks_message">
+        <item quantity="other">បានធ្វើបច្ចុប្បន្នភាព %1$d សប្ដាហ៍មុន</item>
+        <item quantity="one">បានធ្វើបច្ចុប្បន្នភាព %1$d សប្ដាហ៍មុន</item>
+    </plurals>
+    <plurals name="notification_playlist_progress_size">
+        <item quantity="other">វីដេអូ %1$d ក្នុង​ចំណោម​វីដេអូ %2$d</item>
+        <item quantity="one">វីដេអូ %1$d ក្នុង​ចំណោម​វីដេអូ 1</item>
+    </plurals>
+    <plurals name="offline_go_online_to_renew_dialog_message">
+        <item quantity="other">វីដេអូដែលបានទាញយក​នៅតែ​អាចមើលបាន ដរាបណាឧបករណ៍របស់អ្នក​ភ្ជាប់អ៊ីនធឺណិត​រៀងរាល់ %1$d ថ្ងៃ។ ដំណើរការនេះ​កើតឡើង​ដោយស្វ័យប្រវត្តិ ហើយមិនទាញយក​វីដេអូ​ឡើងវិញទេ។</item>
+        <item quantity="one">វីដេអូដែលបានទាញយក​នៅតែ​អាចមើលបាន ដរាបណាឧបករណ៍របស់អ្នក​ភ្ជាប់អ៊ីនធឺណិត​រៀងរាល់ថ្ងៃ។ ដំណើរការនេះ​កើតឡើង​ដោយស្វ័យប្រវត្តិ ហើយ​មិនទាញយក​វីដេអូ​ឡើងវិញទេ។</item>
+    </plurals>
+    <plurals name="offline_go_online_to_renew_snackbar_message">
+        <item quantity="other">វីដេអូ​ដែល​បាន​ទាញ​យក​អាច​មើល​បាន %1$d ថ្ងៃ​​ទៀត ​​ដោយ​គ្មាន​ការ​ភ្ជាប់​អ៊ីនធឺណិត។</item>
+        <item quantity="one">វីដេអូ​ដែល​បាន​ទាញ​យក​អាច​មើល​បាន 1 ថ្ងៃទៀត ​​​​ដោយ​គ្មាន​ការ​ភ្ជាប់​អ៊ីនធឺណិត។</item>
+    </plurals>
+    <plurals name="offline_remember_setting_for_days">
+        <item quantity="other">ចងចាំការកំណត់របស់ខ្ញុំរយៈពេល %1$d ថ្ងៃ</item>
+        <item quantity="one">ចងចាំការកំណត់របស់ខ្ញុំរយៈពេល 1 ថ្ងៃ</item>
+    </plurals>
+    <plurals name="playlist_picker_dialog_done">
+        <item quantity="other">បាន​ធ្វើ​បច្ចុប្បន្នភាព​កម្រង​វីដេអូ</item>
+        <item quantity="one">បាន​ធ្វើ​បច្ចុប្បន្នភាព​កម្រង​វីដេអូ</item>
+    </plurals>
+    <plurals name="playlist_size">
+        <item quantity="other">វីដេអូ %1$,d</item>
+        <item quantity="one">វីដេអូ 1</item>
+    </plurals>
+    <plurals name="playlist_size_downloaded">
+        <item quantity="other">បានទាញយក %1$,d</item>
+        <item quantity="one">បានទាញយក %1$,d</item>
+    </plurals>
+    <plurals name="playlist_size_total">
+        <item quantity="other">វីដេអូ %1$,d</item>
+        <item quantity="one">វីដេអូ 1</item>
+    </plurals>
+    <plurals name="public_notification_text">
+        <item quantity="other">%1$d new notifications</item>
+        <item quantity="one">You have a notification</item>
+    </plurals>
+    <plurals name="quick_seek_x_second">
+        <item quantity="other">%d វិនាទី</item>
+        <item quantity="one">%d វិនាទី</item>
+    </plurals>
+    <plurals name="recommendation_count">
+        <item quantity="other">ការណែនាំ %1$d</item>
+        <item quantity="one">ការណែនាំ 1</item>
+    </plurals>
+    <plurals name="rental_expiry_notice">
+        <item quantity="other">នៅ​ពេល​បាន​​ចាប់ផ្ដើម​ អ្នក​នឹង​មាន​ពេល %1$d ​ម៉ោង ដើម្បី​មើល​វីដេអូ​នេះ​​។</item>
+        <item quantity="one">នៅ​ពេល​បាន​​ចាប់ផ្ដើម​ អ្នក​នឹង​មាន​ពេល 1 ម៉ោង ​ដើម្បី​មើល​វីដេអូ​នេះ​​។</item>
+    </plurals>
+    <plurals name="rental_long_days_remaining">
+        <item quantity="other">ផុត​កំណត់​ក្នុង​រយៈពេល %1$d ថ្ងៃ</item>
+        <item quantity="one">ផុត​កំណត់​ក្នុង​រយៈពេល 1 ថ្ងៃ</item>
+    </plurals>
+    <plurals name="rental_long_hours_remaining">
+        <item quantity="other">ផុតកំណត់ក្នុងរយៈពេល %1$d ម៉ោង</item>
+        <item quantity="one">ផុតកំណត់ក្នុងរយៈពេល 1 ម៉ោង</item>
+    </plurals>
+    <plurals name="rental_long_weeks_remaining">
+        <item quantity="other">ផុត​កំណត់​ក្នុង​រយៈ​ពេល %1$d សប្ដាហ៍</item>
+        <item quantity="one">ផុត​កំណត់​ក្នុង​រយៈ​ពេល 1 សប្ដាហ៍</item>
+    </plurals>
+    <plurals name="rental_medium_days_remaining">
+        <item quantity="other">ផុតកំណត់ក្នុងរយៈពេល %1$d ថ្ងៃ</item>
+        <item quantity="one">ផុតកំណត់ក្នុងរយៈពេល 1 ថ្ងៃ</item>
+    </plurals>
+    <plurals name="rental_medium_hours_remaining">
+        <item quantity="other">ផុតកំណត់​ក្នុងរយៈពេល %1$d ម៉ោង​</item>
+        <item quantity="one">ផុតកំណត់​ក្នុងរយៈពេល 1 ម៉ោង​</item>
+    </plurals>
+    <plurals name="rental_medium_weeks_remaining">
+        <item quantity="other">ផុតកំណត់​ក្នុងរយៈពេល %1$d សប្ដាហ៍​</item>
+        <item quantity="one">ផុតកំណត់​ក្នុងរយៈពេល 1 សប្ដាហ៍​</item>
+    </plurals>
+    <plurals name="selected_video_count">
+        <item quantity="other">បាន​ជ្រើស​រើសវីដេអូ​ %1$d</item>
+        <item quantity="one">បាន​ជ្រើស​រើសវីដេអូ​ 1</item>
+    </plurals>
+    <plurals name="shorts_a11y_duration_seconds">
+        <item quantity="other">%1$s វិនាទី</item>
+        <item quantity="one">%1$s វិនាទី</item>
+    </plurals>
+    <plurals name="shorts_a11y_timer_duration_seconds">
+        <item quantity="other">កម្មវិធីកំណត់ម៉ោង %1$d វិនាទី</item>
+        <item quantity="one">កម្មវិធីកំណត់ម៉ោង %1$d វិនាទី</item>
+    </plurals>
+    <plurals name="shorts_a11y_timer_started">
+        <item quantity="other">បានបើកដំណើរការកម្មវិធីកំណត់ម៉ោង %1$d វិនាទី</item>
+        <item quantity="one">បានបើកដំណើរការកម្មវិធីកំណត់ម៉ោង %1$d វិនាទី</item>
+    </plurals>
+    <plurals name="smart_downloads_future_update_text">
+        <item quantity="other">ការទាញយកឆ្លាតវៃ​នឹងធ្វើបច្ចុប្បន្នភាព​​ដោយស្វ័យប្រវត្តិ​ក្នុងរយៈពេល %1$d ថ្ងៃ</item>
+        <item quantity="one">ការទាញយក​ឆ្លាតវៃនឹងធ្វើបច្ចុប្បន្នភាពដោយស្វ័យប្រវត្តិក្នុងរយៈពេល 1 ថ្ងៃ</item>
+    </plurals>
+    <plurals name="sticker_dialog_title">
+        <item quantity="other">សូម​​ត្រឡប់​មក​វិញ​ក្នុងរយៈពេល %1$d ថ្ងៃទៀត</item>
+        <item quantity="one">សូម​ត្រឡប់មកវិញក្នុង​រយៈពេល 1 ថ្ងៃទៀត</item>
+    </plurals>
+    <plurals name="too_many_external_uploads_error_msg">
+        <item quantity="other">អ្នក​អាច​​បង្ហោះ​វីដេអូ​ម្ដង​បាន​តែ %1$d ប៉ុណ្ណោះ។</item>
+        <item quantity="one">អ្នក​អាច​បង្ហោះ​វីដេអូ​ម្ដង​បាន​តែ %1$d ប៉ុណ្ណោះ។</item>
+    </plurals>
+    <plurals name="transcoding_progress">
+        <item quantity="other">កំពុង​រៀបចំ %1$,d%%</item>
+        <item quantity="one">កំពុង​រៀបចំ %1$,d%%</item>
+    </plurals>
+    <plurals name="trim_segment_max_length">
+        <item quantity="other">អតិបរមា %1$d វិនាទី</item>
+        <item quantity="one">អតិបរមា 1 វិនាទី</item>
+    </plurals>
+    <plurals name="trim_switch_edu">
+        <item quantity="other">តម្រឹមវីដេអូរបស់អ្នកមកត្រឹម %1$d វិនាទី ហើយបញ្ចូលតន្ត្រី</item>
+        <item quantity="one">តម្រឹមវីដេអូរបស់អ្នកមកត្រឹម 1 វិនាទី ហើយបញ្ចូលតន្ត្រី</item>
+    </plurals>
+    <plurals name="trim_switch_edu_full_length_shorts">
+        <item quantity="other">តម្រឹម​វីដេអូ​របស់អ្នក​មកត្រឹម %1$d វិនាទី ឬ​ខ្លីជាងនេះ</item>
+        <item quantity="one">តម្រឹម​វីដេអូ​របស់អ្នក​មកត្រឹម 1 វិនាទី ឬ​ខ្លីជាងនេះ</item>
+    </plurals>
+    <plurals name="upload_hours_remaing">
+        <item quantity="other">នៅ​សល់​ប្រហែល %1$,d ម៉ោង</item>
+        <item quantity="one">នៅ​សល់​ប្រហែល %1$,d ម៉ោង</item>
+    </plurals>
+    <plurals name="upload_indicator_all_completed">
+        <item quantity="other">បានបង្ហោះវីដេអូចំនួន %d</item>
+        <item quantity="one">បានបង្ហោះវីដេអូ</item>
+    </plurals>
+    <plurals name="upload_indicator_all_failed">
+        <item quantity="other">មិនអាចបង្ហោះវីដេអូណាមួយរបស់អ្នកបានទេ</item>
+        <item quantity="one">មិនអាចបង្ហោះវីដេអូរបស់អ្នកបានទេ</item>
+    </plurals>
+    <plurals name="upload_indicator_all_uploading">
+        <item quantity="other">កំពុងបង្ហោះវីដេអូចំនួន %d</item>
+        <item quantity="one">​កំពុង​បង្ហោះវីដេអូ</item>
+    </plurals>
+    <plurals name="upload_indicator_partial_fail">
+        <item quantity="other">មិនអាចបង្ហោះវីដេអូ %1$d នៃ %2$d បានទេ</item>
+        <item quantity="one">មិនអាចបង្ហោះវីដេអូ %1$d នៃ %2$d បានទេ</item>
+    </plurals>
+    <plurals name="upload_indicator_uploading_and_completed_completed_part">
+        <item quantity="other">បានបង្ហោះ %d</item>
+        <item quantity="one">បានបង្ហោះ %d</item>
+    </plurals>
+    <plurals name="upload_indicator_uploading_and_completed_uploading_part">
+        <item quantity="other">នៅកំពុងបង្ហោះ %d</item>
+        <item quantity="one">នៅកំពុងបង្ហោះ %d</item>
+    </plurals>
+    <plurals name="upload_minutes_remaing">
+        <item quantity="other">នៅ​សល់​ប្រហែល %1$,d នាទី</item>
+        <item quantity="one">នៅ​សល់​ប្រហែល %1$,d នាទី</item>
+    </plurals>
+    <plurals name="upload_notification_active_progress">
+        <item quantity="other">កំពុង​បង្ហោះ​វីដេអូ %1$d ក្នុង​ចំណោម​វីដេអូ %2$d</item>
+        <item quantity="one">កំពុង​បង្ហោះ​វីដេអូ 1</item>
+    </plurals>
+    <plurals name="upload_progress">
+        <item quantity="other">បាន​បង្ហោះ %1$,d%%</item>
+        <item quantity="one">បាន​បង្ហោះ %1$,d%%</item>
+    </plurals>
+    <plurals name="upload_seconds_remaing">
+        <item quantity="other">នៅ​សល់​ប្រហែល %1$,d វិនាទី</item>
+        <item quantity="one">នៅ​សល់​ប្រហែល %1$,d វិនាទី</item>
+    </plurals>
+    <plurals name="uploads_failed">
+        <item quantity="other">ការបង្ហោះ %1$,d មិនបានសម្រេចទេ</item>
+        <item quantity="one">មិនអាចបង្ហោះបានទេ</item>
+    </plurals>
+    <plurals name="uploads_failed_with_in_progress_videos">
+        <item quantity="other">ការបង្ហោះ %1$,d/%2$,d មិនបានសម្រេចទេ</item>
+        <item quantity="one">ការបង្ហោះ %1$,d/%2$,d មិនបានសម្រេចទេ</item>
+    </plurals>
+    <plurals name="uploads_in_progress">
+        <item quantity="other">កំពុងបង្ហោះ %1$,d</item>
+        <item quantity="one">កំពុងបង្ហោះ %1$,d</item>
+    </plurals>
+    <plurals name="user_education_quick_seek">
+        <item quantity="other">ចុចពីរដងខាងឆ្វេង ឬខាងស្តាំ ដើម្បីរំលង %d វិនាទី</item>
+        <item quantity="one">ចុចពីរដងខាងឆ្វេង ឬខាងស្តាំ ដើម្បីរំលង %d វិនាទី</item>
+    </plurals>
+    <plurals name="video_count">
+        <item quantity="other">វីដេអូ %1$d</item>
+        <item quantity="one">វីដេអូ 1</item>
+    </plurals>
+</resources>

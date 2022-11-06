@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@id/selection_detail_parent_container" android:layout_width="fill_parent" android:layout_height="fill_parent" android:baselineAligned="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/selection_panel_container" android:layout_width="320.0dip" android:layout_height="fill_parent" />
+    <View android:id="@id/panel_separator" android:background="?ytSeparator" android:layout_width="@dimen/line_separator_height" android:layout_height="fill_parent" />
+    <FrameLayout android:id="@id/detail_panel_container" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</LinearLayout>

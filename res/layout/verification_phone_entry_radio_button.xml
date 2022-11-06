@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:gravity="start" android:layout_width="@dimen/av_empty_dimen_for_weight" android:layout_height="wrap_content" android:layout_weight="1.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RadioButton android:textSize="@dimen/av_radio_button_text_size" android:textColor="?radioButtonTextColorSelector" android:id="@id/radio_button" android:saveEnabled="false" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</FrameLayout>

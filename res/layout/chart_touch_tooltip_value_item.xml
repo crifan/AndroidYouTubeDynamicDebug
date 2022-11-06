@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.libraries.youtube.studio.elements.charts.WrapWidthBaselineTextView android:textAppearance="?ytTextAppearanceBody1b" android:textColor="?ytTextPrimary" android:id="@id/chart_touch_tooltip_value" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

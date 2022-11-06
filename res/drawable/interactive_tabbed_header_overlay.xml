@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="304.0dip" android:width="1439.0dip" android:viewportWidth="1439.0" android:viewportHeight="304.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:translateX="@integer/topic_channel_banner_translation_x">
+        <path android:fillColor="?ytBrandBackgroundSolid" android:pathData="M 0,304 V 0 H 963 L 1439,304 Z" android:fillAlpha="0.5" />
+        <path android:fillColor="?ytBrandBackgroundSolid" android:pathData="M 0,0 l 0,304 580,0 L 1055,0 0,0 Z" android:fillAlpha="0.5" />
+        <path android:fillColor="?ytBrandBackgroundSolid" android:pathData="M 0,304 V 0 H 780 L 1247,304 Z" android:fillAlpha="0.9" />
+    </group>
+</vector>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.libraries.youtube.common.ui.RoundedFrameLayout android:id="@id/reel_player_forced_mute_button" android:background="?ytOverlayBackgroundMedium" android:visibility="gone" android:layout_width="@dimen/reel_player_right_pivot_size" android:layout_height="@dimen/reel_player_right_pivot_size" android:layout_margin="@dimen/reel_player_right_pivot_margin" android:foreground="@drawable/reel_player_forced_mute_button_rounded_outline_rhs" android:contentDescription="@null" yt:corners="@dimen/reel_player_pivot_button_corner_radius"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:yt="http://schemas.android.com/apk/res-auto">
+    <ImageView android:layout_gravity="center" android:id="@id/reel_forced_mute_icon" android:background="?selectableItemBackgroundBorderless" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/quantum_gm_ic_music_off_white_24" android:contentDescription="@null" />
+</com.google.android.libraries.youtube.common.ui.RoundedFrameLayout>

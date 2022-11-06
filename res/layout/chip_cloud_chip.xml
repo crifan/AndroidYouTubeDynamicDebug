@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:yt="http://schemas.android.com/apk/res-auto">
+    <com.google.android.libraries.youtube.common.ui.CircularImageView android:id="@id/avatar" android:background="?selectableItemBackground" android:visibility="gone" android:layout_width="@dimen/cloud_chip_height" android:layout_height="@dimen/cloud_chip_height" android:src="@drawable/missing_avatar" android:scaleType="centerCrop" android:contentDescription="@null" />
+    <ImageView android:layout_gravity="center_vertical" android:id="@id/icon" android:visibility="gone" android:layout_width="@dimen/cloud_chip_icon_height" android:layout_height="@dimen/cloud_chip_icon_height" android:contentDescription="@null" android:layout_marginStart="@dimen/cloud_chip_icon_start_margin" />
+    <ImageView android:layout_gravity="center_vertical" android:id="@id/checkbox_icon" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="@null" android:paddingStart="@dimen/cloud_chip_checkbox_padding" android:paddingEnd="@dimen/cloud_chip_checkbox_padding" />
+    <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:textSize="@dimen/small_font_size" android:ellipsize="end" android:gravity="center" android:id="@id/text" android:layout_width="wrap_content" android:layout_height="fill_parent" android:maxWidth="@dimen/cloud_chip_text_max_width" android:singleLine="true" android:textIsSelectable="false" android:paddingStart="@dimen/cloud_chip_text_padding" android:paddingEnd="@dimen/cloud_chip_text_padding" yt:robotoFont="regular" />
+</merge>

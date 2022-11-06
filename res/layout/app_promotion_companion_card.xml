@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="?adBackground1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:baselineAligned="false"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:yt="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:baselineAligned="false">
+        <ImageView android:id="@id/app_thumbnail" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_marginTop="8.0dip" android:layout_marginBottom="8.0dip" android:scaleType="fitCenter" android:layout_alignParentTop="true" android:layout_centerVertical="true" android:contentDescription="@null" android:layout_marginStart="10.0dip" android:layout_marginEnd="8.0dip" android:layout_alignParentStart="true" />
+        <include android:id="@id/contextual_menu_anchor" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginStart="8.0dip" android:layout_alignParentEnd="true" layout="@layout/companion_contextual_menu" />
+        <include android:id="@id/secondary_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_marginBottom="8.0dip" android:layout_centerVertical="true" android:layout_alignWithParentIfMissing="true" android:layout_toStartOf="@id/contextual_menu_anchor" layout="@layout/ad_thumbnail_details_button" />
+        <include android:id="@id/action_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_marginBottom="8.0dip" android:layout_centerVertical="true" android:layout_alignWithParentIfMissing="true" android:layout_toStartOf="@id/secondary_button" layout="@layout/companion_cta_button" />
+        <LinearLayout android:orientation="horizontal" android:id="@id/title_row" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignTop="@id/app_thumbnail" android:layout_toStartOf="@id/action_button" android:layout_toEndOf="@id/app_thumbnail">
+            <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:textSize="@dimen/small_font_size" android:textColor="?adText3" android:ellipsize="end" android:layout_gravity="center" android:id="@id/app_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" yt:robotoFont="light" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@id/rating_container" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/title_row" android:layout_toEndOf="@id/app_thumbnail">
+            <include android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="8.0dip" layout="@layout/standalone_ad_badge_small" />
+            <include layout="@layout/app_promo_rating_bar" />
+            <ImageView android:id="@id/rating_image" android:visibility="gone" android:layout_width="60.0dip" android:layout_height="16.0dip" android:scaleType="fitCenter" android:contentDescription="@null" android:layout_marginEnd="5.0dip" />
+            <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:textSize="@dimen/extra_small_font_size" android:textColor="?adText3" android:ellipsize="end" android:id="@id/app_price" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" yt:robotoFont="light" />
+        </LinearLayout>
+        <Space android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/title_row" android:layout_toStartOf="@id/action_button" android:layout_toEndOf="@id/rating_container" />
+    </RelativeLayout>
+    <ViewStub android:id="@id/companion_extension_stub" android:layout="@layout/companion_extension" android:inflatedId="@id/companion_extension" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <View android:id="@id/separator" android:background="?adSeparator1" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+</LinearLayout>

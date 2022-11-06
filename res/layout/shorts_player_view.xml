@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextureView android:id="@id/video_texture_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ImageView android:id="@id/guidelines_image_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <RelativeLayout android:id="@id/shorts_player_error_container" android:background="#ffededed" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:layout_gravity="center_horizontal" android:id="@id/shorts_player_error_image" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_unsupported_file_format" android:layout_centerInParent="true" android:importantForAccessibility="no" />
+        <TextView android:textAppearance="?ytTextAppearanceTitle1" android:textColor="@color/yt_black4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/shorts_error_previewing_video" android:layout_below="@id/shorts_player_error_image" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+</merge>

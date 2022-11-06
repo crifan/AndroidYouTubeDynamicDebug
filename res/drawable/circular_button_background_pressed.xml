@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ripple android:shape="oval" android:color="@color/circular_button_background"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@android:id/background">
+        <shape android:shape="oval">
+            <solid android:color="@color/circular_button_background" />
+        </shape>
+    </item>
+</ripple>

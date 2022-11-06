@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.apps.youtube.app.extensions.reel.watch.overlay.SubscribeButton android:textSize="@dimen/reel_secondary_font_size" android:textColor="@color/yt_white1" android:ellipsize="none" android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/reel_dyn_subs_button" android:background="@drawable/reel_subs_bg_subscribe" android:padding="@dimen/reel_subs_text_footer_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/reel_player_dyn_cell2_padding_horiz" android:singleLine="true" android:layout_weight="1.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

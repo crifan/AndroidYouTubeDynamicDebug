@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="accessibility_dislike_video_plural">
+        <item quantity="other">Butang tidak suka, %1$d pengguna lain tidak menyukai video ini</item>
+        <item quantity="one">Butang tidak suka, %1$d pengguna lain tidak menyukai video ini</item>
+    </plurals>
+    <plurals name="accessibility_dtts_fast_forward">
+        <item quantity="other">Mundar laju %1$d saat</item>
+        <item quantity="one">Mundar laju %1$d saat</item>
+    </plurals>
+    <plurals name="accessibility_dtts_rewind">
+        <item quantity="other">Mandir %1$d saat</item>
+        <item quantity="one">Mandir %1$d saat</item>
+    </plurals>
+    <plurals name="accessibility_duration_description_hours">
+        <item quantity="other">%d jam</item>
+        <item quantity="one">%d jam</item>
+    </plurals>
+    <plurals name="accessibility_duration_description_minutes">
+        <item quantity="other">%d minit</item>
+        <item quantity="one">%d minit</item>
+    </plurals>
+    <plurals name="accessibility_duration_description_seconds">
+        <item quantity="other">%d saat</item>
+        <item quantity="one">%d saat</item>
+    </plurals>
+    <plurals name="accessibility_like_video_plural">
+        <item quantity="other">Butang suka, %1$d pengguna lain menyukai video ini</item>
+        <item quantity="one">Butang suka, %1$d pengguna lain menyukai video ini</item>
+    </plurals>
+    <plurals name="accessibility_skip_ad_in">
+        <item quantity="other">Langkau iklan dalam %1$d saat</item>
+        <item quantity="one">Langkau iklan dalam 1 saat</item>
+    </plurals>
+    <plurals name="accessibility_undo_dislike_video_plural">
+        <item quantity="other">Butang batalkan tindakan tidak suka, %1$d pengguna lain tidak menyukai video ini</item>
+        <item quantity="one">Butang batalkan tindakan tidak suka, %1$d pengguna lain tidak menyukai video ini</item>
+    </plurals>
+    <plurals name="accessibility_undo_like_video_plural">
+        <item quantity="other">Butang batalkan tindakan suka, %1$d pengguna lain menyukai video ini</item>
+        <item quantity="one">Butang batalkan tindakan suka, %1$d pengguna lain menyukai video ini</item>
+    </plurals>
+    <plurals name="download_new_videos_button_text">
+        <item quantity="other">Muat turun %1$d video baharu</item>
+        <item quantity="one">Muat turun %1$d video baharu</item>
+    </plurals>
+    <plurals name="download_playlist_unplayable_future_days_plural">
+        <item quantity="other">Sesetengah video memerlukan Premium dalam masa %1$d hari lagi</item>
+        <item quantity="one">Sesetengah video memerlukan Premium dalam masa %1$d hari lagi</item>
+    </plurals>
+    <plurals name="download_playlist_unplayable_future_hours_plural">
+        <item quantity="other">Sesetengah video memerlukan Premium dalam masa %1$d jam lagi</item>
+        <item quantity="one">Sesetengah video memerlukan Premium dalam masa %1$d jam lagi</item>
+    </plurals>
+    <plurals name="download_playlist_unplayable_future_minutes_plural">
+        <item quantity="other">Sesetengah video memerlukan Premium dalam masa %1$d minit lagi</item>
+        <item quantity="one">Sesetengah video memerlukan Premium dalam masa %1$d minit lagi</item>
+    </plurals>
+    <plurals name="download_video_unplayable_future_days_plural">
+        <item quantity="other">Memerlukan Premium dalam masa %1$d hari lagi</item>
+        <item quantity="one">Memerlukan Premium dalam masa %1$d hari lagi</item>
+    </plurals>
+    <plurals name="download_video_unplayable_future_hours_plural">
+        <item quantity="other">Memerlukan Premium dalam masa %1$d jam lagi</item>
+        <item quantity="one">Memerlukan Premium dalam masa %1$d jam lagi</item>
+    </plurals>
+    <plurals name="download_video_unplayable_future_minutes_plural">
+        <item quantity="other">Memerlukan Premium dalam masa %1$d minit lagi</item>
+        <item quantity="one">Memerlukan Premium dalam masa %1$d minit lagi</item>
+    </plurals>
+    <plurals name="frequency_hours_component">
+        <item quantity="other">%1$d jam</item>
+        <item quantity="one">%1$d jam</item>
+    </plurals>
+    <plurals name="frequency_hours_only">
+        <item quantity="other">Setiap %1$d jam</item>
+        <item quantity="one">Setiap jam</item>
+    </plurals>
+    <plurals name="frequency_minutes_component">
+        <item quantity="other">%1$d minit</item>
+        <item quantity="one">%1$d minit</item>
+    </plurals>
+    <plurals name="frequency_minutes_only">
+        <item quantity="other">Setiap %1$d minit</item>
+        <item quantity="one">Setiap minit</item>
+    </plurals>
+    <plurals name="image_picker_title">
+        <item quantity="other">%1$d dipilih</item>
+        <item quantity="one">%1$d dipilih</item>
+    </plurals>
+    <plurals name="invalid_uploads_error_msg">
+        <item quantity="other">Satu atau beberapa fail video tidak tersedia atau tidak sah. Sila cuba lagi atau pilih fail lain.</item>
+        <item quantity="one">Fail video ini tidak tersedia atau tidak sah. Sila cuba lagi atau pilih fail lain.</item>
+    </plurals>
+    <plurals name="last_update_in_days_message">
+        <item quantity="other">Dikemas kini %1$d hari yang lalu</item>
+        <item quantity="one">Dikemas kini semalam</item>
+    </plurals>
+    <plurals name="last_update_in_hours_message">
+        <item quantity="other">Dikemas kini %1$d jam yang lalu</item>
+        <item quantity="one">Dikemas kini %1$d jam yang lalu</item>
+    </plurals>
+    <plurals name="last_update_in_minutes_message">
+        <item quantity="other">Dikemas kini %1$d minit yang lalu</item>
+        <item quantity="one">Dikemas kini %1$d minit yang lalu</item>
+    </plurals>
+    <plurals name="last_update_in_weeks_message">
+        <item quantity="other">Dikemas kini %1$d minggu yang lalu</item>
+        <item quantity="one">Dikemas kini %1$d minggu yang lalu</item>
+    </plurals>
+    <plurals name="notification_playlist_progress_size">
+        <item quantity="other">%1$d daripada %2$d video</item>
+        <item quantity="one">%1$d daripada 1 video</item>
+    </plurals>
+    <plurals name="offline_go_online_to_renew_dialog_message">
+        <item quantity="other">Muat turun kekal tersedia selagi peranti anda disambungkan ke Internet setiap %1$d hari. Proses ini akan dilakukan secara automatik dan tidak akan memuat turun semula video tersebut.</item>
+        <item quantity="one">Muat turun kekal tersedia selagi peranti anda disambungkan ke Internet setiap hari. Proses ini akan dilakukan secara automatik dan tidak akan memuat turun semula video tersebut.</item>
+    </plurals>
+    <plurals name="offline_go_online_to_renew_snackbar_message">
+        <item quantity="other">Muat turun kekal tersedia selama %1$d hari tanpa sambungan Internet.</item>
+        <item quantity="one">Muat turun kekal tersedia selama 1 hari tanpa sambungan Internet.</item>
+    </plurals>
+    <plurals name="offline_remember_setting_for_days">
+        <item quantity="other">Ingat tetapan saya selama %1$d hari</item>
+        <item quantity="one">Ingat tetapan saya selama 1 hari</item>
+    </plurals>
+    <plurals name="playlist_picker_dialog_done">
+        <item quantity="other">Senarai main dikemas kini</item>
+        <item quantity="one">Senarai main dikemas kini</item>
+    </plurals>
+    <plurals name="playlist_size">
+        <item quantity="other">%1$,d video</item>
+        <item quantity="one">1 video</item>
+    </plurals>
+    <plurals name="playlist_size_downloaded">
+        <item quantity="other">%1$,d dimuat turun</item>
+        <item quantity="one">%1$,d dimuat turun</item>
+    </plurals>
+    <plurals name="playlist_size_total">
+        <item quantity="other">%1$,d video</item>
+        <item quantity="one">1 video</item>
+    </plurals>
+    <plurals name="public_notification_text">
+        <item quantity="other">%1$d pemberitahuan baharu</item>
+        <item quantity="one">Anda mempunyai pemberitahuan</item>
+    </plurals>
+    <plurals name="quick_seek_x_second">
+        <item quantity="other">%d saat</item>
+        <item quantity="one">%d saat</item>
+    </plurals>
+    <plurals name="recommendation_count">
+        <item quantity="other">%1$d syor</item>
+        <item quantity="one">1 syor</item>
+    </plurals>
+    <plurals name="rental_expiry_notice">
+        <item quantity="other">Setelah dimulakan, anda mempunyai %1$d jam untuk menonton video ini.</item>
+        <item quantity="one">Selepas dimulakan, anda mempunyai 1 jam untuk menonton video ini.</item>
+    </plurals>
+    <plurals name="rental_long_days_remaining">
+        <item quantity="other">Tamat tempoh dalam masa %1$d hari</item>
+        <item quantity="one">Tamat tempoh dalam masa 1 hari</item>
+    </plurals>
+    <plurals name="rental_long_hours_remaining">
+        <item quantity="other">Tamat tempoh dalam masa %1$d jam</item>
+        <item quantity="one">Tamat tempoh dalam masa 1 jam</item>
+    </plurals>
+    <plurals name="rental_long_weeks_remaining">
+        <item quantity="other">Tamat tempoh dalam masa %1$d minggu</item>
+        <item quantity="one">Tamat tempoh dalam masa 1 minggu</item>
+    </plurals>
+    <plurals name="rental_medium_days_remaining">
+        <item quantity="other">Tamat tempoh dalam masa %1$d hari</item>
+        <item quantity="one">Tamat tempoh dalam masa sehari</item>
+    </plurals>
+    <plurals name="rental_medium_hours_remaining">
+        <item quantity="other">Tamat tempoh dalam masa %1$d j.</item>
+        <item quantity="one">Tamat tempoh dalam masa 1 j.</item>
+    </plurals>
+    <plurals name="rental_medium_weeks_remaining">
+        <item quantity="other">Tamat tempoh dalam masa %1$d mgu.</item>
+        <item quantity="one">Tamat tempoh dalam masa 1 mgu.</item>
+    </plurals>
+    <plurals name="selected_video_count">
+        <item quantity="other">%1$d video dipilih</item>
+        <item quantity="one">1 video dipilih</item>
+    </plurals>
+    <plurals name="shorts_a11y_duration_seconds">
+        <item quantity="other">%1$s saat</item>
+        <item quantity="one">%1$s saat</item>
+    </plurals>
+    <plurals name="shorts_a11y_timer_duration_seconds">
+        <item quantity="other">Pemasa %1$d saat</item>
+        <item quantity="one">Pemasa %1$d saat</item>
+    </plurals>
+    <plurals name="shorts_a11y_timer_started">
+        <item quantity="other">Pemasa %1$d saat diaktifkan</item>
+        <item quantity="one">Pemasa %1$d saat diaktifkan</item>
+    </plurals>
+    <plurals name="smart_downloads_future_update_text">
+        <item quantity="other">Muat turun pintar akan dikemas kini secara automatik dalam masa %1$d hari</item>
+        <item quantity="one">Muat turun pintar akan dikemas kini secara automatik dalam masa 1 hari</item>
+    </plurals>
+    <plurals name="sticker_dialog_title">
+        <item quantity="other">Kembali semula dalam masa %1$d hari</item>
+        <item quantity="one">Kembali semula dalam masa sehari</item>
+    </plurals>
+    <plurals name="too_many_external_uploads_error_msg">
+        <item quantity="other">Anda boleh memuat naik %1$d video pada satu-satu masa.</item>
+        <item quantity="one">Anda boleh memuat naik %1$d video pada satu-satu masa.</item>
+    </plurals>
+    <plurals name="transcoding_progress">
+        <item quantity="other">Menyediakan %1$,d%%</item>
+        <item quantity="one">Menyediakan %1$,d%%</item>
+    </plurals>
+    <plurals name="trim_segment_max_length">
+        <item quantity="other">Maksimum %1$d saat</item>
+        <item quantity="one">Maksimum 1 saat</item>
+    </plurals>
+    <plurals name="trim_switch_edu">
+        <item quantity="other">Pangkas video anda kepada %1$d saat dan tambahkan muzik</item>
+        <item quantity="one">Pangkas video anda kepada 1 saat dan tambahkan muzik</item>
+    </plurals>
+    <plurals name="trim_switch_edu_full_length_shorts">
+        <item quantity="other">Pangkas video anda kepada %1$d saat atau kurang</item>
+        <item quantity="one">Pangkas video anda kepada 1 saat atau kurang</item>
+    </plurals>
+    <plurals name="upload_hours_remaing">
+        <item quantity="other">Kira-kira %1$,d jam lagi</item>
+        <item quantity="one">Kira-kira %1$,d jam lagi</item>
+    </plurals>
+    <plurals name="upload_indicator_all_completed">
+        <item quantity="other">%d video dimuat naik</item>
+        <item quantity="one">Video dimuat naik</item>
+    </plurals>
+    <plurals name="upload_indicator_all_failed">
+        <item quantity="other">Tidak dapat memuat naik mana-mana video anda</item>
+        <item quantity="one">Tidak dapat memuat naik video anda</item>
+    </plurals>
+    <plurals name="upload_indicator_all_uploading">
+        <item quantity="other">Memuat naik %d video</item>
+        <item quantity="one">Video sedang dimuat naik</item>
+    </plurals>
+    <plurals name="upload_indicator_partial_fail">
+        <item quantity="other">Tidak dapat memuat naik %1$d daripada %2$d video</item>
+        <item quantity="one">Tidak dapat memuat naik %1$d daripada %2$d video</item>
+    </plurals>
+    <plurals name="upload_indicator_uploading_and_completed_completed_part">
+        <item quantity="other">%d dimuat naik</item>
+        <item quantity="one">%d dimuat naik</item>
+    </plurals>
+    <plurals name="upload_indicator_uploading_and_completed_uploading_part">
+        <item quantity="other">%d sedang dimuat naik</item>
+        <item quantity="one">%d sedang dimuat naik</item>
+    </plurals>
+    <plurals name="upload_minutes_remaing">
+        <item quantity="other">Kira-kira %1$,d minit lagi</item>
+        <item quantity="one">Kira-kira %1$,d minit lagi</item>
+    </plurals>
+    <plurals name="upload_notification_active_progress">
+        <item quantity="other">Memuat naik %1$d daripada %2$d video</item>
+        <item quantity="one">Memuat naik 1 video</item>
+    </plurals>
+    <plurals name="upload_progress">
+        <item quantity="other">%1$,d%% dimuat naik</item>
+        <item quantity="one">%1$,d%% dimuat naik</item>
+    </plurals>
+    <plurals name="upload_seconds_remaing">
+        <item quantity="other">Kira-kira %1$,d saat lagi</item>
+        <item quantity="one">Kira-kira %1$,d saat lagi</item>
+    </plurals>
+    <plurals name="uploads_failed">
+        <item quantity="other">%1$,d muat naik telah gagal</item>
+        <item quantity="one">Muat naik telah gagal</item>
+    </plurals>
+    <plurals name="uploads_failed_with_in_progress_videos">
+        <item quantity="other">%1$,d/%2$,d muat naik telah gagal</item>
+        <item quantity="one">%1$,d/%2$,d muat naik telah gagal</item>
+    </plurals>
+    <plurals name="uploads_in_progress">
+        <item quantity="other">Memuat naik %1$,d</item>
+        <item quantity="one">Memuat naik %1$,d</item>
+    </plurals>
+    <plurals name="user_education_quick_seek">
+        <item quantity="other">Ketik dua kali pada sebelah kiri atau kanan untuk melangkau %d saat</item>
+        <item quantity="one">Ketik dua kali pada sebelah kiri atau kanan untuk melangkau %d saat</item>
+    </plurals>
+    <plurals name="video_count">
+        <item quantity="other">%1$d video</item>
+        <item quantity="one">1 video</item>
+    </plurals>
+</resources>

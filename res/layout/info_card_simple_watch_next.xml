@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/InfoCardsWatchNext"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:yt="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="horizontal" android:id="@id/image_content_linear_view" android:padding="@dimen/card_watch_next_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:baselineAligned="false">
+        <ImageView android:id="@id/image" android:focusable="false" android:layout_width="@dimen/card_watch_next_image_square_width" android:layout_height="@dimen/card_watch_next_image_square_width" android:scaleType="centerCrop" />
+        <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:id="@id/content" android:paddingLeft="@dimen/card_watch_next_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0" android:paddingStart="@dimen/card_watch_next_padding">
+            <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:textSize="@dimen/small_font_size" android:textColor="?ytTextPrimary" android:ellipsize="end" android:id="@id/title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="3" android:textAlignment="viewStart" yt:robotoFont="regular" />
+            <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:textSize="@dimen/extra_small_font_size" android:textColor="?ytStaticBlue" android:ellipsize="end" android:id="@id/call_to_action" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="2" android:textAlignment="viewStart" />
+            <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:textSize="@dimen/extra_small_font_size" android:textColor="?ytTextSecondary" android:ellipsize="end" android:id="@id/domain" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="3" android:textAlignment="viewStart" yt:robotoFont="regular" />
+        </LinearLayout>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

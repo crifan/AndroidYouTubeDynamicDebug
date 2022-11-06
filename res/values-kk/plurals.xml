@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="accessibility_dislike_video_plural">
+        <item quantity="other">\"Ұнамайды\" түймесі, бұл бейне тағы %1$d адамға ұнамады</item>
+        <item quantity="one">\"Ұнамайды\" түймесі, бұл бейне тағы %1$d адамға ұнамады</item>
+    </plurals>
+    <plurals name="accessibility_dtts_fast_forward">
+        <item quantity="other">%1$d секунд алға айналдыру</item>
+        <item quantity="one">%1$d секунд алға айналдыру</item>
+    </plurals>
+    <plurals name="accessibility_dtts_rewind">
+        <item quantity="other">%1$d секунд артқа айналдыру</item>
+        <item quantity="one">%1$d секунд артқа айналдыру</item>
+    </plurals>
+    <plurals name="accessibility_duration_description_hours">
+        <item quantity="other">%d сағат</item>
+        <item quantity="one">%d сағат</item>
+    </plurals>
+    <plurals name="accessibility_duration_description_minutes">
+        <item quantity="other">%d минут</item>
+        <item quantity="one">%d минут</item>
+    </plurals>
+    <plurals name="accessibility_duration_description_seconds">
+        <item quantity="other">%d секунд</item>
+        <item quantity="one">%d секунд</item>
+    </plurals>
+    <plurals name="accessibility_like_video_plural">
+        <item quantity="other">\"Ұнату\" түймесі, бұл бейне тағы %1$d адамға ұнады</item>
+        <item quantity="one">\"Ұнату\" түймесі, бұл бейне тағы %1$d адамға ұнады</item>
+    </plurals>
+    <plurals name="accessibility_skip_ad_in">
+        <item quantity="other">Жарнаманы %1$d секундтан кейін өткізіп жіберу</item>
+        <item quantity="one">Жарнаманы 1 секундтан кейін өткізіп жіберу</item>
+    </plurals>
+    <plurals name="accessibility_undo_dislike_video_plural">
+        <item quantity="other">\"Ұнамайды\" белгісін алу түймесі, бұл бейне тағы %1$d адамға ұнамады</item>
+        <item quantity="one">\"Ұнамайды\" белгісін алу түймесі, бұл бейне тағы %1$d адамға ұнамады</item>
+    </plurals>
+    <plurals name="accessibility_undo_like_video_plural">
+        <item quantity="other">\"Ұнату\" белгісін алу түймесі, бұл бейне тағы %1$d адамға ұнады</item>
+        <item quantity="one">\"Ұнату\" белгісін алу түймесі, бұл бейне тағы %1$d адамға ұнады</item>
+    </plurals>
+    <plurals name="download_new_videos_button_text">
+        <item quantity="other">Жаңа %1$d бейне жүктеп алу</item>
+        <item quantity="one">Жаңа %1$d бейне жүктеп алу</item>
+    </plurals>
+    <plurals name="download_playlist_unplayable_future_days_plural">
+        <item quantity="other">Кейбір бейнелерді ойнату үшін %1$d күн ішінде Premium-ге жазылу керек.</item>
+        <item quantity="one">Кейбір бейнелерді ойнату үшін %1$d күн ішінде Premium-ге жазылу керек.</item>
+    </plurals>
+    <plurals name="download_playlist_unplayable_future_hours_plural">
+        <item quantity="other">Кейбір бейнелерді ойнату үшін %1$d сағат ішінде Premium-ге жазылу керек.</item>
+        <item quantity="one">Кейбір бейнелерді ойнату үшін %1$d сағат ішінде Premium-ге жазылу керек.</item>
+    </plurals>
+    <plurals name="download_playlist_unplayable_future_minutes_plural">
+        <item quantity="other">Кейбір бейнелерді ойнату үшін %1$d минут ішінде Premium-ге жазылу керек.</item>
+        <item quantity="one">Кейбір бейнелерді ойнату үшін %1$d минут ішінде Premium-ге жазылу керек.</item>
+    </plurals>
+    <plurals name="download_video_unplayable_future_days_plural">
+        <item quantity="other">%1$d күн ішінде Premium-ге жазылу керек.</item>
+        <item quantity="one">%1$d күн ішінде Premium-ге жазылу керек.</item>
+    </plurals>
+    <plurals name="download_video_unplayable_future_hours_plural">
+        <item quantity="other">%1$d сағат ішінде Premium-ге жазылу керек.</item>
+        <item quantity="one">%1$d сағат ішінде Premium-ге жазылу керек.</item>
+    </plurals>
+    <plurals name="download_video_unplayable_future_minutes_plural">
+        <item quantity="other">%1$d минут ішінде Premium-ге жазылу керек.</item>
+        <item quantity="one">%1$d минут ішінде Premium-ге жазылу керек.</item>
+    </plurals>
+    <plurals name="frequency_hours_component">
+        <item quantity="other">%1$d сағат</item>
+        <item quantity="one">%1$d сағат</item>
+    </plurals>
+    <plurals name="frequency_hours_only">
+        <item quantity="other">%1$d сағат сайын</item>
+        <item quantity="one">Сағат сайын</item>
+    </plurals>
+    <plurals name="frequency_minutes_component">
+        <item quantity="other">%1$d минут</item>
+        <item quantity="one">%1$d минут</item>
+    </plurals>
+    <plurals name="frequency_minutes_only">
+        <item quantity="other">%1$d минут сайын</item>
+        <item quantity="one">Минут сайын</item>
+    </plurals>
+    <plurals name="image_picker_title">
+        <item quantity="other">%1$d кескін таңдалды</item>
+        <item quantity="one">%1$d кескін таңдалды</item>
+    </plurals>
+    <plurals name="invalid_uploads_error_msg">
+        <item quantity="other">Бір немесе бірнеше бейне файлы қолжетімді емес немесе жарамсыз. Әрекетті қайталап көріңіз немесе басқа файлдарды таңдаңыз.</item>
+        <item quantity="one">Бұл бейне файлы қолжетімді емес немесе жарамсыз. Әрекетті қайталап көріңіз немесе басқа файлды таңдаңыз.</item>
+    </plurals>
+    <plurals name="last_update_in_days_message">
+        <item quantity="other">%1$d күн бұрын жаңартылды.</item>
+        <item quantity="one">Кеше жаңартылды.</item>
+    </plurals>
+    <plurals name="last_update_in_hours_message">
+        <item quantity="other">%1$d сағат бұрын жаңартылды.</item>
+        <item quantity="one">%1$d сағат бұрын жаңартылды.</item>
+    </plurals>
+    <plurals name="last_update_in_minutes_message">
+        <item quantity="other">%1$d минут бұрын жаңартылды.</item>
+        <item quantity="one">%1$d минут бұрын жаңартылды.</item>
+    </plurals>
+    <plurals name="last_update_in_weeks_message">
+        <item quantity="other">%1$d апта бұрын жаңартылды.</item>
+        <item quantity="one">%1$d апта бұрын жаңартылды.</item>
+    </plurals>
+    <plurals name="notification_playlist_progress_size">
+        <item quantity="other">%1$d / %2$d бейне</item>
+        <item quantity="one">%1$d / 1 бейне</item>
+    </plurals>
+    <plurals name="offline_go_online_to_renew_dialog_message">
+        <item quantity="other">Құрылғыңыз интернетке әрбір %1$d күн сайын қосылып тұрса, жүктеп алынған бейнелер қолжетімді болып қала береді. Бұл процесс автоматты түрде орындалады және бейнені қайта жүктеп алмайды.</item>
+        <item quantity="one">Құрылғыңыз интернетке күнде қосылып тұрса, жүктеп алынған бейнелер қолжетімді болып қала береді. Бұл процесс автоматты түрде орындалады және бейнені қайта жүктеп алмайды.</item>
+    </plurals>
+    <plurals name="offline_go_online_to_renew_snackbar_message">
+        <item quantity="other">Жүктеп алынған бейнелер интернет байланысынсыз %1$d күн қолжетімді болады.</item>
+        <item quantity="one">Жүктеп алынған бейнелер интернет байланысынсыз 1 күн қолжетімді болады.</item>
+    </plurals>
+    <plurals name="offline_remember_setting_for_days">
+        <item quantity="other">Таңдалған параметрлерді %1$d күнге орнату</item>
+        <item quantity="one">Таңдалған параметрлерді 1 күнге орнату</item>
+    </plurals>
+    <plurals name="playlist_picker_dialog_done">
+        <item quantity="other">Ойнату тізімдері жаңартылды.</item>
+        <item quantity="one">Ойнату тізімі жаңартылды.</item>
+    </plurals>
+    <plurals name="playlist_size">
+        <item quantity="other">%1$,d бейне</item>
+        <item quantity="one">1 бейне</item>
+    </plurals>
+    <plurals name="playlist_size_downloaded">
+        <item quantity="other">%1$,d жүктеп алынды</item>
+        <item quantity="one">%1$,d жүктеп алынды</item>
+    </plurals>
+    <plurals name="playlist_size_total">
+        <item quantity="other">%1$,d бейне</item>
+        <item quantity="one">1 бейне</item>
+    </plurals>
+    <plurals name="public_notification_text">
+        <item quantity="other">%1$d new notifications</item>
+        <item quantity="one">You have a notification</item>
+    </plurals>
+    <plurals name="quick_seek_x_second">
+        <item quantity="other">%d секунд</item>
+        <item quantity="one">%d секунд</item>
+    </plurals>
+    <plurals name="recommendation_count">
+        <item quantity="other">%1$d ұсыныс</item>
+        <item quantity="one">1 ұсыныс</item>
+    </plurals>
+    <plurals name="rental_expiry_notice">
+        <item quantity="other">Бастаған соң, бейнені %1$d сағат ішінде көріп бітуіңіз керек.</item>
+        <item quantity="one">Бастаған соң, бейнені 1 сағат ішінде көріп бітуіңіз керек.</item>
+    </plurals>
+    <plurals name="rental_long_days_remaining">
+        <item quantity="other">Мерзімі %1$d күннен кейін аяқталады</item>
+        <item quantity="one">Мерзімі 1 күннен кейін аяқталады</item>
+    </plurals>
+    <plurals name="rental_long_hours_remaining">
+        <item quantity="other">Мерзімі %1$d сағаттан кейін аяқталады</item>
+        <item quantity="one">Мерзімі 1 сағаттан кейін аяқталады</item>
+    </plurals>
+    <plurals name="rental_long_weeks_remaining">
+        <item quantity="other">Мерзімі %1$d аптадан кейін аяқталады</item>
+        <item quantity="one">Мерзімі 1 аптадан кейін аяқталады</item>
+    </plurals>
+    <plurals name="rental_medium_days_remaining">
+        <item quantity="other">Мерзімі %1$d күннен кейін аяқталады.</item>
+        <item quantity="one">Мерзімі 1 күннен кейін аяқталады.</item>
+    </plurals>
+    <plurals name="rental_medium_hours_remaining">
+        <item quantity="other">Мерзімі %1$d сағаттан кейін аяқталады.</item>
+        <item quantity="one">Мерзімі 1 сағаттан кейін аяқталады.</item>
+    </plurals>
+    <plurals name="rental_medium_weeks_remaining">
+        <item quantity="other">Мерзімі %1$d аптадан кейін аяқталады.</item>
+        <item quantity="one">Мерзімі 1 аптадан кейін аяқталады.</item>
+    </plurals>
+    <plurals name="selected_video_count">
+        <item quantity="other">%1$d бейне таңдалды</item>
+        <item quantity="one">1 бейне таңдалды</item>
+    </plurals>
+    <plurals name="shorts_a11y_duration_seconds">
+        <item quantity="other">%1$s секунд</item>
+        <item quantity="one">%1$s секунд</item>
+    </plurals>
+    <plurals name="shorts_a11y_timer_duration_seconds">
+        <item quantity="other">%1$d секундтық таймер</item>
+        <item quantity="one">%1$d секундтық таймер</item>
+    </plurals>
+    <plurals name="shorts_a11y_timer_started">
+        <item quantity="other">%1$d секундтық таймер қосылды</item>
+        <item quantity="one">%1$d секундтық таймер қосылды</item>
+    </plurals>
+    <plurals name="smart_downloads_future_update_text">
+        <item quantity="other">Смарт жүктеп алу мүмкіндігі %1$d күннен кейін автоматты түрде жаңарады.</item>
+        <item quantity="one">Смарт жүктеп алу мүмкіндігі 1 күннен кейін автоматты түрде жаңарады.</item>
+    </plurals>
+    <plurals name="sticker_dialog_title">
+        <item quantity="other">%1$d күннен кейін пайдалана аласыз</item>
+        <item quantity="one">1 күннен кейін пайдалана аласыз</item>
+    </plurals>
+    <plurals name="too_many_external_uploads_error_msg">
+        <item quantity="other">Бірден %1$d бейнені ғана жүктеп сала аласыз.</item>
+        <item quantity="one">Бірден %1$d бейнені ғана жүктеп сала аласыз.</item>
+    </plurals>
+    <plurals name="transcoding_progress">
+        <item quantity="other">Дайындалуда: %1$,d%%</item>
+        <item quantity="one">Дайындалуда: %1$,d%%</item>
+    </plurals>
+    <plurals name="trim_segment_max_length">
+        <item quantity="other">%1$d секунд (максималды)</item>
+        <item quantity="one">1 секунд (максималды)</item>
+    </plurals>
+    <plurals name="trim_switch_edu">
+        <item quantity="other">Бейнені %1$d секундқа қысқартып, музыка қосуға болады.</item>
+        <item quantity="one">Бейнеңізді 1 секундқа қысқартып, музыка қосуға болады.</item>
+    </plurals>
+    <plurals name="trim_switch_edu_full_length_shorts">
+        <item quantity="other">Бейнеңізді %1$d секундқа немесе одан аз уақытқа дейін қысқартыңыз.</item>
+        <item quantity="one">Бейнеңізді 1 секундқа немесе одан аз уақытқа дейін қысқартыңыз.</item>
+    </plurals>
+    <plurals name="upload_hours_remaing">
+        <item quantity="other">Шамамен %1$,d сағат қалды</item>
+        <item quantity="one">Шамамен %1$,d сағат қалды</item>
+    </plurals>
+    <plurals name="upload_indicator_all_completed">
+        <item quantity="other">%d бейне жүктеп салынды</item>
+        <item quantity="one">бейне жүктеп салынды</item>
+    </plurals>
+    <plurals name="upload_indicator_all_failed">
+        <item quantity="other">ешбір бейнеңіз жүктеп салынбады</item>
+        <item quantity="one">бейнеңіз жүктеп салынбады</item>
+    </plurals>
+    <plurals name="upload_indicator_all_uploading">
+        <item quantity="other">%d бейне жүктеп салынуда</item>
+        <item quantity="one">бейне жүктеп салынуда</item>
+    </plurals>
+    <plurals name="upload_indicator_partial_fail">
+        <item quantity="other">%1$d/%2$d бейне жүктеп салынбады</item>
+        <item quantity="one">%1$d/%2$d бейне жүктеп салынбады</item>
+    </plurals>
+    <plurals name="upload_indicator_uploading_and_completed_completed_part">
+        <item quantity="other">%d жүктеп салынды</item>
+        <item quantity="one">%d жүктеп салынды</item>
+    </plurals>
+    <plurals name="upload_indicator_uploading_and_completed_uploading_part">
+        <item quantity="other">%d әлі жүктеп салынуда</item>
+        <item quantity="one">%d әлі жүктеп салынуда</item>
+    </plurals>
+    <plurals name="upload_minutes_remaing">
+        <item quantity="other">Шамамен %1$,d минут қалды</item>
+        <item quantity="one">Шамамен %1$,d минут қалды</item>
+    </plurals>
+    <plurals name="upload_notification_active_progress">
+        <item quantity="other">%1$d / %2$d бейне жүктеп салынуда</item>
+        <item quantity="one">1 бейне жүктеп салынуда</item>
+    </plurals>
+    <plurals name="upload_progress">
+        <item quantity="other">%1$,d%% жүктеп салынды</item>
+        <item quantity="one">%1$,d%% жүктеп салынды</item>
+    </plurals>
+    <plurals name="upload_seconds_remaing">
+        <item quantity="other">Шамамен %1$,d секунд қалды</item>
+        <item quantity="one">Шамамен %1$,d секунд қалды</item>
+    </plurals>
+    <plurals name="uploads_failed">
+        <item quantity="other">%1$,d бейне жүктеп салынбады.</item>
+        <item quantity="one">Жүктеп салынбады.</item>
+    </plurals>
+    <plurals name="uploads_failed_with_in_progress_videos">
+        <item quantity="other">%1$,d/%2$,d бейне жүктеп салынбады.</item>
+        <item quantity="one">%1$,d/%2$,d бейне жүктеп салынбады.</item>
+    </plurals>
+    <plurals name="uploads_in_progress">
+        <item quantity="other">%1$,d бейне жүктеп салынуда.</item>
+        <item quantity="one">%1$,d бейне жүктеп салынуда.</item>
+    </plurals>
+    <plurals name="user_education_quick_seek">
+        <item quantity="other">%d секунд өткізіп жіберу үшін сол немесе оң жағын екі рет түртіңіз</item>
+        <item quantity="one">%d секунд өткізіп жіберу үшін сол немесе оң жағын екі рет түртіңіз</item>
+    </plurals>
+    <plurals name="video_count">
+        <item quantity="other">%1$d бейне</item>
+        <item quantity="one">1 бейне</item>
+    </plurals>
+</resources>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/icon_text_badge_layout" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:yt="http://schemas.android.com/apk/res-auto">
+    <GridLayout android:id="@id/icon_text_badge" android:background="@drawable/icon_text_badge" android:layout_width="wrap_content" android:layout_height="wrap_content" android:rowCount="1" android:columnCount="2" android:paddingStart="2.0dip" android:paddingEnd="6.0dip">
+        <com.google.android.apps.youtube.app.common.widget.TintableImageView android:theme="@style/Widget.YouTube.Control.Light" android:id="@id/icon_text_badge_icon" android:paddingTop="3.0dip" android:focusable="false" android:layout_width="14.0dip" android:layout_height="14.0dip" android:layout_column="0" android:contentDescription="@null" android:layout_row="0" />
+        <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:textSize="@dimen/extra_small_font_size" android:textStyle="bold" android:textColor="?adText1" android:ellipsize="end" android:id="@id/icon_text_badge_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_column="1" android:maxLines="1" android:layout_row="0" yt:robotoFont="light" />
+    </GridLayout>
+</FrameLayout>

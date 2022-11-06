@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/channel_banner_container" android:clickable="false" android:layout_width="fill_parent" android:layout_height="@dimen/topic_channel_banner_fixed_height"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:yt="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/banner" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" android:contentDescription="@null" android:importantForAccessibility="no" />
+    <ImageView android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitXY" android:contentDescription="@null" android:importantForAccessibility="no" yt:srcCompat="@drawable/interactive_tabbed_header_overlay" />
+</FrameLayout>

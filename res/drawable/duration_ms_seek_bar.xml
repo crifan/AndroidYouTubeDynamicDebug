@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@android:id/background" android:top="28.0dip" android:bottom="24.0dip">
+        <shape android:shape="rectangle">
+            <corners android:radius="@dimen/duration_ms_seek_bar_corner_radius" />
+            <size android:height="16.0dip" />
+            <solid android:color="?yt10PercentLayer" />
+            <stroke android:width="2.0dip" android:color="?edit_location_suggestion_stroke_color" />
+        </shape>
+    </item>
+    <item android:id="@android:id/progress" android:left="2.0dip" android:top="30.0dip" android:right="3.0dip" android:bottom="26.0dip">
+        <clip android:drawable="@drawable/duration_ms_seek_bar_clip" />
+    </item>
+</layer-list>

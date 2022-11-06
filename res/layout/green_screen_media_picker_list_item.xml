@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_gravity="center" android:id="@id/green_screen_media_item_thumbnail_container" android:layout_width="@dimen/green_screen_media_item_outline_size" android:layout_height="@dimen/green_screen_media_item_outline_size" android:layout_marginLeft="@dimen/green_screen_media_item_horizontal_margin" android:layout_marginRight="@dimen/green_screen_media_item_horizontal_margin"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.apps.youtube.app.extensions.reel.creation.shorts.camera.GreenScreenMediaThumbnailContainer android:layout_gravity="center" android:id="@id/green_screen_media_thumbnail_container" android:layout_width="@dimen/green_screen_media_item_thumbnail_view_size" android:layout_height="@dimen/green_screen_media_item_thumbnail_view_size">
+        <ImageView android:layout_gravity="center" android:id="@id/green_screen_media_item_thumbnail" android:layout_width="@dimen/green_screen_media_item_thumbnail_view_size" android:layout_height="@dimen/green_screen_media_item_thumbnail_view_size" android:contentDescription="@null" />
+        <ProgressBar android:layout_gravity="center" android:id="@id/loading_spinner" android:visibility="gone" android:layout_width="@dimen/green_screen_loading_spinner_size" android:layout_height="@dimen/green_screen_loading_spinner_size" android:indeterminate="true" android:indeterminateTint="@color/shorts_camera_loading_spinner_color" style="?android:progressBarStyle" />
+    </com.google.android.apps.youtube.app.extensions.reel.creation.shorts.camera.GreenScreenMediaThumbnailContainer>
+    <FrameLayout android:layout_gravity="center" android:id="@id/green_screen_media_item_thumbnail_border" android:background="@drawable/green_screen_media_item_thumbnail_outline" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</FrameLayout>

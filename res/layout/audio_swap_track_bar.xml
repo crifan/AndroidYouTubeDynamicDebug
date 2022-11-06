@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@id/audio_swap_track" android:layout_width="fill_parent" android:layout_height="80.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:yt="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:id="@id/audio_swap_track_preview" android:background="@color/audio_swap_track_bar_background" android:layout_width="80.0dip" android:layout_height="80.0dip">
+        <ImageView android:layout_gravity="center" android:id="@id/audio_swap_track_play_button" android:background="@drawable/audio_swap_play_button" android:layout_width="36.0dip" android:layout_height="36.0dip" android:layout_centerInParent="true" android:contentDescription="@string/upload_edit_audio_swap_play_button_description" />
+    </RelativeLayout>
+    <LinearLayout android:id="@id/audio_swap_track_track_info" android:background="@color/audio_swap_track_bar_background" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_weight="1.0" android:layout_alignLeft="@id/audio_swap_track_preview" android:layout_alignStart="@id/audio_swap_track_preview">
+        <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:textSize="@dimen/medium_font_size" android:textColor="@color/edit_text_color_primary" android:ellipsize="end" android:gravity="bottom|center|left" android:id="@id/audio_swap_track_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="1.0dip" android:layout_marginTop="1.0dip" android:layout_marginBottom="1.0dip" android:text="Title" android:singleLine="true" android:layout_weight="1.0" yt:robotoFont="medium" />
+            <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:textSize="15.0sp" android:textColor="#9affffff" android:ellipsize="end" android:gravity="center|left|top" android:id="@id/audio_swap_track_artist" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="1.0dip" android:layout_marginTop="1.0dip" android:layout_marginBottom="1.0dip" android:text="Artist" android:singleLine="true" android:layout_weight="1.0" android:layout_below="@id/audio_swap_track_title" yt:robotoFont="light" />
+        </LinearLayout>
+        <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:textSize="@dimen/small_font_size" android:textColor="@color/edit_text_color_primary" android:gravity="center_vertical" android:id="@id/audio_swap_track_duration" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" android:text="0:00" yt:robotoFont="medium" />
+    </LinearLayout>
+    <RelativeLayout android:background="@color/yt_black_pure" android:layout_width="1.0dip" android:layout_height="fill_parent" />
+    <RelativeLayout android:id="@id/audio_swap_track_add_button" android:background="@color/audio_swap_track_bar_background" android:layout_width="80.0dip" android:layout_height="80.0dip" android:contentDescription="@string/upload_edit_audio_swap_select_button_description">
+        <ImageView android:layout_gravity="center" android:background="@drawable/audio_swap_add_button" android:layout_width="36.0dip" android:layout_height="36.0dip" android:layout_centerInParent="true" />
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="accessibility_dislike_video_plural">
+        <item quantity="other">„Nem tetszik” gomb, további %1$d felhasználónak nem tetszett ez a videó</item>
+        <item quantity="one">„Nem tetszik” gomb, további %1$d felhasználónak nem tetszett ez a videó</item>
+    </plurals>
+    <plurals name="accessibility_dtts_fast_forward">
+        <item quantity="other">Gyors előretekerés %1$d másodperccel</item>
+        <item quantity="one">Gyors előretekerés %1$d másodperccel</item>
+    </plurals>
+    <plurals name="accessibility_dtts_rewind">
+        <item quantity="other">Visszatekerés %1$d másodperccel</item>
+        <item quantity="one">Visszatekerés %1$d másodperccel</item>
+    </plurals>
+    <plurals name="accessibility_duration_description_hours">
+        <item quantity="other">%d óra</item>
+        <item quantity="one">%d óra</item>
+    </plurals>
+    <plurals name="accessibility_duration_description_minutes">
+        <item quantity="other">%d perc</item>
+        <item quantity="one">%d perc</item>
+    </plurals>
+    <plurals name="accessibility_duration_description_seconds">
+        <item quantity="other">%d másodperc</item>
+        <item quantity="one">%d másodperc</item>
+    </plurals>
+    <plurals name="accessibility_like_video_plural">
+        <item quantity="other">„Tetszik” gomb, további %1$d felhasználónak is tetszett ez a videó</item>
+        <item quantity="one">„Tetszik” gomb, további %1$d felhasználónak is tetszett ez a videó</item>
+    </plurals>
+    <plurals name="accessibility_skip_ad_in">
+        <item quantity="other">Hirdetés átugrása %1$d másodperc múlva</item>
+        <item quantity="one">Hirdetés átugrása 1 másodperc múlva</item>
+    </plurals>
+    <plurals name="accessibility_undo_dislike_video_plural">
+        <item quantity="other">„Nem tetszik visszavonása” gomb, %1$d másik felhasználónak nem tetszett ez a videó</item>
+        <item quantity="one">„Nem tetszik visszavonása” gomb, %1$d másik felhasználónak nem tetszett ez a videó</item>
+    </plurals>
+    <plurals name="accessibility_undo_like_video_plural">
+        <item quantity="other">„Mégse tetszik” gomb, %1$d másik felhasználónak tetszett ez a videó</item>
+        <item quantity="one">„Mégse tetszik” gomb, %1$d másik felhasználónak tetszett ez a videó</item>
+    </plurals>
+    <plurals name="download_new_videos_button_text">
+        <item quantity="other">%1$d új videó letöltése</item>
+        <item quantity="one">%1$d új videó letöltése</item>
+    </plurals>
+    <plurals name="download_playlist_unplayable_future_days_plural">
+        <item quantity="other">Egyes videók lejátszásához %1$d nap múlva Premium-tagság szükséges</item>
+        <item quantity="one">Egyes videók lejátszásához %1$d nap múlva Premium-tagság szükséges</item>
+    </plurals>
+    <plurals name="download_playlist_unplayable_future_hours_plural">
+        <item quantity="other">Egyes videók lejátszásához %1$d óra múlva Premium-tagság szükséges</item>
+        <item quantity="one">Egyes videók lejátszásához %1$d óra múlva Premium-tagság szükséges</item>
+    </plurals>
+    <plurals name="download_playlist_unplayable_future_minutes_plural">
+        <item quantity="other">Egyes videók lejátszásához %1$d perc múlva Premium-tagság szükséges</item>
+        <item quantity="one">Egyes videók lejátszásához %1$d perc múlva Premium-tagság szükséges</item>
+    </plurals>
+    <plurals name="download_video_unplayable_future_days_plural">
+        <item quantity="other">%1$d nap múlva Premium-tagság szükséges</item>
+        <item quantity="one">%1$d nap múlva Premium-tagság szükséges</item>
+    </plurals>
+    <plurals name="download_video_unplayable_future_hours_plural">
+        <item quantity="other">%1$d óra múlva Premium-tagság szükséges</item>
+        <item quantity="one">%1$d óra múlva Premium-tagság szükséges</item>
+    </plurals>
+    <plurals name="download_video_unplayable_future_minutes_plural">
+        <item quantity="other">%1$d perc múlva Premium-tagság szükséges</item>
+        <item quantity="one">%1$d perc múlva Premium-tagság szükséges</item>
+    </plurals>
+    <plurals name="duration_minutes">
+        <item quantity="other">%1$d perc</item>
+        <item quantity="zero">0 perc</item>
+        <item quantity="one">1 perc</item>
+        <item quantity="two">2 perc</item>
+        <item quantity="few">%1$d perc</item>
+        <item quantity="many">%1$d perc</item>
+    </plurals>
+    <plurals name="duration_seconds">
+        <item quantity="other">%1$d másodperc</item>
+        <item quantity="zero">0 másodperc</item>
+        <item quantity="one">1 másodperc</item>
+        <item quantity="two">2 másodperc</item>
+        <item quantity="few">%1$d másodperc</item>
+        <item quantity="many">%1$d másodperc</item>
+    </plurals>
+    <plurals name="frequency_hours_component">
+        <item quantity="other">%1$d óra</item>
+        <item quantity="one">%1$d óra</item>
+    </plurals>
+    <plurals name="frequency_hours_only">
+        <item quantity="other">%1$d óránként</item>
+        <item quantity="one">Óránként</item>
+    </plurals>
+    <plurals name="frequency_minutes_component">
+        <item quantity="other">%1$d perc</item>
+        <item quantity="one">%1$d perc</item>
+    </plurals>
+    <plurals name="frequency_minutes_only">
+        <item quantity="other">%1$d percenként</item>
+        <item quantity="one">Percenként</item>
+    </plurals>
+    <plurals name="image_picker_title">
+        <item quantity="other">%1$d kijelölve</item>
+        <item quantity="one">%1$d kijelölve</item>
+    </plurals>
+    <plurals name="invalid_uploads_error_msg">
+        <item quantity="other">Egy vagy több videófájl nem érhető el/érvénytelen. Próbáld újra, vagy válassz másikat.</item>
+        <item quantity="one">Ez a videófájl nem érhető el/érvénytelen. Próbáld újra, vagy válassz másikat.</item>
+    </plurals>
+    <plurals name="last_update_in_days_message">
+        <item quantity="other">%1$d nappal ezelőtt frissítve</item>
+        <item quantity="one">Tegnap frissítve</item>
+    </plurals>
+    <plurals name="last_update_in_hours_message">
+        <item quantity="other">%1$d órával ezelőtt frissítve</item>
+        <item quantity="one">%1$d órával ezelőtt frissítve</item>
+    </plurals>
+    <plurals name="last_update_in_minutes_message">
+        <item quantity="other">%1$d perccel ezelőtt frissítve</item>
+        <item quantity="one">%1$d perccel ezelőtt frissítve</item>
+    </plurals>
+    <plurals name="last_update_in_weeks_message">
+        <item quantity="other">%1$d héttel ezelőtt frissítve</item>
+        <item quantity="one">%1$d héttel ezelőtt frissítve</item>
+    </plurals>
+    <plurals name="notification_playlist_progress_size">
+        <item quantity="other">%2$d/%1$d videó</item>
+        <item quantity="one">1/%1$d videó</item>
+    </plurals>
+    <plurals name="offline_go_online_to_renew_dialog_message">
+        <item quantity="other">A letöltött elemek mindaddig elérhetők maradnak, amíg eszközöd %1$d naponta csatlakozik az internethez. Ez a folyamat automatikusan végbemegy, és nem tölti le újra a videókat.</item>
+        <item quantity="one">A letöltött elemek mindaddig elérhetők maradnak, amíg eszközöd naponta csatlakozik az internethez. Ez a folyamat automatikusan végbemegy, és nem tölti le újra a videókat.</item>
+    </plurals>
+    <plurals name="offline_go_online_to_renew_snackbar_message">
+        <item quantity="other">Internetkapcsolat nélkül a letöltött elemek %1$d napig maradnak hozzáférhetők.</item>
+        <item quantity="one">Internetkapcsolat nélkül a letöltött elemek 1 napig maradnak hozzáférhetők.</item>
+    </plurals>
+    <plurals name="offline_remember_setting_for_days">
+        <item quantity="other">Beállításaim megjegyzése %1$d napig</item>
+        <item quantity="one">Beállításaim megjegyzése 1 napig</item>
+    </plurals>
+    <plurals name="playlist_picker_dialog_done">
+        <item quantity="other">Listák frissítve</item>
+        <item quantity="one">Lista frissítve</item>
+    </plurals>
+    <plurals name="playlist_size">
+        <item quantity="other">%1$,d videó</item>
+        <item quantity="one">1 videó</item>
+    </plurals>
+    <plurals name="playlist_size_downloaded">
+        <item quantity="other">%1$,d letöltve</item>
+        <item quantity="one">%1$,d letöltve</item>
+    </plurals>
+    <plurals name="playlist_size_total">
+        <item quantity="other">%1$,d videó</item>
+        <item quantity="one">1 videó</item>
+    </plurals>
+    <plurals name="public_notification_text">
+        <item quantity="other">%1$d új értesítés</item>
+        <item quantity="one">Értesítése jött</item>
+    </plurals>
+    <plurals name="quick_seek_x_second">
+        <item quantity="other">%d másodperc</item>
+        <item quantity="one">%d másodperc</item>
+    </plurals>
+    <plurals name="recommendation_count">
+        <item quantity="other">%1$d ajánlás</item>
+        <item quantity="one">1 ajánlás</item>
+    </plurals>
+    <plurals name="rental_expiry_notice">
+        <item quantity="other">A kezdést követően %1$d óra áll rendelkezésedre, hogy megnézd a videót.</item>
+        <item quantity="one">A kezdést követően 1 óra áll rendelkezésedre, hogy megnézd a videót.</item>
+    </plurals>
+    <plurals name="rental_long_days_remaining">
+        <item quantity="other">%1$d nap múlva lejár</item>
+        <item quantity="one">1 nap múlva lejár</item>
+    </plurals>
+    <plurals name="rental_long_hours_remaining">
+        <item quantity="other">%1$d óra múlva lejár</item>
+        <item quantity="one">1 óra múlva lejár</item>
+    </plurals>
+    <plurals name="rental_long_weeks_remaining">
+        <item quantity="other">%1$d hét múlva lejár</item>
+        <item quantity="one">1 hét múlva lejár</item>
+    </plurals>
+    <plurals name="rental_medium_days_remaining">
+        <item quantity="other">%1$d nap múlva lejár</item>
+        <item quantity="one">1 nap múlva lejár</item>
+    </plurals>
+    <plurals name="rental_medium_hours_remaining">
+        <item quantity="other">%1$d óra múlva lejár</item>
+        <item quantity="one">1 óra múlva lejár</item>
+    </plurals>
+    <plurals name="rental_medium_weeks_remaining">
+        <item quantity="other">%1$d hét múlva lejár</item>
+        <item quantity="one">1 hét múlva lejár</item>
+    </plurals>
+    <plurals name="selected_video_count">
+        <item quantity="other">%1$d videó kijelölve</item>
+        <item quantity="one">1 videó kijelölve</item>
+    </plurals>
+    <plurals name="shorts_a11y_duration_seconds">
+        <item quantity="other">%1$s másodperc</item>
+        <item quantity="one">%1$s másodperc</item>
+    </plurals>
+    <plurals name="shorts_a11y_timer_duration_seconds">
+        <item quantity="other">%1$d másodperces időzítés</item>
+        <item quantity="one">%1$d másodperces időzítés</item>
+    </plurals>
+    <plurals name="shorts_a11y_timer_started">
+        <item quantity="other">%1$d másodperces időzítő aktiválva</item>
+        <item quantity="one">%1$d másodperces időzítő aktiválva</item>
+    </plurals>
+    <plurals name="smart_downloads_future_update_text">
+        <item quantity="other">Az okos letöltések %1$d nap múlva automatikusan frissülnek</item>
+        <item quantity="one">Az okos letöltések 1 nap múlva automatikusan frissülnek</item>
+    </plurals>
+    <plurals name="sticker_dialog_title">
+        <item quantity="other">%1$d nap múlva nézz vissza</item>
+        <item quantity="one">1 nap múlva nézz vissza</item>
+    </plurals>
+    <plurals name="too_many_external_uploads_error_msg">
+        <item quantity="other">Egyszerre legfeljebb %1$d videó tölthető fel.</item>
+        <item quantity="one">Egyszerre legfeljebb %1$d videó tölthető fel.</item>
+    </plurals>
+    <plurals name="transcoding_progress">
+        <item quantity="other">Előkészítés: %1$,d%%</item>
+        <item quantity="one">Előkészítés: %1$,d%%</item>
+    </plurals>
+    <plurals name="trim_segment_max_length">
+        <item quantity="other">Legfeljebb %1$d másodperc</item>
+        <item quantity="one">Legfeljebb 1 másodperc</item>
+    </plurals>
+    <plurals name="trim_switch_edu">
+        <item quantity="other">A videó megvágása %1$d másodpercesre és zene hozzáadása</item>
+        <item quantity="one">A videó megvágása 1 másodpercesre és zene hozzáadása</item>
+    </plurals>
+    <plurals name="trim_switch_edu_full_length_shorts">
+        <item quantity="other">A videó megvágása legfeljebb %1$d másodpercesre</item>
+        <item quantity="one">A videó megvágása legfeljebb 1 másodpercesre</item>
+    </plurals>
+    <plurals name="upload_hours_remaing">
+        <item quantity="other">Kb. %1$,d óra van hátra</item>
+        <item quantity="one">Kb. %1$,d óra van hátra</item>
+    </plurals>
+    <plurals name="upload_indicator_all_completed">
+        <item quantity="other">%d videó feltöltve</item>
+        <item quantity="one">Videó feltöltve</item>
+    </plurals>
+    <plurals name="upload_indicator_all_failed">
+        <item quantity="other">Egyik videót sem sikerült feltölteni</item>
+        <item quantity="one">A videót nem sikerült feltölteni</item>
+    </plurals>
+    <plurals name="upload_indicator_all_uploading">
+        <item quantity="other">%d videó feltöltése folyamatban van</item>
+        <item quantity="one">A videó feltöltése folyamatban van</item>
+    </plurals>
+    <plurals name="upload_indicator_partial_fail">
+        <item quantity="other">%2$d/%1$d videódat nem sikerült feltölteni</item>
+        <item quantity="one">%2$d/%1$d videódat nem sikerült feltölteni</item>
+    </plurals>
+    <plurals name="upload_indicator_uploading_and_completed_completed_part">
+        <item quantity="other">%d videó feltöltve</item>
+        <item quantity="one">%d videó feltöltve</item>
+    </plurals>
+    <plurals name="upload_indicator_uploading_and_completed_uploading_part">
+        <item quantity="other">%d videó feltöltése még folyamatban van</item>
+        <item quantity="one">%d videó feltöltése még folyamatban van</item>
+    </plurals>
+    <plurals name="upload_minutes_remaing">
+        <item quantity="other">Kb. %1$,d perc van hátra</item>
+        <item quantity="one">Kb. %1$,d perc van hátra</item>
+    </plurals>
+    <plurals name="upload_notification_active_progress">
+        <item quantity="other">%2$d/%1$d videó feltöltése</item>
+        <item quantity="one">1 videó feltöltése</item>
+    </plurals>
+    <plurals name="upload_progress">
+        <item quantity="other">%1$,d%% feltöltve</item>
+        <item quantity="one">%1$,d%% feltöltve</item>
+    </plurals>
+    <plurals name="upload_seconds_remaing">
+        <item quantity="other">Kb. %1$,d másodperc van hátra</item>
+        <item quantity="one">Kb. %1$,d másodperc van hátra</item>
+    </plurals>
+    <plurals name="uploads_failed">
+        <item quantity="other">%1$,d sikertelen</item>
+        <item quantity="one">Sikertelen feltöltés</item>
+    </plurals>
+    <plurals name="uploads_failed_with_in_progress_videos">
+        <item quantity="other">%2$,d/%1$,d sikertelen feltöltés</item>
+        <item quantity="one">%2$,d/%1$,d sikertelen feltöltés</item>
+    </plurals>
+    <plurals name="uploads_in_progress">
+        <item quantity="other">%1$,d feltöltése folyamatban</item>
+        <item quantity="one">%1$,d feltöltése folyamatban</item>
+    </plurals>
+    <plurals name="user_education_quick_seek">
+        <item quantity="other">%d másodperc kihagyásához koppints duplán balra vagy jobbra</item>
+        <item quantity="one">%d másodperc kihagyásához koppints duplán balra vagy jobbra</item>
+    </plurals>
+    <plurals name="video_count">
+        <item quantity="other">%1$d videó</item>
+        <item quantity="one">1 videó</item>
+    </plurals>
+</resources>

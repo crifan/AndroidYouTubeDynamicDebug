@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/stream_status_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/lc_activity_horizontal_margin" android:layout_marginEnd="@dimen/lc_activity_horizontal_margin">
+        <com.google.android.libraries.youtube.livecreation.ui.view.StreamStatusView android:layout_gravity="center_vertical" android:id="@id/stream_status" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+        <Button android:textSize="@dimen/body_text_size" android:textColor="@drawable/lc_bordered_transparent_button_text" android:layout_gravity="center_vertical" android:id="@id/close_button" android:background="@drawable/lc_bordered_transparent_button" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="@dimen/lc_finish_button_height" android:text="@string/lc_finish_stream_button_text" />
+        <ImageButton android:id="@id/close_stream_button" android:background="?selectableItemBackgroundBorderless" android:visibility="gone" android:layout_width="@dimen/lc_24dp_image_button_container_size" android:layout_height="@dimen/lc_24dp_image_button_container_size" android:contentDescription="@null" />
+    </LinearLayout>
+    <android.support.v7.widget.RecyclerView android:id="@id/ticker" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</LinearLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/reel_header_group" android:layout_width="fill_parent" android:layout_height="wrap_content" android:importantForAccessibility="yes"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/reel_primary_font_size" android:textColor="@color/yt_white1" android:ellipsize="end" android:id="@id/reel_main_title" android:paddingTop="@dimen/reel_avatar_padding_top_video" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="3" android:fontFamily="sans-serif-medium" android:textDirection="locale" android:paddingStart="@dimen/reel_avatar_padding_start_video" />
+    <TableLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:shrinkColumns="1" android:layout_below="@id/reel_main_title" android:importantForAccessibility="yes">
+        <TableRow>
+            <com.google.android.libraries.youtube.common.ui.CircularImageView android:id="@id/reel_channel_thumbnail" android:padding="@dimen/reel_avatar_padding_video" android:layout_width="@dimen/reel_avatar_width_video" android:layout_height="@dimen/reel_avatar_size" android:scaleType="centerCrop" android:contentDescription="@string/reel_accessibility_channel" android:importantForAccessibility="no" android:paddingStart="@dimen/reel_avatar_padding_start_video" />
+            <TextView android:textSize="@dimen/reel_secondary_font_size" android:textColor="@color/yt_white1" android:ellipsize="marquee" android:gravity="center_vertical" android:id="@id/reel_byline_text" android:layout_width="fill_parent" android:layout_height="fill_parent" android:singleLine="true" android:fontFamily="sans-serif-medium" android:paddingEnd="@dimen/reel_avatar_padding_video" />
+            <TextView android:textSize="@dimen/reel_secondary_font_size" android:textStyle="bold" android:textColor="@color/yt_white1_opacity70" android:gravity="center_vertical" android:id="@id/reel_byline_separator" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/reel_timestamp_separator" android:maxLines="1" android:importantForAccessibility="no" />
+            <com.google.android.apps.youtube.app.extensions.reel.watch.overlay.SubscribeButton android:textSize="@dimen/reel_secondary_font_size" android:textColor="@color/yt_white1" android:ellipsize="none" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/reel_header_subscribe_button" android:padding="@dimen/reel_subs_text_header_padding" android:layout_width="wrap_content" android:layout_height="fill_parent" android:singleLine="true" />
+        </TableRow>
+    </TableLayout>
+</RelativeLayout>

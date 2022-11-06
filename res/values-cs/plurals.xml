@@ -1,0 +1,451 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="accessibility_dislike_video_plural">
+        <item quantity="other">Tlačítko To se mi nelíbí, video se nelíbí i %1$d dalším uživatelům</item>
+        <item quantity="one">Tlačítko To se mi nelíbí, video se nelíbí i %1$d dalšímu uživateli</item>
+        <item quantity="few">Tlačítko To se mi nelíbí, video se nelíbí i %1$d dalším uživatelům</item>
+        <item quantity="many">Tlačítko To se mi nelíbí, video se nelíbí i %1$d dalším uživatelům</item>
+    </plurals>
+    <plurals name="accessibility_dtts_fast_forward">
+        <item quantity="other">Posunout vpřed o %1$d sekund</item>
+        <item quantity="one">Posunout vpřed o %1$d sekundu</item>
+        <item quantity="few">Posunout vpřed o %1$d sekundy</item>
+        <item quantity="many">Posunout vpřed o %1$d sekundy</item>
+    </plurals>
+    <plurals name="accessibility_dtts_rewind">
+        <item quantity="other">Přetočit zpět o %1$d sekund</item>
+        <item quantity="one">Přetočit zpět o %1$d sekundu</item>
+        <item quantity="few">Přetočit zpět o %1$d sekundy</item>
+        <item quantity="many">Přetočit zpět o %1$d sekundy</item>
+    </plurals>
+    <plurals name="accessibility_duration_description_hours">
+        <item quantity="other">%d hodin</item>
+        <item quantity="one">%d hodina</item>
+        <item quantity="few">%d hodiny</item>
+        <item quantity="many">%d hodiny</item>
+    </plurals>
+    <plurals name="accessibility_duration_description_minutes">
+        <item quantity="other">%d minut</item>
+        <item quantity="one">%d minuta</item>
+        <item quantity="few">%d minuty</item>
+        <item quantity="many">%d minuty</item>
+    </plurals>
+    <plurals name="accessibility_duration_description_seconds">
+        <item quantity="other">%d sekund</item>
+        <item quantity="one">%d sekunda</item>
+        <item quantity="few">%d sekundy</item>
+        <item quantity="many">%d sekundy</item>
+    </plurals>
+    <plurals name="accessibility_like_video_plural">
+        <item quantity="other">Tlačítko To se mi líbí, video se líbí i %1$d dalším uživatelům</item>
+        <item quantity="one">Tlačítko To se mi líbí, video se líbí i %1$d dalšímu uživateli</item>
+        <item quantity="few">Tlačítko To se mi líbí, video se líbí i %1$d dalším uživatelům</item>
+        <item quantity="many">Tlačítko To se mi líbí, video se líbí i %1$d dalším uživatelům</item>
+    </plurals>
+    <plurals name="accessibility_skip_ad_in">
+        <item quantity="other">Přeskočit reklamu za %1$d sekund</item>
+        <item quantity="one">Přeskočit reklamu za 1 sekundu</item>
+        <item quantity="few">Přeskočit reklamu za %1$d sekundy</item>
+        <item quantity="many">Přeskočit reklamu za %1$d sekund</item>
+    </plurals>
+    <plurals name="accessibility_undo_dislike_video_plural">
+        <item quantity="other">Odebrat označení To se mi nelíbí, video se nelíbí %1$d dalším uživatelům</item>
+        <item quantity="one">Odebrat označení To se mi nelíbí, video se nelíbí %1$d dalšímu uživateli</item>
+        <item quantity="few">Odebrat označení To se mi nelíbí, video se nelíbí %1$d dalším uživatelům</item>
+        <item quantity="many">Odebrat označení To se mi nelíbí, video se nelíbí %1$d dalším uživatelům</item>
+    </plurals>
+    <plurals name="accessibility_undo_like_video_plural">
+        <item quantity="other">Odebrat lajk, video se líbí %1$d dalším uživatelům</item>
+        <item quantity="one">Odebrat lajk, video se líbí %1$d dalšímu uživateli</item>
+        <item quantity="few">Odebrat lajk, video se líbí %1$d dalším uživatelům</item>
+        <item quantity="many">Odebrat lajk, video se líbí %1$d dalším uživatelům</item>
+    </plurals>
+    <plurals name="download_new_videos_button_text">
+        <item quantity="other">Stáhnout %1$d nových videí</item>
+        <item quantity="one">Stáhnout %1$d nové video</item>
+        <item quantity="few">Stáhnout %1$d nová videa</item>
+        <item quantity="many">Stáhnout %1$d nového videa</item>
+    </plurals>
+    <plurals name="download_playlist_unplayable_future_days_plural">
+        <item quantity="other">Některá videa budou za %1$d dní vyžadovat předplatné Premium</item>
+        <item quantity="one">Některá videa budou za %1$d den vyžadovat předplatné Premium</item>
+        <item quantity="few">Některá videa budou za %1$d dny vyžadovat předplatné Premium</item>
+        <item quantity="many">Některá videa budou za %1$d dne vyžadovat předplatné Premium</item>
+    </plurals>
+    <plurals name="download_playlist_unplayable_future_hours_plural">
+        <item quantity="other">Některá videa budou za %1$d hodin vyžadovat předplatné Premium</item>
+        <item quantity="one">Některá videa budou za %1$d hodinu vyžadovat předplatné Premium</item>
+        <item quantity="few">Některá videa budou za %1$d hodiny vyžadovat předplatné Premium</item>
+        <item quantity="many">Některá videa budou za %1$d hodiny vyžadovat předplatné Premium</item>
+    </plurals>
+    <plurals name="download_playlist_unplayable_future_minutes_plural">
+        <item quantity="other">Některá videa budou za %1$d minut vyžadovat předplatné Premium</item>
+        <item quantity="one">Některá videa budou za %1$d minutu vyžadovat předplatné Premium</item>
+        <item quantity="few">Některá videa budou za %1$d minuty vyžadovat předplatné Premium</item>
+        <item quantity="many">Některá videa budou za %1$d minuty vyžadovat předplatné Premium</item>
+    </plurals>
+    <plurals name="download_video_unplayable_future_days_plural">
+        <item quantity="other">Za %1$d dní bude vyžadovat předplatné Premium</item>
+        <item quantity="one">Za %1$d den bude vyžadovat předplatné Premium</item>
+        <item quantity="few">Za %1$d dny bude vyžadovat předplatné Premium</item>
+        <item quantity="many">Za %1$d dne bude vyžadovat předplatné Premium</item>
+    </plurals>
+    <plurals name="download_video_unplayable_future_hours_plural">
+        <item quantity="other">Za %1$d hodin bude vyžadovat předplatné Premium</item>
+        <item quantity="one">Za %1$d hodinu bude vyžadovat předplatné Premium</item>
+        <item quantity="few">Za %1$d hodiny bude vyžadovat předplatné Premium</item>
+        <item quantity="many">Za %1$d hodiny bude vyžadovat předplatné Premium</item>
+    </plurals>
+    <plurals name="download_video_unplayable_future_minutes_plural">
+        <item quantity="other">Za %1$d minut bude vyžadovat předplatné Premium</item>
+        <item quantity="one">Za %1$d minutu bude vyžadovat předplatné Premium</item>
+        <item quantity="few">Za %1$d minuty bude vyžadovat předplatné Premium</item>
+        <item quantity="many">Za %1$d minuty bude vyžadovat předplatné Premium</item>
+    </plurals>
+    <plurals name="duration_minutes">
+        <item quantity="other">%1$d min</item>
+        <item quantity="zero">0 minut</item>
+        <item quantity="one">1 minuta</item>
+        <item quantity="two">2 minuty</item>
+        <item quantity="few">%1$d min</item>
+        <item quantity="many">%1$d min</item>
+    </plurals>
+    <plurals name="duration_seconds">
+        <item quantity="other">%1$d s</item>
+        <item quantity="zero">0 sekund</item>
+        <item quantity="one">1 sekunda</item>
+        <item quantity="two">2 sekundy</item>
+        <item quantity="few">%1$d s</item>
+        <item quantity="many">%1$d s</item>
+    </plurals>
+    <plurals name="frequency_hours_component">
+        <item quantity="other">%1$d hodin</item>
+        <item quantity="one">%1$d hodina</item>
+        <item quantity="few">%1$d hodiny</item>
+        <item quantity="many">%1$d hodiny</item>
+    </plurals>
+    <plurals name="frequency_hours_only">
+        <item quantity="other">Každých %1$d hodin</item>
+        <item quantity="one">Každou hodinu</item>
+        <item quantity="few">Každé %1$d hodiny</item>
+        <item quantity="many">Každých %1$d hodiny</item>
+    </plurals>
+    <plurals name="frequency_minutes_component">
+        <item quantity="other">%1$d minut</item>
+        <item quantity="one">%1$d minuta</item>
+        <item quantity="few">%1$d minuty</item>
+        <item quantity="many">%1$d minuty</item>
+    </plurals>
+    <plurals name="frequency_minutes_only">
+        <item quantity="other">Každých %1$d minut</item>
+        <item quantity="one">Každou minutu</item>
+        <item quantity="few">Každé %1$d minuty</item>
+        <item quantity="many">Každých %1$d minuty</item>
+    </plurals>
+    <plurals name="image_picker_title">
+        <item quantity="other">Je vybráno %1$d položek</item>
+        <item quantity="one">Je vybrána %1$d položka</item>
+        <item quantity="few">Jsou vybrány %1$d položky</item>
+        <item quantity="many">Je vybráno %1$d položky</item>
+    </plurals>
+    <plurals name="invalid_uploads_error_msg">
+        <item quantity="other">Jeden nebo více souborů videa je nedostupných nebo neplatných. Zkuste to znovu nebo zvolte jiné.</item>
+        <item quantity="one">Tento soubor videa není dostupný nebo je neplatný. Zkuste to znovu nebo zvolte jiný.</item>
+        <item quantity="few">Jeden nebo více souborů videa je nedostupných nebo neplatných. Zkuste to znovu nebo zvolte jiné.</item>
+        <item quantity="many">Jeden nebo více souborů videa je nedostupných nebo neplatných. Zkuste to znovu nebo zvolte jiné.</item>
+    </plurals>
+    <plurals name="last_update_in_days_message">
+        <item quantity="other">Aktualizováno před %1$d dny</item>
+        <item quantity="one">Aktualizováno včera</item>
+        <item quantity="few">Aktualizováno před %1$d dny</item>
+        <item quantity="many">Aktualizováno před %1$d dne</item>
+    </plurals>
+    <plurals name="last_update_in_hours_message">
+        <item quantity="other">Aktualizováno před %1$d hodinami</item>
+        <item quantity="one">Aktualizováno před %1$d hodinou</item>
+        <item quantity="few">Aktualizováno před %1$d hodinami</item>
+        <item quantity="many">Aktualizováno před %1$d hodiny</item>
+    </plurals>
+    <plurals name="last_update_in_minutes_message">
+        <item quantity="other">Aktualizováno před %1$d minutami</item>
+        <item quantity="one">Aktualizováno před %1$d minutou</item>
+        <item quantity="few">Aktualizováno před %1$d minutami</item>
+        <item quantity="many">Aktualizováno před %1$d minuty</item>
+    </plurals>
+    <plurals name="last_update_in_weeks_message">
+        <item quantity="other">Aktualizováno před %1$d týdny</item>
+        <item quantity="one">Aktualizováno před %1$d týdnem</item>
+        <item quantity="few">Aktualizováno před %1$d týdny</item>
+        <item quantity="many">Aktualizováno před %1$d týdne</item>
+    </plurals>
+    <plurals name="notification_playlist_progress_size">
+        <item quantity="other">%1$d z %2$d videí</item>
+        <item quantity="one">%1$d z 1 videa</item>
+        <item quantity="few">%1$d ze %2$d videí</item>
+        <item quantity="many">%1$d z %2$d videí</item>
+    </plurals>
+    <plurals name="offline_go_online_to_renew_dialog_message">
+        <item quantity="other">Stažená videa jsou k dispozici, pokud se vaše zařízení připojí k internetu každých %1$d dní. Obnovení probíhá automaticky a nedochází při něm k opakovanému stažení videa.</item>
+        <item quantity="one">Stažená videa jsou k dispozici, pokud se vaše zařízení připojí k internetu každý den. Obnovení probíhá automaticky a nedochází při něm k opakovanému stažení videa.</item>
+        <item quantity="few">Stažená videa jsou k dispozici, pokud se vaše zařízení připojí k internetu každé %1$d dny. Obnovení probíhá automaticky a nedochází při něm k opakovanému stažení videa.</item>
+        <item quantity="many">Stažená videa jsou k dispozici, pokud se vaše zařízení připojí k internetu každých %1$d dne. Obnovení probíhá automaticky a nedochází při něm k opakovanému stažení videa.</item>
+    </plurals>
+    <plurals name="offline_go_online_to_renew_snackbar_message">
+        <item quantity="other">Bez připojení k internetu budou stažené položky k dispozici %1$d dní.</item>
+        <item quantity="one">Bez připojení k internetu budou stažené položky k dispozici jeden den.</item>
+        <item quantity="few">Bez připojení k internetu budou stažené položky k dispozici %1$d dny.</item>
+        <item quantity="many">Bez připojení k internetu budou stažené položky k dispozici %1$d dne.</item>
+    </plurals>
+    <plurals name="offline_remember_setting_for_days">
+        <item quantity="other">Pamatovat si moje nastavení %1$d dní</item>
+        <item quantity="one">Pamatovat si moje nastavení 1 den</item>
+        <item quantity="few">Pamatovat si moje nastavení %1$d dny</item>
+        <item quantity="many">Pamatovat si moje nastavení %1$d dne</item>
+    </plurals>
+    <plurals name="playlist_picker_dialog_done">
+        <item quantity="other">Playlistů aktualizováno</item>
+        <item quantity="one">Playlist aktualizován</item>
+        <item quantity="few">Playlisty aktualizovány</item>
+        <item quantity="many">Playlistu aktualizováno</item>
+    </plurals>
+    <plurals name="playlist_size">
+        <item quantity="other">%1$,d videí</item>
+        <item quantity="one">1 video</item>
+        <item quantity="few">%1$,d videa</item>
+        <item quantity="many">%1$,d videí</item>
+    </plurals>
+    <plurals name="playlist_size_downloaded">
+        <item quantity="other">Staženo %1$,d</item>
+        <item quantity="one">Staženo %1$,d</item>
+        <item quantity="few">Stažena %1$,d</item>
+        <item quantity="many">Staženo %1$,d</item>
+    </plurals>
+    <plurals name="playlist_size_total">
+        <item quantity="other">%1$,d videí</item>
+        <item quantity="one">1 video</item>
+        <item quantity="few">%1$,d videa</item>
+        <item quantity="many">%1$,d videa</item>
+    </plurals>
+    <plurals name="public_notification_text">
+        <item quantity="other">%1$d nových oznámení</item>
+        <item quantity="one">Máte jedno oznámení</item>
+        <item quantity="few">%1$d nová oznámení</item>
+        <item quantity="many">%1$d nového oznámení</item>
+    </plurals>
+    <plurals name="quick_seek_x_second">
+        <item quantity="other">%d sekund</item>
+        <item quantity="one">%d sekunda</item>
+        <item quantity="few">%d sekundy</item>
+        <item quantity="many">%d sekundy</item>
+    </plurals>
+    <plurals name="recommendation_count">
+        <item quantity="other">%1$d doporučení</item>
+        <item quantity="one">1 doporučení</item>
+        <item quantity="few">%1$d doporučení</item>
+        <item quantity="many">%1$d doporučení</item>
+    </plurals>
+    <plurals name="rental_expiry_notice">
+        <item quantity="other">Po zahájení máte %1$d hodin na sledování videa.</item>
+        <item quantity="one">Po zahájení máte 1 hodinu na sledování videa.</item>
+        <item quantity="few">Po zahájení máte %1$d hodiny na sledování videa.</item>
+        <item quantity="many">Po zahájení máte %1$d hodiny na sledování videa.</item>
+    </plurals>
+    <plurals name="rental_long_days_remaining">
+        <item quantity="other">Platnost vyprší za %1$d dní</item>
+        <item quantity="one">Platnost vyprší za 1 den</item>
+        <item quantity="few">Platnost vyprší za %1$d dny</item>
+        <item quantity="many">Platnost vyprší za %1$d dne</item>
+    </plurals>
+    <plurals name="rental_long_hours_remaining">
+        <item quantity="other">Platnost vyprší za %1$d hodin</item>
+        <item quantity="one">Platnost vyprší za 1 hodinu</item>
+        <item quantity="few">Platnost vyprší za %1$d hodiny</item>
+        <item quantity="many">Platnost vyprší za %1$d hodiny</item>
+    </plurals>
+    <plurals name="rental_long_weeks_remaining">
+        <item quantity="other">Platnost vyprší za %1$d týdnů</item>
+        <item quantity="one">Platnost vyprší za 1 týden</item>
+        <item quantity="few">Platnost vyprší za %1$d týdny</item>
+        <item quantity="many">Platnost vyprší za %1$d týdne</item>
+    </plurals>
+    <plurals name="rental_medium_days_remaining">
+        <item quantity="other">Vyprší za %1$d dní</item>
+        <item quantity="one">Vyprší za den</item>
+        <item quantity="few">Vyprší za %1$d dny</item>
+        <item quantity="many">Vyprší za %1$d dne</item>
+    </plurals>
+    <plurals name="rental_medium_hours_remaining">
+        <item quantity="other">Vyprší za %1$d hodin</item>
+        <item quantity="one">Vyprší za hodinu</item>
+        <item quantity="few">Vyprší za %1$d hodiny</item>
+        <item quantity="many">Vyprší za %1$d hodiny</item>
+    </plurals>
+    <plurals name="rental_medium_weeks_remaining">
+        <item quantity="other">Vyprší za %1$d týdnů</item>
+        <item quantity="one">Vyprší za týden</item>
+        <item quantity="few">Vyprší za %1$d týdny</item>
+        <item quantity="many">Vyprší za %1$d týdne.</item>
+    </plurals>
+    <plurals name="selected_video_count">
+        <item quantity="other">Vybráno %1$d videí</item>
+        <item quantity="one">Vybráno 1 video</item>
+        <item quantity="few">Vybrána %1$d videa</item>
+        <item quantity="many">Vybráno %1$d videa</item>
+    </plurals>
+    <plurals name="shorts_a11y_duration_seconds">
+        <item quantity="other">%1$s sekund</item>
+        <item quantity="one">%1$s sekunda</item>
+        <item quantity="few">%1$s sekundy</item>
+        <item quantity="many">%1$s sekundy</item>
+    </plurals>
+    <plurals name="shorts_a11y_timer_duration_seconds">
+        <item quantity="other">%1$dsekundový časovač</item>
+        <item quantity="one">%1$dsekundový časovač</item>
+        <item quantity="few">%1$dsekundový časovač</item>
+        <item quantity="many">%1$dsekundový časovač</item>
+    </plurals>
+    <plurals name="shorts_a11y_timer_started">
+        <item quantity="other">%1$dsekundový časovač aktivován</item>
+        <item quantity="one">%1$dsekundový časovač aktivován</item>
+        <item quantity="few">%1$dsekundový časovač aktivován</item>
+        <item quantity="many">%1$dsekundový časovač aktivován</item>
+    </plurals>
+    <plurals name="smart_downloads_future_update_text">
+        <item quantity="other">Chytré stahování se automaticky aktualizuje za %1$d dny</item>
+        <item quantity="one">Chytré stahování se automaticky aktualizuje za 1 den.</item>
+        <item quantity="few">Chytré stahování se automaticky aktualizuje za %1$d dny</item>
+        <item quantity="many">Chytré stahování se automaticky aktualizuje za %1$d dne</item>
+    </plurals>
+    <plurals name="sticker_dialog_title">
+        <item quantity="other">Vraťte se za %1$d dní</item>
+        <item quantity="one">Vraťte se zítra</item>
+        <item quantity="few">Vraťte se za %1$d dny</item>
+        <item quantity="many">Vraťte se za %1$d dne</item>
+    </plurals>
+    <plurals name="too_many_external_uploads_error_msg">
+        <item quantity="other">Najednou lze nahrát maximálně %1$d videí.</item>
+        <item quantity="one">Najednou lze nahrát maximálně %1$d video.</item>
+        <item quantity="few">Najednou lze nahrát maximálně %1$d videa.</item>
+        <item quantity="many">Najednou lze nahrát maximálně %1$d videa.</item>
+    </plurals>
+    <plurals name="transcoding_progress">
+        <item quantity="other">Příprava %1$,d %%</item>
+        <item quantity="one">Příprava %1$,d %%</item>
+        <item quantity="few">Příprava %1$,d %%</item>
+        <item quantity="many">Příprava %1$,d %%</item>
+    </plurals>
+    <plurals name="trim_segment_max_length">
+        <item quantity="other">Maximálně %1$d sekund</item>
+        <item quantity="one">Maximálně 1 sekunda</item>
+        <item quantity="few">Maximálně %1$d sekundy</item>
+        <item quantity="many">Maximálně %1$d sekundy</item>
+    </plurals>
+    <plurals name="trim_switch_edu">
+        <item quantity="other">Zkrátit video na %1$d s a přidat hudbu</item>
+        <item quantity="one">Zkrátit video na 1 s a přidat hudbu</item>
+        <item quantity="few">Zkrátit video na %1$d s a přidat hudbu</item>
+        <item quantity="many">Zkrátit video na %1$d s a přidat hudbu</item>
+    </plurals>
+    <plurals name="trim_switch_edu_full_length_shorts">
+        <item quantity="other">Zkraťte své video na %1$d s nebo méně</item>
+        <item quantity="one">Zkraťte své video na 1 s nebo méně</item>
+        <item quantity="few">Zkraťte své video na %1$d s nebo méně</item>
+        <item quantity="many">Zkraťte své video na %1$d s nebo méně</item>
+    </plurals>
+    <plurals name="upload_hours_remaing">
+        <item quantity="other">Zbývá asi %1$,d hodin</item>
+        <item quantity="one">Zbývá asi %1$,d hodina</item>
+        <item quantity="few">Zbývají asi %1$,d hodiny</item>
+        <item quantity="many">Zbývá asi %1$,d hodiny</item>
+    </plurals>
+    <plurals name="upload_indicator_all_completed">
+        <item quantity="other">%d nahraných videí</item>
+        <item quantity="one">Video bylo nahráno</item>
+        <item quantity="few">%d nahraná videa</item>
+        <item quantity="many">%d nahraného videa</item>
+    </plurals>
+    <plurals name="upload_indicator_all_failed">
+        <item quantity="other">Vaše videa se nepodařilo nahrát</item>
+        <item quantity="one">Vaše video se nepodařilo nahrát</item>
+        <item quantity="few">Vaše videa se nepodařilo nahrát</item>
+        <item quantity="many">Vaše videa se nepodařilo nahrát</item>
+    </plurals>
+    <plurals name="upload_indicator_all_uploading">
+        <item quantity="other">Nahrávání %d videí</item>
+        <item quantity="one">Video se nahrává</item>
+        <item quantity="few">Nahrávání %d videí</item>
+        <item quantity="many">Nahrávání %d videa</item>
+    </plurals>
+    <plurals name="upload_indicator_partial_fail">
+        <item quantity="other">Nepodařilo se nahrát %1$d z %2$d videí</item>
+        <item quantity="one">Nepodařilo se nahrát %1$d z %2$d videí</item>
+        <item quantity="few">Nepodařila se nahrát %1$d z %2$d videí</item>
+        <item quantity="many">Nepodařilo se nahrát %1$d z %2$d videí</item>
+    </plurals>
+    <plurals name="upload_indicator_uploading_and_completed_completed_part">
+        <item quantity="other">%d nových videí</item>
+        <item quantity="one">%d nové video</item>
+        <item quantity="few">%d nová videa</item>
+        <item quantity="many">%d nového videa</item>
+    </plurals>
+    <plurals name="upload_indicator_uploading_and_completed_uploading_part">
+        <item quantity="other">%d nahrávání stále probíhá</item>
+        <item quantity="one">%d nahrávání stále probíhá</item>
+        <item quantity="few">%d nahrávání stále probíhají</item>
+        <item quantity="many">%d nahrávání stále probíhá</item>
+    </plurals>
+    <plurals name="upload_minutes_remaing">
+        <item quantity="other">Zbývá asi %1$,d minut</item>
+        <item quantity="one">Zbývá asi %1$,d minuta</item>
+        <item quantity="few">Zbývají asi %1$,d minuty</item>
+        <item quantity="many">Zbývá asi %1$,d minuty</item>
+    </plurals>
+    <plurals name="upload_notification_active_progress">
+        <item quantity="other">Nahrávání %1$d videa z celkového počtu %2$d videí</item>
+        <item quantity="one">Nahrávání videa</item>
+        <item quantity="few">Nahrávání %1$d videa z celkového počtu %2$d videí</item>
+        <item quantity="many">Nahrávání %1$d videa z celkového počtu %2$d videí</item>
+    </plurals>
+    <plurals name="upload_progress">
+        <item quantity="other">Nahráno %1$,d %%</item>
+        <item quantity="one">Nahráno %1$,d %%</item>
+        <item quantity="few">Nahráno %1$,d %%</item>
+        <item quantity="many">Nahráno %1$,d %%</item>
+    </plurals>
+    <plurals name="upload_seconds_remaing">
+        <item quantity="other">Zbývá asi %1$,d sekund</item>
+        <item quantity="one">Zbývá asi %1$,d sekunda</item>
+        <item quantity="few">Zbývají asi %1$,d sekundy</item>
+        <item quantity="many">Zbývá asi %1$,d sekundy</item>
+    </plurals>
+    <plurals name="uploads_failed">
+        <item quantity="other">%1$,d videí se nenahrálo</item>
+        <item quantity="one">Video se nenahrálo</item>
+        <item quantity="few">%1$,d videa se nenahrála</item>
+        <item quantity="many">%1$,d videa se nenahrálo</item>
+    </plurals>
+    <plurals name="uploads_failed_with_in_progress_videos">
+        <item quantity="other">%1$,d/%2$,d videí se nenahrálo</item>
+        <item quantity="one">%1$,d/%2$,d videí se nenahrálo</item>
+        <item quantity="few">%1$,d/%2$,d videa se nenahrála</item>
+        <item quantity="many">%1$,d/%2$,d videa se nenahrálo</item>
+    </plurals>
+    <plurals name="uploads_in_progress">
+        <item quantity="other">%1$,d se nahrává</item>
+        <item quantity="one">%1$,d se nahrává</item>
+        <item quantity="few">%1$,d se nahrávají</item>
+        <item quantity="many">%1$,d se nahrává</item>
+    </plurals>
+    <plurals name="user_education_quick_seek">
+        <item quantity="other">Dvojitým klepnutím vlevo či vpravo přeskočíte %d sekund</item>
+        <item quantity="one">Dvojitým klepnutím vlevo či vpravo přeskočíte %d sekundu</item>
+        <item quantity="few">Dvojitým klepnutím vlevo či vpravo přeskočíte %d sekundy</item>
+        <item quantity="many">Dvojitým klepnutím vlevo či vpravo přeskočíte %d sekundy</item>
+    </plurals>
+    <plurals name="video_count">
+        <item quantity="other">%1$d videí</item>
+        <item quantity="one">1 video</item>
+        <item quantity="few">%1$d videa</item>
+        <item quantity="many">%1$d videa</item>
+    </plurals>
+</resources>

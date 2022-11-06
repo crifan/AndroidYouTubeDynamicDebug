@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:layout_width="wrap_content" android:layout_height="wrap_content" android:shape="rectangle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="?ytIconActiveOther" />
+    <stroke android:width="@dimen/cloud_chip_border_width" android:color="?yt10PercentLayer" />
+    <corners android:radius="@dimen/cloud_chip_corner_radius" />
+</shape>

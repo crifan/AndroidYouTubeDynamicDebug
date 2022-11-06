@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/unified_share_panel" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:yt="http://schemas.android.com/apk/res-auto">
+    <View android:id="@id/overlay" android:background="?ytOverlayBackgroundMedium" android:layout_width="fill_parent" android:layout_height="fill_parent" android:contentDescription="@string/accessibility_close_dialog" />
+    <com.google.android.libraries.youtube.share.ui.AnchorableTopPeekingScrollView android:layout_gravity="center_horizontal" android:id="@id/top_peeking_scroll_view" android:layout_width="fill_parent" android:layout_height="fill_parent" android:importantForAccessibility="no">
+        <com.google.android.libraries.youtube.share.ui.ActivityIndicatorFrameLayout android:id="@id/progress_linear_bar" android:background="?ytBrandBackgroundSolid" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <LinearLayout android:orientation="vertical" android:id="@id/content" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <android.support.v7.widget.RecyclerView android:id="@id/header" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="wrap_content" android:overScrollMode="never" />
+                <android.support.v7.widget.RecyclerView android:id="@id/list" android:background="?ytBrandBackgroundSolid" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" android:overScrollMode="never" />
+            </LinearLayout>
+            <ProgressBar android:layout_gravity="center|top" android:id="@id/progress_spinner" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="144.0dip" style="@style/ConnectionLargeProgressBar" />
+        </com.google.android.libraries.youtube.share.ui.ActivityIndicatorFrameLayout>
+    </com.google.android.libraries.youtube.share.ui.AnchorableTopPeekingScrollView>
+    <LinearLayout android:layout_gravity="bottom" android:orientation="vertical" android:paddingTop="3.0dip" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <include android:id="@id/select_message_view" android:visibility="gone" layout="@layout/share_panel_select_message" />
+        <include android:id="@id/message_input_view" android:visibility="gone" layout="@layout/message_input_section_v15" />
+    </LinearLayout>
+    <com.google.android.libraries.quantum.fab.FloatingActionButton android:layout_gravity="end|bottom|center" android:id="@id/send_button" android:visibility="gone" android:layout_width="@dimen/quantum_fab_diameter_default" android:layout_height="@dimen/quantum_fab_diameter_default" android:layout_margin="@dimen/quantum_fab_edge_margin" android:src="@drawable/quantum_ic_send_white_24" android:contentDescription="@string/accessibility_send_share" yt:quantumFabColor="?ytStaticBrandRed" />
+    <com.google.android.libraries.quantum.snackbar.Snackbar android:layout_gravity="bottom" android:id="@id/snackbar" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</FrameLayout>

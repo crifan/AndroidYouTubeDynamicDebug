@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="discovery_app_promo_compact_form_use_landscape_layout">true</bool>
+    <bool name="lc_post_stream_thumbnail_ignore_aspect_ratio">true</bool>
+    <bool name="promoted_video_use_landscape_layout">true</bool>
+    <bool name="sparkles_text_on_home_use_landscape_layout">true</bool>
+    <bool name="sparkles_text_on_search_use_landscape_layout">true</bool>
+    <bool name="topic_picker_maintain_complete_rows_on_expansion">false</bool>
+</resources>

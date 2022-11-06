@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:textAppearance="?android:textAppearanceMedium" android:textSize="@dimen/body_text_size" android:textColor="@color/lc_white" android:gravity="center_vertical" android:id="@id/setting_text" android:layout_width="0.0dip" android:layout_height="@dimen/lc_setting_text_height" android:maxLines="1" android:drawablePadding="@dimen/lc_setting_drawable_padding" android:layout_weight="1.0" />
+        <ImageView android:id="@id/set_setting_button" android:layout_width="@dimen/lc_setting_button_size" android:layout_height="@dimen/lc_setting_button_size" android:src="@drawable/quantum_ic_add_white_24" android:scaleType="centerInside" android:contentDescription="@null" android:layout_marginEnd="@dimen/lc_setting_button_margin_end" />
+        <ImageView android:id="@id/clear_setting_button" android:visibility="gone" android:layout_width="@dimen/lc_setting_button_size" android:layout_height="@dimen/lc_setting_button_size" android:src="@drawable/quantum_ic_clear_white_24" android:scaleType="centerInside" android:contentDescription="@null" android:layout_marginEnd="@dimen/lc_setting_button_margin_end" />
+    </LinearLayout>
+</merge>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="?ytGeneralBackgroundA" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/donation_panel_side_margin" android:paddingEnd="@dimen/donation_panel_side_margin"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ProgressBar android:id="@id/progress_bar" android:background="?ytGeneralBackgroundA" android:layout_width="fill_parent" android:layout_height="10.0dip" android:layout_alignParentTop="true" style="?android:progressBarStyleHorizontal" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/progress_labels" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:layout_below="@id/progress_bar">
+        <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:textAppearance="?textAppearanceCaption" android:textColor="?ytTextSecondary" android:gravity="start" android:id="@id/start_label" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="2.0" />
+        <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:textAppearance="?textAppearanceCaption" android:textColor="?ytTextSecondary" android:gravity="end" android:id="@id/end_label" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+    </LinearLayout>
+    <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:textAppearance="?textAppearanceBody2" android:textColor="?ytTextPrimary" android:id="@id/amount_raised_label" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/progress_labels" />
+    <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:textAppearance="?textAppearanceCaption" android:textColor="?ytTextSecondary" android:id="@id/match_label" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:layout_marginBottom="1.0dip" android:layout_below="@id/amount_raised_label" />
+</RelativeLayout>

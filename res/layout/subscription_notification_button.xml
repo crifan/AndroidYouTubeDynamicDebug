@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/subscription_notification_view" android:layout_width="fill_parent" android:layout_height="fill_parent" android:minWidth="48.0dip" android:minHeight="48.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ViewStub android:layout_gravity="center" android:id="@id/toggle_button_view_stub" android:layout="@layout/toggle_button" android:inflatedId="@id/toggle_button_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ViewStub android:layout_gravity="center" android:id="@id/notification_options_view_stub" android:layout="@layout/subscription_notification_options_button" android:inflatedId="@id/notification_options_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ViewStub android:layout_gravity="center" android:id="@id/notification_toggle_view_stub" android:layout="@layout/subscription_notification_toggle_button" android:inflatedId="@id/notification_toggle_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</FrameLayout>

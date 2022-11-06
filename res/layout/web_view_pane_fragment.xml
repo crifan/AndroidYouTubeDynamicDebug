@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.libraries.youtube.rendering.ui.widget.loadingframe.LoadingFrameLayout android:id="@id/web_view_loading_layout" android:background="?ytBrandBackgroundSolid" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <WebView android:id="@id/webview" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </com.google.android.libraries.youtube.rendering.ui.widget.loadingframe.LoadingFrameLayout>
+</FrameLayout>

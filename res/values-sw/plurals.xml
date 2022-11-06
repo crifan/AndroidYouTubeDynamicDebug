@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="accessibility_dislike_video_plural">
+        <item quantity="other">Kitufe cha kuweka alama ya kutopenda, video hii haijapendwa na wengine %1$d</item>
+        <item quantity="one">Kitufe cha kuweka alama ya kutopenda, video hii haijapendwa na mwingine %1$d</item>
+    </plurals>
+    <plurals name="accessibility_dtts_fast_forward">
+        <item quantity="other">Sogeza mbele haraka kwa sekunde %1$d</item>
+        <item quantity="one">Sogeza mbele haraka kwa sekunde %1$d</item>
+    </plurals>
+    <plurals name="accessibility_dtts_rewind">
+        <item quantity="other">Sogeza nyuma kwa sekunde %1$d</item>
+        <item quantity="one">Sogeza nyuma kwa sekunde %1$d</item>
+    </plurals>
+    <plurals name="accessibility_duration_description_hours">
+        <item quantity="other">Saa %d</item>
+        <item quantity="one">Saa %d</item>
+    </plurals>
+    <plurals name="accessibility_duration_description_minutes">
+        <item quantity="other">Dakika %d</item>
+        <item quantity="one">Dakika %d</item>
+    </plurals>
+    <plurals name="accessibility_duration_description_seconds">
+        <item quantity="other">Sekunde %d</item>
+        <item quantity="one">Sekunde %d</item>
+    </plurals>
+    <plurals name="accessibility_like_video_plural">
+        <item quantity="other">Kitufe cha kuweka alama ya kupenda, video hii imependwa na wengine %1$d</item>
+        <item quantity="one">Kitufe cha kuweka alama ya kupenda, video hii imependwa na mwingine %1$d</item>
+    </plurals>
+    <plurals name="accessibility_skip_ad_in">
+        <item quantity="other">Ruka tangazo baada ya sekunde %1$d</item>
+        <item quantity="one">Ruka tangazo baada ya sekunde 1</item>
+    </plurals>
+    <plurals name="accessibility_undo_dislike_video_plural">
+        <item quantity="other">Kitufe cha kuondoa alama ya kutopenda, video hii haijapendwa na wengine %1$d</item>
+        <item quantity="one">Kitufe cha kuondoa alama ya kutopenda, video hii haijapendwa na mwingine %1$d</item>
+    </plurals>
+    <plurals name="accessibility_undo_like_video_plural">
+        <item quantity="other">Kitufe cha kuondoa alama ya kupenda, video hii imependwa na wengine %1$d</item>
+        <item quantity="one">Kitufe cha kuondoa alama ya kupenda, video hii imependwa na mwingine %1$d</item>
+    </plurals>
+    <plurals name="download_new_videos_button_text">
+        <item quantity="other">Pakua video %1$d mpya</item>
+        <item quantity="one">Pakua video %1$d mpya</item>
+    </plurals>
+    <plurals name="download_playlist_unplayable_future_days_plural">
+        <item quantity="other">Baadhi ya video zitahitaji Premium baada ya siku %1$d</item>
+        <item quantity="one">Baadhi ya video zitahitaji Premium baada ya siku %1$d</item>
+    </plurals>
+    <plurals name="download_playlist_unplayable_future_hours_plural">
+        <item quantity="other">Baadhi ya video zitahitaji Premium baada ya saa %1$d</item>
+        <item quantity="one">Baadhi ya video zitahitaji Premium baada ya saa %1$d</item>
+    </plurals>
+    <plurals name="download_playlist_unplayable_future_minutes_plural">
+        <item quantity="other">Baadhi ya video zitahitaji Premium baada ya dakika %1$d</item>
+        <item quantity="one">Baadhi ya video zitahitaji Premium baada ya dakika %1$d</item>
+    </plurals>
+    <plurals name="download_video_unplayable_future_days_plural">
+        <item quantity="other">Itahitaji Premium baada ya siku %1$d</item>
+        <item quantity="one">Itahitaji Premium baada ya siku %1$d</item>
+    </plurals>
+    <plurals name="download_video_unplayable_future_hours_plural">
+        <item quantity="other">Itahitaji Premium baada ya saa %1$d</item>
+        <item quantity="one">Itahitaji Premium baada ya saa %1$d</item>
+    </plurals>
+    <plurals name="download_video_unplayable_future_minutes_plural">
+        <item quantity="other">Itahitaji Premium baada ya dakika %1$d</item>
+        <item quantity="one">Itahitaji Premium baada ya dakika %1$d</item>
+    </plurals>
+    <plurals name="duration_minutes">
+        <item quantity="other">Dakika %1$d</item>
+        <item quantity="zero">Dakika 0</item>
+        <item quantity="one">Dakika 1</item>
+        <item quantity="two">Dakika 2</item>
+        <item quantity="few">Dakika %1$d</item>
+        <item quantity="many">Dakika %1$d</item>
+    </plurals>
+    <plurals name="duration_seconds">
+        <item quantity="other">Sekunde %1$d</item>
+        <item quantity="zero">Sekunde 0</item>
+        <item quantity="one">Sekunde 1</item>
+        <item quantity="two">Sekunde 2</item>
+        <item quantity="few">Sekunde %1$d</item>
+        <item quantity="many">Sekunde %1$d</item>
+    </plurals>
+    <plurals name="frequency_hours_component">
+        <item quantity="other">Saa %1$d</item>
+        <item quantity="one">Saa %1$d</item>
+    </plurals>
+    <plurals name="frequency_hours_only">
+        <item quantity="other">Baada ya kila saa %1$d</item>
+        <item quantity="one">Kila saa</item>
+    </plurals>
+    <plurals name="frequency_minutes_component">
+        <item quantity="other">Dakika %1$d</item>
+        <item quantity="one">Dakika %1$d</item>
+    </plurals>
+    <plurals name="frequency_minutes_only">
+        <item quantity="other">Baada ya kila dakika %1$d</item>
+        <item quantity="one">Kila dakika</item>
+    </plurals>
+    <plurals name="image_picker_title">
+        <item quantity="other">Umechagua %1$d</item>
+        <item quantity="one">Umechagua %1$d</item>
+    </plurals>
+    <plurals name="invalid_uploads_error_msg">
+        <item quantity="other">Faili moja au zaidi za video hazipatikani au si sahihi. Tafadhali jaribu tena au uchague faili zingine.</item>
+        <item quantity="one">Faili hii ya video haipatikani au si sahihi. Tafadhali jaribu tena au uchague faili nyingine.</item>
+    </plurals>
+    <plurals name="last_update_in_days_message">
+        <item quantity="other">Ilisasishwa siku %1$d zilizopita</item>
+        <item quantity="one">Ilisasishwa jana</item>
+    </plurals>
+    <plurals name="last_update_in_hours_message">
+        <item quantity="other">Imesasishwa saa %1$d zilizopita</item>
+        <item quantity="one">Imesasishwa saa %1$d iliyopita</item>
+    </plurals>
+    <plurals name="last_update_in_minutes_message">
+        <item quantity="other">Imesasishwa dakika %1$d zilizopita</item>
+        <item quantity="one">Imesasishwa dakika %1$d iliyopita</item>
+    </plurals>
+    <plurals name="last_update_in_weeks_message">
+        <item quantity="other">Ilisasishwa wiki %1$d zilizopita</item>
+        <item quantity="one">Ilisasishwa wiki %1$d iliyopita</item>
+    </plurals>
+    <plurals name="notification_playlist_progress_size">
+        <item quantity="other">Video %1$d kati ya %2$d</item>
+        <item quantity="one">Video 1 kati ya %1$d</item>
+    </plurals>
+    <plurals name="offline_go_online_to_renew_dialog_message">
+        <item quantity="other">Utaendelea kutazama video ulizopakua mradi uunganishe kifaa chako kwenye intaneti kila baada ya siku %1$d. Utaratibu huu hufanyika kiotomatiki na hausababishi video kupakuliwa tena.</item>
+        <item quantity="one">Utaendelea kutazama video ulizopakua mradi uunganishe kifaa chako kwenye intaneti kila siku. Utaratibu huu hufanyika kiotomatiki na hausababishi video kupakuliwa tena.</item>
+    </plurals>
+    <plurals name="offline_go_online_to_renew_snackbar_message">
+        <item quantity="other">Itaendelea kuhifadhi video ulizopakua kwa siku %1$d bila muunganisho wa intaneti.</item>
+        <item quantity="one">Itaendelea kuhifadhi video ulizopakua kwa siku 1 bila muunganisho wa intaneti.</item>
+    </plurals>
+    <plurals name="offline_remember_setting_for_days">
+        <item quantity="other">Kumbuka mipangilio yangu kwa siku %1$d</item>
+        <item quantity="one">Kumbuka mipangilio yangu kwa siku moja</item>
+    </plurals>
+    <plurals name="playlist_picker_dialog_done">
+        <item quantity="other">Orodha za kucheza zimesasishwa</item>
+        <item quantity="one">Orodha ya kucheza imesasishwa</item>
+    </plurals>
+    <plurals name="playlist_size">
+        <item quantity="other">Video %1$,d</item>
+        <item quantity="one">Video 1</item>
+    </plurals>
+    <plurals name="playlist_size_downloaded">
+        <item quantity="other">Umepakua video %1$,d</item>
+        <item quantity="one">Umepakua video %1$,d</item>
+    </plurals>
+    <plurals name="playlist_size_total">
+        <item quantity="other">Video %1$,d</item>
+        <item quantity="one">Video moja</item>
+    </plurals>
+    <plurals name="public_notification_text">
+        <item quantity="other">%1$d new notifications</item>
+        <item quantity="one">You have a notification</item>
+    </plurals>
+    <plurals name="quick_seek_x_second">
+        <item quantity="other">Sekunde %d</item>
+        <item quantity="one">Sekunde %d</item>
+    </plurals>
+    <plurals name="recommendation_count">
+        <item quantity="other">Mapendekezo %1$d</item>
+        <item quantity="one">Pendekezo 1</item>
+    </plurals>
+    <plurals name="rental_expiry_notice">
+        <item quantity="other">Ukikodi video hii, utakuwa na muda wa saa %1$d za kuitazama.</item>
+        <item quantity="one">Ukikodi video hii, utakuwa na muda wa saa moja wa kuitazama.</item>
+    </plurals>
+    <plurals name="rental_long_days_remaining">
+        <item quantity="other">Muda wake utaisha baada ya siku %1$d</item>
+        <item quantity="one">Muda wake utaisha baada ya siku moja</item>
+    </plurals>
+    <plurals name="rental_long_hours_remaining">
+        <item quantity="other">Muda wake utaisha baada ya saa %1$d</item>
+        <item quantity="one">Muda wake utaisha baada ya saa moja</item>
+    </plurals>
+    <plurals name="rental_long_weeks_remaining">
+        <item quantity="other">Muda wake utaisha baada ya wiki %1$d</item>
+        <item quantity="one">Muda wake utaisha baada ya wiki moja</item>
+    </plurals>
+    <plurals name="rental_medium_days_remaining">
+        <item quantity="other">Muda wake utaisha baada ya siku %1$d</item>
+        <item quantity="one">Muda wake utaisha baada ya siku 1</item>
+    </plurals>
+    <plurals name="rental_medium_hours_remaining">
+        <item quantity="other">Muda utaisha baada ya saa %1$d.</item>
+        <item quantity="one">Muda utaisha baada ya saa 1.</item>
+    </plurals>
+    <plurals name="rental_medium_weeks_remaining">
+        <item quantity="other">Muda utaisha baada ya wiki %1$d.</item>
+        <item quantity="one">Muda utaisha baada ya wiki 1.</item>
+    </plurals>
+    <plurals name="selected_video_count">
+        <item quantity="other">Umechagua video %1$d</item>
+        <item quantity="one">Umechagua video 1</item>
+    </plurals>
+    <plurals name="shorts_a11y_duration_seconds">
+        <item quantity="other">Sekunde %1$s</item>
+        <item quantity="one">Sekunde %1$s</item>
+    </plurals>
+    <plurals name="shorts_a11y_timer_duration_seconds">
+        <item quantity="other">Kipima muda cha sekunde %1$d</item>
+        <item quantity="one">Kipima muda cha sekunde %1$d</item>
+    </plurals>
+    <plurals name="shorts_a11y_timer_started">
+        <item quantity="other">Kipima muda cha sekunde %1$d kimewashwa</item>
+        <item quantity="one">Kipima muda cha sekunde %1$d kimewashwa</item>
+    </plurals>
+    <plurals name="smart_downloads_future_update_text">
+        <item quantity="other">Kipengele cha upakuaji wa kiotomatiki kitasasishwa kiotomatiki baada ya siku %1$d</item>
+        <item quantity="one">Kipengele cha upakuaji wa kiotomatiki kitasasishwa kiotomatiki baada ya siku moja</item>
+    </plurals>
+    <plurals name="sticker_dialog_title">
+        <item quantity="other">Rudi tena baada ya siku %1$d</item>
+        <item quantity="one">Rudi tena baada ya siku 1</item>
+    </plurals>
+    <plurals name="too_many_external_uploads_error_msg">
+        <item quantity="other">Unaruhusiwa kupakia video %1$d pekee kwa wakati mmoja.</item>
+        <item quantity="one">Unaruhusiwa kupakia video %1$d pekee kwa wakati mmoja.</item>
+    </plurals>
+    <plurals name="transcoding_progress">
+        <item quantity="other">Inatayarisha %1$,d%%</item>
+        <item quantity="one">Inatayarisha %1$,d%%</item>
+    </plurals>
+    <plurals name="trim_segment_max_length">
+        <item quantity="other">Usipitishe sekunde %1$d</item>
+        <item quantity="one">Usipitishe sekunde moja</item>
+    </plurals>
+    <plurals name="trim_switch_edu">
+        <item quantity="other">Punguza video yako iwe na urefu wa sekunde %1$d kisha uweke muziki</item>
+        <item quantity="one">Punguza video yako iwe na urefu wa sekunde moja kisha uweke muziki</item>
+    </plurals>
+    <plurals name="trim_switch_edu_full_length_shorts">
+        <item quantity="other">Punguza video yako iwe na urefu wa sekunde %1$d au chini</item>
+        <item quantity="one">Punguza video yako iwe na urefu wa sekunde moja au chini</item>
+    </plurals>
+    <plurals name="upload_hours_remaing">
+        <item quantity="other">Zimesalia takriban saa %1$,d</item>
+        <item quantity="one">Imesalia takribani saa %1$,d</item>
+    </plurals>
+    <plurals name="upload_indicator_all_completed">
+        <item quantity="other">Imepakia video %d</item>
+        <item quantity="one">Imepakia video</item>
+    </plurals>
+    <plurals name="upload_indicator_all_failed">
+        <item quantity="other">Imeshindwa kupakia video zako zozote</item>
+        <item quantity="one">Imeshindwa kupakia video yako</item>
+    </plurals>
+    <plurals name="upload_indicator_all_uploading">
+        <item quantity="other">Inapakia video %d</item>
+        <item quantity="one">Inapakia video</item>
+    </plurals>
+    <plurals name="upload_indicator_partial_fail">
+        <item quantity="other">Imeshindwa kupakia video %1$d kati ya %2$d</item>
+        <item quantity="one">Imeshindwa kupakia video %1$d kati ya %2$d</item>
+    </plurals>
+    <plurals name="upload_indicator_uploading_and_completed_completed_part">
+        <item quantity="other">Imepakia %d</item>
+        <item quantity="one">Imepakia %d</item>
+    </plurals>
+    <plurals name="upload_indicator_uploading_and_completed_uploading_part">
+        <item quantity="other">%d bado zinapakiwa</item>
+        <item quantity="one">%d bado inapakiwa</item>
+    </plurals>
+    <plurals name="upload_minutes_remaing">
+        <item quantity="other">Zimesalia takribani dakika %1$,d</item>
+        <item quantity="one">Imesalia takribani dakika %1$,d</item>
+    </plurals>
+    <plurals name="upload_notification_active_progress">
+        <item quantity="other">Inapakia video %1$d kati ya %2$d</item>
+        <item quantity="one">Inapakia video 1</item>
+    </plurals>
+    <plurals name="upload_progress">
+        <item quantity="other">Imepakia %1$,d%%</item>
+        <item quantity="one">Imepakia %1$,d%%</item>
+    </plurals>
+    <plurals name="upload_seconds_remaing">
+        <item quantity="other">Zimesalia takribani sekunde %1$,d</item>
+        <item quantity="one">Imesalia takribani sekunde %1$,d</item>
+    </plurals>
+    <plurals name="uploads_failed">
+        <item quantity="other">Imeshindwa kupakia video %1$,d</item>
+        <item quantity="one">Imeshindwa kupakia video</item>
+    </plurals>
+    <plurals name="uploads_failed_with_in_progress_videos">
+        <item quantity="other">Imeshindwa kupakia video %1$,d kati ya %2$,d</item>
+        <item quantity="one">Imeshindwa kupakia video %1$,d kati ya %2$,d</item>
+    </plurals>
+    <plurals name="uploads_in_progress">
+        <item quantity="other">%1$,d zinapakiwa</item>
+        <item quantity="one">%1$,d inapakiwa</item>
+    </plurals>
+    <plurals name="user_education_quick_seek">
+        <item quantity="other">Gusa mara mbili kulia au kushoto ili uruke sekunde %d</item>
+        <item quantity="one">Gusa mara mbili kulia au kushoto ili uruke sekunde %d</item>
+    </plurals>
+    <plurals name="video_count">
+        <item quantity="other">Video %1$d</item>
+        <item quantity="one">Video 1</item>
+    </plurals>
+</resources>

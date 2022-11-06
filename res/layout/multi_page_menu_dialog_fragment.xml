@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="?ytBrandBackgroundSolid" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:yt="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/toolbar" layout="@layout/tool_bar" />
+    <android.support.v7.widget.RecyclerView android:id="@id/list" android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" android:overScrollMode="never" />
+    <LinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:id="@id/privacy_tos_footer" android:background="?ytBrandBackgroundSolid" android:paddingTop="8.0dip" android:paddingBottom="8.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.google.android.libraries.youtube.common.ui.YouTubeButton android:textSize="@dimen/extra_small_font_size" android:textColor="?ytTextSecondary" android:id="@id/privacy_footer" android:layout_width="wrap_content" android:layout_height="fill_parent" yt:robotoFont="medium" />
+        <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:textSize="@dimen/extra_small_font_size" android:textColor="?ytTextSecondary" android:id="@id/privacy_tos_dot" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/splitter_dot" yt:robotoFont="medium" />
+        <com.google.android.libraries.youtube.common.ui.YouTubeButton android:textSize="@dimen/extra_small_font_size" android:textColor="?ytTextSecondary" android:id="@id/tos_footer" android:layout_width="wrap_content" android:layout_height="fill_parent" yt:robotoFont="medium" />
+    </LinearLayout>
+    <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:textSize="@dimen/extra_small_font_size" android:textColor="?ytTextSecondary" android:gravity="center_horizontal" android:id="@id/lugash_footer" android:background="?ytBrandBackgroundSolid" android:paddingBottom="8.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" yt:robotoFont="regular" />
+</LinearLayout>

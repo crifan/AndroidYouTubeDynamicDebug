@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="grid_shelf_num_columns">4</integer>
+    <integer name="horizontal_shelf_num_columns">4</integer>
+    <integer name="horizontal_shelf_num_columns_linear_grid_feed_tablet_prominent">3</integer>
+    <integer name="lc_post_stream_content_layout_weight">0</integer>
+    <item type="integer" name="lc_post_stream_orientation">@integer/orientation_vertical</item>
+    <integer name="lc_post_stream_stat_column_count">3</integer>
+    <item type="integer" name="lc_post_stream_thumbnail_container_height">@integer/layout_wrap_content</item>
+    <integer name="watch_card_related_entities_count">5</integer>
+</resources>

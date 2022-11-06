@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <SeekBar android:id="@id/play_progress_bar" android:paddingLeft="@dimen/camera_music_play_progress_margin" android:paddingRight="@dimen/camera_music_play_progress_margin" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxHeight="@dimen/camera_music_progress_bar_max_height" android:progressDrawable="@drawable/shorts_music_progress_bar" android:thumb="@drawable/shorts_music_progress_bar_thumb" android:contentDescription="@string/scrub_seek_bar_short" android:layoutDirection="ltr" android:paddingHorizontal="@dimen/camera_music_play_progress_margin" style="@android:style/Widget.ProgressBar.Horizontal" />
+</FrameLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.libraries.video.preview.VideoWithPreviewView android:layout_gravity="center" android:id="@id/video_view" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ProgressBar android:layout_gravity="center" android:id="@id/video_loading_indicator" android:visibility="gone" android:layout_width="@dimen/reel_edit_loading_indicator_width" android:layout_height="@dimen/reel_edit_loading_indicator_height" />
+        <ProgressBar android:layout_gravity="center" android:id="@id/effect_pending_indicator" android:visibility="gone" android:layout_width="@dimen/reel_edit_loading_indicator_width" android:layout_height="@dimen/reel_edit_loading_indicator_height" />
+    </com.google.android.libraries.video.preview.VideoWithPreviewView>
+</merge>

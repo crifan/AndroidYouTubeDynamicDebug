@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/set_bar" android:background="?ytStaticDarkBackground1" android:layout_width="fill_parent" android:layout_height="@dimen/watch_panel_playlist_header_height"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:yt="http://schemas.android.com/apk/res-auto">
+    <View android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_alignParentTop="true" />
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginStart="16.0dip" android:layout_toStartOf="@id/set_expand_button" android:layout_alignParentStart="true">
+        <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:textSize="@dimen/medium_font_size" android:textColor="?ytStaticWhite" android:ellipsize="end" android:id="@id/set_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" android:textAlignment="viewStart" yt:robotoFont="regular" />
+        <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:textSize="@dimen/extra_small_font_size" android:textColor="#ff999999" android:ellipsize="end" android:id="@id/set_subtitle" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" android:textAlignment="viewStart" yt:robotoFont="regular" />
+    </LinearLayout>
+    <ImageView android:id="@id/set_expand_button" android:layout_width="48.0dip" android:layout_height="48.0dip" android:src="@drawable/yt_outline_chevron_down_white_24" android:scaleType="center" android:layout_centerVertical="true" android:contentDescription="@string/load_more_label" android:layout_alignParentEnd="true" />
+</RelativeLayout>

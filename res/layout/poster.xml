@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.libraries.youtube.common.ui.FixedAspectRatioFrameLayout android:theme="@style/LightRippleColorHighlight" android:clickable="true" android:layout_width="@dimen/poster_art_width_default" android:layout_height="wrap_content" android:foreground="?selectableItemBackground" yt:aspectRatio="@fraction/poster_aspect_ratio"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:yt="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/poster_image" android:background="@drawable/bg_video_thumb" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" android:contentDescription="@null" />
+</com.google.android.libraries.youtube.common.ui.FixedAspectRatioFrameLayout>

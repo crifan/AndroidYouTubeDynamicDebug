@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="16.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:id="@id/title" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/Mdx.PrefsTitle" />
+        <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:id="@id/subtitle" android:paddingTop="2.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/mdx_pref_pair_with_tv_watching_on_summary" style="@style/Mdx.PrefsSummary" />
+    </LinearLayout>
+    <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:layout_gravity="center_vertical" android:id="@id/action" style="@style/Mdx.PrefsAction" />
+    <ProgressBar android:layout_gravity="center_vertical" android:id="@id/progress" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="16.0dip" style="@style/Mdx.ProgressSmall" />
+</LinearLayout>

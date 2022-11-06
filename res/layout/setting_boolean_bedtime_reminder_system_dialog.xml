@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingTop="10.0dip" android:paddingBottom="18.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:baselineAligned="false" android:minWidth="300.0dip" android:paddingStart="16.0dip" android:paddingEnd="16.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:yt="http://schemas.android.com/apk/res-auto">
+    <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:textSize="20.0sp" android:textColor="?android:textColorPrimary" android:id="@id/dialog_title" android:padding="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:textAlignment="viewStart" yt:robotoFont="medium" />
+    <RadioGroup android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <RadioButton android:id="@id/use_system_schedule" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:text="@string/bedtime_use_system_schedule_button" android:paddingStart="4.0dip" yt:robotoFont="medium" style="?ytTextStyleTitle2" />
+        <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:textSize="12.0sp" android:textColor="?ytCallToAction" android:id="@id/manage_phone_settings" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/manage_phone_settings_link" android:paddingStart="36.0dip" style="?ytTextStyleLabel" />
+        <RadioButton android:id="@id/use_custom_schedule" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:text="@string/bedtime_use_custom_schedule_button" android:paddingStart="4.0dip" yt:robotoFont="medium" style="?ytTextStyleTitle2" />
+        <com.google.android.apps.youtube.app.settings.presenter.TimeRangeView android:orientation="vertical" android:id="@id/time_range" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="28.0dip" />
+    </RadioGroup>
+    <View android:id="@id/dialog_divider" android:background="?ytSeparator" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginTop="8.0dip" android:layout_marginBottom="8.0dip" />
+    <CheckBox android:id="@id/checkbox" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textAlignment="viewStart" android:layout_marginStart="4.0dip" android:layout_marginEnd="4.0dip" />
+</LinearLayout>

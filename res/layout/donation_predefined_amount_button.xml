@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RadioButton android:textColor="?blueRadioButtonTextColor" android:gravity="center" android:background="?blueRadioButtonBackground" android:focusable="true" android:clickable="true" android:layout_width="@dimen/donation_predefined_amount_button_width" android:layout_height="@dimen/donation_predefined_amount_button_height" android:button="@android:color/transparent" android:layout_weight="1.0" android:layout_marginStart="8.0dip" android:layout_marginEnd="8.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

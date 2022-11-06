@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="?ytBrandBackgroundSolid" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/share_panel_bottom_sheet_shadow_negative_height" android:elevation="8.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/message_input_shadow" android:background="?ytStaticWhite" android:layout_width="wrap_content" android:layout_height="@dimen/share_panel_bottom_sheet_shadow_height" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:paddingTop="4.0dip" android:paddingBottom="4.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/share_panel_bottom_sheet_shadow_height" android:paddingStart="16.0dip" android:paddingEnd="16.0dip">
+        <com.google.android.libraries.youtube.common.ui.CircularImageView android:id="@id/sharer_thumbnail" android:layout_width="@dimen/share_panel_sharer_thumbnail_size" android:layout_height="@dimen/share_panel_sharer_thumbnail_size" android:layout_marginEnd="@dimen/share_panel_section_padding" />
+        <EditText android:textSize="@dimen/medium_font_size" android:typeface="sans" android:textColor="?ytTextPrimary" android:textColorHint="?ytTextSecondary" android:gravity="start|center|top" android:id="@id/message_input" android:background="@android:color/transparent" android:layout_width="0.0dip" android:layout_height="wrap_content" android:scrollHorizontally="false" android:layout_weight="1.0" android:inputType="textCapSentences|textMultiLine|textShortMessage" android:imeOptions="actionDone" />
+        <ImageView android:layout_gravity="top" android:id="@id/inline_send_button" android:layout_width="48.0dip" android:layout_height="48.0dip" android:scaleType="center" android:contentDescription="@string/accessibility_send_button" android:layout_marginStart="24.0dip" />
+    </LinearLayout>
+</FrameLayout>

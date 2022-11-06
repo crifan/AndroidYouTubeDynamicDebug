@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:paddingLeft="@dimen/default_content_padding" android:paddingRight="@dimen/default_content_padding" android:layout_width="fill_parent" android:layout_height="@dimen/bottom_sheet_list_item_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center_vertical" android:id="@id/list_item_icon_primary" android:layout_width="@dimen/bottom_sheet_list_icon_size" android:layout_height="@dimen/bottom_sheet_list_icon_size" android:layout_centerVertical="true" android:contentDescription="@null" android:layout_alignParentStart="true" />
+    <TextView android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/list_item_text" android:layout_width="wrap_content" android:layout_height="@dimen/bottom_sheet_list_item_height" android:layout_centerVertical="true" android:textAlignment="viewStart" android:paddingStart="@dimen/bottom_sheet_list_text_padding" android:layout_marginStart="@dimen/bottom_sheet_list_icon_size" style="@style/BottomSheetListText" />
+    <ImageView android:layout_gravity="center_vertical" android:id="@id/list_item_icon_secondary" android:layout_width="@dimen/bottom_sheet_list_icon_size" android:layout_height="@dimen/bottom_sheet_list_icon_size" android:layout_centerVertical="true" android:contentDescription="@null" android:layout_toEndOf="@id/list_item_text" />
+</RelativeLayout>

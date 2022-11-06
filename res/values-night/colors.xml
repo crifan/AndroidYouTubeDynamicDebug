@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="google_daynight_default_color_primary_text">@color/google_dark_default_color_primary_text</color>
+    <color name="google_daynight_default_color_secondary_text">@color/google_dark_default_color_secondary_text</color>
+    <color name="material_google_red_500">#ffee675c</color>
+    <color name="material_grey_white_1000">#ff202124</color>
+    <color name="play_protect_auth_accent_color">#ff34a853</color>
+    <color name="play_protect_auth_content_color">#ffe8eaed</color>
+    <color name="play_protect_auth_title_color">#ffe8eaed</color>
+    <color name="survey_smiley">@color/yt_light_blue</color>
+</resources>

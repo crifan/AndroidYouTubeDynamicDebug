@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:baselineAligned="false" android:weightSum="2.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/participant_pre_join_container" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <ImageButton android:id="@id/close_button" android:background="@drawable/lc_circle_background" android:layout_width="@dimen/lc_24dp_image_button_container_size" android:layout_height="@dimen/lc_24dp_image_button_container_size" android:layout_margin="@dimen/lc_pre_stream_button_padding" android:layout_alignParentRight="true" android:contentDescription="@string/abc_action_bar_up_description" />
+        <ImageButton android:id="@id/switch_camera_button" android:background="@drawable/lc_circle_background" android:layout_width="@dimen/lc_24dp_image_button_container_size" android:layout_height="@dimen/lc_24dp_image_button_container_size" android:layout_margin="@dimen/lc_pre_stream_button_padding" android:layout_alignParentLeft="true" android:contentDescription="@string/lc_switch_camera_cd" />
+    </RelativeLayout>
+    <FrameLayout android:id="@id/pre_join_panel" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+</LinearLayout>

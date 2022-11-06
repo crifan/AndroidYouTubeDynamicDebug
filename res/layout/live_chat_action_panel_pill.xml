@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:background="?liveChatActionPillBackground" android:paddingTop="@dimen/live_chat_action_pill_padding_vertical" android:paddingBottom="@dimen/live_chat_action_pill_padding_vertical" android:focusable="true" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="@dimen/live_chat_action_pill_padding_start" android:paddingEnd="@dimen/live_chat_action_pill_padding_end"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:textColor="?ytTextSecondary" android:id="@id/pill_label" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <ImageView android:id="@id/pill_icon" android:layout_width="@dimen/live_chat_action_pill_icon_size" android:layout_height="@dimen/live_chat_action_pill_icon_size" android:tint="?ytIconInactive" android:layout_marginStart="@dimen/live_chat_action_pill_margin_start" />
+</LinearLayout>

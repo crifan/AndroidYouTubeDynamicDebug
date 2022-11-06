@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="?backgroundPrimary" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:yt="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/loading_frame" android:layout_width="@dimen/remote_watch_dialog_width" android:layout_height="@dimen/remote_watch_dialog_height_no_metadata" android:layout_margin="15.0dip">
+        <ProgressBar android:layout_gravity="center" android:id="@id/loading" android:layout_width="25.0dip" android:layout_height="25.0dip" android:indeterminate="true" />
+    </FrameLayout>
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/error" android:background="?ytBrandBackgroundSolid" android:padding="10.0dip" android:visibility="gone" android:layout_width="@dimen/remote_watch_dialog_width" android:layout_height="@dimen/remote_watch_dialog_height_no_metadata" android:layout_margin="15.0dip">
+        <LinearLayout android:layout_gravity="center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/alert_error" android:paddingStart="5.0dip" android:paddingEnd="15.0dip" />
+            <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:textSize="@dimen/large_font_size" android:textColor="?ytTextPrimary" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:text="@string/error_generic" yt:robotoFont="light" />
+        </LinearLayout>
+        <Button android:gravity="center" android:id="@id/retry" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="10.0dip" android:text="@string/yt_lib_common_retry" />
+    </LinearLayout>
+    <RelativeLayout android:id="@id/content" android:background="?ytBrandBackgroundSolid" android:visibility="gone" android:layout_width="@dimen/remote_watch_dialog_width" android:layout_height="@dimen/remote_watch_dialog_height_no_metadata" android:layout_margin="15.0dip">
+        <com.google.android.libraries.youtube.common.ui.FixedAspectRatioFrameLayout android:id="@id/thumbnail_layout" android:background="@drawable/bg_video_thumb" android:layout_width="fill_parent" android:layout_height="wrap_content" yt:aspectRatio="@fraction/remote_watch_thumbnail_aspect_ratio">
+            <ImageView android:id="@id/thumbnail" android:background="@color/darker_transparent" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" android:tint="@color/darker_transparent" />
+            <LinearLayout android:layout_gravity="center" android:orientation="horizontal" android:id="@id/remote_actions" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignBottom="@id/thumbnail_layout">
+                <LinearLayout android:id="@id/play" style="@style/RemoteWatchDialogActionsLinearLayoutStyle">
+                    <ImageView android:layout_gravity="center" android:id="@id/play_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/yt_fill_play_arrow_white_48" />
+                    <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:id="@id/play_text" android:text="@string/play_on_screen" yt:robotoFont="light" style="@style/RemoteWatchDialogTextViewStyle" />
+                </LinearLayout>
+                <LinearLayout android:id="@id/queue" style="@style/RemoteWatchDialogActionsLinearLayoutStyle">
+                    <ImageView android:layout_gravity="center" android:id="@id/queue_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/yt_outline_tv_queue_white_48" />
+                    <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:text="@string/screen_queue" yt:robotoFont="light" style="@style/RemoteWatchDialogTextViewStyle" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/connecting" android:background="@color/darker_transparent" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_alignBottom="@id/thumbnail_layout">
+                <ProgressBar android:id="@id/progressbar" android:layout_width="25.0dip" android:layout_height="25.0dip" android:layout_margin="5.0dip" />
+                <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:textSize="@dimen/medium_font_size" android:textColor="@color/yt_white1" android:gravity="center_horizontal" android:id="@id/connecting_textview" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minHeight="@dimen/medium_font_size" android:text="@string/connecting" android:paddingStart="15.0dip" android:paddingEnd="15.0dip" yt:robotoFont="light" />
+            </LinearLayout>
+        </com.google.android.libraries.youtube.common.ui.FixedAspectRatioFrameLayout>
+    </RelativeLayout>
+</FrameLayout>

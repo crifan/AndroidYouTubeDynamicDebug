@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:layout_width="@dimen/reel_player_pivot_width" android:layout_height="@dimen/reel_player_pivot_height" android:layout_marginBottom="@dimen/reel_player_pivot_horizontal_margin_bottom" android:layout_marginEnd="@dimen/reel_player_pivot_margin_end" android:layout_alignParentEnd="true" layout="@layout/reel_player_pivot_button" />
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/reel_dyn_bottom_bar" android:layout_width="fill_parent" android:layout_height="@dimen/reel_player_dyn_footer_height" android:layout_below="@id/reel_pivot_button" android:layout_marginStart="@dimen/reel_player_dyn_footer_outer_padding_horiz" android:layout_marginEnd="@dimen/reel_player_dyn_footer_outer_padding_horiz" />
+</RelativeLayout>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ViewSwitcher android:layout_width="fill_parent" android:layout_height="fill_parent" android:measureAllChildren="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ProgressBar android:layout_gravity="center" android:id="@id/progress_spinner" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/conversation_bottom_sheet_spinner_margin" android:layout_marginBottom="@dimen/conversation_bottom_sheet_spinner_margin" style="@style/ConversationLargeProgressBar" />
+</ViewSwitcher>

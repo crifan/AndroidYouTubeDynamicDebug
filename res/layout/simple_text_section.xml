@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout android:paddingTop="@dimen/simple_text_section_padding_top_default" android:paddingBottom="@dimen/simple_text_section_padding_bottom_default" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/simple_text_section_padding_start_default" android:paddingEnd="@dimen/simple_text_section_padding_end_default"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:yt="http://schemas.android.com/apk/res-auto">
+    <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:textAppearance="@style/TextAppearance.YouTube.Subhead" android:textColor="?android:textColorPrimary" android:textColorLink="?ytStaticBlue" android:gravity="start" android:id="@id/title" android:layout_width="fill_parent" android:layout_height="fill_parent" yt:hyperlinksClickable="true" yt:layout_constraintEnd_toEndOf="parent" yt:layout_constraintStart_toStartOf="parent" yt:layout_constraintWidth_max="0.0dip" yt:robotoFont="regular" />
+</android.support.constraint.ConstraintLayout>

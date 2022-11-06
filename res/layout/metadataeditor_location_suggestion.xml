@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Button android:textAppearance="?android:textAppearanceSmall" android:textSize="@dimen/metadataeditor_location_suggestion_button_text_size" android:textColor="@drawable/metadataeditor_curved_button_text" android:background="@drawable/metadataeditor_curved_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minHeight="@dimen/metadataeditor_location_suggestion_height" android:textAllCaps="false" android:paddingStart="@dimen/metadataeditor_location_suggestion_horizontal_padding" android:paddingEnd="@dimen/metadataeditor_location_suggestion_horizontal_padding"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

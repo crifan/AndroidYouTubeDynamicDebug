@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_gravity="bottom" android:id="@id/reel_edit_video_trim_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/reel_edit_video_trim_height" android:translationY="@dimen/reel_edit_video_trim_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.libraries.video.trim.VideoTrimView android:id="@id/reel_edit_video_trim_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true" android:layout_alignParentStart="true" />
+    <Button android:textColor="@color/yt_white1" android:id="@id/reel_edit_video_trim_done_button" android:background="@color/yt_black_pure" android:layout_width="fill_parent" android:layout_height="@dimen/reel_edit_video_trim_done_button_height" android:foreground="?selectableItemBackground" android:text="@string/reel_edit_video_trim_done_button_text" android:layout_below="@id/reel_edit_video_trim_view" android:layout_alignParentBottom="true" android:layout_alignParentStart="true" style="?android:buttonBarButtonStyle" />
+</RelativeLayout>

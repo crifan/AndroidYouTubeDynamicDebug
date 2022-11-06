@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:id="@id/reel_comment_coordinator_layout" android:background="@color/yt_white1" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:yt="http://schemas.android.com/apk/res-auto">
+    <com.google.android.libraries.youtube.rendering.ui.widget.loadingframe.LoadingFrameLayout android:id="@id/reel_comment_loading_preview" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.google.android.apps.youtube.app.common.ui.stickyheaders.StickyHeaderContainer android:id="@id/sticky_header_container" android:layout_width="fill_parent" android:layout_height="fill_parent" yt:stickyHeaderRecyclerView="@layout/reel_comment_view_list" />
+    </com.google.android.libraries.youtube.rendering.ui.widget.loadingframe.LoadingFrameLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.cardboard.sdk.qrcode.camera.CameraSourcePreview android:id="@id/preview" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_alignParentTop="true" android:layout_alignParentStart="true" />
+    <RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:id="@id/footer" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+            <LinearLayout android:orientation="horizontal" android:background="@color/footer_light_grey" android:paddingLeft="24.0dip" android:paddingTop="32.0dip" android:paddingRight="24.0dip" android:paddingBottom="32.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <ImageView android:layout_width="64.0dip" android:layout_height="64.0dip" android:src="@drawable/qr_sample" android:layout_weight="0.0" />
+                <TextView android:textColor="#de000000" android:paddingLeft="24.0dip" android:paddingTop="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/reading_qr_code_instructions" android:lineSpacingExtra="4.0dip" style="@style/text_16sp_sans_serif" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:background="@color/footer_medium_grey" android:layout_width="fill_parent" android:layout_height="56.0dip">
+                <View android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_weight="1.0" />
+                <TextView android:textColor="@color/darker_gray" android:gravity="center_vertical" android:paddingLeft="20.0dip" android:paddingRight="20.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/cannot_find_symbol" style="@style/text_14sp_sans_serif_medium" />
+                <View android:background="#1f000000" android:layout_width="1.0dip" android:layout_marginTop="10.0dip" android:layout_marginBottom="10.0dip" style="@style/vertical_divider" />
+                <TextView android:textColor="@color/darker_gray" android:gravity="center_vertical" android:id="@id/skip" android:background="?android:selectableItemBackground" android:paddingLeft="20.0dip" android:paddingRight="20.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/skip_scanning" android:onClick="skipQrCodeCapture" style="@style/text_14sp_sans_serif_medium" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/footer">
+            <ImageView android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/tick_marks" />
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

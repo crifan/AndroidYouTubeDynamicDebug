@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="false">
+        <shape android:shape="rectangle">
+            <corners android:radius="@dimen/metadataeditor_location_suggestion_button_corner_radius" />
+            <solid android:color="?metadataeditor_location_suggestion_background_color" />
+            <stroke android:width="?metadataeditor_location_suggestion_stroke_width" android:color="?metadataeditor_location_suggestion_stroke_color" />
+        </shape>
+    </item>
+    <item android:state_pressed="true">
+        <shape android:shape="rectangle">
+            <corners android:radius="@dimen/metadataeditor_location_suggestion_button_corner_radius" />
+            <solid android:color="?metadataeditor_location_suggestion_stroke_color" />
+            <stroke android:width="?metadataeditor_location_suggestion_stroke_width" android:color="?metadataeditor_location_suggestion_stroke_color" />
+        </shape>
+    </item>
+</selector>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageButton android:id="@id/back_button" android:background="?selectableItemBackgroundBorderless" android:layout_width="@dimen/edit_image_button_24dp_container_size" android:layout_height="@dimen/edit_image_button_24dp_container_size" android:layout_marginTop="@dimen/edit_image_button_24dp_margin" android:layout_marginBottom="@dimen/edit_image_button_24dp_margin" android:src="@drawable/quantum_ic_arrow_back_white_24" android:contentDescription="@string/abc_action_bar_up_description" android:layout_marginStart="@dimen/edit_image_button_24dp_margin" android:layout_marginEnd="@dimen/edit_location_search_back_icon_margin_end" />
+        <EditText android:textAppearance="?android:textAppearanceLarge" android:id="@id/input_text" android:background="@android:color/transparent" android:layout_width="0.0dip" android:layout_height="wrap_content" android:hint="@string/lc_game_title_search_hint" android:maxLines="1" android:layout_weight="1.0" android:inputType="textFilter" android:imeOptions="flagNoExtractUi" />
+        <ImageButton android:id="@id/reset_input_button" android:background="?selectableItemBackgroundBorderless" android:visibility="gone" android:layout_width="@dimen/edit_image_button_24dp_container_size" android:layout_height="@dimen/edit_image_button_24dp_container_size" android:layout_margin="@dimen/edit_image_button_24dp_margin" android:src="@drawable/quantum_ic_clear_white_24" android:contentDescription="@string/abc_searchview_description_clear" />
+    </LinearLayout>
+    <View android:background="?ytSeparator" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    <android.support.v7.widget.RecyclerView android:id="@id/game_title_results" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginStart="48.0dip" android:layout_marginEnd="48.0dip" />
+</LinearLayout>

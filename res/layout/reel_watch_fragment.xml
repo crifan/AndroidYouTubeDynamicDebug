@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/reel_watch_fragment_root" android:background="@color/reel_player_background" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.apps.youtube.app.extensions.reel.watch.player.ReelPlayerView android:layout_gravity="center_horizontal" android:id="@id/reel_watch_player" android:layout_width="fill_parent" android:layout_height="fill_parent" android:importantForAccessibility="no" />
+    <com.google.android.apps.youtube.app.extensions.reel.watch.fragment.ReelRecyclerView android:layout_gravity="center_horizontal" android:id="@id/reel_recycler" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layoutDirection="ltr" />
+    <View android:id="@id/reel_recycler_touch_capture" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <FrameLayout android:layout_gravity="center" android:id="@id/reel_player_edu_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.google.android.apps.youtube.app.common.ui.bottomui.BottomUiContainer android:layout_gravity="bottom|center" android:id="@id/bottom_ui_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</FrameLayout>

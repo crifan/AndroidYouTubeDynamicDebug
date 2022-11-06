@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="accessibility_dislike_video_plural">
+        <item quantity="other">Laaik Nie-knoppie, %1$d ander laaik nie hierdie video nie</item>
+        <item quantity="one">Laaik Nie-knoppie, %1$d ander laaik nie hierdie video nie</item>
+    </plurals>
+    <plurals name="accessibility_dtts_fast_forward">
+        <item quantity="other">Gaan %1$d sekondes vinnig vorentoe</item>
+        <item quantity="one">Gaan %1$d sekonde vinnig vorentoe</item>
+    </plurals>
+    <plurals name="accessibility_dtts_rewind">
+        <item quantity="other">Gaan %1$d sekondes terug</item>
+        <item quantity="one">Gaan %1$d sekonde terug</item>
+    </plurals>
+    <plurals name="accessibility_duration_description_hours">
+        <item quantity="other">%d uur</item>
+        <item quantity="one">%d uur</item>
+    </plurals>
+    <plurals name="accessibility_duration_description_minutes">
+        <item quantity="other">%d minute</item>
+        <item quantity="one">%d minuut</item>
+    </plurals>
+    <plurals name="accessibility_duration_description_seconds">
+        <item quantity="other">%d sekondes</item>
+        <item quantity="one">%d sekonde</item>
+    </plurals>
+    <plurals name="accessibility_like_video_plural">
+        <item quantity="other">Laaik-knoppie, %1$d ander het hierdie video gelaaik</item>
+        <item quantity="one">Laaik-knoppie, %1$d ander het hierdie video gelaaik</item>
+    </plurals>
+    <plurals name="accessibility_skip_ad_in">
+        <item quantity="other">Slaan advertensie oor %1$d sekondes oor</item>
+        <item quantity="one">Slaan advertensie oor 1 sekonde oor</item>
+    </plurals>
+    <plurals name="accessibility_undo_dislike_video_plural">
+        <item quantity="other">Ontdoen Laaik Nie-knoppie, %1$d ander laaik nie hierdie video nie</item>
+        <item quantity="one">Ontdoen Laaik Nie-knoppie, %1$d ander laaik nie hierdie video nie</item>
+    </plurals>
+    <plurals name="accessibility_undo_like_video_plural">
+        <item quantity="other">Ontdoen Laaik-knoppie, %1$d ander het hierdie video gelaaik</item>
+        <item quantity="one">Ontdoen Laaik-knoppie, %1$d ander het hierdie video gelaaik</item>
+    </plurals>
+    <plurals name="download_new_videos_button_text">
+        <item quantity="other">"Laai %1$d nuwe video's af"</item>
+        <item quantity="one">Laai %1$d nuwe video af</item>
+    </plurals>
+    <plurals name="download_playlist_unplayable_future_days_plural">
+        <item quantity="other">"Party video's benodig Premium oor %1$d dae"</item>
+        <item quantity="one">"Party video's benodig Premium oor %1$d dag"</item>
+    </plurals>
+    <plurals name="download_playlist_unplayable_future_hours_plural">
+        <item quantity="other">"Party video's benodig Premium oor %1$d ure"</item>
+        <item quantity="one">"Party video's benodig Premium oor %1$d uur"</item>
+    </plurals>
+    <plurals name="download_playlist_unplayable_future_minutes_plural">
+        <item quantity="other">"Party video's benodig Premium oor %1$d minute"</item>
+        <item quantity="one">"Party video's benodig Premium oor %1$d minuut"</item>
+    </plurals>
+    <plurals name="download_video_unplayable_future_days_plural">
+        <item quantity="other">Benodig Premium oor %1$d dae</item>
+        <item quantity="one">Benodig Premium oor %1$d dag</item>
+    </plurals>
+    <plurals name="download_video_unplayable_future_hours_plural">
+        <item quantity="other">Benodig Premium oor %1$d ure</item>
+        <item quantity="one">Benodig Premium oor %1$d uur</item>
+    </plurals>
+    <plurals name="download_video_unplayable_future_minutes_plural">
+        <item quantity="other">Benodig Premium oor %1$d minute</item>
+        <item quantity="one">Benodig Premium oor %1$d minuut</item>
+    </plurals>
+    <plurals name="duration_minutes">
+        <item quantity="other">%1$d minute</item>
+        <item quantity="zero">0 minute</item>
+        <item quantity="one">1 minuut</item>
+        <item quantity="two">2 minute</item>
+        <item quantity="few">%1$d minute</item>
+        <item quantity="many">%1$d minute</item>
+    </plurals>
+    <plurals name="duration_seconds">
+        <item quantity="other">%1$d sekondes</item>
+        <item quantity="zero">0 sekondes</item>
+        <item quantity="one">1 sekonde</item>
+        <item quantity="two">2 sekondes</item>
+        <item quantity="few">%1$d sekondes</item>
+        <item quantity="many">%1$d sekondes</item>
+    </plurals>
+    <plurals name="frequency_hours_component">
+        <item quantity="other">%1$d uur</item>
+        <item quantity="one">%1$d uur</item>
+    </plurals>
+    <plurals name="frequency_hours_only">
+        <item quantity="other">Elke %1$d uur</item>
+        <item quantity="one">Elke uur</item>
+    </plurals>
+    <plurals name="frequency_minutes_component">
+        <item quantity="other">%1$d minute</item>
+        <item quantity="one">%1$d minuut</item>
+    </plurals>
+    <plurals name="frequency_minutes_only">
+        <item quantity="other">Elke %1$d minute</item>
+        <item quantity="one">Elke minuut</item>
+    </plurals>
+    <plurals name="image_picker_title">
+        <item quantity="other">%1$d is gekies</item>
+        <item quantity="one">%1$d is gekies</item>
+    </plurals>
+    <plurals name="invalid_uploads_error_msg">
+        <item quantity="other">Een of meer videolêers is onbeskikbaar of ongeldig. Probeer asseblief weer of kies ander.</item>
+        <item quantity="one">"Hierdie videolêer is onbeskikbaar of ongeldig. Probeer asseblief weer of kies 'n ander een."</item>
+    </plurals>
+    <plurals name="last_update_in_days_message">
+        <item quantity="other">%1$d dae gelede opgedateer</item>
+        <item quantity="one">Gister opgedateer</item>
+    </plurals>
+    <plurals name="last_update_in_hours_message">
+        <item quantity="other">%1$d uur gelede opgedateer</item>
+        <item quantity="one">%1$d uur gelede opgedateer</item>
+    </plurals>
+    <plurals name="last_update_in_minutes_message">
+        <item quantity="other">%1$d minute gelede opgedateer</item>
+        <item quantity="one">%1$d minuut gelede opgedateer</item>
+    </plurals>
+    <plurals name="last_update_in_weeks_message">
+        <item quantity="other">%1$d weke gelede opgedateer</item>
+        <item quantity="one">%1$d week gelede opgedateer</item>
+    </plurals>
+    <plurals name="notification_playlist_progress_size">
+        <item quantity="other">"%1$d van %2$d video's"</item>
+        <item quantity="one">%1$d van 1 video</item>
+    </plurals>
+    <plurals name="offline_go_online_to_renew_dialog_message">
+        <item quantity="other">"Aflaaie bly beskikbaar solank as wat jou toestel elke %1$d dae 'n internetverbinding het. Hierdie proses gebeur outomaties en laai nie die video weer af nie."</item>
+        <item quantity="one">"Aflaaie bly beskikbaar solank as wat jou toestel elke dag 'n internetverbinding het. Hierdie proses gebeur outomaties en laai nie die video weer af nie."</item>
+    </plurals>
+    <plurals name="offline_go_online_to_renew_snackbar_message">
+        <item quantity="other">"Aflaaie bly vir %1$d dae sonder 'n internetverbinding beskikbaar."</item>
+        <item quantity="one">"Aflaaie bly vir 1 dag sonder 'n internetverbinding beskikbaar."</item>
+    </plurals>
+    <plurals name="offline_remember_setting_for_days">
+        <item quantity="other">Onthou my instellings vir %1$d dae</item>
+        <item quantity="one">Onthou my instellings vir 1 dag</item>
+    </plurals>
+    <plurals name="playlist_picker_dialog_done">
+        <item quantity="other">Snitlyste is opgedateer</item>
+        <item quantity="one">Snitlys is opgedateer</item>
+    </plurals>
+    <plurals name="playlist_size">
+        <item quantity="other">"%1$,d video's"</item>
+        <item quantity="one">1 video</item>
+    </plurals>
+    <plurals name="playlist_size_downloaded">
+        <item quantity="other">%1$,d afgelaai</item>
+        <item quantity="one">%1$,d afgelaai</item>
+    </plurals>
+    <plurals name="playlist_size_total">
+        <item quantity="other">"%1$,d video's"</item>
+        <item quantity="one">1 video</item>
+    </plurals>
+    <plurals name="public_notification_text">
+        <item quantity="other">%1$d new notifications</item>
+        <item quantity="one">You have a notification</item>
+    </plurals>
+    <plurals name="quick_seek_x_second">
+        <item quantity="other">%d sekondes</item>
+        <item quantity="one">%d sekonde</item>
+    </plurals>
+    <plurals name="recommendation_count">
+        <item quantity="other">%1$d aanbevelings</item>
+        <item quantity="one">1 aanbeveling</item>
+    </plurals>
+    <plurals name="rental_expiry_notice">
+        <item quantity="other">Sodra jy begin kyk het, sal jy %1$d uur hê om hierdie video te kyk.</item>
+        <item quantity="one">Sodra jy begin kyk het, sal jy 1 uur hê om hierdie video te kyk.</item>
+    </plurals>
+    <plurals name="rental_long_days_remaining">
+        <item quantity="other">Verval oor %1$d dae</item>
+        <item quantity="one">Verval oor 1 dag</item>
+    </plurals>
+    <plurals name="rental_long_hours_remaining">
+        <item quantity="other">Verval oor %1$d ure</item>
+        <item quantity="one">Verval oor 1 uur</item>
+    </plurals>
+    <plurals name="rental_long_weeks_remaining">
+        <item quantity="other">Verval oor %1$d weke</item>
+        <item quantity="one">Verval oor 1 week</item>
+    </plurals>
+    <plurals name="rental_medium_days_remaining">
+        <item quantity="other">Verval oor %1$d dae</item>
+        <item quantity="one">Verval oor 1 dag</item>
+    </plurals>
+    <plurals name="rental_medium_hours_remaining">
+        <item quantity="other">Verval oor %1$d uur</item>
+        <item quantity="one">Verval oor 1 uur</item>
+    </plurals>
+    <plurals name="rental_medium_weeks_remaining">
+        <item quantity="other">Verval oor %1$d weke</item>
+        <item quantity="one">Verval oor 1 week</item>
+    </plurals>
+    <plurals name="selected_video_count">
+        <item quantity="other">"%1$d video's is gekies"</item>
+        <item quantity="one">1 video is gekies</item>
+    </plurals>
+    <plurals name="shorts_a11y_duration_seconds">
+        <item quantity="other">%1$s sekondes</item>
+        <item quantity="one">%1$s sekonde</item>
+    </plurals>
+    <plurals name="shorts_a11y_timer_duration_seconds">
+        <item quantity="other">%1$d-sekonde-afteller</item>
+        <item quantity="one">%1$d-sekonde-afteller</item>
+    </plurals>
+    <plurals name="shorts_a11y_timer_started">
+        <item quantity="other">%1$d-sekonde-afteller is geaktiveer</item>
+        <item quantity="one">%1$d-sekonde-afteller is geaktiveer</item>
+    </plurals>
+    <plurals name="smart_downloads_future_update_text">
+        <item quantity="other">Slimaflaaie sal outomaties oor %1$d dae opdateer</item>
+        <item quantity="one">Slimaflaaie sal outomaties oor 1 dag opdateer</item>
+    </plurals>
+    <plurals name="sticker_dialog_title">
+        <item quantity="other">Kom oor %1$d dae terug</item>
+        <item quantity="one">Kom oor 1 dag terug</item>
+    </plurals>
+    <plurals name="too_many_external_uploads_error_msg">
+        <item quantity="other">"Jy kan slegs %1$d video's op 'n slag oplaai."</item>
+        <item quantity="one">"Jy kan slegs %1$d video op 'n slag oplaai."</item>
+    </plurals>
+    <plurals name="transcoding_progress">
+        <item quantity="other">Berei tans %1$,d%% voor</item>
+        <item quantity="one">Berei tans %1$,d%% voor</item>
+    </plurals>
+    <plurals name="trim_segment_max_length">
+        <item quantity="other">Maks. %1$d sekondes</item>
+        <item quantity="one">Maks. 1 sekonde</item>
+    </plurals>
+    <plurals name="trim_switch_edu">
+        <item quantity="other">Knip jou video na %1$d sekondes en voeg musiek by</item>
+        <item quantity="one">Knip jou video na 1 sekonde en voeg musiek by</item>
+    </plurals>
+    <plurals name="trim_switch_edu_full_length_shorts">
+        <item quantity="other">Knip jou video na %1$d sekondes of minder</item>
+        <item quantity="one">Knip jou video na 1 sekonde of minder</item>
+    </plurals>
+    <plurals name="upload_hours_remaing">
+        <item quantity="other">Ongeveer %1$,d ure oor</item>
+        <item quantity="one">Ongeveer %1$,d uur oor</item>
+    </plurals>
+    <plurals name="upload_indicator_all_completed">
+        <item quantity="other">"%d video's is opgelaai"</item>
+        <item quantity="one">Video is opgelaai</item>
+    </plurals>
+    <plurals name="upload_indicator_all_failed">
+        <item quantity="other">"Kon nie enige van jou video's oplaai nie"</item>
+        <item quantity="one">Kon nie jou video oplaai nie</item>
+    </plurals>
+    <plurals name="upload_indicator_all_uploading">
+        <item quantity="other">"Laai tans %d video's op"</item>
+        <item quantity="one">Video laai tans op</item>
+    </plurals>
+    <plurals name="upload_indicator_partial_fail">
+        <item quantity="other">"Kon nie %1$d van %2$d video's oplaai nie"</item>
+        <item quantity="one">"Kon nie %1$d van %2$d video's oplaai nie"</item>
+    </plurals>
+    <plurals name="upload_indicator_uploading_and_completed_completed_part">
+        <item quantity="other">%d het opgelaai</item>
+        <item quantity="one">%d het opgelaai</item>
+    </plurals>
+    <plurals name="upload_indicator_uploading_and_completed_uploading_part">
+        <item quantity="other">%d laai steeds op</item>
+        <item quantity="one">%d laai steeds op</item>
+    </plurals>
+    <plurals name="upload_minutes_remaing">
+        <item quantity="other">Ongeveer %1$,d minute oor</item>
+        <item quantity="one">Ongeveer %1$,d minuut oor</item>
+    </plurals>
+    <plurals name="upload_notification_active_progress">
+        <item quantity="other">"Laai tans %1$d van %2$d video's op"</item>
+        <item quantity="one">Laai tans 1 video op</item>
+    </plurals>
+    <plurals name="upload_progress">
+        <item quantity="other">%1$,d%% opgelaai</item>
+        <item quantity="one">%1$,d%% opgelaai</item>
+    </plurals>
+    <plurals name="upload_seconds_remaing">
+        <item quantity="other">Ongeveer %1$,d sekondes oor</item>
+        <item quantity="one">Ongeveer %1$,d sekonde oor</item>
+    </plurals>
+    <plurals name="uploads_failed">
+        <item quantity="other">%1$,d oplaaie het misluk</item>
+        <item quantity="one">Oplaai het misluk</item>
+    </plurals>
+    <plurals name="uploads_failed_with_in_progress_videos">
+        <item quantity="other">%1$,d/%2$,d oplaaie het misluk</item>
+        <item quantity="one">%1$,d/%2$,d oplaaie het misluk</item>
+    </plurals>
+    <plurals name="uploads_in_progress">
+        <item quantity="other">%1$,d laai tans op</item>
+        <item quantity="one">%1$,d laai tans op</item>
+    </plurals>
+    <plurals name="user_education_quick_seek">
+        <item quantity="other">Dubbeltik links of regs om %d sekondes oor te slaan</item>
+        <item quantity="one">Dubbeltik links of regs om %d sekonde oor te slaan</item>
+    </plurals>
+    <plurals name="video_count">
+        <item quantity="other">"%1$d video's"</item>
+        <item quantity="one">1 video</item>
+    </plurals>
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@android:id/background">
+        <shape android:shape="line">
+            <stroke android:width="@dimen/video_trim_view_audio_cross_fade_progress_bar_height" android:color="@color/video_trim_view_audio_cross_fade_progress_bar" />
+            <size android:height="@dimen/video_trim_view_audio_cross_fade_progress_bar_height" />
+        </shape>
+    </item>
+</layer-list>

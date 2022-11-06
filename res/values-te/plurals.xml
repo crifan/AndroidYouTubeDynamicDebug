@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="accessibility_dislike_video_plural">
+        <item quantity="other">డిస్‌లైక్ చేయి బటన్, మరో %1$d మంది ఈ వీడియోను డిస్‌లైక్ చేసారు</item>
+        <item quantity="one">డిస్‌లైక్ చేయి బటన్, మరో %1$d వ్యక్తి ఈ వీడియోను డిస్‌లైక్ చేసారు</item>
+    </plurals>
+    <plurals name="accessibility_dtts_fast_forward">
+        <item quantity="other">%1$d సెకన్లు వేగంగా ఫార్వార్డ్ చేయండి</item>
+        <item quantity="one">%1$d సెకను వేగంగా ఫార్వార్డ్ చేయండి</item>
+    </plurals>
+    <plurals name="accessibility_dtts_rewind">
+        <item quantity="other">%1$d సెకన్లు రివైండ్ చేయండి</item>
+        <item quantity="one">%1$d సెకను రివైండ్ చేయండి</item>
+    </plurals>
+    <plurals name="accessibility_duration_description_hours">
+        <item quantity="other">%d గంటలు</item>
+        <item quantity="one">%d గంట</item>
+    </plurals>
+    <plurals name="accessibility_duration_description_minutes">
+        <item quantity="other">%d నిమిషాలు</item>
+        <item quantity="one">%d నిమిషం</item>
+    </plurals>
+    <plurals name="accessibility_duration_description_seconds">
+        <item quantity="other">%d సెకన్లు</item>
+        <item quantity="one">%d సెకను</item>
+    </plurals>
+    <plurals name="accessibility_like_video_plural">
+        <item quantity="other">లైక్ చేయి బటన్, మరో %1$d మంది ఈ వీడియోను లైక్ చేసారు</item>
+        <item quantity="one">లైక్ చేయి బటన్, మరో %1$d వ్యక్తి ఈ వీడియోను లైక్ చేసారు</item>
+    </plurals>
+    <plurals name="accessibility_skip_ad_in">
+        <item quantity="other">%1$d సెకన్ల తర్వాత ప్రకటనను దాటవేయండి</item>
+        <item quantity="one">1 సెకను తర్వాత ప్రకటనను దాటవేయండి</item>
+    </plurals>
+    <plurals name="accessibility_undo_dislike_video_plural">
+        <item quantity="other">డిస్‌లైక్‌ని రద్దు చేయి బటన్, మరో %1$d మంది ఈ వీడియోను డిస్‌లైక్ చేసారు</item>
+        <item quantity="one">డిస్‌లైక్‌ని రద్దు చేయి బటన్, మరో %1$d వ్యక్తి ఈ వీడియోను డిస్‌లైక్ చేసారు</item>
+    </plurals>
+    <plurals name="accessibility_undo_like_video_plural">
+        <item quantity="other">లైక్‌ని రద్దు చేయి బటన్, మరో %1$d మంది ఈ వీడియోను లైక్ చేసారు</item>
+        <item quantity="one">లైక్‌ని రద్దు చేయి బటన్, మరో %1$d వ్యక్తి ఈ వీడియోను లైక్ చేసారు</item>
+    </plurals>
+    <plurals name="download_new_videos_button_text">
+        <item quantity="other">%1$d కొత్త వీడియోలను డౌన్‌లోడ్ చేయి</item>
+        <item quantity="one">%1$d కొత్త వీడియోను డౌన్‌లోడ్ చేయి</item>
+    </plurals>
+    <plurals name="download_playlist_unplayable_future_days_plural">
+        <item quantity="other">కొన్ని వీడియోలకు %1$d రోజుల్లో Premium అవసరమవుతుంది</item>
+        <item quantity="one">కొన్ని వీడియోలకు %1$d రోజులో Premium అవసరమవుతుంది</item>
+    </plurals>
+    <plurals name="download_playlist_unplayable_future_hours_plural">
+        <item quantity="other">కొన్ని వీడియోలకు %1$d గంటల్లో Premium అవసరమవుతుంది</item>
+        <item quantity="one">కొన్ని వీడియోలకు %1$d గంటలో Premium అవసరమవుతుంది</item>
+    </plurals>
+    <plurals name="download_playlist_unplayable_future_minutes_plural">
+        <item quantity="other">కొన్ని వీడియోలకు %1$d నిమిషాల్లో Premium అవసరమవుతుంది</item>
+        <item quantity="one">కొన్ని వీడియోలకు %1$d నిమిషంలో Premium అవసరమవుతుంది</item>
+    </plurals>
+    <plurals name="download_video_unplayable_future_days_plural">
+        <item quantity="other">%1$d రోజుల్లో Premium అవసరమవుతుంది</item>
+        <item quantity="one">%1$d రోజులో Premium అవసరమవుతుంది</item>
+    </plurals>
+    <plurals name="download_video_unplayable_future_hours_plural">
+        <item quantity="other">%1$d గంటల్లో Premium అవసరమవుతుంది</item>
+        <item quantity="one">%1$d గంటలో Premium అవసరమవుతుంది</item>
+    </plurals>
+    <plurals name="download_video_unplayable_future_minutes_plural">
+        <item quantity="other">%1$d నిమిషాల్లో Premium అవసరమవుతుంది</item>
+        <item quantity="one">%1$d నిమిషంలో Premium అవసరమవుతుంది</item>
+    </plurals>
+    <plurals name="frequency_hours_component">
+        <item quantity="other">%1$d గంటలు</item>
+        <item quantity="one">%1$d గంట</item>
+    </plurals>
+    <plurals name="frequency_hours_only">
+        <item quantity="other">ప్రతి %1$d గంటలకు</item>
+        <item quantity="one">ప్రతి గంటకు</item>
+    </plurals>
+    <plurals name="frequency_minutes_component">
+        <item quantity="other">%1$d నిమిషాలు</item>
+        <item quantity="one">%1$d నిమిషం</item>
+    </plurals>
+    <plurals name="frequency_minutes_only">
+        <item quantity="other">ప్రతి %1$d నిమిషాలకు</item>
+        <item quantity="one">ప్రతి నిమిషానికి</item>
+    </plurals>
+    <plurals name="image_picker_title">
+        <item quantity="other">%1$d ఎంచుకోబడ్డాయి</item>
+        <item quantity="one">%1$d ఎంచుకోబడ్డాయి</item>
+    </plurals>
+    <plurals name="invalid_uploads_error_msg">
+        <item quantity="other">ఒకటి లేదా అంతకంటే ఎక్కువ వీడియో ఫైల్‌లు అందుబాటులో లేవు, లేదా చెల్లవు. దయచేసి మళ్లీ ప్రయత్నించండి లేదా వేరే వాటిని ఎంచుకోండి.</item>
+        <item quantity="one">ఈ వీడియో ఫైల్ అందుబాటులో లేదు, లేదా చెల్లదు. దయచేసి మళ్లీ ప్రయత్నించండి లేదా వేరొక దానిని ఎంచుకోండి.</item>
+    </plurals>
+    <plurals name="last_update_in_days_message">
+        <item quantity="other">%1$d రోజుల క్రితం అప్‌డేట్ చేయబడింది</item>
+        <item quantity="one">నిన్న అప్‌డేట్ చేయబడింది</item>
+    </plurals>
+    <plurals name="last_update_in_hours_message">
+        <item quantity="other">%1$d గంటల క్రితం అప్‌డేట్ చేయబడింది</item>
+        <item quantity="one">%1$d గంట క్రితం అప్‌డేట్ చేయబడింది</item>
+    </plurals>
+    <plurals name="last_update_in_minutes_message">
+        <item quantity="other">%1$d నిమిషాల క్రితం అప్‌డేట్ చేయబడింది</item>
+        <item quantity="one">%1$d నిమిషం క్రితం అప్‌డేట్ చేయబడింది</item>
+    </plurals>
+    <plurals name="last_update_in_weeks_message">
+        <item quantity="other">%1$d వారాల క్రితం అప్‌డేట్ చేయబడింది</item>
+        <item quantity="one">%1$d వారం క్రితం అప్‌డేట్ చేయబడింది</item>
+    </plurals>
+    <plurals name="notification_playlist_progress_size">
+        <item quantity="other">%2$d వీడియోలలో %1$d</item>
+        <item quantity="one">1 వీడియోలో %1$d</item>
+    </plurals>
+    <plurals name="offline_go_online_to_renew_dialog_message">
+        <item quantity="other">మీ పరికరంలో ప్రతి %1$d రోజులకు ఇంటర్‌నెట్ కనెక్షన్ ఉన్నంత కాలం డౌన్‌లోడ్‌లు అందుబాటులో ఉంటాయి. ఈ ప్రాసెస్ ఆటోమేటిక్‌గా జరుగుతుంది, వీడియో మళ్ళీ డౌన్‌లోడ్ అవ్వదు.</item>
+        <item quantity="one">మీ పరికరంలో ప్రతి రోజు ఇంటర్‌నెట్ కనెక్షన్ ఉన్నంత కాలం డౌన్‌లోడ్‌లు అందుబాటులో ఉంటాయి. ఈ ప్రాసెస్ ఆటోమేటిక్‌గా జరుగుతుంది, వీడియో మళ్ళీ డౌన్‌లోడ్ అవ్వదు.</item>
+    </plurals>
+    <plurals name="offline_go_online_to_renew_snackbar_message">
+        <item quantity="other">ఇంటర్నెట్ కనెక్షన్ లేకుండా డౌన్‌లోడ్‌లు %1$d రోజులు అందుబాటులో ఉంటాయి.</item>
+        <item quantity="one">ఇంటర్నెట్ కనెక్షన్ లేకుండా డౌన్‌లోడ్‌లు 1 రోజు అందుబాటులో ఉంటాయి.</item>
+    </plurals>
+    <plurals name="offline_remember_setting_for_days">
+        <item quantity="other">నా సెట్టింగ్‌లను %1$d రోజుల వరకు గుర్తుంచుకో</item>
+        <item quantity="one">నా సెట్టింగ్‌లను 1 రోజు వరకు గుర్తుంచుకో</item>
+    </plurals>
+    <plurals name="playlist_picker_dialog_done">
+        <item quantity="other">ప్లేలిస్ట్‌లు అప్‌డేట్ చేయబడ్డాయి</item>
+        <item quantity="one">ప్లేలిస్ట్ అప్‌డేట్ చేయబడింది</item>
+    </plurals>
+    <plurals name="playlist_size">
+        <item quantity="other">%1$,d వీడియోలు</item>
+        <item quantity="one">1 వీడియో</item>
+    </plurals>
+    <plurals name="playlist_size_downloaded">
+        <item quantity="other">%1$,d డౌన్‌లోడ్ చేయబడ్డాయి</item>
+        <item quantity="one">%1$,d డౌన్‌లోడ్ చేయబడింది</item>
+    </plurals>
+    <plurals name="playlist_size_total">
+        <item quantity="other">%1$,d వీడియోలు</item>
+        <item quantity="one">1 వీడియో</item>
+    </plurals>
+    <plurals name="public_notification_text">
+        <item quantity="other">%1$d new notifications</item>
+        <item quantity="one">You have a notification</item>
+    </plurals>
+    <plurals name="quick_seek_x_second">
+        <item quantity="other">%d సెకన్లు</item>
+        <item quantity="one">%d సెకను</item>
+    </plurals>
+    <plurals name="recommendation_count">
+        <item quantity="other">%1$d సిఫార్సులు</item>
+        <item quantity="one">1 సిఫార్సు</item>
+    </plurals>
+    <plurals name="rental_expiry_notice">
+        <item quantity="other">ప్రారంభించిన తర్వాత, ఈ వీడియోను చూసేందుకు మీకు %1$d గంటల సమయం ఉంటుంది.</item>
+        <item quantity="one">ప్రారంభించిన తర్వాత, ఈ వీడియోను చూసేందుకు మీకు 1 గంట సమయం ఉంటుంది.</item>
+    </plurals>
+    <plurals name="rental_long_days_remaining">
+        <item quantity="other">%1$d రోజులలో గడువు ముగుస్తుంది</item>
+        <item quantity="one">1 రోజులో గడువు ముగుస్తుంది</item>
+    </plurals>
+    <plurals name="rental_long_hours_remaining">
+        <item quantity="other">%1$d గంటల్లో గడువు ముగుస్తుంది</item>
+        <item quantity="one">1 గంటలో గడువు ముగుస్తుంది</item>
+    </plurals>
+    <plurals name="rental_long_weeks_remaining">
+        <item quantity="other">%1$d వారాల్లో గడువు ముగుస్తుంది</item>
+        <item quantity="one">1 వారంలో గడువు ముగుస్తుంది</item>
+    </plurals>
+    <plurals name="rental_medium_days_remaining">
+        <item quantity="other">%1$d రోజులలో గడువు ముగుస్తుంది</item>
+        <item quantity="one">1 రోజులో గడువు ముగుస్తుంది</item>
+    </plurals>
+    <plurals name="rental_medium_hours_remaining">
+        <item quantity="other">%1$d గంటలలో గడువు ముగుస్తుంది.</item>
+        <item quantity="one">1 గంటలో గడువు ముగుస్తుంది.</item>
+    </plurals>
+    <plurals name="rental_medium_weeks_remaining">
+        <item quantity="other">%1$d వారాలలో గడువు ముగుస్తుంది.</item>
+        <item quantity="one">1 వారంలో గడువు ముగుస్తుంది.</item>
+    </plurals>
+    <plurals name="selected_video_count">
+        <item quantity="other">%1$d వీడియోలను ఎంపిక చేశారు</item>
+        <item quantity="one">ఒక వీడియోను ఎంపిక చేశారు</item>
+    </plurals>
+    <plurals name="shorts_a11y_duration_seconds">
+        <item quantity="other">%1$s సెకన్లు</item>
+        <item quantity="one">%1$s సెకను</item>
+    </plurals>
+    <plurals name="shorts_a11y_timer_duration_seconds">
+        <item quantity="other">%1$d సెకన్ టైమర్</item>
+        <item quantity="one">%1$d సెకన్ టైమర్</item>
+    </plurals>
+    <plurals name="shorts_a11y_timer_started">
+        <item quantity="other">%1$d సెకన్ టైమర్ యాక్టివేట్ చేయబడింది</item>
+        <item quantity="one">%1$d సెకన్ టైమర్ యాక్టివేట్ చేయబడింది</item>
+    </plurals>
+    <plurals name="smart_downloads_future_update_text">
+        <item quantity="other">స్మార్ట్ డౌన్‌లోడ్‌ల విభాగం, ఆటోమేటిక్‌గా %1$d రోజుల్లో అప్‌డేట్ అవుతుంది</item>
+        <item quantity="one">స్మార్ట్ డౌన్‌లోడ్‌ల విభాగం, ఆటోమేటిక్‌గా 1 రోజులో అప్‌డేట్ అవుతుంది</item>
+    </plurals>
+    <plurals name="sticker_dialog_title">
+        <item quantity="other">%1$d రోజుల తర్వాత తిరిగి ప్రయత్నించండి</item>
+        <item quantity="one">ఒక రోజు తర్వాత తిరిగి ప్రయత్నించండి</item>
+    </plurals>
+    <plurals name="too_many_external_uploads_error_msg">
+        <item quantity="other">మీరు ఒకే సారి %1$d వీడియోలు మాత్రమే అప్‌లోడ్ చేయగలరు.</item>
+        <item quantity="one">మీరు ఒకే సారి %1$d వీడియో మాత్రమే అప్‌లోడ్ చేయగలరు.</item>
+    </plurals>
+    <plurals name="transcoding_progress">
+        <item quantity="other">సిద్ధం చేస్తోంది %1$,d%%</item>
+        <item quantity="one">సిద్ధం చేస్తోంది %1$,d%%</item>
+    </plurals>
+    <plurals name="trim_segment_max_length">
+        <item quantity="other">గరిష్ఠంగా %1$d సెకన్లు</item>
+        <item quantity="one">గరిష్ఠంగా 1 సెకను</item>
+    </plurals>
+    <plurals name="trim_switch_edu">
+        <item quantity="other">మీ వీడియోను %1$d సెకన్లకు కుదించి, మ్యూజిక్‌ను జోడించండి</item>
+        <item quantity="one">మీ వీడియోను 1 సెకెనుకు కుదించి, మ్యూజిక్‌ను జోడించండి</item>
+    </plurals>
+    <plurals name="trim_switch_edu_full_length_shorts">
+        <item quantity="other">మీ వీడియోను %1$d సెకన్లు లేదా అంతకంటే తక్కువకు ట్రిమ్ చేయండి</item>
+        <item quantity="one">మీ వీడియోను 1 సెకను లేదా అంతకంటే తక్కువకు ట్రిమ్ చేయండి</item>
+    </plurals>
+    <plurals name="upload_hours_remaing">
+        <item quantity="other">సుమారుగా %1$,d గంటలు మిగిలి ఉన్నాయి</item>
+        <item quantity="one">సుమారుగా %1$,d గంట మిగిలి ఉంది</item>
+    </plurals>
+    <plurals name="upload_indicator_all_completed">
+        <item quantity="other">%d వీడియోలు అప్‌లోడ్ అయ్యాయి</item>
+        <item quantity="one">అప్‌లోడ్ అయింది</item>
+    </plurals>
+    <plurals name="upload_indicator_all_failed">
+        <item quantity="other">మీ వీడియోలలో దేనినీ అప్‌లోడ్ చేయడం సాధ్యం కాలేదు</item>
+        <item quantity="one">మీ వీడియోను అప్‌లోడ్ చేయడం సాధ్యం కాలేదు</item>
+    </plurals>
+    <plurals name="upload_indicator_all_uploading">
+        <item quantity="other">%d వీడియోలు అప్‌లోడ్ అవుతున్నాయి</item>
+        <item quantity="one">వీడియో అప్‌లోడ్ అవుతోంది</item>
+    </plurals>
+    <plurals name="upload_indicator_partial_fail">
+        <item quantity="other">%2$d వీడియోలలో %1$dను అప్‌లోడ్ చేయడం సాధ్యం కాలేదు</item>
+        <item quantity="one">%2$d వీడియోలలో %1$dను అప్‌లోడ్ చేయడం సాధ్యం కాలేదు</item>
+    </plurals>
+    <plurals name="upload_indicator_uploading_and_completed_completed_part">
+        <item quantity="other">%d అప్‌లోడ్ అయింది</item>
+        <item quantity="one">%d అప్‌లోడ్ అయింది</item>
+    </plurals>
+    <plurals name="upload_indicator_uploading_and_completed_uploading_part">
+        <item quantity="other">%d ఇంకా అప్‌లోడ్ అవుతోంది</item>
+        <item quantity="one">%d ఇంకా అప్‌లోడ్ అవుతోంది</item>
+    </plurals>
+    <plurals name="upload_minutes_remaing">
+        <item quantity="other">సుమారుగా %1$,d నిమిషాలు మిగిలి ఉన్నాయి</item>
+        <item quantity="one">సుమారుగా %1$,d నిమిషం మిగిలి ఉంది</item>
+    </plurals>
+    <plurals name="upload_notification_active_progress">
+        <item quantity="other">%2$dలో %1$d వీడియోలను అప్‌లోడ్ చేస్తోంది</item>
+        <item quantity="one">1 వీడియోను అప్‌లోడ్ చేస్తోంది</item>
+    </plurals>
+    <plurals name="upload_progress">
+        <item quantity="other">%1$,d%% అప్‌లోడ్ చేయబడింది</item>
+        <item quantity="one">%1$,d%% అప్‌లోడ్ చేయబడింది</item>
+    </plurals>
+    <plurals name="upload_seconds_remaing">
+        <item quantity="other">సుమారుగా %1$,d సెకన్లు మిగిలి ఉన్నాయి</item>
+        <item quantity="one">సుమారుగా %1$,d సెకను మిగిలి ఉంది</item>
+    </plurals>
+    <plurals name="uploads_failed">
+        <item quantity="other">%1$,d అప్‌లోడ్‌లు విఫలమయ్యాయి</item>
+        <item quantity="one">అప్‌లోడ్ విఫలమైంది</item>
+    </plurals>
+    <plurals name="uploads_failed_with_in_progress_videos">
+        <item quantity="other">%1$,d/%2$,d అప్‌లోడ్‌లు విఫలమయ్యాయి</item>
+        <item quantity="one">%1$,d/%2$,d అప్‌లోడ్‌లు విఫలమయ్యాయి</item>
+    </plurals>
+    <plurals name="uploads_in_progress">
+        <item quantity="other">%1$,d అప్‌లోడ్ చేస్తోంది</item>
+        <item quantity="one">%1$,d అప్‌లోడ్ చేస్తోంది</item>
+    </plurals>
+    <plurals name="user_education_quick_seek">
+        <item quantity="other">%d సెకన్లను దాటవేయడానికి ఎడమ లేదా కుడివైపు రెండుసార్లు నొక్కండి</item>
+        <item quantity="one">%d సెకన్‌ను దాటవేయడానికి ఎడమ లేదా కుడివైపు రెండుసార్లు నొక్కండి</item>
+    </plurals>
+    <plurals name="video_count">
+        <item quantity="other">%1$d వీడియోలు</item>
+        <item quantity="one">1 వీడియో</item>
+    </plurals>
+</resources>

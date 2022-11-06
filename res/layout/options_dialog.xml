@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:yt="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/options_view" android:paddingTop="12.0dip" android:paddingBottom="12.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="18.0dip" android:paddingEnd="18.0dip">
+        <RadioGroup android:orientation="vertical" android:id="@id/option_items_list" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:textColor="@color/quantum_black_secondary_text" android:linksClickable="true" android:id="@id/content_owner_rights" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/content_owner_rights_text" android:textAlignment="viewStart" android:paddingStart="6.0dip" android:paddingEnd="6.0dip" yt:robotoFont="regular" />
+    </LinearLayout>
+</ScrollView>

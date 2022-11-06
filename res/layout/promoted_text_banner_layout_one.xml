@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/promoted_text_banner_layout_one" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:yt="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:id="@id/content_layout" android:paddingTop="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="16.0dip" android:paddingEnd="16.0dip">
+        <include android:id="@id/contextual_menu_anchor" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:layout_alignParentTop="true" android:layout_marginStart="8.0dip" android:layout_alignParentEnd="true" layout="@layout/ads_contextual_menu_anchor" />
+        <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:textSize="@dimen/small_font_size" android:textColor="?adText2" android:ellipsize="end" android:id="@id/subtitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="1.0dip" android:maxLines="2" android:layout_below="@id/title_layout" android:layout_toStartOf="@id/contextual_menu_anchor" android:layout_alignParentStart="true" yt:robotoFont="regular" />
+        <include android:id="@id/ad_attribution" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:layout_marginBottom="15.0dip" android:layout_below="@id/subtitle" android:layout_marginEnd="6.0dip" android:layout_alignParentStart="true" layout="@layout/standalone_ad_badge_small" />
+        <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:textSize="@dimen/small_font_size" android:textColor="?adText1" android:ellipsize="end" android:id="@id/byline" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="1.0dip" android:maxLines="1" android:layout_below="@id/subtitle" android:layout_toEndOf="@id/ad_attribution" yt:robotoFont="regular" />
+        <FrameLayout android:id="@id/title_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentTop="true" android:layout_toStartOf="@id/contextual_menu_anchor" android:layout_alignParentStart="true">
+            <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:textSize="@dimen/medium_font_size" android:textColor="?adBlue" android:ellipsize="end" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="1.0dip" android:maxLines="1" android:lines="1" android:layout_weight="1.0" android:layout_marginEnd="6.0dip" yt:robotoFont="regular" />
+                <com.google.android.apps.youtube.app.common.widget.TintableImageView android:theme="@style/Widget.YouTube.Control.Light" android:id="@id/title_icon" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="15.0dip" android:layout_marginTop="5.0dip" android:layout_weight="0.0" android:contentDescription="@null" />
+            </LinearLayout>
+        </FrameLayout>
+    </RelativeLayout>
+    <View android:id="@id/click_overlay" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</FrameLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="@dimen/image_filter_list_item_size" android:layout_height="@dimen/image_filter_list_item_size" android:layout_margin="@dimen/image_filter_list_item_padding"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/filter_thumbnail" android:layout_width="wrap_content" android:layout_height="fill_parent" android:scaleType="centerCrop" android:adjustViewBounds="true" />
+    <TextView android:textSize="@dimen/image_filter_list_item_label_text_size" android:textColor="@color/image_filter_list_item_label_text_color" android:gravity="center" android:layout_gravity="bottom" android:id="@id/filter_text" android:background="@color/yt_white1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" android:animateLayoutChanges="true" />
+</FrameLayout>

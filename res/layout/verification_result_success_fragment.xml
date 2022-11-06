@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:background="?ytBrandBackgroundSolid" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <android.support.v7.widget.AppCompatImageView android:layout_gravity="center" android:id="@id/icon" android:background="@drawable/success_check_background" android:padding="@dimen/av_success_check_padding" android:layout_width="@dimen/av_success_check_background_diameter" android:layout_height="@dimen/av_success_check_background_diameter" android:layout_marginTop="@dimen/av_success_screen_margin_top" android:layout_marginBottom="@dimen/av_margin_large" android:src="@drawable/quantum_ic_done_white_48" android:tint="?ytStaticWhite" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" android:contentDescription="@string/verification_success_cd" />
+        <TextView android:textSize="@dimen/av_title_text_size" android:textColor="?ytTextPrimary" android:gravity="center_horizontal" android:id="@id/title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/av_margin_large" android:layout_below="@id/icon" android:lineSpacingMultiplier="@dimen/av_paragraph_line_spacing_normal" />
+    </RelativeLayout>
+</ScrollView>

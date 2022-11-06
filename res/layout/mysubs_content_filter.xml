@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/mysubs_content_filter" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="8.0dip" android:paddingEnd="8.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:textAppearance="?textAppearanceSubhead" android:textColor="?android:textColorSecondary" android:id="@id/title_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textIsSelectable="false" android:paddingStart="8.0dip" android:paddingEnd="8.0dip" />
+    <FrameLayout android:id="@id/sub_menu_container" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <Space android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+    <android.support.v7.widget.RecyclerView android:id="@id/button_container" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</LinearLayout>

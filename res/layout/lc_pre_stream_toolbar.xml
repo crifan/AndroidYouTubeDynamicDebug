@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/pre_stream_toolbar" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <android.widget.Space android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+    <FrameLayout android:id="@id/scheduled_events_container" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageButton android:layout_gravity="center" android:id="@id/scheduled_events_button" android:background="?selectableItemBackgroundBorderless" android:visibility="gone" android:clickable="false" android:layout_width="@dimen/lc_24dp_image_button_container_size" android:layout_height="@dimen/lc_24dp_image_button_container_size" android:layout_margin="@dimen/lc_24dp_image_button_margin" android:contentDescription="@null" android:alpha="@dimen/lc_button_inactive_opacity" />
+        <TextView android:textSize="@dimen/label_text_size" android:textColor="@color/lc_white" android:gravity="center" android:layout_gravity="center" android:id="@id/scheduled_events_count" android:background="@drawable/lc_count_bubble" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/lc_pre_stream_scheduled_events_count_offset" android:fontFamily="sans-serif-light" android:layout_marginStart="@dimen/lc_pre_stream_scheduled_events_count_offset" />
+    </FrameLayout>
+    <ImageButton android:id="@id/switch_camera_button" android:background="?selectableItemBackgroundBorderless" android:layout_width="@dimen/lc_24dp_image_button_container_size" android:layout_height="@dimen/lc_24dp_image_button_container_size" android:layout_margin="@dimen/lc_24dp_image_button_margin" android:src="@drawable/ic_switch_camera_white_24dp" android:contentDescription="@string/lc_switch_camera_cd" />
+</LinearLayout>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/content_container" android:background="?ytBrandBackgroundSolid" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ScrollView android:layout_gravity="top" android:id="@id/scroll_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="55.0dip">
+        <RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <View android:id="@id/padding_above_campaign" android:background="?ytGeneralBackgroundA" android:layout_width="fill_parent" android:layout_height="4.0dip" android:layout_alignParentTop="true" />
+            <include android:id="@id/campaign_group" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/padding_above_campaign" layout="@layout/donation_campaign" />
+            <View android:id="@id/padding_below_campaign" android:background="?ytGeneralBackgroundA" android:layout_width="fill_parent" android:layout_height="7.0dip" android:layout_below="@id/campaign_group" />
+            <View android:id="@id/separator" android:background="?yt10PercentLayer" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_below="@id/padding_below_campaign" />
+            <include android:id="@id/nonprofit_group" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/separator" layout="@layout/donation_nonprofit" />
+            <RadioGroup android:gravity="center" android:orientation="horizontal" android:id="@id/predefined_amounts_group" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="35.0dip" android:layout_below="@id/nonprofit_group" android:layout_marginStart="@dimen/donation_panel_side_margin" android:layout_marginEnd="@dimen/donation_panel_side_margin" />
+            <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:textAppearance="?textAppearanceCaption" android:textColor="?ytCallToAction" android:id="@id/custom_amount_label" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:layout_below="@id/predefined_amounts_group" android:layout_marginStart="@dimen/donation_panel_side_margin" android:layout_marginEnd="@dimen/donation_panel_side_margin" />
+            <com.google.android.material.textfield.TextInputLayout android:id="@id/custom_amount_group" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/custom_amount_label" android:layout_marginStart="12.0dip" android:layout_marginEnd="12.0dip">
+                <com.google.android.apps.youtube.app.common.rendering.presenter.donationshelf.PrefixedEditText android:id="@id/custom_amount_edit" android:layout_width="fill_parent" android:layout_height="wrap_content" android:inputType="number" />
+            </com.google.android.material.textfield.TextInputLayout>
+            <CheckedTextView android:textAppearance="?textAppearanceBody1" android:textColor="?ytTextSecondary" android:gravity="center_vertical" android:id="@id/privacy_checkbox" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:checkMark="@null" android:layout_below="@id/custom_amount_group" android:drawableStart="?android:listChoiceIndicatorMultiple" android:layout_marginStart="@dimen/donation_panel_side_margin" android:layout_marginEnd="@dimen/donation_panel_side_margin" />
+        </RelativeLayout>
+    </ScrollView>
+    <include layout="@layout/donation_bottom_button" />
+</FrameLayout>

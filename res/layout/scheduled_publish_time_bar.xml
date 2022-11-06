@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="?ytBrandBackgroundSecondary" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/scheduled_publish_time_bar_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/scheduled_publish_time_bar_icon_margin" android:layout_marginBottom="@dimen/scheduled_publish_time_bar_icon_margin" android:src="@drawable/quantum_ic_keyboard_arrow_right_white_24" android:tint="?ytIconActiveOther" android:layout_marginEnd="@dimen/scheduled_publish_time_bar_icon_margin" android:layout_alignParentEnd="true" />
+        <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:textAppearance="?ytTextAppearanceBody1b" android:textColor="?ytTextPrimary" android:id="@id/scheduled_publish_time_bar_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/scheduled_publish_time_bar_text_margin_top" android:layout_marginBottom="@dimen/scheduled_publish_time_bar_text_margin_bottom" android:layout_marginStart="@dimen/scheduled_publish_time_bar_text_margin_start" android:layout_toStartOf="@id/scheduled_publish_time_bar_icon" android:layout_alignParentStart="true" />
+    </RelativeLayout>
+    <ImageView android:layout_width="fill_parent" android:layout_height="@dimen/comment_divider_height" android:src="?ytGeneralBackgroundC" android:contentDescription="@null" />
+</LinearLayout>

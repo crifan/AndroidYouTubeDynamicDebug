@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="card_margin_left">20.0dip</dimen>
+    <dimen name="card_margin_right">20.0dip</dimen>
+    <dimen name="card_margin_top">20.0dip</dimen>
+    <dimen name="feed_item_thumbnail_width">262.0dip</dimen>
+    <dimen name="gallery_camera_minimized_height">70.0dip</dimen>
+    <dimen name="gallery_thumb_min_width">200.0dip</dimen>
+    <dimen name="margin_end">20.0dip</dimen>
+    <dimen name="margin_start">20.0dip</dimen>
+    <dimen name="mealbar_side_margin">16.0dip</dimen>
+    <item type="dimen" name="mr_dialog_fixed_width_major">50.0%</item>
+    <item type="dimen" name="mr_dialog_fixed_width_minor">70.00001%</item>
+    <dimen name="new_version_available_activity_main_text_size">18.0sp</dimen>
+    <dimen name="new_version_available_activity_padding_bottom">96.0dip</dimen>
+    <dimen name="new_version_available_activity_problem_explanation_margin_bottom">20.0dip</dimen>
+    <dimen name="new_version_available_activity_title_text_size">28.0sp</dimen>
+    <dimen name="offline_video_item_thumbnail_width">292.0dip</dimen>
+    <dimen name="remote_watch_dialog_height_no_metadata">270.0dip</dimen>
+    <dimen name="remote_watch_dialog_width">600.0dip</dimen>
+    <dimen name="slim_metadata_subscriber_count_size">14.0sp</dimen>
+    <dimen name="status_spinner_height">32.0dip</dimen>
+    <dimen name="status_spinner_width">32.0dip</dimen>
+    <dimen name="watch_while_mini_player_dismiss_animation_distance">200.0dip</dimen>
+</resources>

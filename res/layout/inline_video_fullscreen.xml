@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:yt="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/thumbnail" android:background="@color/yt_black_pure" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" android:contentDescription="@null" />
+    <RelativeLayout android:id="@id/insets_container" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <View android:background="@drawable/player_top_bar" android:layout_width="fill_parent" android:layout_height="@dimen/inline_playback_top_gradient_size" android:layout_alignParentTop="true" />
+        <include layout="@layout/inline_video_fullscreen_metadata" />
+        <View android:background="@drawable/player_bottom_bar" android:layout_width="fill_parent" android:layout_height="@dimen/inline_playback_bottom_gradient_size" android:layout_alignParentBottom="true" />
+        <ImageView android:id="@id/play" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/player_play" android:layout_centerInParent="true" android:contentDescription="@null" />
+        <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:textSize="@dimen/extra_small_font_size" android:textStyle="normal" android:textColor="@color/yt_white1" android:gravity="center_vertical" android:id="@id/duration" android:layout_width="wrap_content" android:layout_height="@dimen/inline_controls_bottom_bar_height" android:layout_marginRight="8.0dip" android:drawablePadding="8.0dip" android:layout_toLeftOf="@id/fullscreen_button" android:layout_alignParentBottom="true" android:layout_alignWithParentIfMissing="true" yt:robotoFont="regular" />
+        <ImageView android:id="@id/fullscreen_button" android:layout_width="wrap_content" android:layout_height="@dimen/inline_controls_bottom_bar_height" android:src="@drawable/ic_inline_fullscreen_exit" android:scaleType="centerInside" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" android:contentDescription="@string/accessibility_exit_fullscreen" android:layout_marginEnd="8.0dip" />
+    </RelativeLayout>
+</FrameLayout>

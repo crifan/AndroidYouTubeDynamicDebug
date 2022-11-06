@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="bottom|center|right" android:id="@id/branding_watermark" android:layout_width="@dimen/annotation_branding_watermark_width" android:layout_height="@dimen/annotation_branding_watermark_width" android:layout_margin="12.0dip" android:scaleType="centerInside" android:contentDescription="@null" android:alpha="0.7" />
+</FrameLayout>

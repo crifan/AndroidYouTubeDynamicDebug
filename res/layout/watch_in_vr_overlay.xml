@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_gravity="center" android:id="@id/magic_window_mid_ui_edu" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/magic_window_mid_ui_edu_margin_bottom">
+        <TextView android:textSize="@dimen/extra_small_font_size" android:textColor="?ytOverlayTextPrimary" android:id="@id/magic_window_mid_ui_edu_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="300.0dip" />
+    </LinearLayout>
+    <LinearLayout android:gravity="bottom" android:layout_gravity="bottom|center" android:orientation="vertical" android:id="@id/magic_window_edu" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="148.0dip" android:layout_marginBottom="@dimen/magic_window_edu_margin_bottom">
+        <ImageView android:gravity="bottom|center" android:layout_gravity="bottom|center" android:id="@id/magic_window_edu_image" android:layout_width="fill_parent" android:layout_height="116.0dip" android:layout_marginBottom="16.0dip" android:scaleType="fitCenter" />
+        <TextView android:textSize="@dimen/extra_small_font_size" android:textColor="?ytOverlayTextPrimary" android:gravity="center" android:layout_gravity="bottom|center" android:id="@id/magic_window_edu_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textAlignment="center" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:layout_gravity="bottom|center" android:orientation="horizontal" android:id="@id/watch_in_vr_chip" android:background="?overlayRoundedRectangle" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="40.0dip" android:layout_marginBottom="@dimen/watch_in_vr_overlay_margin_bottom">
+        <ImageView android:layout_gravity="center" android:id="@id/cardboard_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/quantum_ic_cardboard_white_24" android:tint="?ytOverlayIconActiveOther" android:contentDescription="@string/vr_overflow_menu_item" android:layout_marginStart="8.0dip" />
+        <TextView android:textAppearance="?ytTextAppearanceBody2b" android:textColor="?ytOverlayTextPrimary" android:gravity="center" android:id="@id/message_view" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/vr_overflow_menu_item" android:textAlignment="center" android:layout_marginStart="24.0dip" android:layout_marginEnd="24.0dip" />
+        <ImageView android:layout_gravity="center" android:id="@id/close_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/quantum_ic_close_white_18" android:tint="?ytOverlayIconInactive" android:contentDescription="@string/accessibility_close_button" android:layout_marginEnd="12.0dip" android:tintMode="src_in" />
+    </LinearLayout>
+</FrameLayout>

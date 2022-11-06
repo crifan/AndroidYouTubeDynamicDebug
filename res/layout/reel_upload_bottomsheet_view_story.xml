@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="@dimen/reel_upload_bottomsheet_cell_height" android:paddingStart="@dimen/reel_upload_bottomsheet_cell_padding_ring_avatar" android:paddingEnd="@dimen/reel_upload_bottomsheet_cell_padding_circular_avatar"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/avatar_layout" android:background="?selectableItemBackgroundBorderless" android:layout_width="@dimen/reel_upload_bottomsheet_circular_thumbnail_ring_size" android:layout_height="@dimen/reel_upload_bottomsheet_circular_thumbnail_ring_size" android:layout_centerVertical="true" android:layout_alignParentStart="true">
+        <com.google.android.libraries.youtube.common.ui.CircularImageView android:layout_gravity="center" android:id="@id/avatar_view" android:background="?ytBrandBackgroundSolid" android:layout_width="@dimen/reel_upload_bottomsheet_circular_thumbnail_size" android:layout_height="@dimen/reel_upload_bottomsheet_circular_thumbnail_size" android:src="@drawable/missing_avatar" android:scaleType="centerCrop" android:contentDescription="@null" />
+        <View android:layout_gravity="center" android:id="@id/channel_avatar_ring" android:background="?reelsLockupStrokeChannelHome" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+    </FrameLayout>
+    <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:textSize="@dimen/reel_primary_font_size" android:textColor="?ytTextPrimary" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/reel_upload_bottomsheet_tap_to_view" android:layout_centerVertical="true" android:layout_marginStart="@dimen/reel_upload_bottomsheet_status_margin_start_ring_avatar" android:layout_toEndOf="@id/avatar_layout" />
+</RelativeLayout>

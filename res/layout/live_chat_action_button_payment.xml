@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Button android:textColor="?ytStaticWhite" android:background="@drawable/live_chat_action_button_background_payment" android:layout_width="fill_parent" android:layout_height="wrap_content" android:stateListAnimator="@null"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

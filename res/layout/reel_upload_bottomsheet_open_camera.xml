@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="@dimen/reel_upload_bottomsheet_cell_height" android:paddingStart="@dimen/reel_upload_bottomsheet_cell_padding_circular_avatar" android:paddingEnd="@dimen/reel_upload_bottomsheet_cell_padding_circular_avatar"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:yt="http://schemas.android.com/apk/res-auto">
+    <com.google.android.libraries.youtube.common.ui.RoundedFrameLayout android:id="@id/icon_view_layout" android:background="?ytGeneralBackgroundA" android:layout_width="@dimen/reel_upload_bottomsheet_circular_thumbnail_size" android:layout_height="@dimen/reel_upload_bottomsheet_circular_thumbnail_size" android:layout_centerVertical="true" android:layout_alignParentStart="true" yt:corners="@dimen/reel_upload_bottomsheet_circular_thumbnail_half_size">
+        <ImageView android:layout_gravity="center" android:id="@id/icon_view" android:layout_width="@dimen/reel_upload_bottomsheet_circular_thumbnail_half_size" android:layout_height="@dimen/reel_upload_bottomsheet_circular_thumbnail_half_size" android:tint="?ytTextPrimary" />
+    </com.google.android.libraries.youtube.common.ui.RoundedFrameLayout>
+    <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:textSize="@dimen/reel_primary_font_size" android:textColor="?ytTextPrimary" android:id="@id/label_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginStart="@dimen/reel_upload_bottomsheet_status_margin_start_circular_avatar" android:layout_toEndOf="@id/icon_view_layout" />
+</RelativeLayout>

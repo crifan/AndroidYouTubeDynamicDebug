@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:yt="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/account_icon" android:paddingTop="6.0dip" android:layout_width="@dimen/create_profile_left_margin" android:layout_height="wrap_content" android:src="@drawable/account_circle_icon" android:scaleType="fitStart" android:contentDescription="@string/avatar_description" />
+    <EditText android:textAppearance="?textAppearanceSubhead" android:id="@id/given_name" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginRight="5.0dip" android:minWidth="@dimen/channel_creation_text_min_width" android:maxLength="100" android:layout_weight="1.0" android:inputType="text" android:layout_marginEnd="5.0dip" />
+    <EditText android:textAppearance="?textAppearanceSubhead" android:id="@id/family_name" android:layout_width="0.0dip" android:layout_height="wrap_content" android:minWidth="@dimen/channel_creation_text_min_width" android:maxLength="100" android:layout_weight="1.0" android:inputType="text" />
+</LinearLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:yt="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="8.0dip">
+        <ImageView android:id="@id/countdown_background" android:layout_width="wrap_content" android:layout_height="45.0dip" android:scaleType="centerCrop" android:contentDescription="@null" />
+        <com.google.android.libraries.youtube.ads.player.ui.AdCountdownTextView android:textSize="@dimen/extra_small_font_size" android:textColor="@color/skip_ad_button_foreground_color" android:gravity="center" android:id="@id/countdown_text" android:background="@color/skip_ad_button_background_color" android:paddingLeft="8.0dip" android:paddingRight="8.0dip" android:clickable="true" android:layout_width="wrap_content" android:layout_height="45.0dip" android:text="@string/skip_ad_in_multiline" android:maxLines="2" android:lines="2" yt:robotoFont="light" />
+    </FrameLayout>
+    <ImageView android:id="@id/content_thumbnail" android:background="#ff000000" android:clickable="true" android:layout_width="80.0dip" android:layout_height="45.0dip" android:layout_marginBottom="8.0dip" android:scaleType="centerCrop" android:contentDescription="@null" />
+</merge>

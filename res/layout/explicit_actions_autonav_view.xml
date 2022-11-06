@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:layout_gravity="top" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_marginStart="16.0dip">
+            <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:textAppearance="?ytTextAppearanceBody2b" android:textColor="?ytOverlayTextSecondary" android:ellipsize="end" android:id="@id/countdown_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="1" android:textAlignment="viewStart" />
+                <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:textAppearance="?ytTextAppearanceBody2b" android:textColor="?ytOverlayTextSecondary" android:ellipsize="end" android:id="@id/title" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="1" android:textAlignment="viewStart" />
+            </FrameLayout>
+            <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:textAppearance="?ytTextAppearanceBody2a" android:textColor="?ytOverlayTextPrimary" android:ellipsize="end" android:id="@id/alternative_title" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="1" android:textAlignment="viewStart" />
+        </LinearLayout>
+        <ImageView android:id="@id/close_button" android:padding="12.0dip" android:layout_width="48.0dip" android:layout_height="48.0dip" android:src="@drawable/quantum_ic_close_white_24" android:contentDescription="@string/accessibility_close_button" style="@style/YouTubePlayerButton" />
+    </LinearLayout>
+    <LinearLayout android:layout_gravity="bottom" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <include android:id="@id/info_panel" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/autonav_info_panel_margin_bottom" layout="@layout/autonav_info_panel" />
+        <LinearLayout android:orientation="horizontal" android:id="@id/action_bar" android:layout_width="fill_parent" android:layout_height="@dimen/autonav_explicit_action_button_height" android:layout_marginBottom="@dimen/autonav_explicit_action_button_vertical_margin" android:baselineAligned="false">
+            <FrameLayout android:id="@id/cancel" android:background="@drawable/autonav_action_cancel_background" android:layout_width="0.0dip" android:layout_height="fill_parent" android:foreground="@drawable/autonav_touch_feedback" android:layout_weight="1.0" android:layout_marginStart="16.0dip" android:layout_marginEnd="4.0dip">
+                <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:textAppearance="?ytTextAppearanceButton" android:textColor="?ytOverlayTextPrimary" android:ellipsize="end" android:gravity="center" android:id="@id/cancel_text" android:layout_width="fill_parent" android:layout_height="fill_parent" android:maxLines="1" android:importantForAccessibility="no" />
+            </FrameLayout>
+            <FrameLayout android:id="@id/play" android:background="@drawable/autonav_action_play_background" android:layout_width="0.0dip" android:layout_height="fill_parent" android:foreground="@drawable/autonav_touch_feedback" android:layout_weight="1.0" android:layout_marginStart="4.0dip" android:layout_marginEnd="16.0dip">
+                <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:textAppearance="?ytTextAppearanceButton" android:textColor="?ytOverlayTextPrimary" android:ellipsize="end" android:gravity="center" android:id="@id/play_text" android:layout_width="fill_parent" android:layout_height="fill_parent" android:maxLines="1" android:importantForAccessibility="no" />
+            </FrameLayout>
+        </LinearLayout>
+    </LinearLayout>
+</merge>

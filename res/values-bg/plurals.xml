@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="accessibility_dislike_video_plural">
+        <item quantity="other">Бутон „Не ми харесва“. Още %1$d души не харесват този видеоклип</item>
+        <item quantity="one">Бутон „Не ми харесва“. Още %1$d човек не харесва този видеоклип</item>
+    </plurals>
+    <plurals name="accessibility_dtts_fast_forward">
+        <item quantity="other">Превъртане с %1$d секунди напред</item>
+        <item quantity="one">Превъртане с %1$d секунда напред</item>
+    </plurals>
+    <plurals name="accessibility_dtts_rewind">
+        <item quantity="other">Превъртане с %1$d секунди назад</item>
+        <item quantity="one">Превъртане с %1$d секунда назад</item>
+    </plurals>
+    <plurals name="accessibility_duration_description_hours">
+        <item quantity="other">%d часа</item>
+        <item quantity="one">%d час</item>
+    </plurals>
+    <plurals name="accessibility_duration_description_minutes">
+        <item quantity="other">%d минути</item>
+        <item quantity="one">%d минута</item>
+    </plurals>
+    <plurals name="accessibility_duration_description_seconds">
+        <item quantity="other">%d секунди</item>
+        <item quantity="one">%d секунда</item>
+    </plurals>
+    <plurals name="accessibility_like_video_plural">
+        <item quantity="other">Бутон „Харесва ми”. Още %1$d души харесват този видеоклип</item>
+        <item quantity="one">Бутон „Харесва ми”. Още %1$d човек харесва този видеоклип</item>
+    </plurals>
+    <plurals name="accessibility_skip_ad_in">
+        <item quantity="other">Пропускане на рекламата след %1$d секунди</item>
+        <item quantity="one">Пропускане на рекламата след 1 секунда</item>
+    </plurals>
+    <plurals name="accessibility_undo_dislike_video_plural">
+        <item quantity="other">Бутон „Отмяна на нехаресването“. Още %1$d души не харесват този видеоклип</item>
+        <item quantity="one">Бутон „Отмяна на нехаресването“. Още %1$d човек не харесва този видеоклип</item>
+    </plurals>
+    <plurals name="accessibility_undo_like_video_plural">
+        <item quantity="other">Бутон „Отмяна на харесването“. Още %1$d души харесват този видеоклип</item>
+        <item quantity="one">Бутон „Отмяна на харесването“. Още %1$d човек харесва този видеоклип</item>
+    </plurals>
+    <plurals name="download_new_videos_button_text">
+        <item quantity="other">Изтегляне на %1$d нови видеоклипа</item>
+        <item quantity="one">Изтегляне на %1$d нов видеоклип</item>
+    </plurals>
+    <plurals name="download_playlist_unplayable_future_days_plural">
+        <item quantity="other">След %1$d дни за някои видеоклипове ще се изисква Premium</item>
+        <item quantity="one">След %1$d ден за някои видеоклипове ще се изисква Premium</item>
+    </plurals>
+    <plurals name="download_playlist_unplayable_future_hours_plural">
+        <item quantity="other">След %1$d часа за някои видеоклипове ще се изисква Premium</item>
+        <item quantity="one">След %1$d час за някои видеоклипове ще се изисква Premium</item>
+    </plurals>
+    <plurals name="download_playlist_unplayable_future_minutes_plural">
+        <item quantity="other">След %1$d минути за някои видеоклипове ще се изисква Premium</item>
+        <item quantity="one">След %1$d минута за някои видеоклипове ще се изисква Premium</item>
+    </plurals>
+    <plurals name="download_video_unplayable_future_days_plural">
+        <item quantity="other">След %1$d дни ще се изисква Premium</item>
+        <item quantity="one">След %1$d ден ще се изисква Premium</item>
+    </plurals>
+    <plurals name="download_video_unplayable_future_hours_plural">
+        <item quantity="other">След %1$d часа ще се изисква Premium</item>
+        <item quantity="one">След %1$d час ще се изисква Premium</item>
+    </plurals>
+    <plurals name="download_video_unplayable_future_minutes_plural">
+        <item quantity="other">След %1$d минути ще се изисква Premium</item>
+        <item quantity="one">След %1$d минута ще се изисква Premium</item>
+    </plurals>
+    <plurals name="duration_minutes">
+        <item quantity="other">%1$d минути</item>
+        <item quantity="zero">0 минути</item>
+        <item quantity="one">1 минута</item>
+        <item quantity="two">2 минути</item>
+        <item quantity="few">%1$d минути</item>
+        <item quantity="many">%1$d минути</item>
+    </plurals>
+    <plurals name="duration_seconds">
+        <item quantity="other">%1$d секунди</item>
+        <item quantity="zero">0 секунди</item>
+        <item quantity="one">1 секунда</item>
+        <item quantity="two">2 секунди</item>
+        <item quantity="few">%1$d секунди</item>
+        <item quantity="many">%1$d секунди</item>
+    </plurals>
+    <plurals name="frequency_hours_component">
+        <item quantity="other">%1$d часа</item>
+        <item quantity="one">%1$d час</item>
+    </plurals>
+    <plurals name="frequency_hours_only">
+        <item quantity="other">На всеки %1$d часа</item>
+        <item quantity="one">На всеки 1 час</item>
+    </plurals>
+    <plurals name="frequency_minutes_component">
+        <item quantity="other">%1$d минути</item>
+        <item quantity="one">%1$d минута</item>
+    </plurals>
+    <plurals name="frequency_minutes_only">
+        <item quantity="other">На всеки %1$d минути</item>
+        <item quantity="one">На всяка 1 минута</item>
+    </plurals>
+    <plurals name="image_picker_title">
+        <item quantity="other">Избрахте %1$d</item>
+        <item quantity="one">Избрахте %1$d</item>
+    </plurals>
+    <plurals name="invalid_uploads_error_msg">
+        <item quantity="other">Един или повече видеофайлове не са налице или са невалидни. Моля, опитайте отново или изберете други.</item>
+        <item quantity="one">Видеофайлът не е налице или е невалиден. Моля, опитайте отново или изберете друг.</item>
+    </plurals>
+    <plurals name="last_update_in_days_message">
+        <item quantity="other">Актуализирани преди %1$d дни</item>
+        <item quantity="one">Актуализирани вчера</item>
+    </plurals>
+    <plurals name="last_update_in_hours_message">
+        <item quantity="other">Актуализирани преди %1$d часа</item>
+        <item quantity="one">Актуализирани преди %1$d час</item>
+    </plurals>
+    <plurals name="last_update_in_minutes_message">
+        <item quantity="other">Актуализирано преди %1$d минути</item>
+        <item quantity="one">Актуализирано преди %1$d минута</item>
+    </plurals>
+    <plurals name="last_update_in_weeks_message">
+        <item quantity="other">Актуализирани преди %1$d седмици</item>
+        <item quantity="one">Актуализирани преди %1$d седмица</item>
+    </plurals>
+    <plurals name="notification_playlist_progress_size">
+        <item quantity="other">%1$d от %2$d видеоклипа</item>
+        <item quantity="one">%1$d от 1 видеоклип</item>
+    </plurals>
+    <plurals name="offline_go_online_to_renew_dialog_message">
+        <item quantity="other">Изтегленото съдържание остава достъпно, при условие че устройството ви има връзка с интернет на всеки %1$d дни. Този процес се извършва автоматично и не води до повторно изтегляне на видеоклипа.</item>
+        <item quantity="one">Изтегленото съдържание остава достъпно, при условие че устройството ви има връзка с интернет всеки ден. Този процес се извършва автоматично и не води до повторно изтегляне на видеоклипа.</item>
+    </plurals>
+    <plurals name="offline_go_online_to_renew_snackbar_message">
+        <item quantity="other">При липса на връзка с интернет изтегленото съдържание остава достъпно за %1$d дни.</item>
+        <item quantity="one">При липса на връзка с интернет изтегленото съдържание остава достъпно за 1 ден.</item>
+    </plurals>
+    <plurals name="offline_remember_setting_for_days">
+        <item quantity="other">Запомняне на настройките ми за %1$d дни</item>
+        <item quantity="one">Запомняне на настройките ми за 1 ден</item>
+    </plurals>
+    <plurals name="playlist_picker_dialog_done">
+        <item quantity="other">Плейлистите са актуализирани</item>
+        <item quantity="one">Плейлистът е актуализиран</item>
+    </plurals>
+    <plurals name="playlist_size">
+        <item quantity="other">%1$,d видеоклипа</item>
+        <item quantity="one">1 видеоклип</item>
+    </plurals>
+    <plurals name="playlist_size_downloaded">
+        <item quantity="other">Изтеглени: %1$,d</item>
+        <item quantity="one">Изтеглени: %1$,d</item>
+    </plurals>
+    <plurals name="playlist_size_total">
+        <item quantity="other">%1$,d видеоклипа</item>
+        <item quantity="one">1 видеоклип</item>
+    </plurals>
+    <plurals name="public_notification_text">
+        <item quantity="other">%1$d new notifications</item>
+        <item quantity="one">You have a notification</item>
+    </plurals>
+    <plurals name="quick_seek_x_second">
+        <item quantity="other">%d секунди</item>
+        <item quantity="one">%d секунда</item>
+    </plurals>
+    <plurals name="recommendation_count">
+        <item quantity="other">%1$d препоръки</item>
+        <item quantity="one">1 препоръка</item>
+    </plurals>
+    <plurals name="rental_expiry_notice">
+        <item quantity="other">Можете да гледате този видеоклип за период от %1$d часа след стартирането му.</item>
+        <item quantity="one">Можете да гледате този видеоклип за период от 1 час след стартирането му.</item>
+    </plurals>
+    <plurals name="rental_long_days_remaining">
+        <item quantity="other">Изтича след %1$d дни</item>
+        <item quantity="one">Изтича след 1 ден</item>
+    </plurals>
+    <plurals name="rental_long_hours_remaining">
+        <item quantity="other">Изтича след %1$d часа</item>
+        <item quantity="one">Изтича след 1 час</item>
+    </plurals>
+    <plurals name="rental_long_weeks_remaining">
+        <item quantity="other">Изтича след %1$d седмици</item>
+        <item quantity="one">Изтича след 1 седмица</item>
+    </plurals>
+    <plurals name="rental_medium_days_remaining">
+        <item quantity="other">Достъпът изтича след %1$d дни</item>
+        <item quantity="one">Достъпът изтича след 1 ден</item>
+    </plurals>
+    <plurals name="rental_medium_hours_remaining">
+        <item quantity="other">Достъпът изтича след %1$d часа</item>
+        <item quantity="one">Достъпът изтича след 1 час</item>
+    </plurals>
+    <plurals name="rental_medium_weeks_remaining">
+        <item quantity="other">Достъпът изтича след %1$d седмици</item>
+        <item quantity="one">Достъпът изтича след 1 седмица</item>
+    </plurals>
+    <plurals name="selected_video_count">
+        <item quantity="other">Избрани са %1$d видеоклипа</item>
+        <item quantity="one">Избран е 1 видеоклип</item>
+    </plurals>
+    <plurals name="shorts_a11y_duration_seconds">
+        <item quantity="other">%1$s секунди</item>
+        <item quantity="one">%1$s секунда</item>
+    </plurals>
+    <plurals name="shorts_a11y_timer_duration_seconds">
+        <item quantity="other">%1$d-секунден таймер</item>
+        <item quantity="one">%1$d-секунден таймер</item>
+    </plurals>
+    <plurals name="shorts_a11y_timer_started">
+        <item quantity="other">Активирахте %1$d-секунден таймер</item>
+        <item quantity="one">Активирахте %1$d-секунден таймер</item>
+    </plurals>
+    <plurals name="smart_downloads_future_update_text">
+        <item quantity="other">Ще се актуализират автоматично след %1$d дни</item>
+        <item quantity="one">Ще се актуализират автоматично след 1 ден</item>
+    </plurals>
+    <plurals name="sticker_dialog_title">
+        <item quantity="other">Опитайте отново след %1$d дни</item>
+        <item quantity="one">Опитайте отново след 1 ден</item>
+    </plurals>
+    <plurals name="too_many_external_uploads_error_msg">
+        <item quantity="other">Във всеки един момент можете да качвате само по %1$d видеоклипа.</item>
+        <item quantity="one">Във всеки един момент можете да качвате само по %1$d видеоклип.</item>
+    </plurals>
+    <plurals name="transcoding_progress">
+        <item quantity="other">Подготвят се %1$,d%%</item>
+        <item quantity="one">Подготвя се %1$,d%%</item>
+    </plurals>
+    <plurals name="trim_segment_max_length">
+        <item quantity="other">Максимална дължина: %1$d секунди</item>
+        <item quantity="one">Максимална дължина: 1 секунда</item>
+    </plurals>
+    <plurals name="trim_switch_edu">
+        <item quantity="other">Отрязване на видеоклипа с(ъс) %1$d сек и добавяне на музика</item>
+        <item quantity="one">Отрязване на видеоклипа с 1 сек и добавяне на музика</item>
+    </plurals>
+    <plurals name="trim_switch_edu_full_length_shorts">
+        <item quantity="other">Скъсете видеоклипа до %1$d секунди или по-малко</item>
+        <item quantity="one">Скъсете видеоклипа до 1 секунда или по-малко</item>
+    </plurals>
+    <plurals name="upload_hours_remaing">
+        <item quantity="other">Остават около %1$,d часа</item>
+        <item quantity="one">Остава около %1$,d час</item>
+    </plurals>
+    <plurals name="upload_indicator_all_completed">
+        <item quantity="other">Качени са %d видеоклипа</item>
+        <item quantity="one">Видеоклипът е качен</item>
+    </plurals>
+    <plurals name="upload_indicator_all_failed">
+        <item quantity="other">Никой от видеоклиповете ви не бе качен</item>
+        <item quantity="one">Видеоклипът ви не бе качен</item>
+    </plurals>
+    <plurals name="upload_indicator_all_uploading">
+        <item quantity="other">Качват се %d видеоклипа</item>
+        <item quantity="one">Видеоклипът се качва</item>
+    </plurals>
+    <plurals name="upload_indicator_partial_fail">
+        <item quantity="other">Качването на %1$d от %2$d видеоклипа не бе успешно</item>
+        <item quantity="one">Качването на %1$d от %2$d видеоклипа не бе успешно</item>
+    </plurals>
+    <plurals name="upload_indicator_uploading_and_completed_completed_part">
+        <item quantity="other">Качени са %d</item>
+        <item quantity="one">Качен е %d</item>
+    </plurals>
+    <plurals name="upload_indicator_uploading_and_completed_uploading_part">
+        <item quantity="other">Още се качват %d</item>
+        <item quantity="one">Още се качва %d</item>
+    </plurals>
+    <plurals name="upload_minutes_remaing">
+        <item quantity="other">Остават около %1$,d минути</item>
+        <item quantity="one">Остава около %1$,d минута</item>
+    </plurals>
+    <plurals name="upload_notification_active_progress">
+        <item quantity="other">Качват се %1$d от %2$d видеоклипа</item>
+        <item quantity="one">Качва се 1 видеоклип</item>
+    </plurals>
+    <plurals name="upload_progress">
+        <item quantity="other">Качени са %1$,d%%</item>
+        <item quantity="one">Качен е %1$,d%%</item>
+    </plurals>
+    <plurals name="upload_seconds_remaing">
+        <item quantity="other">Остават около %1$,d секунди</item>
+        <item quantity="one">Остава около %1$,d секунда</item>
+    </plurals>
+    <plurals name="uploads_failed">
+        <item quantity="other">%1$,d качвания не бяха успешни</item>
+        <item quantity="one">Качването не бе успешно</item>
+    </plurals>
+    <plurals name="uploads_failed_with_in_progress_videos">
+        <item quantity="other">%1$,d/%2$,d качвания не бяха успешни</item>
+        <item quantity="one">%1$,d/%2$,d качвания не бе успешно</item>
+    </plurals>
+    <plurals name="uploads_in_progress">
+        <item quantity="other">Качват се %1$,d</item>
+        <item quantity="one">Качва се %1$,d</item>
+    </plurals>
+    <plurals name="user_education_quick_seek">
+        <item quantity="other">Докоснете двукратно отляво или отдясно за пропускане с(ъс) %d секунди</item>
+        <item quantity="one">Докоснете двукратно отляво или отдясно за пропускане с %d секунда</item>
+    </plurals>
+    <plurals name="video_count">
+        <item quantity="other">%1$d видеоклипа</item>
+        <item quantity="one">1 видеоклип</item>
+    </plurals>
+</resources>

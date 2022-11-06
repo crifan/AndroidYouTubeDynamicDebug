@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:name="ic_flash_disable" android:height="48.0dip" android:width="48.0dip" android:viewportWidth="48.0" android:viewportHeight="48.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:name="ic_signal_location" android:translateX="21.9995" android:translateY="24.0">
+        <group android:name="ic_signal_location_pivot" android:translateX="-23.21545" android:translateY="-18.86649">
+            <group android:name="cross">
+                <path android:name="cross_0" android:pathData="M 6.45808410645,2.1716003418 c 0.0,0.0 -0.00002,-0.00041198730469 -0.00002,-0.00041198730469" android:strokeColor="@color/yt_white1" android:strokeWidth="3.5" />
+            </group>
+        </group>
+    </group>
+    <group android:name="ic_flash_on_white_48dp_outlines" android:translateX="24.0" android:translateY="24.0">
+        <group android:name="ic_flash_on_white_48dp_outlines_pivot" android:translateX="-24.0" android:translateY="-24.0">
+            <clip-path android:name="mask" android:pathData="M 37.6150360107,-35.3291168213 c 0.0,0.0 -35.8077850342,31.5523681641 -35.8077850342,31.5523681641 c 0.0,0.0 7.3759765625,7.55285644531 7.3759765625,7.55285644531 c 0.0,0.0 -2.61698913574,2.09387207031 -2.61698913574,2.09387207031 c 0.0,0.0 -7.57595825195,-7.56428527832 -7.57595825195,-7.56428527832 c 0.0,0.0 -34.6200408936,25.4699249268 -34.6200408936,25.4699249268 c 0.0,0.0 55.9664764404,69.742401123 55.9664764404,69.742401123 c 0.0,0.0 73.2448120117,-59.1047973633 73.2448120117,-59.1047973633 c 0.0,0.0 -55.9664916992,-69.7423400879 -55.9664916992,-69.7423400879 Z" />
+            <group android:name="group_1" android:translateX="24.0" android:translateY="24.0">
+                <path android:name="path_1" android:fillColor="@color/yt_white1" android:pathData="M -10.0,-20.0 c 0.0,0.0 0.0,22.0 0.0,22.0 c 0.0,0.0 6.0,0.0 6.0,0.0 c 0.0,0.0 0.0,18.0 0.0,18.0 c 0.0,0.0 14.0,-24.0 14.0,-24.0 c 0.0,0.0 -8.0,0.0 -8.0,0.0 c 0.0,0.0 8.0,-16.0 8.0,-16.0 c 0.0,0.0 -20.0,0.0 -20.0,0.0 Z" />
+            </group>
+        </group>
+    </group>
+</vector>

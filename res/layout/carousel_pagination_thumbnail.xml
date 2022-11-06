@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="4.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/thumbnail" android:layout_width="@dimen/carousel_pagination_thumbnail_width" android:layout_height="@dimen/carousel_pagination_thumbnail_height" android:scaleType="centerCrop" android:contentDescription="@null" />
+    <View android:id="@id/selected_position_indicator" android:background="?ytOverlayIconActiveOther" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="2.0dip" android:layout_marginTop="2.0dip" />
+</LinearLayout>

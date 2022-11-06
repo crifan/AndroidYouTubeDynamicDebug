@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<View android:background="@drawable/chip_divider_vertical" android:layout_width="@dimen/chip_divider_container_width" android:layout_height="@dimen/chip_divider_container_height" android:minWidth="@dimen/chip_divider_container_width" android:minHeight="@dimen/chip_divider_container_height"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:yt="http://schemas.android.com/apk/res-auto" />

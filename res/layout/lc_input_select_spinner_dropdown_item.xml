@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:padding="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/icon" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentTop="true" android:importantForAccessibility="no" android:layout_marginEnd="@dimen/lc_activity_horizontal_margin" />
+    <TextView android:textAppearance="?android:textAppearanceMedium" android:textSize="@dimen/body_text_size" android:textColor="@color/lc_white" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentTop="true" android:layout_toEndOf="@id/icon" />
+    <TextView android:textAppearance="?android:textAppearanceMedium" android:textSize="@dimen/small_title_text_size" android:textColor="@color/lc_white" android:id="@id/subtitle" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/title" android:layout_toEndOf="@id/icon" />
+    <ImageView android:id="@id/help_button_audience_settings_spinner" android:background="?selectableItemBackground" android:visibility="gone" android:layout_width="@dimen/pre_stream_spinner_help_button_width" android:layout_height="@dimen/pre_stream_spinner_help_button_height" android:tint="@color/yt_grey1" android:layout_centerVertical="true" android:contentDescription="@null" android:layout_marginEnd="17.0dip" android:layout_alignParentEnd="true" />
+</RelativeLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="?android:selectableItemBackground" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:paddingTop="16.0dip" android:paddingBottom="16.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" android:paddingStart="?android:listPreferredItemPaddingStart">
+        <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:textAppearance="@style/TextAppearance.AppCompat.Subhead" android:textColor="?android:textColorPrimary" android:id="@id/title" android:fadingEdge="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" android:layout_alignParentTop="true" android:textAlignment="viewStart" android:layout_alignParentStart="true" />
+        <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:textAppearance="@style/TextAppearance.AppCompat.Body1" android:textColor="?android:textColorSecondary" android:id="@id/summary" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="10" android:layout_below="@id/title" android:layout_alignWithParentIfMissing="true" android:textAlignment="viewStart" />
+    </RelativeLayout>
+    <Switch android:layout_gravity="center_vertical" android:id="@id/switch_button" android:background="@null" android:paddingTop="16.0dip" android:paddingBottom="16.0dip" android:focusable="false" android:layout_width="wrap_content" android:layout_height="fill_parent" android:paddingStart="16.0dip" android:paddingEnd="?android:listPreferredItemPaddingEnd" />
+</LinearLayout>

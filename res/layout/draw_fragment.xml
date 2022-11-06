@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/draw_layout" android:background="@color/yt_black_pure_opacity10" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/ink_holder" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="50.0dip" />
+    <TextView android:textSize="@dimen/advanced_text_options_bar_font_size" android:textColor="@color/yt_white1" android:layout_gravity="end|center|top" android:id="@id/draw_done_button" android:background="@drawable/draw_button_background" android:paddingLeft="@dimen/draw_done_button_horizontal_padding" android:paddingTop="@dimen/draw_done_button_vertical_padding" android:paddingRight="@dimen/draw_done_button_horizontal_padding" android:paddingBottom="@dimen/draw_done_button_vertical_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/draw_done_button_margin" android:layout_marginRight="@dimen/draw_done_button_margin" android:text="@string/reel_advanced_text_options_done" android:fontFamily="sans-serif-medium" />
+</FrameLayout>

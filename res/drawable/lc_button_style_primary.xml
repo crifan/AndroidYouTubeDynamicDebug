@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ripple android:color="?colorControlHighlight"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@android:id/mask">
+        <color android:color="@color/yt_white1" />
+    </item>
+    <item>
+        <selector>
+            <item android:state_enabled="true">
+                <shape android:shape="rectangle">
+                    <solid android:color="@color/lc_button_style_primary_background" />
+                    <corners android:radius="@dimen/lc_button_corner_radius" />
+                </shape>
+            </item>
+            <item android:state_enabled="false">
+                <shape android:shape="rectangle">
+                    <solid android:color="@color/lc_button_style_disabled_background" />
+                    <corners android:radius="@dimen/lc_button_corner_radius" />
+                </shape>
+            </item>
+        </selector>
+    </item>
+</ripple>

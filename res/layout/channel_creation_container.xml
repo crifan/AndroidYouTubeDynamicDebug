@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:minWidth="@dimen/channel_creation_min_width" android:minHeight="@dimen/channel_creation_min_height">
+        <include layout="@layout/channel_creation_form" />
+        <ProgressBar android:layout_gravity="center" android:id="@id/progress_bar" android:layout_width="fill_parent" android:layout_height="fill_parent" style="?android:progressBarStyleLarge" />
+    </FrameLayout>
+</ScrollView>

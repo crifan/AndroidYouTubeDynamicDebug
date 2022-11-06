@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/custom_notification_basic_thumbnail_text_layout" android:paddingTop="16.0dip" android:paddingBottom="16.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:baselineAligned="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:ellipsize="end" android:id="@id/custom_notification_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:paddingStart="16.0dip" android:paddingEnd="16.0dip" style="@style/NotificationTitle" />
+    <TextView android:ellipsize="end" android:id="@id/custom_notification_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:paddingStart="16.0dip" android:paddingEnd="16.0dip" style="@style/NotificationText" />
+    <LinearLayout android:orientation="horizontal" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:baselineAligned="false">
+        <FrameLayout android:id="@id/first_survey_option_click" android:background="?android:actionBarItemBackground" android:paddingTop="8.0dip" android:paddingBottom="8.0dip" android:focusable="true" android:visibility="gone" android:clickable="true" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <ImageView android:layout_gravity="center" android:id="@id/first_survey_option" android:layout_width="24.0dip" android:layout_height="24.0dip" android:scaleType="fitXY" android:adjustViewBounds="true" android:tint="@color/survey_smiley" android:contentDescription="@null" />
+        </FrameLayout>
+        <FrameLayout android:id="@id/second_survey_option_click" android:background="?android:actionBarItemBackground" android:paddingTop="8.0dip" android:paddingBottom="8.0dip" android:focusable="true" android:visibility="gone" android:clickable="true" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <ImageView android:layout_gravity="center" android:id="@id/second_survey_option" android:layout_width="24.0dip" android:layout_height="24.0dip" android:scaleType="fitXY" android:adjustViewBounds="true" android:tint="@color/survey_smiley" android:contentDescription="@null" />
+        </FrameLayout>
+        <FrameLayout android:id="@id/third_survey_option_click" android:background="?android:actionBarItemBackground" android:paddingTop="8.0dip" android:paddingBottom="8.0dip" android:focusable="true" android:visibility="gone" android:clickable="true" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <ImageView android:layout_gravity="center" android:id="@id/third_survey_option" android:layout_width="24.0dip" android:layout_height="24.0dip" android:scaleType="fitXY" android:adjustViewBounds="true" android:tint="@color/survey_smiley" android:contentDescription="@null" />
+        </FrameLayout>
+        <FrameLayout android:id="@id/fourth_survey_option_click" android:background="?android:actionBarItemBackground" android:paddingTop="8.0dip" android:paddingBottom="8.0dip" android:focusable="true" android:visibility="gone" android:clickable="true" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <ImageView android:layout_gravity="center" android:id="@id/fourth_survey_option" android:layout_width="24.0dip" android:layout_height="24.0dip" android:scaleType="fitXY" android:adjustViewBounds="true" android:tint="@color/survey_smiley" android:contentDescription="@null" />
+        </FrameLayout>
+        <FrameLayout android:id="@id/fifth_survey_option_click" android:background="?android:actionBarItemBackground" android:paddingTop="8.0dip" android:paddingBottom="8.0dip" android:focusable="true" android:visibility="gone" android:clickable="true" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <ImageView android:layout_gravity="center" android:id="@id/fifth_survey_option" android:layout_width="24.0dip" android:layout_height="24.0dip" android:scaleType="fitXY" android:adjustViewBounds="true" android:tint="@color/survey_smiley" android:contentDescription="@null" />
+        </FrameLayout>
+    </LinearLayout>
+</LinearLayout>

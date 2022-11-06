@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:custom="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:gravity="center_horizontal" android:id="@id/phone_entry_container" android:background="?ytBrandBackgroundSolid" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <include android:id="@id/top_bar" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true" layout="@layout/verification_fragment_top_bar" />
+        <TextView android:textSize="@dimen/av_title_text_size" android:textColor="?ytTextPrimary" android:gravity="center_horizontal" android:id="@id/title" android:padding="@dimen/av_title_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/top_bar" android:lineSpacingMultiplier="@dimen/av_paragraph_line_spacing_normal" />
+        <com.google.android.libraries.youtube.account.verification.ui.CodeInputView android:id="@id/code_input_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/av_margin_large" android:layout_below="@id/title" custom:codeTextColor="?ytTextPrimary" custom:codeTextSize="@dimen/av_code_input_view_text_size" custom:underlineColorActive="?ytThemedBlue" custom:underlineColorInactive="?ytGeneralBackgroundC" custom:underlineThicknessActive="@dimen/av_code_input_underline_height_active" custom:underlineThicknessInactive="@dimen/av_code_input_underline_height_inactive" />
+        <android.support.v4.widget.ContentLoadingProgressBar android:id="@id/progress_bar" android:visibility="gone" android:layout_width="@dimen/av_progress_bar_size" android:layout_height="@dimen/av_progress_bar_size" android:layout_centerInParent="true" style="@style/VerificationProgressBarStyle" />
+    </RelativeLayout>
+</ScrollView>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="@dimen/av_empty_dimen_for_weight" android:layout_height="wrap_content" android:layout_weight="1.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.libraries.youtube.account.verification.ui.CodeInputEditText android:gravity="center_horizontal" android:id="@id/digit" android:background="@android:color/transparent" android:paddingBottom="@dimen/av_code_input_edittext_padding_bottom" android:saveEnabled="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:cursorVisible="false" android:maxLength="1" android:digits="\ 1234567890" android:inputType="number" android:imeOptions="flagNoExtractUi" android:textIsSelectable="false" />
+    <View android:layout_gravity="bottom" android:id="@id/underline" android:layout_width="fill_parent" android:layout_height="@dimen/av_code_input_underline_height_active" android:layout_marginBottom="@dimen/av_code_input_underline_margin_bottom" />
+</FrameLayout>

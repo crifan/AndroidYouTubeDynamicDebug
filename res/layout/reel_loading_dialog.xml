@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ProgressBar android:layout_width="@dimen/reel_loading_dialog_spinner_size" android:layout_height="@dimen/reel_loading_dialog_spinner_size" android:layout_marginTop="@dimen/reel_loading_dialog_spinner_margin_vertical" android:layout_marginBottom="@dimen/reel_loading_dialog_spinner_margin_vertical" android:layout_marginStart="@dimen/reel_loading_dialog_spinner_margin_left" android:layout_marginEnd="@dimen/reel_loading_dialog_spinner_margin_right" style="@style/ReelEditToolsLoadingDialogSpinner" />
+    <TextView android:textSize="@dimen/reel_loading_dialog_text_size" android:textColor="@color/yt_grey5" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/reel_loading_dialog_text" android:layout_marginEnd="@dimen/reel_loading_dialog_text_margin_right" />
+</LinearLayout>

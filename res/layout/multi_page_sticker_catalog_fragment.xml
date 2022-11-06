@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/sticker_loading_layout" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <include layout="@layout/sticker_catalog_header" />
+        <com.google.android.libraries.youtube.common.ui.RtlAwareViewPager android:id="@id/sticker_catalog_page" android:background="@color/yt_black2" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    </LinearLayout>
+</FrameLayout>

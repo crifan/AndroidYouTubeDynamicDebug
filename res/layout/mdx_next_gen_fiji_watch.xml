@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.apps.youtube.app.mdx.watch.MdxWatchDrawerLayout android:id="@id/mdx_next_gen_fiji_drawer_layout" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/mdx_drawer_scrim" android:background="?ytGeneralBackgroundA" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <FrameLayout android:id="@id/mdx_drawer" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <include layout="@layout/mdx_next_gen_fiji_remote_queue" />
+        <ViewStub android:id="@id/mdx_minibar_stub" android:layout_width="fill_parent" android:layout_height="64.0dip" />
+        <ImageView android:layout_gravity="end|center|top" android:id="@id/minibar_toggle" android:layout_width="48.0dip" android:layout_height="48.0dip" android:src="@drawable/yt_outline_chevron_up_white_24" android:scaleType="center" android:contentDescription="@string/mdx_minibar_toggle_description" />
+    </FrameLayout>
+</com.google.android.apps.youtube.app.mdx.watch.MdxWatchDrawerLayout>

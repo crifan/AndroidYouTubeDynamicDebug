@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="center_vertical" android:orientation="horizontal" android:id="@id/sign_in_promo" android:background="@color/sign_in_promo_background" android:layout_width="fill_parent" android:layout_height="72.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:yt="http://schemas.android.com/apk/res-auto">
+    <com.google.android.libraries.youtube.common.ui.CircularImageView android:id="@id/account_thumbnail" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_marginLeft="16.0dip" android:layout_marginTop="16.0dip" android:layout_marginBottom="16.0dip" android:src="@drawable/missing_avatar" android:scaleType="centerCrop" />
+    <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:textSize="@dimen/medium_font_size" android:textColor="@color/sign_in_promo_text_color" android:gravity="center_vertical" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="16.0dip" android:text="@string/account_switcher_sign_in" android:singleLine="true" yt:robotoFont="regular" />
+</LinearLayout>

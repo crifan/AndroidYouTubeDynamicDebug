@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/ad_companion_card_container" android:background="?adBackground1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:baselineAligned="false"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:yt="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:id="@id/ad_companion_card_view" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/thumbnail" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_marginTop="8.0dip" android:layout_marginBottom="8.0dip" android:scaleType="centerCrop" android:layout_centerVertical="true" android:contentDescription="@null" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" android:layout_alignParentStart="true" />
+        <include android:id="@id/contextual_menu_anchor" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_alignParentEnd="true" layout="@layout/companion_contextual_menu" />
+        <include android:id="@id/secondary_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_marginBottom="8.0dip" android:layout_centerVertical="true" android:layout_alignWithParentIfMissing="true" android:layout_toStartOf="@id/contextual_menu_anchor" layout="@layout/ad_thumbnail_details_button" />
+        <include android:id="@id/action_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="8.0dip" android:layout_centerVertical="true" android:layout_alignWithParentIfMissing="true" android:layout_marginStart="2.0dip" android:layout_toStartOf="@id/secondary_button" layout="@layout/companion_cta_button" />
+        <FrameLayout android:id="@id/title_container" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_marginEnd="8.0dip" android:layout_toStartOf="@id/action_button" android:layout_toEndOf="@id/thumbnail">
+            <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:textSize="@dimen/medium_font_size" android:textColor="?adText3" android:ellipsize="end" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" yt:robotoFont="regular" />
+        </FrameLayout>
+        <include android:id="@id/ad_badge" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:layout_below="@id/title_container" android:layout_alignTop="@id/description_container" android:layout_marginEnd="8.0dip" android:layout_toEndOf="@id/thumbnail" layout="@layout/standalone_ad_badge_small" />
+        <FrameLayout android:id="@id/description_container" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="8.0dip" android:layout_below="@id/title_container" android:layout_marginEnd="8.0dip" android:layout_toStartOf="@id/action_button" android:layout_toEndOf="@id/ad_badge">
+            <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:textSize="@dimen/small_font_size" android:textColor="?adText4" android:ellipsize="end" android:id="@id/description" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" yt:robotoFont="regular" />
+        </FrameLayout>
+    </RelativeLayout>
+    <ViewStub android:id="@id/companion_extension_stub" android:layout="@layout/companion_extension" android:inflatedId="@id/companion_extension" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <View android:id="@id/separator" android:background="?adSeparator1" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+</LinearLayout>

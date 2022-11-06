@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/metadata_badge" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="@dimen/metadata_badge_padding" android:paddingEnd="@dimen/metadata_badge_padding"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:yt="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/badge_icon" android:layout_width="@dimen/metadata_badge_icon_size" android:layout_height="@dimen/metadata_badge_icon_size" android:layout_marginTop="@dimen/metadata_badge_padding" android:layout_marginBottom="@dimen/metadata_badge_padding" android:contentDescription="@null" />
+    <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:textSize="@dimen/metadata_badge_font_size" android:ellipsize="end" android:gravity="start" android:id="@id/badge_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:paddingStart="@dimen/metadata_badge_padding" android:paddingEnd="@dimen/metadata_badge_padding" yt:robotoFont="medium" />
+</LinearLayout>

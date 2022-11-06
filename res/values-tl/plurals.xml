@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="accessibility_dislike_video_plural">
+        <item quantity="other">Button na i-dislike, %1$d na iba pa ang nag-dislike ng video na ito</item>
+        <item quantity="one">Button na i-dislike, %1$d iba pa ang nag-dislike ng video na ito</item>
+    </plurals>
+    <plurals name="accessibility_dtts_fast_forward">
+        <item quantity="other">I-fast forward ng %1$d na segundo</item>
+        <item quantity="one">I-fast forward ng %1$d segundo</item>
+    </plurals>
+    <plurals name="accessibility_dtts_rewind">
+        <item quantity="other">I-rewind ng %1$d na segundo</item>
+        <item quantity="one">I-rewind ng %1$d segundo</item>
+    </plurals>
+    <plurals name="accessibility_duration_description_hours">
+        <item quantity="other">%d na oras</item>
+        <item quantity="one">%d oras</item>
+    </plurals>
+    <plurals name="accessibility_duration_description_minutes">
+        <item quantity="other">%d na minuto</item>
+        <item quantity="one">%d minuto</item>
+    </plurals>
+    <plurals name="accessibility_duration_description_seconds">
+        <item quantity="other">%d na segundo</item>
+        <item quantity="one">%d segundo</item>
+    </plurals>
+    <plurals name="accessibility_like_video_plural">
+        <item quantity="other">Button na i-like, %1$d na iba pa ang nag-like ng video na ito</item>
+        <item quantity="one">Button na i-like, %1$d iba pa ang nag-like ng video na ito</item>
+    </plurals>
+    <plurals name="accessibility_skip_ad_in">
+        <item quantity="other">Laktawan ang ad sa loob ng %1$d na segundo</item>
+        <item quantity="one">Laktawan ang ad sa loob ng %1$d segundo</item>
+    </plurals>
+    <plurals name="accessibility_undo_dislike_video_plural">
+        <item quantity="other">Button na i-undo ang dislike, %1$d na iba pa ang nag-dislike ng video na ito</item>
+        <item quantity="one">Button na i-undo ang dislike, %1$d iba pa ang nag-dislike ng video na ito</item>
+    </plurals>
+    <plurals name="accessibility_undo_like_video_plural">
+        <item quantity="other">Button na i-undo ang like, %1$d na iba pa ang nag-like ng video na ito</item>
+        <item quantity="one">Button na i-undo ang like, %1$d iba pa ang nag-like ng video na ito</item>
+    </plurals>
+    <plurals name="download_new_videos_button_text">
+        <item quantity="other">Mag-download ng %1$d na bagong video</item>
+        <item quantity="one">Mag-download ng %1$d bagong video</item>
+    </plurals>
+    <plurals name="download_playlist_unplayable_future_days_plural">
+        <item quantity="other">Nangangailangan ng Premium ang ilang video sa loob ng %1$d na araw</item>
+        <item quantity="one">Nangangailangan ng Premium ang ilang video sa loob ng %1$d araw</item>
+    </plurals>
+    <plurals name="download_playlist_unplayable_future_hours_plural">
+        <item quantity="other">Nangangailangan ng Premium ang ilang video sa loob ng %1$d na oras</item>
+        <item quantity="one">Nangangailangan ng Premium ang ilang video sa loob ng %1$d oras</item>
+    </plurals>
+    <plurals name="download_playlist_unplayable_future_minutes_plural">
+        <item quantity="other">Nangangailangan ng Premium ang ilang video sa loob ng %1$d na minuto</item>
+        <item quantity="one">Nangangailangan ng Premium ang ilang video sa loob ng %1$d minuto</item>
+    </plurals>
+    <plurals name="download_video_unplayable_future_days_plural">
+        <item quantity="other">Kailangan Premium sa loob ng %1$d na araw</item>
+        <item quantity="one">Kailangan ang Premium sa loob ng %1$d araw</item>
+    </plurals>
+    <plurals name="download_video_unplayable_future_hours_plural">
+        <item quantity="other">Kailangan Premium sa loob ng %1$d na oras</item>
+        <item quantity="one">Kailangan ang Premium sa loob ng %1$d oras</item>
+    </plurals>
+    <plurals name="download_video_unplayable_future_minutes_plural">
+        <item quantity="other">Kailangan Premium sa loob ng %1$d na minuto</item>
+        <item quantity="one">Kailangan ang Premium sa loob ng %1$d minuto</item>
+    </plurals>
+    <plurals name="duration_minutes">
+        <item quantity="other">%1$d (na) minuto</item>
+        <item quantity="zero">0 minuto</item>
+        <item quantity="one">1 minuto</item>
+        <item quantity="two">2 minuto</item>
+        <item quantity="few">%1$d (na) minuto</item>
+        <item quantity="many">%1$d (na) minuto</item>
+    </plurals>
+    <plurals name="duration_seconds">
+        <item quantity="other">%1$d (na) segundo</item>
+        <item quantity="zero">0 segundo</item>
+        <item quantity="one">1 segundo</item>
+        <item quantity="two">2 segundo</item>
+        <item quantity="few">%1$d (na) segundo</item>
+        <item quantity="many">%1$d (na) segundo</item>
+    </plurals>
+    <plurals name="frequency_hours_component">
+        <item quantity="other">%1$d na oras</item>
+        <item quantity="one">%1$d oras</item>
+    </plurals>
+    <plurals name="frequency_hours_only">
+        <item quantity="other">Bawat %1$d na oras</item>
+        <item quantity="one">Bawat %1$d oras</item>
+    </plurals>
+    <plurals name="frequency_minutes_component">
+        <item quantity="other">%1$d na minuto</item>
+        <item quantity="one">%1$d minuto</item>
+    </plurals>
+    <plurals name="frequency_minutes_only">
+        <item quantity="other">Bawat %1$d na minuto</item>
+        <item quantity="one">Bawat %1$d minuto</item>
+    </plurals>
+    <plurals name="image_picker_title">
+        <item quantity="other">%1$d ang napili</item>
+        <item quantity="one">%1$d ang napili</item>
+    </plurals>
+    <plurals name="invalid_uploads_error_msg">
+        <item quantity="other">Hindi available o invalid ang isa o higit pang video file. Pakisubukan ulit o pumili ng iba.</item>
+        <item quantity="one">Hindi available o invalid ang isa o higit pang video file. Pakisubukan ulit o pumili ng iba.</item>
+    </plurals>
+    <plurals name="last_update_in_days_message">
+        <item quantity="other">Na-update %1$d (na) araw na ang nakalipas</item>
+        <item quantity="one">Na-update %1$d araw na ang nakalipas</item>
+    </plurals>
+    <plurals name="last_update_in_hours_message">
+        <item quantity="other">Na-update %1$d (na) oras ang nakalipas</item>
+        <item quantity="one">Na-update %1$d oras ang nakalipas</item>
+    </plurals>
+    <plurals name="last_update_in_minutes_message">
+        <item quantity="other">Na-update %1$d (na) minuto ang nakalipas</item>
+        <item quantity="one">Na-update %1$d minuto ang nakalipas</item>
+    </plurals>
+    <plurals name="last_update_in_weeks_message">
+        <item quantity="other">Na-update %1$d (na) linggo na ang nakalipas</item>
+        <item quantity="one">Na-update %1$d linggo na ang nakalipas</item>
+    </plurals>
+    <plurals name="notification_playlist_progress_size">
+        <item quantity="other">%1$d sa %2$d na video</item>
+        <item quantity="one">%1$d sa %2$d video</item>
+    </plurals>
+    <plurals name="offline_go_online_to_renew_dialog_message">
+        <item quantity="other">"Mananatiling available ang mga download hangga't may koneksyon sa internet ang iyong device bawat %1$d na araw. Awtomatikong nangyayari ang prosesong ito at hindi dina-download ulit ang video."</item>
+        <item quantity="one">"Mananatiling available ang mga download hangga't may koneksyon sa internet ang iyong device bawat %1$d araw. Awtomatikong nangyayari ang prosesong ito at hindi dina-download ulit ang video."</item>
+    </plurals>
+    <plurals name="offline_go_online_to_renew_snackbar_message">
+        <item quantity="other">Mananatiling available ang mga download sa loob ng %1$d na araw na walang koneksyon sa internet.</item>
+        <item quantity="one">Mananatiling available ang mga download sa loob ng %1$d araw na walang koneksyon sa internet.</item>
+    </plurals>
+    <plurals name="offline_remember_setting_for_days">
+        <item quantity="other">Tandaan ang mga setting ko nang %1$d na araw</item>
+        <item quantity="one">Tandaan ang mga setting ko nang %1$d araw</item>
+    </plurals>
+    <plurals name="playlist_picker_dialog_done">
+        <item quantity="other">Na-update ang mga playlist</item>
+        <item quantity="one">Na-update ang mga playlist</item>
+    </plurals>
+    <plurals name="playlist_size">
+        <item quantity="other">%1$,d na video</item>
+        <item quantity="one">%1$,d video</item>
+    </plurals>
+    <plurals name="playlist_size_downloaded">
+        <item quantity="other">%1$,d ang na-download</item>
+        <item quantity="one">%1$,d ang na-download</item>
+    </plurals>
+    <plurals name="playlist_size_total">
+        <item quantity="other">%1$,d na video</item>
+        <item quantity="one">%1$,d video</item>
+    </plurals>
+    <plurals name="quick_seek_x_second">
+        <item quantity="other">%d na segundo</item>
+        <item quantity="one">%d segundo</item>
+    </plurals>
+    <plurals name="recommendation_count">
+        <item quantity="other">%1$d na rekomendasyon</item>
+        <item quantity="one">%1$d rekomendasyon</item>
+    </plurals>
+    <plurals name="rental_expiry_notice">
+        <item quantity="other">Kapag nasimulan, may %1$d na oras ka para mapanood ang video na ito.</item>
+        <item quantity="one">Kapag nasimulan, may %1$d oras ka para mapanood ang video na ito.</item>
+    </plurals>
+    <plurals name="rental_long_days_remaining">
+        <item quantity="other">Mag-e-expire sa loob ng %1$d na araw</item>
+        <item quantity="one">Mag-e-expire sa loob ng %1$d araw</item>
+    </plurals>
+    <plurals name="rental_long_hours_remaining">
+        <item quantity="other">Mag-e-expire sa loob ng %1$d na oras</item>
+        <item quantity="one">Mag-e-expire sa loob ng %1$d oras</item>
+    </plurals>
+    <plurals name="rental_long_weeks_remaining">
+        <item quantity="other">Mag-e-expire sa loob ng %1$d na linggo</item>
+        <item quantity="one">Mag-e-expire sa loob ng %1$d linggo</item>
+    </plurals>
+    <plurals name="rental_medium_days_remaining">
+        <item quantity="other">Mag-e-expire sa loob ng %1$d na araw</item>
+        <item quantity="one">Mag-e-expire sa loob ng %1$d araw</item>
+    </plurals>
+    <plurals name="rental_medium_hours_remaining">
+        <item quantity="other">Mag-e-expire sa loob ng %1$d na oras</item>
+        <item quantity="one">Mag-e-expire sa loob ng %1$d oras</item>
+    </plurals>
+    <plurals name="rental_medium_weeks_remaining">
+        <item quantity="other">Mag-e-expire sa loob ng %1$d na linggo</item>
+        <item quantity="one">Mag-e-expire sa loob ng %1$d linggo</item>
+    </plurals>
+    <plurals name="selected_video_count">
+        <item quantity="other">%1$d (na) video ang napili</item>
+        <item quantity="one">%1$d video ang napili</item>
+    </plurals>
+    <plurals name="shorts_a11y_duration_seconds">
+        <item quantity="other">%1$s na segundo</item>
+        <item quantity="one">%1$s segundo</item>
+    </plurals>
+    <plurals name="shorts_a11y_timer_duration_seconds">
+        <item quantity="other">%1$d na segundong timer</item>
+        <item quantity="one">%1$d segundong timer</item>
+    </plurals>
+    <plurals name="shorts_a11y_timer_started">
+        <item quantity="other">Na-activate na ang %1$d na segundong timer</item>
+        <item quantity="one">Na-activate na ang %1$d segundong timer</item>
+    </plurals>
+    <plurals name="smart_downloads_future_update_text">
+        <item quantity="other">Awtomatikong mag-a-update ang mga smart download sa %1$d na araw</item>
+        <item quantity="one">Awtomatikong mag-a-update ang mga smart download sa %1$d araw</item>
+    </plurals>
+    <plurals name="sticker_dialog_title">
+        <item quantity="other">Bumalik sa loob ng %1$d na araw</item>
+        <item quantity="one">Bumalik sa loob ng %1$d araw</item>
+    </plurals>
+    <plurals name="too_many_external_uploads_error_msg">
+        <item quantity="other">Puwede ka lang mag-upload ng %1$d na video sa bawat pagkakataon.</item>
+        <item quantity="one">Puwede ka lang mag-upload ng %1$d video sa bawat pagkakataon.</item>
+    </plurals>
+    <plurals name="transcoding_progress">
+        <item quantity="other">Inihahanda ang %1$,d%%</item>
+        <item quantity="one">Inihahanda ang %1$,d%%</item>
+    </plurals>
+    <plurals name="trim_segment_max_length">
+        <item quantity="other">Maximum na %1$d na segundo</item>
+        <item quantity="one">Maximum na %1$d segundo</item>
+    </plurals>
+    <plurals name="trim_switch_edu">
+        <item quantity="other">I-trim ang iyong video sa %1$d na segundo at lagyan ng musika</item>
+        <item quantity="one">I-trim ang iyong video sa %1$d segundo at lagyan ng musika</item>
+    </plurals>
+    <plurals name="trim_switch_edu_full_length_shorts">
+        <item quantity="other">I-trim ang iyong video sa %1$d na segundo o mas mababa</item>
+        <item quantity="one">I-trim ang iyong video sa %1$d segundo o mas mababa</item>
+    </plurals>
+    <plurals name="upload_hours_remaing">
+        <item quantity="other">Humigit-kumulang %1$,d na oras na lang</item>
+        <item quantity="one">Humigit-kumulang %1$,d oras na lang</item>
+    </plurals>
+    <plurals name="upload_indicator_all_completed">
+        <item quantity="other">Na-upload ang %d na video</item>
+        <item quantity="one">Na-upload ang %d video</item>
+    </plurals>
+    <plurals name="upload_indicator_all_failed">
+        <item quantity="other">Hindi ma-upload ang alinman sa mga video mo</item>
+        <item quantity="one">Hindi ma-upload ang alinman sa mga video mo</item>
+    </plurals>
+    <plurals name="upload_indicator_all_uploading">
+        <item quantity="other">Ina-upload ang %d na video</item>
+        <item quantity="one">Ina-upload ang %d video</item>
+    </plurals>
+    <plurals name="upload_indicator_partial_fail">
+        <item quantity="other">Hindi ma-upload ang %1$d sa %2$d na video</item>
+        <item quantity="one">Hindi ma-upload ang %1$d sa %2$d video</item>
+    </plurals>
+    <plurals name="upload_indicator_uploading_and_completed_completed_part">
+        <item quantity="other">%d ang na-upload</item>
+        <item quantity="one">%d ang na-upload</item>
+    </plurals>
+    <plurals name="upload_indicator_uploading_and_completed_uploading_part">
+        <item quantity="other">%d ang ina-upload pa rin</item>
+        <item quantity="one">%d ang ina-upload pa rin</item>
+    </plurals>
+    <plurals name="upload_minutes_remaing">
+        <item quantity="other">Humigit-kumulang %1$,d na minuto na lang</item>
+        <item quantity="one">Humigit-kumulang %1$,d minuto na lang</item>
+    </plurals>
+    <plurals name="upload_notification_active_progress">
+        <item quantity="other">Ina-upload ang %1$d sa %2$d na video</item>
+        <item quantity="one">Ina-upload ang %1$d sa %2$d video</item>
+    </plurals>
+    <plurals name="upload_progress">
+        <item quantity="other">%1$,d%% ang na-upload</item>
+        <item quantity="one">%1$,d%% ang na-upload</item>
+    </plurals>
+    <plurals name="upload_seconds_remaing">
+        <item quantity="other">Humigit-kumulang %1$,d na segundo na lang</item>
+        <item quantity="one">Humigit-kumulang %1$,d segundo na lang</item>
+    </plurals>
+    <plurals name="uploads_failed">
+        <item quantity="other">%1$,d ang hindi na-upload</item>
+        <item quantity="one">%1$,d ang hindi na-upload</item>
+    </plurals>
+    <plurals name="uploads_failed_with_in_progress_videos">
+        <item quantity="other">%1$,d/%2$,d ang hindi na-upload</item>
+        <item quantity="one">%1$,d/%2$,d ang hindi na-upload</item>
+    </plurals>
+    <plurals name="uploads_in_progress">
+        <item quantity="other">%1$,d ang ina-upload</item>
+        <item quantity="one">%1$,d ang ina-upload</item>
+    </plurals>
+    <plurals name="user_education_quick_seek">
+        <item quantity="other">I-double tap pakaliwa o pakanan para lumaktaw ng %d na segundo</item>
+        <item quantity="one">I-double tap pakaliwa o pakanan para lumaktaw ng %d segundo</item>
+    </plurals>
+    <plurals name="video_count">
+        <item quantity="other">%1$d na video</item>
+        <item quantity="one">%1$d video</item>
+    </plurals>
+</resources>

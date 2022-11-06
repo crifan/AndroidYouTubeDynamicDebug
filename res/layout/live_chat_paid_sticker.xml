@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:paddingTop="@dimen/live_chat_paid_message_vertical_padding" android:paddingBottom="@dimen/live_chat_paid_message_vertical_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="12.0dip" android:paddingEnd="12.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:yt="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:id="@id/live_chat_sticker_background" android:background="@drawable/live_chat_paid_sticker_colored_background" android:paddingTop="@dimen/live_chat_sticker_image_margin_top" android:paddingBottom="@dimen/live_chat_sticker_image_margin_top" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/live_chat_text_message_vertical_padding" android:layout_marginStart="12.0dip" android:layout_toStartOf="@id/live_chat_paid_sticker_animation" android:layout_alignParentStart="true">
+            <com.google.android.libraries.youtube.common.ui.CircularImageView android:layout_gravity="center_vertical" android:id="@id/avatar" android:layout_width="@dimen/live_chat_paid_message_avatar_size" android:layout_height="@dimen/live_chat_paid_message_avatar_size" android:contentDescription="@string/live_chat_item_context_menu_cd" />
+            <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="16.0dip">
+                <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:textSize="14.0sp" android:ellipsize="end" android:id="@id/live_chat_paid_sticker_author_name" android:layout_width="wrap_content" android:layout_height="fill_parent" android:singleLine="true" android:includeFontPadding="false" yt:robotoFont="medium" />
+                <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:textSize="@dimen/live_chat_overlay_comment_text_size" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/live_chat_paid_sticker_price" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:includeFontPadding="false" />
+            </LinearLayout>
+        </LinearLayout>
+        <ImageView android:id="@id/live_chat_paid_sticker_animation" android:background="@color/yt_grey1" android:layout_width="fill_parent" android:layout_height="@dimen/live_chat_paid_sticker_height" android:layout_marginTop="8.0dip" android:scaleType="fitStart" android:contentDescription="@null" android:layout_marginEnd="8.0dip" android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+</RelativeLayout>

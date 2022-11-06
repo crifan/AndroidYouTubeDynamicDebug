@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-vector android:drawable="@drawable/camera_flash_enable_icon"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <target android:name="cross_0" android:animation="@animator/camera_flash_disable_cross_animation" />
+    <target android:name="mask" android:animation="@animator/camera_flash_disable_mask_animation" />
+</animated-vector>

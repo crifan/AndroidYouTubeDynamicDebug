@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@color/timeline_bg_color" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:theme="@style/TimelineHighlightTheme" android:layout_gravity="center" android:id="@id/play_pause_button" android:layout_width="@dimen/round_button_diameter" android:layout_height="@dimen/round_button_diameter" android:src="@drawable/play_button" android:tint="@android:color/white" />
+    <Button android:theme="@style/TimelineHighlightTheme" android:textSize="14.0sp" android:layout_gravity="end|center" android:id="@id/done_button" android:background="@drawable/rectangle_button_bg" android:layout_width="wrap_content" android:layout_height="@dimen/timeline_done_button_height" android:minWidth="@dimen/timeline_done_button_width" android:text="@string/done" android:paddingStart="@dimen/timeline_top_bar_button_padding" android:paddingEnd="@dimen/timeline_top_bar_button_padding" android:layout_marginEnd="@dimen/timeline_top_bar_margin_end" />
+    <View android:layout_gravity="bottom" android:background="@color/divider_color" android:layout_width="fill_parent" android:layout_height="@dimen/divider_height" />
+</FrameLayout>

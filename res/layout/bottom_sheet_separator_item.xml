@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="@dimen/bottom_sheet_separator_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:layout_gravity="center" style="@style/HorizontalLine"
+      xmlns:android="http://schemas.android.com/apk/res/android" />
+</FrameLayout>

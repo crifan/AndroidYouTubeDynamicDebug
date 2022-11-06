@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingBottom="@dimen/bottom_sheet_padding_bottom" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:gravity="start|center" android:id="@id/bottom_sheet_title" android:paddingLeft="@dimen/default_content_padding" android:paddingRight="@dimen/default_content_padding" android:layout_width="fill_parent" android:layout_height="@dimen/bottom_sheet_title_height" style="@style/BottomSheetTitleText" />
+    <GridView android:id="@id/bottom_sheet_grid_view" android:paddingLeft="@dimen/bottom_sheet_grid_padding_start_end" android:paddingTop="@dimen/bottom_sheet_grid_padding_top_bottom" android:paddingRight="@dimen/bottom_sheet_grid_padding_start_end" android:paddingBottom="@dimen/bottom_sheet_grid_padding_top_bottom" android:layout_width="fill_parent" android:layout_height="fill_parent" android:horizontalSpacing="0.0dip" android:verticalSpacing="@dimen/bottom_sheet_grid_vertical_spacing" android:stretchMode="columnWidth" android:columnWidth="@dimen/bottom_sheet_grid_column_width" android:numColumns="auto_fit" />
+</LinearLayout>

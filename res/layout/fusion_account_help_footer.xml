@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.libraries.youtube.common.ui.YouTubeTextView android:textColor="?ytCallToAction" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/accounts_help_link" android:background="?selectableItemBackground" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="48.0dip" android:text="@string/learn_more_about_account_options" android:singleLine="true" android:textAlignment="viewStart" android:paddingStart="24.0dip" style="?textAppearanceSubhead"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/image" android:background="#ffff0000" android:layout_width="fill_parent" android:layout_height="0.0dip" android:src="@drawable/phone_into_cardboard" android:scaleType="center" android:minHeight="70.0dip" android:layout_weight="1.0" android:contentDescription="@string/vr_welcome_accessibility_vr_with_phone" />
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="2.0">
+        <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:textAppearance="?textAppearanceHeadline" android:gravity="bottom|center" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="0.0dip" android:text="@string/vr_welcome_experience_vr" android:layout_weight="1.0" android:layout_marginStart="20.0dip" android:layout_marginEnd="20.0dip" />
+        <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:gravity="center_horizontal" android:id="@id/description" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="@string/vr_welcome_watch_videos" android:layout_marginStart="20.0dip" android:layout_marginEnd="20.0dip" />
+        <Button android:id="@id/continue_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:text="@string/vr_welcome_continue" />
+        <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:gravity="center" android:id="@id/dont_have_viewer" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:text="@string/vr_welcome_dont_have_viewer" />
+        <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:gravity="center_horizontal" android:id="@id/link" android:layout_width="wrap_content" android:layout_height="0.0dip" android:layout_marginTop="8.0dip" android:text="@string/vr_welcome_get_vr_headset_link" android:layout_weight="1.0" />
+    </LinearLayout>
+</LinearLayout>

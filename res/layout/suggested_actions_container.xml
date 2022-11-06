@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/suggested_actions_container" android:paddingTop="@dimen/controls_overlay_suggested_actions_container_padding" android:paddingBottom="@dimen/controls_overlay_suggested_actions_container_padding" android:focusable="false" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="0.0dip" yt:layout_constraintBottom_toBottomOf="parent" yt:layout_constraintLeft_toLeftOf="parent" yt:layout_constraintRight_toRightOf="parent" yt:layout_constraintTop_toTopOf="parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:yt="http://schemas.android.com/apk/res-auto" />

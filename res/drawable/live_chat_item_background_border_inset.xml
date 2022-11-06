@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<inset android:insetLeft="@dimen/live_chat_item_background_inset_padding" android:insetRight="@dimen/live_chat_item_background_inset_padding" android:insetTop="@dimen/live_chat_item_background_inset_padding" android:insetBottom="@dimen/live_chat_item_background_inset_padding"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <layer-list>
+        <item android:left="@dimen/live_chat_item_background_offset" android:top="@dimen/live_chat_item_background_offset" android:right="@dimen/live_chat_item_background_offset" android:bottom="@dimen/live_chat_item_background_offset">
+            <shape android:shape="rectangle">
+                <corners android:radius="@dimen/live_chat_item_background_corner_radius" />
+                <solid android:color="@color/yt_white1" />
+                <stroke android:width="@dimen/live_chat_item_background_stroke" android:color="?yt10PercentLayer" />
+            </shape>
+        </item>
+    </layer-list>
+</inset>

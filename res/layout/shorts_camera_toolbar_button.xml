@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center|right" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/shorts_camera_compact_toolbar_button_spacing" android:layout_marginEnd="@dimen/shorts_multi_segment_progress_bar_edge_margin">
+        <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:textAppearance="?ytTextAppearanceBody1b" android:textColor="@color/editor_tool_button_text_color" android:id="@id/editor_tool_button_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/shorts_camera_compact_toolbar_button_margin_right" android:maxLines="1" />
+        </FrameLayout>
+        <ImageButton android:id="@id/editor_tool_button_icon" android:background="@android:color/transparent" android:padding="@dimen/shorts_camera_compact_toolbar_icon_padding" android:clickable="false" android:layout_width="@dimen/shorts_camera_compact_toolbar_button_size" android:layout_height="@dimen/shorts_camera_compact_toolbar_button_size" android:scaleType="fitCenter" android:adjustViewBounds="true" android:importantForAccessibility="no" />
+    </LinearLayout>
+    <ImageView android:layout_gravity="end|center|top" android:id="@id/new_feature_indicator" android:visibility="gone" android:layout_width="@dimen/shorts_toolbar_new_feature_indicator_size" android:layout_height="@dimen/shorts_toolbar_new_feature_indicator_size" android:layout_marginTop="@dimen/shorts_toolbar_new_feature_indicator_margin_top" android:src="@drawable/shorts_new_feature_indicator" android:contentDescription="@null" android:layout_marginEnd="@dimen/shorts_toolbar_new_feature_indicator_margin_end" />
+</FrameLayout>

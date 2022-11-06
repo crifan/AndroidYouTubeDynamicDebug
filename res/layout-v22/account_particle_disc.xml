@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.libraries.onegoogle.account.disc.RoundBorderImageView android:id="@id/og_apd_internal_image_view" android:layout_width="fill_parent" android:layout_height="fill_parent" android:contentDescription="@null" android:forceDarkAllowed="false" />
+    <com.google.android.libraries.onegoogle.account.disc.RingView android:id="@id/og_apd_ring_view" android:background="@color/google_transparent" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:contentDescription="@null" />
+    <com.google.android.libraries.onegoogle.account.disc.BadgeFrameLayout android:layout_gravity="end|bottom|center" android:id="@id/badge_wrapper" android:padding="2.0dip" android:visibility="gone" android:clipChildren="false" android:clipToPadding="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="1.0dip">
+        <ImageView android:id="@id/og_apd_drawable_badge" android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="@null" android:importantForAccessibility="no" android:elevation="2.0dip" />
+    </com.google.android.libraries.onegoogle.account.disc.BadgeFrameLayout>
+</merge>

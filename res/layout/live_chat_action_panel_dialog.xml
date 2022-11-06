@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/action_panel_dialog" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="end" android:orientation="horizontal" android:id="@id/action_pills" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/live_chat_action_pill_container_margin" android:layout_above="@id/action_panel_and_emoji_picker_container" android:layout_marginEnd="@dimen/live_chat_action_pill_container_margin" />
+    <LinearLayout android:orientation="vertical" android:id="@id/action_panel_and_emoji_picker_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <include android:id="@id/live_chat_action_panel" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/live_chat_action_panel" />
+        <ViewStub android:id="@id/emoji_picker_stub" android:layout="@layout/emoji_picker" android:inflatedId="@id/emoji_picker" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+</RelativeLayout>

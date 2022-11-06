@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@color/inline_survey_background_color" />
+    <corners android:radius="@dimen/inline_survey_video_card_radius" />
+    <padding android:right="@dimen/slight_start_end_padding" />
+</shape>

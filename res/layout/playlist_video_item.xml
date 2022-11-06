@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.libraries.youtube.common.ui.swipelayout.SwipeLayout android:id="@id/swipe_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" yt:end_background="?ytGeneralBackgroundA"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:yt="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:orientation="vertical" android:id="@id/playlist_video_item" android:paddingTop="10.0dip" android:paddingBottom="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:baselineAligned="false">
+        <com.google.android.libraries.youtube.common.ui.CircularImageView android:layout_gravity="center_horizontal" android:id="@id/contributor_avatar" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_marginBottom="10.0dip" android:src="@drawable/missing_avatar" android:scaleType="centerCrop" android:contentDescription="@null" android:layout_marginStart="@dimen/playlist_start_padding" android:layout_marginEnd="10.0dip" />
+        <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:textSize="@dimen/detailed_video_title_font_size" android:textColor="?ytTextSecondary" android:ellipsize="end" android:gravity="center_horizontal" android:id="@id/contributor_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:layout_toEndOf="@id/contributor_avatar" yt:robotoFont="regular" />
+        <include android:layout_width="fill_parent" android:layout_height="wrap_content" android:baselineAligned="false" android:layout_below="@id/contributor_avatar" layout="@layout/playlist_video_item_body" />
+    </RelativeLayout>
+</com.google.android.libraries.youtube.common.ui.swipelayout.SwipeLayout>

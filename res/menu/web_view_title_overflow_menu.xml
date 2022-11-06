@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@id/back_button" android:title="@string/back_button" />
+    <item android:id="@id/forward_button" android:title="@string/forward_button" />
+    <item android:id="@id/refresh_button" android:title="@string/refresh_button" />
+</menu>

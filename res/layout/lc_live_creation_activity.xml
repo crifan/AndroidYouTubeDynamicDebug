@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <SurfaceView android:id="@id/stream_view" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerInParent="true" />
+    <com.google.android.libraries.youtube.livecreation.ui.view.ViewportOverlay android:id="@id/viewport_overlay" android:layout_width="fill_parent" android:layout_height="fill_parent" app:viewportOverlayColor="@color/lc_viewport_overlay_color" />
+    <FrameLayout android:id="@id/stream_fragment_container" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <FrameLayout android:id="@id/error_fragment_container" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ViewStub android:layout_gravity="bottom|center" android:id="@id/bottom_ui_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</RelativeLayout>

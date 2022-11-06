@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/promo_image" android:layout_width="wrap_content" android:layout_height="48.0dip" android:layout_marginTop="24.0dip" android:layout_marginBottom="24.0dip" />
+        <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:textAppearance="?textAppearanceSubhead" android:textColor="?ytTextSecondary" android:id="@id/promo_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="24.0dip" android:layout_marginEnd="24.0dip" />
+        <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:id="@id/add_contacts_button" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="16.0dip" />
+    </LinearLayout>
+    <ImageView android:layout_gravity="end|center|top" android:id="@id/close_button" android:background="?selectableItemBackground" android:layout_width="32.0dip" android:layout_height="32.0dip" android:layout_margin="16.0dip" android:scaleType="centerInside" android:contentDescription="@string/accessibility_close_dialog" />
+</FrameLayout>

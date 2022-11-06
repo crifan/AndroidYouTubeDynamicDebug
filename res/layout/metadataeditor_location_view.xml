@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/metadataeditor_location_vertical_margin">
+        <TextView android:textAppearance="?android:textAppearanceMedium" android:textSize="@dimen/metadataeditor_location_text_size" android:layout_gravity="center_vertical" android:id="@id/location_setting_text" android:background="?selectableItemBackground" android:paddingTop="@dimen/metadataeditor_location_vertical_margin" android:paddingBottom="@dimen/metadataeditor_location_vertical_margin" android:layout_width="0.0dip" android:layout_height="wrap_content" android:drawablePadding="@dimen/metadataeditor_location_text_padding" android:layout_weight="1.0" android:textIsSelectable="false" android:drawableStart="?metadataeditor_location_field_icon" />
+        <ImageButton android:layout_gravity="center_vertical" android:id="@id/location_action_icon" android:background="?selectableItemBackgroundBorderless" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="?metadataeditor_location_add_icon" android:contentDescription="@null" android:layout_marginEnd="@dimen/metadataeditor_location_add_button_inset" />
+    </LinearLayout>
+    <HorizontalScrollView android:scrollbars="none" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="horizontal" android:id="@id/place_suggestions" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/metadataeditor_location_suggestion_vertical_margin" android:divider="@drawable/metadataeditor_location_suggestion_divider" android:showDividers="middle" />
+    </HorizontalScrollView>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:textAppearance="?android:textAppearanceSmall" android:textSize="@dimen/metadataeditor_location_search_notice_size" android:id="@id/location_search_notice" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/metadataeditor_location_vertical_margin" android:layout_weight="1.0" android:textIsSelectable="false" android:layout_marginEnd="@dimen/metadataeditor_location_search_notice_end_margin" />
+        <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:id="@id/learn_more_button" android:padding="@dimen/metadataeditor_location_learn_more_padding" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/metadataeditor_location_vertical_margin" android:textAllCaps="true" />
+    </LinearLayout>
+</merge>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:id="@id/watch_while_layout_coordinator_layout" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:yt="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/selection_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <View android:id="@id/selection_detial_panel_separator" android:background="?ytSeparator" android:visibility="gone" android:layout_width="@dimen/line_separator_height" android:layout_height="fill_parent" />
+    <FrameLayout android:id="@id/pane_fragment_container" android:background="?ytBrandBackgroundSolid" android:layout_width="fill_parent" android:layout_height="fill_parent" yt:layout_behavior="com.google.android.apps.youtube.app.ui.actionbar.MainScrollingViewBehavior">
+        <com.google.android.apps.youtube.app.common.ui.inline.InlinePlayerLayout android:id="@id/inline_player_container" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <ViewStub android:id="@id/inline_player_overlay_container_stub" android:layout="@layout/inline_player_overlay" android:inflatedId="@id/inline_player_overlay_container" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </FrameLayout>
+    <FrameLayout android:id="@id/fab_container" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <include layout="@layout/watch_while_fab_view" />
+    </FrameLayout>
+    <include layout="@layout/appbar_layout" />
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

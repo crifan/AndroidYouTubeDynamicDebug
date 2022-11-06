@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/camera_dialog_text_size" android:textColor="?ytTextPrimary" android:layout_gravity="center" android:id="@id/green_screen_no_media_view" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/camera_dialog_vertical_margin" android:layout_marginBottom="@dimen/camera_dialog_vertical_margin" android:text="@string/shorts_camera_no_media_dialog_text" />
+    <com.google.android.apps.youtube.app.extensions.reel.creation.shorts.camera.GreenScreenMediaPickerView android:id="@id/green_screen_media_picker_view" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</FrameLayout>

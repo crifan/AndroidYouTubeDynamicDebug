@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="accessibility_dislike_video_plural">
+        <item quantity="other">싫어요 버튼입니다. 다른 사용자 %1$d명이 이 동영상에 싫어요 표시를 했습니다.</item>
+        <item quantity="one">싫어요 버튼입니다. 다른 사용자 %1$d명이 이 동영상에 싫어요 표시를 했습니다.</item>
+    </plurals>
+    <plurals name="accessibility_dtts_fast_forward">
+        <item quantity="other">%1$d초 빨리 감기</item>
+        <item quantity="one">%1$d초 빨리 감기</item>
+    </plurals>
+    <plurals name="accessibility_dtts_rewind">
+        <item quantity="other">%1$d초 되감기</item>
+        <item quantity="one">%1$d초 되감기</item>
+    </plurals>
+    <plurals name="accessibility_duration_description_hours">
+        <item quantity="other">%d시간</item>
+        <item quantity="one">%d시간</item>
+    </plurals>
+    <plurals name="accessibility_duration_description_minutes">
+        <item quantity="other">%d분</item>
+        <item quantity="one">%d분</item>
+    </plurals>
+    <plurals name="accessibility_duration_description_seconds">
+        <item quantity="other">%d초</item>
+        <item quantity="one">%d초</item>
+    </plurals>
+    <plurals name="accessibility_like_video_plural">
+        <item quantity="other">좋아요 버튼입니다. 다른 사용자 %1$d명이 이 동영상에 좋아요 표시를 했습니다.</item>
+        <item quantity="one">좋아요 버튼입니다. 다른 사용자 %1$d명이 이 동영상에 좋아요 표시를 했습니다.</item>
+    </plurals>
+    <plurals name="accessibility_skip_ad_in">
+        <item quantity="other">%1$d초 후 광고 건너뛰기</item>
+        <item quantity="one">1초 후 광고 건너뛰기</item>
+    </plurals>
+    <plurals name="accessibility_undo_dislike_video_plural">
+        <item quantity="other">싫어요 취소 버튼입니다. 다른 사용자 %1$d명이 이 동영상에 싫어요 표시를 했습니다.</item>
+        <item quantity="one">싫어요 취소 버튼입니다. 다른 사용자 %1$d명이 이 동영상에 싫어요 표시를 했습니다.</item>
+    </plurals>
+    <plurals name="accessibility_undo_like_video_plural">
+        <item quantity="other">좋아요 취소 버튼입니다. 다른 사용자 %1$d명이 이 동영상에 좋아요 표시를 했습니다.</item>
+        <item quantity="one">좋아요 취소 버튼입니다. 다른 사용자 %1$d명이 이 동영상에 좋아요 표시를 했습니다.</item>
+    </plurals>
+    <plurals name="download_new_videos_button_text">
+        <item quantity="other">새로운 동영상 %1$d개 오프라인 저장</item>
+        <item quantity="one">새로운 동영상 %1$d개 오프라인 저장</item>
+    </plurals>
+    <plurals name="download_playlist_unplayable_future_days_plural">
+        <item quantity="other">일부 동영상의 경우 %1$d일 후에는 Premium 필요</item>
+        <item quantity="one">일부 동영상의 경우 %1$d일 후에는 Premium 필요</item>
+    </plurals>
+    <plurals name="download_playlist_unplayable_future_hours_plural">
+        <item quantity="other">일부 동영상의 경우 %1$d시간 후에는 Premium 필요</item>
+        <item quantity="one">일부 동영상의 경우 %1$d시간 후에는 Premium 필요</item>
+    </plurals>
+    <plurals name="download_playlist_unplayable_future_minutes_plural">
+        <item quantity="other">일부 동영상의 경우 %1$d분 후에는 Premium 필요</item>
+        <item quantity="one">일부 동영상의 경우 %1$d분 후에는 Premium 필요</item>
+    </plurals>
+    <plurals name="download_video_unplayable_future_days_plural">
+        <item quantity="other">%1$d일 후에는 Premium 필요</item>
+        <item quantity="one">%1$d일 후에는 Premium 필요</item>
+    </plurals>
+    <plurals name="download_video_unplayable_future_hours_plural">
+        <item quantity="other">%1$d시간 후에는 Premium 필요</item>
+        <item quantity="one">%1$d시간 후에는 Premium 필요</item>
+    </plurals>
+    <plurals name="download_video_unplayable_future_minutes_plural">
+        <item quantity="other">%1$d분 후에는 Premium 필요</item>
+        <item quantity="one">%1$d분 후에는 Premium 필요</item>
+    </plurals>
+    <plurals name="duration_minutes">
+        <item quantity="other">%1$d분</item>
+        <item quantity="zero">0분</item>
+        <item quantity="one">1분</item>
+        <item quantity="two">2분</item>
+        <item quantity="few">%1$d분</item>
+        <item quantity="many">%1$d분</item>
+    </plurals>
+    <plurals name="duration_seconds">
+        <item quantity="other">%1$d초</item>
+        <item quantity="zero">0초</item>
+        <item quantity="one">1초</item>
+        <item quantity="two">2초</item>
+        <item quantity="few">%1$d초</item>
+        <item quantity="many">%1$d초</item>
+    </plurals>
+    <plurals name="frequency_hours_component">
+        <item quantity="other">%1$d시간</item>
+        <item quantity="one">%1$d시간</item>
+    </plurals>
+    <plurals name="frequency_hours_only">
+        <item quantity="other">%1$d시간마다</item>
+        <item quantity="one">1시간마다</item>
+    </plurals>
+    <plurals name="frequency_minutes_component">
+        <item quantity="other">%1$d분</item>
+        <item quantity="one">%1$d분</item>
+    </plurals>
+    <plurals name="frequency_minutes_only">
+        <item quantity="other">%1$d분마다</item>
+        <item quantity="one">1분마다</item>
+    </plurals>
+    <plurals name="image_picker_title">
+        <item quantity="other">%1$d개 선택됨</item>
+        <item quantity="one">%1$d개 선택됨</item>
+    </plurals>
+    <plurals name="invalid_uploads_error_msg">
+        <item quantity="other">사용할 수 없거나 잘못된 동영상 파일이 1개 이상 있습니다. 다시 시도하거나 다른 동영상 파일을 선택하세요.</item>
+        <item quantity="one">사용할 수 없거나 잘못된 동영상 파일입니다. 다시 시도하거나 다른 동영상 파일을 선택하세요.</item>
+    </plurals>
+    <plurals name="last_update_in_days_message">
+        <item quantity="other">%1$d일 전에 업데이트됨</item>
+        <item quantity="one">어제 업데이트됨</item>
+    </plurals>
+    <plurals name="last_update_in_hours_message">
+        <item quantity="other">%1$d시간 전에 업데이트됨</item>
+        <item quantity="one">%1$d시간 전에 업데이트됨</item>
+    </plurals>
+    <plurals name="last_update_in_minutes_message">
+        <item quantity="other">%1$d분 전에 업데이트됨</item>
+        <item quantity="one">%1$d분 전에 업데이트됨</item>
+    </plurals>
+    <plurals name="last_update_in_weeks_message">
+        <item quantity="other">%1$d주 전에 업데이트됨</item>
+        <item quantity="one">%1$d주 전에 업데이트됨</item>
+    </plurals>
+    <plurals name="notification_playlist_progress_size">
+        <item quantity="other">동영상 %2$d개 중 %1$d개</item>
+        <item quantity="one">동영상 1개 중 %1$d개</item>
+    </plurals>
+    <plurals name="offline_go_online_to_renew_dialog_message">
+        <item quantity="other">%1$d일마다 기기가 인터넷에 연결되면 오프라인 저장 동영상을 계속 재생할 수 있습니다. 이 절차는 자동으로 진행되며 동영상이 다시 오프라인 저장되는 것은 아닙니다.</item>
+        <item quantity="one">매일 기기가 인터넷에 연결되면 오프라인 저장 동영상을 계속 재생할 수 있습니다. 이 절차는 자동으로 진행되며 동영상이 다시 오프라인 저장되는 것은 아닙니다.</item>
+    </plurals>
+    <plurals name="offline_go_online_to_renew_snackbar_message">
+        <item quantity="other">인터넷 연결 없이 오프라인 저장 동영상을 %1$d일 동안 재생할 수 있습니다.</item>
+        <item quantity="one">인터넷 연결 없이 오프라인 저장 동영상을 1일 동안 재생할 수 있습니다.</item>
+    </plurals>
+    <plurals name="offline_remember_setting_for_days">
+        <item quantity="other">%1$d일간 설정 저장</item>
+        <item quantity="one">1일간 설정 저장</item>
+    </plurals>
+    <plurals name="playlist_picker_dialog_done">
+        <item quantity="other">재생목록 업데이트됨</item>
+        <item quantity="one">재생목록 업데이트됨</item>
+    </plurals>
+    <plurals name="playlist_size">
+        <item quantity="other">동영상 %1$,d개</item>
+        <item quantity="one">동영상 1개</item>
+    </plurals>
+    <plurals name="playlist_size_downloaded">
+        <item quantity="other">%1$,d 오프라인 저장됨</item>
+        <item quantity="one">%1$,d 오프라인 저장됨</item>
+    </plurals>
+    <plurals name="playlist_size_total">
+        <item quantity="other">동영상 %1$,d개</item>
+        <item quantity="one">동영상 1개</item>
+    </plurals>
+    <plurals name="public_notification_text">
+        <item quantity="other">새 알림 %1$d개</item>
+        <item quantity="one">알림 1개 있음</item>
+    </plurals>
+    <plurals name="quick_seek_x_second">
+        <item quantity="other">%d초</item>
+        <item quantity="one">%d초</item>
+    </plurals>
+    <plurals name="recommendation_count">
+        <item quantity="other">맞춤 동영상 %1$d개</item>
+        <item quantity="one">맞춤 동영상 1개</item>
+    </plurals>
+    <plurals name="rental_expiry_notice">
+        <item quantity="other">재생을 시작하면 %1$d시간 동안 동영상을 감상할 수 있습니다.</item>
+        <item quantity="one">재생을 시작하면 1시간 동안 동영상을 감상할 수 있습니다.</item>
+    </plurals>
+    <plurals name="rental_long_days_remaining">
+        <item quantity="other">%1$d일 후 만료</item>
+        <item quantity="one">1일 후 만료</item>
+    </plurals>
+    <plurals name="rental_long_hours_remaining">
+        <item quantity="other">%1$d시간 후 만료</item>
+        <item quantity="one">1시간 후 만료</item>
+    </plurals>
+    <plurals name="rental_long_weeks_remaining">
+        <item quantity="other">%1$d주 후 만료</item>
+        <item quantity="one">1주 후 만료</item>
+    </plurals>
+    <plurals name="rental_medium_days_remaining">
+        <item quantity="other">%1$d일 후 만료</item>
+        <item quantity="one">1일 후 만료</item>
+    </plurals>
+    <plurals name="rental_medium_hours_remaining">
+        <item quantity="other">%1$d시간 후 만료</item>
+        <item quantity="one">1시간 후 만료</item>
+    </plurals>
+    <plurals name="rental_medium_weeks_remaining">
+        <item quantity="other">%1$d주 후 만료</item>
+        <item quantity="one">1주 후 만료</item>
+    </plurals>
+    <plurals name="selected_video_count">
+        <item quantity="other">동영상 %1$d개 선택함</item>
+        <item quantity="one">동영상 1개 선택함</item>
+    </plurals>
+    <plurals name="shorts_a11y_duration_seconds">
+        <item quantity="other">%1$s초</item>
+        <item quantity="one">%1$s초</item>
+    </plurals>
+    <plurals name="shorts_a11y_timer_duration_seconds">
+        <item quantity="other">%1$d초 타이머</item>
+        <item quantity="one">%1$d초 타이머</item>
+    </plurals>
+    <plurals name="shorts_a11y_timer_started">
+        <item quantity="other">%1$d초 타이머 활성화됨</item>
+        <item quantity="one">%1$d초 타이머 활성화됨</item>
+    </plurals>
+    <plurals name="smart_downloads_future_update_text">
+        <item quantity="other">스마트 오프라인 저장이 %1$d일 후에 자동으로 업데이트됩니다.</item>
+        <item quantity="one">스마트 오프라인 저장이 1일 후에 자동으로 업데이트됩니다.</item>
+    </plurals>
+    <plurals name="sticker_dialog_title">
+        <item quantity="other">%1$d일 후 다시 확인</item>
+        <item quantity="one">1일 후 다시 확인</item>
+    </plurals>
+    <plurals name="too_many_external_uploads_error_msg">
+        <item quantity="other">한 번에 %1$d개의 동영상만 업로드할 수 있습니다.</item>
+        <item quantity="one">한 번에 %1$d개의 동영상만 업로드할 수 있습니다.</item>
+    </plurals>
+    <plurals name="transcoding_progress">
+        <item quantity="other">%1$,d%% 진행되었습니다.</item>
+        <item quantity="one">%1$,d%% 진행되었습니다.</item>
+    </plurals>
+    <plurals name="trim_segment_max_length">
+        <item quantity="other">최대 %1$d초</item>
+        <item quantity="one">최대 1초</item>
+    </plurals>
+    <plurals name="trim_switch_edu">
+        <item quantity="other">동영상을 %1$d초로 자르고 음악 추가</item>
+        <item quantity="one">동영상을 1초로 자르고 음악 추가</item>
+    </plurals>
+    <plurals name="trim_switch_edu_full_length_shorts">
+        <item quantity="other">동영상을 %1$d초 이하로 자르기</item>
+        <item quantity="one">동영상을 1초 이하로 자르기</item>
+    </plurals>
+    <plurals name="upload_hours_remaing">
+        <item quantity="other">약 %1$,d시간 남았습니다.</item>
+        <item quantity="one">약 %1$,d시간 남았습니다.</item>
+    </plurals>
+    <plurals name="upload_indicator_all_completed">
+        <item quantity="other">%d개 동영상 업로드됨</item>
+        <item quantity="one">동영상 업로드됨</item>
+    </plurals>
+    <plurals name="upload_indicator_all_failed">
+        <item quantity="other">모든 동영상을 업로드할 수 없음</item>
+        <item quantity="one">동영상을 업로드할 수 없음</item>
+    </plurals>
+    <plurals name="upload_indicator_all_uploading">
+        <item quantity="other">%d개 동영상 업로드 중</item>
+        <item quantity="one">동영상 업로드 중</item>
+    </plurals>
+    <plurals name="upload_indicator_partial_fail">
+        <item quantity="other">%2$d개 동영상 중 %1$d개를 업로드할 수 없음</item>
+        <item quantity="one">%2$d개 동영상 중 %1$d개를 업로드할 수 없음</item>
+    </plurals>
+    <plurals name="upload_indicator_uploading_and_completed_completed_part">
+        <item quantity="other">%d개 업로드됨</item>
+        <item quantity="one">%d개 업로드됨</item>
+    </plurals>
+    <plurals name="upload_indicator_uploading_and_completed_uploading_part">
+        <item quantity="other">아직 %d개 업로드 중</item>
+        <item quantity="one">아직 %d개 업로드 중</item>
+    </plurals>
+    <plurals name="upload_minutes_remaing">
+        <item quantity="other">약 %1$,d분 남았습니다.</item>
+        <item quantity="one">약 %1$,d분 남았습니다.</item>
+    </plurals>
+    <plurals name="upload_notification_active_progress">
+        <item quantity="other">동영상 %2$d개 중 %1$d개를 업로드하고 있습니다.</item>
+        <item quantity="one">동영상 1개를 업로드하고 있습니다.</item>
+    </plurals>
+    <plurals name="upload_progress">
+        <item quantity="other">%1$,d%% 업로드되었습니다.</item>
+        <item quantity="one">%1$,d%% 업로드되었습니다.</item>
+    </plurals>
+    <plurals name="upload_seconds_remaing">
+        <item quantity="other">약 %1$,d초 남았습니다.</item>
+        <item quantity="one">약 %1$,d초 남았습니다.</item>
+    </plurals>
+    <plurals name="uploads_failed">
+        <item quantity="other">%1$,d개 업로드 실패</item>
+        <item quantity="one">업로드 실패</item>
+    </plurals>
+    <plurals name="uploads_failed_with_in_progress_videos">
+        <item quantity="other">%1$,d/%2$,d개 업로드 실패</item>
+        <item quantity="one">%1$,d/%2$,d개 업로드 실패</item>
+    </plurals>
+    <plurals name="uploads_in_progress">
+        <item quantity="other">%1$,d개 업로드 중</item>
+        <item quantity="one">%1$,d개 업로드 중</item>
+    </plurals>
+    <plurals name="user_education_quick_seek">
+        <item quantity="other">왼쪽이나 오른쪽으로 두 번 탭하면 %d초씩 건너뜁니다.</item>
+        <item quantity="one">왼쪽이나 오른쪽으로 두 번 탭하면 %d초씩 건너뜁니다.</item>
+    </plurals>
+    <plurals name="video_count">
+        <item quantity="other">동영상 %1$d개</item>
+        <item quantity="one">동영상 1개</item>
+    </plurals>
+</resources>

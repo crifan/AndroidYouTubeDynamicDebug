@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:yt="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/image" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="fitCenter" android:adjustViewBounds="true" android:contentDescription="@null" yt:layout_constraintBottom_toBottomOf="parent" yt:layout_constraintStart_toStartOf="parent" yt:layout_constraintTop_toTopOf="parent" />
+    <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:textSize="16.0sp" android:textColor="?ytTextPrimary" android:id="@id/amount" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="8.0dip" android:layout_marginEnd="8.0dip" yt:layout_constraintBottom_toBottomOf="parent" yt:layout_constraintEnd_toEndOf="parent" yt:layout_constraintStart_toEndOf="@id/image" yt:layout_constraintTop_toTopOf="parent" yt:robotoFont="regular" />
+</android.support.constraint.ConstraintLayout>

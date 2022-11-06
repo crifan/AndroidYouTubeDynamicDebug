@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/layout" android:background="@color/yt_black1" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_toStartOf="@id/custom_notification_thumbnail" android:layout_alignParentStart="true" layout="@layout/custom_notification_basic_thumbnail_text_white" />
+    <include android:id="@id/custom_notification_thumbnail" layout="@layout/custom_notification_large_thumbnail" />
+</RelativeLayout>

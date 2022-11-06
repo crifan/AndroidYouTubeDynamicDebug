@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:gravity="center">
+        <shape android:shape="oval">
+            <solid android:color="?ytBrandBackgroundSolid" />
+            <size android:height="@dimen/shorts_music_ui_dsp_seek_bar_dsp_outline_size" android:width="@dimen/shorts_music_ui_dsp_seek_bar_dsp_outline_size" />
+        </shape>
+    </item>
+    <item android:gravity="center">
+        <shape android:shape="oval">
+            <solid android:color="?ytErrorBackground" />
+            <size android:height="@dimen/shorts_music_ui_dsp_seek_bar_dsp_size" android:width="@dimen/shorts_music_ui_dsp_seek_bar_dsp_size" />
+        </shape>
+    </item>
+</layer-list>

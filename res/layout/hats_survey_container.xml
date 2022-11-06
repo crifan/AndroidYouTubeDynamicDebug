@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.apps.youtube.app.common.ui.bottomui.HatsContainer android:layout_gravity="end|bottom|center" android:paddingTop="1.0dip" android:paddingBottom="@dimen/mealbar_bottom_margin" android:focusable="true" android:visibility="gone" android:clickable="true" android:clipToPadding="false" android:layout_width="@dimen/mealbar_width" android:layout_height="wrap_content" android:rowCount="3" android:columnCount="1" android:paddingStart="@dimen/mealbar_side_margin" android:paddingEnd="@dimen/mealbar_side_margin"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Space android:layout_gravity="fill_horizontal" android:id="@id/hats_expand_spacing" android:layout_width="0.0dip" android:layout_height="14.0dip" android:layout_column="0" android:layout_row="0" />
+    <include android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/hats_survey_content" />
+    <ImageView android:layout_gravity="center_horizontal" android:id="@id/hats_expand" android:background="@drawable/hats_survey_expand_button" android:padding="4.0dip" android:layout_width="30.0dip" android:layout_height="30.0dip" android:src="@drawable/quantum_ic_keyboard_arrow_up_white_36" android:scaleType="fitXY" android:layout_column="0" android:contentDescription="@string/accessibility_expand_hats_survey" android:layout_row="0" android:layout_rowSpan="2" android:elevation="@dimen/hats_expand_elevation" />
+</com.google.android.apps.youtube.app.common.ui.bottomui.HatsContainer>

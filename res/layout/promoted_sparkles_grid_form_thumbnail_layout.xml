@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.libraries.youtube.common.ui.FixedAspectRatioRelativeLayout android:id="@id/thumbnail_wrapper" android:layout_width="fill_parent" android:layout_height="wrap_content" yt:aspectRatio="@fraction/rounded_aspect_ratio_16_9"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:yt="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/thumbnail" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitCenter" android:contentDescription="@null" />
+        <ImageView android:layout_gravity="center_horizontal" android:id="@id/second_thumbnail" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitCenter" android:contentDescription="@null" />
+        <com.google.android.apps.youtube.app.common.widget.TintableImageView android:theme="@style/Widget.YouTube.Control" android:layout_gravity="center" android:id="@id/icon" android:visibility="gone" android:layout_width="36.0dip" android:layout_height="36.0dip" android:contentDescription="@null" />
+        <include android:layout_gravity="end|bottom|center" android:id="@id/overlay_badge_layout" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="13.0dip" android:layout_marginEnd="8.0dip" layout="@layout/sparkles_native_thumbnail_badge" />
+    </FrameLayout>
+</com.google.android.libraries.youtube.common.ui.FixedAspectRatioRelativeLayout>

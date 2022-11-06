@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout android:background="@drawable/ad_engagement_panel_header_background" android:layout_width="fill_parent" android:layout_height="60.0dip" android:rowCount="1" android:columnCount="3"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:yt="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:layout_gravity="fill_horizontal" android:orientation="horizontal" android:paddingTop="14.0dip" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_column="0" android:layout_row="0" android:layout_columnSpan="2" android:layout_marginStart="8.0dip">
+        <ImageView android:id="@id/primary_image" android:layout_width="36.0dip" android:layout_height="36.0dip" android:scaleType="fitCenter" android:contentDescription="@null" android:layout_marginStart="8.0dip" />
+        <include android:id="@id/ad_badge" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:layout_marginStart="8.0dip" layout="@layout/standalone_ad_badge_small" />
+        <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:textSize="14.0sp" android:textColor="?ytTextPrimary" android:ellipsize="end" android:id="@id/primary_text" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:maxLines="1" android:layout_weight="1.0" android:layout_marginStart="8.0dip" yt:robotoFont="regular" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:paddingTop="14.0dip" android:paddingBottom="14.0dip" android:layout_width="wrap_content" android:layout_height="60.0dip" android:layout_column="2" android:layout_row="0" android:layout_marginEnd="8.0dip">
+        <include android:id="@id/cta_button" android:padding="8.0dip" android:layout_width="74.0dip" android:layout_height="32.0dip" android:layout_marginStart="8.0dip" layout="@layout/ad_cta_button" />
+        <include android:id="@id/close_button" android:layout_width="24.0dip" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:layout_marginStart="12.0dip" layout="@layout/ad_thumbnail_details_button" />
+    </LinearLayout>
+</GridLayout>

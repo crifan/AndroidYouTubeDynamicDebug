@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.libraries.youtube.common.ui.TouchImageView android:id="@id/player_subtitle_button" android:layout_width="@dimen/controls_overlay_action_button_size" android:layout_height="@dimen/controls_overlay_action_button_size" android:scaleType="centerInside" android:layout_alignWithParentIfMissing="true" android:contentDescription="@string/subtitles" android:paddingStart="7.0dip" android:paddingEnd="7.0dip" android:layout_toStartOf="@id/player_overflow_button"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

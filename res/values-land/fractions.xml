@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <fraction name="aspect_ratio_sparkles_text_home">180.99976%</fraction>
+    <fraction name="carousel_default_aspect_ratio">300.0%</fraction>
+    <fraction name="promo_panel_avatar_end_offset_ratio">22.000004%</fraction>
+    <fraction name="promo_panel_avatar_height_width_ratio">36.0%</fraction>
+    <fraction name="promo_panel_avatar_top_offset_ratio">14.999998%</fraction>
+    <fraction name="reel_portrait_item_width_to_screen_ratio">15.999996%</fraction>
+    <fraction name="unlimited_header_aspect_ratio">232.99866%</fraction>
+</resources>

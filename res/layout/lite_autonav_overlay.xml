@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/background" android:background="?ytOverlayBackgroundSolid" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ImageView android:id="@id/mini_thumbnail" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" android:contentDescription="@null" />
+    <View android:id="@id/pip_background" android:background="?ytOverlayBackgroundMediumLight" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ProgressBar android:layout_gravity="bottom" android:id="@id/pip_countdown" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="4.0dip" android:progressDrawable="@drawable/autonav_pip_countdown" style="@style/Widget.AppCompat.ProgressBar.Horizontal" />
+    <View android:layout_gravity="top" android:id="@id/top_bar_background" android:background="?ytOverlayBackgroundLight" android:layout_width="fill_parent" android:layout_height="@dimen/autonav_top_bar_background_height" />
+    <View android:layout_gravity="bottom" android:id="@id/bottom_bar_background" android:background="?ytOverlayBackgroundLight" android:layout_width="fill_parent" android:layout_height="0.0dip" />
+    <FrameLayout android:id="@id/core_container" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</FrameLayout>

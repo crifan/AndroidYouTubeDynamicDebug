@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/persistent_settings_video_quality_title"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <PreferenceCategory android:title="@string/persistent_video_quality_intro_heading" app:iconSpaceReserved="false">
+        <Preference android:selectable="false" android:summary="@string/persistent_video_quality_intro_description" app:iconSpaceReserved="false" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/persistent_video_quality_mobile_network_heading" app:iconSpaceReserved="false">
+        <com.google.android.apps.youtube.app.settings.videoquality.VideoQualityCheckBoxPreference android:title="@string/persistent_video_quality_auto_label" android:key="mobile_video_quality_auto_key" android:summary="@string/persistent_video_quality_auto_description" android:widgetLayout="@layout/radiobutton_checkbox_widget" app:iconSpaceReserved="false" />
+        <com.google.android.apps.youtube.app.settings.videoquality.VideoQualityCheckBoxPreference android:title="@string/persistent_video_quality_high_label" android:key="mobile_video_quality_high_key" android:summary="@string/persistent_video_quality_high_description" android:widgetLayout="@layout/radiobutton_checkbox_widget" app:iconSpaceReserved="false" />
+        <com.google.android.apps.youtube.app.settings.videoquality.VideoQualityCheckBoxPreference android:title="@string/persistent_video_quality_low_label" android:key="mobile_video_quality_low_key" android:summary="@string/persistent_video_quality_low_description" android:widgetLayout="@layout/radiobutton_checkbox_widget" app:iconSpaceReserved="false" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/persistent_video_quality_wifi_heading" app:iconSpaceReserved="false">
+        <com.google.android.apps.youtube.app.settings.videoquality.VideoQualityCheckBoxPreference android:title="@string/persistent_video_quality_auto_label" android:key="wifi_video_quality_auto_key" android:summary="@string/persistent_video_quality_auto_description" android:widgetLayout="@layout/radiobutton_checkbox_widget" app:iconSpaceReserved="false" />
+        <com.google.android.apps.youtube.app.settings.videoquality.VideoQualityCheckBoxPreference android:title="@string/persistent_video_quality_high_label" android:key="wifi_video_quality_high_key" android:summary="@string/persistent_video_quality_high_description" android:widgetLayout="@layout/radiobutton_checkbox_widget" app:iconSpaceReserved="false" />
+        <com.google.android.apps.youtube.app.settings.videoquality.VideoQualityCheckBoxPreference android:title="@string/persistent_video_quality_low_label" android:key="wifi_video_quality_low_key" android:summary="@string/persistent_video_quality_low_description" android:widgetLayout="@layout/radiobutton_checkbox_widget" app:iconSpaceReserved="false" />
+    </PreferenceCategory>
+</PreferenceScreen>

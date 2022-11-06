@@ -1,0 +1,295 @@
+.class public final Laufb;
+.super Lanvg;
+.source "PG"
+
+# interfaces
+.implements Lanwt;
+
+
+# static fields
+.field public static final a:Laufb;
+
+.field public static final b:Lanve;
+
+.field private static volatile j:Lanwz;
+
+
+# instance fields
+.field public c:I
+
+.field public d:I
+
+.field public e:Ljava/lang/Object;
+
+.field public f:Ljava/lang/String;
+
+.field public g:I
+
+.field public h:Z
+
+.field public i:Z
+
+.field private k:B
+
+
+# direct methods
+.method static constructor <clinit>()V
+    .locals 7
+
+    new-instance v2, Laufb;
+
+    .line 1
+    invoke-direct {v2}, Laufb;-><init>()V
+
+    sput-object v2, Laufb;->a:Laufb;
+
+    const-class v0, Laufb;
+
+    .line 2
+    invoke-static {v0, v2}, Lanvg;->registerDefaultInstance(Ljava/lang/Class;Lanvg;)V
+
+    .line 3
+    sget-object v0, Laqam;->a:Laqam;
+
+    .line 4
+    sget-object v5, Lanyh;->k:Lanyh;
+
+    const-class v6, Laufb;
+
+    const/4 v3, 0x0
+
+    const/16 v4, 0x100
+
+    move-object v1, v2
+
+    .line 5
+    invoke-static/range {v0 .. v6}, Lanvg;->newSingularGeneratedExtension(Lanws;Ljava/lang/Object;Lanws;Lanvl;ILanyh;Ljava/lang/Class;)Lanve;
+
+    move-result-object v0
+
+    sput-object v0, Laufb;->b:Lanve;
+
+    return-void
+.end method
+
+.method private constructor <init>()V
+    .locals 1
+
+    .line 1
+    invoke-direct {p0}, Lanvg;-><init>()V
+
+    const/4 v0, 0x0
+
+    iput v0, p0, Laufb;->d:I
+
+    const/4 v0, 0x2
+
+    iput-byte v0, p0, Laufb;->k:B
+
+    const-string v0, ""
+
+    iput-object v0, p0, Laufb;->f:Ljava/lang/String;
+
+    return-void
+.end method
+
+
+# virtual methods
+.method protected final dynamicMethod(Lanvf;Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    .locals 1
+
+    .line 1
+    sget-object p3, Lanvf;->a:Lanvf;
+
+    invoke-virtual {p1}, Lanvf;->ordinal()I
+
+    move-result p1
+
+    const/4 p3, 0x1
+
+    const/4 v0, 0x0
+
+    packed-switch p1, :pswitch_data_0
+
+    .line 8
+    new-instance p1, Ljava/lang/UnsupportedOperationException;
+
+    .line 9
+    invoke-direct {p1}, Ljava/lang/UnsupportedOperationException;-><init>()V
+
+    throw p1
+
+    .line 1
+    :pswitch_0
+    sget-object p1, Laufb;->j:Lanwz;
+
+    if-nez p1, :cond_1
+
+    const-class p2, Laufb;
+
+    monitor-enter p2
+
+    :try_start_0
+    sget-object p1, Laufb;->j:Lanwz;
+
+    if-nez p1, :cond_0
+
+    .line 3
+    new-instance p1, Lanuz;
+
+    sget-object p3, Laufb;->a:Laufb;
+
+    invoke-direct {p1, p3}, Lanuz;-><init>(Lanvg;)V
+
+    sput-object p1, Laufb;->j:Lanwz;
+
+    .line 4
+    :cond_0
+    monitor-exit p2
+
+    goto :goto_0
+
+    :catchall_0
+    move-exception p1
+
+    monitor-exit p2
+    :try_end_0
+    .catchall {:try_start_0 .. :try_end_0} :catchall_0
+
+    throw p1
+
+    :cond_1
+    :goto_0
+    return-object p1
+
+    .line 2
+    :pswitch_1
+    sget-object p1, Laufb;->a:Laufb;
+
+    return-object p1
+
+    .line 6
+    :pswitch_2
+    new-instance p1, Lanuy;
+
+    sget-object p2, Laufb;->a:Laufb;
+
+    .line 7
+    invoke-direct {p1, p2}, Lanuy;-><init>(Lanvg;)V
+
+    return-object p1
+
+    :pswitch_3
+    new-instance p1, Laufb;
+
+    .line 8
+    invoke-direct {p1}, Laufb;-><init>()V
+
+    return-object p1
+
+    :pswitch_4
+    const/16 p1, 0x9
+
+    new-array p1, p1, [Ljava/lang/Object;
+
+    const-string p2, "e"
+
+    aput-object p2, p1, v0
+
+    const-string p2, "d"
+
+    aput-object p2, p1, p3
+
+    const/4 p2, 0x2
+
+    const-string p3, "c"
+
+    aput-object p3, p1, p2
+
+    const/4 p2, 0x3
+
+    const-string p3, "f"
+
+    aput-object p3, p1, p2
+
+    const/4 p2, 0x4
+
+    .line 2
+    const-class p3, Lapyy;
+
+    aput-object p3, p1, p2
+
+    const/4 p2, 0x5
+
+    const-string p3, "g"
+
+    aput-object p3, p1, p2
+
+    const/4 p2, 0x6
+
+    .line 5
+    invoke-static {}, Laufc;->a()Lanvm;
+
+    move-result-object p3
+
+    aput-object p3, p1, p2
+
+    const/4 p2, 0x7
+
+    const-string p3, "h"
+
+    aput-object p3, p1, p2
+
+    const/16 p2, 0x8
+
+    const-string p3, "i"
+
+    aput-object p3, p1, p2
+
+    sget-object p2, Laufb;->a:Laufb;
+
+    const-string p3, "\u0001\u0006\u0001\u0001\u0001\u0006\u0006\u0000\u0000\u0001\u0001\u1008\u0000\u0002\u103b\u0000\u0003\u143c\u0000\u0004\u100c\u0003\u0005\u1007\u0004\u0006\u1007\u0005"
+
+    .line 6
+    invoke-static {p2, p3, p1}, Laufb;->newMessageInfo(Lanws;Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/Object;
+
+    move-result-object p1
+
+    return-object p1
+
+    :pswitch_5
+    if-nez p2, :cond_2
+
+    const/4 p3, 0x0
+
+    .line 4
+    :cond_2
+    iput-byte p3, p0, Laufb;->k:B
+
+    const/4 p1, 0x0
+
+    return-object p1
+
+    :pswitch_6
+    iget-byte p1, p0, Laufb;->k:B
+
+    .line 2
+    invoke-static {p1}, Ljava/lang/Byte;->valueOf(B)Ljava/lang/Byte;
+
+    move-result-object p1
+
+    return-object p1
+
+    nop
+
+    :pswitch_data_0
+    .packed-switch 0x0
+        :pswitch_6
+        :pswitch_5
+        :pswitch_4
+        :pswitch_3
+        :pswitch_2
+        :pswitch_1
+        :pswitch_0
+    .end packed-switch
+.end method

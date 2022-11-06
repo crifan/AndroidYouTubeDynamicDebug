@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:yt="http://schemas.android.com/apk/res-auto">
+    <ScrollView android:id="@id/scrollView" android:paddingTop="@dimen/av_dialog_scroll_padding_top" android:paddingBottom="@dimen/av_dialog_scroll_padding_bottom" android:layout_width="fill_parent" android:layout_height="fill_parent" android:overScrollMode="ifContentScrolls" android:paddingStart="@dimen/av_dialog_scroll_padding_start" android:paddingEnd="@dimen/av_dialog_scroll_padding_end">
+        <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:id="@id/message" android:padding="@dimen/av_dialog_scroll_text_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" yt:hyperlinksClickable="true" style="@style/VerificationDialogBodyTextStyle" />
+    </ScrollView>
+    <android.support.v4.widget.ContentLoadingProgressBar android:layout_gravity="center" android:id="@id/progress_bar" android:visibility="gone" android:layout_width="@dimen/av_dialog_progress_size" android:layout_height="@dimen/av_dialog_progress_size" style="@style/VerificationProgressBarStyle" />
+</FrameLayout>

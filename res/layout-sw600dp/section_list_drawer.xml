@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.RecyclerView android:id="@id/drawer_results" android:background="?ytBrandBackgroundSolid" android:layout_width="@dimen/section_list_drawer_width_expanded" android:layout_height="fill_parent" style="@style/SectionListDrawer"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

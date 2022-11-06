@@ -1,0 +1,65 @@
+.class public final synthetic Lafdv;
+.super Ljava/lang/Object;
+.source "PG"
+
+# interfaces
+.implements Ljava/lang/Runnable;
+
+
+# instance fields
+.field public final synthetic a:Lafdx;
+
+
+# direct methods
+.method public synthetic constructor <init>(Lafdx;)V
+    .locals 0
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    iput-object p1, p0, Lafdv;->a:Lafdx;
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final run()V
+    .locals 5
+
+    iget-object v0, p0, Lafdv;->a:Lafdx;
+
+    iget-object v1, v0, Lafdx;->a:Lafdz;
+
+    iget-object v2, v1, Lafdz;->b:Landroid/widget/ImageView;
+
+    new-instance v3, Landroid/graphics/drawable/ColorDrawable;
+
+    iget-object v1, v1, Lafdz;->a:Landroid/content/Context;
+
+    const v4, 0x7f0407dd
+
+    .line 1
+    invoke-static {v1, v4}, Lyxy;->k(Landroid/content/Context;I)Lj$/util/OptionalInt;
+
+    move-result-object v1
+
+    const/4 v4, 0x0
+
+    invoke-virtual {v1, v4}, Lj$/util/OptionalInt;->orElse(I)I
+
+    move-result v1
+
+    invoke-direct {v3, v1}, Landroid/graphics/drawable/ColorDrawable;-><init>(I)V
+
+    .line 2
+    invoke-virtual {v2, v3}, Landroid/widget/ImageView;->setImageDrawable(Landroid/graphics/drawable/Drawable;)V
+
+    iget-object v0, v0, Lafdx;->a:Lafdz;
+
+    iget-object v0, v0, Lafdz;->b:Landroid/widget/ImageView;
+
+    .line 3
+    invoke-virtual {v0}, Landroid/widget/ImageView;->invalidate()V
+
+    return-void
+.end method

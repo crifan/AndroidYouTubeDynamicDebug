@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.libraries.youtube.common.ui.YouTubeTextView android:textSize="@dimen/large_font_size" android:textColor="?ytTextPrimary" android:ellipsize="end" android:id="@id/other_accounts" android:paddingTop="14.0dip" android:paddingBottom="6.0dip" android:focusable="true" android:clickable="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/account_switcher_other_accounts" android:singleLine="true" android:textAlignment="viewStart" android:paddingStart="24.0dip" android:paddingEnd="24.0dip" yt:youTubeSansFont="bold"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:yt="http://schemas.android.com/apk/res-auto" />

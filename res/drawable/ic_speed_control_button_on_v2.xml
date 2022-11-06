@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="@dimen/shorts_edit_tool_button_drawable_icon_size" android:width="@dimen/shorts_edit_tool_button_drawable_icon_size" android:viewportWidth="24.0" android:viewportHeight="24.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="@color/yt_white1" android:pathData="M12.21,14.21L10.8,12.8L15.8,7.8L17.21,9.21L12.21,14.21ZM5.92,20.92L7.23,19.4C5.27,17.94 4,15.62 4,13C4,8.59 7.59,5 12,5C16.41,5 20,8.59 20,13C20,15.62 18.73,17.94 16.78,19.4L18.09,20.92C20.46,19.1 22,16.23 22,13C22,7.48 17.52,3 12,3C6.48,3 2,7.48 2,13C2,16.23 3.54,19.1 5.92,20.92Z" />
+</vector>

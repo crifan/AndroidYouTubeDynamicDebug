@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:background="?ytBrandBackgroundSolid" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:yt="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/meme_image" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/dogfood_warning" android:adjustViewBounds="true" android:contentDescription="@null" />
+    <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:textSize="@dimen/large_font_size" android:textColor="?ytTextPrimary" android:gravity="center" android:id="@id/dialog_message" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="4.0dip" yt:hyperlinksClickable="true" yt:robotoFont="light" />
+    <View android:background="?yt10PercentLayer" android:layout_width="fill_parent" android:layout_height="@dimen/line_separator_height" android:layout_marginTop="20.0dip" />
+    <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:textSize="@dimen/medium_font_size" android:textColor="?ytTextPrimary" android:gravity="center" android:id="@id/dogfood_warning_dialog_dismiss_button" android:background="@drawable/button_selector" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="48.0dip" yt:robotoFont="regular" />
+</LinearLayout>

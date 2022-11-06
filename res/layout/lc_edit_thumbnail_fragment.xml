@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <android.support.v7.widget.Toolbar android:theme="@style/LcAppTheme.ActionBar" android:id="@id/lc_crop_toolbar" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="?actionBarSize" app:navigationContentDescription="@string/abc_action_bar_up_description" app:navigationIcon="@drawable/quantum_ic_arrow_back_white_24" />
+    <FrameLayout android:id="@id/edit_thumbnail_fragment_container" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+</LinearLayout>

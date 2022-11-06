@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/reel_edu_group" android:background="@color/reel_black_pure_alpha_80" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:yt="http://schemas.android.com/apk/res-auto">
+    <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:textSize="@dimen/reel_primary_font_size" android:textColor="@android:color/white" android:gravity="center_horizontal" android:id="@id/reels_edu_swipe_text_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/reel_edu_swipe_vertical_title" android:layout_centerInParent="true" android:paddingStart="16.0dip" android:paddingEnd="16.0dip" yt:robotoFont="medium" />
+    <com.airbnb.lottie.LottieAnimationView android:id="@id/reel_persistent_edu_button_anim_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_above="@id/reels_edu_swipe_text_view" android:layout_centerHorizontal="true" yt:lottie_autoPlay="true" yt:lottie_loop="true" yt:lottie_rawRes="@raw/swipe_vertical_edu_hand" />
+</RelativeLayout>

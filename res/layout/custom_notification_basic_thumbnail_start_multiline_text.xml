@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/custom_notification_basic_thumbnail_text_layout" android:clipChildren="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:baselineAligned="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/custom_notification_thumbnail_wrapper" android:clipChildren="false" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_alignParentStart="true">
+        <ImageView android:id="@id/custom_notification_thumbnail" android:layout_width="wrap_content" android:layout_height="fill_parent" android:scaleType="fitXY" android:adjustViewBounds="true" android:contentDescription="@null" />
+        <include android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="6.0dip" android:layout_alignBottom="@id/custom_notification_thumbnail" android:layout_marginEnd="16.0dip" android:layout_alignEnd="@id/custom_notification_thumbnail" layout="@layout/custom_notification_thumbnail_duration" />
+        <include android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="6.0dip" android:layout_alignBottom="@id/custom_notification_thumbnail" android:layout_marginStart="8.0dip" android:layout_marginEnd="16.0dip" android:layout_alignEnd="@id/custom_notification_thumbnail" layout="@layout/custom_notification_thumbnail_red_badge" />
+        <ImageView android:id="@id/small_icon" android:background="@drawable/custom_notification_thumbnail_circle_overlay_shape" android:layout_width="16.0dip" android:layout_height="16.0dip" android:layout_marginBottom="6.0dip" android:layout_alignBottom="@id/custom_notification_thumbnail" android:contentDescription="@null" android:translationX="@dimen/thumbnail_start_overlay_margin" android:paddingStart="3.0dip" android:paddingEnd="3.0dip" android:layout_alignEnd="@id/custom_notification_thumbnail" />
+    </RelativeLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/custom_notification_text" android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingStart="12.0dip" android:paddingEnd="8.0dip" android:layout_toEndOf="@id/custom_notification_thumbnail_wrapper" android:layout_alignParentEnd="true">
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="12.0sp" android:ellipsize="end" android:id="@id/custom_notification_title" android:layout_width="0.0dip" android:layout_height="wrap_content" android:maxLines="1" android:layout_weight="1.0" style="@style/NotificationTitle" />
+            <TextView android:textSize="12.0sp" android:layout_gravity="center_vertical" android:id="@id/custom_notification_title_timestamp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="8.0dip" style="@style/NotificationTime" />
+        </LinearLayout>
+        <TextView android:textSize="12.0sp" android:ellipsize="end" android:id="@id/custom_notification_body" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="2" style="@style/NotificationText" />
+    </LinearLayout>
+</RelativeLayout>

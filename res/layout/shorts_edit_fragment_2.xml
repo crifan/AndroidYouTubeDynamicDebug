@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.apps.youtube.app.extensions.reel.creation.shorts.common.ui.ShortsEditCoordinatorLayout android:id="@id/edit_video_container" android:background="?ytOverlayBackgroundSolid" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.apps.youtube.app.extensions.reel.creation.shorts.common.ui.ShortsPlayerViewContainer android:layout_gravity="center_horizontal" android:id="@id/shorts_edit_player_view_wrapper" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.google.android.apps.youtube.app.extensions.reel.creation.shorts.common.ui.ShortsPlayerView android:layout_gravity="center" android:id="@id/shorts_edit_player_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:textSize="@dimen/reel_edit_swipe_effect_text_view_size" android:textColor="?ytOverlayTextPrimary" android:gravity="center" android:id="@id/swipe_effect_text_view" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:shadowColor="?ytOverlayBackgroundHeavy" android:shadowRadius="@integer/reel_edit_swipe_effect_text_view_shadow_radius" android:textAlignment="center" yt:robotoFont="light" xmlns:yt="http://schemas.android.com/apk/res-auto" />
+        <include layout="@layout/sticker_trash_can" />
+    </com.google.android.apps.youtube.app.extensions.reel.creation.shorts.common.ui.ShortsPlayerViewContainer>
+    <include android:layout_gravity="top" android:layout_width="fill_parent" android:layout_height="@dimen/reel_edit_top_bar_height" layout="@layout/shorts_edit_top_bar" />
+    <include android:layout_gravity="bottom" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/shorts_edit_toolbar_with_scrim_height" layout="@layout/shorts_edit_toolbar" />
+    <FrameLayout android:layout_gravity="bottom" android:id="@id/popup_content" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_behavior="com.google.android.apps.youtube.app.extensions.reel.creation.shorts.common.ui.LockedBottomSheetBehavior" />
+    <include android:layout_width="fill_parent" android:layout_height="fill_parent" layout="@layout/reel_add_text" />
+</com.google.android.apps.youtube.app.extensions.reel.creation.shorts.common.ui.ShortsEditCoordinatorLayout>

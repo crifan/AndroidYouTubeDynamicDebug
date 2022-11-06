@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/camera_view_layout" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <android.opengl.GLSurfaceView android:layout_gravity="center" android:id="@id/camera_preview" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <View android:id="@id/camera_front_flash_torch_scrim" android:background="@color/camera_front_flash_torch_scrim_color" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</FrameLayout>

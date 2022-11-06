@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="?ytGeneralBackgroundA" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:yt="http://schemas.android.com/apk/res-auto">
+    <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:textSize="@dimen/small_font_size" android:textColor="?ytTextSecondary" android:ellipsize="end" android:id="@id/text" android:paddingTop="10.0dip" android:paddingBottom="8.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:maxLines="2" android:layout_weight="1.0" android:textIsSelectable="false" android:textAlignment="viewStart" android:paddingStart="16.0dip" android:paddingEnd="16.0dip" yt:robotoFont="medium" />
+    <android.support.v7.widget.AppCompatImageView android:id="@id/help_button" android:background="?selectableItemBackgroundBorderless" android:layout_width="24.0dip" android:layout_height="24.0dip" android:src="@drawable/yt_outline_info_circle_black_24" android:tint="?ytTextPrimary" android:contentDescription="@string/accessibility_help_button" android:layout_marginEnd="12.0dip" />
+</LinearLayout>

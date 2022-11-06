@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="accessibility_dislike_video_plural">
+        <item quantity="other">دکمه نپسندیدن، %1$d نفر دیگر این ویدیو را نپسندیده‌اند</item>
+        <item quantity="one">دکمه نپسندیدن، %1$d نفر دیگر این ویدیو را نپسندیده‌اند</item>
+    </plurals>
+    <plurals name="accessibility_dtts_fast_forward">
+        <item quantity="other">جلو بردن سریع %1$d ثانیه</item>
+        <item quantity="one">جلو بردن سریع %1$d ثانیه</item>
+    </plurals>
+    <plurals name="accessibility_dtts_rewind">
+        <item quantity="other">عقب بردن %1$d ثانیه</item>
+        <item quantity="one">عقب بردن %1$d ثانیه</item>
+    </plurals>
+    <plurals name="accessibility_duration_description_hours">
+        <item quantity="other">%d ساعت</item>
+        <item quantity="one">%d ساعت</item>
+    </plurals>
+    <plurals name="accessibility_duration_description_minutes">
+        <item quantity="other">%d دقیقه</item>
+        <item quantity="one">%d دقیقه</item>
+    </plurals>
+    <plurals name="accessibility_duration_description_seconds">
+        <item quantity="other">%d ثانیه</item>
+        <item quantity="one">%d ثانیه</item>
+    </plurals>
+    <plurals name="accessibility_like_video_plural">
+        <item quantity="other">دکمه پسندیدن، %1$d نفر دیگر این ویدیو را پسندیده‌اند</item>
+        <item quantity="one">دکمه پسندیدن، %1$d نفر دیگر این ویدیو را پسندیده‌اند</item>
+    </plurals>
+    <plurals name="accessibility_skip_ad_in">
+        <item quantity="other">ردکردن آگهی در %1$d ثانیه</item>
+        <item quantity="one">ردکردن آگهی در %1$d ثانیه</item>
+    </plurals>
+    <plurals name="accessibility_undo_dislike_video_plural">
+        <item quantity="other">دکمه واگرد نپسندیدن، %1$d نفر دیگر این ویدیو را نپسندیده‌اند</item>
+        <item quantity="one">دکمه واگرد نپسندیدن، %1$d نفر دیگر این ویدیو را نپسندیده‌اند</item>
+    </plurals>
+    <plurals name="accessibility_undo_like_video_plural">
+        <item quantity="other">دکمه واگرد پسندیدن، %1$d نفر دیگر این ویدیو را پسندیده‌اند</item>
+        <item quantity="one">دکمه واگرد پسندیدن، %1$d نفر دیگر این ویدیو را پسندیده‌اند</item>
+    </plurals>
+    <plurals name="download_new_videos_button_text">
+        <item quantity="other">بارگیری %1$d ویدیوی جدید</item>
+        <item quantity="one">بارگیری %1$d ویدیوی جدید</item>
+    </plurals>
+    <plurals name="download_playlist_unplayable_future_days_plural">
+        <item quantity="other">‏برخی ویدیوها پس از %1$d روز به Premium نیاز دارند</item>
+        <item quantity="one">‏برخی ویدیوها پس از %1$d روز به Premium نیاز دارند</item>
+    </plurals>
+    <plurals name="download_playlist_unplayable_future_hours_plural">
+        <item quantity="other">‏برخی ویدیوها پس از %1$d ساعت به Premium نیاز دارند</item>
+        <item quantity="one">‏برخی ویدیوها پس از %1$d ساعت به Premium نیاز دارند</item>
+    </plurals>
+    <plurals name="download_playlist_unplayable_future_minutes_plural">
+        <item quantity="other">‏برخی ویدیوها پس از %1$d ساعت به Premium نیاز دارند</item>
+        <item quantity="one">‏برخی ویدیوها پس از %1$d ساعت به Premium نیاز دارند</item>
+    </plurals>
+    <plurals name="download_video_unplayable_future_days_plural">
+        <item quantity="other">‏پس از %1$d روز به Premium نیاز دارید</item>
+        <item quantity="one">‏پس از %1$d روز به Premium نیاز دارید</item>
+    </plurals>
+    <plurals name="download_video_unplayable_future_hours_plural">
+        <item quantity="other">‏پس از%1$d ساعت به Premium نیاز دارید</item>
+        <item quantity="one">‏پس از%1$d ساعت به Premium نیاز دارید</item>
+    </plurals>
+    <plurals name="download_video_unplayable_future_minutes_plural">
+        <item quantity="other">‏پس از %1$d دقیقه به Premium نیاز دارید</item>
+        <item quantity="one">‏پس از %1$d دقیقه به Premium نیاز دارید</item>
+    </plurals>
+    <plurals name="duration_minutes">
+        <item quantity="other">%1$d دقیقه</item>
+        <item quantity="zero">۰ دقیقه</item>
+        <item quantity="one">۱ دقیقه</item>
+        <item quantity="two">۲ دقیقه</item>
+        <item quantity="few">%1$d دقیقه</item>
+        <item quantity="many">%1$d دقیقه</item>
+    </plurals>
+    <plurals name="duration_seconds">
+        <item quantity="other">%1$d ثانیه</item>
+        <item quantity="zero">۰ ثانیه</item>
+        <item quantity="one">۱ ثانیه</item>
+        <item quantity="two">۲ ثانیه</item>
+        <item quantity="few">%1$d ثانیه</item>
+        <item quantity="many">%1$d ثانیه</item>
+    </plurals>
+    <plurals name="frequency_hours_component">
+        <item quantity="other">%1$d ساعت</item>
+        <item quantity="one">%1$d ساعت</item>
+    </plurals>
+    <plurals name="frequency_hours_only">
+        <item quantity="other">هر %1$d ساعت</item>
+        <item quantity="one">هر %1$d ساعت</item>
+    </plurals>
+    <plurals name="frequency_minutes_component">
+        <item quantity="other">%1$d دقیقه</item>
+        <item quantity="one">%1$d دقیقه</item>
+    </plurals>
+    <plurals name="frequency_minutes_only">
+        <item quantity="other">هر %1$d دقیقه</item>
+        <item quantity="one">هر %1$d دقیقه</item>
+    </plurals>
+    <plurals name="image_picker_title">
+        <item quantity="other">%1$d تصویر انتخاب‌شده</item>
+        <item quantity="one">%1$d تصویر انتخاب‌شده</item>
+    </plurals>
+    <plurals name="invalid_uploads_error_msg">
+        <item quantity="other">یک یا چند فایل ویدیو دردسترس یا معتبر نیست. لطفاً دوباره امتحان کنید یا فایل‌های دیگری انتخاب کنید.</item>
+        <item quantity="one">یک یا چند فایل ویدیو دردسترس یا معتبر نیست. لطفاً دوباره امتحان کنید یا فایل‌های دیگری انتخاب کنید.</item>
+    </plurals>
+    <plurals name="last_update_in_days_message">
+        <item quantity="other">%1$d روز پیش به‌روزرسانی شد</item>
+        <item quantity="one">%1$d روز پیش به‌روزرسانی شد</item>
+    </plurals>
+    <plurals name="last_update_in_hours_message">
+        <item quantity="other">%1$d ساعت پیش به‌روزرسانی شد</item>
+        <item quantity="one">%1$d ساعت پیش به‌روزرسانی شد</item>
+    </plurals>
+    <plurals name="last_update_in_minutes_message">
+        <item quantity="other">%1$d دقیقه پیش به‌روزرسانی شد</item>
+        <item quantity="one">%1$d دقیقه پیش به‌روزرسانی شد</item>
+    </plurals>
+    <plurals name="last_update_in_weeks_message">
+        <item quantity="other">%1$d هفته پیش به‌روزرسانی شد</item>
+        <item quantity="one">%1$d هفته پیش به‌روزرسانی شد</item>
+    </plurals>
+    <plurals name="notification_playlist_progress_size">
+        <item quantity="other">%1$d از %2$d ویدیو</item>
+        <item quantity="one">%1$d از %2$d ویدیو</item>
+    </plurals>
+    <plurals name="offline_go_online_to_renew_dialog_message">
+        <item quantity="other">تا وقتی دستگاهتان هر %1$d روز اتصال اینترنت داشته باشد، بارگیری‌ها در دسترس خواهند بود. این فرایند به‌طور خودکار انجام می‌شود و ویدیو دوباره بارگیری نمی‌شود.</item>
+        <item quantity="one">تا وقتی دستگاهتان هر %1$d روز اتصال اینترنت داشته باشد، بارگیری‌ها در دسترس خواهند بود. این فرایند به‌طور خودکار انجام می‌شود و ویدیو دوباره بارگیری نمی‌شود.</item>
+    </plurals>
+    <plurals name="offline_go_online_to_renew_snackbar_message">
+        <item quantity="other">بارگیری‌ها تا %1$d روز بدون اتصال اینترنت دردسترس خواهد بود.</item>
+        <item quantity="one">بارگیری‌ها تا %1$d روز بدون اتصال اینترنت دردسترس خواهد بود.</item>
+    </plurals>
+    <plurals name="offline_remember_setting_for_days">
+        <item quantity="other">تنظیمات من برای %1$d روز به‌خاطر سپرده شود</item>
+        <item quantity="one">تنظیمات من برای %1$d روز به‌خاطر سپرده شود</item>
+    </plurals>
+    <plurals name="playlist_picker_dialog_done">
+        <item quantity="other">فهرست پخش به‌روز شد</item>
+        <item quantity="one">فهرست پخش به‌روز شد</item>
+    </plurals>
+    <plurals name="playlist_size">
+        <item quantity="other">%1$,d ویدیو</item>
+        <item quantity="one">%1$,d ویدیو</item>
+    </plurals>
+    <plurals name="playlist_size_downloaded">
+        <item quantity="other">%1$,d بارگیری‌شده</item>
+        <item quantity="one">%1$,d بارگیری‌شده</item>
+    </plurals>
+    <plurals name="playlist_size_total">
+        <item quantity="other">%1$,d ویدیو</item>
+        <item quantity="one">%1$,d ویدیو</item>
+    </plurals>
+    <plurals name="public_notification_text">
+        <item quantity="other">%1$d new notifications</item>
+        <item quantity="one">You have a notification</item>
+    </plurals>
+    <plurals name="quick_seek_x_second">
+        <item quantity="other">%d ثانیه</item>
+        <item quantity="one">%d ثانیه</item>
+    </plurals>
+    <plurals name="recommendation_count">
+        <item quantity="other">%1$d توصیه</item>
+        <item quantity="one">%1$d توصیه</item>
+    </plurals>
+    <plurals name="rental_expiry_notice">
+        <item quantity="other">پس از شروع، %1$d ساعت فرصت دارید تا این ویدیو را تماشا کنید.</item>
+        <item quantity="one">پس از شروع، %1$d ساعت فرصت دارید تا این ویدیو را تماشا کنید.</item>
+    </plurals>
+    <plurals name="rental_long_days_remaining">
+        <item quantity="other">%1$d روز دیگر منقضی می‌شود</item>
+        <item quantity="one">%1$d روز دیگر منقضی می‌شود</item>
+    </plurals>
+    <plurals name="rental_long_hours_remaining">
+        <item quantity="other">%1$d ساعت دیگر منقضی می‌شود</item>
+        <item quantity="one">%1$d ساعت دیگر منقضی می‌شود</item>
+    </plurals>
+    <plurals name="rental_long_weeks_remaining">
+        <item quantity="other">%1$d هفته دیگر منقضی می‌شود</item>
+        <item quantity="one">%1$d هفته دیگر منقضی می‌شود</item>
+    </plurals>
+    <plurals name="rental_medium_days_remaining">
+        <item quantity="other">%1$d روز دیگر منقضی می‌شود</item>
+        <item quantity="one">%1$d روز دیگر منقضی می‌شود</item>
+    </plurals>
+    <plurals name="rental_medium_hours_remaining">
+        <item quantity="other">%1$d ساعت دیگر منقضی می‌شود.</item>
+        <item quantity="one">%1$d ساعت دیگر منقضی می‌شود.</item>
+    </plurals>
+    <plurals name="rental_medium_weeks_remaining">
+        <item quantity="other">%1$d هفته دیگر منقضی می‌شود.</item>
+        <item quantity="one">%1$d هفته دیگر منقضی می‌شود.</item>
+    </plurals>
+    <plurals name="selected_video_count">
+        <item quantity="other">%1$d ویدیو انتخاب شد</item>
+        <item quantity="one">%1$d ویدیو انتخاب شد</item>
+    </plurals>
+    <plurals name="shorts_a11y_duration_seconds">
+        <item quantity="other">%1$s ثانیه</item>
+        <item quantity="one">%1$s ثانیه</item>
+    </plurals>
+    <plurals name="shorts_a11y_timer_duration_seconds">
+        <item quantity="other">زمان‌سنج %1$d ثانیه‌ای</item>
+        <item quantity="one">زمان‌سنج %1$d ثانیه‌ای</item>
+    </plurals>
+    <plurals name="shorts_a11y_timer_started">
+        <item quantity="other">زمان‌سنج %1$d ثانیه‌ای فعال شد</item>
+        <item quantity="one">زمان‌سنج %1$d ثانیه‌ای فعال شد</item>
+    </plurals>
+    <plurals name="smart_downloads_future_update_text">
+        <item quantity="other">بارگیری‌های هوشمند ظرف %1$d روز به‌طور خودکار به‌روزرسانی می‌شوند</item>
+        <item quantity="one">بارگیری‌های هوشمند ظرف %1$d روز به‌طور خودکار به‌روزرسانی می‌شوند</item>
+    </plurals>
+    <plurals name="sticker_dialog_title">
+        <item quantity="other">%1$d روز دیگر دوباره سر بزنید</item>
+        <item quantity="one">%1$d روز دیگر دوباره سر بزنید</item>
+    </plurals>
+    <plurals name="too_many_external_uploads_error_msg">
+        <item quantity="other">در یک نوبت فقط می‌توانید %1$d ویدیو بارگذاری کنید.</item>
+        <item quantity="one">در یک نوبت فقط می‌توانید %1$d ویدیو بارگذاری کنید.</item>
+    </plurals>
+    <plurals name="transcoding_progress">
+        <item quantity="other">درحال آماده‌سازی %1$,d٪٪</item>
+        <item quantity="one">درحال آماده‌سازی %1$,d٪٪</item>
+    </plurals>
+    <plurals name="trim_segment_max_length">
+        <item quantity="other">حداکثر %1$d ثانیه</item>
+        <item quantity="one">حداکثر %1$d ثانیه</item>
+    </plurals>
+    <plurals name="trim_switch_edu">
+        <item quantity="other">برش دادن ویدیو به %1$d ثانیه و افزودن موسیقی</item>
+        <item quantity="one">برش دادن ویدیو به %1$d ثانیه و افزودن موسیقی</item>
+    </plurals>
+    <plurals name="trim_switch_edu_full_length_shorts">
+        <item quantity="other">برش دادن ویدیو به %1$d ثانیه یا کمتر</item>
+        <item quantity="one">برش دادن ویدیو به %1$d ثانیه یا کمتر</item>
+    </plurals>
+    <plurals name="upload_hours_remaing">
+        <item quantity="other">حدود %1$,d ساعت باقی مانده است</item>
+        <item quantity="one">حدود %1$,d ساعت باقی مانده است</item>
+    </plurals>
+    <plurals name="upload_indicator_all_completed">
+        <item quantity="other">%d ویدیو بارگذاری شد</item>
+        <item quantity="one">%d ویدیو بارگذاری شد</item>
+    </plurals>
+    <plurals name="upload_indicator_all_failed">
+        <item quantity="other">هیچ‌یک از ویدیوهایتان بارگذاری نشد</item>
+        <item quantity="one">هیچ‌یک از ویدیوهایتان بارگذاری نشد</item>
+    </plurals>
+    <plurals name="upload_indicator_all_uploading">
+        <item quantity="other">درحال بارگذاری %d ویدیو</item>
+        <item quantity="one">درحال بارگذاری %d ویدیو</item>
+    </plurals>
+    <plurals name="upload_indicator_partial_fail">
+        <item quantity="other">%1$d ویدیو از %2$d ویدیو بارگذاری نشد</item>
+        <item quantity="one">%1$d ویدیو از %2$d ویدیو بارگذاری نشد</item>
+    </plurals>
+    <plurals name="upload_indicator_uploading_and_completed_completed_part">
+        <item quantity="other">%d ویدیو بارگذاری شد</item>
+        <item quantity="one">%d ویدیو بارگذاری شد</item>
+    </plurals>
+    <plurals name="upload_indicator_uploading_and_completed_uploading_part">
+        <item quantity="other">%d ویدیو همچنان درحال بارگذاری است</item>
+        <item quantity="one">%d ویدیو همچنان درحال بارگذاری است</item>
+    </plurals>
+    <plurals name="upload_minutes_remaing">
+        <item quantity="other">حدود %1$,d دقیقه باقی مانده است</item>
+        <item quantity="one">حدود %1$,d دقیقه باقی مانده است</item>
+    </plurals>
+    <plurals name="upload_notification_active_progress">
+        <item quantity="other">درحال بارگذاری %1$d از %2$d ویدیو</item>
+        <item quantity="one">درحال بارگذاری %1$d از %2$d ویدیو</item>
+    </plurals>
+    <plurals name="upload_progress">
+        <item quantity="other">%1$,d٪٪ بارگذاری شد</item>
+        <item quantity="one">%1$,d٪٪ بارگذاری شد</item>
+    </plurals>
+    <plurals name="upload_seconds_remaing">
+        <item quantity="other">حدود %1$,d ثانیه باقی مانده است</item>
+        <item quantity="one">حدود %1$,d ثانیه باقی مانده است</item>
+    </plurals>
+    <plurals name="uploads_failed">
+        <item quantity="other">%1$,d ویدیو بارگذاری نشد</item>
+        <item quantity="one">%1$,d ویدیو بارگذاری نشد</item>
+    </plurals>
+    <plurals name="uploads_failed_with_in_progress_videos">
+        <item quantity="other">%1$,d ویدیو از %2$,d ویدیو بارگذاری نشد</item>
+        <item quantity="one">%1$,d ویدیو از %2$,d ویدیو بارگذاری نشد</item>
+    </plurals>
+    <plurals name="uploads_in_progress">
+        <item quantity="other">درحال بارگذاری %1$,d ویدیو</item>
+        <item quantity="one">درحال بارگذاری %1$,d ویدیو</item>
+    </plurals>
+    <plurals name="user_education_quick_seek">
+        <item quantity="other">برای رد کردن %d ثانیه، دو ضربه سریع به چپ یا راست بزنید</item>
+        <item quantity="one">برای رد کردن %d ثانیه، دو ضربه سریع به چپ یا راست بزنید</item>
+    </plurals>
+    <plurals name="video_count">
+        <item quantity="other">%1$d ویدیو</item>
+        <item quantity="one">%1$d ویدیو</item>
+    </plurals>
+</resources>

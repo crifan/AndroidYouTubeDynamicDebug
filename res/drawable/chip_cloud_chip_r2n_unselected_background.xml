@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <gradient android:startColor="?ytAssistiveFeedVibrantGradient3" android:endColor="?ytAssistiveFeedVibrantGradient1" android:angle="45.0" android:type="linear" android:centerColor="?ytAssistiveFeedVibrantGradient2" />
+            <size android:height="@dimen/refresh_to_novel_gradient_size" android:width="@dimen/refresh_to_novel_gradient_size" />
+            <corners android:radius="@dimen/cloud_chip_corner_radius" />
+        </shape>
+    </item>
+    <item android:left="@dimen/refresh_to_novel_border_thickness" android:top="@dimen/refresh_to_novel_border_thickness" android:right="@dimen/refresh_to_novel_border_thickness" android:bottom="@dimen/refresh_to_novel_border_thickness">
+        <shape android:layout_width="wrap_content" android:layout_height="wrap_content" android:shape="rectangle"
+          xmlns:android="http://schemas.android.com/apk/res/android">
+            <solid android:color="?ytBrandBackgroundSolid" />
+            <corners android:radius="@dimen/cloud_chip_corner_radius" />
+        </shape>
+    </item>
+    <item android:left="@dimen/refresh_to_novel_border_thickness" android:top="@dimen/refresh_to_novel_border_thickness" android:right="@dimen/refresh_to_novel_border_thickness" android:bottom="@dimen/refresh_to_novel_border_thickness">
+        <shape android:layout_width="wrap_content" android:layout_height="wrap_content" android:shape="rectangle"
+          xmlns:android="http://schemas.android.com/apk/res/android">
+            <solid android:color="?ytBadgeChipBackground" />
+            <corners android:radius="@dimen/cloud_chip_corner_radius" />
+        </shape>
+    </item>
+</layer-list>

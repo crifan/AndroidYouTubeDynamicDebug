@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/ic_trim_handle_right" android:left="@dimen/video_trim_view_handle_left_padding" android:right="@dimen/video_trim_view_handle_right_padding" />
+</layer-list>

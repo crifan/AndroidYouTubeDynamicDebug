@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <item android:state_focused="true" android:drawable="@drawable/$validated_text_area_background_dark__0" android:state_activated="true" />
+    <item android:state_focused="false" android:drawable="@drawable/$validated_text_area_background_dark__1" android:state_activated="true" />
+    <item android:state_focused="true" android:drawable="@drawable/$validated_text_area_background_dark__2" android:state_activated="false" />
+    <item android:drawable="@drawable/$validated_text_area_background_dark__3" />
+</selector>

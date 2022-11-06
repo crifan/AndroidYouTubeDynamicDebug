@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/lc_screencast_choose_thumbnail_view_animator" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true">
+        <RelativeLayout android:id="@id/choose_thumbnail_content" android:background="@android:color/transparent" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <include android:id="@id/thumbnail_top_bar" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/lc_choose_thumbnail_fragment_top_bar" />
+            <RelativeLayout android:id="@id/thumbnail_capture_root" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/thumbnail_top_bar">
+                <FrameLayout android:id="@id/viewport_container" android:layout_width="@dimen/lc_thumbnail_viewport_width" android:layout_height="@dimen/lc_thumbnail_viewport_height" android:layout_marginTop="@dimen/lc_thumbnail_viewport_margin_top" android:layout_marginBottom="@dimen/lc_thumbnail_viewport_margin_bottom" android:layout_centerHorizontal="true">
+                    <com.google.android.libraries.youtube.livecreation.ui.view.WaitingIndicatorView android:layout_gravity="center" android:id="@id/countdown_view" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                </FrameLayout>
+                <TextView android:textSize="@dimen/lc_thumbnail_capture_text_size" android:id="@id/thumbnail_capture_text_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/viewport_container" android:layout_centerHorizontal="true" android:textIsSelectable="true" android:fontFamily="sans-serif-light" />
+            </RelativeLayout>
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/thumbnail_preview_root" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="@dimen/lc_activity_vertical_margin" android:layout_below="@id/thumbnail_top_bar" android:layout_alignWithParentIfMissing="true">
+                <RelativeLayout android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+                    <RelativeLayout android:id="@id/thumbnail_preview_container" android:layout_width="@dimen/lc_screencast_thumbnail_preview_width" android:layout_height="@dimen/lc_screencast_thumbnail_preview_height" android:layout_centerVertical="true" android:layout_marginStart="@dimen/lc_screencast_thumbnail_horizontal_margin">
+                        <include layout="@layout/lc_choose_thumbnail_fragment_thumbnail" />
+                    </RelativeLayout>
+                    <ViewStub android:id="@id/orientation_selector" android:layout="@layout/lc_orientation_selector" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignTop="@id/thumbnail_preview_container" android:layout_toEndOf="@id/thumbnail_preview_container" />
+                    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/stream_schedule_info_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/lc_activity_vertical_margin" android:layout_alignBottom="@id/thumbnail_preview_container" android:layout_marginStart="@dimen/lc_thumbnail_schedule_info_margin" android:layout_marginEnd="@dimen/lc_thumbnail_schedule_info_margin" android:layout_toEndOf="@id/thumbnail_preview_container">
+                        <include android:layout_width="wrap_content" android:layout_height="wrap_content" layout="@layout/lc_choose_thumbnail_fragment_schedule_info" />
+                        <TextView android:textSize="@dimen/lc_thumbnail_viewers_waiting_text_size" android:textColor="?ytTextPrimary" android:gravity="start" android:layout_gravity="center" android:id="@id/viewers_waiting_text_view" android:background="@drawable/lc_round_corner_black_solid_rectangle" android:paddingTop="@dimen/lc_thumbnail_viewers_waiting_text_vertical_padding" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:drawablePadding="@dimen/lc_thumbnail_viewers_waiting_drawable_padding" android:drawableStart="@drawable/quantum_ic_person_white_18" android:fontFamily="sans-serif-medium" android:textAlignment="textStart" android:paddingStart="@dimen/lc_thumbnail_viewers_waiting_text_horizontal_padding" android:paddingEnd="@dimen/lc_thumbnail_viewers_waiting_text_horizontal_padding" />
+                    </LinearLayout>
+                </RelativeLayout>
+                <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/lc_activity_vertical_margin" android:layout_marginBottom="@dimen/lc_activity_vertical_margin" android:layout_marginStart="@dimen/lc_screencast_thumbnail_horizontal_margin" android:layout_marginEnd="@dimen/lc_screencast_thumbnail_horizontal_margin">
+                    <Button android:enabled="false" android:textSize="@dimen/body_text_size" android:id="@id/finish_scheduling_button" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="@dimen/lc_action_button_height" android:layout_weight="1.0" android:layout_marginEnd="@dimen/lc_screencast_thumbnail_horizontal_margin" style="?android:buttonBarButtonStyle" />
+                    <Button android:enabled="false" android:textSize="@dimen/body_text_size" android:id="@id/start_stream_button" android:layout_width="0.0dip" android:layout_height="@dimen/lc_action_button_height" android:layout_weight="1.0" style="?android:buttonBarButtonStyle" />
+                </LinearLayout>
+                <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:textAppearance="?textAppearanceCaption" android:textColor="?ytTextSecondary" android:gravity="center_horizontal" android:id="@id/stream_orientation_text_view" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            </LinearLayout>
+        </RelativeLayout>
+    </ScrollView>
+    <com.google.android.libraries.youtube.livecreation.ui.view.NetworkOperationView android:layout_gravity="center" android:id="@id/choose_thumbnail_network_operation" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</FrameLayout>

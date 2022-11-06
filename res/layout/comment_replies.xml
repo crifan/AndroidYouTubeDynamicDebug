@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="?ytBrandBackgroundSolid" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/comment_replies" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:textAppearance="?textAppearanceBody2" android:textSize="14.0sp" android:textColor="?ytCallToAction" android:ellipsize="end" android:id="@id/detail_view_button" android:background="?selectableItemBackground" android:paddingTop="10.0dip" android:focusable="true" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minHeight="@dimen/detail_view_button_min_height" android:maxLines="1" android:paddingStart="@dimen/detail_view_button_padding_left" android:paddingEnd="@dimen/detail_view_button_padding_right" android:layout_marginStart="@dimen/detail_view_button_margin_left" />
+</LinearLayout>

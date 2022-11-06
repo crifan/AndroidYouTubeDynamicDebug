@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.progressindicator.CircularProgressIndicator android:id="@id/Progress" android:layout_width="fill_parent" android:layout_height="fill_parent" android:indeterminate="true" android:layout_centerInParent="true" app:materialThemeOverlay="@style/Theme.GoogleMaterial.DayNight" style="@style/Widget.GoogleMaterial.CircularProgressIndicator.Branded" />
+    <android.support.v4.app.FragmentContainerView android:id="@id/base_fragment_container_view" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerInParent="true" />
+</RelativeLayout>

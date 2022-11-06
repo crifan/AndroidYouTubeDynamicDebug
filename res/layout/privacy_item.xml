@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:paddingTop="@dimen/upload_activity_privacy_spinner_padding_top" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <android.support.v7.widget.AppCompatImageView android:id="@id/icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:tint="?ytTextPrimary" android:contentDescription="@null" android:paddingStart="0.0dip" android:paddingEnd="@dimen/upload_activity_privacy_horizontal_padding" />
+    <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:textSize="@dimen/medium_font_size" android:textColor="?ytTextPrimary" android:id="@id/label" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" android:textAlignment="viewStart" />
+</LinearLayout>

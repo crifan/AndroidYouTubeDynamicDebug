@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@drawable/post_image_carousel_cell_border" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="@dimen/image_carousel_cell_divider"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/carousel_image" android:layout_width="fill_parent" android:layout_height="fill_parent" android:adjustViewBounds="true" />
+    <FrameLayout android:layout_gravity="start|center|top" android:id="@id/carousel_image_edit_button" android:background="@drawable/image_carousel_button_border" android:layout_width="@dimen/image_carousel_button_size" android:layout_height="@dimen/image_carousel_button_size" android:layout_marginTop="@dimen/image_carousel_button_margin" android:layout_marginStart="@dimen/image_carousel_button_margin">
+        <ImageView android:layout_gravity="center" android:layout_width="@dimen/image_carousel_cell_icon_size" android:layout_height="@dimen/image_carousel_cell_icon_size" android:src="@drawable/quantum_ic_edit_white_24" />
+    </FrameLayout>
+    <FrameLayout android:layout_gravity="end|center|top" android:id="@id/carousel_image_delete_button" android:background="@drawable/image_carousel_button_border" android:layout_width="@dimen/image_carousel_button_size" android:layout_height="@dimen/image_carousel_button_size" android:layout_marginTop="@dimen/image_carousel_button_margin" android:layout_marginEnd="@dimen/image_carousel_button_margin">
+        <ImageView android:layout_gravity="center" android:layout_width="@dimen/image_carousel_cell_icon_size" android:layout_height="@dimen/image_carousel_cell_icon_size" android:src="@drawable/quantum_ic_delete_white_24" />
+    </FrameLayout>
+    <ProgressBar android:layout_gravity="center" android:id="@id/upload_progress_bar" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:id="@id/image_upload_error" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView android:paddingBottom="6.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/quantum_ic_error_outline_grey600_24" />
+        <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:textAppearance="?textAppearanceCaption" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/error_image_uploading" />
+        <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:textAppearance="?textAppearanceCaption" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/tap_to_retry" />
+    </LinearLayout>
+</FrameLayout>

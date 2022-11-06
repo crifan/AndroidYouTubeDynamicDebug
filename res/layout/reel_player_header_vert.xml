@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/reel_header_group" android:layout_width="fill_parent" android:layout_height="wrap_content" android:importantForAccessibility="yes"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/reel_header_menu_button" android:background="@drawable/reel_circular_button_background" android:padding="@dimen/reel_close_button_padding" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/reel_close_button_margin_top" android:src="@drawable/quantum_ic_more_vert_white_24" android:layout_alignParentTop="true" android:contentDescription="@string/reel_accessibility_menu" android:layout_alignParentEnd="true" />
+</RelativeLayout>

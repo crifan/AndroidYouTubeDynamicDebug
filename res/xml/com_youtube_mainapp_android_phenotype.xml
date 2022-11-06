@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<phenotype-registrations>
+    <phenotype-registration>
+        <configuration-package>com.youtube.mainapp.android</configuration-package>
+        <auto-subpackage>false</auto-subpackage>
+    </phenotype-registration>
+</phenotype-registrations>

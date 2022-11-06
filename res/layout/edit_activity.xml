@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.material.appbar.AppBarLayout android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/CompatElevationZ4">
+        <android.support.v7.widget.Toolbar android:theme="?callToActionButtonActionBarTheme" android:id="@id/toolbar" android:layout_width="fill_parent" android:layout_height="?actionBarSize" />
+    </com.google.android.material.appbar.AppBarLayout>
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <FrameLayout android:id="@id/interstitials_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:elevation="12.0dip" />
+        <View android:focusable="true" android:focusableInTouchMode="true" android:layout_width="0.0px" android:layout_height="0.0px" />
+        <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <com.google.android.libraries.youtube.rendering.ui.widget.loadingframe.LoadingFrameLayout android:id="@id/edit_activity_layout" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <com.google.android.libraries.youtube.edit.ui.ViewAnimatorHelper android:id="@id/view_animator" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                    <android.support.v7.widget.RecyclerView android:id="@id/recycler_view" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true" />
+                    <com.google.android.libraries.youtube.metadataeditor.geo.LocationSearchView android:theme="?editLocationTheme" android:id="@id/location_search_view" android:background="?backgroundPrimary" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+                </com.google.android.libraries.youtube.edit.ui.ViewAnimatorHelper>
+            </com.google.android.libraries.youtube.rendering.ui.widget.loadingframe.LoadingFrameLayout>
+        </ScrollView>
+        <FrameLayout android:id="@id/element_fragment" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <com.google.android.apps.youtube.app.common.ui.bottomui.BottomUiContainer android:layout_gravity="bottom|center" android:id="@id/bottom_ui_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <FrameLayout android:id="@id/edit_thumbnails_fragment" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <FrameLayout android:id="@id/verification_edit_container" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </FrameLayout>
+</LinearLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <SurfaceView android:id="@id/camera_preview_surface_view" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <ImageView android:layout_gravity="center" android:id="@id/camera_preview_cover" android:background="@color/gallery_camera_container_color" android:layout_width="fill_parent" android:layout_height="fill_parent" android:contentDescription="@null" />
+</FrameLayout>

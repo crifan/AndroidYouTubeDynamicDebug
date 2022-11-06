@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="@dimen/shorts_edit_tool_button_drawable_icon_size" android:width="@dimen/shorts_edit_tool_button_drawable_icon_size" android:viewportWidth="24.0" android:viewportHeight="24.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="#ffffffff" android:pathData="M4,0L20,0A4,4 0,0 1,24 4L24,20A4,4 0,0 1,20 24L4,24A4,4 0,0 1,0 20L0,4A4,4 0,0 1,4 0z" android:fillAlpha="0.3" />
+    <path android:fillColor="#ffffffff" android:pathData="M12,15.6133L6.2,9.8L7.1467,8.8533L12,13.72L16.8667,8.8533L17.8133,9.8L12,15.6133Z" />
+</vector>

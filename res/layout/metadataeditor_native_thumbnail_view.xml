@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.libraries.youtube.common.ui.FixedAspectRatioFrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content" yt:aspectRatio="@fraction/thumbnail_aspect_ratio_16_9" xmlns:yt="http://schemas.android.com/apk/res-auto">
+        <ImageView android:id="@id/mde_video_thumbnail" android:layout_width="fill_parent" android:layout_height="fill_parent" android:foreground="?selectableItemBackground" android:scaleType="centerCrop" />
+        <ImageButton android:layout_gravity="start" android:id="@id/mde_edit_thumbnail_button" android:background="?selectableItemBackground" android:layout_width="@dimen/custom_thumbnail_picker_button_icon_size" android:layout_height="@dimen/custom_thumbnail_picker_button_icon_size" android:layout_marginTop="@dimen/custom_thumbnail_picker_button_margin" android:src="@drawable/yt_outline_pencil_black_24" android:contentDescription="@string/accessibility_edit_custom_thumbnail" android:layout_marginStart="@dimen/custom_thumbnail_picker_button_margin" />
+    </com.google.android.libraries.youtube.common.ui.FixedAspectRatioFrameLayout>
+</LinearLayout>

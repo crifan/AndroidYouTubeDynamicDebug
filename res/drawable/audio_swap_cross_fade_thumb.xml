@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:top="13.0dip" android:bottom="13.0dip">
+        <shape android:shape="rectangle">
+            <size android:height="22.0dip" android:width="8.0dip" />
+            <solid android:color="@color/video_trim_view_audio_cross_fade_thumbnail" />
+        </shape>
+    </item>
+</layer-list>

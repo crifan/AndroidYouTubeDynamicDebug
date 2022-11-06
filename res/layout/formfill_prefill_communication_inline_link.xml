@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:background="?ytSuggestedAction" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:yt="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/prefill_communication_icon" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_marginTop="16.0dip" android:layout_marginBottom="16.0dip" android:src="@drawable/quantum_ic_account_box_grey600_24" android:scaleType="centerCrop" android:tint="?ytIconInactive" android:contentDescription="@null" android:layout_marginStart="16.0dip" />
+    <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:textSize="14.0sp" android:textColor="?adText1" android:id="@id/prefill_communication" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:layout_marginBottom="16.0dip" android:layout_marginStart="12.0dip" android:layout_marginEnd="16.0dip" yt:hyperlinksClickable="true" />
+</LinearLayout>

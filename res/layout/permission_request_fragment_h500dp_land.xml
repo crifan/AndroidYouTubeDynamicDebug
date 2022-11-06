@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/permission_request_fragment" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:yt="http://schemas.android.com/apk/res-auto">
+    <android.support.v7.widget.Toolbar android:id="@id/toolbar" android:layout_width="fill_parent" android:layout_height="?actionBarSize" yt:navigationContentDescription="@string/abc_action_bar_up_description" yt:navigationIcon="@drawable/quantum_ic_close_white_24" yt:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar" />
+    <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ImageView android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/permission_image_margin" android:src="@drawable/permissions_all" android:contentDescription="@null" />
+            <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:textAppearance="?android:textAppearanceLarge" android:textColor="?ytTextPrimary" android:layout_gravity="center_horizontal" android:id="@id/permission_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/permission_title" yt:robotoFont="regular" />
+            <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:textAppearance="?android:textAppearanceSmall" android:textColor="?ytTextPrimary" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/permission_description" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="50.0dip" android:layout_marginTop="@dimen/permission_description_top_margin" android:layout_marginRight="50.0dip" android:layout_marginBottom="@dimen/permission_description_bottom_margin" yt:robotoFont="regular" />
+            <Button android:textColor="?ytTextPrimaryInverse" android:layout_gravity="center_horizontal" android:id="@id/permission_request_button" android:background="@drawable/permission_request_button" android:paddingLeft="@dimen/permission_request_button_padding" android:paddingRight="@dimen/permission_request_button_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/permission_allow_access_button" android:backgroundTint="?ytCallToAction" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

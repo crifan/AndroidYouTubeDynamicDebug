@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView android:textSize="@dimen/live_chat_button_subtitle_font_size" android:textColor="?ytTextPrimaryInverse" android:gravity="center" android:paddingTop="@dimen/live_chat_button_subtext_padding_top" android:paddingBottom="@dimen/live_chat_button_subtext_padding_bottom" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

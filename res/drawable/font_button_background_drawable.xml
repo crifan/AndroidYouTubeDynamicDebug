@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:left="@dimen/advanced_text_font_toggle_background_padding" android:top="@dimen/advanced_text_font_toggle_background_padding" android:right="@dimen/advanced_text_font_toggle_background_padding" android:bottom="@dimen/advanced_text_font_toggle_background_padding">
+        <shape android:shape="rectangle">
+            <solid android:color="@color/yt_black_pure_opacity5" />
+            <stroke android:width="@dimen/advanced_text_font_toggle_stroke_width" android:color="@color/yt_white1" />
+            <corners android:radius="@dimen/advanced_text_font_toggle_corner_radius" />
+        </shape>
+    </item>
+    <item android:drawable="?selectableItemBackgroundBorderless" />
+</layer-list>

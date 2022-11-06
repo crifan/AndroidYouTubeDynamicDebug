@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/selectable_image" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+    <LinearLayout android:id="@id/selectable_image_border" android:background="@drawable/image_picker_selected_image_border" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <LinearLayout android:gravity="center" android:layout_gravity="center|left|top" android:id="@id/selectable_number" android:background="?ytThemedBlue" android:visibility="gone" android:layout_width="@dimen/image_picker_selected_text_layout_size" android:layout_height="@dimen/image_picker_selected_text_layout_size">
+        <TextView android:textAppearance="?ytTextAppearanceBody2b" android:gravity="center" android:id="@id/selectable_number_text" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </LinearLayout>
+</merge>

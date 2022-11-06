@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/creation_entry_item" android:paddingTop="@dimen/creation_sheet_top_padding" android:paddingBottom="@dimen/creation_sheet_bottom_padding" android:focusable="true" android:clickable="true" android:layout_width="@dimen/creation_sheet_item_width" android:layout_height="wrap_content" android:layout_weight="1.0" android:importantForAccessibility="yes"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center" android:id="@id/image" android:layout_width="@dimen/creation_sheet_image_width_height" android:layout_height="@dimen/creation_sheet_image_width_height" android:scaleType="centerInside" android:contentDescription="@null" android:importantForAccessibility="no" />
+    <com.google.android.libraries.youtube.common.ui.YouTubeButton android:textSize="@dimen/creation_sheet_text_size" android:textColor="?ytTextPrimary" android:ellipsize="end" android:gravity="center" android:layout_gravity="center" android:id="@id/text" android:paddingTop="@dimen/creation_sheet_text_top_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="2" android:importantForAccessibility="no" />
+</LinearLayout>

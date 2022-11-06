@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center_vertical" android:id="@id/shorts_edit_tooltip_icon" android:clickable="false" android:layout_width="@dimen/shorts_edit_tooltip_button_drawable_icon_size" android:layout_height="@dimen/shorts_edit_tooltip_button_drawable_icon_size" android:scaleType="centerInside" android:tint="@android:color/black" />
+    <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:textAppearance="?ytTextAppearanceBody2b" android:textSize="14.0sp" android:textColor="@android:color/black" android:gravity="center_vertical" android:id="@id/shorts_edit_tooltip_text" android:layout_width="wrap_content" android:layout_height="18.0dip" android:layout_centerVertical="true" android:lineSpacingExtra="2.0sp" android:textAllCaps="true" android:layout_marginStart="8.0dip" android:layout_marginEnd="16.0dip" />
+</merge>

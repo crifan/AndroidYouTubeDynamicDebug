@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="accessibility_dislike_video_plural">
+        <item quantity="other">Gustatzen ez zaizula adierazteko botoia. Beste %1$d erabiltzailek adierazi dute gustatu ez zaiela.</item>
+        <item quantity="one">Gustatzen ez zaizula adierazteko botoia. Beste %1$d erabiltzailek adierazi du gustatu ez zaiola.</item>
+    </plurals>
+    <plurals name="accessibility_dtts_fast_forward">
+        <item quantity="other">Aurreratu %1$d segundo</item>
+        <item quantity="one">Aurreratu %1$d segundo</item>
+    </plurals>
+    <plurals name="accessibility_dtts_rewind">
+        <item quantity="other">Atzeratu %1$d segundo</item>
+        <item quantity="one">Atzeratu %1$d segundo</item>
+    </plurals>
+    <plurals name="accessibility_duration_description_hours">
+        <item quantity="other">%d ordu</item>
+        <item quantity="one">%d ordu</item>
+    </plurals>
+    <plurals name="accessibility_duration_description_minutes">
+        <item quantity="other">%d minutu</item>
+        <item quantity="one">%d minutu</item>
+    </plurals>
+    <plurals name="accessibility_duration_description_seconds">
+        <item quantity="other">%d segundo</item>
+        <item quantity="one">%d segundo</item>
+    </plurals>
+    <plurals name="accessibility_like_video_plural">
+        <item quantity="other">Gustatu zaizula adierazteko botoia. Beste %1$d erabiltzailek adierazi dute bideoa gustatu zaiela.</item>
+        <item quantity="one">Gustatu zaizula adierazteko botoia. Beste %1$d erabiltzailek adierazi du bideoa gustatu zaiola.</item>
+    </plurals>
+    <plurals name="accessibility_skip_ad_in">
+        <item quantity="other">Saltatu iragarkia %1$d segundo barru</item>
+        <item quantity="one">Saltatu iragarkia 1 segundo barru</item>
+    </plurals>
+    <plurals name="accessibility_undo_dislike_video_plural">
+        <item quantity="other">Gustatu ez izanaren adierazpena desegiteko botoia. Beste %1$d erabiltzailek adierazi dute gustatu ez zaiela.</item>
+        <item quantity="one">Gustatu ez izanaren adierazpena desegiteko botoia. Beste %1$d erabiltzailek adierazi du gustatu ez zaiola.</item>
+    </plurals>
+    <plurals name="accessibility_undo_like_video_plural">
+        <item quantity="other">Gustatu izanaren adierazpena desegiteko botoia. Beste %1$d erabiltzailek adierazi dute gustatu zaiela.</item>
+        <item quantity="one">Gustatu izanaren adierazpena desegiteko botoia. Beste %1$d erabiltzailek adierazi du gustatu zaiola.</item>
+    </plurals>
+    <plurals name="download_new_videos_button_text">
+        <item quantity="other">Deskargatu %1$d bideo berri</item>
+        <item quantity="one">Deskargatu %1$d bideo berri</item>
+    </plurals>
+    <plurals name="download_playlist_unplayable_future_days_plural">
+        <item quantity="other">Bideo batzuk ikusteko, beharrezkoa izango da Premium-eko kidetza izatea %1$d egun barru</item>
+        <item quantity="one">Bideo batzuk ikusteko, beharrezkoa izango da Premium-eko kidetza izatea %1$d egun barru</item>
+    </plurals>
+    <plurals name="download_playlist_unplayable_future_hours_plural">
+        <item quantity="other">Bideo batzuk ikusteko, beharrezkoa izango da Premium-eko kidetza izatea %1$d ordu barru</item>
+        <item quantity="one">Bideo batzuk ikusteko, beharrezkoa izango da Premium-eko kidetza izatea %1$d ordu barru</item>
+    </plurals>
+    <plurals name="download_playlist_unplayable_future_minutes_plural">
+        <item quantity="other">Bideo batzuk ikusteko, beharrezkoa izango da Premium-eko kidetza izatea %1$d minutu barru</item>
+        <item quantity="one">Bideo batzuk ikusteko, beharrezkoa izango da Premium-eko kidetza izatea %1$d minutu barru</item>
+    </plurals>
+    <plurals name="download_video_unplayable_future_days_plural">
+        <item quantity="other">Beharrezkoa izango da Premium-eko kidetza izatea %1$d egun barru</item>
+        <item quantity="one">Beharrezkoa izango da Premium-eko kidetza izatea %1$d egun barru</item>
+    </plurals>
+    <plurals name="download_video_unplayable_future_hours_plural">
+        <item quantity="other">Beharrezkoa izango da Premium-eko kidetza izatea %1$d ordu barru</item>
+        <item quantity="one">Beharrezkoa izango da Premium-eko kidetza izatea %1$d ordu barru</item>
+    </plurals>
+    <plurals name="download_video_unplayable_future_minutes_plural">
+        <item quantity="other">Beharrezkoa izango da Premium-eko kidetza izatea %1$d minutu barru</item>
+        <item quantity="one">Beharrezkoa izango da Premium-eko kidetza izatea %1$d minutu barru</item>
+    </plurals>
+    <plurals name="frequency_hours_component">
+        <item quantity="other">%1$d ordu</item>
+        <item quantity="one">%1$d ordu</item>
+    </plurals>
+    <plurals name="frequency_hours_only">
+        <item quantity="other">%1$d orduz behin</item>
+        <item quantity="one">Orduero</item>
+    </plurals>
+    <plurals name="frequency_minutes_component">
+        <item quantity="other">%1$d minutu</item>
+        <item quantity="one">%1$d minutu</item>
+    </plurals>
+    <plurals name="frequency_minutes_only">
+        <item quantity="other">%1$d minutuz behin</item>
+        <item quantity="one">Minutuero</item>
+    </plurals>
+    <plurals name="image_picker_title">
+        <item quantity="other">%1$d hautatu dituzu</item>
+        <item quantity="one">%1$d hautatu duzu</item>
+    </plurals>
+    <plurals name="invalid_uploads_error_msg">
+        <item quantity="other">Bideo-fitxategi horietako bat edo gehiago ez daude erabilgarri edo ez dute balio. Saiatu berriro edo aukeratu beste bat.</item>
+        <item quantity="one">Bideo-fitxategi hori ez dago erabilgarri edo ez du balio. Saiatu berriro edo aukeratu beste bat.</item>
+    </plurals>
+    <plurals name="last_update_in_days_message">
+        <item quantity="other">Duela %1$d egun eguneratuta</item>
+        <item quantity="one">Atzo eguneratuta</item>
+    </plurals>
+    <plurals name="last_update_in_hours_message">
+        <item quantity="other">Duela %1$d ordu eguneratuta</item>
+        <item quantity="one">Duela %1$d ordu eguneratuta</item>
+    </plurals>
+    <plurals name="last_update_in_minutes_message">
+        <item quantity="other">Duela %1$d minutu eguneratuta</item>
+        <item quantity="one">Duela %1$d minutu eguneratuta</item>
+    </plurals>
+    <plurals name="last_update_in_weeks_message">
+        <item quantity="other">Duela %1$d aste eguneratuta</item>
+        <item quantity="one">Duela %1$d aste eguneratuta</item>
+    </plurals>
+    <plurals name="notification_playlist_progress_size">
+        <item quantity="other">%1$d/%2$d bideo</item>
+        <item quantity="one">%1$d/1 bideo</item>
+    </plurals>
+    <plurals name="offline_go_online_to_renew_dialog_message">
+        <item quantity="other">Deskargek erabilgarri egoten jarraituko dute gailua %1$d egunean behin Internetera konektatuz gero. Prozesu hori automatikoa da eta bideoa ez da berriro deskargatuko.</item>
+        <item quantity="one">Deskargek erabilgarri egoten jarraituko dute gailua egunean behin Internetera konektatuz gero. Prozesu hori automatikoa da eta bideoa ez da berriro deskargatuko.</item>
+    </plurals>
+    <plurals name="offline_go_online_to_renew_snackbar_message">
+        <item quantity="other">%1$d egunez daude erabilgarri deskargak Interneteko konexiorik gabe.</item>
+        <item quantity="one">Egun batez daude erabilgarri deskargak Interneteko konexiorik gabe.</item>
+    </plurals>
+    <plurals name="offline_remember_setting_for_days">
+        <item quantity="other">Gogoratu ezarpenak %1$d egunez</item>
+        <item quantity="one">Gogoratu ezarpenak egun batez</item>
+    </plurals>
+    <plurals name="playlist_picker_dialog_done">
+        <item quantity="other">Eguneratu dira erreprodukzio-zerrendak</item>
+        <item quantity="one">Eguneratu da erreprodukzio-zerrenda</item>
+    </plurals>
+    <plurals name="playlist_size">
+        <item quantity="other">%1$,d bideo</item>
+        <item quantity="one">1 bideo</item>
+    </plurals>
+    <plurals name="playlist_size_downloaded">
+        <item quantity="other">%1$,d deskargatu dira</item>
+        <item quantity="one">%1$,d deskargatu da</item>
+    </plurals>
+    <plurals name="playlist_size_total">
+        <item quantity="other">%1$,d bideo</item>
+        <item quantity="one">1 bideo</item>
+    </plurals>
+    <plurals name="public_notification_text">
+        <item quantity="other">%1$d new notifications</item>
+        <item quantity="one">You have a notification</item>
+    </plurals>
+    <plurals name="quick_seek_x_second">
+        <item quantity="other">%d segundo</item>
+        <item quantity="one">%d segundo</item>
+    </plurals>
+    <plurals name="recommendation_count">
+        <item quantity="other">%1$d gomendio</item>
+        <item quantity="one">1 gomendio</item>
+    </plurals>
+    <plurals name="rental_expiry_notice">
+        <item quantity="other">Hasi ondoren, %1$d ordu izango dituzu bideoa ikusteko.</item>
+        <item quantity="one">Hasi ondoren, ordubete izango duzu bideoa ikusteko.</item>
+    </plurals>
+    <plurals name="rental_long_days_remaining">
+        <item quantity="other">%1$d egun barru iraungiko da</item>
+        <item quantity="one">1 egun barru iraungiko da</item>
+    </plurals>
+    <plurals name="rental_long_hours_remaining">
+        <item quantity="other">%1$d ordu barru iraungiko da</item>
+        <item quantity="one">Ordubete barru iraungiko da</item>
+    </plurals>
+    <plurals name="rental_long_weeks_remaining">
+        <item quantity="other">%1$d aste barru iraungiko da</item>
+        <item quantity="one">Astebete barru iraungiko da</item>
+    </plurals>
+    <plurals name="rental_medium_days_remaining">
+        <item quantity="other">%1$d egun barru iraungiko da</item>
+        <item quantity="one">Bihar iraungiko da</item>
+    </plurals>
+    <plurals name="rental_medium_hours_remaining">
+        <item quantity="other">%1$d ordu barru iraungiko da</item>
+        <item quantity="one">Ordubete barru iraungiko da</item>
+    </plurals>
+    <plurals name="rental_medium_weeks_remaining">
+        <item quantity="other">%1$d aste barru iraungiko da</item>
+        <item quantity="one">1 aste barru iraungiko da</item>
+    </plurals>
+    <plurals name="selected_video_count">
+        <item quantity="other">%1$d bideo hautatuta</item>
+        <item quantity="one">1 bideo hautatuta</item>
+    </plurals>
+    <plurals name="shorts_a11y_duration_seconds">
+        <item quantity="other">%1$s segundo</item>
+        <item quantity="one">%1$s segundo</item>
+    </plurals>
+    <plurals name="shorts_a11y_timer_duration_seconds">
+        <item quantity="other">%1$d segundoko tenporizadorea</item>
+        <item quantity="one">%1$d segundoko tenporizadorea</item>
+    </plurals>
+    <plurals name="shorts_a11y_timer_started">
+        <item quantity="other">Aktibatu da %1$d segundoko tenporizadorea</item>
+        <item quantity="one">Aktibatu da %1$d segundoko tenporizadorea</item>
+    </plurals>
+    <plurals name="smart_downloads_future_update_text">
+        <item quantity="other">%1$d egun barru eguneratuko dira automatikoki deskarga adimendunak</item>
+        <item quantity="one">Bihar eguneratuko dira automatikoki deskarga adimendunak</item>
+    </plurals>
+    <plurals name="sticker_dialog_title">
+        <item quantity="other">Bueltatu %1$d egun barru</item>
+        <item quantity="one">Bueltatu 1 egun barru</item>
+    </plurals>
+    <plurals name="too_many_external_uploads_error_msg">
+        <item quantity="other">Aldi berean ezin dira kargatu %1$d bideo baino gehiago.</item>
+        <item quantity="one">Aldi berean ezin dira kargatu %1$d bideo baino gehiago.</item>
+    </plurals>
+    <plurals name="transcoding_progress">
+        <item quantity="other">Prestatzen: %% %1$,d</item>
+        <item quantity="one">Prestatzen: %% %1$,d</item>
+    </plurals>
+    <plurals name="trim_segment_max_length">
+        <item quantity="other">%1$d segundo gehienez</item>
+        <item quantity="one">1 segundo gehienez</item>
+    </plurals>
+    <plurals name="trim_switch_edu">
+        <item quantity="other">Moztu bideoa %1$d segundo eduki ditzan eta gehitu musika</item>
+        <item quantity="one">Moztu bideoa segundo bat eduki dezan eta gehitu musika</item>
+    </plurals>
+    <plurals name="trim_switch_edu_full_length_shorts">
+        <item quantity="other">Moztu bideoa gehienez %1$d segundokoa izan dadin</item>
+        <item quantity="one">Moztu bideoa gehienez segundo batekoa izan dadin</item>
+    </plurals>
+    <plurals name="upload_hours_remaing">
+        <item quantity="other">%1$,d ordu inguru falta dira</item>
+        <item quantity="one">%1$,d ordu inguru falta da</item>
+    </plurals>
+    <plurals name="upload_indicator_all_completed">
+        <item quantity="other">Kargatu dira %d bideo</item>
+        <item quantity="one">Kargatu da bideoa</item>
+    </plurals>
+    <plurals name="upload_indicator_all_failed">
+        <item quantity="other">Ezin izan da kargatu bideorik</item>
+        <item quantity="one">Ezin izan da kargatu bideoa</item>
+    </plurals>
+    <plurals name="upload_indicator_all_uploading">
+        <item quantity="other">%d bideo kargatzen</item>
+        <item quantity="one">Bideoa kargatzen</item>
+    </plurals>
+    <plurals name="upload_indicator_partial_fail">
+        <item quantity="other">Ezin izan dira kargatu %1$d/%2$d bideo</item>
+        <item quantity="one">Ezin izan da kargatu %1$d/%2$d bideo</item>
+    </plurals>
+    <plurals name="upload_indicator_uploading_and_completed_completed_part">
+        <item quantity="other">%d kargatu dira</item>
+        <item quantity="one">%d kargatu da</item>
+    </plurals>
+    <plurals name="upload_indicator_uploading_and_completed_uploading_part">
+        <item quantity="other">%d oraindik kargatzen</item>
+        <item quantity="one">%d oraindik kargatzen</item>
+    </plurals>
+    <plurals name="upload_minutes_remaing">
+        <item quantity="other">%1$,d minutu inguru falta dira</item>
+        <item quantity="one">%1$,d minutu inguru falta da</item>
+    </plurals>
+    <plurals name="upload_notification_active_progress">
+        <item quantity="other">%1$d/%2$d bideo ari dira kargatzen</item>
+        <item quantity="one">1 bideo ari da kargatzen</item>
+    </plurals>
+    <plurals name="upload_progress">
+        <item quantity="other">%% %1$,d kargatu da</item>
+        <item quantity="one">%% %1$,d kargatu da</item>
+    </plurals>
+    <plurals name="upload_seconds_remaing">
+        <item quantity="other">%1$,d segundo inguru falta dira</item>
+        <item quantity="one">%1$,d segundo inguru falta da</item>
+    </plurals>
+    <plurals name="uploads_failed">
+        <item quantity="other">Ezin izan dira kargatu %1$,d bideo</item>
+        <item quantity="one">Ezin izan da kargatu bideo bat</item>
+    </plurals>
+    <plurals name="uploads_failed_with_in_progress_videos">
+        <item quantity="other">Ezin izan dira kargatu %1$,d/%2$,d bideo</item>
+        <item quantity="one">Ezin izan da kargatu %1$,d/%2$,d bideo</item>
+    </plurals>
+    <plurals name="uploads_in_progress">
+        <item quantity="other">%1$,d kargatzen</item>
+        <item quantity="one">%1$,d kargatzen</item>
+    </plurals>
+    <plurals name="user_education_quick_seek">
+        <item quantity="other">Sakatu birritan eskuinaldea edo ezkerraldea %d segundo saltatzeko</item>
+        <item quantity="one">Sakatu birritan eskuinaldea edo ezkerraldea %d segundo saltatzeko</item>
+    </plurals>
+    <plurals name="video_count">
+        <item quantity="other">%1$d bideo</item>
+        <item quantity="one">1 bideo</item>
+    </plurals>
+</resources>

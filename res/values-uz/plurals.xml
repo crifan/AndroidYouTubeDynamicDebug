@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="accessibility_dislike_video_plural">
+        <item quantity="other">Yoqmadi tugmasi, %1$d kishiga bu video yoqmagan</item>
+        <item quantity="one">Yoqmadi tugmasi, %1$d kishiga bu video yoqmagan</item>
+    </plurals>
+    <plurals name="accessibility_dtts_fast_forward">
+        <item quantity="other">%1$d soniya oldinga oʻtkazish</item>
+        <item quantity="one">%1$d soniya oldinga oʻtkazish</item>
+    </plurals>
+    <plurals name="accessibility_dtts_rewind">
+        <item quantity="other">%1$d soniya orqaga oʻtkazish</item>
+        <item quantity="one">%1$d soniya orqaga oʻtkazish</item>
+    </plurals>
+    <plurals name="accessibility_duration_description_hours">
+        <item quantity="other">%d soat</item>
+        <item quantity="one">%d soat</item>
+    </plurals>
+    <plurals name="accessibility_duration_description_minutes">
+        <item quantity="other">%d daqiqa</item>
+        <item quantity="one">%d daqiqa</item>
+    </plurals>
+    <plurals name="accessibility_duration_description_seconds">
+        <item quantity="other">%d soniya</item>
+        <item quantity="one">%d soniya</item>
+    </plurals>
+    <plurals name="accessibility_like_video_plural">
+        <item quantity="other">Yoqdi tugmasi, %1$d kishiga bu video yoqqan</item>
+        <item quantity="one">Yoqdi tugmasi, %1$d kishiga bu video yoqqan</item>
+    </plurals>
+    <plurals name="accessibility_skip_ad_in">
+        <item quantity="other">Reklamani yopish: %1$d soniya</item>
+        <item quantity="one">Reklamani yopish: 1 soniya</item>
+    </plurals>
+    <plurals name="accessibility_undo_dislike_video_plural">
+        <item quantity="other">“Yoqmadi” belgisini olib tashlash tugmasi, %1$d kishiga bu video yoqmagan</item>
+        <item quantity="one">“Yoqmadi” belgisini olib tashlash tugmasi, %1$d kishiga bu video yoqmagan</item>
+    </plurals>
+    <plurals name="accessibility_undo_like_video_plural">
+        <item quantity="other">“Yoqdi” belgisini olib tashlash tugmasi, %1$d kishiga bu video yoqqan</item>
+        <item quantity="one">“Yoqdi” belgisini olib tashlash tugmasi, %1$d kishiga bu video yoqqan</item>
+    </plurals>
+    <plurals name="download_new_videos_button_text">
+        <item quantity="other">%1$d ta yangi videoni yuklab olish</item>
+        <item quantity="one">%1$d ta yangi videoni yuklab olish</item>
+    </plurals>
+    <plurals name="download_playlist_unplayable_future_days_plural">
+        <item quantity="other">Ayrim videolarga %1$d kundan keyin Premium kerak</item>
+        <item quantity="one">Ayrim videolarga %1$d kundan keyin Premium kerak</item>
+    </plurals>
+    <plurals name="download_playlist_unplayable_future_hours_plural">
+        <item quantity="other">Ayrim videolarga %1$d soatdan keyin Premium kerak</item>
+        <item quantity="one">Ayrim videolarga %1$d soatdan keyin Premium kerak</item>
+    </plurals>
+    <plurals name="download_playlist_unplayable_future_minutes_plural">
+        <item quantity="other">Ayrim videolarga %1$d daqiqadan keyin Premium kerak</item>
+        <item quantity="one">Ayrim videolarga %1$d daqiqadan keyin Premium kerak</item>
+    </plurals>
+    <plurals name="download_video_unplayable_future_days_plural">
+        <item quantity="other">%1$d kundan keyin Premium kerak</item>
+        <item quantity="one">%1$d kundan keyin Premium kerak</item>
+    </plurals>
+    <plurals name="download_video_unplayable_future_hours_plural">
+        <item quantity="other">%1$d soatdan keyin Premium kerak</item>
+        <item quantity="one">%1$d soatdan keyin Premium kerak</item>
+    </plurals>
+    <plurals name="download_video_unplayable_future_minutes_plural">
+        <item quantity="other">%1$d daqiqadan keyin Premium kerak</item>
+        <item quantity="one">%1$d daqiqadan keyin Premium kerak</item>
+    </plurals>
+    <plurals name="frequency_hours_component">
+        <item quantity="other">%1$d soat</item>
+        <item quantity="one">%1$d soat</item>
+    </plurals>
+    <plurals name="frequency_hours_only">
+        <item quantity="other">Har %1$d soatda</item>
+        <item quantity="one">Har soatda</item>
+    </plurals>
+    <plurals name="frequency_minutes_component">
+        <item quantity="other">%1$d daqiqa</item>
+        <item quantity="one">%1$d daqiqa</item>
+    </plurals>
+    <plurals name="frequency_minutes_only">
+        <item quantity="other">Har %1$d daqiqada</item>
+        <item quantity="one">Har daqiqada</item>
+    </plurals>
+    <plurals name="image_picker_title">
+        <item quantity="other">%1$d ta belgilandi</item>
+        <item quantity="one">%1$d ta belgilandi</item>
+    </plurals>
+    <plurals name="invalid_uploads_error_msg">
+        <item quantity="other">Bitta yoki bir nechta video fayli mavjud emas yoki yaroqsiz. Qayta urining yoki boshqalarini tanlang.</item>
+        <item quantity="one">Bu video fayli mavjud emas yoki yaroqsiz. Qayta urining yoki boshqasini tanlang.</item>
+    </plurals>
+    <plurals name="last_update_in_days_message">
+        <item quantity="other">%1$d kun oldin yangilangan</item>
+        <item quantity="one">Kecha yangilangan</item>
+    </plurals>
+    <plurals name="last_update_in_hours_message">
+        <item quantity="other">%1$d soat oldin yangilangan</item>
+        <item quantity="one">%1$d soat oldin yangilangan</item>
+    </plurals>
+    <plurals name="last_update_in_minutes_message">
+        <item quantity="other">%1$d daq oldin yangilandi</item>
+        <item quantity="one">%1$d daq oldin yangilandi</item>
+    </plurals>
+    <plurals name="last_update_in_weeks_message">
+        <item quantity="other">%1$d hafta oldin yangilangan</item>
+        <item quantity="one">%1$d hafta oldin yangilangan</item>
+    </plurals>
+    <plurals name="notification_playlist_progress_size">
+        <item quantity="other">%1$d / %2$d ta video</item>
+        <item quantity="one">%1$d / 1 ta video</item>
+    </plurals>
+    <plurals name="offline_go_online_to_renew_dialog_message">
+        <item quantity="other">Qurilmangiz har %1$d kunda internetga ulanib tursa, yuklab olingan videolar ochiladi. Bu jarayon avtomatik tarzda amalga oshadi, bunda video qayta yuklab olinmaydi.</item>
+        <item quantity="one">Qurilmangiz har kuni internetga ulanib tursa, yuklab olingan videolar ochiladi. Bu jarayon avtomatik tarzda amalga oshadi, bunda video qayta yuklab olinmaydi.</item>
+    </plurals>
+    <plurals name="offline_go_online_to_renew_snackbar_message">
+        <item quantity="other">Internetga ulanilmasa, oflayndagi videolar %1$d kun saqlanadi.</item>
+        <item quantity="one">Internetga ulanilmasa, oflayndagi videolar 1 kun saqlanadi.</item>
+    </plurals>
+    <plurals name="offline_remember_setting_for_days">
+        <item quantity="other">Sozlamalarim %1$d kunga eslab qolinsin</item>
+        <item quantity="one">Sozlamalarim 1 kunga eslab qolinsin</item>
+    </plurals>
+    <plurals name="playlist_picker_dialog_done">
+        <item quantity="other">Pleylistlar yangilandi</item>
+        <item quantity="one">Pleylist yangilandi</item>
+    </plurals>
+    <plurals name="playlist_size">
+        <item quantity="other">%1$,d ta video</item>
+        <item quantity="one">1 ta video</item>
+    </plurals>
+    <plurals name="playlist_size_downloaded">
+        <item quantity="other">%1$,d ta yuklab olingan</item>
+        <item quantity="one">%1$,d ta yuklab olingan</item>
+    </plurals>
+    <plurals name="playlist_size_total">
+        <item quantity="other">%1$,d ta video</item>
+        <item quantity="one">1 ta video</item>
+    </plurals>
+    <plurals name="public_notification_text">
+        <item quantity="other">%1$d new notifications</item>
+        <item quantity="one">You have a notification</item>
+    </plurals>
+    <plurals name="quick_seek_x_second">
+        <item quantity="other">%d soniya</item>
+        <item quantity="one">%d soniya</item>
+    </plurals>
+    <plurals name="recommendation_count">
+        <item quantity="other">%1$d ta tavsiya</item>
+        <item quantity="one">1 ta tavsiya</item>
+    </plurals>
+    <plurals name="rental_expiry_notice">
+        <item quantity="other">Boshlangach, videoni tomosha qilishga %1$d soat beriladi.</item>
+        <item quantity="one">Boshlangach, videoni tomosha qilishga 1 soat beriladi.</item>
+    </plurals>
+    <plurals name="rental_long_days_remaining">
+        <item quantity="other">Muddati %1$d kunda tugaydi</item>
+        <item quantity="one">Muddati 1 kunda tugaydi</item>
+    </plurals>
+    <plurals name="rental_long_hours_remaining">
+        <item quantity="other">Muddati %1$d soatda tugaydi</item>
+        <item quantity="one">Muddati 1 soatda tugaydi</item>
+    </plurals>
+    <plurals name="rental_long_weeks_remaining">
+        <item quantity="other">Muddati %1$d haftada tugaydi</item>
+        <item quantity="one">Muddati 1 haftada tugaydi</item>
+    </plurals>
+    <plurals name="rental_medium_days_remaining">
+        <item quantity="other">%1$d kun qoldi</item>
+        <item quantity="one">1 kun qoldi</item>
+    </plurals>
+    <plurals name="rental_medium_hours_remaining">
+        <item quantity="other">%1$d soat qoldi.</item>
+        <item quantity="one">1 soat qoldi.</item>
+    </plurals>
+    <plurals name="rental_medium_weeks_remaining">
+        <item quantity="other">%1$d hafta qoldi.</item>
+        <item quantity="one">1 hafta qoldi.</item>
+    </plurals>
+    <plurals name="selected_video_count">
+        <item quantity="other">%1$d ta video tanlandi</item>
+        <item quantity="one">1 ta video tanlandi</item>
+    </plurals>
+    <plurals name="shorts_a11y_duration_seconds">
+        <item quantity="other">%1$s soniya</item>
+        <item quantity="one">%1$s soniya</item>
+    </plurals>
+    <plurals name="shorts_a11y_timer_duration_seconds">
+        <item quantity="other">Taymerni %1$d soniyaga sozlash</item>
+        <item quantity="one">Taymerni %1$d soniyaga sozlash</item>
+    </plurals>
+    <plurals name="shorts_a11y_timer_started">
+        <item quantity="other">%1$d soniyali taymer faollashdi</item>
+        <item quantity="one">%1$d soniyali taymer faollashdi</item>
+    </plurals>
+    <plurals name="smart_downloads_future_update_text">
+        <item quantity="other">%1$d kundan keyin smart yuklanmalar avtomatik yangilanadi</item>
+        <item quantity="one">1 kundan keyin smart yuklanmalar avtomatik yangilanadi</item>
+    </plurals>
+    <plurals name="sticker_dialog_title">
+        <item quantity="other">%1$d kundan keyin keling</item>
+        <item quantity="one">1 kundan keyin keling</item>
+    </plurals>
+    <plurals name="too_many_external_uploads_error_msg">
+        <item quantity="other">Birdaniga %1$d ta video yuklash mumkin.</item>
+        <item quantity="one">Birdaniga %1$d ta video yuklash mumkin.</item>
+    </plurals>
+    <plurals name="transcoding_progress">
+        <item quantity="other">Tayyorlanmoqda %1$,d%%</item>
+        <item quantity="one">Tayyorlanmoqda %1$,d%%</item>
+    </plurals>
+    <plurals name="trim_segment_max_length">
+        <item quantity="other">Maks. %1$d soniya</item>
+        <item quantity="one">Maks. 1 soniya</item>
+    </plurals>
+    <plurals name="trim_switch_edu">
+        <item quantity="other">Videoni %1$d soniyaga qisqartirib, musiqa kiritish</item>
+        <item quantity="one">Videoni 1 soniyaga qisqartirib, musiqa kiritish</item>
+    </plurals>
+    <plurals name="trim_switch_edu_full_length_shorts">
+        <item quantity="other">Videoni %1$d soniya yoki undan kamroqqa qisqartiring</item>
+        <item quantity="one">Videoni 1 soniya yoki undan kamroqqa qisqartiring</item>
+    </plurals>
+    <plurals name="upload_hours_remaing">
+        <item quantity="other">%1$,d soatcha qoldi</item>
+        <item quantity="one">%1$,d soatcha qoldi</item>
+    </plurals>
+    <plurals name="upload_indicator_all_completed">
+        <item quantity="other">%d ta video yuklandi</item>
+        <item quantity="one">Video yuklandi</item>
+    </plurals>
+    <plurals name="upload_indicator_all_failed">
+        <item quantity="other">Birorta ham videongiz yuklanmadi</item>
+        <item quantity="one">Videongiz yuklanmadi</item>
+    </plurals>
+    <plurals name="upload_indicator_all_uploading">
+        <item quantity="other">%d ta video yuklanmoqda</item>
+        <item quantity="one">Video yuklanmoqda</item>
+    </plurals>
+    <plurals name="upload_indicator_partial_fail">
+        <item quantity="other">%1$d ta video yuklanmadi, jami %2$d ta</item>
+        <item quantity="one">%1$d ta video yuklanmadi, jami %2$d ta</item>
+    </plurals>
+    <plurals name="upload_indicator_uploading_and_completed_completed_part">
+        <item quantity="other">%d ta yuklandi</item>
+        <item quantity="one">%d ta yuklandi</item>
+    </plurals>
+    <plurals name="upload_indicator_uploading_and_completed_uploading_part">
+        <item quantity="other">%d hali yuklanmoqda</item>
+        <item quantity="one">%d hali yuklanmoqda</item>
+    </plurals>
+    <plurals name="upload_minutes_remaing">
+        <item quantity="other">%1$,d daqiqacha qoldi</item>
+        <item quantity="one">%1$,d daqiqacha qoldi</item>
+    </plurals>
+    <plurals name="upload_notification_active_progress">
+        <item quantity="other">Yuklanmoqda: %1$d / %2$d ta video</item>
+        <item quantity="one">1 ta video yuklanmoqda</item>
+    </plurals>
+    <plurals name="upload_progress">
+        <item quantity="other">%1$,d%% yuklandi</item>
+        <item quantity="one">%1$,d%% yuklandi</item>
+    </plurals>
+    <plurals name="upload_seconds_remaing">
+        <item quantity="other">%1$,d soniyacha qoldi</item>
+        <item quantity="one">%1$,d soniyacha qoldi</item>
+    </plurals>
+    <plurals name="uploads_failed">
+        <item quantity="other">%1$,d ta yuklama amalga oshmadi</item>
+        <item quantity="one">Yuklama amalga oshmadi</item>
+    </plurals>
+    <plurals name="uploads_failed_with_in_progress_videos">
+        <item quantity="other">%1$,d/%2$,d ta yuklama amalga oshmadi</item>
+        <item quantity="one">%1$,d/%2$,d ta yuklama amalga oshmadi</item>
+    </plurals>
+    <plurals name="uploads_in_progress">
+        <item quantity="other">%1$,d yuklanmoqda</item>
+        <item quantity="one">%1$,d yuklanmoqda</item>
+    </plurals>
+    <plurals name="user_education_quick_seek">
+        <item quantity="other">%d soniya tashlab ketish uchun chap yoki oʻngga ikki marta tegining</item>
+        <item quantity="one">%d soniya tashlab ketish uchun chap yoki oʻngga ikki marta tegining</item>
+    </plurals>
+    <plurals name="video_count">
+        <item quantity="other">%1$d ta video</item>
+        <item quantity="one">1 ta video</item>
+    </plurals>
+</resources>

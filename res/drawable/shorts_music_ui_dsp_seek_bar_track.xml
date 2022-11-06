@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="rectangle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="?ytButtonChipBackgroundHover" />
+    <size android:height="@dimen/shorts_music_ui_dsp_seek_bar_track_height" />
+</shape>

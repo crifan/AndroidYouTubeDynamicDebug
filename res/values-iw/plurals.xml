@@ -1,0 +1,451 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="accessibility_dislike_video_plural">
+        <item quantity="other">לחצן דיסלייק, %1$d אנשים סימנו דיסלייק לסרטון הזה</item>
+        <item quantity="one">לחצן דיסלייק, אדם %1$d סימן דיסלייק לסרטון הזה</item>
+        <item quantity="two">לחצן דיסלייק, %1$d אנשים סימנו דיסלייק לסרטון הזה</item>
+        <item quantity="many">לחצן דיסלייק, %1$d אנשים סימנו דיסלייק לסרטון הזה</item>
+    </plurals>
+    <plurals name="accessibility_dtts_fast_forward">
+        <item quantity="other">הרצה %1$d שניות קדימה</item>
+        <item quantity="one">הרצה שנייה אחת (%1$d) קדימה</item>
+        <item quantity="two">הרצה %1$d שניות קדימה</item>
+        <item quantity="many">הרצה %1$d שניות קדימה</item>
+    </plurals>
+    <plurals name="accessibility_dtts_rewind">
+        <item quantity="other">הרצה %1$d שניות אחורה</item>
+        <item quantity="one">הרצה שנייה אחת (%1$d) אחורה</item>
+        <item quantity="two">הרצה %1$d שניות אחורה</item>
+        <item quantity="many">הרצה %1$d שניות אחורה</item>
+    </plurals>
+    <plurals name="accessibility_duration_description_hours">
+        <item quantity="other">%d שעות</item>
+        <item quantity="one">שעה אחת (%d)</item>
+        <item quantity="two">%d שעות</item>
+        <item quantity="many">%d שעות</item>
+    </plurals>
+    <plurals name="accessibility_duration_description_minutes">
+        <item quantity="other">%d דקות</item>
+        <item quantity="one">דקה אחת (%d)</item>
+        <item quantity="two">%d דקות</item>
+        <item quantity="many">%d דקות</item>
+    </plurals>
+    <plurals name="accessibility_duration_description_seconds">
+        <item quantity="other">%d שניות</item>
+        <item quantity="one">שנייה אחת (%d)</item>
+        <item quantity="two">%d שניות</item>
+        <item quantity="many">%d שניות</item>
+    </plurals>
+    <plurals name="accessibility_like_video_plural">
+        <item quantity="other">לחצן לייק, %1$d אנשים סימנו לייק לסרטון הזה</item>
+        <item quantity="one">לחצן לייק, אדם %1$d סימן לייק לסרטון הזה</item>
+        <item quantity="two">לחצן לייק, %1$d אנשים סימנו לייק לסרטון הזה</item>
+        <item quantity="many">לחצן לייק, %1$d אנשים סימנו לייק לסרטון הזה</item>
+    </plurals>
+    <plurals name="accessibility_skip_ad_in">
+        <item quantity="other">אפשר לדלג על המודעה בעוד %1$d שניות</item>
+        <item quantity="one">אפשר לדלג על המודעה בעוד שנייה אחת</item>
+        <item quantity="two">אפשר לדלג על המודעה בעוד %1$d שניות</item>
+        <item quantity="many">אפשר לדלג על המודעה בעוד %1$d שניות</item>
+    </plurals>
+    <plurals name="accessibility_undo_dislike_video_plural">
+        <item quantity="other">לחצן לביטול דיסלייק, %1$d אנשים נוספים סימנו דיסלייק לסרטון הזה</item>
+        <item quantity="one">לחצן לביטול דיסלייק, אדם %1$d נוסף סימן דיסלייק לסרטון הזה</item>
+        <item quantity="two">לחצן לביטול דיסלייק, %1$d אנשים נוספים סימנו דיסלייק לסרטון הזה</item>
+        <item quantity="many">לחצן לביטול דיסלייק, %1$d אנשים נוספים סימנו דיסלייק לסרטון הזה</item>
+    </plurals>
+    <plurals name="accessibility_undo_like_video_plural">
+        <item quantity="other">לחצן לביטול סימון לייק, %1$d אנשים נוספים סימנו לייק לסרטון הזה</item>
+        <item quantity="one">לחצן לביטול סימון לייק, אדם %1$d נוסף סימן לייק לסרטון הזה</item>
+        <item quantity="two">לחצן לביטול סימון לייק, %1$d אנשים נוספים סימנו לייק לסרטון הזה</item>
+        <item quantity="many">לחצן לביטול סימון לייק, %1$d אנשים נוספים סימנו לייק לסרטון הזה</item>
+    </plurals>
+    <plurals name="download_new_videos_button_text">
+        <item quantity="other">הורדת %1$d סרטונים חדשים</item>
+        <item quantity="one">הורדת סרטון חדש אחד (%1$d)</item>
+        <item quantity="two">הורדת %1$d סרטונים חדשים</item>
+        <item quantity="many">הורדת %1$d סרטונים חדשים</item>
+    </plurals>
+    <plurals name="download_playlist_unplayable_future_days_plural">
+        <item quantity="other">‏בעוד %1$d ימים יידרש מינוי Premium להפעלת חלק מהסרטונים</item>
+        <item quantity="one">‏בעוד יום (%1$d) יידרש מינוי Premium להפעלת חלק מהסרטונים</item>
+        <item quantity="two">‏בעוד יומיים (%1$d) יידרש מינוי Premium להפעלת חלק מהסרטונים</item>
+        <item quantity="many">‏בעוד %1$d ימים יידרש מינוי Premium להפעלת חלק מהסרטונים</item>
+    </plurals>
+    <plurals name="download_playlist_unplayable_future_hours_plural">
+        <item quantity="other">‏בעוד %1$d שעות יידרש מינוי Premium להפעלת חלק מהסרטונים</item>
+        <item quantity="one">‏בעוד שעה אחת (%1$d) יידרש מינוי Premium להפעלת חלק מהסרטונים</item>
+        <item quantity="two">‏בעוד שעתיים (%1$d) יידרש מינוי Premium להפעלת חלק מהסרטונים</item>
+        <item quantity="many">‏בעוד %1$d שעות יידרש מינוי Premium להפעלת חלק מהסרטונים</item>
+    </plurals>
+    <plurals name="download_playlist_unplayable_future_minutes_plural">
+        <item quantity="other">‏בעוד %1$d דקות יידרש מינוי Premium להפעלת חלק מהסרטונים</item>
+        <item quantity="one">‏בעוד דקה אחת (%1$d) יידרש מינוי Premium להפעלת חלק מהסרטונים</item>
+        <item quantity="two">‏בעוד %1$d דקות יידרש מינוי Premium להפעלת חלק מהסרטונים</item>
+        <item quantity="many">‏בעוד %1$d דקות יידרש מינוי Premium להפעלת חלק מהסרטונים</item>
+    </plurals>
+    <plurals name="download_video_unplayable_future_days_plural">
+        <item quantity="other">‏בעוד %1$d ימים יידרש מינוי Premium להפעלה</item>
+        <item quantity="one">‏בעוד יום (%1$d) יידרש מינוי Premium להפעלה</item>
+        <item quantity="two">‏בעוד %1$d ימים יידרש מינוי Premium להפעלה</item>
+        <item quantity="many">‏בעוד %1$d ימים יידרש מינוי Premium להפעלה</item>
+    </plurals>
+    <plurals name="download_video_unplayable_future_hours_plural">
+        <item quantity="other">‏בעוד %1$d שעות יידרש מינוי Premium להפעלה</item>
+        <item quantity="one">‏בעוד שעה (%1$d) יידרש מינוי Premium להפעלה</item>
+        <item quantity="two">‏בעוד %1$d שעות יידרש מינוי Premium להפעלה</item>
+        <item quantity="many">‏בעוד %1$d שעות יידרש מינוי Premium להפעלה</item>
+    </plurals>
+    <plurals name="download_video_unplayable_future_minutes_plural">
+        <item quantity="other">‏בעוד %1$d דקות יידרש מינוי Premium להפעלה</item>
+        <item quantity="one">‏בעוד דקה (%1$d) יידרש מינוי Premium להפעלה</item>
+        <item quantity="two">‏בעוד %1$d דקות יידרש מינוי Premium להפעלה</item>
+        <item quantity="many">‏בעוד %1$d דקות יידרש מינוי Premium להפעלה</item>
+    </plurals>
+    <plurals name="duration_minutes">
+        <item quantity="other">%1$d דקות</item>
+        <item quantity="zero">0 דקות</item>
+        <item quantity="one">דקה אחת</item>
+        <item quantity="two">2 דקות</item>
+        <item quantity="few">%1$d דקות</item>
+        <item quantity="many">%1$d דקות</item>
+    </plurals>
+    <plurals name="duration_seconds">
+        <item quantity="other">%1$d שניות</item>
+        <item quantity="zero">0 שניות</item>
+        <item quantity="one">שנייה אחת</item>
+        <item quantity="two">2 שניות</item>
+        <item quantity="few">%1$d שניות</item>
+        <item quantity="many">%1$d שניות</item>
+    </plurals>
+    <plurals name="frequency_hours_component">
+        <item quantity="other">%1$d שעות</item>
+        <item quantity="one">שעה (%1$d)</item>
+        <item quantity="two">שעתיים (%1$d)</item>
+        <item quantity="many">%1$d שעות</item>
+    </plurals>
+    <plurals name="frequency_hours_only">
+        <item quantity="other">כל %1$d שעות</item>
+        <item quantity="one">כל שעה</item>
+        <item quantity="two">כל שעתיים (%1$d)</item>
+        <item quantity="many">כל %1$d שעות</item>
+    </plurals>
+    <plurals name="frequency_minutes_component">
+        <item quantity="other">%1$d דקות</item>
+        <item quantity="one">דקה (%1$d)</item>
+        <item quantity="two">%1$d דקות</item>
+        <item quantity="many">%1$d דקות</item>
+    </plurals>
+    <plurals name="frequency_minutes_only">
+        <item quantity="other">כל %1$d דקות</item>
+        <item quantity="one">כל דקה</item>
+        <item quantity="two">כל %1$d דקות</item>
+        <item quantity="many">כל %1$d דקות</item>
+    </plurals>
+    <plurals name="image_picker_title">
+        <item quantity="other">בחרת %1$d</item>
+        <item quantity="one">בחרת %1$d</item>
+        <item quantity="two">בחרת %1$d</item>
+        <item quantity="many">בחרת %1$d</item>
+    </plurals>
+    <plurals name="invalid_uploads_error_msg">
+        <item quantity="other">קובץ סרטון אחד או יותר אינם זמינים או שאינם חוקיים. צריך לנסות שוב או לבחור קבצים אחרים.</item>
+        <item quantity="one">קובץ הסרטון הזה אינו זמין או שאינו חוקי. צריך לנסות שוב או לבחור קובץ אחר.</item>
+        <item quantity="two">קובץ סרטון אחד או יותר אינם זמינים או שאינם חוקיים. צריך לנסות שוב או לבחור קבצים אחרים.</item>
+        <item quantity="many">קובץ סרטון אחד או יותר אינם זמינים או שאינם חוקיים. צריך לנסות שוב או לבחור קבצים אחרים.</item>
+    </plurals>
+    <plurals name="last_update_in_days_message">
+        <item quantity="other">עודכן לפני %1$d ימים</item>
+        <item quantity="one">עודכן אתמול</item>
+        <item quantity="two">עודכן לפני %1$d ימים</item>
+        <item quantity="many">עודכן לפני %1$d ימים</item>
+    </plurals>
+    <plurals name="last_update_in_hours_message">
+        <item quantity="other">עודכן לפני %1$d שעות</item>
+        <item quantity="one">עודכן לפני שעה %1$d</item>
+        <item quantity="two">עודכן לפני %1$d שעות</item>
+        <item quantity="many">עודכן לפני %1$d שעות</item>
+    </plurals>
+    <plurals name="last_update_in_minutes_message">
+        <item quantity="other">עודכן לפני %1$d דקות</item>
+        <item quantity="one">עודכן לפני דקה %1$d</item>
+        <item quantity="two">עודכן לפני %1$d דקות</item>
+        <item quantity="many">עודכן לפני %1$d דקות</item>
+    </plurals>
+    <plurals name="last_update_in_weeks_message">
+        <item quantity="other">עודכן לפני %1$d שבועות</item>
+        <item quantity="one">עודכן לפני שבוע %1$d</item>
+        <item quantity="two">עודכן לפני %1$d שבועות</item>
+        <item quantity="many">עודכן לפני %1$d שבועות</item>
+    </plurals>
+    <plurals name="notification_playlist_progress_size">
+        <item quantity="other">%1$d מתוך %2$d סרטונים</item>
+        <item quantity="one">%1$d מתוך סרטון אחד</item>
+        <item quantity="two">%1$d מתוך %2$d סרטונים</item>
+        <item quantity="many">%1$d מתוך %2$d סרטונים</item>
+    </plurals>
+    <plurals name="offline_go_online_to_renew_dialog_message">
+        <item quantity="other">הסרטונים שהורדת ימשיכו להיות זמינים, בתנאי שהמכשיר יתחבר לאינטרנט כל %1$d ימים. התהליך הוא אוטומטי ואינו כרוך בהורדה מחדש של הסרטון.</item>
+        <item quantity="one">הסרטונים שהורדת ימשיכו להיות זמינים, בתנאי שהמכשיר יתחבר לאינטרנט כל יום .התהליך יתרחש באופן אוטומטי ואינו כרוך בהורדה מחדש של הסרטון.</item>
+        <item quantity="two">הסרטונים שהורדת ימשיכו להיות זמינים, בתנאי שהמכשיר יתחבר לאינטרנט כל %1$d ימים. התהליך הוא אוטומטי ואינו כרוך בהורדה מחדש של הסרטון.</item>
+        <item quantity="many">הסרטונים שהורדת ימשיכו להיות זמינים, בתנאי שהמכשיר יתחבר לאינטרנט כל %1$d ימים. התהליך הוא אוטומטי ואינו כרוך בהורדה מחדש של הסרטון.</item>
+    </plurals>
+    <plurals name="offline_go_online_to_renew_snackbar_message">
+        <item quantity="other">הסרטונים שהורדת יישארו זמינים למשך %1$d ימים בלי חיבור לאינטרנט.</item>
+        <item quantity="one">הסרטונים שהורדת יישארו זמינים למשך יום אחד בלי חיבור לאינטרנט.</item>
+        <item quantity="two">הסרטונים שהורדת יישארו זמינים למשך %1$d ימים בלי חיבור לאינטרנט.</item>
+        <item quantity="many">הסרטונים שהורדת יישארו זמינים למשך %1$d ימים בלי חיבור לאינטרנט.</item>
+    </plurals>
+    <plurals name="offline_remember_setting_for_days">
+        <item quantity="other">שמירת ההגדרות שלי למשך %1$d ימים</item>
+        <item quantity="one">שמירת ההגדרות שלי למשך יום אחד</item>
+        <item quantity="two">שמירת ההגדרות שלי למשך יומיים (%1$d)</item>
+        <item quantity="many">שמירת ההגדרות שלי למשך %1$d ימים</item>
+    </plurals>
+    <plurals name="playlist_picker_dialog_done">
+        <item quantity="other">הפלייליסטים עודכנו</item>
+        <item quantity="one">הפלייליסט עודכן</item>
+        <item quantity="two">הפלייליסטים עודכנו</item>
+        <item quantity="many">הפלייליסטים עודכנו</item>
+    </plurals>
+    <plurals name="playlist_size">
+        <item quantity="other">%1$,d סרטונים</item>
+        <item quantity="one">סרטון אחד</item>
+        <item quantity="two">%1$,d סרטונים</item>
+        <item quantity="many">%1$,d סרטונים</item>
+    </plurals>
+    <plurals name="playlist_size_downloaded">
+        <item quantity="other">בוצעה הורדה של %1$,d</item>
+        <item quantity="one">בוצעה הורדה של %1$,d</item>
+        <item quantity="two">בוצעה הורדה של %1$,d</item>
+        <item quantity="many">בוצעה הורדה של %1$,d</item>
+    </plurals>
+    <plurals name="playlist_size_total">
+        <item quantity="other">%1$,d סרטונים</item>
+        <item quantity="one">סרטון אחד</item>
+        <item quantity="two">%1$,d סרטונים</item>
+        <item quantity="many">%1$,d סרטונים</item>
+    </plurals>
+    <plurals name="public_notification_text">
+        <item quantity="other">%1$d התראות חדשות</item>
+        <item quantity="one">יש לך התראה</item>
+        <item quantity="two">%1$d התראות חדשות</item>
+        <item quantity="many">%1$d התראות חדשות</item>
+    </plurals>
+    <plurals name="quick_seek_x_second">
+        <item quantity="other">%d שניות</item>
+        <item quantity="one">שנייה אחת (%d)</item>
+        <item quantity="two">%d שניות</item>
+        <item quantity="many">%d שניות</item>
+    </plurals>
+    <plurals name="recommendation_count">
+        <item quantity="other">%1$d המלצות</item>
+        <item quantity="one">המלצה אחת</item>
+        <item quantity="two">%1$d המלצות</item>
+        <item quantity="many">%1$d המלצות</item>
+    </plurals>
+    <plurals name="rental_expiry_notice">
+        <item quantity="other">מתחילת הצפייה, יהיו לך %1$d שעות לצפות בסרטון הזה.</item>
+        <item quantity="one">מתחילת הצפייה, תהיה לך שעה אחת לצפות בסרטון הזה.</item>
+        <item quantity="two">מתחילת הצפייה, יהיו לך שעתיים (%1$d) לצפות בסרטון הזה.</item>
+        <item quantity="many">מתחילת הצפייה, יהיו לך %1$d שעות לצפות בסרטון הזה.</item>
+    </plurals>
+    <plurals name="rental_long_days_remaining">
+        <item quantity="other">התוקף יפוג בעוד %1$d ימים</item>
+        <item quantity="one">התוקף יפוג בעוד יום</item>
+        <item quantity="two">התוקף יפוג בעוד יומיים (%1$d)</item>
+        <item quantity="many">התוקף יפוג בעוד %1$d ימים</item>
+    </plurals>
+    <plurals name="rental_long_hours_remaining">
+        <item quantity="other">התוקף יפוג בעוד %1$d שעות</item>
+        <item quantity="one">התוקף יפוג בעוד שעה</item>
+        <item quantity="two">התוקף יפוג בעוד שעתיים (%1$d)</item>
+        <item quantity="many">התוקף יפוג בעוד %1$d שעות</item>
+    </plurals>
+    <plurals name="rental_long_weeks_remaining">
+        <item quantity="other">התוקף יפוג בעוד %1$d שבועות</item>
+        <item quantity="one">התוקף יפוג בעוד שבוע</item>
+        <item quantity="two">התוקף יפוג בעוד שבועיים (%1$d)</item>
+        <item quantity="many">התוקף יפוג בעוד %1$d שבועות</item>
+    </plurals>
+    <plurals name="rental_medium_days_remaining">
+        <item quantity="other">נותרו %1$d ימים</item>
+        <item quantity="one">נותר יום אחד</item>
+        <item quantity="two">נותרו יומיים (%1$d)</item>
+        <item quantity="many">נותרו %1$d ימים</item>
+    </plurals>
+    <plurals name="rental_medium_hours_remaining">
+        <item quantity="other">נותרו %1$d שעות.</item>
+        <item quantity="one">נותרה שעה אחת.</item>
+        <item quantity="two">נותרו שעתיים (%1$d).</item>
+        <item quantity="many">נותרו %1$d שעות.</item>
+    </plurals>
+    <plurals name="rental_medium_weeks_remaining">
+        <item quantity="other">נותרו %1$d שבועות.</item>
+        <item quantity="one">נותר שבוע אחד.</item>
+        <item quantity="two">נותרו שבועיים (%1$d).</item>
+        <item quantity="many">נותרו %1$d שבועות.</item>
+    </plurals>
+    <plurals name="selected_video_count">
+        <item quantity="other">נבחרו %1$d סרטונים</item>
+        <item quantity="one">נבחר סרטון אחד</item>
+        <item quantity="two">נבחרו %1$d סרטונים</item>
+        <item quantity="many">נבחרו %1$d סרטונים</item>
+    </plurals>
+    <plurals name="shorts_a11y_duration_seconds">
+        <item quantity="other">%1$s שניות</item>
+        <item quantity="one">שנייה %1$s</item>
+        <item quantity="two">%1$s שניות</item>
+        <item quantity="many">%1$s שניות</item>
+    </plurals>
+    <plurals name="shorts_a11y_timer_duration_seconds">
+        <item quantity="other">טיימר של %1$d שניות</item>
+        <item quantity="one">טיימר של שנייה אחת (%1$d)</item>
+        <item quantity="two">טיימר של %1$d שניות</item>
+        <item quantity="many">טיימר של %1$d שניות</item>
+    </plurals>
+    <plurals name="shorts_a11y_timer_started">
+        <item quantity="other">הופעל טיימר של %1$d שניות</item>
+        <item quantity="one">הופעל טיימר של שנייה %1$d</item>
+        <item quantity="two">הופעל טיימר של %1$d שניות</item>
+        <item quantity="many">הופעל טיימר של %1$d שניות</item>
+    </plurals>
+    <plurals name="smart_downloads_future_update_text">
+        <item quantity="other">ההורדות החכמות יתעדכנו אוטומטית בעוד %1$d ימים</item>
+        <item quantity="one">ההורדות החכמות יתעדכנו אוטומטית בעוד יום אחד</item>
+        <item quantity="two">ההורדות החכמות יתעדכנו אוטומטית בעוד (%1$d) יומיים</item>
+        <item quantity="many">ההורדות החכמות יתעדכנו אוטומטית בעוד %1$d ימים</item>
+    </plurals>
+    <plurals name="sticker_dialog_title">
+        <item quantity="other">אפשר לנסות שוב בעוד %1$d ימים</item>
+        <item quantity="one">אפשר לנסות שוב בעוד יום אחד</item>
+        <item quantity="two">אפשר לנסות שוב בעוד %1$d ימים</item>
+        <item quantity="many">אפשר לנסות שוב בעוד %1$d ימים</item>
+    </plurals>
+    <plurals name="too_many_external_uploads_error_msg">
+        <item quantity="other">ניתן להעלות רק %1$d סרטונים בכל פעם.</item>
+        <item quantity="one">ניתן להעלות רק סרטון אחד (%1$d) בכל פעם.</item>
+        <item quantity="two">ניתן להעלות רק %1$d סרטונים בכל פעם.</item>
+        <item quantity="many">ניתן להעלות רק %1$d סרטונים בכל פעם.</item>
+    </plurals>
+    <plurals name="transcoding_progress">
+        <item quantity="other">בהכנה: %1$,d%%</item>
+        <item quantity="one">בהכנה: %1$,d%%</item>
+        <item quantity="two">בהכנה: %1$,d%%</item>
+        <item quantity="many">בהכנה: %1$,d%%</item>
+    </plurals>
+    <plurals name="trim_segment_max_length">
+        <item quantity="other">%1$d שניות מקסימום</item>
+        <item quantity="one">שנייה אחת מקסימום</item>
+        <item quantity="two">%1$d שניות מקסימום</item>
+        <item quantity="many">%1$d שניות מקסימום</item>
+    </plurals>
+    <plurals name="trim_switch_edu">
+        <item quantity="other">יש לחתוך את הסרטון לקטע של %1$d שניות ולהוסיף מוזיקה</item>
+        <item quantity="one">יש לחתוך את הסרטון לקטע של שנייה אחת ולהוסיף מוזיקה</item>
+        <item quantity="two">יש לחתוך את הסרטון לקטע של %1$d שניות ולהוסיף מוזיקה</item>
+        <item quantity="many">יש לחתוך את הסרטון לקטע של %1$d שניות ולהוסיף מוזיקה</item>
+    </plurals>
+    <plurals name="trim_switch_edu_full_length_shorts">
+        <item quantity="other">חיתוך הסרטון לקטע של %1$d שניות או פחות</item>
+        <item quantity="one">חיתוך הסרטון לקטע של שנייה אחת או פחות</item>
+        <item quantity="two">חיתוך הסרטון לקטע של %1$d שניות או פחות</item>
+        <item quantity="many">חיתוך הסרטון לקטע של %1$d שניות או פחות</item>
+    </plurals>
+    <plurals name="upload_hours_remaing">
+        <item quantity="other">נותרו כ-%1$,d שעות</item>
+        <item quantity="one">נותרה כשעה %1$,d</item>
+        <item quantity="two">נותרו כ-%1$,d שעות</item>
+        <item quantity="many">נותרו כ-%1$,d שעות</item>
+    </plurals>
+    <plurals name="upload_indicator_all_completed">
+        <item quantity="other">הועלו %d סרטונים</item>
+        <item quantity="one">הועלה סרטון אחד</item>
+        <item quantity="two">הועלו %d סרטונים</item>
+        <item quantity="many">הועלו %d סרטונים</item>
+    </plurals>
+    <plurals name="upload_indicator_all_failed">
+        <item quantity="other">לא ניתן להעלות אף אחד מהסרטונים</item>
+        <item quantity="one">לא ניתן להעלות את הסרטון</item>
+        <item quantity="two">לא ניתן להעלות אף אחד מהסרטונים</item>
+        <item quantity="many">לא ניתן להעלות אף אחד מהסרטונים</item>
+    </plurals>
+    <plurals name="upload_indicator_all_uploading">
+        <item quantity="other">%d סרטונים עולים כרגע</item>
+        <item quantity="one">סרטון אחד עולה כרגע</item>
+        <item quantity="two">Uploading %d videos</item>
+        <item quantity="many">Uploading %d videos</item>
+    </plurals>
+    <plurals name="upload_indicator_partial_fail">
+        <item quantity="other">לא ניתן להעלות %1$d מתוך %2$d סרטונים</item>
+        <item quantity="one">לא ניתן להעלות %1$d מתוך %2$d סרטונים</item>
+        <item quantity="two">לא ניתן להעלות %1$d מתוך %2$d סרטונים</item>
+        <item quantity="many">לא ניתן להעלות %1$d מתוך %2$d סרטונים</item>
+    </plurals>
+    <plurals name="upload_indicator_uploading_and_completed_completed_part">
+        <item quantity="other">הועלו %d סרטונים</item>
+        <item quantity="one">הועלה סרטון %d</item>
+        <item quantity="two">הועלו %d סרטונים</item>
+        <item quantity="many">הועלו %d סרטונים</item>
+    </plurals>
+    <plurals name="upload_indicator_uploading_and_completed_uploading_part">
+        <item quantity="other">ההעלאה של %d סרטונים עדיין מתבצעת</item>
+        <item quantity="one">ההעלאה של סרטון %d עדיין מתבצעת</item>
+        <item quantity="two">ההעלאה של %d סרטונים עדיין מתבצעת</item>
+        <item quantity="many">ההעלאה של %d סרטונים עדיין מתבצעת</item>
+    </plurals>
+    <plurals name="upload_minutes_remaing">
+        <item quantity="other">נותרו כ-%1$,d דקות</item>
+        <item quantity="one">נותרה כדקה %1$,d</item>
+        <item quantity="two">נותרו כ-%1$,d דקות</item>
+        <item quantity="many">נותרו כ-%1$,d דקות</item>
+    </plurals>
+    <plurals name="upload_notification_active_progress">
+        <item quantity="other">מתבצעת העלאה של %1$d מתוך %2$d סרטונים</item>
+        <item quantity="one">מתבצעת העלאה של סרטון אחד</item>
+        <item quantity="two">מתבצעת העלאה של %1$d מתוך %2$d סרטונים</item>
+        <item quantity="many">מתבצעת העלאה של %1$d מתוך %2$d סרטונים</item>
+    </plurals>
+    <plurals name="upload_progress">
+        <item quantity="other">%1$,d%% הועלו</item>
+        <item quantity="one">%1$,d%% הועלה</item>
+        <item quantity="two">%1$,d%% הועלו</item>
+        <item quantity="many">%1$,d%% הועלו</item>
+    </plurals>
+    <plurals name="upload_seconds_remaing">
+        <item quantity="other">נותרו כ-%1$,d שניות</item>
+        <item quantity="one">נותרה כשנייה %1$,d</item>
+        <item quantity="two">נותרו כ-%1$,d שניות</item>
+        <item quantity="many">נותרו כ-%1$,d שניות</item>
+    </plurals>
+    <plurals name="uploads_failed">
+        <item quantity="other">%1$,d העלאות נכשלו</item>
+        <item quantity="one">ההעלאה נכשלה</item>
+        <item quantity="two">%1$,d העלאות נכשלו</item>
+        <item quantity="many">%1$,d העלאות נכשלו</item>
+    </plurals>
+    <plurals name="uploads_failed_with_in_progress_videos">
+        <item quantity="other">%1$,d מתוך %2$,d העלאות נכשלו</item>
+        <item quantity="one">%1$,d מתוך %2$,d העלאות נכשלו</item>
+        <item quantity="two">%1$,d מתוך %2$,d העלאות נכשלו</item>
+        <item quantity="many">%1$,d מתוך %2$,d העלאות נכשלו</item>
+    </plurals>
+    <plurals name="uploads_in_progress">
+        <item quantity="other">%1$,d עולים כרגע</item>
+        <item quantity="one">%1$,d עולה כרגע</item>
+        <item quantity="two">%1$,d uploading</item>
+        <item quantity="many">%1$,d uploading</item>
+    </plurals>
+    <plurals name="user_education_quick_seek">
+        <item quantity="other">אפשר להקיש פעמיים שמאלה או ימינה כדי לדלג %d שניות</item>
+        <item quantity="one">אפשר להקיש פעמיים שמאלה או ימינה כדי לדלג שנייה אחת (%d)</item>
+        <item quantity="two">אפשר להקיש פעמיים שמאלה או ימינה כדי לדלג %d שניות</item>
+        <item quantity="many">אפשר להקיש פעמיים שמאלה או ימינה כדי לדלג %d שניות</item>
+    </plurals>
+    <plurals name="video_count">
+        <item quantity="other">%1$d סרטונים</item>
+        <item quantity="one">סרטון אחד</item>
+        <item quantity="two">%1$d סרטונים</item>
+        <item quantity="many">%1$d סרטונים</item>
+    </plurals>
+</resources>

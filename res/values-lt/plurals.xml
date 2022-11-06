@@ -1,0 +1,449 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="accessibility_dislike_video_plural">
+        <item quantity="other">Mygtukas „Nepatinka“. Šis vaizdo įrašas nepatiko dar %1$d asmenų</item>
+        <item quantity="one">Mygtukas „Nepatinka“. Šis vaizdo įrašas nepatiko dar %1$d asmeniui</item>
+        <item quantity="few">Mygtukas „Nepatinka“. Šis vaizdo įrašas nepatiko dar %1$d asmenims</item>
+        <item quantity="many">Mygtukas „Nepatinka“. Šis vaizdo įrašas nepatiko dar %1$d asmens</item>
+    </plurals>
+    <plurals name="accessibility_dtts_fast_forward">
+        <item quantity="other">Prasukti pirmyn %1$d sekundžių</item>
+        <item quantity="one">Prasukti pirmyn %1$d sekundę</item>
+        <item quantity="few">Prasukti pirmyn %1$d sekundes</item>
+        <item quantity="many">Prasukti pirmyn %1$d sekundės</item>
+    </plurals>
+    <plurals name="accessibility_dtts_rewind">
+        <item quantity="other">Atsukti %1$d sekundžių</item>
+        <item quantity="one">Atsukti %1$d sekundę</item>
+        <item quantity="few">Atsukti %1$d sekundes</item>
+        <item quantity="many">Atsukti %1$d sekundės</item>
+    </plurals>
+    <plurals name="accessibility_duration_description_hours">
+        <item quantity="other">%d valandų</item>
+        <item quantity="one">%d valanda</item>
+        <item quantity="few">%d valandos</item>
+        <item quantity="many">%d valandos</item>
+    </plurals>
+    <plurals name="accessibility_duration_description_minutes">
+        <item quantity="other">%d minučių</item>
+        <item quantity="one">%d minutė</item>
+        <item quantity="few">%d minutės</item>
+        <item quantity="many">%d minutės</item>
+    </plurals>
+    <plurals name="accessibility_duration_description_seconds">
+        <item quantity="other">%d sekundžių</item>
+        <item quantity="one">%d sekundė</item>
+        <item quantity="few">%d sekundės</item>
+        <item quantity="many">%d sekundės</item>
+    </plurals>
+    <plurals name="accessibility_like_video_plural">
+        <item quantity="other">Mygtukas „Patinka“. Šis vaizdo įrašas patiko dar %1$d asmenų</item>
+        <item quantity="one">Mygtukas „Patinka“. Šis vaizdo įrašas patiko dar %1$d asmeniui</item>
+        <item quantity="few">Mygtukas „Patinka“. Šis vaizdo įrašas patiko dar %1$d asmenims</item>
+        <item quantity="many">Mygtukas „Patinka“. Šis vaizdo įrašas patiko dar %1$d asmens</item>
+    </plurals>
+    <plurals name="accessibility_skip_ad_in">
+        <item quantity="other">Praleisti skelbimą po %1$d sekundžių</item>
+        <item quantity="one">Praleisti skelbimą po %1$d sekundės</item>
+        <item quantity="few">Praleisti skelbimą po %1$d sekundžių</item>
+        <item quantity="many">Praleisti skelbimą po %1$d sekundės</item>
+    </plurals>
+    <plurals name="accessibility_undo_dislike_video_plural">
+        <item quantity="other">Mygtukas „Anuliuoti, kad nepatinka“. Šis vaizdo įrašas nepatiko dar %1$d asmenų</item>
+        <item quantity="one">Mygtukas „Anuliuoti, kad nepatinka“. Šis vaizdo įrašas nepatiko dar %1$d asmeniui</item>
+        <item quantity="few">Mygtukas „Anuliuoti, kad nepatinka“. Šis vaizdo įrašas nepatiko dar %1$d asmenims</item>
+        <item quantity="many">Mygtukas „Anuliuoti, kad nepatinka“. Šis vaizdo įrašas nepatiko dar %1$d asmens</item>
+    </plurals>
+    <plurals name="accessibility_undo_like_video_plural">
+        <item quantity="other">Mygtukas „Anuliuoti, kad patinka“. Šis vaizdo įrašas patiko dar %1$d asmenų</item>
+        <item quantity="one">Mygtukas „Anuliuoti, kad patinka“. Šis vaizdo įrašas patiko dar %1$d asmeniui</item>
+        <item quantity="few">Mygtukas „Anuliuoti, kad patinka“. Šis vaizdo įrašas patiko dar %1$d asmenims</item>
+        <item quantity="many">Mygtukas „Anuliuoti, kad patinka“. Šis vaizdo įrašas patiko dar %1$d asmens</item>
+    </plurals>
+    <plurals name="download_new_videos_button_text">
+        <item quantity="other">Atsisiųsti %1$d naujų vaizdo įrašų</item>
+        <item quantity="one">Atsisiųsti %1$d naują vaizdo įrašą</item>
+        <item quantity="few">Atsisiųsti %1$d naujus vaizdo įrašus</item>
+        <item quantity="many">Atsisiųsti %1$d naujo vaizdo įrašo</item>
+    </plurals>
+    <plurals name="download_playlist_unplayable_future_days_plural">
+        <item quantity="other">Kai kurių vaizdo įrašų atveju reikės turėti „Premium“ po %1$d dienų</item>
+        <item quantity="one">Kai kurių vaizdo įrašų atveju reikės turėti „Premium“ po %1$d dienos</item>
+        <item quantity="few">Kai kurių vaizdo įrašų atveju reikės turėti „Premium“ po %1$d dienų</item>
+        <item quantity="many">Kai kurių vaizdo įrašų atveju reikės turėti „Premium“ po %1$d dienos</item>
+    </plurals>
+    <plurals name="download_playlist_unplayable_future_hours_plural">
+        <item quantity="other">Kai kurių vaizdo įrašų atveju reikės turėti „Premium“ po %1$d valandų</item>
+        <item quantity="one">Kai kurių vaizdo įrašų atveju reikės turėti „Premium“ po %1$d valandos</item>
+        <item quantity="few">Kai kurių vaizdo įrašų atveju reikės turėti „Premium“ po %1$d valandų</item>
+        <item quantity="many">Kai kurių vaizdo įrašų atveju reikės turėti „Premium“ po %1$d valandos</item>
+    </plurals>
+    <plurals name="download_playlist_unplayable_future_minutes_plural">
+        <item quantity="other">Kai kurių vaizdo įrašų atveju reikės turėti „Premium“ po %1$d minučių</item>
+        <item quantity="one">Kai kurių vaizdo įrašų atveju reikės turėti „Premium“ po %1$d minutės</item>
+        <item quantity="few">Kai kurių vaizdo įrašų atveju reikės turėti „Premium“ po %1$d minučių</item>
+        <item quantity="many">Kai kurių vaizdo įrašų atveju reikės turėti „Premium“ po %1$d minutės</item>
+    </plurals>
+    <plurals name="download_video_unplayable_future_days_plural">
+        <item quantity="other">Reikės turėti „Premium“ po %1$d dienų</item>
+        <item quantity="one">Reikės turėti „Premium“ po %1$d dienos</item>
+        <item quantity="few">Reikės turėti „Premium“ po %1$d dienų</item>
+        <item quantity="many">Reikės turėti „Premium“ po %1$d dienos</item>
+    </plurals>
+    <plurals name="download_video_unplayable_future_hours_plural">
+        <item quantity="other">Reikės turėti „Premium“ po %1$d valandų</item>
+        <item quantity="one">Reikės turėti „Premium“ po %1$d valandos</item>
+        <item quantity="few">Reikės turėti „Premium“ po %1$d valandų</item>
+        <item quantity="many">Reikės turėti „Premium“ po %1$d valandos</item>
+    </plurals>
+    <plurals name="download_video_unplayable_future_minutes_plural">
+        <item quantity="other">Reikės turėti „Premium“ po %1$d minučių</item>
+        <item quantity="one">Reikės turėti „Premium“ po %1$d minutės</item>
+        <item quantity="few">Reikės turėti „Premium“ po %1$d minučių</item>
+        <item quantity="many">Reikės turėti „Premium“ po %1$d minutės</item>
+    </plurals>
+    <plurals name="duration_minutes">
+        <item quantity="other">%1$d minučių</item>
+        <item quantity="zero">0 minučių</item>
+        <item quantity="one">1 minutė</item>
+        <item quantity="two">2 minutės</item>
+        <item quantity="few">%1$d minutės</item>
+        <item quantity="many">%1$d minutės</item>
+    </plurals>
+    <plurals name="duration_seconds">
+        <item quantity="other">%1$d sekundžių</item>
+        <item quantity="zero">0 sekundžių</item>
+        <item quantity="one">1 sekundė</item>
+        <item quantity="two">2 sekundės</item>
+        <item quantity="few">%1$d sekundės</item>
+        <item quantity="many">%1$d sekundės</item>
+    </plurals>
+    <plurals name="frequency_hours_component">
+        <item quantity="other">%1$d valandų</item>
+        <item quantity="one">%1$d valanda</item>
+        <item quantity="few">%1$d valandos</item>
+        <item quantity="many">%1$d valandos</item>
+    </plurals>
+    <plurals name="frequency_hours_only">
+        <item quantity="other">Kas %1$d valandų</item>
+        <item quantity="one">Kas %1$d valandą</item>
+        <item quantity="few">Kas %1$d valandas</item>
+        <item quantity="many">Kas %1$d valandos</item>
+    </plurals>
+    <plurals name="frequency_minutes_component">
+        <item quantity="other">%1$d minučių</item>
+        <item quantity="one">%1$d minutė</item>
+        <item quantity="few">%1$d minutės</item>
+        <item quantity="many">%1$d minutės</item>
+    </plurals>
+    <plurals name="frequency_minutes_only">
+        <item quantity="other">Kas %1$d minučių</item>
+        <item quantity="one">Kas %1$d minutę</item>
+        <item quantity="few">Kas %1$d minutes</item>
+        <item quantity="many">Kas %1$d minutės</item>
+    </plurals>
+    <plurals name="image_picker_title">
+        <item quantity="other">Pasirinkta %1$d</item>
+        <item quantity="one">Pasirinktas %1$d</item>
+        <item quantity="few">Pasirinkti %1$d</item>
+        <item quantity="many">Pasirinkta %1$d</item>
+    </plurals>
+    <plurals name="invalid_uploads_error_msg">
+        <item quantity="other">Vienas ar daugiau vaizdo įrašų failų nepasiekiami arba netinkami. Bandykite dar kartą arba pasirinkite kitus failus.</item>
+        <item quantity="one">Vienas ar daugiau vaizdo įrašų failų nepasiekiami arba netinkami. Bandykite dar kartą arba pasirinkite kitus failus.</item>
+        <item quantity="few">Vienas ar daugiau vaizdo įrašų failų nepasiekiami arba netinkami. Bandykite dar kartą arba pasirinkite kitus failus.</item>
+        <item quantity="many">Vienas ar daugiau vaizdo įrašų failų nepasiekiami arba netinkami. Bandykite dar kartą arba pasirinkite kitus failus.</item>
+    </plurals>
+    <plurals name="last_update_in_days_message">
+        <item quantity="other">Atnaujinta prieš %1$d dienų</item>
+        <item quantity="one">Atnaujinta prieš %1$d dieną</item>
+        <item quantity="few">Atnaujinta prieš %1$d dienas</item>
+        <item quantity="many">Atnaujinta prieš %1$d dienos</item>
+    </plurals>
+    <plurals name="last_update_in_hours_message">
+        <item quantity="other">Atnaujinta prieš %1$d valandų</item>
+        <item quantity="one">Atnaujinta prieš %1$d valandą</item>
+        <item quantity="few">Atnaujinta prieš %1$d valandas</item>
+        <item quantity="many">Atnaujinta prieš %1$d valandos</item>
+    </plurals>
+    <plurals name="last_update_in_minutes_message">
+        <item quantity="other">Atnaujinta prieš %1$d minučių</item>
+        <item quantity="one">Atnaujinta prieš %1$d minutę</item>
+        <item quantity="few">Atnaujinta prieš %1$d minutes</item>
+        <item quantity="many">Atnaujinta prieš %1$d minutės</item>
+    </plurals>
+    <plurals name="last_update_in_weeks_message">
+        <item quantity="other">Atnaujinta prieš %1$d savaičių</item>
+        <item quantity="one">Atnaujinta prieš %1$d savaitę</item>
+        <item quantity="few">Atnaujinta prieš %1$d savaites</item>
+        <item quantity="many">Atnaujinta prieš %1$d savaitės</item>
+    </plurals>
+    <plurals name="notification_playlist_progress_size">
+        <item quantity="other">%1$d iš %2$d vaizdo įrašų</item>
+        <item quantity="one">%1$d iš %2$d vaizdo įrašo</item>
+        <item quantity="few">%1$d iš %2$d vaizdo įrašų</item>
+        <item quantity="many">%1$d iš %2$d vaizdo įrašo</item>
+    </plurals>
+    <plurals name="offline_go_online_to_renew_dialog_message">
+        <item quantity="other">Atsisiųstas turinys pasiekiamas tol, kol įrenginys prijungiamas prie interneto kas %1$d dienų. Šis procesas vyksta automatiškai, vaizdo įrašas iš naujo neatsisiunčiamas.</item>
+        <item quantity="one">Atsisiųstas turinys pasiekiamas tol, kol įrenginys prijungiamas prie interneto kas %1$d dieną. Šis procesas vyksta automatiškai, vaizdo įrašas iš naujo neatsisiunčiamas.</item>
+        <item quantity="few">Atsisiųstas turinys pasiekiamas tol, kol įrenginys prijungiamas prie interneto kas %1$d dienas. Šis procesas vyksta automatiškai, vaizdo įrašas iš naujo neatsisiunčiamas.</item>
+        <item quantity="many">Atsisiųstas turinys pasiekiamas tol, kol įrenginys prijungiamas prie interneto kas %1$d dienos. Šis procesas vyksta automatiškai, vaizdo įrašas iš naujo neatsisiunčiamas.</item>
+    </plurals>
+    <plurals name="offline_go_online_to_renew_snackbar_message">
+        <item quantity="other">Be interneto ryšio atsisiųstas turinys lieka pasiekiamas %1$d dienų.</item>
+        <item quantity="one">Be interneto ryšio atsisiųstas turinys lieka pasiekiamas %1$d dieną.</item>
+        <item quantity="few">Be interneto ryšio atsisiųstas turinys lieka pasiekiamas %1$d dienas.</item>
+        <item quantity="many">Be interneto ryšio atsisiųstas turinys lieka pasiekiamas %1$d dienos.</item>
+    </plurals>
+    <plurals name="offline_remember_setting_for_days">
+        <item quantity="other">Prisiminti mano nustatymus %1$d dienų</item>
+        <item quantity="one">Prisiminti mano nustatymus %1$d dieną</item>
+        <item quantity="few">Prisiminti mano nustatymus %1$d dienas</item>
+        <item quantity="many">Prisiminti mano nustatymus %1$d dienos</item>
+    </plurals>
+    <plurals name="playlist_picker_dialog_done">
+        <item quantity="other">Grojaraščiai atnaujinti</item>
+        <item quantity="one">Grojaraščiai atnaujinti</item>
+        <item quantity="few">Grojaraščiai atnaujinti</item>
+        <item quantity="many">Grojaraščiai atnaujinti</item>
+    </plurals>
+    <plurals name="playlist_size">
+        <item quantity="other">%1$,d vaizdo įrašų</item>
+        <item quantity="one">%1$,d vaizdo įrašas</item>
+        <item quantity="few">%1$,d vaizdo įrašai</item>
+        <item quantity="many">%1$,d vaizdo įrašo</item>
+    </plurals>
+    <plurals name="playlist_size_downloaded">
+        <item quantity="other">Atsisiųsta %1$,d vaizdo įrašų</item>
+        <item quantity="one">Atsisiųstas %1$,d vaizdo įrašas</item>
+        <item quantity="few">Atsisiųsti %1$,d vaizdo įrašai</item>
+        <item quantity="many">Atsisiųsta %1$,d vaizdo įrašo</item>
+    </plurals>
+    <plurals name="playlist_size_total">
+        <item quantity="other">%1$,d vaizdo įrašų</item>
+        <item quantity="one">%1$,d vaizdo įrašas</item>
+        <item quantity="few">%1$,d vaizdo įrašai</item>
+        <item quantity="many">%1$,d vaizdo įrašo</item>
+    </plurals>
+    <plurals name="public_notification_text">
+        <item quantity="other">%1$d new notifications</item>
+        <item quantity="one">You have a notification</item>
+    </plurals>
+    <plurals name="quick_seek_x_second">
+        <item quantity="other">%d sekundžių</item>
+        <item quantity="one">%d sekundė</item>
+        <item quantity="few">%d sekundės</item>
+        <item quantity="many">%d sekundės</item>
+    </plurals>
+    <plurals name="recommendation_count">
+        <item quantity="other">%1$d rekomendacijų</item>
+        <item quantity="one">%1$d rekomendacija</item>
+        <item quantity="few">%1$d rekomendacijos</item>
+        <item quantity="many">%1$d rekomendacijos</item>
+    </plurals>
+    <plurals name="rental_expiry_notice">
+        <item quantity="other">Pradėję žiūrėti, šio vaizdo įrašo peržiūrai turėsite %1$d valandų.</item>
+        <item quantity="one">Pradėję žiūrėti, šio vaizdo įrašo peržiūrai turėsite %1$d valandą.</item>
+        <item quantity="few">Pradėję žiūrėti, šio vaizdo įrašo peržiūrai turėsite %1$d valandas.</item>
+        <item quantity="many">Pradėję žiūrėti, šio vaizdo įrašo peržiūrai turėsite %1$d valandos.</item>
+    </plurals>
+    <plurals name="rental_long_days_remaining">
+        <item quantity="other">Baigia galioti po %1$d dienų</item>
+        <item quantity="one">Baigia galioti po %1$d dienos</item>
+        <item quantity="few">Baigia galioti po %1$d dienų</item>
+        <item quantity="many">Baigia galioti po %1$d dienos</item>
+    </plurals>
+    <plurals name="rental_long_hours_remaining">
+        <item quantity="other">Baigia galioti po %1$d valandų</item>
+        <item quantity="one">Baigia galioti po %1$d valandos</item>
+        <item quantity="few">Baigia galioti po %1$d valandų</item>
+        <item quantity="many">Baigia galioti po %1$d valandos</item>
+    </plurals>
+    <plurals name="rental_long_weeks_remaining">
+        <item quantity="other">Baigia galioti po %1$d savaičių</item>
+        <item quantity="one">Baigia galioti po %1$d savaitės</item>
+        <item quantity="few">Baigia galioti po %1$d savaičių</item>
+        <item quantity="many">Baigia galioti po %1$d savaitės</item>
+    </plurals>
+    <plurals name="rental_medium_days_remaining">
+        <item quantity="other">Baigs galioti po %1$d dienų</item>
+        <item quantity="one">Baigs galioti po %1$d dienos</item>
+        <item quantity="few">Baigs galioti po %1$d dienų</item>
+        <item quantity="many">Baigs galioti po %1$d dienos</item>
+    </plurals>
+    <plurals name="rental_medium_hours_remaining">
+        <item quantity="other">Baigs galioti po %1$d valandų</item>
+        <item quantity="one">Baigs galioti po %1$d valandos</item>
+        <item quantity="few">Baigs galioti po %1$d valandų</item>
+        <item quantity="many">Baigs galioti po %1$d valandos</item>
+    </plurals>
+    <plurals name="rental_medium_weeks_remaining">
+        <item quantity="other">Baigs galioti po %1$d savaičių</item>
+        <item quantity="one">Baigs galioti po %1$d savaitės</item>
+        <item quantity="few">Baigs galioti po %1$d savaičių</item>
+        <item quantity="many">Baigs galioti po %1$d savaitės</item>
+    </plurals>
+    <plurals name="selected_video_count">
+        <item quantity="other">Pasirinkta %1$d vaizdo įrašų</item>
+        <item quantity="one">Pasirinktas %1$d vaizdo įrašas</item>
+        <item quantity="few">Pasirinkti %1$d vaizdo įrašai</item>
+        <item quantity="many">Pasirinkta %1$d vaizdo įrašo</item>
+    </plurals>
+    <plurals name="shorts_a11y_duration_seconds">
+        <item quantity="other">%1$s sekundžių</item>
+        <item quantity="one">%1$s sekundė</item>
+        <item quantity="few">%1$s sekundės</item>
+        <item quantity="many">%1$s sekundės</item>
+    </plurals>
+    <plurals name="shorts_a11y_timer_duration_seconds">
+        <item quantity="other">%1$d sekundžių laikmatis</item>
+        <item quantity="one">%1$d sekundės laikmatis</item>
+        <item quantity="few">%1$d sekundžių laikmatis</item>
+        <item quantity="many">%1$d sekundės laikmatis</item>
+    </plurals>
+    <plurals name="shorts_a11y_timer_started">
+        <item quantity="other">%1$d sekundžių laikmatis suaktyvintas</item>
+        <item quantity="one">%1$d sekundės laikmatis suaktyvintas</item>
+        <item quantity="few">%1$d sekundžių laikmatis suaktyvintas</item>
+        <item quantity="many">%1$d sekundės laikmatis suaktyvintas</item>
+    </plurals>
+    <plurals name="smart_downloads_future_update_text">
+        <item quantity="other">Išmanieji atsisiuntimai bus automatiškai atnaujinti po %1$d dienų</item>
+        <item quantity="one">Išmanieji atsisiuntimai bus automatiškai atnaujinti po %1$d dienos</item>
+        <item quantity="few">Išmanieji atsisiuntimai bus automatiškai atnaujinti po %1$d dienų</item>
+        <item quantity="many">Išmanieji atsisiuntimai bus automatiškai atnaujinti po %1$d dienos</item>
+    </plurals>
+    <plurals name="sticker_dialog_title">
+        <item quantity="other">Grįžkite po %1$d dienų</item>
+        <item quantity="one">Grįžkite po %1$d dienos</item>
+        <item quantity="few">Grįžkite po %1$d dienų</item>
+        <item quantity="many">Grįžkite po %1$d dienos</item>
+    </plurals>
+    <plurals name="too_many_external_uploads_error_msg">
+        <item quantity="other">Vienu metu galite įkelti tik %1$d vaizdo įrašų.</item>
+        <item quantity="one">Vienu metu galite įkelti tik %1$d vaizdo įrašą.</item>
+        <item quantity="few">Vienu metu galite įkelti tik %1$d vaizdo įrašus.</item>
+        <item quantity="many">Vienu metu galite įkelti tik %1$d vaizdo įrašo.</item>
+    </plurals>
+    <plurals name="transcoding_progress">
+        <item quantity="other">Ruošiama %1$,d %%</item>
+        <item quantity="one">Ruošiama %1$,d %%</item>
+        <item quantity="few">Ruošiama %1$,d %%</item>
+        <item quantity="many">Ruošiama %1$,d %%</item>
+    </plurals>
+    <plurals name="trim_segment_max_length">
+        <item quantity="other">Daugiausia %1$d sekundžių</item>
+        <item quantity="one">Daugiausia %1$d sekundė</item>
+        <item quantity="few">Daugiausia %1$d sekundės</item>
+        <item quantity="many">Daugiausia %1$d sekundės</item>
+    </plurals>
+    <plurals name="trim_switch_edu">
+        <item quantity="other">Apkirpti vaizdo įrašą iki %1$d sekundžių ir pridėti muzikos</item>
+        <item quantity="one">Apkirpti vaizdo įrašą iki %1$d sekundės ir pridėti muzikos</item>
+        <item quantity="few">Apkirpti vaizdo įrašą iki %1$d sekundžių ir pridėti muzikos</item>
+        <item quantity="many">Apkirpti vaizdo įrašą iki %1$d sekundės ir pridėti muzikos</item>
+    </plurals>
+    <plurals name="trim_switch_edu_full_length_shorts">
+        <item quantity="other">Apkirpti vaizdo įrašą, kad būtų %1$d sekundžių arba trumpesnis</item>
+        <item quantity="one">Apkirpti vaizdo įrašą, kad būtų %1$d sekundės arba trumpesnis</item>
+        <item quantity="few">Apkirpti vaizdo įrašą, kad būtų %1$d sekundžių arba trumpesnis</item>
+        <item quantity="many">Apkirpti vaizdo įrašą, kad būtų %1$d sekundės arba trumpesnis</item>
+    </plurals>
+    <plurals name="upload_hours_remaing">
+        <item quantity="other">Liko maždaug %1$,d valandų</item>
+        <item quantity="one">Liko maždaug %1$,d valanda</item>
+        <item quantity="few">Liko maždaug %1$,d valandos</item>
+        <item quantity="many">Liko maždaug %1$,d valandos</item>
+    </plurals>
+    <plurals name="upload_indicator_all_completed">
+        <item quantity="other">%d vaizdo įrašų įkelta</item>
+        <item quantity="one">%d vaizdo įrašas įkeltas</item>
+        <item quantity="few">%d vaizdo įrašai įkelti</item>
+        <item quantity="many">%d vaizdo įrašo įkelta</item>
+    </plurals>
+    <plurals name="upload_indicator_all_failed">
+        <item quantity="other">Nepavyko įkelti nė vieno vaizdo įrašo</item>
+        <item quantity="one">Nepavyko įkelti nė vieno vaizdo įrašo</item>
+        <item quantity="few">Nepavyko įkelti nė vieno vaizdo įrašo</item>
+        <item quantity="many">Nepavyko įkelti nė vieno vaizdo įrašo</item>
+    </plurals>
+    <plurals name="upload_indicator_all_uploading">
+        <item quantity="other">Įkeliama %d vaizdo įrašų</item>
+        <item quantity="one">Įkeliamas %d vaizdo įrašas</item>
+        <item quantity="few">Įkeliami %d vaizdo įrašai</item>
+        <item quantity="many">Įkeliama %d vaizdo įrašo</item>
+    </plurals>
+    <plurals name="upload_indicator_partial_fail">
+        <item quantity="other">Nepavyko įkelti %1$d iš %2$d vaizdo įrašų</item>
+        <item quantity="one">Nepavyko įkelti %1$d iš %2$d vaizdo įrašo</item>
+        <item quantity="few">Nepavyko įkelti %1$d iš %2$d vaizdo įrašų</item>
+        <item quantity="many">Nepavyko įkelti %1$d iš %2$d vaizdo įrašo</item>
+    </plurals>
+    <plurals name="upload_indicator_uploading_and_completed_completed_part">
+        <item quantity="other">%d įkelta</item>
+        <item quantity="one">%d įkeltas</item>
+        <item quantity="few">%d įkelti</item>
+        <item quantity="many">%d įkelta</item>
+    </plurals>
+    <plurals name="upload_indicator_uploading_and_completed_uploading_part">
+        <item quantity="other">%d dar nebaigta įkelti</item>
+        <item quantity="one">%d dar nebaigtas įkelti</item>
+        <item quantity="few">%d dar nebaigti įkelti</item>
+        <item quantity="many">%d dar nebaigta įkelti</item>
+    </plurals>
+    <plurals name="upload_minutes_remaing">
+        <item quantity="other">Liko maždaug %1$,d minučių</item>
+        <item quantity="one">Liko maždaug %1$,d minutė</item>
+        <item quantity="few">Liko maždaug %1$,d minutės</item>
+        <item quantity="many">Liko maždaug %1$,d minutės</item>
+    </plurals>
+    <plurals name="upload_notification_active_progress">
+        <item quantity="other">Įkeliamas %1$d vaizdo įrašų iš %2$d</item>
+        <item quantity="one">Įkeliamas %1$d vaizdo įrašas iš %2$d</item>
+        <item quantity="few">Įkeliami %1$d vaizdo įrašai iš %2$d</item>
+        <item quantity="many">Įkeliama %1$d vaizdo įrašo iš %2$d</item>
+    </plurals>
+    <plurals name="upload_progress">
+        <item quantity="other">%1$,d %% įkelta</item>
+        <item quantity="one">%1$,d %% įkelta</item>
+        <item quantity="few">%1$,d %% įkelta</item>
+        <item quantity="many">%1$,d %% įkelta</item>
+    </plurals>
+    <plurals name="upload_seconds_remaing">
+        <item quantity="other">Liko maždaug %1$,d sekundžių</item>
+        <item quantity="one">Liko maždaug %1$,d sekundė</item>
+        <item quantity="few">Liko maždaug %1$,d sekundės</item>
+        <item quantity="many">Liko maždaug %1$,d sekundės</item>
+    </plurals>
+    <plurals name="uploads_failed">
+        <item quantity="other">Nepavyko įkelti %1$,d vaizdo įrašų</item>
+        <item quantity="one">Nepavyko įkelti %1$,d vaizdo įrašo</item>
+        <item quantity="few">Nepavyko įkelti %1$,d vaizdo įrašų</item>
+        <item quantity="many">Nepavyko įkelti %1$,d vaizdo įrašo</item>
+    </plurals>
+    <plurals name="uploads_failed_with_in_progress_videos">
+        <item quantity="other">Nepavyko įkelti %1$,d vaizdo įrašų iš %2$,d</item>
+        <item quantity="one">Nepavyko įkelti %1$,d vaizdo įrašo iš %2$,d</item>
+        <item quantity="few">Nepavyko įkelti %1$,d vaizdo įrašų iš %2$,d</item>
+        <item quantity="many">Nepavyko įkelti %1$,d vaizdo įrašo iš %2$,d</item>
+    </plurals>
+    <plurals name="uploads_in_progress">
+        <item quantity="other">Įkeliama %1$,d</item>
+        <item quantity="one">Įkeliamas %1$,d</item>
+        <item quantity="few">Įkeliami %1$,d</item>
+        <item quantity="many">Įkeliama %1$,d</item>
+    </plurals>
+    <plurals name="user_education_quick_seek">
+        <item quantity="other">Dukart palieskite kairėje arba dešinėje ir praleisite %d sekundžių</item>
+        <item quantity="one">Dukart palieskite kairėje arba dešinėje ir praleisite %d sekundę</item>
+        <item quantity="few">Dukart palieskite kairėje arba dešinėje ir praleisite %d sekundes</item>
+        <item quantity="many">Dukart palieskite kairėje arba dešinėje ir praleisite %d sekundės</item>
+    </plurals>
+    <plurals name="video_count">
+        <item quantity="other">%1$d vaizdo įrašų</item>
+        <item quantity="one">%1$d vaizdo įrašas</item>
+        <item quantity="few">%1$d vaizdo įrašai</item>
+        <item quantity="many">%1$d vaizdo įrašo</item>
+    </plurals>
+</resources>

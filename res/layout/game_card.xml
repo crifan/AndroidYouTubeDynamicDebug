@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/game_box_art_margin_bottom" android:foreground="?selectableItemBackground" card_view:cardBackgroundColor="?ytBrandBackgroundSolid" card_view:cardCornerRadius="0.0dip" card_view:cardElevation="0.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:yt="http://schemas.android.com/apk/res-auto" xmlns:card_view="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/game_layout" android:layout_width="@dimen/game_box_art_width" android:layout_height="wrap_content">
+        <com.google.android.libraries.youtube.common.ui.FixedAspectRatioFrameLayout android:id="@id/thumbnail_layout" android:background="@drawable/bg_video_thumb" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="4.0dip" card_view:aspectRatio="@fraction/game_box_art_aspect_ratio">
+            <ImageView android:id="@id/thumbnail" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitXY" android:contentDescription="@null" />
+        </com.google.android.libraries.youtube.common.ui.FixedAspectRatioFrameLayout>
+        <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:textAppearance="?textAppearanceBody2" android:ellipsize="end" android:gravity="top" android:id="@id/title" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="3.0dip" android:maxLines="2" />
+        <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:textAppearance="?textAppearanceCaption" android:textSize="12.0sp" android:textColor="?ytTextSecondary" android:ellipsize="end" android:gravity="top" android:id="@id/auto_generated_notice" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="3.0dip" android:maxLines="2" />
+        <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:textAppearance="?textAppearanceCaption" android:textSize="13.0sp" android:textColor="?ytTextSecondary" android:ellipsize="end" android:gravity="top" android:id="@id/subtitle" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:maxLines="1" />
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

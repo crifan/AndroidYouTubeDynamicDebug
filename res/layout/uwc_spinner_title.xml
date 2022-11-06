@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView android:textAppearance="?textAppearanceSubhead" android:textSize="16.0sp" android:textStyle="bold" android:textColor="?android:textColorSecondary" android:gravity="center" android:id="@android:id/text1" android:background="?selectableItemBackground" android:layout_width="fill_parent" android:layout_height="?dropdownListPreferredItemHeight" android:maxLines="1" android:includeFontPadding="false" android:textAllCaps="true" style="?spinnerDropDownItemStyle"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

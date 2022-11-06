@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.apps.youtube.app.common.tutorial.ClingTutorialView android:id="@id/tutorial_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:elevation="12.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:yt="http://schemas.android.com/apk/res-auto">
+    <com.google.android.apps.youtube.app.common.tutorial.ClingView android:id="@id/cling_view" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_alignParentTop="true" android:layout_alignParentBottom="true" android:layout_alignParentStart="true" android:layout_alignParentEnd="true" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/text_area" android:background="@android:color/transparent" android:padding="20.0dip" android:layout_width="@dimen/video_info_tutorial_width" android:layout_height="wrap_content" android:layout_marginStart="@dimen/tutorial_view_margin" android:layout_marginEnd="@dimen/tutorial_view_margin">
+        <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:textSize="@dimen/huge_font_size" android:textColor="@android:color/white" android:layout_gravity="center|top" android:id="@id/text" android:padding="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" yt:robotoFont="regular" />
+        <Button android:textSize="@dimen/large_font_size" android:textColor="@android:color/white" android:id="@id/ok" android:background="?android:selectableItemBackground" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:minHeight="45.0dip" android:text="@string/app_got_it" android:textAllCaps="true" android:paddingStart="5.0dip" android:paddingEnd="45.0dip" />
+    </LinearLayout>
+</com.google.android.apps.youtube.app.common.tutorial.ClingTutorialView>

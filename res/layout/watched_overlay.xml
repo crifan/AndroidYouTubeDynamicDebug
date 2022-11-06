@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="#3fffffff" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:yt="http://schemas.android.com/apk/res-auto">
+    <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:layout_gravity="start|center|top" android:id="@id/watched" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/watched_badge_text" android:textAllCaps="true" yt:robotoFont="light" style="@style/StandaloneDurationBadgesOverlay" />
+</FrameLayout>

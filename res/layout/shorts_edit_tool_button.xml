@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:background="?selectableItemBackground" android:layout_width="@dimen/shorts_edit_tool_button_width" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/shorts_edit_tool_icon" android:clickable="false" android:layout_width="@dimen/shorts_edit_tool_button_drawable_icon_size" android:layout_height="@dimen/shorts_edit_tool_button_drawable_icon_size" android:layout_marginTop="@dimen/shorts_edit_tool_button_thumbnail_padding_top" android:layout_marginBottom="@dimen/shorts_edit_tool_button_thumbnail_padding_bottom" android:importantForAccessibility="no" />
+    <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:textAppearance="?ytTextAppearanceBody2a" android:textColor="@color/editor_tool_button_text_color" android:id="@id/shorts_edit_tool_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/shorts_edit_tool_text_padding_bottom" android:maxLines="1" />
+</LinearLayout>

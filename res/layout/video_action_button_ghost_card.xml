@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="36.0dip" android:layout_weight="1.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.libraries.youtube.common.ui.CircularImageView android:id="@id/action_button1" android:background="?ghostCardBackground" android:layout_width="20.0dip" android:layout_height="20.0dip" />
+    <View android:id="@id/action_button_discription" android:background="?ghostCardBackground" android:layout_width="30.0dip" android:layout_height="8.0dip" android:layout_marginTop="8.0dip" />
+</LinearLayout>

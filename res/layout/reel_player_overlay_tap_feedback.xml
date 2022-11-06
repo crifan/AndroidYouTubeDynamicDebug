@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:yt="http://schemas.android.com/apk/res-auto">
+    <com.airbnb.lottie.LottieAnimationView android:layout_gravity="center" android:id="@id/reel_feedback_like" android:visibility="gone" android:layout_width="@dimen/reel_player_tap_feedback_like_width" android:layout_height="@dimen/reel_player_tap_feedback_like_height" yt:lottie_rawRes="@raw/like_tap_feedback" />
+    <com.airbnb.lottie.LottieAnimationView android:layout_gravity="center" android:id="@id/reel_feedback_play" android:visibility="gone" android:layout_width="@dimen/reel_player_tap_feedback_play_pause_width" android:layout_height="@dimen/reel_player_tap_feedback_play_pause_height" yt:lottie_rawRes="@raw/play_tap_feedback" />
+    <com.airbnb.lottie.LottieAnimationView android:layout_gravity="center" android:id="@id/reel_feedback_pause" android:visibility="gone" android:layout_width="@dimen/reel_player_tap_feedback_play_pause_width" android:layout_height="@dimen/reel_player_tap_feedback_play_pause_height" yt:lottie_rawRes="@raw/pause_tap_feedback" />
+</FrameLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="36.0dip" android:width="36.0dip" android:viewportWidth="36.0" android:viewportHeight="36.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <group>
+        <clip-path android:pathData="M3 0H33C34.6569 0 36 1.34315 36 3V33C36 34.6569 34.6569 36 33 36H3C1.34315 36 0 34.6569 0 33V3C0 1.34315 1.34315 0 3 0Z" />
+        <path android:fillColor="?ytOverlayButtonSecondary" android:pathData="M0 0V36H36V0" />
+    </group>
+</vector>

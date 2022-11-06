@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="design_snackbar_text_max_lines">1</integer>
+    <integer name="grid_shelf_num_columns">3</integer>
+    <integer name="horizontal_shelf_num_columns">3</integer>
+    <integer name="lc_scheduled_events_columns">2</integer>
+    <integer name="topic_channel_banner_translation_x">0</integer>
+    <integer name="watch_card_related_entities_count">4</integer>
+</resources>

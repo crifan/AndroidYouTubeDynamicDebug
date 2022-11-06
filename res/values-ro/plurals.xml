@@ -1,0 +1,379 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="accessibility_dislike_video_plural">
+        <item quantity="other">Butonul Nu apreciez, încă %1$d nu au apreciat videoclipul</item>
+        <item quantity="one">Butonul Nu apreciez, încă %1$d nu a apreciat videoclipul</item>
+        <item quantity="few">Butonul Nu apreciez, încă %1$d nu au apreciat videoclipul</item>
+    </plurals>
+    <plurals name="accessibility_dtts_fast_forward">
+        <item quantity="other">Derulează rapid înainte cu %1$d de secunde</item>
+        <item quantity="one">Derulează rapid înainte cu %1$d secundă</item>
+        <item quantity="few">Derulează rapid înainte cu %1$d secunde</item>
+    </plurals>
+    <plurals name="accessibility_dtts_rewind">
+        <item quantity="other">Derulează înapoi cu %1$d de secunde</item>
+        <item quantity="one">Derulează înapoi cu %1$d secundă</item>
+        <item quantity="few">Derulează înapoi cu %1$d secunde</item>
+    </plurals>
+    <plurals name="accessibility_duration_description_hours">
+        <item quantity="other">%d de ore</item>
+        <item quantity="one">%d oră</item>
+        <item quantity="few">%d ore</item>
+    </plurals>
+    <plurals name="accessibility_duration_description_minutes">
+        <item quantity="other">%d de minute</item>
+        <item quantity="one">%d minut</item>
+        <item quantity="few">%d minute</item>
+    </plurals>
+    <plurals name="accessibility_duration_description_seconds">
+        <item quantity="other">%d de secunde</item>
+        <item quantity="one">%d secundă</item>
+        <item quantity="few">%d secunde</item>
+    </plurals>
+    <plurals name="accessibility_like_video_plural">
+        <item quantity="other">Butonul Apreciez, încă %1$d au apreciat videoclipul</item>
+        <item quantity="one">Butonul Apreciez, încă %1$d a apreciat videoclipul</item>
+        <item quantity="few">Butonul Apreciez, încă %1$d au apreciat videoclipul</item>
+    </plurals>
+    <plurals name="accessibility_skip_ad_in">
+        <item quantity="other">Închide anunțul în %1$d de secunde</item>
+        <item quantity="one">Închide anunțul într-o secundă</item>
+        <item quantity="few">Închide anunțul în %1$d secunde</item>
+    </plurals>
+    <plurals name="accessibility_undo_dislike_video_plural">
+        <item quantity="other">Butonul Anulează „Nu apreciez”, încă %1$d nu au apreciat videoclipul</item>
+        <item quantity="one">Butonul Anulează „Nu apreciez”, încă %1$d nu a apreciat videoclipul</item>
+        <item quantity="few">Butonul Anulează „Nu apreciez”, încă %1$d nu au apreciat videoclipul</item>
+    </plurals>
+    <plurals name="accessibility_undo_like_video_plural">
+        <item quantity="other">Butonul Anulează aprecierea, încă %1$d au apreciat videoclipul</item>
+        <item quantity="one">Butonul Anulează aprecierea, încă %1$d a apreciat videoclipul</item>
+        <item quantity="few">Butonul Anulează aprecierea, încă %1$d au apreciat videoclipul</item>
+    </plurals>
+    <plurals name="download_new_videos_button_text">
+        <item quantity="other">Descarcă %1$d de videoclipuri noi</item>
+        <item quantity="one">Descarcă %1$d videoclip nou</item>
+        <item quantity="few">Descarcă %1$d videoclipuri noi</item>
+    </plurals>
+    <plurals name="download_playlist_unplayable_future_days_plural">
+        <item quantity="other">Unele videoclipuri necesită Premium peste %1$d de zile</item>
+        <item quantity="one">Unele videoclipuri necesită Premium peste %1$d zi</item>
+        <item quantity="few">Unele videoclipuri necesită Premium peste %1$d zile</item>
+    </plurals>
+    <plurals name="download_playlist_unplayable_future_hours_plural">
+        <item quantity="other">Unele videoclipuri necesită Premium peste %1$d de ore</item>
+        <item quantity="one">Unele videoclipuri necesită Premium peste %1$d oră</item>
+        <item quantity="few">Unele videoclipuri necesită Premium peste %1$d ore</item>
+    </plurals>
+    <plurals name="download_playlist_unplayable_future_minutes_plural">
+        <item quantity="other">Unele videoclipuri necesită Premium peste %1$d de minute</item>
+        <item quantity="one">Unele videoclipuri necesită Premium peste %1$d minut</item>
+        <item quantity="few">Unele videoclipuri necesită Premium peste %1$d minute</item>
+    </plurals>
+    <plurals name="download_video_unplayable_future_days_plural">
+        <item quantity="other">Necesită Premium peste %1$d de zile</item>
+        <item quantity="one">Necesită Premium peste %1$d zi</item>
+        <item quantity="few">Necesită Premium peste %1$d zile</item>
+    </plurals>
+    <plurals name="download_video_unplayable_future_hours_plural">
+        <item quantity="other">Necesită Premium peste %1$d de ore</item>
+        <item quantity="one">Necesită Premium peste %1$d oră</item>
+        <item quantity="few">Necesită Premium peste %1$d ore</item>
+    </plurals>
+    <plurals name="download_video_unplayable_future_minutes_plural">
+        <item quantity="other">Necesită Premium peste %1$d de minute</item>
+        <item quantity="one">Necesită Premium peste %1$d minut</item>
+        <item quantity="few">Necesită Premium peste %1$d minute</item>
+    </plurals>
+    <plurals name="duration_minutes">
+        <item quantity="other">%1$d de minute</item>
+        <item quantity="zero">Niciun minut</item>
+        <item quantity="one">Un minut</item>
+        <item quantity="two">Două minute</item>
+        <item quantity="few">%1$d minute</item>
+        <item quantity="many">%1$d minute</item>
+    </plurals>
+    <plurals name="duration_seconds">
+        <item quantity="other">%1$d de secunde</item>
+        <item quantity="zero">Nicio secundă</item>
+        <item quantity="one">O secundă</item>
+        <item quantity="two">Două secunde</item>
+        <item quantity="few">%1$d secunde</item>
+        <item quantity="many">%1$d secunde</item>
+    </plurals>
+    <plurals name="frequency_hours_component">
+        <item quantity="other">%1$d de ore</item>
+        <item quantity="one">%1$d oră</item>
+        <item quantity="few">%1$d ore</item>
+    </plurals>
+    <plurals name="frequency_hours_only">
+        <item quantity="other">La fiecare %1$d de ore</item>
+        <item quantity="one">În fiecare oră</item>
+        <item quantity="few">La fiecare %1$d ore</item>
+    </plurals>
+    <plurals name="frequency_minutes_component">
+        <item quantity="other">%1$d de minute</item>
+        <item quantity="one">%1$d minut</item>
+        <item quantity="few">%1$d minute</item>
+    </plurals>
+    <plurals name="frequency_minutes_only">
+        <item quantity="other">La fiecare %1$d de minute</item>
+        <item quantity="one">În fiecare minut</item>
+        <item quantity="few">La fiecare %1$d minute</item>
+    </plurals>
+    <plurals name="image_picker_title">
+        <item quantity="other">%1$d selectate</item>
+        <item quantity="one">%1$d selectată</item>
+        <item quantity="few">%1$d selectate</item>
+    </plurals>
+    <plurals name="invalid_uploads_error_msg">
+        <item quantity="other">Unul sau mai multe fișiere video nu sunt disponibile sau nu sunt valide. Încearcă din nou sau alege alte fișiere.</item>
+        <item quantity="one">Fișierul video nu este disponibil sau nu este valid. Încearcă din nou sau alege alt fișier.</item>
+        <item quantity="few">Unul sau mai multe fișiere video nu sunt disponibile sau nu sunt valide. Încearcă din nou sau alege alte fișiere.</item>
+    </plurals>
+    <plurals name="last_update_in_days_message">
+        <item quantity="other">Actualizate acum %1$d de zile</item>
+        <item quantity="one">Actualizate ieri</item>
+        <item quantity="few">Actualizate acum %1$d zile</item>
+    </plurals>
+    <plurals name="last_update_in_hours_message">
+        <item quantity="other">Actualizate acum %1$d de ore</item>
+        <item quantity="one">Actualizate acum %1$d oră</item>
+        <item quantity="few">Actualizate acum %1$d ore</item>
+    </plurals>
+    <plurals name="last_update_in_minutes_message">
+        <item quantity="other">Actualizate acum %1$d de minute</item>
+        <item quantity="one">Actualizate acum %1$d minut</item>
+        <item quantity="few">Actualizate acum %1$d minute</item>
+    </plurals>
+    <plurals name="last_update_in_weeks_message">
+        <item quantity="other">Actualizate acum %1$d de săptămâni</item>
+        <item quantity="one">Actualizate acum %1$d săptămână</item>
+        <item quantity="few">Actualizate acum %1$d săptămâni</item>
+    </plurals>
+    <plurals name="notification_playlist_progress_size">
+        <item quantity="other">%1$d din %2$d de videoclipuri</item>
+        <item quantity="one">%1$d din 1 videoclip</item>
+        <item quantity="few">%1$d din %2$d videoclipuri</item>
+    </plurals>
+    <plurals name="offline_go_online_to_renew_dialog_message">
+        <item quantity="other">Videoclipurile descărcate vor continua să fie disponibile cu condiția ca dispozitivul să aibă o conexiune la internet la fiecare %1$d de zile. Procesul are loc automat și videoclipul nu este descărcat din nou.</item>
+        <item quantity="one">Videoclipurile descărcate vor continua să fie disponibile cu condiția ca dispozitivul să aibă o conexiune la internet în fiecare zi. Procesul are loc automat și videoclipul nu este descărcat din nou.</item>
+        <item quantity="few">Videoclipurile descărcate vor continua să fie disponibile cu condiția ca dispozitivul să aibă o conexiune la internet la fiecare %1$d zile. Procesul are loc automat și videoclipul nu este descărcat din nou.</item>
+    </plurals>
+    <plurals name="offline_go_online_to_renew_snackbar_message">
+        <item quantity="other">Videoclipurile descărcate sunt disponibile %1$d de zile fără conexiune la internet.</item>
+        <item quantity="one">Videoclipurile descărcate sunt disponibile o zi fără conexiune la internet.</item>
+        <item quantity="few">Videoclipurile descărcate sunt disponibile %1$d zile fără conexiune la internet.</item>
+    </plurals>
+    <plurals name="offline_remember_setting_for_days">
+        <item quantity="other">Reține-mi setările timp de %1$d de zile</item>
+        <item quantity="one">Reține-mi setările timp de o zi</item>
+        <item quantity="few">Reține-mi setările timp de %1$d zile</item>
+    </plurals>
+    <plurals name="playlist_picker_dialog_done">
+        <item quantity="other">Playlisturile au fost actualizate</item>
+        <item quantity="one">Playlistul a fost actualizat</item>
+        <item quantity="few">Playlisturile au fost actualizate</item>
+    </plurals>
+    <plurals name="playlist_size">
+        <item quantity="other">%1$,d de videoclipuri</item>
+        <item quantity="one">Un videoclip</item>
+        <item quantity="few">%1$,d videoclipuri</item>
+    </plurals>
+    <plurals name="playlist_size_downloaded">
+        <item quantity="other">S-au descărcat %1$,d</item>
+        <item quantity="one">S-au descărcat %1$,d</item>
+        <item quantity="few">S-au descărcat %1$,d</item>
+    </plurals>
+    <plurals name="playlist_size_total">
+        <item quantity="other">%1$,d de videoclipuri</item>
+        <item quantity="one">1 videoclip</item>
+        <item quantity="few">%1$,d videoclipuri</item>
+    </plurals>
+    <plurals name="public_notification_text">
+        <item quantity="other">%1$d de notificări noi</item>
+        <item quantity="one">Aveți o notificare</item>
+        <item quantity="few">%1$d notificări noi</item>
+    </plurals>
+    <plurals name="quick_seek_x_second">
+        <item quantity="other">%d de secunde</item>
+        <item quantity="one">%d secundă</item>
+        <item quantity="few">%d secunde</item>
+    </plurals>
+    <plurals name="recommendation_count">
+        <item quantity="other">%1$d de recomandări</item>
+        <item quantity="one">O recomandare</item>
+        <item quantity="few">%1$d recomandări</item>
+    </plurals>
+    <plurals name="rental_expiry_notice">
+        <item quantity="other">După ce ai început redarea, vei avea la dispoziție %1$d de ore pentru a viziona acest videoclip.</item>
+        <item quantity="one">După ce ai început redarea, vei avea la dispoziție o oră pentru a viziona acest videoclip.</item>
+        <item quantity="few">După ce ai început redarea, vei avea la dispoziție %1$d ore pentru a viziona acest videoclip.</item>
+    </plurals>
+    <plurals name="rental_long_days_remaining">
+        <item quantity="other">Expiră peste %1$d de zile</item>
+        <item quantity="one">Expiră peste o zi</item>
+        <item quantity="few">Expiră peste %1$d zile</item>
+    </plurals>
+    <plurals name="rental_long_hours_remaining">
+        <item quantity="other">Expiră peste %1$d de ore</item>
+        <item quantity="one">Expiră peste o oră</item>
+        <item quantity="few">Expiră peste %1$d ore</item>
+    </plurals>
+    <plurals name="rental_long_weeks_remaining">
+        <item quantity="other">Expiră peste %1$d de săptămâni</item>
+        <item quantity="one">Expiră peste o săptămână</item>
+        <item quantity="few">Expiră peste %1$d săptămâni</item>
+    </plurals>
+    <plurals name="rental_medium_days_remaining">
+        <item quantity="other">Expiră peste %1$d de zile</item>
+        <item quantity="one">Expiră peste o zi</item>
+        <item quantity="few">Expiră peste %1$d zile</item>
+    </plurals>
+    <plurals name="rental_medium_hours_remaining">
+        <item quantity="other">Expiră peste %1$d de ore.</item>
+        <item quantity="one">Expiră peste o oră.</item>
+        <item quantity="few">Expiră peste %1$d ore.</item>
+    </plurals>
+    <plurals name="rental_medium_weeks_remaining">
+        <item quantity="other">Expiră peste %1$d de săptămâni.</item>
+        <item quantity="one">Expiră peste o săptămână.</item>
+        <item quantity="few">Expiră peste %1$d săptămâni.</item>
+    </plurals>
+    <plurals name="selected_video_count">
+        <item quantity="other">%1$d de videoclipuri selectate</item>
+        <item quantity="one">un videoclip selectat</item>
+        <item quantity="few">%1$d videoclipuri selectate</item>
+    </plurals>
+    <plurals name="shorts_a11y_duration_seconds">
+        <item quantity="other">%1$s de secunde</item>
+        <item quantity="one">%1$s secundă</item>
+        <item quantity="few">%1$s secunde</item>
+    </plurals>
+    <plurals name="shorts_a11y_timer_duration_seconds">
+        <item quantity="other">Temporizator de %1$d de secunde</item>
+        <item quantity="one">Temporizator de %1$d secundă</item>
+        <item quantity="few">Temporizator de %1$d secunde</item>
+    </plurals>
+    <plurals name="shorts_a11y_timer_started">
+        <item quantity="other">Temporizatorul de %1$d de secunde a fost activat</item>
+        <item quantity="one">Temporizatorul de %1$d secundă a fost activat</item>
+        <item quantity="few">Temporizatorul de %1$d secunde a fost activat</item>
+    </plurals>
+    <plurals name="smart_downloads_future_update_text">
+        <item quantity="other">Descărcările inteligente se vor actualiza automat în %1$d de zile</item>
+        <item quantity="one">Descărcările inteligente se vor actualiza automat peste o zi</item>
+        <item quantity="few">Descărcările inteligente se vor actualiza automat în %1$d zile</item>
+    </plurals>
+    <plurals name="sticker_dialog_title">
+        <item quantity="other">Revino peste %1$d de zile</item>
+        <item quantity="one">Revino peste o zi</item>
+        <item quantity="few">Revino peste %1$d zile</item>
+    </plurals>
+    <plurals name="too_many_external_uploads_error_msg">
+        <item quantity="other">Poți încărca doar câte %1$d de videoclipuri simultan.</item>
+        <item quantity="one">Poți încărca doar câte %1$d videoclip.</item>
+        <item quantity="few">Poți încărca doar câte %1$d videoclipuri simultan.</item>
+    </plurals>
+    <plurals name="transcoding_progress">
+        <item quantity="other">Progres: %1$,d %%</item>
+        <item quantity="one">Progres: %1$,d %%</item>
+        <item quantity="few">Progres: %1$,d %%</item>
+    </plurals>
+    <plurals name="trim_segment_max_length">
+        <item quantity="other">Max. %1$d de secunde</item>
+        <item quantity="one">Max. o secundă</item>
+        <item quantity="few">Max. %1$d secunde</item>
+    </plurals>
+    <plurals name="trim_switch_edu">
+        <item quantity="other">Decupează videoclipul la %1$d de secunde și adaugă muzică</item>
+        <item quantity="one">Decupează videoclipul la o secundă și adaugă muzică</item>
+        <item quantity="few">Decupează videoclipul la %1$d secunde și adaugă muzică</item>
+    </plurals>
+    <plurals name="trim_switch_edu_full_length_shorts">
+        <item quantity="other">Decupează videoclipul la %1$d de secunde sau mai puțin</item>
+        <item quantity="one">Decupează videoclipul la o secundă sau mai puțin</item>
+        <item quantity="few">Decupează videoclipul la %1$d secunde sau mai puțin</item>
+    </plurals>
+    <plurals name="upload_hours_remaing">
+        <item quantity="other">Au mai rămas aproximativ %1$,d de ore</item>
+        <item quantity="one">A mai rămas aproximativ %1$,d oră</item>
+        <item quantity="few">Au mai rămas aproximativ %1$,d ore</item>
+    </plurals>
+    <plurals name="upload_indicator_all_completed">
+        <item quantity="other">S-au încărcat %d de videoclipuri</item>
+        <item quantity="one">Videoclipul s-a încărcat</item>
+        <item quantity="few">S-au încărcat %d videoclipuri</item>
+    </plurals>
+    <plurals name="upload_indicator_all_failed">
+        <item quantity="other">Nu s-a putut încărca niciun videoclip</item>
+        <item quantity="one">Nu s-a putut încărca videoclipul</item>
+        <item quantity="few">Nu s-a putut încărca niciun videoclip</item>
+    </plurals>
+    <plurals name="upload_indicator_all_uploading">
+        <item quantity="other">Se încarcă %d de videoclipuri</item>
+        <item quantity="one">Se încarcă videoclipul</item>
+        <item quantity="few">Se încarcă %d videoclipuri</item>
+    </plurals>
+    <plurals name="upload_indicator_partial_fail">
+        <item quantity="other">Nu s-au putut încărca %1$d de videoclipuri din %2$d</item>
+        <item quantity="one">Nu s-a putut încărca %1$d videoclip din %2$d</item>
+        <item quantity="few">Nu s-au putut încărca %1$d videoclipuri din %2$d</item>
+    </plurals>
+    <plurals name="upload_indicator_uploading_and_completed_completed_part">
+        <item quantity="other">S-au încărcat %d de videoclipuri</item>
+        <item quantity="one">S-a încărcat %d videoclip</item>
+        <item quantity="few">S-au încărcat %d videoclipuri</item>
+    </plurals>
+    <plurals name="upload_indicator_uploading_and_completed_uploading_part">
+        <item quantity="other">Încă se încarcă %d de videoclipuri</item>
+        <item quantity="one">Încă se încarcă %d videoclip</item>
+        <item quantity="few">Încă se încarcă %d videoclipuri</item>
+    </plurals>
+    <plurals name="upload_minutes_remaing">
+        <item quantity="other">Au mai rămas aproximativ %1$,d de minute</item>
+        <item quantity="one">A mai rămas aproximativ %1$,d minut</item>
+        <item quantity="few">Au mai rămas aproximativ %1$,d minute</item>
+    </plurals>
+    <plurals name="upload_notification_active_progress">
+        <item quantity="other">Se încarcă %1$d din %2$d videoclipuri</item>
+        <item quantity="one">Se încarcă un videoclip</item>
+        <item quantity="few">Se încarcă %1$d din %2$d videoclipuri</item>
+    </plurals>
+    <plurals name="upload_progress">
+        <item quantity="other">%1$,d %% încărcat</item>
+        <item quantity="one">%1$,d %% încărcat</item>
+        <item quantity="few">%1$,d %% încărcat</item>
+    </plurals>
+    <plurals name="upload_seconds_remaing">
+        <item quantity="other">Au mai rămas aproximativ %1$,d de secunde</item>
+        <item quantity="one">A mai rămas aproximativ %1$,d secundă</item>
+        <item quantity="few">Au mai rămas aproximativ %1$,d secunde</item>
+    </plurals>
+    <plurals name="uploads_failed">
+        <item quantity="other">Nu s-au încărcat %1$,d</item>
+        <item quantity="one">Nu s-a încărcat</item>
+        <item quantity="few">Nu s-au încărcat %1$,d</item>
+    </plurals>
+    <plurals name="uploads_failed_with_in_progress_videos">
+        <item quantity="other">Nu s-au încărcat %1$,d / %2$,d</item>
+        <item quantity="one">Nu s-au încărcat %1$,d / %2$,d</item>
+        <item quantity="few">Nu s-au încărcat %1$,d / %2$,d</item>
+    </plurals>
+    <plurals name="uploads_in_progress">
+        <item quantity="other">Se încarcă %1$,d</item>
+        <item quantity="one">Se încarcă %1$,d</item>
+        <item quantity="few">Se încarcă %1$,d</item>
+    </plurals>
+    <plurals name="user_education_quick_seek">
+        <item quantity="other">Atinge de două ori în stânga sau în dreapta pentru a derula cu %d de secunde.</item>
+        <item quantity="one">Atinge de două ori în stânga sau în dreapta pentru a derula cu %d secundă.</item>
+        <item quantity="few">Atinge de două ori în stânga sau în dreapta pentru a derula cu %d secunde.</item>
+    </plurals>
+    <plurals name="video_count">
+        <item quantity="other">%1$d de videoclipuri</item>
+        <item quantity="one">Un videoclip</item>
+        <item quantity="few">%1$d videoclipuri</item>
+    </plurals>
+</resources>

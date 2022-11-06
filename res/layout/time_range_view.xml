@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:yt="http://schemas.android.com/apk/res-auto">
+    <ViewStub android:id="@id/lower_bound_view_stub" android:layout="@layout/bedtime_dialog_time_entry" android:inflatedId="@id/lower_bound_view_stub" android:layout_width="fill_parent" android:layout_height="42.0sp" />
+    <ViewStub android:id="@id/upper_bound_view_stub" android:layout="@layout/bedtime_dialog_time_entry" android:inflatedId="@id/upper_bound_view_stub" android:layout_width="fill_parent" android:layout_height="42.0sp" />
+</LinearLayout>

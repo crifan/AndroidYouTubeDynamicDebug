@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="?ytGeneralBackgroundA" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/share_panel_bottom_sheet_shadow_negative_height" android:elevation="8.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/select_message_shadow" android:background="?ytStaticWhite" android:layout_width="wrap_content" android:layout_height="@dimen/share_panel_bottom_sheet_shadow_height" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:paddingTop="@dimen/share_panel_list_spacing" android:paddingBottom="@dimen/share_panel_list_spacing" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/share_panel_bottom_sheet_shadow_height">
+        <ImageView android:id="@id/icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="19.0dip" android:layout_marginRight="19.0dip" android:src="@drawable/quantum_ic_person_add_grey600_18" android:scaleType="center" />
+        <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:textAppearance="?textAppearanceCaption" android:textColor="?ytTextSecondary" android:id="@id/select_message" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginEnd="16.0dip" />
+    </LinearLayout>
+</FrameLayout>

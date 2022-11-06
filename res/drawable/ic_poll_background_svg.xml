@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="561.0dip" android:width="626.0dip" android:viewportWidth="626.0" android:viewportHeight="561.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <group>
+        <clip-path android:pathData="M -11.8 -36.6 L 627.8 -36.6 L 633 586.2 L -11.8 593.4 L -17 -29.4 M -30 -150" />
+        <group>
+            <group>
+                <clip-path android:pathData="M -23.5 -249 L 777.3 -249 L 777.3 742.8 L -23.5 742.8 Z M -30 -150" />
+                <group>
+                    <group>
+                        <clip-path android:pathData="M -17 -36.6 L 633 -36.6 L 633 593.4 L -17 593.4 Z M -30 -150" />
+                        <path android:fillColor="#ff224072" android:pathData="M -23.5 -45.6 L 639.5 -45.6 L 639.5 602.4 L -23.5 602.4 Z" android:strokeWidth="1.3" />
+                    </group>
+                </group>
+            </group>
+            <group>
+                <clip-path android:pathData="M -23.5 -249 L 777.3 -249 L 777.3 742.8 L -23.5 742.8 Z M -30 -150" />
+                <group>
+                    <group>
+                        <clip-path android:pathData="M 777.3 -249 L 777.3 507 L 231.3 129 L 777.287 -249 L 777.3 -249 Z M -30 -150" />
+                        <group>
+                            <group>
+                                <clip-path android:pathData="M -17 -36.6 L 633 -36.6 L 633 593.4 L -17 593.4 Z M -30 -150" />
+                                <path android:fillColor="#ff1a3158" android:pathData="M 224.8 -258 L 783.8 -258 L 783.8 516 L 224.8 516 Z" android:strokeWidth="1.3" />
+                            </group>
+                        </group>
+                    </group>
+                </group>
+            </group>
+            <group>
+                <clip-path android:pathData="M -23.5 -249 L 777.3 -249 L 777.3 742.8 L -23.5 742.8 Z M -30 -150" />
+                <group>
+                    <group>
+                        <clip-path android:pathData="M -23.5 -47.4 L -23.5 742.8 L 547.2 347.7 L -23.487 -47.4 L -23.5 -47.4 Z M -30 -150" />
+                        <group>
+                            <group>
+                                <clip-path android:pathData="M -17 -36.6 L 633 -36.6 L 633 593.4 L -17 593.4 Z M -30 -150" />
+                                <path android:fillColor="#ff1e3966" android:pathData="M -30 -56.4 L 553.7 -56.4 L 553.7 751.8 L -30 751.8 Z" android:strokeWidth="1.3" />
+                            </group>
+                        </group>
+                    </group>
+                </group>
+            </group>
+        </group>
+    </group>
+</vector>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.apps.youtube.app.common.rendering.SnappyRecyclerView android:id="@id/carousel_items" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:layout_gravity="end|center|top" android:id="@id/dismiss_button" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="24.0dip" android:src="@drawable/quantum_ic_close_white_24" android:contentDescription="@string/playback_control_close" android:layout_marginEnd="24.0dip" />
+    <View android:layout_gravity="bottom|center" android:id="@id/divider" android:background="@color/carousel_divider_color" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    <com.google.android.apps.youtube.app.common.widget.ActiveItemIndicatorView android:id="@id/active_item_indicator" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/promo_panel_text_layout_top_bottom_margin" android:layout_marginEnd="@dimen/promo_panel_text_layout_start_end_margin" />
+    <LinearLayout android:layout_gravity="end|bottom|center" android:orientation="horizontal" android:id="@id/pagination_thumbnails" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/promo_panel_text_layout_top_bottom_margin" android:layout_marginEnd="@dimen/promo_panel_text_layout_start_end_margin" />
+</FrameLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.libraries.youtube.common.ui.preferences.ProtoDataStoreSwitchPreference android:title="@string/data_saving_mode_switch_title" android:key="data_saving_mode_key" android:summary="@string/data_saving_mode_switch_description" android:defaultValue="false" app:iconSpaceReserved="false" />
+    <PreferenceCategory android:title="@string/data_saving_default_setting_category_title" android:key="data_saving_default_setting_category" app:iconSpaceReserved="false">
+        <com.google.android.libraries.youtube.common.ui.preferences.ProtoDataStoreSwitchPreference android:title="@string/data_saving_video_quality_switch_title" android:key="data_saving_pref_video_quality_key" android:defaultValue="false" app:iconSpaceReserved="false" />
+        <com.google.android.libraries.youtube.common.ui.preferences.ProtoDataStoreSwitchPreference android:title="@string/data_saving_download_quality_switch_title" android:key="data_saving_pref_download_quality_key" android:defaultValue="false" app:iconSpaceReserved="false" />
+        <com.google.android.libraries.youtube.common.ui.preferences.ProtoDataStoreSwitchPreference android:title="@string/data_saving_download_wifi_only_switch_title" android:key="data_saving_pref_download_wifi_only_key" android:defaultValue="false" app:iconSpaceReserved="false" />
+        <com.google.android.libraries.youtube.common.ui.preferences.ProtoDataStoreSwitchPreference android:title="@string/data_saving_upload_wifi_only_switch_title" android:key="data_saving_pref_upload_wifi_only_key" android:defaultValue="false" app:iconSpaceReserved="false" />
+        <com.google.android.libraries.youtube.common.ui.preferences.ProtoDataStoreSwitchPreference android:title="@string/data_saving_imp_wifi_only_switch_title" android:key="data_saving_imp_wifi_only_key" android:defaultValue="false" app:iconSpaceReserved="false" />
+    </PreferenceCategory>
+</PreferenceScreen>

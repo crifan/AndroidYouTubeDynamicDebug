@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<View android:id="@id/new_content_dot" android:background="@drawable/new_content_dot_background" android:layout_width="@dimen/new_content_dot_size" android:layout_height="@dimen/new_content_dot_size" android:contentDescription="@string/accessibility_new_content_available"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

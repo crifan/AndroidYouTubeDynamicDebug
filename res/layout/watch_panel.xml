@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:id="@id/watch_panel" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:yt="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.google.android.libraries.youtube.rendering.ui.widget.loadingframe.LoadingFrameLayout android:id="@id/video_info_loading_layout" android:background="?ytBrandBackgroundSolid" android:layout_width="fill_parent" android:layout_height="fill_parent" yt:progressViewLayout="@layout/video_info_loading_preview">
+            <com.google.android.apps.youtube.app.common.ui.stickyheaders.StickyHeaderContainer android:id="@id/sticky_header_container" android:layout_width="fill_parent" android:layout_height="fill_parent" yt:stickyHeaderRecyclerView="@layout/watch_list" />
+        </com.google.android.libraries.youtube.rendering.ui.widget.loadingframe.LoadingFrameLayout>
+        <View android:id="@id/scrim" android:background="?ytOverlayBackgroundSolid" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <FrameLayout android:layout_gravity="bottom" android:id="@id/playlist_entry_point_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:foreground="@drawable/playlist_entry_point_touch_feedback">
+            <ViewStub android:id="@id/playlist_entry_point_stub" android:layout="@layout/playlist_entry_point" android:layout_width="fill_parent" android:layout_height="@dimen/watch_panel_playlist_entry_point_height" />
+        </FrameLayout>
+        <include android:id="@id/set_content" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/watch_panel_playlist_header_height" layout="@layout/set_list" />
+        <include android:layout_gravity="top" android:id="@id/set_bar" android:layout_width="fill_parent" android:layout_height="@dimen/watch_panel_playlist_header_height" layout="@layout/set_bar" />
+        <ViewStub android:id="@id/info_cards_drawer" android:layout="@layout/watch_next_info_card_drawer" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </FrameLayout>
+    <View android:id="@id/scrim_for_mdx_expanded_queue" android:background="?ytOverlayBackgroundMedium" android:focusable="true" android:visibility="gone" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

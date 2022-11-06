@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:yt="http://schemas.android.com/apk/res-auto">
+    <ViewStub android:id="@id/icon_badge" android:padding="@dimen/mobile_topbar_item_padding" android:inflatedId="@id/icon_badge" android:layout_width="@dimen/mobile_topbar_button_width" android:layout_height="@dimen/mobile_topbar_button_height" android:scaleType="centerInside" android:contentDescription="@null" yt:layout_constraintBottom_toTopOf="parent" yt:layout_constraintEnd_toEndOf="parent" yt:layout_constraintStart_toStartOf="parent" yt:layout_constraintTop_toBottomOf="parent" />
+</FrameLayout>

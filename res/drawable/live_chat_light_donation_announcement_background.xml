@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<inset android:insetLeft="@dimen/live_chat_donation_announcement_background_horizontal_inset" android:insetRight="@dimen/live_chat_donation_announcement_background_horizontal_inset" android:insetTop="@dimen/live_chat_donation_announcement_background_vertical_inset" android:insetBottom="@dimen/live_chat_donation_announcement_background_vertical_inset"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <shape android:shape="rectangle">
+        <solid android:color="@color/yt_black_pure_opacity10" />
+        <corners android:radius="@dimen/live_chat_donation_announcement_background_corner_radius" />
+    </shape>
+</inset>

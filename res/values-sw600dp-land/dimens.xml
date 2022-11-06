@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="dimen" name="big_video_card_width_percent">0.375</item>
+    <dimen name="compact_offer_module_subtitle_font_size">18.0sp</dimen>
+    <dimen name="compact_offer_module_title_font_size">20.0sp</dimen>
+    <dimen name="feed_item_thumbnail_width">262.0dip</dimen>
+    <dimen name="launchscreens_product_logo_bottom">72.0dip</dimen>
+    <dimen name="lc_post_stream_next_button_margin_bottom">0.0dip</dimen>
+    <dimen name="lc_post_stream_next_button_width">600.0dip</dimen>
+    <dimen name="lc_post_stream_privacy_notice_margin">16.0dip</dimen>
+    <dimen name="lc_post_stream_scroll_view_padding_bottom">68.0dip</dimen>
+    <dimen name="lc_post_stream_scroll_view_width">600.0dip</dimen>
+    <dimen name="lc_screencast_thumbnail_horizontal_margin">24.0dip</dimen>
+    <dimen name="lc_screencast_thumbnail_preview_height">324.0dip</dimen>
+    <dimen name="lc_screencast_thumbnail_preview_width">576.0dip</dimen>
+    <dimen name="margin_end">12.0dip</dimen>
+    <dimen name="margin_start">12.0dip</dimen>
+    <dimen name="new_version_available_activity_youtube_logo_height">276.0dip</dimen>
+    <dimen name="new_version_available_activity_youtube_logo_width">276.0dip</dimen>
+    <dimen name="offline_video_item_thumbnail_width">192.0dip</dimen>
+    <dimen name="onboarding_interstitial_promo_body_min_height">68.0dip</dimen>
+    <dimen name="onboarding_interstitial_promo_body_text_size">22.0sp</dimen>
+    <dimen name="onboarding_interstitial_promo_scrollview_bottom_margin">100.0dip</dimen>
+    <dimen name="onboarding_interstitial_promo_title_text_size">28.0sp</dimen>
+    <dimen name="unlimited_header_description_margin">24.0dip</dimen>
+    <dimen name="unlimited_header_logo_margin">16.0dip</dimen>
+    <dimen name="unlimited_header_text_margin">24.0dip</dimen>
+</resources>

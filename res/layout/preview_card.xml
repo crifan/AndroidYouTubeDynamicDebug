@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginTop="16.0dip" android:layout_marginBottom="16.0dip" android:foreground="?android:selectableItemBackground" card_view:cardBackgroundColor="?ytBrandBackgroundSolid" card_view:cardCornerRadius="2.0dip" card_view:cardElevation="0.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:card_view="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/card_layout" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="horizontal" android:id="@id/preview_videos" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="12.0dip" android:paddingEnd="12.0dip" />
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

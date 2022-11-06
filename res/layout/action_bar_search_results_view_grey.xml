@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="@style/ThemeOverlay.YouTube.ActionBar.Title.Search" android:textSize="@dimen/medium_font_size" android:gravity="start|center" android:id="@id/search_query" android:layout_width="0.0dip" android:layout_height="fill_parent" android:singleLine="true" android:layout_weight="1.0" android:textAlignment="viewStart" android:paddingStart="8.0dip" />
+    <android.support.v7.widget.AppCompatImageView android:layout_gravity="end|center" android:id="@id/search_clear" android:background="?actionBarItemBackground" android:padding="16.0dip" android:layout_width="48.0dip" android:layout_height="48.0dip" android:src="@drawable/yt_outline_x_black_18" android:scaleType="center" android:tint="?ytTextPrimary" android:contentDescription="@string/action_bar_search_clear" android:layout_marginEnd="-8.0dip" />
+</LinearLayout>

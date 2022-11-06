@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.apps.youtube.app.common.player.overlay.InlineTimeBarWrapper android:id="@id/floaty_bar_time_bar_view" android:layout_width="fill_parent" android:layout_height="fill_parent" yt:timeBarHeight="@dimen/floaty_inline_time_bar_size"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:yt="http://schemas.android.com/apk/res-auto" />

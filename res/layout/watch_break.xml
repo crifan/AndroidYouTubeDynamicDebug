@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:layout_gravity="center_horizontal" android:orientation="vertical" android:padding="16.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:importantForAccessibility="no"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:yt="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/reminder_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="@null" />
+    <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:textAppearance="?textAppearanceTitle" android:id="@id/heading" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:textAlignment="center" />
+    <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:textAppearance="?textAppearanceBody1" android:id="@id/notice" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:lineSpacingMultiplier="1.2" android:textAlignment="center" yt:hyperlinksClickable="true" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="18.0dip">
+        <Button android:textColor="?ytCallToAction" android:id="@id/secondary_button" android:background="?selectableItemBackground" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="8.0dip" style="@style/WatchBreakButton" />
+        <android.support.v7.widget.AppCompatButton android:textColor="?ytTextPrimaryInverse" android:id="@id/primary_button" android:background="@drawable/button_white_background" android:layout_width="wrap_content" android:layout_height="wrap_content" android:backgroundTint="?ytCallToAction" style="@style/WatchBreakButton" />
+    </LinearLayout>
+</LinearLayout>

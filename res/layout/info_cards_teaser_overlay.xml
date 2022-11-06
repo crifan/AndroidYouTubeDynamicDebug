@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:gravity="end" android:id="@id/info_card_teaser_overlay" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_gravity="end" android:id="@id/info_card_teaser_wrapper" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <FrameLayout android:layout_gravity="end" android:id="@id/info_card_teaser_content" android:layout_width="wrap_content" android:layout_height="@dimen/info_card_teaser_height" android:layout_marginLeft="8.0dip" android:layout_marginTop="8.0dip" android:layout_marginRight="8.0dip" android:alpha="0.9" android:layout_marginStart="8.0dip" android:layout_marginEnd="8.0dip">
+            <FrameLayout android:id="@id/info_card_teaser_background" android:background="@drawable/info_card_teaser_background" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            <TextView android:textColor="@color/info_card_teaser_foreground" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/info_card_teaser_message" android:background="?selectableItemBackground" android:paddingLeft="12.0dip" android:paddingRight="46.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:maxWidth="478.0dip" android:singleLine="true" android:textAlignment="viewStart" android:paddingStart="12.0dip" android:paddingEnd="46.0dip" />
+        </FrameLayout>
+        <com.google.android.libraries.youtube.common.ui.TouchImageView android:layout_gravity="end" android:id="@id/info_card_teaser_icon" android:layout_width="@dimen/info_card_controls_overlay_action_button_size" android:layout_height="@dimen/info_card_controls_overlay_action_button_size" android:src="@drawable/info_card_teaser_icon" android:scaleType="center" android:layout_weight="1.0" />
+    </FrameLayout>
+</FrameLayout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="@color/shorts_camera_gallery_waiting_icon_fill_color" />
+            <corners android:radius="@dimen/shorts_camera_gallery_waiting_icon_border_corner_radius" />
+        </shape>
+    </item>
+    <item>
+        <vector android:height="@dimen/shorts_camera_bottom_button_layout_size" android:width="@dimen/shorts_camera_bottom_button_layout_size" android:viewportWidth="40.0" android:viewportHeight="40.0"
+          xmlns:android="http://schemas.android.com/apk/res/android">
+            <path android:fillColor="@color/shorts_camera_gallery_waiting_icon_stroke_color" android:pathData="M35,2H5C3.3431,2 2,3.3431 2,5V35C2,35.2729 2.0364,35.5372 2.1047,35.7884L12.2248,23.3683C12.4035,23.149 12.6667,23.0157 12.9492,23.0013C13.2317,22.9869 13.5071,23.0929 13.7071,23.2929L18.8796,28.4654L26.1913,18.4118C26.373,18.162 26.6599,18.0101 26.9687,18.0005C27.2775,17.9908 27.5734,18.1244 27.7704,18.3624L38,30.7232V5C38,3.3431 36.6569,2 35,2ZM38,33.8601L27.051,20.6301L19.8087,30.5882C19.6367,30.8247 19.3698,30.9741 19.0782,30.9969C18.7867,31.0198 18.4997,30.9139 18.2929,30.7071L13.0758,25.49L3.3081,37.4777C3.7897,37.8073 4.3724,38 5,38H35C36.6569,38 38,36.6569 38,35V33.8601ZM5,0C2.2386,0 0,2.2386 0,5V35C0,37.7614 2.2386,40 5,40H35C37.7614,40 40,37.7614 40,35V5C40,2.2386 37.7614,0 35,0H5ZM13,16C14.6569,16 16,14.6569 16,13C16,11.3431 14.6569,10 13,10C11.3431,10 10,11.3431 10,13C10,14.6569 11.3431,16 13,16ZM13,18C15.7614,18 18,15.7614 18,13C18,10.2386 15.7614,8 13,8C10.2386,8 8,10.2386 8,13C8,15.7614 10.2386,18 13,18Z" android:fillType="evenOdd" />
+        </vector>
+    </item>
+</layer-list>

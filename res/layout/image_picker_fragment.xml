@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:yt="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/gallery_dismiss_button" android:background="@color/yt_black_pure" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/image_gallery_dismiss_button_height" android:src="@drawable/quantum_ic_keyboard_arrow_down_white_24" android:scaleType="center" android:contentDescription="@string/accessibility_close_dialog" />
+    <com.google.android.material.appbar.AppBarLayout android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/CompatElevationZ4">
+        <android.support.v7.widget.Toolbar android:theme="?callToActionButtonActionBarTheme" android:id="@id/toolbar" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="?actionBarSize" yt:navigationIcon="@drawable/quantum_ic_arrow_back_white_24" />
+    </com.google.android.material.appbar.AppBarLayout>
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.google.android.libraries.youtube.comment.image.ImageGridRecyclerView android:scrollbarStyle="insideOverlay" android:id="@id/image_grid_recycler_view" android:paddingTop="@dimen/image_gallery_thumbnail_margin" android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <ViewStub android:id="@id/zero_state_stub" android:layout="@layout/image_gallery_zero_state" android:inflatedId="@id/zero_state" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </FrameLayout>
+</LinearLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/yt_black_pure_opacity80" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:yt="http://schemas.android.com/apk/res-auto">
+    <com.google.android.libraries.youtube.common.ui.FixedAspectRatioRelativeLayout android:id="@id/related_video_fixed_aspect_ratio_layout" android:paddingTop="24.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerInParent="true" yt:aspectRatio="@fraction/peeking_aspect_ratio" />
+    <TextView android:textSize="@dimen/small_font_size" android:textColor="#ffffffff" android:ellipsize="end" android:id="@id/related_overlay_title" android:paddingTop="16.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/show_more_videos" android:paddingStart="16.0dip" android:paddingEnd="16.0dip" android:layout_alignParentStart="true" />
+    <com.google.android.libraries.youtube.common.ui.TouchImageView android:id="@id/exit_related_page_button" android:padding="12.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/quantum_ic_close_white_24" android:layout_alignParentTop="true" android:contentDescription="@string/accessibility_hide_relateds" android:layout_alignParentEnd="true" />
+</RelativeLayout>

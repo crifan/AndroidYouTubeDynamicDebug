@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="rectangle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@color/shorts_record_button_pulsing_outer_ring_color" />
+    <corners android:radius="@dimen/shorts_record_button_inner_circle_corner_radius_for_circle" />
+</shape>

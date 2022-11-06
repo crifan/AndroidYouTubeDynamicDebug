@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/bottom_gradient_overlay" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:yt="http://schemas.android.com/apk/res-auto">
+    <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:textAppearance="?textAppearanceBody1Inverse" android:textColor="@color/yt_white1" android:layout_gravity="start|bottom|center" android:id="@id/text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_marginRight="8.0dip" android:layout_marginBottom="12.0dip" android:layout_marginStart="8.0dip" android:layout_marginEnd="8.0dip" yt:robotoFont="regular" />
+    <View android:background="@drawable/bg_video_thumb_gradient" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</FrameLayout>

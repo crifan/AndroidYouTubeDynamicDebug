@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_gravity="bottom|center" android:id="@id/trash_container" android:paddingTop="@dimen/trash_icon_padding_top" android:paddingBottom="@dimen/trash_icon_padding_bottom" android:visibility="invisible" android:layout_width="@dimen/trash_icon_bg_enabled_size" android:layout_height="@dimen/trash_icon_bg_enabled_size" android:paddingStart="@dimen/trash_icon_padding_start_end" android:paddingEnd="@dimen/trash_icon_padding_start_end"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:layout_gravity="center" android:id="@id/trash_bg" android:background="@drawable/reel_trash_icon_transition" android:layout_width="@dimen/trash_icon_bg_disabled_size" android:layout_height="@dimen/trash_icon_bg_disabled_size" />
+    <ImageView android:layout_gravity="center" android:id="@id/trash_icon" android:layout_width="@dimen/trash_icon_size" android:layout_height="@dimen/trash_icon_size" android:contentDescription="@null" />
+</FrameLayout>

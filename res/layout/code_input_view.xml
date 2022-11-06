@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:weightSum="7.5"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/digit_one_container" layout="@layout/code_input_view_digit" />
+    <View android:layout_width="@dimen/av_empty_dimen_for_weight" android:layout_height="@dimen/av_min_placeholder_view_height" android:layout_weight="0.3" />
+    <include android:id="@id/digit_two_container" layout="@layout/code_input_view_digit" />
+    <View android:layout_width="@dimen/av_empty_dimen_for_weight" android:layout_height="@dimen/av_min_placeholder_view_height" android:layout_weight="0.3" />
+    <include android:id="@id/digit_three_container" layout="@layout/code_input_view_digit" />
+    <View android:layout_width="@dimen/av_empty_dimen_for_weight" android:layout_height="@dimen/av_min_placeholder_view_height" android:layout_weight="0.3" />
+    <include android:id="@id/digit_four_container" layout="@layout/code_input_view_digit" />
+    <View android:layout_width="@dimen/av_empty_dimen_for_weight" android:layout_height="@dimen/av_min_placeholder_view_height" android:layout_weight="0.3" />
+    <include android:id="@id/digit_five_container" layout="@layout/code_input_view_digit" />
+    <View android:layout_width="@dimen/av_empty_dimen_for_weight" android:layout_height="@dimen/av_min_placeholder_view_height" android:layout_weight="0.3" />
+    <include android:id="@id/digit_six_container" layout="@layout/code_input_view_digit" />
+</LinearLayout>

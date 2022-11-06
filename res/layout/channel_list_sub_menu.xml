@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:baselineAligned="false" android:minHeight="@dimen/channel_list_sub_menu_height_small"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_gravity="center_vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <android.support.v7.widget.RecyclerView android:id="@id/channels_list" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/channel_list_sub_menu_horizontal_margin" />
+        <View android:layout_gravity="end|center" android:id="@id/gradient_overlay" android:background="@drawable/channel_list_sub_menu_scroll_gradient" android:layout_width="@dimen/channel_list_sub_menu_scroll_gradient_width" android:layout_height="fill_parent" />
+    </FrameLayout>
+    <FrameLayout android:id="@id/channels_navigation_layout" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/show_channels" android:background="?selectableItemBackground" android:layout_width="@dimen/channel_list_sub_menu_arrow_size_width" android:layout_height="@dimen/channel_list_sub_menu_height_small" android:src="@drawable/ic_channels_arrow" android:scaleType="centerInside" android:contentDescription="@string/accessibility_show_channels" android:paddingStart="@dimen/channel_list_sub_menu_horizontal_margin" android:paddingEnd="@dimen/channel_list_sub_menu_horizontal_margin" />
+        <include android:layout_gravity="center_vertical" android:id="@id/channels_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/channel_list_sub_menu_channels_button_side_margin" android:layout_marginEnd="@dimen/channel_list_sub_menu_channels_button_side_margin" layout="@layout/button" />
+    </FrameLayout>
+</LinearLayout>

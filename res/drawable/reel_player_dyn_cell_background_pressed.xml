@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ripple android:shape="oval" android:color="@color/yt_white1_opacity10"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:gravity="center_horizontal" android:id="@android:id/background" android:height="@dimen/reel_player_right_dyn_bar_width" android:width="@dimen/reel_player_right_dyn_bar_width">
+        <shape android:shape="oval">
+            <solid android:color="@color/yt_white1_opacity10" />
+        </shape>
+    </item>
+</ripple>

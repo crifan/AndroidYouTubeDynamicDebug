@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <bitmap android:gravity="center|right" android:src="@drawable/yt_outline_chevron_down_black_24" android:tint="?ytTextPrimary" />
+    </item>
+</selector>

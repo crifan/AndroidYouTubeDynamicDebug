@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="top" android:orientation="horizontal" android:paddingTop="16.0dip" android:paddingBottom="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:baselineAligned="false" android:paddingStart="16.0dip" android:paddingEnd="16.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:yt="http://schemas.android.com/apk/res-auto">
+    <View android:id="@id/title" android:background="?ghostCardBackground" android:layout_width="fill_parent" android:layout_height="16.0dip" android:layout_alignParentEnd="true" />
+    <View android:id="@id/line1" android:background="?ghostCardBackground" android:layout_width="300.0dip" android:layout_height="16.0dip" android:layout_marginTop="8.0dip" android:layout_below="@id/title" />
+    <View android:id="@id/line2" android:background="?ghostCardBackground" android:layout_width="120.0dip" android:layout_height="16.0dip" android:layout_marginTop="8.0dip" android:layout_below="@id/line1" />
+</RelativeLayout>

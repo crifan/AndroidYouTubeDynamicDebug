@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set android:ordering="sequentially"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <set android:ordering="together">
+        <objectAnimator android:duration="133" android:valueFrom="@dimen/video_zoom_snap_flash_title_scale" android:valueTo="1" android:valueType="floatType" android:propertyName="scaleX" />
+        <objectAnimator android:duration="133" android:valueFrom="@dimen/video_zoom_snap_flash_title_scale" android:valueTo="1" android:valueType="floatType" android:propertyName="scaleY" />
+        <objectAnimator android:duration="133" android:valueFrom="0" android:valueTo="1" android:valueType="floatType" android:propertyName="alpha" />
+    </set>
+    <objectAnimator android:duration="133" android:startOffset="1500" android:valueFrom="1" android:valueTo="0" android:valueType="floatType" android:propertyName="alpha" />
+</set>

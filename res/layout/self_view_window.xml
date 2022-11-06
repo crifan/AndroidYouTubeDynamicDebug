@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="@dimen/screencast_controls_max_self_view_size" android:layout_height="@dimen/screencast_controls_max_self_view_size"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/preview_container" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:id="@id/default_avatar_view" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/quantum_logo_avatar_circle_blue_color_144" android:contentDescription="@string/screencast_self_view_description" android:alpha="@dimen/screencast_controls_self_view_alpha" />
+        <TextureView android:id="@id/camera_preview_texture" android:layout_width="fill_parent" android:layout_height="fill_parent" android:contentDescription="@string/screencast_self_cam_description" android:alpha="@dimen/screencast_controls_self_view_alpha" />
+        <View android:id="@id/preview_starting_background" android:background="@color/screencast_preview_camera_starting_color" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:importantForAccessibility="no" />
+        <View android:id="@id/volume_anchor" android:layout_width="fill_parent" android:layout_height="@dimen/screencast_volume_margin" android:layout_centerVertical="true" android:importantForAccessibility="no" />
+        <com.google.android.libraries.youtube.livecreation.screencast.controls.VolumeIndicatorView android:id="@id/volume_indicator" android:layout_width="fill_parent" android:layout_height="@dimen/screencast_controls_volume_height" android:layout_marginLeft="@dimen/screencast_controls_volume_padding_sides" android:layout_marginRight="@dimen/screencast_controls_volume_padding_sides" android:layout_below="@id/volume_anchor" android:layout_centerHorizontal="true" android:importantForAccessibility="no" />
+        <View android:id="@id/preview_overlay" android:background="@drawable/self_preview_overlay" android:layout_width="fill_parent" android:layout_height="fill_parent" android:importantForAccessibility="no" />
+    </RelativeLayout>
+    <ImageView android:id="@id/preview_outline" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/self_view_outline_inactive" android:scaleType="fitCenter" android:layout_centerInParent="true" android:contentDescription="@null" />
+</RelativeLayout>

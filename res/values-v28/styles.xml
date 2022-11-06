@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Base.Theme.AppCompat" parent="@style/Base.V28.Theme.AppCompat" />
+    <style name="Base.Theme.AppCompat.Light" parent="@style/Base.V28.Theme.AppCompat.Light" />
+    <style name="Base.V14.ThemeOverlay.GoogleMaterial.MaterialAlertDialog" parent="@style/ThemeOverlay.MaterialComponents.MaterialAlertDialog">
+        <item name="android:backgroundDimAmount">0.6</item>
+        <item name="android:checkedTextViewStyle">@style/Widget.GoogleMaterial.CheckedTextView</item>
+        <item name="android:dialogCornerRadius">@dimen/google_dialog_corner_radius</item>
+        <item name="alertDialogStyle">@style/MaterialAlertDialog.GoogleMaterial</item>
+        <item name="buttonBarButtonStyle">@style/Widget.GoogleMaterial.Button.TextButton.Dialog</item>
+        <item name="buttonBarNegativeButtonStyle">@style/Widget.GoogleMaterial.Button.TextButton.Dialog</item>
+        <item name="buttonBarNeutralButtonStyle">@style/Widget.GoogleMaterial.Button.TextButton.Dialog.Flush</item>
+        <item name="buttonBarPositiveButtonStyle">@style/Widget.GoogleMaterial.Button.TextButton.Dialog</item>
+        <item name="materialAlertDialogBodyTextStyle">@style/MaterialAlertDialog.GoogleMaterial.Body.Text</item>
+        <item name="materialAlertDialogTitleTextStyle">@style/MaterialAlertDialog.GoogleMaterial.Title.Text</item>
+    </style>
+    <style name="Base.V14.ThemeOverlay.MaterialComponents.MaterialAlertDialog" parent="@style/ThemeOverlay.AppCompat.Dialog.Alert">
+        <item name="android:backgroundDimAmount">0.32</item>
+        <item name="android:checkedTextViewStyle">@style/Widget.MaterialComponents.CheckedTextView</item>
+        <item name="android:dialogCornerRadius">@null</item>
+        <item name="alertDialogStyle">@style/MaterialAlertDialog.MaterialComponents</item>
+        <item name="buttonBarButtonStyle">@style/Widget.MaterialComponents.Button.TextButton.Dialog</item>
+        <item name="buttonBarNegativeButtonStyle">@style/Widget.MaterialComponents.Button.TextButton.Dialog</item>
+        <item name="buttonBarNeutralButtonStyle">@style/Widget.MaterialComponents.Button.TextButton.Dialog.Flush</item>
+        <item name="buttonBarPositiveButtonStyle">@style/Widget.MaterialComponents.Button.TextButton.Dialog</item>
+        <item name="materialAlertDialogBodyTextStyle">@style/MaterialAlertDialog.MaterialComponents.Body.Text</item>
+        <item name="materialAlertDialogButtonSpacerVisibility">@integer/mtrl_view_invisible</item>
+    </style>
+    <style name="CreationEntryDialog" parent="@style/Theme.YouTube.Light.Dialog">
+        <item name="android:windowBackground">?ytBrandBackgroundSolid</item>
+        <item name="android:windowAnimationStyle">@style/CreationEntryDialogAnimation</item>
+        <item name="android:windowLayoutInDisplayCutoutMode">never</item>
+    </style>
+    <style name="SucPartnerCustomizationButton.Primary" parent="@android:style/Widget.Material.Button.Colored">
+        <item name="android:theme">@style/SucPartnerCustomizationButton.Primary</item>
+        <item name="android:buttonStyle">@style/SucPartnerCustomizationButton.Primary</item>
+        <item name="android:paddingLeft">?sucFooterButtonPaddingStart</item>
+        <item name="android:paddingRight">?sucFooterButtonPaddingEnd</item>
+        <item name="android:textAllCaps">?sucFooterBarButtonAllCaps</item>
+        <item name="android:fontFamily">?sucFooterBarButtonFontFamily</item>
+        <item name="android:paddingStart">?sucFooterButtonPaddingStart</item>
+        <item name="android:paddingEnd">?sucFooterButtonPaddingEnd</item>
+        <item name="android:stateListAnimator">@null</item>
+        <item name="android:buttonCornerRadius">?sucFooterBarButtonCornerRadius</item>
+    </style>
+    <style name="SucPartnerCustomizationButton.Secondary" parent="@android:style/Widget.Material.Button.Borderless.Colored">
+        <item name="android:theme">@style/SucPartnerCustomizationButton.Secondary</item>
+        <item name="android:buttonStyle">@style/SucPartnerCustomizationButton.Secondary</item>
+        <item name="android:paddingLeft">?sucFooterButtonPaddingStart</item>
+        <item name="android:paddingRight">?sucFooterButtonPaddingEnd</item>
+        <item name="android:minWidth">0.0dip</item>
+        <item name="android:textAllCaps">?sucFooterBarButtonAllCaps</item>
+        <item name="android:fontFamily">?sucFooterBarButtonFontFamily</item>
+        <item name="android:paddingStart">?sucFooterButtonPaddingStart</item>
+        <item name="android:paddingEnd">?sucFooterButtonPaddingEnd</item>
+        <item name="android:colorControlHighlight">@color/suc_customization_button_highlight_ripple</item>
+        <item name="android:buttonCornerRadius">?sucFooterBarButtonCornerRadius</item>
+        <item name="sucFooterBarButtonColorControlHighlight">@color/suc_customization_button_highlight_ripple</item>
+    </style>
+    <style name="SudGlifButton.Primary" parent="@style/Widget.AppCompat.Button.Colored">
+        <item name="android:theme">@style/SudGlifButton.Primary</item>
+        <item name="android:buttonStyle">@style/SudGlifButton.Primary</item>
+        <item name="android:paddingLeft">@dimen/sud_glif_button_padding</item>
+        <item name="android:paddingRight">@dimen/sud_glif_button_padding</item>
+        <item name="android:textAllCaps">?sudButtonAllCaps</item>
+        <item name="android:fontFamily">?sudButtonFontFamily</item>
+        <item name="android:stateListAnimator">@null</item>
+        <item name="android:buttonCornerRadius">?sudButtonCornerRadius</item>
+        <item name="buttonStyle">@style/SudGlifButton.Primary</item>
+        <item name="textAllCaps">?sudButtonAllCaps</item>
+    </style>
+    <style name="SudGlifButton.Secondary" parent="@style/Widget.AppCompat.Button.Borderless.Colored">
+        <item name="android:theme">@style/SudGlifButton.Secondary</item>
+        <item name="android:buttonStyle">@style/SudGlifButton.Secondary</item>
+        <item name="android:paddingLeft">@dimen/sud_glif_button_padding</item>
+        <item name="android:paddingRight">@dimen/sud_glif_button_padding</item>
+        <item name="android:minWidth">0.0dip</item>
+        <item name="android:textAllCaps">?sudButtonAllCaps</item>
+        <item name="android:fontFamily">?sudButtonFontFamily</item>
+        <item name="android:colorControlHighlight">@color/sud_flat_button_highlight</item>
+        <item name="android:buttonCornerRadius">?sudButtonCornerRadius</item>
+        <item name="buttonStyle">@style/SudGlifButton.Secondary</item>
+        <item name="colorControlHighlight">@color/sud_flat_button_highlight</item>
+        <item name="textAllCaps">?sudButtonAllCaps</item>
+    </style>
+    <style name="Theme.YouTube.Dark" parent="@style/Base.V28.Theme.YouTube.Dark" />
+    <style name="Theme.YouTube.Light" parent="@style/Base.V28.Theme.YouTube.Light" />
+    <style name="Base.V28.Theme.AppCompat" parent="@style/Base.V26.Theme.AppCompat">
+        <item name="dialogCornerRadius">?android:dialogCornerRadius</item>
+    </style>
+    <style name="Base.V28.Theme.AppCompat.Light" parent="@style/Base.V26.Theme.AppCompat.Light">
+        <item name="dialogCornerRadius">?android:dialogCornerRadius</item>
+    </style>
+    <style name="Base.V28.Theme.YouTube.Dark" parent="@style/Base.V27.Theme.YouTube.Dark">
+        <item name="android:windowLayoutInDisplayCutoutMode">shortEdges</item>
+    </style>
+    <style name="Base.V28.Theme.YouTube.Light" parent="@style/Base.V27.Theme.YouTube.Light">
+        <item name="android:windowLayoutInDisplayCutoutMode">shortEdges</item>
+    </style>
+</resources>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/cool_off_container" android:background="?ytBrandBackgroundSolid" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Button android:textSize="@dimen/lc_button_text_size" android:textColor="?ytStaticWhite" android:id="@id/ok_button" android:background="@drawable/lc_button_style_primary" android:layout_width="@dimen/lc_cool_off_ok_button_width" android:layout_height="@dimen/lc_action_button_height" android:layout_margin="@dimen/lc_cool_off_button_margin" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" android:textAllCaps="true" />
+    <ScrollView android:id="@id/content" android:paddingBottom="@dimen/lc_cool_off_scroll_view_padding_bottom" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/ok_button">
+        <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ImageView android:id="@id/icon" android:layout_width="@dimen/lc_cool_off_icon_width" android:layout_height="@dimen/lc_cool_off_icon_height" android:contentDescription="@null" />
+            <TextView android:textSize="@dimen/lc_cool_off_header_text_size" android:textColor="?ytTextPrimary" android:gravity="center_horizontal" android:id="@id/title" android:paddingTop="@dimen/lc_cool_off_text_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:fontFamily="@font/youtube_sans_medium" android:lineHeight="@dimen/lc_cool_off_header_line_height" />
+            <TextView android:textSize="@dimen/lc_cool_off_body_text_size" android:textColor="?ytTextSecondary" android:gravity="center_horizontal" android:id="@id/body" android:paddingLeft="@dimen/lc_cool_off_text_padding" android:paddingRight="@dimen/lc_cool_off_text_padding" android:paddingBottom="@dimen/lc_cool_off_text_padding" android:layout_width="@dimen/lc_cool_off_text_width" android:layout_height="wrap_content" android:fontFamily="@font/youtube_sans_light" android:lineHeight="@dimen/lc_cool_off_body_line_height" />
+            <Button android:textSize="@dimen/lc_button_text_size" android:textColor="@color/lc_button_style_blue_text" android:layout_gravity="center_horizontal" android:id="@id/learn_more_button" android:background="@drawable/lc_button_style_light_text" android:padding="@dimen/lc_cool_off_button_margin" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/lc_cool_off_button_margin" android:textAllCaps="true" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

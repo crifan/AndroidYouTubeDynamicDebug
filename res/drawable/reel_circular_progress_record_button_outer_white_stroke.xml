@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="oval">
+            <solid android:color="@android:color/transparent" />
+            <stroke android:width="@dimen/reel_circular_progress_record_button_outer_stroke_thickness" android:color="@color/yt_white1" />
+        </shape>
+    </item>
+</layer-list>

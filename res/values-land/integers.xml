@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="grid_shelf_num_columns">2</integer>
+    <integer name="horizontal_shelf_num_columns">1</integer>
+    <integer name="horizontal_shelf_num_columns_linear_grid_feed_tablet_prominent">2</integer>
+    <integer name="lc_post_stream_content_layout_weight">2</integer>
+    <item type="integer" name="lc_post_stream_orientation">@integer/orientation_horizontal</item>
+    <item type="integer" name="lc_post_stream_thumbnail_container_height">@integer/layout_match_parent</item>
+    <integer name="lc_post_stream_thumbnail_content_layout_weight">3</integer>
+    <integer name="lc_scheduled_events_columns">2</integer>
+    <integer name="mtrl_calendar_selection_text_lines">6</integer>
+    <integer name="reel_grid_column_count">4</integer>
+    <integer name="screencast_live_chat_height_percent">90</integer>
+    <integer name="screencast_live_chat_width_percent">50</integer>
+    <integer name="share_panel_third_party_columns">5</integer>
+    <integer name="topic_picker_row_span">5</integer>
+    <integer name="watch_card_related_entities_count">4</integer>
+    <item type="integer" name="lc_thumbnail_preview_schedule_orientation">@integer/orientation_horizontal</item>
+</resources>

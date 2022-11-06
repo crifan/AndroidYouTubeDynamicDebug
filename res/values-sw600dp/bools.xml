@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="promoted_video_use_landscape_layout">true</bool>
+    <bool name="query_refinements_two_columns">true</bool>
+</resources>

@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="accessibility_dislike_video_plural">
+        <item quantity="other">Κουμπί αρνητικής ψήφου. Το βίντεο αυτό δεν άρεσε σε %1$d ακόμη</item>
+        <item quantity="one">Κουμπί αρνητικής ψήφου. Το βίντεο αυτό δεν άρεσε σε %1$d ακόμη</item>
+    </plurals>
+    <plurals name="accessibility_dtts_fast_forward">
+        <item quantity="other">Γρήγορη προώθηση κατά %1$d δευτερόλεπτα</item>
+        <item quantity="one">Γρήγορη προώθηση κατά %1$d δευτερόλεπτο</item>
+    </plurals>
+    <plurals name="accessibility_dtts_rewind">
+        <item quantity="other">Μετάβαση προς τα πίσω κατά %1$d δευτερόλεπτα</item>
+        <item quantity="one">Μετάβαση προς τα πίσω κατά %1$d δευτερόλεπτο</item>
+    </plurals>
+    <plurals name="accessibility_duration_description_hours">
+        <item quantity="other">%d ώρες</item>
+        <item quantity="one">%d ώρα</item>
+    </plurals>
+    <plurals name="accessibility_duration_description_minutes">
+        <item quantity="other">%d λεπτά</item>
+        <item quantity="one">%d λεπτό</item>
+    </plurals>
+    <plurals name="accessibility_duration_description_seconds">
+        <item quantity="other">%d δευτερόλεπτα</item>
+        <item quantity="one">%d δευτερόλεπτο</item>
+    </plurals>
+    <plurals name="accessibility_like_video_plural">
+        <item quantity="other">Κουμπί επισήμανσης \"μου αρέσει\". Το βίντεο αυτό άρεσε σε %1$d ακόμη</item>
+        <item quantity="one">Κουμπί επισήμανσης \"μου αρέσει\". Το βίντεο αυτό άρεσε σε %1$d ακόμη</item>
+    </plurals>
+    <plurals name="accessibility_skip_ad_in">
+        <item quantity="other">Παράλειψη διαφήμισης σε %1$d δευτερόλεπτα</item>
+        <item quantity="one">Παράλειψη διαφήμισης σε 1 δευτερόλεπτο</item>
+    </plurals>
+    <plurals name="accessibility_undo_dislike_video_plural">
+        <item quantity="other">Κουμπί αναίρεσης αρνητικής ψήφου. Το βίντεο αυτό δεν άρεσε σε %1$d ακόμη</item>
+        <item quantity="one">Κουμπί αναίρεσης αρνητικής ψήφου. Το βίντεο αυτό δεν άρεσε σε %1$d ακόμη</item>
+    </plurals>
+    <plurals name="accessibility_undo_like_video_plural">
+        <item quantity="other">Κουμπί αναίρεσης επισήμανσης \"μου αρέσει\". Το βίντεο αυτό άρεσε σε %1$d ακόμη</item>
+        <item quantity="one">Κουμπί αναίρεσης επισήμανσης \"μου αρέσει\". Το βίντεο αυτό άρεσε σε %1$d ακόμη</item>
+    </plurals>
+    <plurals name="download_new_videos_button_text">
+        <item quantity="other">Λήψη %1$d νέων βίντεο</item>
+        <item quantity="one">Λήψη %1$d νέου βίντεο</item>
+    </plurals>
+    <plurals name="download_playlist_unplayable_future_days_plural">
+        <item quantity="other">Για ορισμένα βίντεο, απαιτείται συνδρομή Premium σε %1$d ημέρες</item>
+        <item quantity="one">Για ορισμένα βίντεο, απαιτείται συνδρομή Premium σε %1$d ημέρα</item>
+    </plurals>
+    <plurals name="download_playlist_unplayable_future_hours_plural">
+        <item quantity="other">Για ορισμένα βίντεο, απαιτείται συνδρομή Premium σε %1$d ώρες</item>
+        <item quantity="one">Για ορισμένα βίντεο, απαιτείται συνδρομή Premium σε %1$d ώρα</item>
+    </plurals>
+    <plurals name="download_playlist_unplayable_future_minutes_plural">
+        <item quantity="other">Για ορισμένα βίντεο, απαιτείται συνδρομή Premium σε %1$d λεπτά</item>
+        <item quantity="one">Για ορισμένα βίντεο, απαιτείται συνδρομή Premium σε %1$d λεπτό</item>
+    </plurals>
+    <plurals name="download_video_unplayable_future_days_plural">
+        <item quantity="other">Απαιτεί συνδρομή Premium σε %1$d ημέρες</item>
+        <item quantity="one">Απαιτεί συνδρομή Premium σε %1$d ημέρα</item>
+    </plurals>
+    <plurals name="download_video_unplayable_future_hours_plural">
+        <item quantity="other">Απαιτεί συνδρομή Premium σε %1$d ώρες</item>
+        <item quantity="one">Απαιτεί συνδρομή Premium σε %1$d ώρα</item>
+    </plurals>
+    <plurals name="download_video_unplayable_future_minutes_plural">
+        <item quantity="other">Απαιτεί συνδρομή Premium σε %1$d λεπτά</item>
+        <item quantity="one">Απαιτεί συνδρομή Premium σε %1$d λεπτό</item>
+    </plurals>
+    <plurals name="duration_minutes">
+        <item quantity="other">%1$d λεπτά</item>
+        <item quantity="zero">0 λεπτά</item>
+        <item quantity="one">1 λεπτό</item>
+        <item quantity="two">2 λεπτά</item>
+        <item quantity="few">%1$d λεπτά</item>
+        <item quantity="many">%1$d λεπτά</item>
+    </plurals>
+    <plurals name="duration_seconds">
+        <item quantity="other">%1$d δευτερόλεπτα</item>
+        <item quantity="zero">0 δευτερόλεπτα</item>
+        <item quantity="one">1 δευτερόλεπτο</item>
+        <item quantity="two">2 δευτερόλεπτα</item>
+        <item quantity="few">%1$d δευτερόλεπτα</item>
+        <item quantity="many">%1$d δευτερόλεπτα</item>
+    </plurals>
+    <plurals name="frequency_hours_component">
+        <item quantity="other">%1$d ώρες</item>
+        <item quantity="one">%1$d ώρα</item>
+    </plurals>
+    <plurals name="frequency_hours_only">
+        <item quantity="other">Κάθε %1$d ώρες</item>
+        <item quantity="one">Κάθε ώρα</item>
+    </plurals>
+    <plurals name="frequency_minutes_component">
+        <item quantity="other">%1$d λεπτά</item>
+        <item quantity="one">%1$d λεπτό</item>
+    </plurals>
+    <plurals name="frequency_minutes_only">
+        <item quantity="other">Κάθε %1$d λεπτά</item>
+        <item quantity="one">Κάθε λεπτό</item>
+    </plurals>
+    <plurals name="image_picker_title">
+        <item quantity="other">%1$d επιλεγμένα</item>
+        <item quantity="one">%1$d επιλεγμένο</item>
+    </plurals>
+    <plurals name="invalid_uploads_error_msg">
+        <item quantity="other">Ένα ή περισσότερα αρχεία βίντεο δεν είναι διαθέσιμα ή δεν είναι έγκυρα. Δοκιμάστε ξανά ή επιλέξτε άλλα.</item>
+        <item quantity="one">Αυτό το αρχείο βίντεο δεν είναι διαθέσιμο ή δεν είναι έγκυρο. Δοκιμάστε ξανά ή επιλέξτε άλλο.</item>
+    </plurals>
+    <plurals name="last_update_in_days_message">
+        <item quantity="other">Ενημερώθηκε πριν από %1$d ημέρες</item>
+        <item quantity="one">Ενημερώθηκε χτες</item>
+    </plurals>
+    <plurals name="last_update_in_hours_message">
+        <item quantity="other">Ενημερώθηκε πριν από %1$d ώρες</item>
+        <item quantity="one">Ενημερώθηκε πριν από %1$d ώρα</item>
+    </plurals>
+    <plurals name="last_update_in_minutes_message">
+        <item quantity="other">Ενημερώθηκε πριν από %1$d λεπτά</item>
+        <item quantity="one">Ενημερώθηκε πριν από %1$d λεπτό</item>
+    </plurals>
+    <plurals name="last_update_in_weeks_message">
+        <item quantity="other">Ενημερώθηκε πριν από %1$d εβδομάδες</item>
+        <item quantity="one">Ενημερώθηκε πριν από %1$d εβδομάδα</item>
+    </plurals>
+    <plurals name="notification_playlist_progress_size">
+        <item quantity="other">%1$d από %2$d βίντεο</item>
+        <item quantity="one">%1$d από 1 βίντεο</item>
+    </plurals>
+    <plurals name="offline_go_online_to_renew_dialog_message">
+        <item quantity="other">Οι λήψεις διατηρούνται διαθέσιμες εφόσον η συσκευή σας συνδέεται στο διαδίκτυο κάθε %1$d ημέρες. Αυτή η διαδικασία συμβαίνει αυτόματα και δεν επαναλαμβάνει τη λήψη του βίντεο.</item>
+        <item quantity="one">Οι λήψεις διατηρούνται διαθέσιμες εφόσον η συσκευή σας συνδέεται στο διαδίκτυο κάθε ημέρα. Αυτή η διαδικασία συμβαίνει αυτόματα και δεν επαναλαμβάνει τη λήψη του βίντεο.</item>
+    </plurals>
+    <plurals name="offline_go_online_to_renew_snackbar_message">
+        <item quantity="other">Οι λήψεις παραμένουν διαθέσιμες για %1$d ημέρες χωρίς σύνδεση στο διαδίκτυο.</item>
+        <item quantity="one">Οι λήψεις παραμένουν διαθέσιμες για 1 ημέρα χωρίς σύνδεση στο διαδίκτυο.</item>
+    </plurals>
+    <plurals name="offline_remember_setting_for_days">
+        <item quantity="other">Απομνημόνευση των ρυθμίσεών μου για %1$d ημέρες</item>
+        <item quantity="one">Απομνημόνευση των ρυθμίσεών μου για 1 ημέρα</item>
+    </plurals>
+    <plurals name="playlist_picker_dialog_done">
+        <item quantity="other">Τα playlist ενημερώθηκαν</item>
+        <item quantity="one">Το playlist ενημερώθηκε</item>
+    </plurals>
+    <plurals name="playlist_size">
+        <item quantity="other">%1$,d βίντεο</item>
+        <item quantity="one">1 βίντεο</item>
+    </plurals>
+    <plurals name="playlist_size_downloaded">
+        <item quantity="other">%1$,d λήφθηκαν</item>
+        <item quantity="one">%1$,d λήφθηκε</item>
+    </plurals>
+    <plurals name="playlist_size_total">
+        <item quantity="other">%1$,d βίντεο</item>
+        <item quantity="one">1 βίντεο</item>
+    </plurals>
+    <plurals name="public_notification_text">
+        <item quantity="other">%1$d νέες ειδοποιήσεις</item>
+        <item quantity="one">Έχετε μία ειδοποίηση</item>
+    </plurals>
+    <plurals name="quick_seek_x_second">
+        <item quantity="other">%d δευτερόλεπτα</item>
+        <item quantity="one">%d δευτερόλεπτο</item>
+    </plurals>
+    <plurals name="recommendation_count">
+        <item quantity="other">%1$d προτάσεις</item>
+        <item quantity="one">1 πρόταση</item>
+    </plurals>
+    <plurals name="rental_expiry_notice">
+        <item quantity="other">Από τη στιγμή που θα ξεκινήσει, θα έχετε %1$d ώρες στη διάθεσή σας για να παρακολουθήσετε αυτό το βίντεο.</item>
+        <item quantity="one">Από τη στιγμή που θα ξεκινήσει, θα έχετε 1 ώρα στη διάθεσή σας για να παρακολουθήσετε αυτό το βίντεο.</item>
+    </plurals>
+    <plurals name="rental_long_days_remaining">
+        <item quantity="other">Λήγει σε %1$d ημέρες</item>
+        <item quantity="one">Λήγει σε 1 ημέρα</item>
+    </plurals>
+    <plurals name="rental_long_hours_remaining">
+        <item quantity="other">Λήγει σε %1$d ώρες</item>
+        <item quantity="one">Λήγει σε 1 ώρα</item>
+    </plurals>
+    <plurals name="rental_long_weeks_remaining">
+        <item quantity="other">Λήγει σε %1$d εβδομάδες</item>
+        <item quantity="one">Λήγει σε 1 εβδομάδα</item>
+    </plurals>
+    <plurals name="rental_medium_days_remaining">
+        <item quantity="other">Λήγει σε %1$d ημέρες</item>
+        <item quantity="one">Λήγει σε 1 ημέρα</item>
+    </plurals>
+    <plurals name="rental_medium_hours_remaining">
+        <item quantity="other">Λήγει σε %1$d ώρες</item>
+        <item quantity="one">Λήγει σε 1 ώρα</item>
+    </plurals>
+    <plurals name="rental_medium_weeks_remaining">
+        <item quantity="other">Λήγει σε %1$d εβδ.</item>
+        <item quantity="one">Λήγει σε 1 εβδ.</item>
+    </plurals>
+    <plurals name="selected_video_count">
+        <item quantity="other">Επιλέχθηκαν %1$d βίντεο</item>
+        <item quantity="one">Επιλέχθηκε 1 βίντεο</item>
+    </plurals>
+    <plurals name="shorts_a11y_duration_seconds">
+        <item quantity="other">%1$s δευτερόλεπτα</item>
+        <item quantity="one">%1$s δευτερόλεπτο</item>
+    </plurals>
+    <plurals name="shorts_a11y_timer_duration_seconds">
+        <item quantity="other">Χρονόμετρο %1$d δευτερολέπτων</item>
+        <item quantity="one">Χρονόμετρο %1$d δευτερολέπτου</item>
+    </plurals>
+    <plurals name="shorts_a11y_timer_started">
+        <item quantity="other">Ενεργοποιήθηκε χρονόμετρο %1$d δευτερολέπτων</item>
+        <item quantity="one">Ενεργοποιήθηκε χρονόμετρο %1$d δευτερολέπτου</item>
+    </plurals>
+    <plurals name="smart_downloads_future_update_text">
+        <item quantity="other">Οι Έξυπνες λήψεις θα ενημερωθούν αυτόματα σε %1$d ημέρες</item>
+        <item quantity="one">Οι Έξυπνες λήψεις θα ενημερωθούν αυτόματα σε 1 ημέρα</item>
+    </plurals>
+    <plurals name="sticker_dialog_title">
+        <item quantity="other">Επιστρέψτε σε %1$d ημέρες</item>
+        <item quantity="one">Επιστρέψτε σε 1 ημέρα</item>
+    </plurals>
+    <plurals name="too_many_external_uploads_error_msg">
+        <item quantity="other">Μπορείτε να ανεβάσετε %1$d βίντεο τη φορά.</item>
+        <item quantity="one">Μπορείτε να ανεβάσετε %1$d βίντεο τη φορά.</item>
+    </plurals>
+    <plurals name="transcoding_progress">
+        <item quantity="other">Προετοιμασία %1$,d%%</item>
+        <item quantity="one">Προετοιμασία %1$,d%%</item>
+    </plurals>
+    <plurals name="trim_segment_max_length">
+        <item quantity="other">%1$d δευτερόλεπτα το μέγιστο</item>
+        <item quantity="one">1 δευτερόλεπτο το μέγιστο</item>
+    </plurals>
+    <plurals name="trim_switch_edu">
+        <item quantity="other">Περικόψτε το βίντεό σας σε %1$d δευτερόλεπτα και προσθέστε μουσική</item>
+        <item quantity="one">Περικόψτε το βίντεό σας σε 1 δευτερόλεπτο και προσθέστε μουσική</item>
+    </plurals>
+    <plurals name="trim_switch_edu_full_length_shorts">
+        <item quantity="other">Περικόψτε το βίντεό σας σε %1$d δευτ. ή λιγότερο</item>
+        <item quantity="one">Περικόψτε το βίντεό σας σε 1 δευτ. ή λιγότερο</item>
+    </plurals>
+    <plurals name="upload_hours_remaing">
+        <item quantity="other">Απομένουν περίπου %1$,d ώρες</item>
+        <item quantity="one">Απομένει περίπου %1$,d ώρα</item>
+    </plurals>
+    <plurals name="upload_indicator_all_completed">
+        <item quantity="other">%d βίντεο ανέβηκαν</item>
+        <item quantity="one">Το βίντεο ανέβηκε</item>
+    </plurals>
+    <plurals name="upload_indicator_all_failed">
+        <item quantity="other">Δεν ήταν δυνατή η μεταφόρτωση των βίντεό σας</item>
+        <item quantity="one">Δεν ήταν δυνατή η μεταφόρτωση του βίντεό σας</item>
+    </plurals>
+    <plurals name="upload_indicator_all_uploading">
+        <item quantity="other">Μεταφόρτωση %d βίντεο</item>
+        <item quantity="one">Μεταφόρτωση βίντεο</item>
+    </plurals>
+    <plurals name="upload_indicator_partial_fail">
+        <item quantity="other">Δεν ήταν δυνατή η μεταφόρτωση %1$d από %2$d βίντεο</item>
+        <item quantity="one">Δεν ήταν δυνατή η μεταφόρτωση %1$d από %2$d βίντεο</item>
+    </plurals>
+    <plurals name="upload_indicator_uploading_and_completed_completed_part">
+        <item quantity="other">%d ανέβηκαν</item>
+        <item quantity="one">%d ανέβηκε</item>
+    </plurals>
+    <plurals name="upload_indicator_uploading_and_completed_uploading_part">
+        <item quantity="other">%d ακόμη ανεβαίνουν</item>
+        <item quantity="one">%d ακόμη ανεβαίνει</item>
+    </plurals>
+    <plurals name="upload_minutes_remaing">
+        <item quantity="other">Απομένουν περίπου %1$,d λεπτά</item>
+        <item quantity="one">Απομένει περίπου %1$,d λεπτό</item>
+    </plurals>
+    <plurals name="upload_notification_active_progress">
+        <item quantity="other">Μεταφόρτωση %1$d από %2$d βίντεο</item>
+        <item quantity="one">Μεταφόρτωση 1 βίντεο</item>
+    </plurals>
+    <plurals name="upload_progress">
+        <item quantity="other">%1$,d%% ανέβηκαν</item>
+        <item quantity="one">%1$,d%% ανέβηκε</item>
+    </plurals>
+    <plurals name="upload_seconds_remaing">
+        <item quantity="other">Απομένουν περίπου %1$,d δευτερόλεπτα</item>
+        <item quantity="one">Απομένει περίπου %1$,d δευτερόλεπτο</item>
+    </plurals>
+    <plurals name="uploads_failed">
+        <item quantity="other">%1$,d μεταφορτώσεις απέτυχαν</item>
+        <item quantity="one">Η μεταφόρτωση απέτυχε</item>
+    </plurals>
+    <plurals name="uploads_failed_with_in_progress_videos">
+        <item quantity="other">%1$,d/%2$,d μεταφορτώσεις απέτυχαν</item>
+        <item quantity="one">%1$,d/%2$,d μεταφορτώσεις απέτυχαν</item>
+    </plurals>
+    <plurals name="uploads_in_progress">
+        <item quantity="other">Μεταφόρτωση %1$,d</item>
+        <item quantity="one">Μεταφόρτωση %1$,d</item>
+    </plurals>
+    <plurals name="user_education_quick_seek">
+        <item quantity="other">Με διπλό πάτημα αριστερά ή δεξιά παρακάμπτετε %d δευτερόλεπτα</item>
+        <item quantity="one">Με διπλό πάτημα αριστερά ή δεξιά παρακάμπτετε %d δευτερόλεπτο</item>
+    </plurals>
+    <plurals name="video_count">
+        <item quantity="other">%1$d βίντεο</item>
+        <item quantity="one">1 βίντεο</item>
+    </plurals>
+</resources>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/promoted_discovery_action_portrait_thumbnail" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:yt="http://schemas.android.com/apk/res-auto">
+    <com.google.android.libraries.youtube.common.ui.FixedAspectRatioRelativeLayout android:id="@id/thumbnail_layout" android:background="@drawable/bg_video_thumb" android:layout_width="fill_parent" android:layout_height="wrap_content" yt:aspectRatio="@fraction/aspect_ratio_16_9_exact">
+        <ImageView android:id="@id/thumbnail" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" android:contentDescription="@string/accessibility_go_to_video" />
+        <ViewStub android:id="@id/watched_overlay_stub" android:layout="@layout/watched_overlay" android:inflatedId="@id/watched_overlay_stub" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <com.google.android.libraries.youtube.rendering.ui.badge.DurationBadgeView android:id="@id/duration" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:layout_alignWithParentIfMissing="true" android:layout_alignParentEnd="true" yt:robotoFont="light" style="@style/StandaloneDurationBadgesOverlay" />
+        <ViewStub android:id="@id/resume_playback_overlay" android:layout="@layout/resume_playback_overlay" android:inflatedId="@id/resume_playback_overlay" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" />
+        <ViewStub android:id="@id/tap_to_watch_overlay" android:layout="@layout/tap_to_watch_overlay" android:inflatedId="@id/tap_to_watch_overlay" android:layout_width="@dimen/tap_to_watch_overlay_width" android:layout_height="@dimen/tap_to_watch_overlay_height" android:layout_marginBottom="8.0dip" android:layout_alignParentBottom="true" android:layout_alignWithParentIfMissing="true" android:layout_marginEnd="8.0dip" android:layout_toStartOf="@id/duration" android:layout_alignParentEnd="false" />
+    </com.google.android.libraries.youtube.common.ui.FixedAspectRatioRelativeLayout>
+</LinearLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:paddingLeft="@dimen/lc_activity_horizontal_margin" android:paddingRight="@dimen/lc_activity_horizontal_margin" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/lc_post_stream_banner_text_size" android:textColor="@color/lc_white" android:gravity="center" android:id="@id/stream_header_text" android:paddingTop="@dimen/lc_post_stream_header_text_padding_top" android:paddingBottom="@dimen/lc_post_stream_header_text_padding_bottom" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minLines="@integer/lc_post_stream_header_lines" android:layout_above="@id/content" android:textIsSelectable="true" android:fontFamily="sans-serif-light" />
+    <ScrollView android:id="@id/content" android:paddingBottom="@dimen/lc_post_stream_scroll_view_padding_bottom" android:visibility="gone" android:layout_width="@dimen/lc_post_stream_scroll_view_width" android:layout_height="@dimen/lc_post_stream_scroll_view_height" android:layout_centerInParent="@bool/lc_post_stream_scroll_view_center_in_parent">
+        <include layout="@layout/lc_post_stream_fragment_stream_info" />
+    </ScrollView>
+    <ProgressBar android:id="@id/post_stream_spinner" android:layout_width="@dimen/spinner_width" android:layout_height="@dimen/spinner_height" android:indeterminate="true" android:layout_centerInParent="true" style="?android:progressBarStyleLarge" />
+    <RelativeLayout android:id="@id/bottom_content" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <Button android:textSize="@dimen/body_text_size" android:id="@id/next_button" android:background="@drawable/lc_button_style_destructive" android:layout_width="@dimen/lc_post_stream_next_button_width" android:layout_height="@dimen/lc_action_button_height" android:layout_marginTop="@dimen/lc_post_stream_next_button_margin_top" android:layout_marginBottom="@dimen/lc_post_stream_next_button_margin_bottom" android:text="@string/lc_post_stream_done_button_text" android:layout_centerHorizontal="true" />
+        <TextView android:id="@id/privacy_setting_notice" android:paddingTop="@dimen/lc_post_stream_privacy_notice_margin_top" android:paddingBottom="@dimen/lc_post_stream_privacy_notice_margin_bottom" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/next_button" android:layout_centerHorizontal="true" android:fontFamily="sans-serif-light" android:lineHeight="@dimen/medium_font_size" />
+    </RelativeLayout>
+</RelativeLayout>

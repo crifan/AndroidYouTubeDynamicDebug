@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_gravity="top" android:id="@id/shorts_edit_top_bar_container" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="@dimen/reel_edit_top_bar_height"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:yt="http://schemas.android.com/apk/res-auto">
+    <com.google.android.apps.youtube.app.extensions.reel.edit.presenter.EditorButtonView android:id="@id/shorts_edit_back" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentTop="true" android:layout_alignParentStart="true" yt:buttonContentDescription="@string/shorts_a11y_exit_editor" yt:iconDrawable="@drawable/yt_outline_arrow_left_white_24" />
+    <LinearLayout android:id="@id/shorts_post_button" android:paddingLeft="@dimen/reel_edit_bottom_bar_post_button_layout_padding" android:paddingTop="@dimen/reel_edit_toolbar_button_container_top_padding" android:paddingRight="@dimen/reel_edit_bottom_bar_post_button_layout_padding" android:paddingBottom="@dimen/reel_edit_toolbar_button_container_top_padding" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="@dimen/reel_edit_bottom_bar_post_button_container_height" android:layout_alignParentTop="true" android:layout_alignParentEnd="true">
+        <com.google.android.libraries.youtube.common.ui.YouTubeButton android:id="@id/shorts_post_button_text" android:contentDescription="@string/shorts_a11y_continue_to_upload" style="@style/ShortsRoundedRectangleNextButton" />
+    </LinearLayout>
+</RelativeLayout>

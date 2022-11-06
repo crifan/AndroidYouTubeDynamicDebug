@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:yt="http://schemas.android.com/apk/res-auto">
+    <com.google.android.libraries.youtube.common.ui.CircularImageView android:id="@id/bottom_sheet_user_thumbnail" android:layout_width="@dimen/bottom_sheet_avatar_size" android:layout_height="@dimen/bottom_sheet_avatar_size" android:layout_margin="16.0dip" android:layout_centerVertical="true" />
+    <LinearLayout android:orientation="vertical" android:paddingTop="16.0dip" android:paddingBottom="16.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_toEndOf="@id/bottom_sheet_user_thumbnail">
+        <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:textSize="@dimen/bottom_sheet_header_large_text_size" android:textColor="?ytTextPrimary" android:id="@id/bottom_sheet_header_large_text" android:layout_width="wrap_content" android:layout_height="wrap_content" yt:robotoFont="regular" />
+        <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:textSize="@dimen/bottom_sheet_header_medium_text_size" android:textColor="?ytTextPrimary" android:id="@id/bottom_sheet_header_medium_text" android:layout_width="wrap_content" android:layout_height="wrap_content" yt:robotoFont="regular" />
+    </LinearLayout>
+    <View android:id="@id/video_divider" android:background="?ytSeparator" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_below="@id/bottom_sheet_user_thumbnail" />
+</RelativeLayout>

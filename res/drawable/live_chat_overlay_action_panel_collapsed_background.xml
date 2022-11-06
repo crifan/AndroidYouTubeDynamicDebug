@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="rectangle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@color/yt_black_pure_opacity60" />
+    <stroke android:width="1.0dip" android:color="@color/yt_white3" />
+    <corners android:topLeftRadius="@dimen/live_chat_overlay_background_radius_large" android:topRightRadius="@dimen/live_chat_overlay_container_radius_small" android:bottomLeftRadius="@dimen/live_chat_overlay_background_radius_large" android:bottomRightRadius="@dimen/live_chat_overlay_container_radius_small" />
+</shape>

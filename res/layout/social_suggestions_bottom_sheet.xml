@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/social_suggestions_bottom_sheet_container" android:background="?ytBrandBackgroundSolid" android:layout_width="fill_parent" android:layout_height="wrap_content" yt:layout_behavior="com.google.android.libraries.youtube.metadataeditor.elements.suggest.SuggestBottomSheetBehavior"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:yt="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/social_suggestions_bottom_sheet" android:focusable="true" android:fitsSystemWindows="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <View android:layout_gravity="top" android:id="@id/user_mention_suggestions_top_bar" android:background="?yt10PercentLayer" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    </LinearLayout>
+    <com.google.android.libraries.youtube.metadataeditor.elements.suggest.OverlayView android:id="@id/social_suggestions_overlay" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</FrameLayout>

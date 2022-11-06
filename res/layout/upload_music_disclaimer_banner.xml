@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/music_disclaimer_container" android:background="?ytGeneralBackgroundA" android:paddingTop="12.0dip" android:paddingBottom="12.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="16.0dip" android:paddingEnd="16.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:yt="http://schemas.android.com/apk/res-auto">
+    <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:textAppearance="?ytTextAppearanceBody1a" android:textColor="?ytTextSecondary" android:id="@id/music_disclaimer_banner_notice_message" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/upload_music_disclaimer_banner_message" android:lineSpacingMultiplier="1.2" yt:robotoFont="regular" />
+</FrameLayout>

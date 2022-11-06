@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="?android:listPreferredItemHeight" android:paddingStart="16.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:id="@id/name" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" style="@style/Mdx.PrefsTitle" />
+    <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:id="@id/delete" android:text="@string/mdx_pref_delete_tv_codes_delete" style="@style/Mdx.PrefsAction" />
+</LinearLayout>

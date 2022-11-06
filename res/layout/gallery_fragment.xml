@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:yt="http://schemas.android.com/apk/res-auto">
+    <android.support.v7.widget.Toolbar android:id="@id/toolbar" android:background="?colorPrimary" android:layout_width="fill_parent" android:layout_height="?actionBarSize" yt:navigationContentDescription="@string/abc_action_bar_up_description" yt:navigationIcon="@drawable/yt_outline_x_mark_white_24" yt:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar" />
+    <com.google.android.libraries.youtube.edit.gallery.GalleryNestedScrollView android:id="@id/gallery_nested_scroll_view" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <FrameLayout android:id="@id/camera_button" android:layout_width="fill_parent" android:layout_height="@dimen/gallery_camera_initial_height">
+                <FrameLayout android:id="@id/camera_fragment_container" android:background="@color/gallery_camera_container_color" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+                <ImageView android:id="@id/camera_overlay" android:background="@color/gallery_camera_overlay_color" android:layout_width="fill_parent" android:layout_height="fill_parent" android:contentDescription="@null" />
+                <FrameLayout android:background="?selectableItemBackground" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                    <ImageView android:layout_gravity="center" android:id="@id/camera_button_camera_image" android:background="@drawable/yt_outline_video_camera_white_48" android:visibility="gone" android:layout_width="@dimen/gallery_camera_icon_size" android:layout_height="@dimen/gallery_camera_icon_size" android:contentDescription="@null" />
+                    <ImageView android:layout_gravity="bottom|center" android:id="@id/camera_button_chevron_image" android:background="@drawable/yt_outline_chevron_down_white_48" android:visibility="gone" android:layout_width="@dimen/gallery_camera_chevron_icon_size" android:layout_height="@dimen/gallery_camera_chevron_icon_size" android:contentDescription="@null" android:alpha="0.0" />
+                </FrameLayout>
+                <LinearLayout android:id="@id/split_camera_actions_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                    <FrameLayout android:id="@id/camera_actions_primary_button" android:background="?selectableItemBackground" android:clickable="true" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" android:contentDescription="@string/gallery_camera_launch_button_description">
+                        <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:textSize="@dimen/gallery_camera_buttons_font_size" android:textColor="@color/gallery_camera_buttons_font_color" android:gravity="center" android:layout_gravity="center" android:id="@id/camera_actions_primary_button_text_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/gallery_camera_launch_button_text" android:drawableTop="@drawable/yt_outline_video_camera_white_48" android:contentDescription="@null" android:textAllCaps="true" yt:robotoFont="medium" />
+                    </FrameLayout>
+                    <View android:layout_gravity="center" android:background="@color/gallery_recycler_view_background" android:layout_width="@dimen/gallery_thumb_margin" android:layout_height="fill_parent" />
+                    <FrameLayout android:id="@id/camera_actions_secondary_button" android:background="?selectableItemBackground" android:clickable="true" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" android:contentDescription="@string/gallery_go_live_button_description">
+                        <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:textSize="@dimen/gallery_camera_buttons_font_size" android:textColor="@color/gallery_camera_buttons_font_color" android:gravity="center" android:layout_gravity="center" android:id="@id/camera_actions_secondary_button_text_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/gallery_go_live_button_text" android:drawableTop="@drawable/yt_outline_radar_live_white_48" android:contentDescription="@null" android:textAllCaps="true" yt:robotoFont="medium" />
+                    </FrameLayout>
+                </LinearLayout>
+            </FrameLayout>
+            <FrameLayout android:id="@id/media_grid_fragment_container" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+        </LinearLayout>
+    </com.google.android.libraries.youtube.edit.gallery.GalleryNestedScrollView>
+</LinearLayout>

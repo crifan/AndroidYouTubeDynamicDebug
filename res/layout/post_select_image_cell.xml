@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:background="@drawable/post_image_carousel_cell_border" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:background="@drawable/round_call_to_action_button_background" android:layout_width="@dimen/image_carousel_button_size" android:layout_height="@dimen/image_carousel_button_size">
+        <ImageView android:layout_gravity="center" android:layout_width="@dimen/select_image_cell_icon_size" android:layout_height="@dimen/select_image_cell_icon_size" android:src="@drawable/quantum_ic_drive_image_white_24" />
+    </FrameLayout>
+    <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:textAppearance="?ytTextAppearanceTitle2" android:id="@id/select_image_cell_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/select_image_title_margin_top" />
+    <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:textAppearance="?ytTextAppearanceBody1a" android:textColor="?ytTextDisabled" android:gravity="center" android:id="@id/select_image_cell_subtitle" android:layout_width="@dimen/select_image_title_width" android:layout_height="wrap_content" android:layout_marginTop="@dimen/select_image_subtitle_margin_top" />
+</LinearLayout>

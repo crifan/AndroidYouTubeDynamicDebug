@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.apps.youtube.app.extensions.reel.creation.shorts.edit.timeline.AudioTrackView android:id="@id/audio_track_view" android:paddingTop="@dimen/audio_track_view_padding_vertical" android:paddingBottom="@dimen/audio_track_view_padding_vertical" android:layout_width="fill_parent" android:layout_height="@dimen/audio_track_view_height"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

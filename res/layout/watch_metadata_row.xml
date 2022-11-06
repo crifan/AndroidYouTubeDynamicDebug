@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/watch_metadata_row" android:focusable="true" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:yt="http://schemas.android.com/apk/res-auto">
+    <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:textAppearance="?textAppearanceBody2" android:textColor="?ytTextSecondary" android:ellipsize="end" android:id="@id/title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="2" android:includeFontPadding="false" android:layout_weight="2.0" android:lineSpacingExtra="@dimen/watch_extra_line_spacing" android:textAlignment="viewStart" yt:robotoFont="medium" />
+    <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:textAppearance="?textAppearanceBody1" android:textColor="?ytTextSecondary" android:ellipsize="end" android:id="@id/content" android:layout_width="fill_parent" android:layout_height="wrap_content" android:includeFontPadding="false" android:layout_weight="1.0" android:lineSpacingExtra="@dimen/watch_extra_line_spacing" android:importantForAccessibility="no" android:textAlignment="viewStart" yt:hyperlinksClickable="true" yt:robotoFont="light" />
+</LinearLayout>

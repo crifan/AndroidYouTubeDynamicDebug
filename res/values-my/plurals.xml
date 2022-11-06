@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="accessibility_dislike_video_plural">
+        <item quantity="other">မကြိုက်ခလုတ်၊ အခြား %1$d ဦးက ဤဗီဒီယိုကို မကြိုက်ကြောင်း ဖော်ပြထားသည်</item>
+        <item quantity="one">မကြိုက်ခလုတ်၊ အခြား %1$d ဦးက ဤဗီဒီယိုကို မကြိုက်ကြောင်း ဖော်ပြထားသည်</item>
+    </plurals>
+    <plurals name="accessibility_dtts_fast_forward">
+        <item quantity="other">ရှေ့သို့ %1$d စက္ကန့်ရစ်ရန်</item>
+        <item quantity="one">ရှေ့သို့ %1$d စက္ကန့်ရစ်ရန်</item>
+    </plurals>
+    <plurals name="accessibility_dtts_rewind">
+        <item quantity="other">နောက်သို့ %1$d စက္ကန့်ရစ်ရန်</item>
+        <item quantity="one">နောက်သို့ %1$d စက္ကန့်ရစ်ရန်</item>
+    </plurals>
+    <plurals name="accessibility_duration_description_hours">
+        <item quantity="other">%d နာရီ</item>
+        <item quantity="one">%d နာရီ</item>
+    </plurals>
+    <plurals name="accessibility_duration_description_minutes">
+        <item quantity="other">%d မိနစ်</item>
+        <item quantity="one">%d မိနစ်</item>
+    </plurals>
+    <plurals name="accessibility_duration_description_seconds">
+        <item quantity="other">%d စက္ကန့်</item>
+        <item quantity="one">%d စက္ကန့်</item>
+    </plurals>
+    <plurals name="accessibility_like_video_plural">
+        <item quantity="other">လိုက်ခ်ခလုတ်၊ အခြား %1$d ဦးက ဤဗီဒီယိုကို လိုက်ခ်လုပ်ထားသည်</item>
+        <item quantity="one">လိုက်ခ်ခလုတ်၊ အခြား %1$d ဦးက ဤဗီဒီယိုကို လိုက်ခ်လုပ်ထားသည်</item>
+    </plurals>
+    <plurals name="accessibility_skip_ad_in">
+        <item quantity="other">ကြော်ငြာကို %1$d စက္ကန့်ကြာလျှင် ကျော်ပါ</item>
+        <item quantity="one">ကြော်ငြာကို ၁ စက္ကန့်ကြာလျှင် ကျော်ပါ</item>
+    </plurals>
+    <plurals name="accessibility_undo_dislike_video_plural">
+        <item quantity="other">မကြိုက်ခလုတ်ကို မနှိပ်တော့ရန်၊ အခြား %1$d ဦးက ဤဗီဒီယိုကို မကြိုက်ကြောင်း ဖော်ပြထားသည်</item>
+        <item quantity="one">မကြိုက်ခလုတ်ကို မနှိပ်တော့ရန်၊ အခြား %1$d ဦးက ဤဗီဒီယိုကို မကြိုက်ကြောင်း ဖော်ပြထားသည်</item>
+    </plurals>
+    <plurals name="accessibility_undo_like_video_plural">
+        <item quantity="other">လိုက်ခ်ခလုတ်ကို မနှိပ်တော့ရန်၊ အခြား %1$d ဦးက ဤဗီဒီယိုကို လိုက်ခ်လုပ်ထားသည်</item>
+        <item quantity="one">လိုက်ခ်ခလုတ်ကို မနှိပ်တော့ရန်၊ အခြား %1$d ဦးက ဤဗီဒီယိုကို လိုက်ခ်လုပ်ထားသည်</item>
+    </plurals>
+    <plurals name="download_new_videos_button_text">
+        <item quantity="other">ဗီဒီယိုအသစ် %1$d ခု ဒေါင်းလုဒ်လုပ်ရန်</item>
+        <item quantity="one">ဗီဒီယိုအသစ် %1$d ခု ဒေါင်းလုဒ်လုပ်ရန်</item>
+    </plurals>
+    <plurals name="download_playlist_unplayable_future_days_plural">
+        <item quantity="other">ဗီဒီယိုအချို့အတွက် %1$d ရက်အတွင်း Premium အဖွဲ့ဝင်ရမည်</item>
+        <item quantity="one">ဗီဒီယိုအချို့အတွက် %1$d ရက်အတွင်း Premium အဖွဲ့ဝင်ရမည်</item>
+    </plurals>
+    <plurals name="download_playlist_unplayable_future_hours_plural">
+        <item quantity="other">ဗီဒီယိုအချို့အတွက် %1$d နာရီအတွင်း Premium အဖွဲ့ဝင်ရမည်</item>
+        <item quantity="one">ဗီဒီယိုအချို့အတွက် %1$d နာရီအတွင်း Premium အဖွဲ့ဝင်ရမည်</item>
+    </plurals>
+    <plurals name="download_playlist_unplayable_future_minutes_plural">
+        <item quantity="other">ဗီဒီယိုအချို့အတွက် %1$d မိနစ်အတွင်း Premium အဖွဲ့ဝင်ရမည်</item>
+        <item quantity="one">ဗီဒီယိုအချို့အတွက် %1$d မိနစ်အတွင်း Premium အဖွဲ့ဝင်ရမည်</item>
+    </plurals>
+    <plurals name="download_video_unplayable_future_days_plural">
+        <item quantity="other">%1$d ရက်အတွင်း Premium အဖွဲ့ဝင်ရမည်</item>
+        <item quantity="one">%1$d ရက်အတွင်း Premium အဖွဲ့ဝင်ရမည်</item>
+    </plurals>
+    <plurals name="download_video_unplayable_future_hours_plural">
+        <item quantity="other">%1$d နာရီအတွင်း Premium အဖွဲ့ဝင်ရမည်</item>
+        <item quantity="one">%1$d နာရီအတွင်း Premium အဖွဲ့ဝင်ရမည်</item>
+    </plurals>
+    <plurals name="download_video_unplayable_future_minutes_plural">
+        <item quantity="other">%1$d မိနစ်အတွင်း Premium အဖွဲ့ဝင်ရမည်</item>
+        <item quantity="one">%1$d မိနစ်အတွင်း Premium အဖွဲ့ဝင်ရမည်</item>
+    </plurals>
+    <plurals name="frequency_hours_component">
+        <item quantity="other">%1$d နာရီ</item>
+        <item quantity="one">%1$d နာရီ</item>
+    </plurals>
+    <plurals name="frequency_hours_only">
+        <item quantity="other">%1$d နာရီတိုင်း</item>
+        <item quantity="one">နာရီတိုင်း</item>
+    </plurals>
+    <plurals name="frequency_minutes_component">
+        <item quantity="other">%1$d မိနစ်</item>
+        <item quantity="one">%1$d မိနစ်</item>
+    </plurals>
+    <plurals name="frequency_minutes_only">
+        <item quantity="other">%1$d မိနစ်တိုင်း</item>
+        <item quantity="one">မိနစ်တိုင်း</item>
+    </plurals>
+    <plurals name="image_picker_title">
+        <item quantity="other">%1$d ခု ရွေးထားသည်</item>
+        <item quantity="one">%1$d ခု ရွေးထားသည်</item>
+    </plurals>
+    <plurals name="invalid_uploads_error_msg">
+        <item quantity="other">ဗီဒီယိုဖိုင်တစ်ခုနှင့် အထက်ကို မရနိုင်ပါ၊ သို့မဟုတ် မမှန်ကန်ပါ။ ထပ်စမ်းကြည့်ပါ သို့မဟုတ် အခြားဗီဒီယိုများကို ရွေးပါ။</item>
+        <item quantity="one">ဤဗီဒီယိုဖိုင်ကို မရနိုင်ပါ သို့မဟုတ် မမှန်ကန်ပါ။ ထပ်စမ်းကြည့်ပါ သို့မဟုတ် အခြားဗီဒီယိုတစ်ခုကို ရွေးပါ။</item>
+    </plurals>
+    <plurals name="last_update_in_days_message">
+        <item quantity="other">ပြီးခဲ့သော %1$d ရက်က အပ်ဒိတ်လုပ်ထားသည်</item>
+        <item quantity="one">မနေ့က အပ်ဒိတ်လုပ်ထားသည်</item>
+    </plurals>
+    <plurals name="last_update_in_hours_message">
+        <item quantity="other">ပြီးခဲ့သော %1$d နာရီက အပ်ဒိတ်လုပ်ထားသည်</item>
+        <item quantity="one">ပြီးခဲ့သော %1$d နာရီက အပ်ဒိတ်လုပ်ထားသည်</item>
+    </plurals>
+    <plurals name="last_update_in_minutes_message">
+        <item quantity="other">ပြီးခဲ့သော %1$d မိနစ်က အပ်ဒိတ်လုပ်ထားသည်</item>
+        <item quantity="one">ပြီးခဲ့သော %1$d မိနစ်က အပ်ဒိတ်လုပ်ထားသည်</item>
+    </plurals>
+    <plurals name="last_update_in_weeks_message">
+        <item quantity="other">ပြီးခဲ့သော %1$d ပတ်က အပ်ဒိတ်လုပ်ထားသည်</item>
+        <item quantity="one">ပြီးခဲ့သော %1$d ပတ်က အပ်ဒိတ်လုပ်ထားသည်</item>
+    </plurals>
+    <plurals name="notification_playlist_progress_size">
+        <item quantity="other">ဗီဒီယို %2$d ခုအနက် %1$d ခု</item>
+        <item quantity="one">ဗီဒီယို ၁ ခုအနက် %1$d ခု</item>
+    </plurals>
+    <plurals name="offline_go_online_to_renew_dialog_message">
+        <item quantity="other">%1$d ရက်တစ်ကြိမ် သင့်စက်ပစ္စည်းတွင် အင်တာနက် ချိတ်ဆက်မှုရှိနေသ၍ ဒေါင်းလုဒ်လုပ်ထားသည့် အရာများ ရှိနေပါဦးမည်။ ဤလုပ်ငန်းစဉ်သည် အလိုအလျောက် လုပ်ဆောင်ခြင်းဖြစ်ပြီး ဗီဒီယိုကို ဒေါင်းလုဒ်ထပ်လုပ်မည် မဟုတ်ပါ။</item>
+        <item quantity="one">နေ့တိုင်း သင့်စက်တွင် အင်တာနက် ချိတ်ဆက်မှုရှိနေသ၍ ဒေါင်းလုဒ်လုပ်ထားသည့် အရာများ ရှိနေပါဦးမည်။ ဤလုပ်ငန်းစဉ်သည် အလိုအလျောက် လုပ်ဆောင်ခြင်းဖြစ်ပြီး ဗီဒီယိုကို ဒေါင်းလုဒ်ထပ်လုပ်မည် မဟုတ်ပါ။</item>
+    </plurals>
+    <plurals name="offline_go_online_to_renew_snackbar_message">
+        <item quantity="other">ဒေါင်းလုဒ်များကို အင်တာနက်မချိတ်ဘဲ %1$d ရက် ကြည့်ခွင့်ရှိသည်။</item>
+        <item quantity="one">ဒေါင်းလုဒ်များကို အင်တာနက်မချိတ်ဘဲ ၁ ရက် ကြည့်ခွင့်ရှိသည်။</item>
+    </plurals>
+    <plurals name="offline_remember_setting_for_days">
+        <item quantity="other">ကျွန်ုပ်၏ ဆက်တင်များကို %1$d ရက် မှတ်ထားပါ</item>
+        <item quantity="one">ကျွန်ုပ်၏ ဆက်တင်များကို 1 ရက် မှတ်ထားပါ</item>
+    </plurals>
+    <plurals name="playlist_picker_dialog_done">
+        <item quantity="other">အစီအစဉ်များကို အပ်ဒိတ်လုပ်ပြီးပါပြီ</item>
+        <item quantity="one">အစီအစဉ်ကို အပ်ဒိတ်လုပ်ပြီးပါပြီ</item>
+    </plurals>
+    <plurals name="playlist_size">
+        <item quantity="other">ဗီဒီယို %1$,d ခု</item>
+        <item quantity="one">ဗီဒီယို ၁ ခု</item>
+    </plurals>
+    <plurals name="playlist_size_downloaded">
+        <item quantity="other">%1$,d ခု ဒေါင်းလုဒ်လုပ်ထားသည်</item>
+        <item quantity="one">%1$,d ခု ဒေါင်းလုဒ်လုပ်ထားသည်</item>
+    </plurals>
+    <plurals name="playlist_size_total">
+        <item quantity="other">ဗီဒီယို %1$,d ခု</item>
+        <item quantity="one">ဗီဒီယို 1 ခု</item>
+    </plurals>
+    <plurals name="public_notification_text">
+        <item quantity="other">%1$d new notifications</item>
+        <item quantity="one">You have a notification</item>
+    </plurals>
+    <plurals name="quick_seek_x_second">
+        <item quantity="other">%d စက္ကန့်</item>
+        <item quantity="one">%d စက္ကန့်</item>
+    </plurals>
+    <plurals name="recommendation_count">
+        <item quantity="other">အကြံပြုချက် %1$d ခု</item>
+        <item quantity="one">အကြံပြုချက် ၁ ခု</item>
+    </plurals>
+    <plurals name="rental_expiry_notice">
+        <item quantity="other">စလိုက်သည်နှင့် ဤဗီဒီယိုကို ကြည့်ရန် အချိန် %1$d နာရီ ရပါမည်။</item>
+        <item quantity="one">စလိုက်သည်နှင့် ဤဗီဒီယိုကို ကြည့်ရန် အချိန် 1 နာရီ ရပါမည်။</item>
+    </plurals>
+    <plurals name="rental_long_days_remaining">
+        <item quantity="other">%1$d ရက်အတွင်း သက်တမ်းကုန်ပါမည်</item>
+        <item quantity="one">1 ရက်အတွင်း သက်တမ်းကုန်ပါမည်</item>
+    </plurals>
+    <plurals name="rental_long_hours_remaining">
+        <item quantity="other">%1$d နာရီအတွင်း သက်တမ်းကုန်ပါမည်</item>
+        <item quantity="one">1 နာရီအတွင်း သက်တမ်းကုန်ပါမည်</item>
+    </plurals>
+    <plurals name="rental_long_weeks_remaining">
+        <item quantity="other">%1$d ပတ်အတွင်း သက်တမ်းကုန်ပါမည်</item>
+        <item quantity="one">1 ပတ်အတွင်း သက်တမ်းကုန်ပါမည်</item>
+    </plurals>
+    <plurals name="rental_medium_days_remaining">
+        <item quantity="other">%1$d ရက်အတွင်း သက်တမ်းကုန်မည်</item>
+        <item quantity="one">1 ရက်အတွင်း သက်တမ်းကုန်မည်</item>
+    </plurals>
+    <plurals name="rental_medium_hours_remaining">
+        <item quantity="other">%1$d နာရီအတွင်း သက်တမ်းကုန်မည်။</item>
+        <item quantity="one">1 နာရီအတွင်း သက်တမ်းကုန်မည်။</item>
+    </plurals>
+    <plurals name="rental_medium_weeks_remaining">
+        <item quantity="other">%1$d ပတ်အတွင်း သက်တမ်းကုန်မည်။</item>
+        <item quantity="one">1 ပတ်အတွင်း သက်တမ်းကုန်မည်။</item>
+    </plurals>
+    <plurals name="selected_video_count">
+        <item quantity="other">ဗီဒီယို %1$d ခု ရွေးထားသည်</item>
+        <item quantity="one">ဗီဒီယို ၁ ခု ရွေးထားသည်</item>
+    </plurals>
+    <plurals name="shorts_a11y_duration_seconds">
+        <item quantity="other">%1$s စက္ကန့်</item>
+        <item quantity="one">%1$s စက္ကန့်</item>
+    </plurals>
+    <plurals name="shorts_a11y_timer_duration_seconds">
+        <item quantity="other">%1$d စက္ကန့် တိုင်မာ</item>
+        <item quantity="one">%1$d စက္ကန့် တိုင်မာ</item>
+    </plurals>
+    <plurals name="shorts_a11y_timer_started">
+        <item quantity="other">%1$d စက္ကန့်တိုင်မာ ဖွင့်ထားသည်</item>
+        <item quantity="one">%1$d စက္ကန့်တိုင်မာ ဖွင့်ထားသည်</item>
+    </plurals>
+    <plurals name="smart_downloads_future_update_text">
+        <item quantity="other">အဆင့်မြင့်ဒေါင်းလုဒ်များကို %1$d ရက်အတွင်း အလိုအလျောက် အပ်ဒိတ်လုပ်ပါမည်</item>
+        <item quantity="one">အဆင့်မြင့်ဒေါင်းလုဒ်များကို 1 ရက်အတွင်း အလိုအလျောက် အပ်ဒိတ်လုပ်ပါမည်</item>
+    </plurals>
+    <plurals name="sticker_dialog_title">
+        <item quantity="other">%1$d ရက်ကြာလျှင် ပြန်လာကြည့်ပါ</item>
+        <item quantity="one">၁ ရက်ကြာလျှင် ပြန်လာကြည့်ပါ</item>
+    </plurals>
+    <plurals name="too_many_external_uploads_error_msg">
+        <item quantity="other">တစ်ကြိမ်တွင် ဗီဒီယို %1$d ကားသာ အပ်လုဒ်လုပ်နိုင်ပါသည်။</item>
+        <item quantity="one">တစ်ကြိမ်တွင် ဗီဒီယို %1$d ကားသာ အပ်လုဒ်လုပ်နိုင်ပါသည်။</item>
+    </plurals>
+    <plurals name="transcoding_progress">
+        <item quantity="other">ပြင်ဆင်နေသည် %1$,d%%</item>
+        <item quantity="one">ပြင်ဆင်နေသည် %1$,d%%</item>
+    </plurals>
+    <plurals name="trim_segment_max_length">
+        <item quantity="other">အများဆုံး %1$d စက္ကန့်</item>
+        <item quantity="one">အများဆုံး 1 စက္ကန့်</item>
+    </plurals>
+    <plurals name="trim_switch_edu">
+        <item quantity="other">ဗီဒီယိုကို %1$d စက္ကန့်အထိ ဖြတ်ညှိပြီး သီချင်းထည့်ပါ</item>
+        <item quantity="one">ဗီဒီယိုကို ၁ စက္ကန့်အထိ ဖြတ်ညှိပြီး သီချင်းထည့်ပါ</item>
+    </plurals>
+    <plurals name="trim_switch_edu_full_length_shorts">
+        <item quantity="other">ဗီဒီယိုကို %1$d စက္ကန့်နှင့် အောက်အထိ ဖြတ်ညှိပါ</item>
+        <item quantity="one">ဗီဒီယိုကို 1 စက္ကန့်နှင့် အောက်အထိ ဖြတ်ညှိပါ</item>
+    </plurals>
+    <plurals name="upload_hours_remaing">
+        <item quantity="other">%1$,d နာရီခန့် ကျန်သည်</item>
+        <item quantity="one">%1$,d နာရီခန့် ကျန်သည်</item>
+    </plurals>
+    <plurals name="upload_indicator_all_completed">
+        <item quantity="other">ဗီဒီယို %d ခုကို အပ်လုဒ်လုပ်ပြီးပါပြီ</item>
+        <item quantity="one">ဗီဒီယိုကို အပ်လုဒ်လုပ်ပြီးပါပြီ</item>
+    </plurals>
+    <plurals name="upload_indicator_all_failed">
+        <item quantity="other">သင့်ဗီဒီယိုတစ်ခုမျှ အပ်လုဒ်လုပ်၍ မရပါ</item>
+        <item quantity="one">သင့်ဗီဒီယိုကို အပ်လုဒ်လုပ်၍ မရပါ</item>
+    </plurals>
+    <plurals name="upload_indicator_all_uploading">
+        <item quantity="other">ဗီဒီယို %d ခု အပ်လုဒ်လုပ်နေသည်</item>
+        <item quantity="one">ဗီဒီယို အပ်လုဒ်လုပ်နေသည်</item>
+    </plurals>
+    <plurals name="upload_indicator_partial_fail">
+        <item quantity="other">ဗီဒီယို %2$d ခုအနက် %1$d ခုကို အပ်လုဒ်လုပ်၍ မရပါ</item>
+        <item quantity="one">ဗီဒီယို %2$d ခုအနက် %1$d ခုကို အပ်လုဒ်လုပ်၍ မရပါ</item>
+    </plurals>
+    <plurals name="upload_indicator_uploading_and_completed_completed_part">
+        <item quantity="other">%d ကို အပ်လုဒ်လုပ်ထားသည်</item>
+        <item quantity="one">%d ကို အပ်လုဒ်လုပ်ထားသည်</item>
+    </plurals>
+    <plurals name="upload_indicator_uploading_and_completed_uploading_part">
+        <item quantity="other">%d ကို အပ်လုဒ်လုပ်နေဆဲဖြစ်သည်</item>
+        <item quantity="one">%d ကို အပ်လုဒ်လုပ်နေဆဲဖြစ်သည်</item>
+    </plurals>
+    <plurals name="upload_minutes_remaing">
+        <item quantity="other">%1$,d မိနစ်ခန့် ကျန်သည်</item>
+        <item quantity="one">%1$,d မိနစ်ခန့် ကျန်သည်</item>
+    </plurals>
+    <plurals name="upload_notification_active_progress">
+        <item quantity="other">ဗီဒီယို %2$d ခုအနက် %1$d ခုကို အပ်လုဒ်တင်နေသည်</item>
+        <item quantity="one">ဗီဒီယို ၁ ခုကို အပ်လုဒ်တင်နေပါသည်</item>
+    </plurals>
+    <plurals name="upload_progress">
+        <item quantity="other">%1$,d%% အပ်လုဒ်လုပ်ပြီးပါပြီ</item>
+        <item quantity="one">%1$,d%% အပ်လုဒ်လုပ်ပြီးပါပြီ</item>
+    </plurals>
+    <plurals name="upload_seconds_remaing">
+        <item quantity="other">%1$,d စက္ကန့်ခန့် ကျန်သည်</item>
+        <item quantity="one">%1$,d စက္ကန့်ခန့် ကျန်သည်</item>
+    </plurals>
+    <plurals name="uploads_failed">
+        <item quantity="other">အပ်လုဒ် %1$,d ခု လုပ်၍မရပါ</item>
+        <item quantity="one">အပ်လုဒ်လုပ်၍ မရပါ</item>
+    </plurals>
+    <plurals name="uploads_failed_with_in_progress_videos">
+        <item quantity="other">အပ်လုဒ် %1$,d/%2$,d ခု လုပ်၍မရပါ</item>
+        <item quantity="one">အပ်လုဒ် %1$,d/%2$,d ခု လုပ်၍မရပါ</item>
+    </plurals>
+    <plurals name="uploads_in_progress">
+        <item quantity="other">%1$,d ခု အပ်လုဒ်လုပ်နေသည်</item>
+        <item quantity="one">%1$,d ခု အပ်လုဒ်လုပ်နေသည်</item>
+    </plurals>
+    <plurals name="user_education_quick_seek">
+        <item quantity="other">%d စက္ကန့်ကျော်ရန် ဘယ် (သို့) ညာကို နှစ်ချက်တို့ပါ</item>
+        <item quantity="one">%d စက္ကန့်ကျော်ရန် ဘယ် (သို့) ညာကို နှစ်ချက်တို့ပါ</item>
+    </plurals>
+    <plurals name="video_count">
+        <item quantity="other">ဗီဒီယို %1$d ခု</item>
+        <item quantity="one">ဗီဒီယို ၁ ခု</item>
+    </plurals>
+</resources>

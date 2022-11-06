@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingTop="12.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/membership_side_margin" android:layout_marginEnd="@dimen/membership_side_margin"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:yt="http://schemas.android.com/apk/res-auto">
+    <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:textAppearance="?textAppearanceBody1" android:id="@id/perk_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_marginBottom="8.0dip" android:textDirection="locale" yt:hyperlinksClickable="true" />
+    <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:textAppearance="?textAppearanceBody1" android:textColor="?android:textColorSecondary" android:id="@id/perk_public_description" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_marginBottom="8.0dip" android:textDirection="locale" yt:hyperlinksClickable="true" />
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/sponsors_only_icon" android:layout_width="16.0dip" android:layout_height="16.0dip" android:layout_marginTop="8.0dip" android:scaleType="fitCenter" android:contentDescription="@null" android:layout_marginEnd="8.0dip" />
+        <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:textAppearance="?textAppearanceBody1" android:textSize="13.0sp" android:textColor="?android:textColorSecondary" android:id="@id/perk_sponsors_description" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_marginBottom="8.0dip" android:textDirection="locale" android:layout_marginStart="32.0dip" android:layout_marginEnd="8.0dip" yt:hyperlinksClickable="true" />
+    </FrameLayout>
+    <View android:id="@id/separator" android:background="?yt10PercentLayer" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginTop="12.0dip" />
+</LinearLayout>

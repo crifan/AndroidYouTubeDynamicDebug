@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:paddingTop="@dimen/share_panel_list_spacing" android:paddingBottom="@dimen/share_panel_list_spacing" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="12.0dip" android:paddingEnd="12.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:yt="http://schemas.android.com/apk/res-auto">
+    <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:textSize="@dimen/large_font_size" android:textColor="?ytTextPrimary" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" yt:robotoFont="medium" />
+    <CheckBox android:id="@id/native_share_checkbox" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:textSize="@dimen/small_font_size" android:textColor="?ytTextSecondary" android:id="@id/native_share_checkbox_text" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_marginStart="3.0dip" yt:robotoFont="medium" />
+</LinearLayout>

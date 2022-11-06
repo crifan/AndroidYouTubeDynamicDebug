@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:id="@id/error_message" android:padding="36.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:yt="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView android:id="@id/error_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="?loadingFrameErrorDrawable" android:contentDescription="@string/common_error_generic" android:paddingEnd="8.0dip" />
+        <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:textSize="@dimen/medium_font_size" android:textColor="?loadingFrameTextColor" android:id="@id/error_message_text" android:layout_width="wrap_content" android:layout_height="wrap_content" yt:robotoFont="light" />
+    </LinearLayout>
+    <Button android:id="@id/error_retry_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="36.0dip" android:text="@string/yt_lib_common_retry" />
+</LinearLayout>

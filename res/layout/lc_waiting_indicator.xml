@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.libraries.youtube.livecreation.ui.view.Circle android:id="@id/circle" android:visibility="gone" android:layout_width="200.0dip" android:layout_height="200.0dip" android:layout_centerInParent="true" app:diameter="190.0dip" app:startAngle="270.0" app:strokeColor="@color/lc_white" app:strokeWidth="5.0dip" app:sweepAngle="0.0" />
+    <TextView android:textSize="50.0sp" android:textColor="@color/lc_white" android:id="@id/digit" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" android:layout_centerInParent="true" android:importantForAccessibility="yes" android:accessibilityLiveRegion="polite" />
+</merge>

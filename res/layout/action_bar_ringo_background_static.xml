@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout android:id="@id/search_bar" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <android.support.constraint.Guideline android:orientation="vertical" android:id="@id/guideline" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintGuide_percent="@dimen/search_bar_tablet_guideline" />
+    <ImageView android:layout_gravity="center_vertical" android:id="@id/youtube_logo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="?ytWordmarkHeader" android:contentDescription="@string/application_name" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/search_box" android:clipChildren="false" android:clipToPadding="false" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginStart="12.0dip" app:layout_constraintStart_toEndOf="@id/guideline">
+        <android.support.v7.widget.AppCompatImageView android:id="@id/search_icon" android:layout_width="48.0dip" android:layout_height="48.0dip" android:src="@drawable/ic_menu_search_mtrl_alpha" android:scaleType="centerInside" android:tint="?ytHeaderIcon" />
+        <TextView android:textAppearance="@style/ThemeOverlay.YouTube.ActionBar.Title.Search" android:textSize="@dimen/medium_font_size" android:textColor="?ytTextSecondary" android:gravity="center" android:id="@id/search_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/menu_search" android:singleLine="true" />
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

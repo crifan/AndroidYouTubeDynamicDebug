@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="horizontal" android:background="?selectableItemBackgroundBorderless" android:layout_width="fill_parent" android:layout_height="fill_parent" android:contentDescription="@null"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/toggle_button_icon" android:layout_width="fill_parent" android:layout_height="fill_parent" android:contentDescription="@null" />
+    <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:id="@id/toggle_button_text" android:layout_width="fill_parent" android:layout_height="fill_parent" android:contentDescription="@null" android:textAlignment="viewStart" />
+</LinearLayout>

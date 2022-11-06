@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="?selectableItemBackground" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="21.0dip" android:paddingEnd="24.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:yt="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:gravity="center" android:id="@id/selection_highlight" android:background="@drawable/fusion_selected_account_background" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:layout_marginBottom="5.0dip" android:layout_marginEnd="16.0dip">
+        <com.google.android.libraries.youtube.common.ui.CircularImageView android:id="@id/thumbnail" android:layout_width="@dimen/account_switcher_thumbnail_size" android:layout_height="@dimen/account_switcher_thumbnail_size" />
+    </FrameLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/user_info" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignTop="@id/selection_highlight" android:layout_alignBottom="@id/selection_highlight" android:layout_toEndOf="@id/selection_highlight">
+        <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:textSize="@dimen/medium_font_size" android:textColor="?ytTextPrimary" android:ellipsize="end" android:id="@id/name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:textAlignment="viewStart" yt:robotoFont="regular" />
+                <ImageView android:id="@id/icon" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:tint="?ytIconInactive" android:contentDescription="@null" android:paddingStart="4.0dip" />
+            </LinearLayout>
+            <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:textColor="?ytTextSecondary" android:ellipsize="end" android:id="@id/byline" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" android:textAlignment="viewStart" />
+        </LinearLayout>
+        <ImageView android:id="@id/selection_checkmark" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/yt_outline_check_black_24" android:tint="?ytCallToAction" android:contentDescription="@null" />
+    </LinearLayout>
+    <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/user_info" android:paddingStart="-12.0dip" android:layout_alignStart="@id/user_info">
+        <com.google.android.libraries.youtube.common.ui.YouTubeButton android:textAppearance="?ytTextAppearanceButton" android:textColor="?ytCallToAction" android:ellipsize="end" android:id="@id/edit_channel" android:paddingTop="12.0dip" android:paddingBottom="20.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:textAlignment="viewStart" android:paddingStart="12.0dip" android:paddingEnd="12.0dip" />
+    </LinearLayout>
+</RelativeLayout>

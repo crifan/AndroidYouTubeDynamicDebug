@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.apps.youtube.app.watch.nextgenwatch.ui.NextGenWatchContainerLayout android:id="@id/next_gen_watch_container_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" yt:scrimViewId="@id/scrim_view" yt:watchLayoutViewId="@id/next_gen_watch_layout"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:yt="http://schemas.android.com/apk/res-auto">
+    <include layout="@layout/watch_while_layout_coordinator_layout" />
+    <View android:id="@id/scrim_view" android:background="@color/watch_layout_scrim_color" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.google.android.apps.youtube.app.watch.nextgenwatch.ui.NextGenWatchLayout android:id="@id/next_gen_watch_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" yt:engagementLowerPanelId="@id/engagement_panel_lower_view" yt:engagementPanelId="@id/engagement_panel" yt:engagementPanelWrapperId="@id/engagement_panel_wrapper" yt:floatyBarControlsViewId="@id/floaty_bar_controls_view_stub" yt:floatyBarTimeBarId="@id/floaty_bar_time_bar_view_stub" yt:metadataViewId="@id/video_metadata_layout" yt:playerViewId="@id/watch_player" yt:tabletMetadataViewId="@id/watch_info_panel_view_stub" yt:watchWhileTimeBarId="@id/watch_while_time_bar_view_stub">
+        <include layout="@layout/watch_player" />
+        <ViewStub android:id="@id/watch_info_panel_view_stub" android:layout="@layout/watch_info_panel" android:inflatedId="@id/watch_info_panel" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <FrameLayout android:id="@id/video_metadata_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <ViewStub android:id="@id/floaty_bar_controls_view_stub" android:layout="@layout/floaty_bar_controls" android:inflatedId="@id/floaty_bar_controls_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <ViewStub android:id="@id/watch_while_time_bar_view_stub" android:layout="@layout/watch_while_time_bar" android:inflatedId="@id/watch_while_time_bar_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <ViewStub android:id="@id/floaty_bar_time_bar_view_stub" android:layout="@layout/floaty_bar_time_bar" android:inflatedId="@id/floaty_bar_time_bar_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <androidx.coordinatorlayout.widget.CoordinatorLayout android:id="@id/engagement_panel_wrapper" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </com.google.android.apps.youtube.app.watch.nextgenwatch.ui.NextGenWatchLayout>
+</com.google.android.apps.youtube.app.watch.nextgenwatch.ui.NextGenWatchContainerLayout>

@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.apps.youtube.app.player.overlay.fullscreenengagement.layout.MetadataHighlightsColumnLinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/fullscreen_engagement_element_container" android:background="@drawable/metadata_highlights_container_background" android:layout_width="fill_parent" android:layout_height="48.0dip" android:foreground="@drawable/fullscreen_engagement_touch_feedback" android:layout_marginStart="@dimen/metadata_highlights_column_margin" android:layout_marginEnd="@dimen/metadata_highlights_column_margin" style="@style/FullscreenEngagementMetadataHighlightsTwoColumn"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.apps.youtube.app.extensions.reel.creation.shorts.common.ui.ShortsEditTooltipButtonView android:layout_width="wrap_content" android:layout_height="@dimen/shorts_edit_tooltip_item_height" android:paddingStart="@dimen/shorts_edit_tooltip_item_padding" android:paddingEnd="@dimen/shorts_edit_tooltip_item_padding" app:buttonContentDescription="@string/timeline_tooltip_entry_title" app:buttonText="@string/timeline_tooltip_entry_title" app:iconDrawable="@drawable/ic_shorts_editor_timeline"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

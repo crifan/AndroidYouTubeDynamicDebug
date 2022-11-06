@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/comment_sticker_panel" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/comment_sticker_panel_warning_background" android:background="@color/yt_black_pure_opacity60" android:layout_width="fill_parent" android:layout_height="fill_parent" android:alpha="0.0" />
+    <TextView android:textSize="@dimen/comment_sticker_warning_text_size" android:textColor="@color/yt_white1" android:gravity="center" android:id="@id/comment_sticker_panel_warning_text" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/comment_sticker_warning_text_margin_top" android:text="@string/comment_sticker_recording_warning" android:layout_above="@id/comment_sticker_container" android:alpha="0.0" />
+    <FrameLayout android:id="@id/comment_sticker_container" android:paddingBottom="@dimen/comment_sticker_container_bottom_margin" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:paddingStart="@dimen/comment_sticker_container_side_margin" android:paddingEnd="@dimen/comment_sticker_container_side_margin" />
+</RelativeLayout>

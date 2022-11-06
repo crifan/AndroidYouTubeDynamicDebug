@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/InfoCardsWatchNext"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:yt="http://schemas.android.com/apk/res-auto">
+    <GridLayout android:orientation="horizontal" android:padding="@dimen/card_watch_next_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:baselineAligned="false" android:rowCount="3" android:columnCount="2">
+        <com.google.android.libraries.youtube.common.ui.FixedAspectRatioRelativeLayout android:layout_gravity="center_vertical" android:background="@drawable/info_card_bg_video_thumb" android:layout_width="@dimen/card_watch_next_image_video_width" android:layout_height="wrap_content" android:contentDescription="@string/accessibility_episode_card" android:layout_rowSpan="3" android:layout_marginEnd="@dimen/card_watch_next_padding" yt:aspectRatio="@fraction/rounded_aspect_ratio_16_9">
+            <ImageView android:id="@id/image" android:focusable="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+        </com.google.android.libraries.youtube.common.ui.FixedAspectRatioRelativeLayout>
+        <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:textSize="@dimen/small_font_size" android:textColor="?ytTextPrimary" android:ellipsize="end" android:layout_gravity="fill_horizontal" android:id="@id/title" android:layout_width="0.0dip" android:layout_height="wrap_content" android:maxLines="2" android:includeFontPadding="false" yt:robotoFont="regular" />
+        <com.google.android.libraries.youtube.common.ui.YouTubeTextView android:textSize="@dimen/extra_small_font_size" android:textColor="?ytTextSecondary" android:ellipsize="end" android:layout_gravity="fill_horizontal" android:id="@id/meta_info" android:layout_width="0.0dip" android:layout_height="wrap_content" android:maxLines="4" yt:robotoFont="regular" />
+        <ViewStub android:layout_gravity="fill_horizontal" android:id="@id/paygate_badge" android:layout="@layout/info_card_standalone_ypc_badge" android:inflatedId="@id/paygate_badge" android:layout_width="0.0dip" android:layout_height="wrap_content" />
+    </GridLayout>
+</androidx.cardview.widget.CardView>
